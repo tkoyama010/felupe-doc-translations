@@ -1,0 +1,2 @@
+-e ./felupe[all]
+sphinx-intl[transifex]==2.2.0
