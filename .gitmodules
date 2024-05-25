@@ -1,0 +1,3 @@
+[submodule "felupe"]
+	path = felupe
+	url = https://github.com/adtzlr/felupe.git
