@@ -1,0 +1,7 @@
+mesh = fem.Cube(n=6)
+region = fem.RegionHexahedron(mesh)
+field = fem.FieldContainer([fem.Field(region, dim=3)])
+boundaries, loadcase = fem.dof.uniaxial(field, clamped=True, move=0.5)
+solid = fem.SolidBodyNearlyIncompressible(umat, field, bulk=5000)
+step = fem.Step(items=[solid], boundaries=boundaries)
+job = fem.Job(steps=[step]).evaluate()

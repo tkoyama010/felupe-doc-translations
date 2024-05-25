@@ -1,0 +1,316 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2024, Andreas Dutzler
+# This file is distributed under the same license as the FElupe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FElupe\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-25 22:50+0000\n"
+"PO-Revision-Date: 2024-05-25 22:51+0000\n"
+"Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../felupe/docs/index.rst:208
+msgid "Contents:"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:2
+msgid "FElupe documentation"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:4
+msgid ""
+"FElupe is a Python 3.8+ 🐍 finite element analysis package 📦 focussing on the"
+" formulation and numerical solution of nonlinear problems in continuum "
+"mechanics 🔧 of solid bodies 🚂. Its name is a combination of FE (finite "
+"element) and the german word *Lupe* 🔍 (magnifying glass) as a synonym for "
+"getting an insight 📖 how a finite element analysis code 🧮 looks like under "
+"the hood 🕳️."
+msgstr ""
+
+#: ../../felupe/docs/index.rst:8
+msgid "🏃 Beginner's Guide"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:12
+msgid ""
+"New to FElupe? The Beginner's Guide contains an introduction to the concept "
+"of FElupe."
+msgstr ""
+
+#: ../../felupe/docs/index.rst:14
+msgid "📖 API reference"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:18
+msgid ""
+"The reference guide contains a detailed description of the FElupe API. It "
+"describes how the methods work and which parameters can be used. Requires an"
+" understanding of the key concepts."
+msgstr ""
+
+#: ../../felupe/docs/index.rst:22
+msgid "☎ How-To"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:26
+msgid ""
+"Step-by-step guides for specific tasks or problems with a focus on practical"
+" usability instead of completeness. Requires an understanding of the key "
+"concepts."
+msgstr ""
+
+#: ../../felupe/docs/index.rst:28
+msgid "📚 Examples"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:32
+msgid "A gallery of examples."
+msgstr ""
+
+#: ../../felupe/docs/index.rst:36
+msgid "Highlights"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:39
+msgid "high-level :ref:`finite-element-analysis API <felupe-api>`"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:41
+msgid ""
+"flexible building blocks for :ref:`finite element assembly <felupe-api-"
+"assembly>`"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:43
+msgid "hyperelastic :class:`integral (weak) forms <felupe.IntegralForm>`"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:45
+msgid ""
+"easy-to-use :ref:`hyperelastic material models <felupe-api-constitution-"
+"hyperelasticity>` with `automatic-differentiation "
+"<https://github.com/adtzlr/tensortrax>`_"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:47
+msgid ""
+"straight-forward definition of :class:`mixed-fields <felupe.FieldsMixed>`"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:49
+msgid ""
+":class:`nearly-incompressible hyperelastic solid bodies "
+"<felupe.SolidBodyNearlyIncompressible>`"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:52
+msgid "Installation"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:53
+msgid "Install Python, fire up 🔥 a terminal and run 🏃"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:62
+msgid ""
+"where ``[all]`` is a combination of ``[io,parallel,plot,progress,view]`` and"
+" installs all optional dependencies. FElupe has minimal requirements, all "
+"available at PyPI supporting all platforms."
+msgstr ""
+
+#: ../../felupe/docs/index.rst:64
+msgid "`numpy <https://github.com/numpy/numpy>`_ for array operations"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:65
+msgid "`scipy <https://github.com/scipy/scipy>`_ for sparse matrices"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:66
+msgid ""
+"`tensortrax <https://github.com/adtzlr/tensortrax>`_ for automatic "
+"differentiation"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:68
+msgid ""
+"In order to make use of all features of FElupe 💎💰💍👑💎, it is suggested to "
+"install all optional dependencies."
+msgstr ""
+
+#: ../../felupe/docs/index.rst:70
+msgid ""
+"`einsumt <https://github.com/mrkwjc/einsumt>`_ for parallel (threaded) "
+"assembly"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:71
+msgid "`h5py <https://github.com/h5py/h5py>`_ for writing XDMF result files"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:72
+msgid ""
+"`matplotlib <https://github.com/matplotlib/matplotlib>`_ for plotting graphs"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:73
+msgid "`meshio <https://github.com/nschloe/meshio>`_ for mesh-related I/O"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:74
+msgid ""
+"`pyvista <https://github.com/pyvista/pyvista>`_ for interactive "
+"visualizations"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:75
+msgid ""
+"`tqdm <https://github.com/tqdm/tqdm>`_ for showing progress bars during job "
+"evaluations"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:78
+msgid "Extension Packages"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:80
+msgid ""
+"The capabilities of FElupe may be enhanced with extension packages created "
+"by the community."
+msgstr ""
+
+#: ../../felupe/docs/index.rst:83
+msgid "Package"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:83
+msgid "Description"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:85
+msgid "`hyperelastic <https://github.com/adtzlr/hyperelastic>`_"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:85
+msgid "Constitutive hyperelastic material formulations"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:87
+msgid "`matadi <https://github.com/adtzlr/matadi>`_"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:87
+msgid "Material Definition with Automatic Differentiation (AD)"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:89
+msgid "`tensortrax <https://github.com/adtzlr/tensortrax>`_"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:89
+msgid "Math on Hyper-Dual Tensors with Trailing Axes (bundled with FElupe)"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:92
+msgid "`feplot <https://github.com/ZAARAOUI999/feplot>`_"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:92
+msgid "A visualization tool for FElupe"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:96
+msgid "Performance"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:97
+msgid ""
+"This is a simple benchmark to compare assembly times for linear elasticity "
+"and hyperelasticity on tetrahedrons."
+msgstr ""
+
+#: ../../felupe/docs/index.rst:105
+msgid "Analysis"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:105
+msgid "DOF/s"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:107
+msgid "Linear-Elastic"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:107
+msgid "136193 +/-22916"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:109
+msgid "Hyperelastic"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:109
+msgid "100613 +/-18702"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:112
+msgid ""
+"Tested on: Windows 10, Python 3.11, Intel® Core™ i7-11850H @ 2.50GHz, 32GB "
+"RAM."
+msgstr ""
+
+#: ../../felupe/docs/index.rst:218
+msgid "License"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:220
+msgid ""
+"FElupe - Finite Element Analysis (C) 2021-2024 Andreas Dutzler, Graz "
+"(Austria)."
+msgstr ""
+
+#: ../../felupe/docs/index.rst:222
+msgid ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation, either version 3 of the License, or (at your option) "
+"any later version."
+msgstr ""
+
+#: ../../felupe/docs/index.rst:224
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for "
+"more details."
+msgstr ""
+
+#: ../../felupe/docs/index.rst:226
+msgid ""
+"You should have received a copy of the GNU General Public License along with"
+" this program. If not, see `<https://www.gnu.org/licenses/>`_."
+msgstr ""
+
+#: ../../felupe/docs/index.rst:229
+msgid "Indices and tables"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:231
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:232
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:233
+msgid ":ref:`search`"
+msgstr ""
