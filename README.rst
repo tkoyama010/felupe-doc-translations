@@ -51,7 +51,7 @@ How to add a new language translation
 2. Update po files:
 
    .. code-block::
-                           
+
       sh ./locale/update.sh
 
 4. Commit them
@@ -66,4 +66,3 @@ How to add a new language translation
 7. Add new translation project to parent project:
 
    https://readthedocs.org/dashboard/felupe/translations/
-
