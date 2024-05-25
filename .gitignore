@@ -1,4 +1,5 @@
 _build/*
+_images
 locale/**/*.mo
 locale/pot/.doctrees
 tx
