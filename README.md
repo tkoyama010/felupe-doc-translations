@@ -3,6 +3,7 @@
 ## Installation
 
 ### Installing with a script (Linux/Mac)
+
 You can install the latest Transifex CLI by executing:
 
 ```
@@ -15,11 +16,11 @@ Or you can isntall a specific version if you need by executing:
 curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash -s -- yourVersion
 ```
 
-
 This script will:
-* Try to find the correct version for your system.
-* Download & extract the CLI to the current folder.
-* Check for a profile in one of `.profile, .bashrc, .bash_profile, .zshrc` and append `export PATH="<PWD result>:$PATH"`, so you can call 'tx' from any path.
+
+- Try to find the correct version for your system.
+- Download & extract the CLI to the current folder.
+- Check for a profile in one of `.profile, .bashrc, .bash_profile, .zshrc` and append `export PATH="<PWD result>:$PATH"`, so you can call 'tx' from any path.
 
 **Note:** You need to restart your terminal for the `PATH` changes to be applied.
 
@@ -40,22 +41,24 @@ Clone the [repository](https://github.com/transifex/cli) and go into the directo
 ```shell
 cd /path/to/transifex/cli
 ```
+
 ### Building from source
 
 The default way to build the binary is
 
-  ```shell
-  make build
-  ```
+```shell
+make build
+```
+
 This method requires to have golang in your system. It compiles Transifex CLI and
 moves it into the `./bin/` directory of the repository.
 
 If you don't have golang installed, but you have Docker enabled, you can use
 the following command:
 
-  ```shell
-  make docker-build
-  ```
+```shell
+make docker-build
+```
 
 This will build the binary and it will copy it at `./bin/` in the repository.
 
@@ -70,7 +73,6 @@ alias tx='touch ~/.transifexrc; docker run --rm -i -t -v `pwd`:/app -v ~/.transi
 
 to your `~/.bashrc` / `~/.zshrc`. (The first time you use it you will have to
 wait for a ~5MB download)
-
 
 ### Running from Github actions (beta)
 
@@ -105,14 +107,16 @@ in the same folder as `config_yyyymmddhhss.bak` before we start the migration pr
 
 The two clients have some distinct differences when looking under the hood.
 The new client is using Go instead of Python
-  * for speed and
-  * for the ability to produce binary files
+
+- for speed and
+- for the ability to produce binary files
   for multiple platforms.
 
 Additionally, client is using APIv3 instead of APIv2 because
-  * it is faster (calls occur asynchronously and you don't have to wait
-    for parsing to finish) and
-  * APIv2 is getting deprecated.
+
+- it is faster (calls occur asynchronously and you don't have to wait
+  for parsing to finish) and
+- APIv2 is getting deprecated.
 
 `Init`
 
@@ -148,25 +152,24 @@ It will create a new section in the `.tx/config` file for a resource like:
 
 The differences of the new client, are summarized here:
 
-* resource IDs, can be accepted without the `-r` flag
-* when neither `-s/-t` are set, `-s` is assumed
-* `--all` flag creates new languages on Transifex if
+- resource IDs, can be accepted without the `-r` flag
+- when neither `-s/-t` are set, `-s` is assumed
+- `--all` flag creates new languages on Transifex if
   local files exist for them (on previous client this was the default behavior,
   now it needs the `--all` flag)
-* without `--all` or `--languages`, the only languages that are considered are
+- without `--all` or `--languages`, the only languages that are considered are
   the intersection of local and remote languages
-
 
 `Pull`
 
-* resource IDs, can be accepted without the `-r` flag
-* when neither `-s/-t` are set, `-t` is assumed
-* without `--all` or `--languages`, the only languages that are considered are
+- resource IDs, can be accepted without the `-r` flag
+- when neither `-s/-t` are set, `-t` is assumed
+- without `--all` or `--languages`, the only languages that are considered are
   the intersection of local and remote languages
-* `--json` download files (translations) as json files
-* `--content_encoding/-e` The encoding of the file. This can be one of the following:
-  * text (default)
-  * base64
+- `--json` download files (translations) as json files
+- `--content_encoding/-e` The encoding of the file. This can be one of the following:
+  - text (default)
+  - base64
 
 ## Usage
 
@@ -192,12 +195,14 @@ as a _Transifex project_. Your directory structure should now look like this:
     |
     + en.php
 ```
+
 ### Using Environment Variables
+
 The available environment variables for the CLI:
 
-* `TX_TOKEN`: The api token to use
-* `TX_HOSTNAME`: The API hostname
-* `TX_CACERT`: Path to CA certificate bundle file
+- `TX_TOKEN`: The api token to use
+- `TX_HOSTNAME`: The API hostname
+- `TX_CACERT`: Path to CA certificate bundle file
 
 You can either add these variables in your CI settings, your profile file or when executing the commands like:
 `TX_TOKEN=myapitoken tx pull`
@@ -244,7 +249,6 @@ SUCCESS  Your configuration has been saved in '.tx/config'
 
 ```
 
-
 Your `.tx/config` file should look like this:
 
 ```ini
@@ -276,7 +280,7 @@ all the flags:
 #### Adding resources in bulk
 
 > With the old client I could add multiple resources at the same time with `tx
-> config mapping-bulk`. What should I do now?
+config mapping-bulk`. What should I do now?
 
 We decided not to implement this functionality in the new client because its
 usage was complicated and it couldn't satisfy every user's need anyway. You can
@@ -526,7 +530,7 @@ local file was last edited. To make sure that the local files are pushed even
 if they are older than the remote resource, use the `-f/--force` flag.
 
 You can use the `--use-git-timestamps` flag to compare against the last time
-the local files were *committed* to the local git repository instead of the
+the local files were _committed_ to the local git repository instead of the
 last modification time in the filesystem. This can be useful in cases where you
 have just cloned a repository or pulled a branch. In this case, the filesystem
 modification time will reflect the time you pulled and not the time the file
@@ -545,7 +549,7 @@ fall back to taking the filesystem timestamp into account.
 - `--branch`: Using this flag, you can access copies of the regular remote
   resource that are tied to the provided branch. So if `tx push proj.res`
   pushes to the `https://app.transifex.com/org/proj/res` resource, then `tx
-  push --branch foo proj.res` will push to the
+push --branch foo proj.res` will push to the
   `https://app.transifex.com/org/proj/foo--res` resource. This way you can
   separate the localization effort across different branches. If you supply an
   empty string as the branch (`--branch ''`), then the client will attempt to
@@ -569,9 +573,9 @@ fall back to taking the filesystem timestamp into account.
   resource.
 
   > Note: Starting from version 1.5.0 resources created using the `--branch` flag,
-  will have an enhanced functionality in transifex and will be able to automatically
-  be merged into their bases. Resources created using the `--branch`  prior to this
-  version, need to be pushed again in order for the new functionality to be available.
+  > will have an enhanced functionality in transifex and will be able to automatically
+  > be merged into their bases. Resources created using the `--branch` prior to this
+  > version, need to be pushed again in order for the new functionality to be available.
 
   ```sh
   → tx push --branch 'new_feature' --base '' myproject.myresource
@@ -699,7 +703,7 @@ remote Transifex project. Essentially, `-a` is equivalent to using
 
 As stated before, Transifex uses the _ISO/IEC 15897_ standard for
 language codes. If you use a different format for the _local_ language
-codes, you can  define a mapping in your configuration file `.tx/config`.
+codes, you can define a mapping in your configuration file `.tx/config`.
 You can specify these mappings for all configured resources by adding them
 to the `[main]` section or you can specify mappings per resource.
 The "per-resource" mappings take precendence. Configuring a language mapping
@@ -727,7 +731,7 @@ remote resource was last edited. To make sure that the remote resources
 are pulled even if they are older than the local files, use the `-f/--force` flag.
 
 You can use the `--use-git-timestamps` flag to compare against the last time
-the local files were *committed* to the local git repository instead of the
+the local files were _committed_ to the local git repository instead of the
 last modification time in the filesystem. This can be useful in cases where you
 have just cloned a repository or pulled a branch. In this case, the filesystem
 modification time will reflect the time you pulled and not the time the file
@@ -751,18 +755,18 @@ default to taking the filesystem timestamp into account.
   but only download other language files.
 
 - `--keep-new-files`: Used with `--disable-ovewrite` to create new files
-	if file already exists locally with a '.new' extension.
+  if file already exists locally with a '.new' extension.
 
 - `--mode/-m`: The translation mode of the downloaded file. This can be one of the
-following: `'default', 'reviewed'`, `'proofread'`, `'translator'`, `'untranslated'`,
- `'onlytranslated'`, `'onlyreviewed'`, `'onlyproofread'`, `'sourceastranslation'` **(default
- mode is: **`'default'`). Use like` 'tx pull -m proofread'` to download only proofread
- translations.
+  following: `'default', 'reviewed'`, `'proofread'`, `'translator'`, `'untranslated'`,
+  `'onlytranslated'`, `'onlyreviewed'`, `'onlyproofread'`, `'sourceastranslation'` **(default
+  mode is: **`'default'`). Use like` 'tx pull -m proofread'` to download only proofread
+  translations.
 
 - `--branch`: Using this flag, you can access copies of the regular remote
   resource that are tied to the provided branch. So if `tx pull proj.res`
   pulls from the `https://app.transifex.com/org/proj/res` resource, then `tx
-  pull --branch foo proj.res` will pull from the
+pull --branch foo proj.res` will pull from the
   `https://app.transifex.com/org/proj/foo--res` resource. This way you can
   separate the localization effort across different branches. If you supply an
   empty string as the branch (`--branch ''`), then the client will attempt to
@@ -778,7 +782,7 @@ following: `'default', 'reviewed'`, `'proofread'`, `'translator'`, `'untranslate
   ```
 
   This way, the "regular"
-    `https://app.transifex.com/myorganization/myproject/myresource` resource will
+  `https://app.transifex.com/myorganization/myproject/myresource` resource will
   not be affected by the changes one did, and the localization effort can be done
   in parallel on the
   `https://app.transifex.com/myorganization/myproject/new_feature--myresource`
@@ -802,14 +806,17 @@ following: `'default', 'reviewed'`, `'proofread'`, `'translator'`, `'untranslate
 - `--silent`: Reduce verbosity of the output.
 
 ### Removing resources from Transifex
+
 The tx delete command lets you delete a resource that's in your `config` file and on Transifex.
 
 To delete a resource, use the following command:
+
 ```
 tx delete <project_slug>.<resource_slug>
 ```
 
 To delete all resources in a specific project at once, instead of referring to a specific resource_slug, you can use the asterisk character as follows:
+
 ```
 tx delete project_slug.*
 or
@@ -825,6 +832,7 @@ tx delete project_slug.\*
 > ```
 
 **Other flags:**
+
 - `--skip`: Normally, if a delete fails, the client will abort. This may not
   be desirable if most deletes are expected to succeed. For example, the reason
   of the failed delete may be a a resource that has translated content. If
@@ -837,17 +845,22 @@ tx delete project_slug.\*
   will attempt to figure out the currently active branch in the local git repository.
 
 ### Merging Resource
+
 The tx merge command lets you merge a branch resource with its base resource (applies only to resources created with the `--branch` flag)
 
 To merge a resource to its base resource, use the following command:
+
 ```
 tx merge --branch branch_name project_slug.resource_slug
 ```
+
 **Other flags:**
+
 - `--conflict-resolution`: Set the conflict resolution strategy. Acceptable options are `USE_HEAD` (changes in the HEAD resource will be used) and `USE_BASE` (changes in the BASE resource will be used)
 - `--force`: In case you want to proceed with the merge even if the source strings are diverged, use the `-f/--force` flag.
 
 ### Getting the local status of the project
+
 The status command displays the existing configuration in a human readable format. It lists all resources that have been initialized under the local repo/directory and all their associated translation files:
 
 ```
@@ -860,13 +873,13 @@ Translation Files:
  - bg: po/bg.po
  - bn_IN: po/bn_IN.p
  ...
- ```
+```
 
- To get the status of specific resources just add the resources you want in your command:
+To get the status of specific resources just add the resources you want in your command:
 
- ```
- tx status <project_slug>.<resource_slug> ....
- ```
+```
+tx status <project_slug>.<resource_slug> ....
+```
 
 > Note: for backwards compatibility with previous versions of the client, you
 > can also use the `-r/--resources` flag. You can also use both at the same
@@ -877,16 +890,19 @@ Translation Files:
 > ```
 
 ### Updating the CLI app
+
 The `tx update` command provides a way to self update the application without going to Github releases page.
 
- ```
- tx update
- ```
+```
+tx update
+```
 
- **Flags:**
+**Flags:**
+
 - `--check`: Check if there is a new release. Nothing gets updated.
 - `--no-interactive`: Proceed to update if there is a newer version without seeing the confirmation prompt.
 - `--debug`: Enable logging for the binary update process.
+
 # License
 
 Licensed under Apache License 2.0, see [LICENSE](LICENSE) file.
