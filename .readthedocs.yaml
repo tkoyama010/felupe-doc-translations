@@ -7,16 +7,12 @@ build:
   apt_packages:
     - libgl1-mesa-dev
     - xvfb
-  commands:
-    # install requirements
-    - pip install -r requirements.txt
-    # initialise submodule (https://github.com/adtzlr/felupe.git)
-    - git submodule init
-    - git submodule update
-    # run Sphinx
-    - >
-      sphinx-build ./felupe/docs/ ./_readthedocs/html
-      -b html
-      -D locale_dirs=$(realpath locale)
-      -D language=$(python convert_language_tag.py)
-      -D gettext_compact=0
+submodules:
+  include:
+    - felupe
+  recursive: true
+sphinx:
+   configuration: conf.py
+python:
+   install:
+   - requirements: requirements.txt
