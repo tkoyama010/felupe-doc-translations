@@ -1,2 +1,2 @@
--e ./felupe[all,docs]
+felupe[all,docs,examples] @ git+https://github.com/adtzlr/felupe.git
 sphinx-intl[transifex]==2.2.0

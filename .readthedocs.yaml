@@ -1,0 +1,21 @@
+version: 2
+
+build:
+  os: ubuntu-lts-latest
+  tools:
+    python: "3.12"
+  apt_packages:
+    - libgl1-mesa-dev
+    - xvfb
+
+submodules:
+  include:
+    - felupe
+  recursive: true
+
+sphinx:
+  configuration: conf.py
+
+python:
+  install:
+    - requirements: requirements.txt
