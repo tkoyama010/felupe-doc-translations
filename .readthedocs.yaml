@@ -20,8 +20,8 @@ commands:
   - git submodule update
   # run Sphinx
   - >
-    sphinx-build ./felupe/docs/ ./_readthedocs/html 
-    -b html  
+    sphinx-build ./felupe/docs/ ./_readthedocs/html
+    -b html
     -D locale_dirs=$(realpath locale)
     -D language=$(python convert_language_tag.py)
     -D gettext_compact=0
