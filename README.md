@@ -59,4 +59,3 @@ sh ./locale/update.sh
 5.  Add new translation project to parent project:
 
     https://readthedocs.org/dashboard/felupe/translations/
-
