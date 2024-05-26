@@ -53,9 +53,10 @@ sh ./locale/update.sh
 
     https://readthedocs.org/projects/felupe-pt-br/
 
-    .. note:: If a RTD project name for a translation is already taken,
-    create a unique project name instead. For example, when `felupe-ru`
-    was taken, `felupe-doc-ru` was used instead.
+> [!NOTE]
+> If a RTD project name for a translation is already taken,
+> create a unique project name instead. For example, when `felupe-ru`
+> was taken, `felupe-doc-ru` was used instead.
 
 5.  Add new translation project to parent project:
 
