@@ -7,12 +7,15 @@ build:
   apt_packages:
     - libgl1-mesa-dev
     - xvfb
+
 submodules:
   include:
     - felupe
   recursive: true
+
 sphinx:
   configuration: conf.py
+
 python:
   install:
     - requirements: requirements.txt
