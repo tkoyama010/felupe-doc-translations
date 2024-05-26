@@ -11,7 +11,6 @@ This conf.py do:
 - Overrides source directory as 'paraview-docs/doc/source`.
 
 """
-import datetime
 import os
 import pathlib
 
