@@ -12,11 +12,16 @@ sphinx:
   configuration: conf.py
   fail_on_warning: false
 
-python:
-  install:
-    - method: pip
-      path: .
-      extra_requirements:
-        - all
-        - docs
-        - examples
+commands:
+  # install requirements
+  - pip install -r requirements.txt
+  # initialise submodule (https://github.com/adtzlr/felupe.git)
+  - git submodule init
+  - git submodule update
+  # run Sphinx
+  - >
+    sphinx-build ./felupe/docs/ ./_readthedocs/html 
+    -b html  
+    -D locale_dirs=$(realpath locale)
+    -D language=$(python convert_language_tag.py)
+    -D gettext_compact=0
