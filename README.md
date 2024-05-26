@@ -24,10 +24,10 @@ Key points:
 - The parent project needs connections created to each translated
   project on the **Translations Settings** page.
 
-| Build Status                                                                                                                                          |              felupe-doc docs               |                                               RTD Project |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------: | --------------------------------------------------------: |
-| [![Documentation Status](https://readthedocs.org/projects/felupe/badge/?version=latest)](https://felupe.readthedocs.io/en/latest/?badge=latest)       |  https://felupe.readthedocs.io/en/latest   | https://readthedocs.org/projects/felupe/ (Parent project) |
-| [![Documentation Status](https://readthedocs.org/projects/felupe-ja/badge/?version=latest)](https://felupe-ja.readthedocs.io/ja/latest/?badge=latest) | https://felupe-ja.readthedocs.io/ja/latest |               https://readthedocs.org/projects/felupe-ja/ |
+| Build Status                                                                                                                                          |                                               RTD Project |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------: |
+| [![Documentation Status](https://readthedocs.org/projects/felupe/badge/?version=latest)](https://felupe.readthedocs.io/en/latest/?badge=latest)       | https://readthedocs.org/projects/felupe/ (Parent project) |
+| [![Documentation Status](https://readthedocs.org/projects/felupe-ja/badge/?version=latest)](https://felupe-ja.readthedocs.io/ja/latest/?badge=latest) |               https://readthedocs.org/projects/felupe-ja/ |
 
 ## How to add a new language translation
 
