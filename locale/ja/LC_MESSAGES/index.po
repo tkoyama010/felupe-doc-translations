@@ -261,31 +261,32 @@ msgstr ""
 
 #: ../../felupe/docs/index.rst:107
 msgid "136193 +/-22916"
-msgstr ""
+msgstr "136193 +/-22916"
 
 #: ../../felupe/docs/index.rst:109
 msgid "Hyperelastic"
-msgstr ""
+msgstr "超弾性"
 
 #: ../../felupe/docs/index.rst:109
 msgid "100613 +/-18702"
-msgstr ""
+msgstr "100613 +/-18702"
 
 #: ../../felupe/docs/index.rst:112
 msgid ""
 "Tested on: Windows 10, Python 3.11, Intel® Core™ i7-11850H @ 2.50GHz, 32GB "
 "RAM."
 msgstr ""
+"テスト環境：Windows 10、Python 3.11、インテル® Core™ i7-11850H @ 2.50GHz、32GB RAM。"
 
 #: ../../felupe/docs/index.rst:218
 msgid "License"
-msgstr ""
+msgstr "ライセンス"
 
 #: ../../felupe/docs/index.rst:220
 msgid ""
 "FElupe - Finite Element Analysis (C) 2021-2024 Andreas Dutzler, Graz "
 "(Austria)."
-msgstr ""
+msgstr "FElupe - 有限要素解析 (C) 2021-2024 Andreas Dutzler, Graz (Austria)."
 
 #: ../../felupe/docs/index.rst:222
 msgid ""
