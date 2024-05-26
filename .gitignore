@@ -1,7 +1,7 @@
 _build/*
-_images/*
-_sphinx_design_static/*
-_static/*
 locale/**/*.mo
+locale/pot/_images/*
+locale/pot/_sphinx_design_static/*
+locale/pot/_static/*
 locale/pot/.doctrees
 tx
