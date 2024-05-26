@@ -12,7 +12,7 @@ submodules:
     - felupe
   recursive: true
 sphinx:
-   configuration: conf.py
+  configuration: conf.py
 python:
-   install:
-   - requirements: requirements.txt
+  install:
+    - requirements: requirements.txt
