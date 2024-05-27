@@ -8,7 +8,7 @@ For example::
 This conf.py do:
 
 - Specify `locale_dirs`.
-- Overrides source directory as 'paraview-docs/doc/source`.
+- Overrides source directory as 'felupe/docs`.
 
 """
 import os
