@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the FElupe package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-26 00:52+0000\n"
+"POT-Creation-Date: 2024-05-27 22:46+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,16 +49,18 @@ msgid ""
 "<felupe.element.Triangle>`) and :class:`mesh.Triangle "
 "<felupe.mesh.Triangle>`."
 msgstr ""
+":class:`~felupe.Triangle` (:class:`element.Triangle "
+"<felupe.element.Triangle>`) と :class:`mesh.Triangle <felupe.mesh.Triangle>`."
 
 #: ../../felupe/docs/felupe/assembly.rst:4
 msgid "Assembly"
-msgstr ""
+msgstr "アッセンブリー"
 
 #: ../../felupe/docs/felupe/assembly.rst:6
 msgid ""
 "This module contains classes for the integration and assembly of (weak) "
 "integral forms into dense or sparse vectors and matrices. The integration "
-"algorithm switches automatically between general cartesion, plane strain or "
+"algorithm switches automatically between general cartesian, plane strain or "
 "axisymmetric routines, dependent on the given fields."
 msgstr ""
 
@@ -84,6 +90,8 @@ msgid ""
 ":py:obj:`IntegralForm <felupe.IntegralForm>`\\ \\(fun\\, v\\, dV\\[\\, u\\, "
 "grad\\_v\\, grad\\_u\\]\\)"
 msgstr ""
+":py:obj:`IntegralForm <felupe.IntegralForm>`\\ \\(fun\\, v\\, dV\\[\\, u\\, "
+"grad\\_v\\, grad\\_u\\]\\)"
 
 #: ../../felupe/docs/felupe/assembly.rst:31:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/_axi.pydocstring
@@ -100,6 +108,8 @@ msgid ""
 ":py:obj:`assembly.IntegralFormCartesian "
 "<felupe.assembly.IntegralFormCartesian>`\\ \\(fun\\, v\\, dV\\[\\, ...\\]\\)"
 msgstr ""
+":py:obj:`assembly.IntegralFormCartesian "
+"<felupe.assembly.IntegralFormCartesian>`\\ \\(fun\\, v\\, dV\\[\\, ...\\]\\)"
 
 #: ../../felupe/docs/felupe/assembly.rst:31:<autosummary>:1
 msgid ""
@@ -112,6 +122,8 @@ msgid ""
 ":py:obj:`assembly.IntegralFormAxisymmetric "
 "<felupe.assembly.IntegralFormAxisymmetric>`\\ \\(fun\\, v\\, dV\\)"
 msgstr ""
+":py:obj:`assembly.IntegralFormAxisymmetric "
+"<felupe.assembly.IntegralFormAxisymmetric>`\\ \\(fun\\, v\\, dV\\)"
 
 #: ../../felupe/docs/felupe/assembly.rst:31:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/_axi.pydocstring
@@ -1096,6 +1108,14 @@ msgid ""
 "a(\\boldsymbol{v}, \\boldsymbol{u}) &= \\int_\\Omega\n"
 "    \\boldsymbol{\\nabla v} : \\boldsymbol{f} : \\boldsymbol{\\nabla u} ~ dV"
 msgstr ""
+"a(\\boldsymbol{v}, \\boldsymbol{u}) &=\n"
+"    \\int_\\Omega \\boldsymbol{\\nabla v} : \\boldsymbol{f} \\cdot \\boldsymbol{u} ~ dV\n"
+"\n"
+"a(\\boldsymbol{v}, \\boldsymbol{u}) &=\n"
+"    \\int_\\Omega \\boldsymbol{v} \\cdot \\boldsymbol{f} : \\boldsymbol{\\nabla u} ~ dV\n"
+"\n"
+"a(\\boldsymbol{v}, \\boldsymbol{u}) &= \\int_\\Omega\n"
+"    \\boldsymbol{\\nabla v} : \\boldsymbol{f} : \\boldsymbol{\\nabla u} ~ dV"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/_integral.pydocstring
 #: of felupe.assembly._integral.IntegralForm:72

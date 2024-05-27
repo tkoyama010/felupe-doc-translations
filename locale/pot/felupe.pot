@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-26 01:49+0000\n"
+"POT-Creation-Date: 2024-05-27 22:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "Assembly"
 msgstr ""
 
 #: ../../felupe/docs/felupe/assembly.rst:6
-msgid "This module contains classes for the integration and assembly of (weak) integral forms into dense or sparse vectors and matrices. The integration algorithm switches automatically between general cartesion, plane strain or axisymmetric routines, dependent on the given fields."
+msgid "This module contains classes for the integration and assembly of (weak) integral forms into dense or sparse vectors and matrices. The integration algorithm switches automatically between general cartesian, plane strain or axisymmetric routines, dependent on the given fields."
 msgstr ""
 
 #: ../../felupe/docs/felupe/assembly.rst:12

@@ -35,6 +35,9 @@ msgid ""
 "behaviour is subjected to a :func:`~felupe.dof.uniaxial` elongation applied "
 "at a clamped end-face."
 msgstr ""
+"この最小限のコードブロックは、FElupeを使用して問題を作成し、解決するための本質的な高レベルの部分をカバーしています。入門的な例として、👨‍🏫、超弾性の材料挙動を持つ立体の"
+" :class:`cube <felupe.Cube>` の1/4モデルが、固定された端面で加えられる "
+":func:`~felupe.dof.uniaxial` 伸びを受けます。"
 
 #: ../../felupe/docs/tutorial/examples/README.rst:8
 #: ../../felupe/docs/tutorial/index.rst:10
