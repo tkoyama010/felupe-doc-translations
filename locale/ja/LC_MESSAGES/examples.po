@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the FElupe package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-26 03:16+0000\n"
+"POT-Creation-Date: 2024-05-25 23:02+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,14 +26,16 @@ msgid ""
 ":ref:`Go to the end <sphx_glr_download_examples_ex01_beam.py>` to download "
 "the full example code."
 msgstr ""
+":ref:`sphx_glr_download_examples_ex01_beam.py>` "
+"の最後をクリックし、完全なサンプルコードをダウンロードしてください。"
 
 #: ../../felupe/docs/examples/ex01_beam.rst:22
 msgid "Cantilever beam under gravity"
-msgstr ""
+msgstr "重力下での片持ち梁"
 
 #: ../../felupe/docs/examples/ex01_beam.rst:22
 msgid "Apply a gravity load on a solid body."
-msgstr ""
+msgstr "固体に重力負荷をかけます。"
 
 #: ../../felupe/docs/examples/ex01_beam.rst:26
 msgid "create a solid body and apply the gravity load"
@@ -55,123 +61,83 @@ msgid ""
 "initiated on the region."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:61
+#: ../../felupe/docs/examples/ex01_beam.rst:55
 msgid "A fixed boundary condition is applied on the left end of the beam."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:78
+#: ../../felupe/docs/examples/ex01_beam.rst:66
 msgid ""
 "The material behaviour is defined through a built-in isotropic linear-"
 "elastic material formulation."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:97
+#: ../../felupe/docs/examples/ex01_beam.rst:79
 msgid ""
 "The body force is defined by a (constant) gravity field on a solid body."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:99
+#: ../../felupe/docs/examples/ex01_beam.rst:81
 msgid ""
 "\\delta W_{ext} = \\int_v \\delta \\boldsymbol{u} \\cdot \\rho \\boldsymbol{g} ~ dv\n"
 "\n"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:117
+#: ../../felupe/docs/examples/ex01_beam.rst:93
 msgid ""
 "Inside a Newton-Rhapson procedure, the weak form of linear elasticity is "
 "assembled into the stiffness matrix and the applied gravity field is "
 "assembled into the body force vector."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:137
+#: ../../felupe/docs/examples/ex01_beam.rst:107
 msgid ""
 "The magnitude of the displacement field are plotted on a 300x scaled "
 "deformed configuration."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:0
-#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:0
-#: ../../felupe/docs/examples/ex03_plasticity.rst:0
-#: ../../felupe/docs/examples/ex04_balloon.rst:0
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:0
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:0
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:0
-#: ../../felupe/docs/examples/ex08_shear.rst:0
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:0
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:0
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:0
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:0
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:0
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:0
-#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:0
-msgid "Static Scene"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex01_beam.rst:0
-#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:0
-#: ../../felupe/docs/examples/ex03_plasticity.rst:0
-#: ../../felupe/docs/examples/ex04_balloon.rst:0
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:0
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:0
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:0
-#: ../../felupe/docs/examples/ex08_shear.rst:0
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:0
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:0
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:0
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:0
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:0
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:0
-#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:0
-msgid "Interactive Scene"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex01_beam.rst:183
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:429
-#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:228
+#: ../../felupe/docs/examples/ex01_beam.rst:120
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:329
+#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:205
 msgid "References"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:184
+#: ../../felupe/docs/examples/ex01_beam.rst:121
 msgid ""
 "Glenk C. et al., *Consideration of Body Forces within Finite Element "
 "Analysis*, Strojniški vestnik - Journal of Mechanical Engineering, Faculty "
 "of Mechanical Engineering, 2018, |DOI|."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:188
+#: ../../felupe/docs/examples/ex01_beam.rst:125
 msgid "DOI"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:194
-msgid "**Total running time of the script:** (0 minutes 3.952 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex01_beam.rst:205
+#: ../../felupe/docs/examples/ex01_beam.rst:137
 msgid ""
 ":download:`Download Jupyter notebook: ex01_beam.ipynb <ex01_beam.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:209
+#: ../../felupe/docs/examples/ex01_beam.rst:141
 msgid ":download:`Download Python source code: ex01_beam.py <ex01_beam.py>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:216
-#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:313
-#: ../../felupe/docs/examples/ex03_plasticity.rst:223
-#: ../../felupe/docs/examples/ex04_balloon.rst:428
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:315
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:367
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:362
-#: ../../felupe/docs/examples/ex08_shear.rst:372
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:403
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:153
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:214
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:133
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:470
-#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:266
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:136
-#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:283
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:184
+#: ../../felupe/docs/examples/ex01_beam.rst:148
+#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:191
+#: ../../felupe/docs/examples/ex03_plasticity.rst:155
+#: ../../felupe/docs/examples/ex04_balloon.rst:200
+#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:199
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:241
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:250
+#: ../../felupe/docs/examples/ex08_shear.rst:266
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:234
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:115
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:143
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:95
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:365
+#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:238
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:98
+#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:178
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:148
 #: ../../felupe/docs/examples/index.rst:342
 msgid ""
 "`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
@@ -215,7 +181,7 @@ msgid ""
 "of normal stress :math:`\\sigma_{11}` over the hole."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:62
+#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:56
 msgid ""
 "Let's create a meshed plate with a hole out of quad cells. Only a quarter "
 "model of the plate is considered. The mesh generation is carried out by "
@@ -223,28 +189,28 @@ msgid ""
 "section is duplicated, mirrored and merged with another rectangle."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:122
+#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:83
 msgid ""
 "A numeric quad-region created on the mesh in combination with a vector-"
 "valued displacement field represents the plate. The Boundary conditions for "
 "the symmetry planes are generated on the displacement field."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:145
+#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:100
 msgid ""
 "The material behaviour is defined through a built-in isotropic linear-"
 "elastic material formulation for plane stress problems. A solid body applies"
 " the linear-elastic material formulation on the displacement field."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:165
+#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:114
 msgid ""
 "The external uniaxial tension is applied by a pressure load on the right end"
 " at :math:`x=L`. Therefore, a boundary region in combination with a field "
 "has to be created at :math:`x=L`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:187
+#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:130
 msgid ""
 "The simulation model is now ready to be solved. The equivalent von Mises "
 "Cauchy stress will be plotted. For the two-dimensional case it is calculated"
@@ -252,29 +218,25 @@ msgid ""
 "shifted to and averaged at mesh- points."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:192
+#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:135
 msgid ""
 "\\sigma_{vM} = \\sqrt{\\sigma_{11}^2 + \\sigma_{22}^2 - \\sigma_{11} \\ \\sigma_{22}\n"
 "            + 3 \\ \\sigma_{12}^2}"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:251
+#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:153
 msgid ""
 "The normal stress distribution :math:`\\sigma_{11}` over the hole at "
 ":math:`x=0` is plotted with matplotlib."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:291
-msgid "**Total running time of the script:** (0 minutes 0.954 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:302
+#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:180
 msgid ""
 ":download:`Download Jupyter notebook: ex02_plate-with-hole.ipynb "
 "<ex02_plate-with-hole.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:306
+#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:184
 msgid ""
 ":download:`Download Python source code: ex02_plate-with-hole.py <ex02_plate-"
 "with-hole.py>`"
@@ -322,32 +284,32 @@ msgid ""
 "is initiated on the numeric region."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex03_plasticity.rst:66
+#: ../../felupe/docs/examples/ex03_plasticity.rst:60
 msgid "A fixed boundary condition is applied at :math:`x=0`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex03_plasticity.rst:83
+#: ../../felupe/docs/examples/ex03_plasticity.rst:71
 msgid ""
 "The material behaviour is defined through a built-in isotropic linear-"
 "elastic plastic material formulation with isotropic hardening."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex03_plasticity.rst:102
+#: ../../felupe/docs/examples/ex03_plasticity.rst:84
 msgid "The body force is created on the field of the solid body."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex03_plasticity.rst:104
+#: ../../felupe/docs/examples/ex03_plasticity.rst:86
 msgid "\\delta W_{ext} = \\int_v \\delta \\boldsymbol{u} \\cdot \\boldsymbol{b} ~ dv"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex03_plasticity.rst:124
+#: ../../felupe/docs/examples/ex03_plasticity.rst:100
 msgid ""
 "Inside a Newton-Rhapson procedure, the vectors and matrices are assembled "
 "for the given *items* and the boundary conditions are incorporated into the "
 "equilibrium equations."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex03_plasticity.rst:145
+#: ../../felupe/docs/examples/ex03_plasticity.rst:115
 msgid ""
 "A view on the field-container shows the deformed mesh and the normal plastic"
 " strain in direction :math:`x` due to the applied body force. The vector of "
@@ -357,17 +319,13 @@ msgid ""
 ":math:`x` is exported to the view."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex03_plasticity.rst:201
-msgid "**Total running time of the script:** (0 minutes 1.802 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex03_plasticity.rst:212
+#: ../../felupe/docs/examples/ex03_plasticity.rst:144
 msgid ""
 ":download:`Download Jupyter notebook: ex03_plasticity.ipynb "
 "<ex03_plasticity.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex03_plasticity.rst:216
+#: ../../felupe/docs/examples/ex03_plasticity.rst:148
 msgid ""
 ":download:`Download Python source code: ex03_plasticity.py "
 "<ex03_plasticity.py>`"
@@ -437,40 +395,36 @@ msgid ""
 "\\right)"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:96
+#: ../../felupe/docs/examples/ex04_balloon.rst:90
 msgid ""
 "The next step involves the problem definition for contique. For details have"
 " a look at its `README <https://github.com/adtzlr/contique>`_."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:139
+#: ../../felupe/docs/examples/ex04_balloon.rst:127
 msgid ""
 "Next we have to init the problem and specify the initial values of unknowns "
 "(the undeformed configuration). After each completed step of the numeric "
 "continuation the results are saved."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:329
+#: ../../felupe/docs/examples/ex04_balloon.rst:150
 msgid ""
 "The unstable pressure-controlled equilibrium path is plotted as pressure-"
 "displacement curve."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:356
+#: ../../felupe/docs/examples/ex04_balloon.rst:166
 msgid "The 3d-deformed configuration of the solid body is plotted."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:406
-msgid "**Total running time of the script:** (0 minutes 9.245 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex04_balloon.rst:417
+#: ../../felupe/docs/examples/ex04_balloon.rst:189
 msgid ""
 ":download:`Download Jupyter notebook: ex04_balloon.ipynb "
 "<ex04_balloon.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:421
+#: ../../felupe/docs/examples/ex04_balloon.rst:193
 msgid ""
 ":download:`Download Python source code: ex04_balloon.py <ex04_balloon.py>`"
 msgstr ""
@@ -516,41 +470,37 @@ msgid ""
 "are created."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:119
+#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:86
 msgid ""
 "A global region as well as sub-regions for all materials are generated. The "
 "same applies to the fields, the material formulations as well as the solid "
 "bodies."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:148
+#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:109
 msgid ""
 "The boundary conditions are created on the global displacement field. Masks "
 "are created for both the innermost and the outermost metal sheet faces."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:194
+#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:149
 msgid ""
 "After defining the load step, the simulation model is ready to be solved."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:213
+#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:162
 msgid ""
 "The maximum principal values of the logarithmic strain are plotted on the "
 "total simulation model as well as on a clipped view."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:293
-msgid "**Total running time of the script:** (0 minutes 4.700 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:304
+#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:188
 msgid ""
 ":download:`Download Jupyter notebook: ex05_rubber-metal-bushing.ipynb "
 "<ex05_rubber-metal-bushing.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:308
+#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:192
 msgid ""
 ":download:`Download Python source code: ex05_rubber-metal-bushing.py "
 "<ex05_rubber-metal-bushing.py>`"
@@ -597,7 +547,7 @@ msgid ""
 "direction :math:`z`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:96
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:63
 msgid ""
 "A numeric hexahedron-region created on the mesh in combination with a "
 "vector-valued displacement field represents the volume of the solid. "
@@ -607,14 +557,14 @@ msgid ""
 "top of the solid are generated on the displacement field."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:136
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:88
 msgid ""
 "The material behavior is defined through a built-in hyperelastic isotropic "
 "Neo-Hookean material formulation. A solid body applies the material "
 "formulation on the displacement field."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:156
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:102
 msgid ""
 "The simplified elastic-to-rigid contact is defined by a multi-point "
 "constraint-like formulation which is only active in compression. First, the "
@@ -623,43 +573,39 @@ msgid ""
 "direction :math:`z`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:191
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:131
 msgid ""
 "The max. principal value of the logarithmic strain, projected to mesh "
 "points, will be added to the result file."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:217
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:151
 msgid ""
 "The simulation model is now ready to be solved. The results are saved within"
 " a XDMF- file, where additional point-data is passed to the ``point_data`` "
 "argument."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:286
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:187
 msgid ""
 "The axial-compressive and lateral-shear force-displacement curves are "
 "obtained from the characteristic-curve job. The force is multiplied by two "
 "due to the fact that only one half of the geometry is simulated."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:316
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:206
 msgid ""
 "The shear lateral force-displacement curve is again obtained from the "
 "characteristic- curve job."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:345
-msgid "**Total running time of the script:** (0 minutes 4.872 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:356
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:230
 msgid ""
 ":download:`Download Jupyter notebook: ex06_rubber-metal-spring.ipynb "
 "<ex06_rubber-metal-spring.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:360
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:234
 msgid ""
 ":download:`Download Python source code: ex06_rubber-metal-spring.py "
 "<ex06_rubber-metal-spring.py>`"
@@ -720,20 +666,20 @@ msgid ""
 " engine mount."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:104
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:71
 msgid ""
 "A global region as well as sub-regions for all materials are generated. The "
 "same applies to the fields."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:127
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:88
 msgid ""
 "The boundary conditions are created on the global displacement field. First,"
 " a mask for all points related to the metal parts is created. Then, this "
 "mask is splitted into the inner and the outer metal part."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:157
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:112
 msgid ""
 "The material behaviour of the rubberlike solid is defined through a built-in"
 " hyperelastic isotropic compressible Neo-Hookean material formulation. A "
@@ -750,7 +696,7 @@ msgid ""
 " analysis."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:188
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:137
 msgid ""
 "After defining the consecutive load steps, the simulation model is ready to "
 "be solved. As we are not interested in the strains of the simulated air, a "
@@ -759,23 +705,19 @@ msgid ""
 "different levels of vertical displacement."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:293
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:219
 msgid ""
 "The maximum principal values of the logarithmic strain tensors are plotted "
 "on the deformed configuration."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:340
-msgid "**Total running time of the script:** (0 minutes 5.353 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:351
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:239
 msgid ""
 ":download:`Download Jupyter notebook: ex07_engine-mount.ipynb <ex07_engine-"
 "mount.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:355
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:243
 msgid ""
 ":download:`Download Python source code: ex07_engine-mount.py <ex07_engine-"
 "mount.py>`"
@@ -836,7 +778,7 @@ msgid ""
 " that list."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:87
+#: ../../felupe/docs/examples/ex08_shear.rst:81
 msgid ""
 "A numeric quad-region created on the mesh in combination with a vector-"
 "valued displacement field for plane-strain as well as scalar-valued fields "
@@ -846,7 +788,7 @@ msgid ""
 "prescribed shear movement in direction :math:`x` at the MPC-centerpoint."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:118
+#: ../../felupe/docs/examples/ex08_shear.rst:106
 msgid ""
 "The micro-sphere material formulation is used for the rubber. It is defined "
 "as a hyperelastic material in `matADi <https://github.com/adtzlr/matadi>`_. "
@@ -854,14 +796,14 @@ msgid ""
 "resulting in a hyperelastic solid body."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:151
+#: ../../felupe/docs/examples/ex08_shear.rst:133
 msgid ""
 "At the centerpoint of a multi-point constraint (MPC) the external shear "
 "movement is prescribed. It also ensures a force-free top plate in direction "
 ":math:`y`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:206
+#: ../../felupe/docs/examples/ex08_shear.rst:155
 msgid ""
 "The shear movement is applied in substeps, which are each solved with an "
 "iterative newton-rhapson procedure. Inside an iteration, the force residual "
@@ -877,7 +819,7 @@ msgid ""
 "generator object with the results of all substeps."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:247
+#: ../../felupe/docs/examples/ex08_shear.rst:190
 msgid ""
 "The principal stretches are evaluated for the maximum deformed "
 "configuration. This may be done manually, starting from the deformation "
@@ -887,22 +829,18 @@ msgid ""
 "quadrature-points to mesh-points."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:313
+#: ../../felupe/docs/examples/ex08_shear.rst:223
 msgid ""
 "The shear force :math:`F_x` vs. the displacements :math:`u_x` and "
 ":math:`u_y`, all located at the top plate, are plotted."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:350
-msgid "**Total running time of the script:** (0 minutes 3.654 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex08_shear.rst:361
+#: ../../felupe/docs/examples/ex08_shear.rst:255
 msgid ""
 ":download:`Download Jupyter notebook: ex08_shear.ipynb <ex08_shear.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:365
+#: ../../felupe/docs/examples/ex08_shear.rst:259
 msgid ":download:`Download Python source code: ex08_shear.py <ex08_shear.py>`"
 msgstr ""
 
@@ -939,7 +877,7 @@ msgstr ""
 msgid "plot force-displacement curve"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:62
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:56
 msgid ""
 "First, setup a problem as usual (mesh, region, field, boundaries and umat). "
 "For the material definition we use matADi (``pip install madati``). We "
@@ -947,7 +885,7 @@ msgid ""
 " in uniaxial tension."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:112
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:95
 msgid ""
 "An external normal force is applied at :math:`x=1` on a quarter model of a "
 "cube with symmetry planes at :math:`x=y=z=0`. Therefore, we have to define "
@@ -955,37 +893,33 @@ msgid ""
 "factor :math:`\\lambda` during numeric continuation."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:138
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:115
 msgid ""
 "The next step involves the problem definition for contique. For details have"
 " a look at `contique's README <https://github.com/adtzlr/contique>`_."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:192
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:163
 msgid ""
 "Next we have to init the problem and specify the initial values of unknowns "
 "(the undeformed configuration). After each completed step of the numeric "
 "continuation the XDMF-file will be updated."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:324
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:198
 msgid ""
 "Finally, the force-displacement curve is plotted. It can be seen that the "
 "resulting (unstable) force-controlled equilibrium path is equal to the "
 "displacement-controlled load case of matADi's lab."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:381
-msgid "**Total running time of the script:** (0 minutes 4.266 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:392
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:223
 msgid ""
 ":download:`Download Jupyter notebook: ex09_numeric-continuation.ipynb "
 "<ex09_numeric-continuation.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:396
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:227
 msgid ""
 ":download:`Download Python source code: ex09_numeric-continuation.py "
 "<ex09_numeric-continuation.py>`"
@@ -1049,17 +983,13 @@ msgid ""
 "Poisson equation is also required."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:131
-msgid "**Total running time of the script:** (0 minutes 0.282 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:142
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:104
 msgid ""
 ":download:`Download Jupyter notebook: ex10_poisson-equation.ipynb "
 "<ex10_poisson-equation.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:146
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:108
 msgid ""
 ":download:`Download Python source code: ex10_poisson-equation.py "
 "<ex10_poisson-equation.py>`"
@@ -1104,7 +1034,7 @@ msgid ""
 "converted to quadratic hexahedrons."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:118
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:85
 msgid ""
 "The number of maximum endurable cycles between zero and the applied "
 "displacement is evaluated with a SN-curve as denoted in Eq. :eq:`sn-curve`. "
@@ -1116,21 +1046,17 @@ msgid ""
 "determined first."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:126
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:93
 msgid "\\frac{N}{N_D} = \\left( \\frac{S}{S_D} \\right)^{-k}"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:192
-msgid "**Total running time of the script:** (0 minutes 4.602 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:203
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:132
 msgid ""
 ":download:`Download Jupyter notebook: ex11_notch-stress.ipynb <ex11_notch-"
 "stress.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:207
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:136
 msgid ""
 ":download:`Download Python source code: ex11_notch-stress.py <ex11_notch-"
 "stress.py>`"
@@ -1146,17 +1072,13 @@ msgstr ""
 msgid "Voxelized Foot Bone"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:111
-msgid "**Total running time of the script:** (0 minutes 4.557 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:122
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:84
 msgid ""
 ":download:`Download Jupyter notebook: ex12_foot-bone.ipynb <ex12_foot-"
 "bone.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:126
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:88
 msgid ""
 ":download:`Download Python source code: ex12_foot-bone.py <ex12_foot-"
 "bone.py>`"
@@ -1290,23 +1212,23 @@ msgid ""
 ":func:`tm.special.triu_1d`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:207
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:201
 msgid ""
 "The MORPH material model formulation is also available in FElupe, see "
 ":class:`~felupe.morph`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:210
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:204
 msgid ""
 "The force-stress curves are shown for uniaxial incompressible tension "
 "cycles."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:238
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:221
 msgid "A mesh is created for the wheel with :math:`r=0.4` and :math:`R=1`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:285
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:235
 msgid ""
 "A quad-region and a plane-strain displacement field are created. Mesh-points"
 " at :math:`r` are added to the ``move``-boundary condition. The "
@@ -1315,14 +1237,14 @@ msgid ""
 "upwards by ``0.2`` to enforce a vertical reaction force in the rubber wheel."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:292
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:242
 msgid ""
 "Try to simulate more rotation angles and obtain the vertical reaction force "
 "of the wheel, e.g. run two full rotations of the wheel with ``angles_deg = "
 "fem.math.linsteps([0, 360, 720], num=[18, 18])``."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:333
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:277
 msgid ""
 "A nearly-incompressible solid body is created for the rubber. At the bottom,"
 " a frictionless contact edge is created. Both items are added to a step, "
@@ -1330,13 +1252,13 @@ msgid ""
 " successive rotation angles of the wheel."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:379
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:312
 msgid ""
 "The resulting max. principal values of the Cauchy stresses are shown for the"
 " final rotation angle."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:430
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:330
 msgid ""
 "D. Besdo and J. Ihlemann, \"A phenomenological constitutive model for "
 "rubberlike materials and its numerical applications\", International Journal"
@@ -1345,14 +1267,14 @@ msgid ""
 "<https://doi.org/10.1016/s0749-6419(02)00091-8>`_."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:435
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:335
 msgid ""
 "M. Freund, \"Verallgemeinerung eindimensionaler Materialmodelle für die "
 "Finite-Elemente-Methode\", Dissertation, Technische Universität Chemnitz, "
 "Chemnitz, 2013."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:439
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:339
 msgid ""
 "C. Miehe, S. Göktepe and F. Lulei, \"A micro-macro approach to rubber-like "
 "materials - Part I: the non-affine micro-sphere model of rubber "
@@ -1361,17 +1283,13 @@ msgid ""
 "<https://doi.org/10.1016/j.jmps.2004.03.011>`_."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:448
-msgid "**Total running time of the script:** (0 minutes 6.287 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:459
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:354
 msgid ""
 ":download:`Download Jupyter notebook: ex13_morph-rubber-wheel.ipynb "
 "<ex13_morph-rubber-wheel.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:463
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:358
 msgid ""
 ":download:`Download Python source code: ex13_morph-rubber-wheel.py "
 "<ex13_morph-rubber-wheel.py>`"
@@ -1411,7 +1329,7 @@ msgid ""
 "[1]_ is best-fitted on Treloar's uniaxial and biaxial tension data [2]_."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:106
+#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:100
 msgid ""
 "An isotropic-hyperelastic material formulation is defined by a strain energy"
 " density function. All math-operations must support automatic "
@@ -1420,7 +1338,7 @@ msgid ""
 "Extended Tube model is given in Eq. :eq:`ex-psi-et`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:111
+#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:105
 msgid ""
 "\\psi = \\frac{G_c}{2} \\left[ \\frac{\\left( 1 - \\delta^2 \\right)\n"
 "    \\left( \\hat{I}_1 - 3 \\right)}{1 - \\delta^2 \\left( \\hat{I}_1 - 3 \\right)} +\n"
@@ -1429,37 +1347,37 @@ msgid ""
 "    \\hat{\\lambda}_2^{-\\beta} + \\hat{\\lambda}_3^{-\\beta} - 3 \\right)"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:120
+#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:114
 msgid ""
 "with the first main invariant of the distortional part of the right Cauchy-"
 "Green deformation tensor as given in Eq. :eq:`ex-invariants-et`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:123
+#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:117
 msgid "D = J^{-2/3} \\text{tr}\\left( \\boldsymbol{C} \\right)"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:128
+#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:122
 msgid ""
 "and the principal stretches, obtained from the distortional part of the "
 "right Cauchy-Green deformation tensor, see Eq. :eq:`ex-stretches-et`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:131
+#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:125
 msgid ""
 "\\lambda^2_\\alpha &= \\text{eigvals}\\left( \\boldsymbol{C} \\right)\n"
 "\n"
 "\\hat{\\lambda}_\\alpha &= J^{-1/3} \\lambda_\\alpha"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:139
+#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:133
 msgid ""
 "This material formulation is also available in FElupe as "
 ":func:`~felupe.extended_tube` among other :ref:`hyperelastic material models"
 " <felupe-api-constitution-hyperelasticity>`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:172
+#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:160
 msgid ""
 "The material parameters are best-fitted to the experimental data. Relative "
 "force- residuals are used. Lower and upper material parameters are used to "
@@ -1467,7 +1385,7 @@ msgid ""
 "material parameters."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:229
+#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:206
 msgid ""
 "M. Kaliske and G. Heinrich, \"An Extended Tube-Model for Rubber Elasticity: "
 "Statistical-Mechanical Theory and Finite Element Implementation\", Rubber "
@@ -1476,7 +1394,7 @@ msgid ""
 "<https://www.doi.org/10.5254/1.3538822>`_."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:235
+#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:212
 msgid ""
 "L. R. G. Treloar, \"Stress-strain data for vulcanised rubber under various "
 "types of deformation\", Transactions of the Faraday Society, vol. 40. Royal "
@@ -1485,17 +1403,13 @@ msgid ""
 "due.de/mathematik/ag_neff/neff_hencky."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:244
-msgid "**Total running time of the script:** (0 minutes 0.359 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:255
+#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:227
 msgid ""
 ":download:`Download Jupyter notebook: ex14_hyperelasticity.ipynb "
 "<ex14_hyperelasticity.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:259
+#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:231
 msgid ""
 ":download:`Download Python source code: ex14_hyperelasticity.py "
 "<ex14_hyperelasticity.py>`"
@@ -1525,17 +1439,13 @@ msgid ""
 "materials"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:114
-msgid "**Total running time of the script:** (0 minutes 0.783 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:125
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:87
 msgid ""
 ":download:`Download Jupyter notebook: ex15_hexmesh-metacone.ipynb "
 "<ex15_hexmesh-metacone.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:129
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:91
 msgid ""
 ":download:`Download Python source code: ex15_hexmesh-metacone.py "
 "<ex15_hexmesh-metacone.py>`"
@@ -1578,34 +1488,30 @@ msgid ""
 "simulation."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:77
+#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:71
 msgid ""
 "A PyTorch model is trained on the simulation results. For simplicity, "
 "testing is skipped and the data is not splitted in batches."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:144
+#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:132
 msgid ""
 "Max. principal values of the logarithmic strain tensors are evaluated and "
 "plotted based on the PyTorch model displacement results. After 50 epoch "
 "runs, the result is quite bad with a lot of unwanted artefacts (noise)."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:202
+#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:148
 msgid "After 500 more epoch runs, the result is much more realistic."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:261
-msgid "**Total running time of the script:** (0 minutes 3.079 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:272
+#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:167
 msgid ""
 ":download:`Download Jupyter notebook: ex16_deeplearning-torch.ipynb "
 "<ex16_deeplearning-torch.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:276
+#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:171
 msgid ""
 ":download:`Download Python source code: ex16_deeplearning-torch.py "
 "<ex16_deeplearning-torch.py>`"
@@ -1651,7 +1557,7 @@ msgid ""
 "This is even possible in a :class:`~felupe.Step` with the ``ramp``-argument."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:82
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:76
 msgid ""
 "The reaction moment on the centerpoint of the right end face is tracked by a"
 " ``callback()`` function when we :meth:`~felupe.Job.evaluate` the "
@@ -1660,21 +1566,17 @@ msgid ""
 "``close()`` the plotter."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:137
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:117
 msgid "Finally, let's plot the reaction moment vs. torsion angle curve."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:162
-msgid "**Total running time of the script:** (0 minutes 2.995 seconds)"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:173
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:137
 msgid ""
 ":download:`Download Jupyter notebook: ex17_torsion-gif.ipynb <ex17_torsion-"
 "gif.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:177
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:141
 msgid ""
 ":download:`Download Python source code: ex17_torsion-gif.py <ex17_torsion-"
 "gif.py>`"
@@ -1763,7 +1665,7 @@ msgid "Computation times"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:9
-msgid "**01:01.742** total execution time for 17 files **from examples**:"
+msgid "**00:00.000** total execution time for 17 files **from examples**:"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:32
@@ -1779,11 +1681,27 @@ msgid "Mem (MB)"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:35
-msgid ":ref:`sphx_glr_examples_ex04_balloon.py` (``ex04_balloon.py``)"
+msgid ":ref:`sphx_glr_examples_ex01_beam.py` (``ex01_beam.py``)"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:36
-msgid "00:09.245"
+#: ../../felupe/docs/examples/sg_execution_times.rst:39
+#: ../../felupe/docs/examples/sg_execution_times.rst:42
+#: ../../felupe/docs/examples/sg_execution_times.rst:45
+#: ../../felupe/docs/examples/sg_execution_times.rst:48
+#: ../../felupe/docs/examples/sg_execution_times.rst:51
+#: ../../felupe/docs/examples/sg_execution_times.rst:54
+#: ../../felupe/docs/examples/sg_execution_times.rst:57
+#: ../../felupe/docs/examples/sg_execution_times.rst:60
+#: ../../felupe/docs/examples/sg_execution_times.rst:63
+#: ../../felupe/docs/examples/sg_execution_times.rst:66
+#: ../../felupe/docs/examples/sg_execution_times.rst:69
+#: ../../felupe/docs/examples/sg_execution_times.rst:72
+#: ../../felupe/docs/examples/sg_execution_times.rst:75
+#: ../../felupe/docs/examples/sg_execution_times.rst:78
+#: ../../felupe/docs/examples/sg_execution_times.rst:81
+#: ../../felupe/docs/examples/sg_execution_times.rst:84
+msgid "00:00.000"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:37
@@ -1808,31 +1726,16 @@ msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:38
 msgid ""
-":ref:`sphx_glr_examples_ex13_morph-rubber-wheel.py` (``ex13_morph-rubber-"
-"wheel.py``)"
-msgstr ""
-
-#: ../../felupe/docs/examples/sg_execution_times.rst:39
-msgid "00:06.287"
+":ref:`sphx_glr_examples_ex02_plate-with-hole.py` (``ex02_plate-with-"
+"hole.py``)"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:41
-msgid ""
-":ref:`sphx_glr_examples_ex07_engine-mount.py` (``ex07_engine-mount.py``)"
-msgstr ""
-
-#: ../../felupe/docs/examples/sg_execution_times.rst:42
-msgid "00:05.353"
+msgid ":ref:`sphx_glr_examples_ex03_plasticity.py` (``ex03_plasticity.py``)"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:44
-msgid ""
-":ref:`sphx_glr_examples_ex06_rubber-metal-spring.py` (``ex06_rubber-metal-"
-"spring.py``)"
-msgstr ""
-
-#: ../../felupe/docs/examples/sg_execution_times.rst:45
-msgid "00:04.872"
+msgid ":ref:`sphx_glr_examples_ex04_balloon.py` (``ex04_balloon.py``)"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:47
@@ -1841,87 +1744,52 @@ msgid ""
 "bushing.py``)"
 msgstr ""
 
-#: ../../felupe/docs/examples/sg_execution_times.rst:48
-msgid "00:04.700"
-msgstr ""
-
 #: ../../felupe/docs/examples/sg_execution_times.rst:50
 msgid ""
-":ref:`sphx_glr_examples_ex11_notch-stress.py` (``ex11_notch-stress.py``)"
-msgstr ""
-
-#: ../../felupe/docs/examples/sg_execution_times.rst:51
-msgid "00:04.602"
+":ref:`sphx_glr_examples_ex06_rubber-metal-spring.py` (``ex06_rubber-metal-"
+"spring.py``)"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:53
-msgid ":ref:`sphx_glr_examples_ex12_foot-bone.py` (``ex12_foot-bone.py``)"
-msgstr ""
-
-#: ../../felupe/docs/examples/sg_execution_times.rst:54
-msgid "00:04.557"
+msgid ""
+":ref:`sphx_glr_examples_ex07_engine-mount.py` (``ex07_engine-mount.py``)"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:56
+msgid ":ref:`sphx_glr_examples_ex08_shear.py` (``ex08_shear.py``)"
+msgstr ""
+
+#: ../../felupe/docs/examples/sg_execution_times.rst:59
 msgid ""
 ":ref:`sphx_glr_examples_ex09_numeric-continuation.py` (``ex09_numeric-"
 "continuation.py``)"
 msgstr ""
 
-#: ../../felupe/docs/examples/sg_execution_times.rst:57
-msgid "00:04.266"
-msgstr ""
-
-#: ../../felupe/docs/examples/sg_execution_times.rst:59
-msgid ":ref:`sphx_glr_examples_ex01_beam.py` (``ex01_beam.py``)"
-msgstr ""
-
-#: ../../felupe/docs/examples/sg_execution_times.rst:60
-msgid "00:03.952"
-msgstr ""
-
 #: ../../felupe/docs/examples/sg_execution_times.rst:62
-msgid ":ref:`sphx_glr_examples_ex08_shear.py` (``ex08_shear.py``)"
-msgstr ""
-
-#: ../../felupe/docs/examples/sg_execution_times.rst:63
-msgid "00:03.654"
+msgid ""
+":ref:`sphx_glr_examples_ex10_poisson-equation.py` (``ex10_poisson-"
+"equation.py``)"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:65
 msgid ""
-":ref:`sphx_glr_examples_ex16_deeplearning-torch.py` (``ex16_deeplearning-"
-"torch.py``)"
-msgstr ""
-
-#: ../../felupe/docs/examples/sg_execution_times.rst:66
-msgid "00:03.079"
+":ref:`sphx_glr_examples_ex11_notch-stress.py` (``ex11_notch-stress.py``)"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:68
-msgid ":ref:`sphx_glr_examples_ex17_torsion-gif.py` (``ex17_torsion-gif.py``)"
-msgstr ""
-
-#: ../../felupe/docs/examples/sg_execution_times.rst:69
-msgid "00:02.995"
+msgid ":ref:`sphx_glr_examples_ex12_foot-bone.py` (``ex12_foot-bone.py``)"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:71
-msgid ":ref:`sphx_glr_examples_ex03_plasticity.py` (``ex03_plasticity.py``)"
-msgstr ""
-
-#: ../../felupe/docs/examples/sg_execution_times.rst:72
-msgid "00:01.802"
+msgid ""
+":ref:`sphx_glr_examples_ex13_morph-rubber-wheel.py` (``ex13_morph-rubber-"
+"wheel.py``)"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:74
 msgid ""
-":ref:`sphx_glr_examples_ex02_plate-with-hole.py` (``ex02_plate-with-"
-"hole.py``)"
-msgstr ""
-
-#: ../../felupe/docs/examples/sg_execution_times.rst:75
-msgid "00:00.954"
+":ref:`sphx_glr_examples_ex14_hyperelasticity.py` "
+"(``ex14_hyperelasticity.py``)"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:77
@@ -1930,26 +1798,12 @@ msgid ""
 "metacone.py``)"
 msgstr ""
 
-#: ../../felupe/docs/examples/sg_execution_times.rst:78
-msgid "00:00.783"
-msgstr ""
-
 #: ../../felupe/docs/examples/sg_execution_times.rst:80
 msgid ""
-":ref:`sphx_glr_examples_ex14_hyperelasticity.py` "
-"(``ex14_hyperelasticity.py``)"
-msgstr ""
-
-#: ../../felupe/docs/examples/sg_execution_times.rst:81
-msgid "00:00.359"
+":ref:`sphx_glr_examples_ex16_deeplearning-torch.py` (``ex16_deeplearning-"
+"torch.py``)"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:83
-msgid ""
-":ref:`sphx_glr_examples_ex10_poisson-equation.py` (``ex10_poisson-"
-"equation.py``)"
-msgstr ""
-
-#: ../../felupe/docs/examples/sg_execution_times.rst:84
-msgid "00:00.282"
+msgid ":ref:`sphx_glr_examples_ex17_torsion-gif.py` (``ex17_torsion-gif.py``)"
 msgstr ""
