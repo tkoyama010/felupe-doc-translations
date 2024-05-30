@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-27 22:56+0000\n"
+"POT-Creation-Date: 2024-05-30 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -480,7 +480,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_planestrain.py:docstring of felupe.field._planestrain.FieldPlaneStrain:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._field.strain:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._field.strain_stretch_1d:13
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya_ik:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya_il:16
@@ -665,7 +665,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._math.linsteps:24
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:29
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:31
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya_ik:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya_il:29
@@ -7610,22 +7610,26 @@ msgid "The right-hand side array of the equation system."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:8
+msgid "The dimension of the unknowns (default is 1)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:10
 msgid "A function with a compatible signature to :func:`numpy.linalg.solve` (default is :func:`numpy.linalg.solve`)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:11
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:13
 msgid "Optional keyword arguments are passed to the callable ``solve(A, b, **kwargs)``."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:14
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:16
 msgid "**x** -- The solved array of unknowns."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:19
-msgid "The first two axes of the rhs ``b`` and the first four axes of the lhs ``A`` are the tensor dimensions and all remaining trailing axes are treated as batch dimensions. This function finds :math:`x_{kl}` for Eq. :eq:`solve-system`."
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:21
+msgid "The first two axes of the rhs ``b`` and the first four axes of the lhs ``A`` are the tensor dimensions and all remaining trailing axes are treated as batch dimensions. This function finds :math:`x_{kl}` for Eq. :eq:`solve-system-2d`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:23
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:25
 msgid "A_{ijkl} : x_{kl} = b_{ij}"
 msgstr ""
 

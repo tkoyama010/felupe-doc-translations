@@ -50,6 +50,11 @@ msgid ""
 " a :class:`field container <felupe.FieldContainer>` is created on top of "
 "this field."
 msgstr ""
+"まず、FElupeをインポートし、 :class:`hexahedron <felupe.Hexahedron>` のセルから、軸ごとに指定された点数の"
+" :class:`cube <felupe.Cube>` メッシュを作成します。六面体用に定義された数値 :class:`region "
+"<felupe.RegionHexahedron>` がメッシュ上に作成されます。ベクトル値の変位 :class:`field "
+"<felupe.Field>` が領域上で開始されます。次に、このフィールドの上に :class:`field container "
+"<felupe.FieldContainer>` が作成されます。"
 
 #: ../../felupe/docs/tutorial/examples/README.rst:10
 #: ../../felupe/docs/tutorial/index.rst:12
