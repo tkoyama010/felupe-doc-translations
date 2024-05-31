@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the FElupe package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-25 22:50+0000\n"
+"POT-Creation-Date: 2024-05-25 23:02+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../felupe/docs/howto.rst:6
 msgid "How-To:"
-msgstr ""
+msgstr "ハウツー"
 
 #: ../../felupe/docs/howto.rst:4
 msgid "How-To Guides"
@@ -409,6 +413,11 @@ msgid ""
 "\n"
 "\\mathbb{A} &= \\frac{\\partial^2 \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}\\ \\partial \\boldsymbol{F}}"
 msgstr ""
+"\\boldsymbol{F} &= \\frac{\\partial \\boldsymbol{x}}{\\partial \\boldsymbol{X}}\n"
+"\n"
+"\\boldsymbol{P} &= \\frac{\\partial \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}}\n"
+"\n"
+"\\mathbb{A} &= \\frac{\\partial^2 \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}\\ \\partial \\boldsymbol{F}}"
 
 #: ../../felupe/docs/howto/solid.rst:46
 msgid ""
@@ -425,6 +434,11 @@ msgid ""
 "\n"
 "\\boldsymbol{\\sigma} &= \\frac{1}{J} \\boldsymbol{P} \\boldsymbol{F}^T"
 msgstr ""
+"\\boldsymbol{P} &= \\frac{\\partial \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}}\n"
+"\n"
+"\\mathbb{A} &= \\frac{\\partial^2 \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}\\ \\partial \\boldsymbol{F}}\n"
+"\n"
+"\\boldsymbol{\\sigma} &= \\frac{1}{J} \\boldsymbol{P} \\boldsymbol{F}^T"
 
 #: ../../felupe/docs/howto/solid.rst:65
 msgid "Body Force (Gravity) on a Solid Body"
@@ -439,7 +453,7 @@ msgstr ""
 
 #: ../../felupe/docs/howto/solid.rst:70
 msgid "\\delta W_{ext} = \\int_V \\delta \\boldsymbol{u} \\cdot \\rho \\boldsymbol{g} \\ dV"
-msgstr ""
+msgstr "\\delta W_{ext} = \\int_V \\delta \\boldsymbol{u} \\cdot \\rho \\boldsymbol{g} \\ dV"
 
 #: ../../felupe/docs/howto/solid.rst:83
 msgid "Pressure Boundary on a Solid Body"
@@ -457,6 +471,8 @@ msgid ""
 "\\delta W_{ext} = \\int_{\\partial V} \\delta \\boldsymbol{u} \\cdot p \\ J "
 "\\boldsymbol{F}^{-T} \\ d\\boldsymbol{A}"
 msgstr ""
+"\\delta W_{ext} = \\int_{\\partial V} \\delta \\boldsymbol{u} \\cdot p \\ J "
+"\\boldsymbol{F}^{-T} \\ d\\boldsymbol{A}"
 
 #: ../../felupe/docs/howto/solid.rst:113
 msgid ""
@@ -534,7 +550,7 @@ msgstr ""
 
 #: ../../felupe/docs/howto/umat.rst:9
 msgid "dε"
-msgstr ""
+msgstr "dε"
 
 #: ../../felupe/docs/howto/umat.rst:9
 msgid "strain increment"
@@ -542,7 +558,7 @@ msgstr ""
 
 #: ../../felupe/docs/howto/umat.rst:11
 msgid "εn"
-msgstr ""
+msgstr "εn"
 
 #: ../../felupe/docs/howto/umat.rst:11
 msgid "old strain tensor"
@@ -550,7 +566,7 @@ msgstr ""
 
 #: ../../felupe/docs/howto/umat.rst:13
 msgid "σn"
-msgstr ""
+msgstr "σn"
 
 #: ../../felupe/docs/howto/umat.rst:13
 msgid "old stress tensor"
@@ -558,7 +574,7 @@ msgstr ""
 
 #: ../../felupe/docs/howto/umat.rst:15
 msgid "ζn"
-msgstr ""
+msgstr "ζn"
 
 #: ../../felupe/docs/howto/umat.rst:15
 msgid "list of old state variables"
@@ -571,7 +587,7 @@ msgstr ""
 
 #: ../../felupe/docs/howto/umat.rst:17
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 #: ../../felupe/docs/howto/umat.rst:17
 msgid "tangent modulus"
@@ -579,7 +595,7 @@ msgstr ""
 
 #: ../../felupe/docs/howto/umat.rst:19
 msgid "ζ"
-msgstr ""
+msgstr "ζ"
 
 #: ../../felupe/docs/howto/umat.rst:19
 msgid "list of new state variables"
@@ -601,11 +617,11 @@ msgstr ""
 
 #: ../../felupe/docs/howto/umat.rst:37
 msgid ":func:`~felupe.linear_elastic`"
-msgstr ""
+msgstr ":func:`~felupe.linear_elastic`"
 
 #: ../../felupe/docs/howto/umat.rst:38
 msgid ":func:`~felupe.linear_elastic_plastic_isotropic_hardening`"
-msgstr ""
+msgstr ":func:`~felupe.linear_elastic_plastic_isotropic_hardening`"
 
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:2
 msgid "Isotropic Hyperelastic Materials"
@@ -624,7 +640,7 @@ msgstr ""
 
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:9
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:9
 msgid "right Cauchy-Green deformation tensor"
@@ -632,7 +648,7 @@ msgstr ""
 
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:11
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:11
 msgid "strain energy function"
@@ -652,11 +668,11 @@ msgstr ""
 
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:31
 msgid ":func:`~felupe.neo_hooke`,"
-msgstr ""
+msgstr ":func:`~felupe.neo_hooke`,"
 
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:32
 msgid ":func:`~felupe.mooney_rivlin`,"
-msgstr ""
+msgstr ":func:`~felupe.mooney_rivlin`,"
 
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:33
 msgid ":func:`~felupe.yeoh` or"
@@ -664,7 +680,7 @@ msgstr ""
 
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:34
 msgid ":func:`~felupe.ogden`."
-msgstr ""
+msgstr ":func:`~felupe.ogden`."
 
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:36
 msgid ""

@@ -70,6 +70,12 @@ msgid ""
 "partitioned degrees of freedom as well as the external displacements are "
 "stored within the returned dict ``loadcase``."
 msgstr ""
+"func:`~felupe.dof.uniaxial` 荷重ケースは、 :class:`field container "
+"<felupe.FieldContainer>` 内に格納された変位 :class:`field <felupe.Field>` に適用されます。これは"
+" :func:`~felupe.dof.symmetry` 平面を設定し、立方体の右端面のメッシュポイントに所定の変位の絶対値を設定します。右端面は "
+"*clamped* 🛠️: *x* 方向の変位のみが許されます。この事前に定義された荷重ケースの :class:`boundary "
+"<felupe.Boundary>` 条件のdictは``boundaries``として返され、分割された自由度と外部変位は返されたdict "
+"``loadcase`` 内に格納されます。"
 
 #: ../../felupe/docs/tutorial/examples/README.rst:12
 #: ../../felupe/docs/tutorial/index.rst:14
@@ -102,12 +108,12 @@ msgstr ""
 msgid ""
 "Slightly modified code-blocks are provided for different kind of analyses "
 "and element formulations."
-msgstr ""
+msgstr "さまざまな種類の解析や要素の定式化のために、わずかに修正されたコードブロックが提供されます。"
 
 #: ../../felupe/docs/tutorial/examples/README.rst:165
 #: ../../felupe/docs/tutorial/index.rst:167
 msgid "Tutorials"
-msgstr ""
+msgstr "チュートリアル"
 
 #: ../../felupe/docs/tutorial/examples/README.rst:167
 #: ../../felupe/docs/tutorial/index.rst:169
@@ -347,7 +353,7 @@ msgstr ""
 
 #: ../../felupe/docs/tutorial/extut03_building_blocks.rst:72
 msgid "Region"
-msgstr ""
+msgstr "領域"
 
 #: ../../felupe/docs/tutorial/extut03_building_blocks.rst:73
 msgid ""
@@ -460,6 +466,8 @@ msgid ""
 "\\psi = \\frac{\\mu}{2} \\left( J^{-2/3}\\ \\text{tr}(\\boldsymbol{C}) - 3 \\right)\n"
 "     + \\frac{K}{2} \\left( J - 1 \\right)^2"
 msgstr ""
+"\\psi = \\frac{\\mu}{2} \\left( J^{-2/3}\\ \\text{tr}(\\boldsymbol{C}) - 3 \\right)\n"
+"     + \\frac{K}{2} \\left( J - 1 \\right)^2"
 
 #: ../../felupe/docs/tutorial/extut03_building_blocks.rst:245
 msgid "Boundary Conditions"
@@ -651,15 +659,15 @@ msgstr ""
 
 #: ../../felupe/docs/tutorial/index.rst:187
 msgid ":ref:`sphx_glr_tutorial_extut01_getting_started.py`"
-msgstr ""
+msgstr ":ref:`sphx_glr_tutorial_extut01_getting_started.py`"
 
 #: ../../felupe/docs/tutorial/index.rst:204
 msgid ":ref:`sphx_glr_tutorial_extut02_job.py`"
-msgstr ""
+msgstr ":ref:`sphx_glr_tutorial_extut02_job.py`"
 
 #: ../../felupe/docs/tutorial/index.rst:221
 msgid ":ref:`sphx_glr_tutorial_extut03_building_blocks.py`"
-msgstr ""
+msgstr ":ref:`sphx_glr_tutorial_extut03_building_blocks.py`"
 
 #: ../../felupe/docs/tutorial/sg_execution_times.rst:8
 msgid "Computation times"
