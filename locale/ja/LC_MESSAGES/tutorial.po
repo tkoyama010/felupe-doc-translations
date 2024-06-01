@@ -200,19 +200,23 @@ msgstr ""
 
 #: ../../felupe/docs/tutorial/extut01_getting_started.rst:103
 msgid "Results may be viewed in an interactive window."
-msgstr ""
+msgstr "結果はインタラクティブなウィンドウで見ることができます。"
 
 #: ../../felupe/docs/tutorial/extut01_getting_started.rst:120
 msgid ""
 ":download:`Download Jupyter notebook: extut01_getting_started.ipynb "
 "<extut01_getting_started.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: extut01_getting_started.ipynb "
+"<extut01_getting_started.ipynb>`"
 
 #: ../../felupe/docs/tutorial/extut01_getting_started.rst:124
 msgid ""
 ":download:`Download Python source code: extut01_getting_started.py "
 "<extut01_getting_started.py>`"
 msgstr ""
+":download:`Download Python source code: extut01_getting_started.py "
+"<extut01_getting_started.py>`"
 
 #: ../../felupe/docs/tutorial/extut01_getting_started.rst:131
 #: ../../felupe/docs/tutorial/extut02_job.rst:129
@@ -290,6 +294,7 @@ msgstr ""
 msgid ""
 ":download:`Download Jupyter notebook: extut02_job.ipynb <extut02_job.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: extut02_job.ipynb <extut02_job.ipynb>`"
 
 #: ../../felupe/docs/tutorial/extut02_job.rst:122
 msgid ""
@@ -650,6 +655,8 @@ msgid ""
 ":download:`Download Jupyter notebook: extut03_building_blocks.ipynb "
 "<extut03_building_blocks.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: extut03_building_blocks.ipynb "
+"<extut03_building_blocks.ipynb>`"
 
 #: ../../felupe/docs/tutorial/extut03_building_blocks.rst:519
 msgid ""

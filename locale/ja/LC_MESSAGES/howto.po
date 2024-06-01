@@ -27,17 +27,17 @@ msgstr "ハウツー"
 
 #: ../../felupe/docs/howto.rst:4
 msgid "How-To Guides"
-msgstr ""
+msgstr "ハウツーガイド"
 
 #: ../../felupe/docs/howto/axi.rst:2
 msgid "Axisymmetric Problems"
-msgstr ""
+msgstr "軸対称の問題"
 
 #: ../../felupe/docs/howto/axi.rst:4
 msgid ""
 "For axisymmetric analyses an axisymmetric vector-valued field has to be "
 "created for the in-plane displacements."
-msgstr ""
+msgstr "軸対称解析では、面内変位に対して軸対称のベクトル値フィールドを作成する必要があります。"
 
 #: ../../felupe/docs/howto/axi.rst:15
 msgid ""
@@ -50,7 +50,7 @@ msgstr ""
 
 #: ../../felupe/docs/howto/axi.rst:21
 msgid "For simplicity, let's assume a (built-in) Neo-Hookean material."
-msgstr ""
+msgstr "簡単のために、（内蔵された）Neo-Hookeanの素材を想定してみましょう。"
 
 #: ../../felupe/docs/howto/axi.rst:28
 msgid ""

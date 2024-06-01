@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:10+0000\n"
+"POT-Creation-Date: 2024-06-01 00:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -613,7 +613,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_anssari_benam_bucchi.py:docstring of felupe.constitution.hyperelasticity.models._anssari_benam_bucchi.anssari_benam_bucchi:38
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_arruda_boyce.py:docstring of felupe.constitution.hyperelasticity.models._arruda_boyce.arruda_boyce:57
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_extended_tube.py:docstring of felupe.constitution.hyperelasticity.models._extended_tube.extended_tube:57
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:50
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:52
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_lopez_pamies.py:docstring of felupe.constitution.hyperelasticity.models._lopez_pamies.lopez_pamies:40
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_miehe_goektepe_lulei.py:docstring of felupe.constitution.hyperelasticity.models._miehe_goektepe_lulei.miehe_goektepe_lulei:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_mooney_rivlin.py:docstring of felupe.constitution.hyperelasticity.models._mooney_rivlin.mooney_rivlin:43
@@ -1821,7 +1821,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_alexander.py:docstring of felupe.constitution.hyperelasticity.models._alexander.alexander:87
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_anssari_benam_bucchi.py:docstring of felupe.constitution.hyperelasticity.models._anssari_benam_bucchi.anssari_benam_bucchi:64
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_extended_tube.py:docstring of felupe.constitution.hyperelasticity.models._extended_tube.extended_tube:80
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:78
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:80
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_lopez_pamies.py:docstring of felupe.constitution.hyperelasticity.models._lopez_pamies.lopez_pamies:68
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_miehe_goektepe_lulei.py:docstring of felupe.constitution.hyperelasticity.models._miehe_goektepe_lulei.miehe_goektepe_lulei:48
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_van_der_waals.py:docstring of felupe.constitution.hyperelasticity.models._van_der_waals.van_der_waals:39
@@ -4007,45 +4007,44 @@ msgid "M. Kaliske and G. Heinrich, \"An Extended Tube-Model for Rubber Elasticit
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:7
-msgid "The material formulation is built upon the multiplicative decomposition of the deformation gradient tensor into an elastic and an inelastic part, see Eq. :eq:`multiplicative-split`."
+msgid "The material formulation is built upon the multiplicative decomposition of the distortional part of the deformation gradient tensor into an elastic and an inelastic part, see Eq. :eq:`multiplicative-split`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:11
-msgid "\\boldsymbol{F} &= \\boldsymbol{F}_e \\boldsymbol{F}_i\n"
+msgid "\\hat{\\boldsymbol{F}} &= \\boldsymbol{F}_e \\boldsymbol{F}_i\n"
+"    \\ (= \\hat{\\boldsymbol{F}_e} \\boldsymbol{F}_i)\n"
 "\n"
 "\\boldsymbol{C}_e &= \\boldsymbol{F}_e^T \\boldsymbol{F}_e\n"
 "\n"
 "\\boldsymbol{C}_i &= \\boldsymbol{F}_i^T \\boldsymbol{F}_i\n"
 "\n"
 "\\text{tr}\\left( \\boldsymbol{C}_e \\right) &= \\text{tr}\\left(\n"
-"    \\boldsymbol{C} \\boldsymbol{C}_i^{-1}\n"
+"    \\hat{\\boldsymbol{C}} \\boldsymbol{C}_i^{-1}\n"
 "\\right)"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:24
-msgid "The components of the inelastic right Cauchy-Green deformation tensor are used as state variables with the evolution equation and its explicit update formula as given in Eq. :eq:`evolution` [1]_. Here, the inelastic right Cauchy-Green deformation tensor is enforced to be an unimodular tensor."
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:25
+msgid "The components of the inelastic right Cauchy-Green deformation tensor are used as state variables with the evolution equation and its explicit update formula as given in Eq. :eq:`evolution` [1]_. The elastic part of the multiplicative decomposition of the deformation gradient tensor is also enforced to be an unimodular tensor which leads to the constraint :math:`\\det(\\boldsymbol{F_i})=1`. Hence, the inelastic right Cauchy-Green deformation tensor must be an unimodular tensor :math:`\\det(\\boldsymbol{C_i})=1`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:29
-msgid "\\dot{\\boldsymbol{C}}_i &= \\frac{\\mu}{\\eta} \\text{dev}\\left(\n"
-"    \\hat{\\boldsymbol{C}} \\boldsymbol{C}_i^{-1}\n"
-"\\right) \\boldsymbol{C}_i\n"
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:33
+msgid "\\dot{\\boldsymbol{C}}_i &= \\frac{\\mu}{\\eta}\\ \\hat{\\boldsymbol{C}}\n"
 "\n"
-"\\boldsymbol{C}_i &= \\hat{\\bar{\\boldsymbol{C}_{i,n}\n"
+"\\boldsymbol{C}_i &= \\hat{\\overline{\\boldsymbol{C}_{i,n}\n"
 "    + \\frac{\\Delta t \\mu}{\\eta} \\hat{\\boldsymbol{C}}}}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:39
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:41
 msgid "The distortional part of the strain energy density per unit undeformed volume is assumed to be of a Neo-Hookean form, see Eq. :eq:`nh-w`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:42
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:44
 msgid "\\hat{\\psi} = \\frac{\\mu}{2} \\left( \\text{tr}\\left(\n"
 "    \\hat{\\boldsymbol{C}} \\boldsymbol{C}_i^{-1}\n"
 "\\right) - 3 \\right)"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:79
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:81
 msgid "A. V. Shutov, R. Landgraf, and J. Ihlemann, \"An explicit solution for implicit time stepping in multiplicative finite strain viscoelasticity\", Computer Methods in Applied Mechanics and Engineering, vol. 265. Elsevier BV, pp. 213–225, Oct. 2013. doi: `10.1016/j.cma.2013.07.004 <https://doi.org/10.1016/j.cma.2013.07.004>`_."
 msgstr ""
 

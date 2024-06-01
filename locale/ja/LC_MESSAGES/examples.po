@@ -252,6 +252,8 @@ msgid ""
 ":download:`Download Jupyter notebook: ex02_plate-with-hole.ipynb "
 "<ex02_plate-with-hole.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex02_plate-with-hole.ipynb "
+"<ex02_plate-with-hole.ipynb>`"
 
 #: ../../felupe/docs/examples/ex02_plate-with-hole.rst:184
 msgid ""
@@ -341,6 +343,8 @@ msgid ""
 ":download:`Download Jupyter notebook: ex03_plasticity.ipynb "
 "<ex03_plasticity.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex03_plasticity.ipynb "
+"<ex03_plasticity.ipynb>`"
 
 #: ../../felupe/docs/examples/ex03_plasticity.rst:148
 msgid ""
@@ -443,6 +447,8 @@ msgid ""
 ":download:`Download Jupyter notebook: ex04_balloon.ipynb "
 "<ex04_balloon.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex04_balloon.ipynb "
+"<ex04_balloon.ipynb>`"
 
 #: ../../felupe/docs/examples/ex04_balloon.rst:193
 msgid ""
@@ -519,6 +525,8 @@ msgid ""
 ":download:`Download Jupyter notebook: ex05_rubber-metal-bushing.ipynb "
 "<ex05_rubber-metal-bushing.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex05_rubber-metal-bushing.ipynb "
+"<ex05_rubber-metal-bushing.ipynb>`"
 
 #: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:192
 msgid ""
@@ -624,6 +632,8 @@ msgid ""
 ":download:`Download Jupyter notebook: ex06_rubber-metal-spring.ipynb "
 "<ex06_rubber-metal-spring.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex06_rubber-metal-spring.ipynb "
+"<ex06_rubber-metal-spring.ipynb>`"
 
 #: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:234
 msgid ""
@@ -736,6 +746,8 @@ msgid ""
 ":download:`Download Jupyter notebook: ex07_engine-mount.ipynb <ex07_engine-"
 "mount.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex07_engine-mount.ipynb <ex07_engine-"
+"mount.ipynb>`"
 
 #: ../../felupe/docs/examples/ex07_engine-mount.rst:243
 msgid ""
@@ -859,6 +871,7 @@ msgstr ""
 msgid ""
 ":download:`Download Jupyter notebook: ex08_shear.ipynb <ex08_shear.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex08_shear.ipynb <ex08_shear.ipynb>`"
 
 #: ../../felupe/docs/examples/ex08_shear.rst:259
 msgid ":download:`Download Python source code: ex08_shear.py <ex08_shear.py>`"
@@ -938,6 +951,8 @@ msgid ""
 ":download:`Download Jupyter notebook: ex09_numeric-continuation.ipynb "
 "<ex09_numeric-continuation.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex09_numeric-continuation.ipynb "
+"<ex09_numeric-continuation.ipynb>`"
 
 #: ../../felupe/docs/examples/ex09_numeric-continuation.rst:227
 msgid ""
@@ -1010,6 +1025,8 @@ msgid ""
 ":download:`Download Jupyter notebook: ex10_poisson-equation.ipynb "
 "<ex10_poisson-equation.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex10_poisson-equation.ipynb "
+"<ex10_poisson-equation.ipynb>`"
 
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:108
 msgid ""
@@ -1079,6 +1096,8 @@ msgid ""
 ":download:`Download Jupyter notebook: ex11_notch-stress.ipynb <ex11_notch-"
 "stress.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex11_notch-stress.ipynb <ex11_notch-"
+"stress.ipynb>`"
 
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:136
 msgid ""
@@ -1101,6 +1120,8 @@ msgid ""
 ":download:`Download Jupyter notebook: ex12_foot-bone.ipynb <ex12_foot-"
 "bone.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex12_foot-bone.ipynb <ex12_foot-"
+"bone.ipynb>`"
 
 #: ../../felupe/docs/examples/ex12_foot-bone.rst:88
 msgid ""
@@ -1354,6 +1375,8 @@ msgid ""
 ":download:`Download Jupyter notebook: ex13_morph-rubber-wheel.ipynb "
 "<ex13_morph-rubber-wheel.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex13_morph-rubber-wheel.ipynb "
+"<ex13_morph-rubber-wheel.ipynb>`"
 
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:358
 msgid ""
@@ -1482,6 +1505,8 @@ msgid ""
 ":download:`Download Jupyter notebook: ex14_hyperelasticity.ipynb "
 "<ex14_hyperelasticity.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex14_hyperelasticity.ipynb "
+"<ex14_hyperelasticity.ipynb>`"
 
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:231
 msgid ""
@@ -1518,6 +1543,8 @@ msgid ""
 ":download:`Download Jupyter notebook: ex15_hexmesh-metacone.ipynb "
 "<ex15_hexmesh-metacone.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex15_hexmesh-metacone.ipynb "
+"<ex15_hexmesh-metacone.ipynb>`"
 
 #: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:91
 msgid ""
@@ -1584,6 +1611,8 @@ msgid ""
 ":download:`Download Jupyter notebook: ex16_deeplearning-torch.ipynb "
 "<ex16_deeplearning-torch.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex16_deeplearning-torch.ipynb "
+"<ex16_deeplearning-torch.ipynb>`"
 
 #: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:171
 msgid ""
@@ -1649,6 +1678,8 @@ msgid ""
 ":download:`Download Jupyter notebook: ex17_torsion-gif.ipynb <ex17_torsion-"
 "gif.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex17_torsion-gif.ipynb <ex17_torsion-"
+"gif.ipynb>`"
 
 #: ../../felupe/docs/examples/ex17_torsion-gif.rst:141
 msgid ""
@@ -1698,6 +1729,8 @@ msgid ""
 ":download:`Download Jupyter notebook: ex18_nonlinear-viscoelasticity-"
 "newton.ipynb <ex18_nonlinear-viscoelasticity-newton.ipynb>`"
 msgstr ""
+":download:`Download Jupyter notebook: ex18_nonlinear-viscoelasticity-"
+"newton.ipynb <ex18_nonlinear-viscoelasticity-newton.ipynb>`"
 
 #: ../../felupe/docs/examples/ex18_nonlinear-viscoelasticity-newton.rst:160
 msgid ""
