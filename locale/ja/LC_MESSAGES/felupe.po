@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-01 00:09+0000\n"
+"POT-Creation-Date: 2024-06-02 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -830,9 +830,6 @@ msgstr ""
 #: of felupe.constitution.hyperelasticity.models._neo_hooke.neo_hooke:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden.pydocstring
 #: of felupe.constitution.hyperelasticity.models._ogden.ogden:13
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_saint_venant_kirchhoff.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity.models._saint_venant_kirchhoff.saint_venant_kirchhoff:13
@@ -1163,7 +1160,7 @@ msgstr ""
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:81
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/core/_ogden_roxburgh.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.core._ogden_roxburgh.OgdenRoxburgh:35
+#: felupe.constitution.hyperelasticity.core._ogden_roxburgh.OgdenRoxburgh:31
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/core/_volumetric.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:81
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_alexander.pydocstring
@@ -1193,7 +1190,7 @@ msgstr ""
 #: of felupe.constitution.hyperelasticity.models._ogden.ogden:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:53
+#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_saint_venant_kirchhoff.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity.models._saint_venant_kirchhoff.saint_venant_kirchhoff:33
@@ -6366,20 +6363,9 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/core/_ogden_roxburgh.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.core._ogden_roxburgh.OgdenRoxburgh:19
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:28
+#: felupe.constitution.hyperelasticity.core._ogden_roxburgh.OgdenRoxburgh:18
 msgid ""
-"This implementation uses the hyperbolic tangent instead of the Gauss error "
-"function."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/core/_ogden_roxburgh.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._ogden_roxburgh.OgdenRoxburgh:22
-msgid ""
-"\\eta(\\psi, \\psi_\\text{max}) &= 1 - \\frac{1}{r} \\tanh \\left(\n"
+"\\eta(\\psi, \\psi_\\text{max}) &= 1 - \\frac{1}{r} \\text{erf} \\left(\n"
 "    \\frac{\\psi_\\text{max} - \\psi}{m + \\beta~\\psi_\\text{max}}\n"
 "\\right)\n"
 "\n"
@@ -6389,15 +6375,6 @@ msgid ""
 "\\boldsymbol{F}} + \\frac{\\partial \\eta}{\\partial \\psi} \\frac{\\partial \\psi}\n"
 "{\\partial \\boldsymbol{F}} \\otimes \\frac{\\partial \\psi}{\\partial \\boldsymbol{F}}"
 msgstr ""
-"\\eta(\\psi, \\psi_\\text{max}) &= 1 - \\frac{1}{r} \\tanh \\left(\n"
-"    \\frac{\\psi_\\text{max} - \\psi}{m + \\beta~\\psi_\\text{max}}\n"
-"\\right)\n"
-"\n"
-"\\boldsymbol{P} &= \\eta \\frac{\\partial \\psi}{\\partial \\boldsymbol{F}}\n"
-"\n"
-"\\mathbb{A} &= \\frac{\\partial^2 \\psi}{\\partial \\boldsymbol{F} \\partial\n"
-"\\boldsymbol{F}} + \\frac{\\partial \\eta}{\\partial \\psi} \\frac{\\partial \\psi}\n"
-"{\\partial \\boldsymbol{F}} \\otimes \\frac{\\partial \\psi}{\\partial \\boldsymbol{F}}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/_mixed.pydocstring
 #: of felupe.constitution._mixed.ThreeFieldVariation:1
@@ -7877,41 +7854,55 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:31
+#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:24
 msgid ""
-"The pseudo-elastic strain energy density function :math:`\\widetilde{\\psi}`"
-" and the Mullins-effect related evolution equation are given in Eq. "
-":eq:`psi-ogden-roxburgh`. The variation of the functional :math:`\\phi` is "
-"defined in such a way that the term :math:`\\delta \\eta \\ \\hat{\\psi}` is"
-" canceled in the variation of the strain energy function:math:`\\delta "
-"\\psi`. The evolution equation`:math:`\\eta` acts as a deformation and "
-"deformation-history dependent scaling factor on the variation of the "
-"distortional part of the strain energy density function."
+":param The pseudo-elastic strain energy density function "
+":math:`\\widetilde{\\psi}` and the: :param Mullins-effect related evolution "
+"equation are given in Eq. :eq:`psi-ogden-roxburgh`.: :param The variation of"
+" the functional :math:`\\phi` is defined in such a way that the term: :param"
+" :math:`\\delta \\eta \\ \\hat{\\psi}` is canceled in the variation of the "
+"strain energy: :param function:math:`\\delta \\psi`. The evolution "
+"equation`:math:`\\eta` acts as a: :param deformation and deformation-history"
+" dependent scaling factor on the variation of the: :param distortional part "
+"of the strain energy density function.: :param ..  math::: :label: psi-"
+"ogden-roxburgh"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:33
+msgid "\\widetilde{\\psi} &= \\eta \\hat{\\psi} + \\phi"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:35
+msgid "\\eta(\\hat{\\psi}, \\hat{\\psi}_\\text{max}) &= 1 - \\frac{1}{r} \\text{erf} \\left("
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:36
+msgid "\\frac{\\hat{\\psi}_\\text{max} - \\psi}{m + \\beta~\\hat{\\psi}_\\text{max}}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:37
+msgid "\\right)"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:39
-msgid ""
-"\\widetilde{\\psi} &= \\eta \\hat{\\psi} + \\phi\n"
-"\n"
-"\\eta(\\hat{\\psi}, \\hat{\\psi}_\\text{max}) &= 1 - \\frac{1}{r} \\tanh \\left(\n"
-"    \\frac{\\hat{\\psi}_\\text{max} - \\psi}{m + \\beta~\\hat{\\psi}_\\text{max}}\n"
-"\\right)\n"
-"\n"
-"\\delta \\widetilde{\\psi} &= -\\delta \\eta \\ \\hat{\\psi}\n"
-"\n"
-"\\delta \\widetilde{\\psi} &= \\eta \\ \\delta \\hat{\\psi}"
+msgid "\\delta \\widetilde{\\psi} &= -\\delta \\eta \\ \\hat{\\psi}"
 msgstr ""
-"\\widetilde{\\psi} &= \\eta \\hat{\\psi} + \\phi\n"
-"\n"
-"\\eta(\\hat{\\psi}, \\hat{\\psi}_\\text{max}) &= 1 - \\frac{1}{r} \\tanh \\left(\n"
-"    \\frac{\\hat{\\psi}_\\text{max} - \\psi}{m + \\beta~\\hat{\\psi}_\\text{max}}\n"
-"\\right)\n"
-"\n"
-"\\delta \\widetilde{\\psi} &= -\\delta \\eta \\ \\hat{\\psi}\n"
-"\n"
-"\\delta \\widetilde{\\psi} &= \\eta \\ \\delta \\hat{\\psi}"
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:41
+msgid "\\delta \\widetilde{\\psi} &= \\eta \\ \\delta \\hat{\\psi}"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_saint_venant_kirchhoff.pydocstring
 #: of
@@ -15033,7 +15024,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mesh/_geometry.pydocstring
 #: of felupe.mesh._geometry.RectangleArbitraryOrderQuad:1
 msgid ""
-"A rectangular 2d-mesh with an arbitrarr-order Lagrange quad between ``a`` "
+"A rectangular 2d-mesh with an arbitrary-order Lagrange quad between ``a`` "
 "and ``b``."
 msgstr ""
 
@@ -15049,7 +15040,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mesh/_geometry.pydocstring
 #: of felupe.mesh._geometry.CubeArbitraryOrderHexahedron:1
 msgid ""
-"A rectangular 2d-mesh with an arbitrarr-order Lagrange hexahedron between "
+"A rectangular 2d-mesh with an arbitrary-order Lagrange hexahedron between "
 "``a`` and ``b``."
 msgstr ""
 
