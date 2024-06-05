@@ -8,6 +8,6 @@ step = fem.Step(
 
 # take care of the x0-argument
 job = fem.Job(steps=[step])
-job.evaluate(x0=field, filename="result.xdmf")
+job.evaluate(x0=field)
 
 field.plot("Principal Values of Logarithmic Strain").show()

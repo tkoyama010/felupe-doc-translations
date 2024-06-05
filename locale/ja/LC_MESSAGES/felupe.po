@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-02 00:09+0000\n"
+"POT-Creation-Date: 2024-06-05 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -82,7 +82,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/assembly.rst:20
 msgid ""
 "Take arrays for some pre-defined weak-forms and integrate them into dense or"
-" assembly them into sparse vectors or matrices."
+" assemble them into sparse vectors or matrices."
 msgstr ""
 
 #: ../../felupe/docs/felupe/assembly.rst:31:<autosummary>:1
@@ -830,6 +830,9 @@ msgstr ""
 #: of felupe.constitution.hyperelasticity.models._neo_hooke.neo_hooke:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden.pydocstring
 #: of felupe.constitution.hyperelasticity.models._ogden.ogden:13
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_saint_venant_kirchhoff.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity.models._saint_venant_kirchhoff.saint_venant_kirchhoff:13
@@ -1190,7 +1193,7 @@ msgstr ""
 #: of felupe.constitution.hyperelasticity.models._ogden.ogden:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:44
+#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:49
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_saint_venant_kirchhoff.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity.models._saint_venant_kirchhoff.saint_venant_kirchhoff:33
@@ -1339,7 +1342,7 @@ msgstr ""
 #: of
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:237
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_solidbody_pressure.pydocstring
-#: of felupe.mechanics._solidbody_pressure.SolidBodyPressure:17
+#: of felupe.mechanics._solidbody_pressure.SolidBodyPressure:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.Step:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mesh/__init__.pydocstring
@@ -1501,7 +1504,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_templates.pydocstring
 #: of felupe.region._templates.RegionTriangleMINI:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:102
+#: of felupe.tools._newton.newtonrhapson:112
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.project:90
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_save.pydocstring
@@ -7854,54 +7857,31 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:24
+#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:27
 msgid ""
-":param The pseudo-elastic strain energy density function "
-":math:`\\widetilde{\\psi}` and the: :param Mullins-effect related evolution "
-"equation are given in Eq. :eq:`psi-ogden-roxburgh`.: :param The variation of"
-" the functional :math:`\\phi` is defined in such a way that the term: :param"
-" :math:`\\delta \\eta \\ \\hat{\\psi}` is canceled in the variation of the "
-"strain energy: :param function:math:`\\delta \\psi`. The evolution "
-"equation`:math:`\\eta` acts as a: :param deformation and deformation-history"
-" dependent scaling factor on the variation of the: :param distortional part "
-"of the strain energy density function.: :param ..  math::: :label: psi-"
-"ogden-roxburgh"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:33
-msgid "\\widetilde{\\psi} &= \\eta \\hat{\\psi} + \\phi"
+"The pseudo-elastic strain energy density function :math:`\\widetilde{\\psi}`"
+" and the Mullins-effect related evolution equation are given in Eq. "
+":eq:`psi-ogden-roxburgh`. The variation of the functional :math:`\\phi` is "
+"defined in such a way that the term :math:`\\delta \\eta \\ \\hat{\\psi}` is"
+" canceled in the variation of the strain energy function:math:`\\delta "
+"\\psi`. The evolution equation`:math:`\\eta` acts as a deformation and "
+"deformation-history dependent scaling factor on the variation of the "
+"distortional part of the strain energy density function."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:35
-msgid "\\eta(\\hat{\\psi}, \\hat{\\psi}_\\text{max}) &= 1 - \\frac{1}{r} \\text{erf} \\left("
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:36
-msgid "\\frac{\\hat{\\psi}_\\text{max} - \\psi}{m + \\beta~\\hat{\\psi}_\\text{max}}"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:37
-msgid "\\right)"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:39
-msgid "\\delta \\widetilde{\\psi} &= -\\delta \\eta \\ \\hat{\\psi}"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:41
-msgid "\\delta \\widetilde{\\psi} &= \\eta \\ \\delta \\hat{\\psi}"
+msgid ""
+"\\widetilde{\\psi} &= \\eta \\hat{\\psi} + \\phi\n"
+"\n"
+"\\eta(\\hat{\\psi}, \\hat{\\psi}_\\text{max}) &= 1 - \\frac{1}{r} \\text{erf} \\left(\n"
+"    \\frac{\\hat{\\psi}_\\text{max} - \\psi}{m + \\beta~\\hat{\\psi}_\\text{max}}\n"
+"\\right)\n"
+"\n"
+"\\delta \\widetilde{\\psi} &= -\\delta \\eta \\ \\hat{\\psi}\n"
+"\n"
+"\\delta \\widetilde{\\psi} &= \\eta \\ \\delta \\hat{\\psi}"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_saint_venant_kirchhoff.pydocstring
@@ -9174,7 +9154,7 @@ msgstr ""
 #: of felupe.dof._boundary.Boundary:29
 msgid ""
 "A string which defines the logical operation for the selected points per "
-"axis (default is `or`)."
+"axis (default is ``\"or\"``)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/dof/_boundary.pydocstring
@@ -14457,7 +14437,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_solidbody_pressure.pydocstring
-#: of felupe.mechanics._solidbody_pressure.SolidBodyPressure:11
+#: of felupe.mechanics._solidbody_pressure.SolidBodyPressure:12
+msgid ""
+"The pressure is always given as normal force per deformed **area**. This is "
+"important for axisymmetric problems."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_solidbody_pressure.pydocstring
+#: of felupe.mechanics._solidbody_pressure.SolidBodyPressure:15
 msgid ""
 "\\delta W_{ext} = \\int_{\\partial V}\n"
 "    \\delta \\boldsymbol{u} \\cdot p J \\boldsymbol{F}^{-T} \\ d\\boldsymbol{A}"
@@ -18773,7 +18760,7 @@ msgstr ""
 msgid ""
 "Nonlinear equilibrium equations :math:`f(x)` as a function of the unknowns "
 ":math:`x` are solved by linearization of :math:`f` at a valid starting point"
-" of given unknowns :math:`x_0`."
+" of given unknowns :math:`x_0`, see Eq. :eq:`newton-x0`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
@@ -18782,74 +18769,78 @@ msgid "f(x_0) = 0"
 msgstr "f(x_0) = 0"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:61
-msgid "The linearization is given by"
+#: of felupe.tools._newton.newtonrhapson:62
+msgid "The linearization is given in Eq. :eq:`newton-lin`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:63
+#: of felupe.tools._newton.newtonrhapson:64
 msgid "f(x_0 + dx) \\approx f(x_0) + K(x_0) \\ dx \\ (= 0)"
 msgstr "f(x_0 + dx) \\approx f(x_0) + K(x_0) \\ dx \\ (= 0)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:67
-msgid "with the Jacobian, evaluated at given unknowns :math:`x_0`,"
+#: of felupe.tools._newton.newtonrhapson:69
+msgid ""
+"with the Jacobian as in Eq. :eq:`newton-jac`, evaluated at given unknowns "
+":math:`x_0`,"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:69
+#: of felupe.tools._newton.newtonrhapson:72
 msgid "K(x_0) = \\frac{\\partial f}{\\partial x}(x_0)"
 msgstr "K(x_0) = \\frac{\\partial f}{\\partial x}(x_0)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:73
+#: of felupe.tools._newton.newtonrhapson:77
 msgid ""
-"and is rearranged to an equation system with left- and right-hand sides."
+"and is rearranged to an equation system with left- and right-hand sides, see"
+" Eq. :eq:`newton-lhs-rhs`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:75
+#: of felupe.tools._newton.newtonrhapson:80
 msgid "K(x_0) \\ dx = -f(x_0)"
 msgstr "K(x_0) \\ dx = -f(x_0)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:79
-msgid "After a solution is found, the unknowns are updated."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:81
+#: of felupe.tools._newton.newtonrhapson:85
 msgid ""
-"dx &= \\text{solve} \\left( K(x_0), -f(x_0) \\right)\n"
-"\n"
-"x &= x_0 + dx"
+"After a solution is found, the unknowns are updated, see Eq. :eq:`newton-"
+"update-0`."
 msgstr ""
-"dx &= \\text{solve} \\left( K(x_0), -f(x_0) \\right)\n"
-"\n"
-"x &= x_0 + dx"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonrhapson:87
 msgid ""
-"Repeated evaluations lead to an incrementally updated solution of :math:`x`."
-" Herein :math:`x_n` refer to the inital unknowns whereas :math:`x` are the "
-"updated unknowns (the subscript :math:`(\\bullet)_{n+1}` is dropped for "
-"readability)."
+"dx &= \\text{solve} \\left( K(x_0), -f(x_0) \\right) \\nonumber\n"
+"\n"
+"x &= x_0 + dx"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:91
+#: of felupe.tools._newton.newtonrhapson:94
 msgid ""
-"dx &= \\text{solve} \\left( K(x_n), -f(x_n) \\right)\n"
+"Repeated evaluations lead to an incrementally updated solution of :math:`x`."
+" Herein, :math:`x_n` refer to the inital unknowns whereas :math:`x` are the "
+"updated unknowns, see Eq. :eq:`newton-update`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonrhapson:99
+msgid ""
+"The subscript :math:`(\\bullet)_{n+1}` is dropped for easier readability."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonrhapson:101
+msgid ""
+"dx &= \\text{solve} \\left( K(x_n), -f(x_n) \\right) \\nonumber\n"
 "\n"
 " x &= x_n + dx"
 msgstr ""
-"dx &= \\text{solve} \\left( K(x_n), -f(x_n) \\right)\n"
-"\n"
-" x &= x_n + dx"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:98
+#: of felupe.tools._newton.newtonrhapson:108
 msgid ""
 "Then, the nonlinear equilibrium equations are evaluated with the updated "
 "unknowns :math:`f(x)`. The procedure is repeated until convergence is "
@@ -18857,18 +18848,18 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:124
+#: of felupe.tools._newton.newtonrhapson:134
 msgid "Newton's method had success"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:129
+#: of felupe.tools._newton.newtonrhapson:139
 msgid ""
 "and 4 iterations were needed to converge within the specified tolerance."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:134
+#: of felupe.tools._newton.newtonrhapson:144
 msgid ""
 "The norm of the objective function for all active degrees of freedom is "
 "lower than 3e-15."
