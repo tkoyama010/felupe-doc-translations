@@ -36,6 +36,8 @@ msgid ""
 "some classes or functions are only available in their respective submodule "
 "namespace due to naming conflicts, e.g."
 msgstr ""
+"FElupeはいくつかの（サブ）モジュールから構成されています。関連する関数やクラスは、可能な限り FElupe "
+"のグローバル名前空間で利用できます。しかし、いくつかのクラスや関数は、名前の衝突のため、それぞれのサブモジュールの名前空間でしか利用できません。例えば、"
 
 #: ../../felupe/docs/felupe.rst:8
 msgid ""

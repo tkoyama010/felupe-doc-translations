@@ -182,7 +182,7 @@ msgstr "線形弾塑性平面応力材料で固体を定義します"
 
 #: ../../felupe/docs/examples/ex02_plate-with-hole.rst:30
 msgid "create an external pressure load"
-msgstr ""
+msgstr "外圧負荷を作成します"
 
 #: ../../felupe/docs/examples/ex02_plate-with-hole.rst:32
 msgid "export and plot stress results"
