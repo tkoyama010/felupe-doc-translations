@@ -120,13 +120,15 @@ msgstr "チュートリアル"
 msgid ""
 "This section is all about learning. Each tutorial focuses on some lessons to"
 " learn."
-msgstr ""
+msgstr "このセクションはすべて学習についてです。それぞれのチュートリアルは、学ぶべきいくつかのレッスンに焦点を当てています。"
 
 #: ../../felupe/docs/tutorial/extut01_getting_started.rst:13
 msgid ""
 ":ref:`Go to the end <sphx_glr_download_tutorial_extut01_getting_started.py>`"
 " to download the full example code."
 msgstr ""
+"完全なサンプルコードをダウンロードするには、 :ref:`最後に進んでください。 "
+"<sphx_glr_download_tutorial_extut01_getting_started.py>`"
 
 #: ../../felupe/docs/tutorial/extut01_getting_started.rst:22
 msgid "Getting Started"
