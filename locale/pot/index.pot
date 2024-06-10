@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-25 23:02+0000\n"
+"POT-Creation-Date: 2024-06-10 00:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -177,7 +177,7 @@ msgid "`tensortrax <https://github.com/adtzlr/tensortrax>`_"
 msgstr ""
 
 #: ../../felupe/docs/index.rst:89
-msgid "Math on Hyper-Dual Tensors with Trailing Axes (bundled with FElupe)"
+msgid "Differentiable Tensors based on NumPy Arrays (bundled with FElupe)"
 msgstr ""
 
 #: ../../felupe/docs/index.rst:92

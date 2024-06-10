@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-25 23:02+0000\n"
+"POT-Creation-Date: 2024-06-10 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -233,8 +233,8 @@ msgid "`tensortrax <https://github.com/adtzlr/tensortrax>`_"
 msgstr "`tensortrax <https://github.com/adtzlr/tensortrax>`_"
 
 #: ../../felupe/docs/index.rst:89
-msgid "Math on Hyper-Dual Tensors with Trailing Axes (bundled with FElupe)"
-msgstr "後続軸を持つ超2重テンソルに関する数学(FElupeにバンドル)"
+msgid "Differentiable Tensors based on NumPy Arrays (bundled with FElupe)"
+msgstr ""
 
 #: ../../felupe/docs/index.rst:92
 msgid "`feplot <https://github.com/ZAARAOUI999/feplot>`_"

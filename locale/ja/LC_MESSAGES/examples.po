@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:10+0000\n"
+"POT-Creation-Date: 2024-06-10 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -65,22 +65,22 @@ msgstr ""
 "まず、1軸あたり ``n=(181, 9, 9)`` "
 "点の6面体セルからメッシュ状の立方体を作りましょう。メッシュ上に作成した数値領域が片持ち梁を表します。この領域に3次元のベクトル値変位フィールドを作成します。"
 
-#: ../../felupe/docs/examples/ex01_beam.rst:55
+#: ../../felupe/docs/examples/ex01_beam.rst:56
 msgid "A fixed boundary condition is applied on the left end of the beam."
 msgstr "梁の左端に固定境界条件が適用されます。"
 
-#: ../../felupe/docs/examples/ex01_beam.rst:66
+#: ../../felupe/docs/examples/ex01_beam.rst:67
 msgid ""
 "The material behaviour is defined through a built-in isotropic linear-"
 "elastic material formulation."
 msgstr "材料の挙動は、組み込みの等方性線形弾性材料定式化によって定義されます。"
 
-#: ../../felupe/docs/examples/ex01_beam.rst:79
+#: ../../felupe/docs/examples/ex01_beam.rst:80
 msgid ""
 "The body force is defined by a (constant) gravity field on a solid body."
 msgstr "物体力は、固体上の(一定の)重力場によって定義されます。"
 
-#: ../../felupe/docs/examples/ex01_beam.rst:81
+#: ../../felupe/docs/examples/ex01_beam.rst:82
 msgid ""
 "\\delta W_{ext} = \\int_v \\delta \\boldsymbol{u} \\cdot \\rho \\boldsymbol{g} ~ dv\n"
 "\n"
@@ -88,7 +88,7 @@ msgstr ""
 "\\delta W_{ext} = \\int_v \\delta \\boldsymbol{u} \\cdot \\rho \\boldsymbol{g} ~ dv\n"
 "\n"
 
-#: ../../felupe/docs/examples/ex01_beam.rst:93
+#: ../../felupe/docs/examples/ex01_beam.rst:94
 msgid ""
 "Inside a Newton-Rhapson procedure, the weak form of linear elasticity is "
 "assembled into the stiffness matrix and the applied gravity field is "
@@ -96,20 +96,20 @@ msgid ""
 msgstr ""
 "Newton-Rhapson法の内部では、線形弾性の弱形式が剛性マトリックスに組み立てられ、適用される重力場が物体力ベクトルに組み立てられます。"
 
-#: ../../felupe/docs/examples/ex01_beam.rst:107
+#: ../../felupe/docs/examples/ex01_beam.rst:108
 msgid ""
 "The magnitude of the displacement field are plotted on a 300x scaled "
 "deformed configuration."
 msgstr "変位フィールドの大きさは、300倍に拡大された変形形状上にプロットされています。"
 
-#: ../../felupe/docs/examples/ex01_beam.rst:120
+#: ../../felupe/docs/examples/ex01_beam.rst:121
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:329
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:205
 #: ../../felupe/docs/examples/ex18_nonlinear-viscoelasticity-newton.rst:137
 msgid "References"
 msgstr "参考資料"
 
-#: ../../felupe/docs/examples/ex01_beam.rst:121
+#: ../../felupe/docs/examples/ex01_beam.rst:122
 msgid ""
 "Glenk C. et al., *Consideration of Body Forces within Finite Element "
 "Analysis*, Strojniški vestnik - Journal of Mechanical Engineering, Faculty "
@@ -119,21 +119,21 @@ msgstr ""
 "Analysis*, Strojniški vestnik - Journal of Mechanical Engineering, Faculty "
 "of Mechanical Engineering, 2018, |DOI|."
 
-#: ../../felupe/docs/examples/ex01_beam.rst:125
+#: ../../felupe/docs/examples/ex01_beam.rst:126
 msgid "DOI"
 msgstr "DOI"
 
-#: ../../felupe/docs/examples/ex01_beam.rst:137
+#: ../../felupe/docs/examples/ex01_beam.rst:138
 msgid ""
 ":download:`Download Jupyter notebook: ex01_beam.ipynb <ex01_beam.ipynb>`"
 msgstr ""
 ":download:`Download Jupyter notebook: ex01_beam.ipynb <ex01_beam.ipynb>`"
 
-#: ../../felupe/docs/examples/ex01_beam.rst:141
+#: ../../felupe/docs/examples/ex01_beam.rst:142
 msgid ":download:`Download Python source code: ex01_beam.py <ex01_beam.py>`"
 msgstr ":download:`Download Python source code: ex01_beam.py <ex01_beam.py>`"
 
-#: ../../felupe/docs/examples/ex01_beam.rst:148
+#: ../../felupe/docs/examples/ex01_beam.rst:149
 #: ../../felupe/docs/examples/ex02_plate-with-hole.rst:191
 #: ../../felupe/docs/examples/ex03_plasticity.rst:155
 #: ../../felupe/docs/examples/ex04_balloon.rst:200

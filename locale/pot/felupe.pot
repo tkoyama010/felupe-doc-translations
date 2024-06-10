@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-05 00:09+0000\n"
+"POT-Creation-Date: 2024-06-10 00:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,7 +122,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/assembly.rst:46
 #: ../../felupe/docs/felupe/constitution.rst:34
 #: ../../felupe/docs/felupe/constitution/core.rst:49
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:36
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:41
 #: ../../felupe/docs/felupe/constitution/lagrange.rst:25
 #: ../../felupe/docs/felupe/constitution/tools.rst:33
 #: ../../felupe/docs/felupe/dof.rst:33
@@ -523,7 +523,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/quadrature/_tetra.py:docstring of felupe.quadrature._tetra.Tetrahedron:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/quadrature/_triangle.py:docstring of felupe.quadrature._triangle.Triangle:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:95
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:82
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:86
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.py:docstring of felupe.tools._newton.NewtonResult:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.py:docstring of felupe.tools._newton.newtonrhapson:52
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_project.py:docstring of felupe.tools._project.project:26
@@ -752,9 +752,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/quadrature/_tetra.py:docstring of felupe.quadrature._tetra.Tetrahedron:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/quadrature/_triangle.py:docstring of felupe.quadrature._triangle.Triangle:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:112
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.reload:12
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:99
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.reload:12
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.reload:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:103
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.reload:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionBiQuadraticQuad:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionHexahedron:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionHexahedronBoundary:4
@@ -2474,7 +2474,7 @@ msgid ":py:obj:`OgdenRoxburgh <felupe.OgdenRoxburgh>`\\ \\(material\\, r\\, m\\,
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:33:<autosummary>:1
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/core/_ogden_roxburgh.py:docstring of felupe.constitution.hyperelasticity.core._ogden_roxburgh.OgdenRoxburgh:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.py:docstring of felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:1
 msgid "`Ogden-Roxburgh <https://doi.org/10.1098%2Frspa.1999.0431>`_ Pseudo-Elastic material formulation for an isotropic treatment of the load-history dependent Mullins-softening of rubber-like materials."
@@ -3493,159 +3493,163 @@ msgid "Hyperelasticity"
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:6
-msgid "This page contains hyperelastic material model formulations with automatic differentiation using `tensortrax <https://github.com/adtzlr/tensortrax>`_. These material model formulations are defined by a strain energy density function."
+msgid "This page contains hyperelastic material model formulations with automatic differentiation using :mod:`tensortrax`. These material model formulations are defined by a strain energy density function."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:8
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:11
+msgid "Differentiable Tensors based on NumPy Arrays."
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:13
 #: ../../felupe/docs/felupe/constitution/lagrange.rst:8
 msgid "**Frameworks**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:15:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:20:<autosummary>:1
 msgid ":py:obj:`Hyperelastic <felupe.Hyperelastic>`\\ \\(fun\\[\\, nstatevars\\, parallel\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:15:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:20:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/_hyperelastic.py:docstring of felupe.constitution.hyperelasticity._hyperelastic.Hyperelastic:1
-msgid "A hyperelastic material definition with a given function for the strain energy density function per unit undeformed volume with Automatic Differentiation provided by ``tensortrax``."
+msgid "A hyperelastic material definition with a given function for the strain energy density function per unit undeformed volume with Automatic Differentiation provided by :mod:`tensortrax`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:16
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:21
 msgid "**Material Models (Strain Energy Functions) for** :class:`~felupe.Hyperelastic`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 msgid ":py:obj:`alexander <felupe.alexander>`\\ \\(C\\, C1\\, C2\\, C3\\, gamma\\, k\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_alexander.py:docstring of felupe.constitution.hyperelasticity.models._alexander.alexander:1
 msgid "Strain energy function of the isotropic hyperelastic `Alexander <https://doi.org/10.1016/0020-7225(68)90006-2>`_ material formulation [1]_."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 msgid ":py:obj:`anssari_benam_bucchi <felupe.anssari_benam_bucchi>`\\ \\(C\\, mu\\, N\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_anssari_benam_bucchi.py:docstring of felupe.constitution.hyperelasticity.models._anssari_benam_bucchi.anssari_benam_bucchi:1
 msgid "Strain energy function of the isotropic hyperelastic generalized Neo-Hookean `Anssari-Benam Bucchi <https://doi.org/10.1016/j.ijnonlinmec.2020.103626>`_ material formulation [1]_."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 msgid ":py:obj:`arruda_boyce <felupe.arruda_boyce>`\\ \\(C\\, C1\\, limit\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_arruda_boyce.py:docstring of felupe.constitution.hyperelasticity.models._arruda_boyce.arruda_boyce:1
 msgid "Strain energy function of the isotropic hyperelastic `Arruda-Boyce <https://en.wikipedia.org/wiki/Arruda-Boyce_model>`_ material formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 msgid ":py:obj:`extended_tube <felupe.extended_tube>`\\ \\(C\\, Gc\\, delta\\, Ge\\, beta\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_extended_tube.py:docstring of felupe.constitution.hyperelasticity.models._extended_tube.extended_tube:1
 msgid "Strain energy function of the isotropic hyperelastic `Extended Tube <https://www.doi.org/10.5254/1.3538822>`_ [1]_ material formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 msgid ":py:obj:`finite_strain_viscoelastic <felupe.finite_strain_viscoelastic>`\\ \\(C\\, Cin\\, mu\\, eta\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_finite_strain_viscoelastic.py:docstring of felupe.constitution.hyperelasticity.models._finite_strain_viscoelastic.finite_strain_viscoelastic:1
 msgid "Multiplicative `finite strain viscoelastic <https://doi.org/10.1016/j.cma.2013.07.004>`_ [1]_ material formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 msgid ":py:obj:`lopez_pamies <felupe.lopez_pamies>`\\ \\(C\\, mu\\, alpha\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_lopez_pamies.py:docstring of felupe.constitution.hyperelasticity.models._lopez_pamies.lopez_pamies:1
 msgid "Strain energy function of the isotropic hyperelastic `Lopez-Pamies <https://doi.org/10.1016/j.crme.2009.12.007>`_ material formulation [1]_."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 msgid ":py:obj:`miehe_goektepe_lulei <felupe.miehe_goektepe_lulei>`\\ \\(C\\, mu\\, N\\, U\\, p\\, q\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_miehe_goektepe_lulei.py:docstring of felupe.constitution.hyperelasticity.models._miehe_goektepe_lulei.miehe_goektepe_lulei:1
 msgid "Strain energy function of the isotropic hyperelastic `micro-sphere <https://doi.org/10.1016/j.jmps.2004.03.011>`_ model formulation [1]_."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 msgid ":py:obj:`mooney_rivlin <felupe.mooney_rivlin>`\\ \\(C\\, C10\\, C01\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_mooney_rivlin.py:docstring of felupe.constitution.hyperelasticity.models._mooney_rivlin.mooney_rivlin:1
 msgid "Strain energy function of the isotropic hyperelastic `Mooney-Rivlin <https://en.wikipedia.org/wiki/Mooney-Rivlin_solid>`_ material formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 msgid ":py:obj:`neo_hooke <felupe.neo_hooke>`\\ \\(C\\, mu\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_neo_hooke.py:docstring of felupe.constitution.hyperelasticity.models._neo_hooke.neo_hooke:1
 msgid "Strain energy function of the isotropic hyperelastic `Neo-Hookean <https://en.wikipedia.org/wiki/Neo-Hookean_solid>`_ material formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 msgid ":py:obj:`ogden <felupe.ogden>`\\ \\(C\\, mu\\, alpha\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_ogden.py:docstring of felupe.constitution.hyperelasticity.models._ogden.ogden:1
 msgid "Strain energy function of the isotropic hyperelastic `Ogden <https://en.wikipedia.org/wiki/Ogden_(hyperelastic_model)>`_ material formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 msgid ":py:obj:`ogden_roxburgh <felupe.ogden_roxburgh>`\\ \\(C\\, Wmax\\_n\\, material\\, r\\, m\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 msgid ":py:obj:`saint_venant_kirchhoff <felupe.saint_venant_kirchhoff>`\\ \\(C\\, mu\\, lmbda\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_saint_venant_kirchhoff.py:docstring of felupe.constitution.hyperelasticity.models._saint_venant_kirchhoff.saint_venant_kirchhoff:1
 msgid "Strain energy function of the isotropic hyperelastic `Saint-Venant Kirchhoff <https://en.wikipedia.org/wiki/Hyperelastic_material#Saint_Venant-Kirchhoff_model>`_ material formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 msgid ":py:obj:`third_order_deformation <felupe.third_order_deformation>`\\ \\(C\\, C10\\, C01\\, C11\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_third_order_deformation.py:docstring of felupe.constitution.hyperelasticity.models._third_order_deformation.third_order_deformation:1
 msgid "Strain energy function of the isotropic hyperelastic `Third-Order-Deformation <https://doi.org/10.1002/app.1975.070190723>`_ material formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 msgid ":py:obj:`van_der_waals <felupe.van_der_waals>`\\ \\(C\\, mu\\, limit\\, a\\, beta\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_van_der_waals.py:docstring of felupe.constitution.hyperelasticity.models._van_der_waals.van_der_waals:1
 msgid "Strain energy function of the `Van der Waals <https://doi.org/10.1016/0032-3861(81)90200-7>`_ [1]_ material formulation.,"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 msgid ":py:obj:`yeoh <felupe.yeoh>`\\ \\(C\\, C10\\, C20\\, C30\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/models/_yeoh.py:docstring of felupe.constitution.hyperelasticity.models._yeoh.yeoh:1
 msgid "Strain energy function of the isotropic hyperelastic `Yeoh <https://en.wikipedia.org/wiki/Yeoh_(hyperelastic_model)>`_ material formulation."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/_hyperelastic.py:docstring of felupe.constitution.hyperelasticity._hyperelastic.Hyperelastic:5
-msgid "A strain energy density function in terms of the right Cauchy-Green deformation tensor :math:`\\boldsymbol{C}`. Function signature must be ``fun = lambda C, **kwargs: psi`` for functions without state variables and ``fun = lambda C, statevars, **kwargs: [psi, statevars_new]`` for functions with state variables. The right Cauchy-Green deformation tensor will be a :class:`tensortrax.Tensor` when the function is evaluated. It is important to only use differentiable math-functions from ``tensortrax.math``!"
+msgid "A strain energy density function in terms of the right Cauchy-Green deformation tensor :math:`\\boldsymbol{C}`. Function signature must be ``fun = lambda C, **kwargs: psi`` for functions without state variables and ``fun = lambda C, statevars, **kwargs: [psi, statevars_new]`` for functions with state variables. The right Cauchy-Green deformation tensor will be a :class:`tensortrax.Tensor` when the function is evaluated. It is important to only use differentiable math-functions from :mod:`tensortrax.math`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/_hyperelastic.py:docstring of felupe.constitution.hyperelasticity._hyperelastic.Hyperelastic:13
@@ -3666,8 +3670,7 @@ msgid "The strain energy density function :math:`\\psi` must be given in terms o
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/_hyperelastic.py:docstring of felupe.constitution.hyperelasticity._hyperelastic.Hyperelastic:28
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/lagrange/_material_ad.py:docstring of felupe.constitution.lagrange._material_ad.MaterialAD:29
-msgid "It is important to only use differentiable math-functions from ``tensortrax.math``!"
+msgid "It is important to only use differentiable math-functions from :mod:`tensortrax.math`!"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/_hyperelastic.py:docstring of felupe.constitution.hyperelasticity._hyperelastic.Hyperelastic:31
@@ -3687,8 +3690,7 @@ msgid "\\psi = \\psi(\\boldsymbol{C}, \\boldsymbol{\\zeta})"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/_hyperelastic.py:docstring of felupe.constitution.hyperelasticity._hyperelastic.Hyperelastic:78
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/lagrange/_material_ad.py:docstring of felupe.constitution.lagrange._material_ad.MaterialAD:81
-msgid "See the `documentation of tensortrax <https://github.com/adtzlr/tensortrax>`_ for further details."
+msgid "See the `documentation of tensortrax <https://tensortrax.readthedocs.io>`_ for further details."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/_hyperelastic.py:docstring of felupe.constitution.hyperelasticity._hyperelastic.Hyperelastic:83
@@ -4376,6 +4378,10 @@ msgstr ""
 msgid "The gradient of the strain energy density function :math:`\\frac{\\partial \\psi}{\\partial \\boldsymbol{F}}` must be given in terms of the deformation gradient tensor :math:`\\boldsymbol{F}`."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/lagrange/_material_ad.py:docstring of felupe.constitution.lagrange._material_ad.MaterialAD:29
+msgid "It is important to only use differentiable math-functions from ``tensortrax.math``!"
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/lagrange/_material_ad.py:docstring of felupe.constitution.lagrange._material_ad.MaterialAD:32
 msgid "\\boldsymbol{P} = \\frac{\\partial \\psi(\\boldsymbol{F}, \\boldsymbol{\\zeta})}{\n"
 "    \\partial \\boldsymbol{F}}"
@@ -4387,6 +4393,10 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/lagrange/_material_ad.py:docstring of felupe.constitution.lagrange._material_ad.MaterialAD:53
 msgid "and this code-block for material formulations with state variables:"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/lagrange/_material_ad.py:docstring of felupe.constitution.lagrange._material_ad.MaterialAD:81
+msgid "See the `documentation of tensortrax <https://github.com/adtzlr/tensortrax>`_ for further details."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/lagrange/models/_morph.py:docstring of felupe.constitution.lagrange.models._morph.morph:6
@@ -4995,12 +5005,12 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:78
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:84
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:92
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:39
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:48
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:57
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:63
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:71
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:79
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:43
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:52
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:61
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:67
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:75
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:83
 msgid "ndarray"
 msgstr ""
 
@@ -8470,7 +8480,7 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/mesh.rst:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:23
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:24
 msgid "Mesh"
 msgstr ""
 
@@ -9714,8 +9724,8 @@ msgid ":obj:`felupe.mesh.triangulate`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._discrete_geometry.DiscreteGeometry.update:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.reload:30
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.reload:30
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.reload:34
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.reload:34
 msgid "Update the mesh with given points and cells arrays inplace. Optionally, a callback is evaluated."
 msgstr ""
 
@@ -9740,8 +9750,8 @@ msgid "If the points of a mesh are modified and a region was already created wit
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._discrete_geometry.DiscreteGeometry.update:32
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.copy:16
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.copy:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.copy:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.copy:20
 msgid ":obj:`felupe.Region.reload`"
 msgstr ""
 
@@ -10394,7 +10404,7 @@ msgid "This module contains the definition of a region as well as a boundary reg
 msgstr ""
 
 #: ../../felupe/docs/felupe/region.rst:14:<autosummary>:1
-msgid ":py:obj:`Region <felupe.Region>`\\ \\(mesh\\, element\\, quadrature\\[\\, grad\\]\\)"
+msgid ":py:obj:`Region <felupe.Region>`\\ \\(mesh\\, element\\, quadrature\\[\\, grad\\, ...\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/region.rst:14:<autosummary>:1
@@ -10567,21 +10577,21 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:4
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:22
 msgid "A mesh with points and cells."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:24
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:28
 msgid "The finite element formulation to be applied on the cells."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:33
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:30
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:34
 msgid "An element-compatible numeric integration scheme with points and weights."
 msgstr ""
 
@@ -10589,52 +10599,56 @@ msgstr ""
 msgid "A flag to invoke gradient evaluation (default is True). If True, the partial derivatives of the element shape functions w.r.t. undeformed coordinates :math:`\\frac{\\partial \\boldsymbol{h}(\\boldsymbol{r})}{\\partial \\boldsymbol{X}}` and the differential volumes :math:`dV` are evaluated."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:15
+msgid "A flag to activate a compressed storage of the element shape functions and their gradients for a uniform grid mesh. This is a performance feature. Default is False."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:29
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:26
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:30
 msgid "Finite element"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:35
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:32
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:36
 msgid "Quadrature scheme"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:39
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:36
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:40
 msgid "Element shape function array ``h_aq`` of shape function ``a`` evaluated at quadrature point ``q``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:46
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:43
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:47
 msgid "Partial derivative of element shape function array ``dhdr_aJq`` with shape function ``a`` w.r.t. natural element coordinate ``J`` evaluated at quadrature point ``q`` for every cell ``c`` (geometric gradient or **Jacobian** transformation between ``X`` and ``r``)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:55
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:52
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:56
 msgid "Geometric gradient ``dXdr_IJqc`` as partial derivative of undeformed coordinate ``I`` w.r.t. natural element coordinate ``J`` evaluated at quadrature point ``q`` for every cell ``c`` (geometric gradient or **Jacobian** transformation between ``X`` and ``r``)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:64
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:61
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:65
 msgid "Inverse of dXdr."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:67
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:71
 msgid "Numeric *differential volume element* as product of determinant of geometric gradient  ``dV_qc = det(dXdr)_qc w_q`` and quadrature weight ``w_q``, evaluated at quadrature point ``q`` for every cell ``c``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:88
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:75
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:79
 msgid "Partial derivative of element shape functions ``dhdX_aJqc`` of shape function ``a`` w.r.t. undeformed coordinate ``J`` evaluated at quadrature point ``q`` for every cell ``c``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:96
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:83
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:87
 msgid "The gradients of the element shape functions w.r.t the undeformed coordinates are evaluated at all integration points of each cell in the region if the optional gradient argument is ``True``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:100
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:87
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:91
 msgid "\\frac{\\partial X_I}{\\partial r_J} &= \\hat{X}_{aI} \\frac{\n"
 "        \\partial h_a}{\\partial r_J\n"
 "    }\n"
@@ -10645,16 +10659,16 @@ msgid "\\frac{\\partial X_I}{\\partial r_J} &= \\hat{X}_{aI} \\frac{\n"
 "dV &= \\det\\left(\\frac{\\partial X_I}{\\partial r_J}\\right) w"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:113
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:117
 msgid "The numeric differential volumes are the products of the determinant of the geometric gradient :math:`\\frac{\\partial X_I}{\\partial r_J}` and the weights `w` of the quadrature points. The differential volume array is of shape ``(nquadraturepoints, ncells)``."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:124
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:128
 msgid "Cell-volumes may be obtained by cell-wise sums of the differential volumes located at the quadrature points."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:155
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:130
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:134
 msgid "The partial derivative of the first element shape function w.r.t. the undeformed coordinates evaluated at the second integration point of the last element of the region:"
 msgstr ""
 
@@ -10684,14 +10698,21 @@ msgstr ""
 msgid "An element-compatible numeric integration scheme with points and weights (default is None)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.copy:11
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.copy:11
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.copy:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.reload:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.copy:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.reload:10
+msgid "A flag to activate a compressed storage of the element shape functions and their gradients for a uniform grid mesh. This is a performance feature. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.copy:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.copy:15
 msgid "A copy of the reloaded region."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.copy:17
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.copy:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.reload:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.copy:17
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.copy:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.reload:1
 msgid "Reload the numeric region inplace."
 msgstr ""
@@ -10701,13 +10722,13 @@ msgstr ""
 msgid "Plot the element with point-ids and the quadrature points, scaled by their weights."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.reload:14
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.reload:14
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.reload:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.reload:18
 msgid "If the points of a mesh are modified and a region was already created with the mesh, it is important to re-evaluate (reload) the :class:`~felupe.Region` inplace."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.reload:29
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.reload:29
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.reload:33
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.reload:33
 msgid ":obj:`felupe.Mesh.update`"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:10+0000\n"
+"POT-Creation-Date: 2024-06-10 00:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,56 +44,56 @@ msgstr ""
 msgid "First, let's create a meshed cube out of hexahedron cells with ``n=(181, 9, 9)`` points per axis. A numeric region created on the mesh represents the cantilever beam. A three- dimensional vector-valued displacement field is initiated on the region."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:55
+#: ../../felupe/docs/examples/ex01_beam.rst:56
 msgid "A fixed boundary condition is applied on the left end of the beam."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:66
+#: ../../felupe/docs/examples/ex01_beam.rst:67
 msgid "The material behaviour is defined through a built-in isotropic linear-elastic material formulation."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:79
+#: ../../felupe/docs/examples/ex01_beam.rst:80
 msgid "The body force is defined by a (constant) gravity field on a solid body."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:81
+#: ../../felupe/docs/examples/ex01_beam.rst:82
 msgid "\\delta W_{ext} = \\int_v \\delta \\boldsymbol{u} \\cdot \\rho \\boldsymbol{g} ~ dv\n"
 "\n"
 ""
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:93
+#: ../../felupe/docs/examples/ex01_beam.rst:94
 msgid "Inside a Newton-Rhapson procedure, the weak form of linear elasticity is assembled into the stiffness matrix and the applied gravity field is assembled into the body force vector."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:107
+#: ../../felupe/docs/examples/ex01_beam.rst:108
 msgid "The magnitude of the displacement field are plotted on a 300x scaled deformed configuration."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:120
+#: ../../felupe/docs/examples/ex01_beam.rst:121
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:329
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:205
 #: ../../felupe/docs/examples/ex18_nonlinear-viscoelasticity-newton.rst:137
 msgid "References"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:121
+#: ../../felupe/docs/examples/ex01_beam.rst:122
 msgid "Glenk C. et al., *Consideration of Body Forces within Finite Element Analysis*, Strojniški vestnik - Journal of Mechanical Engineering, Faculty of Mechanical Engineering, 2018, |DOI|."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:125
+#: ../../felupe/docs/examples/ex01_beam.rst:126
 msgid "DOI"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:137
+#: ../../felupe/docs/examples/ex01_beam.rst:138
 msgid ":download:`Download Jupyter notebook: ex01_beam.ipynb <ex01_beam.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:141
+#: ../../felupe/docs/examples/ex01_beam.rst:142
 msgid ":download:`Download Python source code: ex01_beam.py <ex01_beam.py>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:148
+#: ../../felupe/docs/examples/ex01_beam.rst:149
 #: ../../felupe/docs/examples/ex02_plate-with-hole.rst:191
 #: ../../felupe/docs/examples/ex03_plasticity.rst:155
 #: ../../felupe/docs/examples/ex04_balloon.rst:200

@@ -140,11 +140,11 @@ msgstr "FElupe での最初のステップ。"
 
 #: ../../felupe/docs/tutorial/extut01_getting_started.rst:26
 msgid "create a meshed cube with hexahedron cells"
-msgstr ""
+msgstr "六面体のセルでメッシュ状の立方体を作成します"
 
 #: ../../felupe/docs/tutorial/extut01_getting_started.rst:28
 msgid "define a numeric region along with a displacement field"
-msgstr ""
+msgstr "変位フィールドとともに数値領域を定義する"
 
 #: ../../felupe/docs/tutorial/extut01_getting_started.rst:30
 msgid "load a Neo-Hookean material formulation"
@@ -478,7 +478,7 @@ msgstr ""
 
 #: ../../felupe/docs/tutorial/extut03_building_blocks.rst:245
 msgid "Boundary Conditions"
-msgstr ""
+msgstr "境界条件"
 
 #: ../../felupe/docs/tutorial/extut03_building_blocks.rst:246
 msgid ""
