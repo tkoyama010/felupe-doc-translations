@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-10 00:09+0000\n"
+"POT-Creation-Date: 2024-06-12 00:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,7 +104,7 @@ msgstr ""
 #: ../../felupe/docs/examples/ex09_numeric-continuation.rst:234
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:115
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:143
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:95
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:97
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:365
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:238
 #: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:98
@@ -279,7 +279,7 @@ msgstr ""
 #: ../../felupe/docs/examples/ex08_shear.rst:38
 #: ../../felupe/docs/examples/ex09_numeric-continuation.rst:34
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:36
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:24
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:26
 #: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:37
 msgid "This example requires external packages."
 msgstr ""
@@ -761,11 +761,15 @@ msgstr ""
 msgid "Voxelized Foot Bone"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:84
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:23
+msgid "A :class:`~felupe.Region` on a voxel-based mesh with uniform hexahedrons should be created with ``uniform=True`` to enhance performance."
+msgstr ""
+
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:86
 msgid ":download:`Download Jupyter notebook: ex12_foot-bone.ipynb <ex12_foot-bone.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:88
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:90
 msgid ":download:`Download Python source code: ex12_foot-bone.py <ex12_foot-bone.py>`"
 msgstr ""
 

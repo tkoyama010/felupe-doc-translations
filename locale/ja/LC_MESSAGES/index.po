@@ -38,6 +38,9 @@ msgid ""
 "getting an insight 📖 how a finite element analysis code 🧮 looks like under "
 "the hood 🕳️."
 msgstr ""
+"FElupe は Python 3.8+ 🐍 有限要素解析パッケージです📦 固体の連続体力学🔧 "
+"における非線形問題の定式化と数値解法に焦点を当てています。この名前は、FE (finite element) とドイツ語の *Lupe* 🔍 (虫眼鏡)"
+" を組み合わせたもので、有限要素解析コードがフードの下でどのように 📖 見えるかを理解するための同義語です。🕳️"
 
 #: ../../felupe/docs/index.rst:8
 msgid "🏃 Beginner's Guide"
@@ -231,7 +234,7 @@ msgstr "`tensortrax <https://github.com/adtzlr/tensortrax>`_"
 
 #: ../../felupe/docs/index.rst:89
 msgid "Differentiable Tensors based on NumPy Arrays (bundled with FElupe)"
-msgstr ""
+msgstr "NumPyの配列に基づく微分可能なテンソル（FElupeにバンドル）"
 
 #: ../../felupe/docs/index.rst:92
 msgid "`feplot <https://github.com/ZAARAOUI999/feplot>`_"
