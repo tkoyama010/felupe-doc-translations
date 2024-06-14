@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-10 00:09+0000\n"
+"POT-Creation-Date: 2024-06-14 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -185,7 +185,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution.rst:34
 #: ../../felupe/docs/felupe/constitution/core.rst:49
 #: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:41
-#: ../../felupe/docs/felupe/constitution/lagrange.rst:25
+#: ../../felupe/docs/felupe/constitution/lagrange.rst:30
 #: ../../felupe/docs/felupe/constitution/tools.rst:33
 #: ../../felupe/docs/felupe/dof.rst:33 ../../felupe/docs/felupe/element.rst:49
 #: ../../felupe/docs/felupe/field.rst:27 ../../felupe/docs/felupe/math.rst:65
@@ -6698,16 +6698,17 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:6
 msgid ""
 "This page contains hyperelastic material model formulations with automatic "
-"differentiation using :mod:`tensortrax`. These material model formulations "
-"are defined by a strain energy density function."
+"differentiation using :mod:`tensortrax.math`. These material model "
+"formulations are defined by a strain energy density function."
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:11
+#: ../../felupe/docs/felupe/constitution/lagrange.rst:11
 msgid "Differentiable Tensors based on NumPy Arrays."
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/hyperelasticity.rst:13
-#: ../../felupe/docs/felupe/constitution/lagrange.rst:8
+#: ../../felupe/docs/felupe/constitution/lagrange.rst:13
 msgid "**Frameworks**"
 msgstr ""
 
@@ -8083,30 +8084,29 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution/lagrange.rst:6
 msgid ""
 "This page contains Total- and Updated-Lagrange material formulations with "
-"automatic differentiation using `tensortrax "
-"<https://github.com/adtzlr/tensortrax>`_. The material model formulations "
-"are defined by the first Piola-Kirchhoff stress tensor. Function-decorators "
-"are available to use Total-Lagrange and Updated-Lagrange material "
-"formulations in :class:`~felupe.MaterialAD`."
+"automatic differentiation using :mod:`tensortrax.math`. The material model "
+"formulations are defined by the first Piola-Kirchhoff stress tensor. "
+"Function-decorators are available to use Total-Lagrange and Updated-Lagrange"
+" material formulations in :class:`~felupe.MaterialAD`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/lagrange.rst:17:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/lagrange.rst:22:<autosummary>:1
 msgid ":py:obj:`MaterialAD <felupe.MaterialAD>`\\ \\(fun\\[\\, nstatevars\\, parallel\\]\\)"
 msgstr ""
 ":py:obj:`MaterialAD <felupe.MaterialAD>`\\ \\(fun\\[\\, nstatevars\\, "
 "parallel\\]\\)"
 
-#: ../../felupe/docs/felupe/constitution/lagrange.rst:17:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/lagrange.rst:22:<autosummary>:1
 msgid ""
 "A material definition with a given function for the partial derivative of "
 "the strain energy function w.r.t."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/lagrange.rst:17:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/lagrange.rst:22:<autosummary>:1
 msgid ":py:obj:`total_lagrange <felupe.total_lagrange>`\\ \\(material\\)"
 msgstr ":py:obj:`total_lagrange <felupe.total_lagrange>`\\ \\(material\\)"
 
-#: ../../felupe/docs/felupe/constitution/lagrange.rst:17:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/lagrange.rst:22:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/lagrange/_total_lagrange.pydocstring
 #: of felupe.constitution.lagrange._total_lagrange.total_lagrange:1
 msgid ""
@@ -8114,11 +8114,11 @@ msgid ""
 " as a first Piola-Kirchoff stress function."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/lagrange.rst:17:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/lagrange.rst:22:<autosummary>:1
 msgid ":py:obj:`updated_lagrange <felupe.updated_lagrange>`\\ \\(material\\)"
 msgstr ":py:obj:`updated_lagrange <felupe.updated_lagrange>`\\ \\(material\\)"
 
-#: ../../felupe/docs/felupe/constitution/lagrange.rst:17:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/lagrange.rst:22:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/lagrange/_updated_lagrange.pydocstring
 #: of felupe.constitution.lagrange._updated_lagrange.updated_lagrange:1
 msgid ""
@@ -8126,15 +8126,15 @@ msgid ""
 "Piola- Kirchoff stress function."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/lagrange.rst:18
+#: ../../felupe/docs/felupe/constitution/lagrange.rst:23
 msgid "**Material Models for** :class:`~felupe.MaterialAD`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/lagrange.rst:24:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/lagrange.rst:29:<autosummary>:1
 msgid ":py:obj:`morph <felupe.morph>`\\ \\(F\\, statevars\\, p\\)"
 msgstr ":py:obj:`morph <felupe.morph>`\\ \\(F\\, statevars\\, p\\)"
 
-#: ../../felupe/docs/felupe/constitution/lagrange.rst:24:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/lagrange.rst:29:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/lagrange/models/_morph.pydocstring
 #: of felupe.constitution.lagrange.models._morph.morph:1
 msgid ""
@@ -8142,7 +8142,7 @@ msgid ""
 "<https://doi.org/10.1016/s0749-6419(02)00091-8>`_ model formulation [1]_."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/lagrange.rst:24:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/lagrange.rst:29:<autosummary>:1
 msgid ""
 ":py:obj:`morph_representative_directions "
 "<felupe.morph_representative_directions>`\\ \\(F\\, ...\\)"
@@ -8150,7 +8150,7 @@ msgstr ""
 ":py:obj:`morph_representative_directions "
 "<felupe.morph_representative_directions>`\\ \\(F\\, ...\\)"
 
-#: ../../felupe/docs/felupe/constitution/lagrange.rst:24:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/lagrange.rst:29:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/lagrange/models/_morph_representative_directions.pydocstring
 #: of
 #: felupe.constitution.lagrange.models._morph_representative_directions.morph_representative_directions:1
