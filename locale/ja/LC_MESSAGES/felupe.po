@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 00:11+0000\n"
+"POT-Creation-Date: 2024-06-15 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -167,10 +167,8 @@ msgstr ""
 #: ../../felupe/docs/felupe/assembly.rst:45:<autosummary>:1
 msgid ""
 ":py:obj:`FormItem <felupe.FormItem>`\\ \\(\\[bilinearform\\, linearform\\, "
-"sym\\, kwargs\\]\\)"
+"sym\\, ...\\]\\)"
 msgstr ""
-":py:obj:`FormItem <felupe.FormItem>`\\ \\(\\[bilinearform\\, linearform\\, "
-"sym\\, kwargs\\]\\)"
 
 #: ../../felupe/docs/felupe/assembly.rst:45:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.pydocstring
@@ -1333,7 +1331,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_curve.pydocstring
 #: of felupe.mechanics._curve.CharacteristicCurve:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.pydocstring
-#: of felupe.mechanics._item.FormItem:20
+#: of felupe.mechanics._item.FormItem:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:57
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_solidbody.pydocstring
@@ -1637,7 +1635,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/_integral.pydocstring
 #: of felupe.assembly._integral.IntegralForm:161
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.pydocstring
-#: of felupe.mechanics._item.FormItem:42
+#: of felupe.mechanics._item.FormItem:84
 msgid ":obj:`felupe.Form`"
 msgstr ":obj:`felupe.Form`"
 
@@ -2692,28 +2690,46 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.pydocstring
 #: of felupe.mechanics._item.FormItem:14
-msgid "Tuple with initial optional weakform-arguments (default is None)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.pydocstring
-#: of felupe.mechanics._item.FormItem:16
 msgid ""
 "Dictionary with initial optional weakform-keyword-arguments (default is "
 "None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.pydocstring
-#: of felupe.mechanics._item.FormItem:43
-msgid "A function decorator for a linear- or bilinear-form object."
+#: of felupe.mechanics._item.FormItem:16
+msgid ""
+"The item of the dict of keyword arguments which will be updated in a "
+":class:`~felupe.Step` (default is 0). By default, the first item of the dict"
+" is selected. Optionally, also the key of the item to be updated may be "
+"given."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.pydocstring
+#: of felupe.mechanics._item.FormItem:24
+msgid ""
+"A :class:`~felupe.FormItem` is used to create a linear-elastic solid body."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.pydocstring
 #: of felupe.mechanics._item.FormItem:45
+msgid ""
+"A :class:`~felupe.FormItem` is used to create a boundary condition with "
+"externally applied displacements which is used as a ramped-boundary in a "
+":class:`Step`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.pydocstring
+#: of felupe.mechanics._item.FormItem:85
+msgid "A function decorator for a linear- or bilinear-form object."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.pydocstring
+#: of felupe.mechanics._item.FormItem:87
 msgid ":obj:`felupe.Step`"
 msgstr ":obj:`felupe.Step`"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.pydocstring
-#: of felupe.mechanics._item.FormItem:46
+#: of felupe.mechanics._item.FormItem:88
 msgid "A Step with multiple substeps."
 msgstr ""
 

@@ -703,25 +703,29 @@ msgid ""
 ":ref:`sphx_glr_tutorial_extut01_getting_started.py` "
 "(``extut01_getting_started.py``)"
 msgstr ""
+":ref:`sphx_glr_tutorial_extut01_getting_started.py` "
+"(``extut01_getting_started.py``)"
 
 #: ../../felupe/docs/tutorial/sg_execution_times.rst:36
 #: ../../felupe/docs/tutorial/sg_execution_times.rst:39
 #: ../../felupe/docs/tutorial/sg_execution_times.rst:42
 msgid "00:00.000"
-msgstr ""
+msgstr "00:00.000"
 
 #: ../../felupe/docs/tutorial/sg_execution_times.rst:37
 #: ../../felupe/docs/tutorial/sg_execution_times.rst:40
 #: ../../felupe/docs/tutorial/sg_execution_times.rst:43
 msgid "0.0"
-msgstr ""
+msgstr "0.0"
 
 #: ../../felupe/docs/tutorial/sg_execution_times.rst:38
 msgid ":ref:`sphx_glr_tutorial_extut02_job.py` (``extut02_job.py``)"
-msgstr ""
+msgstr ":ref:`sphx_glr_tutorial_extut02_job.py` (``extut02_job.py``)"
 
 #: ../../felupe/docs/tutorial/sg_execution_times.rst:41
 msgid ""
 ":ref:`sphx_glr_tutorial_extut03_building_blocks.py` "
 "(``extut03_building_blocks.py``)"
 msgstr ""
+":ref:`sphx_glr_tutorial_extut03_building_blocks.py` "
+"(``extut03_building_blocks.py``)"
