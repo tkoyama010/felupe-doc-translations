@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../felupe/docs/howto/composite.rst:2
 msgid "Composite Regions with Solid Bodies"
-msgstr ""
+msgstr "固体との複合領域"
 
 #: ../../felupe/docs/howto/composite.rst:4
 msgid ""
