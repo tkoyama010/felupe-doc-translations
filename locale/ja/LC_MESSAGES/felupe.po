@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-15 00:11+0000\n"
+"POT-Creation-Date: 2024-06-17 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1635,7 +1635,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/_integral.pydocstring
 #: of felupe.assembly._integral.IntegralForm:161
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.pydocstring
-#: of felupe.mechanics._item.FormItem:84
+#: of felupe.mechanics._item.FormItem:82
 msgid ":obj:`felupe.Form`"
 msgstr ":obj:`felupe.Form`"
 
@@ -2719,17 +2719,17 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.pydocstring
-#: of felupe.mechanics._item.FormItem:85
+#: of felupe.mechanics._item.FormItem:83
 msgid "A function decorator for a linear- or bilinear-form object."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.pydocstring
-#: of felupe.mechanics._item.FormItem:87
+#: of felupe.mechanics._item.FormItem:85
 msgid ":obj:`felupe.Step`"
 msgstr ":obj:`felupe.Step`"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.pydocstring
-#: of felupe.mechanics._item.FormItem:88
+#: of felupe.mechanics._item.FormItem:86
 msgid "A Step with multiple substeps."
 msgstr ""
 
@@ -9406,6 +9406,16 @@ msgstr ":obj:`felupe.dof.apply`"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.partition:59
 msgid "Apply prescribed values for a list of boundaries."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary:219
+msgid ":obj:`felupe.FormItem`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary:220
+msgid "Create boundaries by weak forms."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/dof/_boundary.pydocstring

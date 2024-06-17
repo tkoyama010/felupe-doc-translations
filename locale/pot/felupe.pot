@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-15 00:11+0000\n"
+"POT-Creation-Date: 2024-06-17 00:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -844,7 +844,7 @@ msgid "Single-field integral form."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/_integral.py:docstring of felupe.assembly._integral.IntegralForm:161
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:84
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:82
 msgid ":obj:`felupe.Form`"
 msgstr ""
 
@@ -1404,15 +1404,15 @@ msgstr ""
 msgid "A :class:`~felupe.FormItem` is used to create a boundary condition with externally applied displacements which is used as a ramped-boundary in a :class:`Step`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:85
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:83
 msgid "A function decorator for a linear- or bilinear-form object."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:87
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:85
 msgid ":obj:`felupe.Step`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:88
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:86
 msgid "A Step with multiple substeps."
 msgstr ""
 
@@ -5113,6 +5113,14 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.uniaxial:76
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/dof/_tools.py:docstring of felupe.dof._tools.partition:59
 msgid "Apply prescribed values for a list of boundaries."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/dof/_boundary.py:docstring of felupe.dof._boundary.Boundary:219
+msgid ":obj:`felupe.FormItem`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/dof/_boundary.py:docstring of felupe.dof._boundary.Boundary:220
+msgid "Create boundaries by weak forms."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/dof/_boundary.py:docstring of felupe.dof._boundary.Boundary.apply_mask:1
