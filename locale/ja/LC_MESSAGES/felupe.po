@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-17 00:09+0000\n"
+"POT-Creation-Date: 2024-06-17 19:48+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -700,11 +700,15 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._boundary.RegionBoundary:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.astype:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.copy:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.reload:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.astype:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region.copy:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.pydocstring
@@ -909,19 +913,21 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/element/_triangle.pydocstring
 #: of felupe.element._triangle.TriangleMINI:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._axi.FieldAxisymmetric:14
+#: of felupe.field._axi.FieldAxisymmetric:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field:15
+#: of felupe.field._base.Field:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._fields.FieldsMixed:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._planestrain.FieldPlaneStrain:14
+#: of felupe.field._planestrain.FieldPlaneStrain:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._field.strain:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._field.strain_stretch_1d:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._solve.solve_2d:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._spatial.rotation_matrix:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.cdya:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
@@ -947,7 +953,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.equivalent_von_mises:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.identity:19
+#: of felupe.math._tensor.identity:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.inv:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
@@ -1285,7 +1291,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/element/_triangle.pydocstring
 #: of felupe.element._triangle.TriangleMINI:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field:34
+#: of felupe.field._base.Field:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_dual.pydocstring
@@ -1294,6 +1300,8 @@ msgstr ""
 #: of felupe.math._math.linsteps:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._solve.solve_2d:31
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._spatial.rotation_matrix:40
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.cdya:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
@@ -1319,7 +1327,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.equivalent_von_mises:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.identity:44
+#: of felupe.math._tensor.identity:48
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.inv:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
@@ -2224,7 +2232,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.astype:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.copy:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.astype:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region.copy:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
@@ -2555,7 +2567,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.astype:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.copy:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.astype:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region.copy:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/tools/_newton.pydocstring
@@ -5126,7 +5142,7 @@ msgstr ""
 #: felupe.constitution.linear_elasticity._linear_elastic.LinearElastic.hessian:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation.hessian:14
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation.hessian:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
 #: of
 #: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain.hessian:10
@@ -5366,6 +5382,12 @@ msgstr ""
 #: of
 #: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation.hessian:11
 msgid "Tuple with shape of the trailing axes (default is (1, 1))"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
+#: of
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation.hessian:13
+msgid "Data-type of the returned array (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
@@ -10844,8 +10866,8 @@ msgid "Available kinds of fields:"
 msgstr ""
 
 #: ../../felupe/docs/felupe/field.rst:26:<autosummary>:1
-msgid ":py:obj:`Field <felupe.Field>`\\ \\(region\\[\\, dim\\, values\\]\\)"
-msgstr ":py:obj:`Field <felupe.Field>`\\ \\(region\\[\\, dim\\, values\\]\\)"
+msgid ":py:obj:`Field <felupe.Field>`\\ \\(region\\[\\, dim\\, values\\, dtype\\]\\)"
+msgstr ""
 
 #: ../../felupe/docs/felupe/field.rst:26:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
@@ -10858,10 +10880,8 @@ msgstr ""
 #: ../../felupe/docs/felupe/field.rst:26:<autosummary>:1
 msgid ""
 ":py:obj:`FieldAxisymmetric <felupe.FieldAxisymmetric>`\\ \\(region\\[\\, "
-"dim\\, values\\]\\)"
+"dim\\, values\\, dtype\\]\\)"
 msgstr ""
-":py:obj:`FieldAxisymmetric <felupe.FieldAxisymmetric>`\\ \\(region\\[\\, "
-"dim\\, values\\]\\)"
 
 #: ../../felupe/docs/felupe/field.rst:26:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
@@ -10875,10 +10895,8 @@ msgstr ""
 #: ../../felupe/docs/felupe/field.rst:26:<autosummary>:1
 msgid ""
 ":py:obj:`FieldPlaneStrain <felupe.FieldPlaneStrain>`\\ \\(region\\[\\, "
-"dim\\, values\\]\\)"
+"dim\\, values\\, dtype\\]\\)"
 msgstr ""
-":py:obj:`FieldPlaneStrain <felupe.FieldPlaneStrain>`\\ \\(region\\[\\, "
-"dim\\, values\\]\\)"
 
 #: ../../felupe/docs/felupe/field.rst:26:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_planestrain.pydocstring
@@ -10935,7 +10953,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._axi.FieldAxisymmetric:46
+#: of felupe.field._axi.FieldAxisymmetric:48
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer:54
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_dual.pydocstring
@@ -10943,12 +10961,12 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._fields.FieldsMixed:38
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._planestrain.FieldPlaneStrain:32
+#: of felupe.field._planestrain.FieldPlaneStrain:34
 msgid ":obj:`felupe.Field`"
 msgstr ":obj:`felupe.Field`"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._axi.FieldAxisymmetric:47
+#: of felupe.field._axi.FieldAxisymmetric:49
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_dual.pydocstring
@@ -10956,7 +10974,7 @@ msgstr ":obj:`felupe.Field`"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._fields.FieldsMixed:39
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._planestrain.FieldPlaneStrain:33
+#: of felupe.field._planestrain.FieldPlaneStrain:35
 msgid ""
 "Field on points of a :class:`~felupe.Region` with dimension ``dim`` and "
 "initial point ``values``."
@@ -11103,23 +11121,56 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_planestrain.pydocstring
 #: of felupe.field._planestrain.FieldPlaneStrain.interpolate:8
 msgid ""
+"If provided, forces the calculation to use the data type specified. Default "
+"is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
+#: of felupe.field._axi.FieldAxisymmetric.grad:17
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
+#: of felupe.field._axi.FieldAxisymmetric.interpolate:11
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
+#: of felupe.field._base.Field.extract:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.extract:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.grad:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.interpolate:11
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.extract:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.extract:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.grad:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.interpolate:11
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.extract:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_planestrain.pydocstring
+#: of felupe.field._base.Field.extract:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_planestrain.pydocstring
+#: of felupe.field._planestrain.FieldPlaneStrain.grad:17
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_planestrain.pydocstring
+#: of felupe.field._planestrain.FieldPlaneStrain.interpolate:11
+msgid ""
 "A location into which the result is stored. If provided, it must have a "
 "shape that the inputs broadcast to. If not provided or None, a freshly- "
 "allocated array is returned (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._base.Field.extract:18
+#: of felupe.field._base.Field.extract:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.extract:18
+#: of felupe.field._base.Field.extract:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer.extract:21
+#: of felupe.field._container.FieldContainer.extract:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.extract:18
+#: of felupe.field._base.Field.extract:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_fields.pydocstring
-#: of felupe.field._container.FieldContainer.extract:21
+#: of felupe.field._container.FieldContainer.extract:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._base.Field.extract:18
+#: of felupe.field._base.Field.extract:21
 msgid ""
 "(Symmetric) gradient or interpolated field values evaluated at the "
 "integration points of each cell in the region."
@@ -11554,13 +11605,22 @@ msgid ""
 "`(region.mesh.npoints, dim)`. Default is 0.0."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
+#: of felupe.field._axi.FieldAxisymmetric:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field:11
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_planestrain.pydocstring
+#: of felupe.field._planestrain.FieldPlaneStrain:12
+msgid "Data-type of the array containing the field values."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field:13
 msgid "Extra class attributes for the field."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field:16
+#: of felupe.field._base.Field:18
 msgid ""
 "A slice of this field directly accesses the field-values as 1d-array. The "
 "interpolation method returns the field values evaluated at the numeric "
@@ -11571,7 +11631,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
 #: of felupe.field._axi.FieldAxisymmetric.interpolate:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field:20
+#: of felupe.field._base.Field:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field.interpolate:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_dual.pydocstring
@@ -11582,7 +11642,7 @@ msgid "u_{i(qc)} = \\hat{u}_{ai}\\ h_{a(qc)}"
 msgstr "u_{i(qc)} = \\hat{u}_{ai}\\ h_{a(qc)}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field:24
+#: of felupe.field._base.Field:26
 msgid ""
 "The gradient method returns the gradient of the field values w.r.t. the "
 "undeformed mesh point coordinates, evaluated at the integration points of "
@@ -11590,7 +11650,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field:28
+#: of felupe.field._base.Field:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field.grad:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_dual.pydocstring
@@ -11603,7 +11663,7 @@ msgstr ""
 "    \\hat{u}_{ai} \\left( \\frac{\\partial h_a}{\\partial X_J} \\right)_{(qc)}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field:44
+#: of felupe.field._base.Field:46
 msgid ""
 "To obtain deformation-related quantities like the right Cauchy-Green "
 "deformation tensor or the principal stretches, use the math-helpers from "
@@ -11611,7 +11671,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field:48
+#: of felupe.field._base.Field:50
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._field.strain:29
 msgid "\\boldsymbol{C} = \\boldsymbol{F}^T \\boldsymbol{F}"
@@ -11640,13 +11700,13 @@ msgid "Flag for gradient evaluation (default is True)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._base.Field.extract:22
+#: of felupe.field._base.Field.extract:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.extract:22
+#: of felupe.field._base.Field.extract:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.extract:22
+#: of felupe.field._base.Field.extract:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._base.Field.extract:22
+#: of felupe.field._base.Field.extract:25
 msgid ":obj:`Field.interpolate`, :obj:`Field.grad`"
 msgstr ":obj:`Field.interpolate`, :obj:`Field.grad`"
 
@@ -11683,9 +11743,9 @@ msgid "Calculate the symmetric part of the gradient (default is False)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.grad:17
+#: of felupe.field._base.Field.grad:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.grad:17
+#: of felupe.field._base.Field.grad:20
 msgid ""
 "Gradient as partial derivative of field value components ``i`` at points "
 "w.r.t. the undeformed coordinates ``j``, evaluated at the quadrature points "
@@ -11706,13 +11766,13 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._axi.FieldAxisymmetric.interpolate:13
+#: of felupe.field._axi.FieldAxisymmetric.interpolate:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.interpolate:13
+#: of felupe.field._base.Field.interpolate:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.interpolate:13
+#: of felupe.field._base.Field.interpolate:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._planestrain.FieldPlaneStrain.interpolate:13
+#: of felupe.field._planestrain.FieldPlaneStrain.interpolate:16
 msgid ""
 "Interpolated field value components ``i``, evaluated at the quadrature "
 "points ``q`` of each cell ``c`` in the region."
@@ -11735,17 +11795,17 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._axi.FieldAxisymmetric:15
+#: of felupe.field._axi.FieldAxisymmetric:17
 msgid "component 1 =  axial component"
 msgstr "component 1 =  axial component"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._axi.FieldAxisymmetric:16
+#: of felupe.field._axi.FieldAxisymmetric:18
 msgid "component 2 = radial component"
 msgstr "component 2 = radial component"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._axi.FieldAxisymmetric:28
+#: of felupe.field._axi.FieldAxisymmetric:30
 msgid ""
 "This is a modified :class:`Field` in which the radial coordinates are "
 "evaluated at the numeric integration points ``q`` for each cell ``c``. The "
@@ -11755,7 +11815,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._axi.FieldAxisymmetric:33
+#: of felupe.field._axi.FieldAxisymmetric:35
 msgid ""
 "\\frac{\\partial \\boldsymbol{u}}{\\partial \\boldsymbol{X}} =\n"
 "    \\begin{bmatrix}\n"
@@ -11784,9 +11844,9 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._axi.FieldAxisymmetric.grad:19
+#: of felupe.field._axi.FieldAxisymmetric.grad:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._planestrain.FieldPlaneStrain.grad:19
+#: of felupe.field._planestrain.FieldPlaneStrain.grad:22
 msgid ""
 "Full 3D-gradient as partial derivative of field values at points w.r.t. "
 "undeformed coordinates, evaluated at the integration points of all cells in "
@@ -11794,7 +11854,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._planestrain.FieldPlaneStrain:15
+#: of felupe.field._planestrain.FieldPlaneStrain:17
 msgid ""
 "This is a modified :class:`~felupe.Field` for plane strain. The "
 ":meth:`grad`-method is modified in such a way that the in-plane 2d-gradient "
@@ -11802,7 +11862,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._planestrain.FieldPlaneStrain:19
+#: of felupe.field._planestrain.FieldPlaneStrain:21
 msgid ""
 "\\frac{\\partial \\boldsymbol{u}}{\\partial \\boldsymbol{X}} =\n"
 "    \\begin{bmatrix}\n"
@@ -12089,8 +12149,10 @@ msgid "**Tensor**"
 msgstr ""
 
 #: ../../felupe/docs/felupe/math.rst:58:<autosummary>:1
-msgid ":py:obj:`math.identity <felupe.math.identity>`\\ \\(\\[A\\, dim\\, shape\\]\\)"
-msgstr ":py:obj:`math.identity <felupe.math.identity>`\\ \\(\\[A\\, dim\\, shape\\]\\)"
+msgid ""
+":py:obj:`math.identity <felupe.math.identity>`\\ \\(\\[A\\, dim\\, shape\\, "
+"dtype\\]\\)"
+msgstr ""
 
 #: ../../felupe/docs/felupe/math.rst:58:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
@@ -12904,14 +12966,14 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.dev:43
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.identity:65
+#: of felupe.math._tensor.identity:69
 msgid ":obj:`numpy.eye`"
 msgstr ":obj:`numpy.eye`"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.dev:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.identity:66
+#: of felupe.math._tensor.identity:70
 msgid "Return a 2-D array with ones on the diagonal and zeros elsewhere."
 msgstr ""
 
@@ -13180,12 +13242,20 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.identity:15
+#: of felupe.math._tensor.identity:14
+msgid ""
+"Data-type of the returned array. If None and ``A`` is not None, the data-"
+"type of ``A`` is used. If None and ``A`` is None, the data-type of the "
+"returned array is ``float``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.identity:19
 msgid "The identity matrix."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.identity:20
+#: of felupe.math._tensor.identity:24
 msgid ""
 "The first two axes are the matrix dimensions and all remaining trailing axes"
 " are treated as batch dimensions. As the identity matrix is idependent of "
@@ -13193,12 +13263,12 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.identity:24
+#: of felupe.math._tensor.identity:28
 msgid "The identity matrix is defined by Eq. :eq:`math-identity`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.identity:26
+#: of felupe.math._tensor.identity:30
 msgid ""
 "\\boldsymbol{1} = \\boldsymbol{A} \\boldsymbol{A}^{-1}\n"
 "    = \\boldsymbol{A}^{-1} \\boldsymbol{A}"
@@ -13207,12 +13277,12 @@ msgstr ""
 "    = \\boldsymbol{A}^{-1} \\boldsymbol{A}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.identity:32
+#: of felupe.math._tensor.identity:36
 msgid "and it is shown in Eq. :eq:`math-identity-items`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.identity:34
+#: of felupe.math._tensor.identity:38
 msgid ""
 "\\boldsymbol{1} = \\begin{bmatrix}\n"
 "        1 & 0 & 0 \\\\\n"
@@ -13227,14 +13297,14 @@ msgstr ""
 "    \\end{bmatrix}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.identity:53
+#: of felupe.math._tensor.identity:57
 msgid ""
 "With given dimension of the matrix axes the shape of the output is "
 "different."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.identity:58
+#: of felupe.math._tensor.identity:62
 msgid "Note how the number of batch axes change if a ``shape`` is given."
 msgstr ""
 
@@ -13412,6 +13482,41 @@ msgstr ""
 msgid ""
 "**rotation_matrix** -- Rotation matrix of dim 2 or 3 with given rotation "
 "axis."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._spatial.rotation_matrix:15
+msgid ""
+"The two-dimensional rotation axis is denoted in Eq. :eq:`rotation-"
+"matrix-2d`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._spatial.rotation_matrix:17
+msgid ""
+"\\boldsymbol{R}(\\alpha) = \\begin{bmatrix}\n"
+"    \\cos(\\alpha) & -\\sin(\\alpha) \\\\\n"
+"    \\sin(\\alpha) &  \\cos(\\alpha)\n"
+"\\end{bmatrix}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._spatial.rotation_matrix:25
+msgid ""
+"A three-dimensional rotation matrix is created by inserting zeros in the row"
+" and column at the given axis of rotation and one at the intersection, see "
+"Eq. :eq:`rotation-matrix-3d`. If the axis of rotation is the second axis, "
+"the two- dimensinal rotation matrix is transposed."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._spatial.rotation_matrix:30
+msgid ""
+"\\boldsymbol{R}(\\alpha) = \\begin{bmatrix}\n"
+"    \\cos(\\alpha) & -\\sin(\\alpha) & 0 \\\\\n"
+"    \\sin(\\alpha) &  \\cos(\\alpha) & 0 \\\\\n"
+"          0      &        0      & 1\n"
+"\\end{bmatrix}"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.pydocstring
@@ -18303,7 +18408,41 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.astype:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.astype:1
+msgid "Copy the region and cast the arrays to a specified type."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.astype:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.astype:3
+msgid ""
+"The data-type of the arrays of the Region. If None, a copy of the Region is "
+"returned."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.astype:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.astype:7
+msgid "A copy of the region with arrays casted to a specified type."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.astype:12
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.astype:12
+msgid ":obj:`felupe.region.copy`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.astype:13
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.copy:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.astype:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region.copy:1
 msgid "Return a copy of the region and reload it if necessary."

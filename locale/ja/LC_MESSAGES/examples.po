@@ -203,6 +203,7 @@ msgid ""
 "filling the area between the edge of the hole and the top line. Then, this "
 "section is duplicated, mirrored and merged with another rectangle."
 msgstr ""
+"四角セルで穴のあいたメッシュ・プレートを作ってみましょう。プレートの1/4モデルのみを考えます。メッシュの生成は穴のエッジとトップラインの間の領域を埋めることで行われます。そして、この部分を複製し、ミラーリングして、別の長方形と統合します。"
 
 #: ../../felupe/docs/examples/ex02_plate-with-hole.rst:83
 msgid ""
