@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-18 00:12+0000\n"
+"POT-Creation-Date: 2024-06-19 00:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -414,6 +414,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/_cartesian.py:docstring of felupe.assembly._cartesian.IntegralFormCartesian:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/_integral.py:docstring of felupe.assembly._integral.IntegralForm:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.CompositeMaterial:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:27
@@ -502,6 +503,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.tovoigt:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.trace:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_solidbody_gravity.py:docstring of felupe.mechanics._solidbody_gravity.SolidBodyGravity:13
@@ -592,7 +594,7 @@ msgid "a(\\boldsymbol{v}, \\boldsymbol{u}) &=\n"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/_integral.py:docstring of felupe.assembly._integral.IntegralForm:72
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:32
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:39
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.CompositeMaterial:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:81
@@ -688,7 +690,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.tovoigt:34
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.trace:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:22
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:23
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:57
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:63
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_solidbody_gravity.py:docstring of felupe.mechanics._solidbody_gravity.SolidBodyGravity:20
@@ -848,7 +850,7 @@ msgid "Single-field integral form."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/_integral.py:docstring of felupe.assembly._integral.IntegralForm:161
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:82
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:154
 msgid ":obj:`felupe.Form`"
 msgstr ""
 
@@ -973,7 +975,7 @@ msgid "-\\Delta \\delta W_{int} &= \\Delta_{(2D)} \\delta_{(2D)} W_{int}\n"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/_axi.py:docstring of felupe.assembly._axi.IntegralFormAxisymmetric:74
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:70
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:77
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/_material.py:docstring of felupe.constitution._material.Material:169
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._mixed.ThreeFieldVariation:125
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.py:docstring of felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible:19
@@ -1347,41 +1349,43 @@ msgstr ""
 msgid "a(v, u) = \\int_\\Omega v \\cdot f \\cdot u \\ dx"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:33
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:34
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:25
+msgid "The computational cost of weak-forms defined by :func:`~felupe.Form` is much higher compared to :class:`~felupe.IntegralForm`. Try to re-formulate the weak form and use :class:`~felupe.IntegralForm` instead if performance is relevant."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:40
 msgid "FElupe requires a pre-evaluated array for the definition of a bilinear :class:`felupe.IntegralForm` object on interpolated field values or their gradients. While this has two benefits, namely a fast integration of the form is easy to code and the array may be computed in any programming language, sometimes numeric representations of analytic linear and bilinear form expressions may be easier in user-code and less error prone compared to the calculation of explicit second or fourth-order tensors. Therefore, FElupe provides a function decorator :func:`felupe.Form` as an easy-to-use high-level interface, similar to what `scikit-fem <https://github.com/kinnala/scikit-fem>`_ offers. The :func:`felupe.Form` decorator handles a field container. The form class is similar, but not identical in its usage compared to :class:`felupe.IntegralForm`. It requires a callable function (with optional arguments and keyword arguments) instead of a pre-computed array to be passed. The bilinear form of linear elasticity serves as a reference example for the demonstration on how to use this feature of FElupe. The stiffness matrix is assembled for a unit cube out of hexahedrons."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:61
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:68
 msgid "The bilinear form of linear elasticity is defined as"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:63
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:70
 msgid "a(v, u) = \\int_\\Omega 2 \\mu \\\n"
 "    \\delta\\boldsymbol{\\varepsilon} : \\boldsymbol{\\varepsilon} +\n"
 "    \\lambda \\ \\text{tr}(\\delta\\boldsymbol{\\varepsilon}) \\\n"
 "        \\text{tr}(\\boldsymbol{\\varepsilon}) \\ dv"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:72
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:79
 msgid "\\delta\\boldsymbol{\\varepsilon} &= \\text{sym}(\\text{grad}(\\boldsymbol{v}))\n"
 "\n"
 "\\boldsymbol{\\varepsilon} &= \\text{sym}(\\text{grad}(\\boldsymbol{u}))"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:78
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:85
 msgid "and implemented in FElupe closely to the analytic expression. The first two arguments for the callable *weak-form* function of a bilinear form are always arrays of field (gradients) ``(v, u)`` followed by arguments and keyword arguments. Optionally, the integration/assembly may be performed in parallel (threaded). Please note that this is only faster for relatively large systems. The weak-form function is decorated by :func:`felupe.Form` where the appropriate fields are linked to ``v`` and ``u`` along with the gradient flags for both fields. Arguments as well as keyword arguments of the weak-form may be defined inside the decorator or as part of the assembly arguments."
 msgstr ""
 
-#: ../../felupe/docs/felupe/assembly.rst:0
-#: ../../felupe/docs/felupe/mechanics.rst:0
-#: ../../felupe/docs/felupe/mesh.rst:0
-msgid "Static Scene"
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:123
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/dof/_boundary.py:docstring of felupe.dof._boundary.Boundary:219
+msgid ":obj:`felupe.FormItem`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/assembly.rst:0
-#: ../../felupe/docs/felupe/mechanics.rst:0
-#: ../../felupe/docs/felupe/mesh.rst:0
-msgid "Interactive Scene"
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:124
+msgid "Bilinear and optional linear form objects based on weak-forms."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:5
@@ -1404,23 +1408,44 @@ msgstr ""
 msgid "The item of the dict of keyword arguments which will be updated in a :class:`~felupe.Step` (default is 0). By default, the first item of the dict is selected. Optionally, also the key of the item to be updated may be given."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:24
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:31
+msgid "A :class:`~felupe.FormItem` is very flexible, e.g. it is possible to define linear- elastic solid bodies, boundary conditions or hyperelastic mixed-field solid bodies by their weak forms."
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/core.rst:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:35
+msgid "**Linear-Elasticity**"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:37
 msgid "A :class:`~felupe.FormItem` is used to create a linear-elastic solid body."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:45
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:59
+msgid "**Boundary Condition**"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:61
 msgid "A :class:`~felupe.FormItem` is used to create a boundary condition with externally applied displacements which is used as a ramped-boundary in a :class:`Step`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:83
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:97
+msgid "**Hu-Washizu (Mixed) Three-Field Formulation**"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:99
+msgid "A :class:`~felupe.FormItem` is used to create a mixed three-field variation suitable for nearly-incompressible hyperelastic solid bodies."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:155
 msgid "A function decorator for a linear- or bilinear-form object."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:85
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:157
 msgid ":obj:`felupe.Step`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:86
+#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:158
 msgid "A Step with multiple substeps."
 msgstr ""
 
@@ -2406,10 +2431,6 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:6
 msgid "This page contains the core (hard-coded) constitutive material model formulations (not using automatic differentiation) for linear-elasticitiy, small-strain plasticity, hyperelasticity and pseudo-elasticity."
-msgstr ""
-
-#: ../../felupe/docs/felupe/constitution/core.rst:10
-msgid "**Linear-Elasticity**"
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:19:<autosummary>:1
@@ -5125,10 +5146,6 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.uniaxial:76
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/dof/_tools.py:docstring of felupe.dof._tools.partition:59
 msgid "Apply prescribed values for a list of boundaries."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/dof/_boundary.py:docstring of felupe.dof._boundary.Boundary:219
-msgid ":obj:`felupe.FormItem`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/dof/_boundary.py:docstring of felupe.dof._boundary.Boundary:220
@@ -8013,6 +8030,16 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:59
 msgid "This class also supports ``umat`` with mixed-field formulations like :class:`~felupe.NearlyIncompressible` or :class:`~felupe.ThreeFieldVariation`."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:0
+#: ../../felupe/docs/felupe/mesh.rst:0
+msgid "Static Scene"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:0
+#: ../../felupe/docs/felupe/mesh.rst:0
+msgid "Interactive Scene"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:15

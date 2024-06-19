@@ -9,7 +9,7 @@ def bilinearform():
         δε, ε = sym(grad(v)), sym(grad(u))
         return 2 * μ * ddot(δε, ε) + λ * trace(δε) * trace(ε)
 
-    return [linear_elasticity,]
+    return [linear_elasticity]
 stiffness_matrix = bilinearform.assemble(v=field, u=field, parallel=False)
 system = fem.solve.partition(
     field, stiffness_matrix, dof1=loadcase["dof1"], dof0=loadcase["dof0"]

@@ -218,6 +218,7 @@ msgid ""
 "elastic material formulation for plane stress problems. A solid body applies"
 " the linear-elastic material formulation on the displacement field."
 msgstr ""
+"材料挙動は、平面応力問題のための組み込みの等方性線形弾性材料定式化によって定義されます。固体は、変位フィールドに線形弾性材料定式化を適用します。"
 
 #: ../../felupe/docs/examples/ex02_plate-with-hole.rst:114
 msgid ""
