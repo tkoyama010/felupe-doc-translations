@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-27 22:56+0000\n"
+"POT-Creation-Date: 2024-06-20 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -27,9 +27,8 @@ msgstr "計算時間"
 
 #: ../../felupe/docs/sg_execution_times.rst:9
 msgid ""
-"**00:00.000** total execution time for 21 files **from all galleries**:"
+"**00:00.000** total execution time for 22 files **from all galleries**:"
 msgstr ""
-"**00:00.000** total execution time for 21 files **from all galleries**:"
 
 #: ../../felupe/docs/sg_execution_times.rst:32
 msgid "Example"
@@ -72,6 +71,7 @@ msgstr ""
 #: ../../felupe/docs/sg_execution_times.rst:90
 #: ../../felupe/docs/sg_execution_times.rst:93
 #: ../../felupe/docs/sg_execution_times.rst:96
+#: ../../felupe/docs/sg_execution_times.rst:99
 msgid "00:00.000"
 msgstr "00:00.000"
 
@@ -96,6 +96,7 @@ msgstr "00:00.000"
 #: ../../felupe/docs/sg_execution_times.rst:91
 #: ../../felupe/docs/sg_execution_times.rst:94
 #: ../../felupe/docs/sg_execution_times.rst:97
+#: ../../felupe/docs/sg_execution_times.rst:100
 msgid "0.0"
 msgstr "0.0"
 
@@ -249,3 +250,9 @@ msgid ""
 msgstr ""
 ":ref:`sphx_glr_examples_ex18_nonlinear-viscoelasticity-newton.py` "
 "(``../examples/ex18_nonlinear-viscoelasticity-newton.py``)"
+
+#: ../../felupe/docs/sg_execution_times.rst:98
+msgid ""
+":ref:`sphx_glr_examples_ex19_taylor-hood.py` (``../examples/ex19_taylor-"
+"hood.py``)"
+msgstr ""
