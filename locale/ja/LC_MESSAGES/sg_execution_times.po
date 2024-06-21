@@ -29,6 +29,7 @@ msgstr "計算時間"
 msgid ""
 "**00:00.000** total execution time for 22 files **from all galleries**:"
 msgstr ""
+"**00:00.000** total execution time for 22 files **from all galleries**:"
 
 #: ../../felupe/docs/sg_execution_times.rst:32
 msgid "Example"
@@ -256,3 +257,5 @@ msgid ""
 ":ref:`sphx_glr_examples_ex19_taylor-hood.py` (``../examples/ex19_taylor-"
 "hood.py``)"
 msgstr ""
+":ref:`sphx_glr_examples_ex19_taylor-hood.py` (``../examples/ex19_taylor-"
+"hood.py``)"
