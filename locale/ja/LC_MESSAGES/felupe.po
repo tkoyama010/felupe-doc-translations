@@ -169,6 +169,8 @@ msgid ""
 ":py:obj:`FormItem <felupe.FormItem>`\\ \\(\\[bilinearform\\, linearform\\, "
 "sym\\, ...\\]\\)"
 msgstr ""
+":py:obj:`FormItem <felupe.FormItem>`\\ \\(\\[bilinearform\\, linearform\\, "
+"sym\\, ...\\]\\)"
 
 #: ../../felupe/docs/felupe/assembly.rst:45:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/felupe/mechanics/_item.pydocstring
