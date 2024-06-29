@@ -211,7 +211,7 @@ msgid ""
 "A numeric quad-region created on the mesh in combination with a vector-"
 "valued displacement field represents the plate. The Boundary conditions for "
 "the symmetry planes are generated on the displacement field."
-msgstr ""
+msgstr "ベクトル値の変位場と組み合わせてメッシュ上に作成された数値4値領域がプレートを表します。対称面の境界条件は、変位場上に生成されます。"
 
 #: ../../felupe/docs/examples/ex02_plate-with-hole.rst:100
 msgid ""
