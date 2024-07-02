@@ -276,11 +276,11 @@ msgstr ""
 
 #: ../../felupe/docs/examples/ex03_plasticity.rst:22
 msgid "Small-strain Plasticity"
-msgstr ""
+msgstr "微小ひずみ可塑性"
 
 #: ../../felupe/docs/examples/ex03_plasticity.rst:26
 msgid "linear-elastic plastic material formulation with isotropic hardening"
-msgstr ""
+msgstr "等方性硬化を伴う線形弾性塑性材料定式化"
 
 #: ../../felupe/docs/examples/ex03_plasticity.rst:28
 msgid "define a body force vector"
