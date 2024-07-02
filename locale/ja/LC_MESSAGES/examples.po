@@ -284,7 +284,7 @@ msgstr "等方性硬化を伴う線形弾性塑性材料定式化"
 
 #: ../../felupe/docs/examples/ex03_plasticity.rst:28
 msgid "define a body force vector"
-msgstr ""
+msgstr "体積力のベクトルを定義する"
 
 #: ../../felupe/docs/examples/ex03_plasticity.rst:30
 msgid "extract state variables"
