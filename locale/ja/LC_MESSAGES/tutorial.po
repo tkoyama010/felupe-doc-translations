@@ -557,7 +557,7 @@ msgstr ""
 
 #: ../../felupe/docs/tutorial/extut03_building_blocks.rst:326
 msgid "Prepare (partition) and solve the linearized equation system"
-msgstr ""
+msgstr "線形化された方程式系を準備(分割)して解く"
 
 #: ../../felupe/docs/tutorial/extut03_building_blocks.rst:327
 msgid ""
@@ -716,7 +716,7 @@ msgstr ""
 
 #: ../../felupe/docs/tutorial/sg_execution_times.rst:34
 msgid "Mem (MB)"
-msgstr ""
+msgstr "メモリ (MB)"
 
 #: ../../felupe/docs/tutorial/sg_execution_times.rst:35
 msgid ""

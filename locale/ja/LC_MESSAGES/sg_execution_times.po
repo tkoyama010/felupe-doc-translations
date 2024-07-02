@@ -41,7 +41,7 @@ msgstr "時間"
 
 #: ../../felupe/docs/sg_execution_times.rst:34
 msgid "Mem (MB)"
-msgstr "Mem (MB)"
+msgstr "メモリ (MB)"
 
 #: ../../felupe/docs/sg_execution_times.rst:35
 msgid ""
