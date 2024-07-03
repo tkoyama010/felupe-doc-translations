@@ -8,7 +8,7 @@
 
 [![FElupe](https://img.shields.io/badge/%F0%9F%94%8D-FElupe-white?style=flat-square)](https://felupe.readthedocs.io)
 
-[felupe official documentation translations](https://github.com/tkoyama010/felupe-doc-translations) is a project to provide felupe official documentation, hosted on
+[FElupe official documentation translations](https://github.com/tkoyama010/felupe-doc-translations) is a project to provide FElupe official documentation, hosted on
 the Read The Docs platform, in multiple languages.
 
 > [!NOTE]
