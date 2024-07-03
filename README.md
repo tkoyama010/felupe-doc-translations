@@ -33,10 +33,10 @@ Key points:
 - The parent project needs connections created to each translated
   project on the **Translations Settings** page.
 
-| Build Status                                                                                                                                                            |                                               RTD Project |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------: |
-| [![Documentation Status](https://readthedocs.org/projects/felupe/badge/?version=latest&style=flat-square)](https://felupe.readthedocs.io/en/latest/?badge=latest)       | https://readthedocs.org/projects/felupe/ (Parent project) |
-| [![Documentation Status](https://readthedocs.org/projects/felupe-ja/badge/?version=latest&style=flat-square)](https://felupe-ja.readthedocs.io/ja/latest/?badge=latest) |               https://readthedocs.org/projects/felupe-ja/ |
+| Language                 | Build Status                                                                                                                                              | RTD Project                                                                                                                  | Transifex                                                                                                                             |
+| :----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| English (parent project) | [![Documentation Status](https://readthedocs.org/projects/felupe/badge/?version=latest)](https://felupe.readthedocs.io/en/latest/?badge=latest)       | [![readthedocs.org](https://img.shields.io/badge/readthedocs-en-ff7964.svg?)](https://readthedocs.org/projects/felupe/)    |                                                                                                                                       |
+| 日本語                   | [![Documentation Status](https://readthedocs.org/projects/felupe-ja/badge/?version=latest)](https://felupe-ja.readthedocs.io/ja/latest/?badge=latest) | [![readthedocs.org](https://img.shields.io/badge/readthedocs-ja-ff7964.svg?)](https://readthedocs.org/projects/felupe-ja/) | [![Transifex](https://img.shields.io/badge/Transifex-ja-blue.svg?)](https://app.transifex.com/tkoyama010/felupe-doc/translate/#/ja) |
 
 ## How to add a new language translation
 
