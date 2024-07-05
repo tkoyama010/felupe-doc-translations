@@ -11,12 +11,11 @@ This conf.py do:
 - Overrides source directory as 'felupe/docs`.
 
 """
+
 import os
 import pathlib
 
-basedir = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), "felupe/docs"
-)
+basedir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "felupe/docs")
 exec(pathlib.Path(os.path.join(basedir, "conf.py")).read_text(), globals())
 locale_dirs = [os.path.join(basedir, "../../locale/")]
 
