@@ -9,7 +9,7 @@ For example::
 This conf.py do:
 
 - Specify `locale_dirs`.
-- Overrides source directory as 'felupe/docs/src`.
+- Overrides source directory as 'felupe/docs`.
 
 """
 
