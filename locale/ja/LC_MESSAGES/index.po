@@ -252,7 +252,7 @@ msgstr "パフォーマンス"
 msgid ""
 "This is a simple benchmark to compare assembly times for linear elasticity "
 "and hyperelasticity on tetrahedrons."
-msgstr "これは、四面体上の線形弾性と超弾性の組み立て時間を比較する簡単なベンチマークです。"
+msgstr "これは、四面体上の線形弾性と超弾性のアセンブリ時間を比較する簡単なベンチマークです。"
 
 #: ../../felupe/docs/index.rst:105
 msgid "Analysis"

@@ -704,11 +704,11 @@ msgstr ""
 
 #: ../../felupe/docs/tutorial/sg_execution_times.rst:9
 msgid "**00:00.000** total execution time for 3 files **from tutorial**:"
-msgstr ""
+msgstr "**00:00.000** total execution time for 3 files **from tutorial**:"
 
 #: ../../felupe/docs/tutorial/sg_execution_times.rst:32
 msgid "Example"
-msgstr ""
+msgstr "例"
 
 #: ../../felupe/docs/tutorial/sg_execution_times.rst:33
 msgid "Time"
