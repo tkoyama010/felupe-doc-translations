@@ -1,6 +1,7 @@
 # basedir is set by <lang>/conf.py
 """
-Use "-D language=<LANG>" option to build a localized paraview-docs document.
+Use "-D language=<LANG>" option to build a localized felupe-docs document.
+
 For example::
 
     sphinx-build -D language=ja -b html . _build/html
@@ -8,18 +9,17 @@ For example::
 This conf.py do:
 
 - Specify `locale_dirs`.
-- Overrides source directory as 'felupe/docs`.
+- Overrides source directory as 'felupe/docs/src`.
 
 """
 
-import os
-import pathlib
+from pathlib import Path
 
-basedir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "felupe/docs")
-exec(pathlib.Path(os.path.join(basedir, "conf.py")).read_text(), globals())
-locale_dirs = [os.path.join(basedir, "../../locale/")]
+basedir = Path(__file__).resolve().parent() / "felupe/docs/src"
+exec((basedir / "conf.py").read_text(), globals())  # noqa: S102
+locale_dirs = [basedir / "../../../locale/"]
 
 
-def setup(app):
+def setup(app) -> None:  # noqa: D103,ANN001
     app.srcdir = basedir
     app.confdir = app.srcdir
