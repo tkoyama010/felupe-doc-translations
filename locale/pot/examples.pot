@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 00:09+0000\n"
+"POT-Creation-Date: 2024-07-18 00:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,7 +109,7 @@ msgstr ""
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:238
 #: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:98
 #: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:178
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:148
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:149
 #: ../../felupe/docs/examples/ex18_nonlinear-viscoelasticity-newton.rst:167
 #: ../../felupe/docs/examples/ex19_taylor-hood.rst:135
 #: ../../felupe/docs/examples/index.rst:378
@@ -1106,19 +1106,19 @@ msgstr ""
 msgid "This example demonstrates how to create a :class:`~felupe.Boundary` for torsional loading. This is somewhat more complicated than a simple boundary condition with identical mesh-point values because the values of the mesh-points are different. However, this is not a problem. FElupe supports arrays to be passed as the ``value``- argument of a :class:`~felupe.Boundary`. This is even possible in a :class:`~felupe.Step` with the ``ramp``-argument."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:76
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:77
 msgid "The reaction moment on the centerpoint of the right end face is tracked by a ``callback()`` function when we :meth:`~felupe.Job.evaluate` the :class:`~felupe.Job`. During the callback, the animated deformed body is recored in a GIF-file. After all frames are recorded, it is important to ``close()`` the plotter."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:117
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:118
 msgid "Finally, let's plot the reaction moment vs. torsion angle curve."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:137
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:138
 msgid ":download:`Download Jupyter notebook: ex17_torsion-gif.ipynb <ex17_torsion-gif.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:141
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:142
 msgid ":download:`Download Python source code: ex17_torsion-gif.py <ex17_torsion-gif.py>`"
 msgstr ""
 

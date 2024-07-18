@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 00:09+0000\n"
+"POT-Creation-Date: 2024-07-18 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -149,7 +149,7 @@ msgstr ":download:`Download Python source code: ex01_beam.py <ex01_beam.py>`"
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:238
 #: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:98
 #: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:178
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:148
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:149
 #: ../../felupe/docs/examples/ex18_nonlinear-viscoelasticity-newton.rst:167
 #: ../../felupe/docs/examples/ex19_taylor-hood.rst:135
 #: ../../felupe/docs/examples/index.rst:378
@@ -1669,7 +1669,7 @@ msgid ""
 "This is even possible in a :class:`~felupe.Step` with the ``ramp``-argument."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:76
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:77
 msgid ""
 "The reaction moment on the centerpoint of the right end face is tracked by a"
 " ``callback()`` function when we :meth:`~felupe.Job.evaluate` the "
@@ -1678,11 +1678,11 @@ msgid ""
 "``close()`` the plotter."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:117
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:118
 msgid "Finally, let's plot the reaction moment vs. torsion angle curve."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:137
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:138
 msgid ""
 ":download:`Download Jupyter notebook: ex17_torsion-gif.ipynb <ex17_torsion-"
 "gif.ipynb>`"
@@ -1690,7 +1690,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex17_torsion-gif.ipynb <ex17_torsion-"
 "gif.ipynb>`"
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:141
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:142
 msgid ""
 ":download:`Download Python source code: ex17_torsion-gif.py <ex17_torsion-"
 "gif.py>`"
