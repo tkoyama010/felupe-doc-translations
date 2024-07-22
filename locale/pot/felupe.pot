@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-21 00:10+0000\n"
+"POT-Creation-Date: 2024-07-22 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -590,7 +590,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.add_midpoints_volumes:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.convert:33
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._dual.dual:35
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._interpolate.interpolate_line:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._interpolate.interpolate_line:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._read.read:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.concatenate:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.expand:27
@@ -9999,7 +9999,7 @@ msgid "Optional keyword arguments are passed to the interpolator."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._interpolate.interpolate_line:15
-msgid "A new line mesh with interpolated points."
+msgid "A new line mesh with interpolated points. The attribute ``points_derivative`` holds the derivatives of the independent variable w.r.t. the dependent variable(s)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._read.read:4
