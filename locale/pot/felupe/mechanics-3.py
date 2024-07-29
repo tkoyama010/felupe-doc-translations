@@ -5,11 +5,12 @@ field = fem.FieldContainer([fem.Field(region, dim=3)])
 boundaries = fem.dof.symmetry(field[0])
 umat = fem.NeoHooke(mu=1, bulk=2)
 solid = fem.SolidBody(umat, field)
-gravity = fem.SolidBodyGravity(field, density=1.0)
-table = fem.math.linsteps([0, 1], num=5, axis=0, axes=3)
+density = 1.0
+force = fem.SolidBodyForce(field, scale=density)
+gravity = fem.math.linsteps([0, 2], num=5, axis=0, axes=3)
 step = fem.Step(
-    items=[solid, gravity],
-    ramp={gravity: 2 * table},
+    items=[solid, force],
+    ramp={force: gravity},
     boundaries=boundaries,
 )
 job = fem.Job(steps=[step]).evaluate()

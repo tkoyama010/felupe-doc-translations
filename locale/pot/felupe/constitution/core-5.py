@@ -1,3 +1,3 @@
 import felupe as fem
-umat = fem.MaterialStrain(material=fem.linear_elastic, λ=2.0, μ=1.0)
+umat = fem.LinearElastic(E=1, nu=0.3)
 ax = umat.plot()

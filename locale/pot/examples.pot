@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-22 00:10+0000\n"
+"POT-Creation-Date: 2024-07-29 22:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,42 +62,42 @@ msgid "\\delta W_{ext} = \\int_v \\delta \\boldsymbol{u} \\cdot \\rho \\boldsymb
 ""
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:94
+#: ../../felupe/docs/examples/ex01_beam.rst:96
 msgid "Inside a Newton-Rhapson procedure, the weak form of linear elasticity is assembled into the stiffness matrix and the applied gravity field is assembled into the body force vector."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:108
+#: ../../felupe/docs/examples/ex01_beam.rst:110
 msgid "The magnitude of the displacement field are plotted on a 300x scaled deformed configuration."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:121
+#: ../../felupe/docs/examples/ex01_beam.rst:123
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:329
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:205
 #: ../../felupe/docs/examples/ex18_nonlinear-viscoelasticity-newton.rst:137
 msgid "References"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:122
+#: ../../felupe/docs/examples/ex01_beam.rst:124
 msgid "Glenk C. et al., *Consideration of Body Forces within Finite Element Analysis*, Strojniški vestnik - Journal of Mechanical Engineering, Faculty of Mechanical Engineering, 2018, |DOI|."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:126
+#: ../../felupe/docs/examples/ex01_beam.rst:128
 msgid "DOI"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:138
+#: ../../felupe/docs/examples/ex01_beam.rst:140
 msgid ":download:`Download Jupyter notebook: ex01_beam.ipynb <ex01_beam.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:142
+#: ../../felupe/docs/examples/ex01_beam.rst:144
 msgid ":download:`Download Python source code: ex01_beam.py <ex01_beam.py>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:146
+#: ../../felupe/docs/examples/ex01_beam.rst:148
 msgid ":download:`Download zipped: ex01_beam.zip <ex01_beam.zip>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex01_beam.rst:153
+#: ../../felupe/docs/examples/ex01_beam.rst:155
 #: ../../felupe/docs/examples/ex02_plate-with-hole.rst:195
 #: ../../felupe/docs/examples/ex03_plasticity.rst:159
 #: ../../felupe/docs/examples/ex04_balloon.rst:204
@@ -106,7 +106,7 @@ msgstr ""
 #: ../../felupe/docs/examples/ex07_engine-mount.rst:254
 #: ../../felupe/docs/examples/ex08_shear.rst:270
 #: ../../felupe/docs/examples/ex09_numeric-continuation.rst:238
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:119
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:106
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:147
 #: ../../felupe/docs/examples/ex12_foot-bone.rst:101
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:369
@@ -698,7 +698,7 @@ msgid "The `Poisson equation <https://en.wikipedia.org/wiki/Poisson%27s_equation
 msgstr ""
 
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:25
-msgid "\\text{div}(\\boldsymbol{\\nabla} v) + f = 0 \\quad \\text{in} \\quad \\Omega"
+msgid "\\text{div}(\\boldsymbol{\\nabla} u) + f = 0 \\quad \\text{in} \\quad \\Omega"
 msgstr ""
 
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:29
@@ -706,7 +706,7 @@ msgid "with fixed boundaries on the bottom, top, left and right end-edges"
 msgstr ""
 
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:31
-msgid "v = 0 \\quad \\text{on} \\quad \\Gamma_v"
+msgid "u = 0 \\quad \\text{on} \\quad \\Gamma_u"
 msgstr ""
 
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:35
@@ -726,23 +726,19 @@ msgid "The Poisson equation is transformed into integral form representation by 
 msgstr ""
 
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:48
-msgid "\\int_\\Omega \\boldsymbol{\\nabla} v \\cdot \\boldsymbol{\\nabla} u \\ d\\Omega\n"
-"    = \\int_\\Omega  f \\cdot v \\ d\\Omega"
+msgid "\\int_\\Omega \\boldsymbol{\\nabla} (\\delta u) \\cdot \\boldsymbol{\\nabla} (\\Delta u)\n"
+"    \\ d\\Omega = \\int_\\Omega  \\delta u \\cdot f \\ d\\Omega"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:53
-msgid "For the :func:`~felupe.newtonrhapson` to converge, the *linear form* of the Poisson equation is also required."
-msgstr ""
-
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:104
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:91
 msgid ":download:`Download Jupyter notebook: ex10_poisson-equation.ipynb <ex10_poisson-equation.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:108
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:95
 msgid ":download:`Download Python source code: ex10_poisson-equation.py <ex10_poisson-equation.py>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:112
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:99
 msgid ":download:`Download zipped: ex10_poisson-equation.zip <ex10_poisson-equation.zip>`"
 msgstr ""
 
