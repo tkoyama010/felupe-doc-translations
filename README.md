@@ -1,12 +1,7 @@
 # FElupe official documentation translations
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
-
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
 [![FElupe](https://img.shields.io/badge/%F0%9F%94%8D-FElupe-white)](https://felupe.readthedocs.io)
+![All Contributors](https://img.shields.io/github/all-contributors/tkoyama010/felupe-doc-translations?color=ee8449)
 
 [FElupe official documentation translations](https://github.com/tkoyama010/felupe-doc-translations) is a project to provide FElupe official documentation, hosted on
 the Read The Docs platform, in multiple languages.
