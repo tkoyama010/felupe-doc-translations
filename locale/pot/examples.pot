@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-29 22:55+0000\n"
+"POT-Creation-Date: 2024-08-08 00:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,7 +106,7 @@ msgstr ""
 #: ../../felupe/docs/examples/ex07_engine-mount.rst:254
 #: ../../felupe/docs/examples/ex08_shear.rst:270
 #: ../../felupe/docs/examples/ex09_numeric-continuation.rst:238
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:106
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:101
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:147
 #: ../../felupe/docs/examples/ex12_foot-bone.rst:101
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:369
@@ -694,51 +694,37 @@ msgid "Poisson Equation"
 msgstr ""
 
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:23
-msgid "The `Poisson equation <https://en.wikipedia.org/wiki/Poisson%27s_equation>`_"
+msgid "The `Poisson equation <https://en.wikipedia.org/wiki/Poisson%27s_equation>`_ with fixed boundaries on the bottom, top, left and right end-edges and a unit load, as given in Eq. :eq:`poisson` and Eq. :eq:`poisson-boundaries`, is solved on a rectangle."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:25
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:27
 msgid "\\text{div}(\\boldsymbol{\\nabla} u) + f = 0 \\quad \\text{in} \\quad \\Omega"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:29
-msgid "with fixed boundaries on the bottom, top, left and right end-edges"
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:32
+msgid "u &= 0 \\quad \\text{on} \\quad \\Gamma_u\n"
+"\n"
+"f &= 1 \\quad \\text{in} \\quad \\Omega"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:31
-msgid "u = 0 \\quad \\text{on} \\quad \\Gamma_u"
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:39
+msgid "The Poisson equation is transformed into integral form representation by the `divergence (Gauss's) theorem <https://en.wikipedia.org/wiki/Divergence_theorem>`_, see Eq. :eq:`poisson-integral-form`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:35
-msgid "and a unit load"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:37
-msgid "f = 1 \\quad \\text{in} \\quad \\Omega"
-msgstr ""
-
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:41
-msgid "is solved on a unit rectangle with triangles."
-msgstr ""
-
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:45
-msgid "The Poisson equation is transformed into integral form representation by the `divergence (Gauss's) theorem <https://en.wikipedia.org/wiki/Divergence_theorem>`_."
-msgstr ""
-
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:48
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:43
 msgid "\\int_\\Omega \\boldsymbol{\\nabla} (\\delta u) \\cdot \\boldsymbol{\\nabla} (\\Delta u)\n"
 "    \\ d\\Omega = \\int_\\Omega  \\delta u \\cdot f \\ d\\Omega"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:91
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:86
 msgid ":download:`Download Jupyter notebook: ex10_poisson-equation.ipynb <ex10_poisson-equation.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:95
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:90
 msgid ":download:`Download Python source code: ex10_poisson-equation.py <ex10_poisson-equation.py>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:99
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:94
 msgid ":download:`Download zipped: ex10_poisson-equation.zip <ex10_poisson-equation.zip>`"
 msgstr ""
 

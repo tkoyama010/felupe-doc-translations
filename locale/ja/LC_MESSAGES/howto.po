@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-10 00:09+0000\n"
+"POT-Creation-Date: 2024-08-08 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -43,30 +43,34 @@ msgstr "軸対称解析では、面内変位に対して軸対称のベクトル
 msgid ""
 "Now it gets important: The 3x3 deformation gradient for an axisymmetric "
 "problem is obtained with :meth:`~felupe.FieldAxisymmetric.grad` or "
-":meth:`~felupe.FieldAxisymmetric.extract` methods. For instances of "
-":class:`~felupe.FieldAxisymmetric` the gradient is modified to return a 3x3 "
-"gradient."
+":meth:`~felupe.FieldAxisymmetric.extract` methods. For a two-dimensional "
+":class:`~felupe.FieldAxisymmetric` the gradient is modified to return a "
+"three-dimensional gradient."
 msgstr ""
 
 #: ../../felupe/docs/howto/axi.rst:21
-msgid "For simplicity, let's assume a (built-in) Neo-Hookean material."
-msgstr "簡単のために、（内蔵された）Neo-Hookeanの素材を想定してみましょう。"
-
-#: ../../felupe/docs/howto/axi.rst:28
 msgid ""
-"Internally, FElupe provides an adopted "
+"For simplicity, let's use the isotropic hyperelastic "
+":class:`~felupe.NeoHooke` material model formulation."
+msgstr ""
+
+#: ../../felupe/docs/howto/axi.rst:29
+msgid ""
+"Internally, FElupe provides an adopted low-level "
 ":class:`~felupe.assembly.IntegralFormAxisymmetric` class for the integration"
 " and the sparse matrix assemblage of axisymmetric problems. It uses the "
 "additional information (e.g. radial coordinates at integration points) "
 "stored in :class:`~felupe.FieldAxisymmetric` to provide a consistent "
-"interface in comparison to default IntegralForms."
+"interface in comparison to :class:`~felupe.assembly.IntegralFormCartesian`. "
+"The top-level :class:`~felupe.IntegralForm` chooses the appropriate low-"
+"level integral form based on the kind of field inside the field container."
 msgstr ""
 
-#: ../../felupe/docs/howto/axi.rst:37
+#: ../../felupe/docs/howto/axi.rst:38
 msgid ""
 "To sum up, for axisymmetric problems use :class:`~felupe.FieldAxisymmetric`."
-" Of course, Mixed-field formulations may be applied on axisymmetric "
-"scenarios too."
+" Of course, mixed-field formulations may also be used with axisymmetric "
+"(displacement) fields."
 msgstr ""
 
 #: ../../felupe/docs/howto/composite.rst:2
@@ -397,7 +401,7 @@ msgid ""
 " :class:`~felupe.SolidBodyNearlyIncompressible`."
 msgstr ""
 
-#: ../../felupe/docs/howto/solid.rst:29
+#: ../../felupe/docs/howto/solid.rst:30
 msgid ""
 "During assembly, several results are stored, e.g. the gradient of the strain"
 " energy density function per unit undeformed volume w.r.t. the deformation "
@@ -406,7 +410,7 @@ msgid ""
 " first Piola-Kirchhoff stress tensor."
 msgstr ""
 
-#: ../../felupe/docs/howto/solid.rst:31
+#: ../../felupe/docs/howto/solid.rst:32
 msgid ""
 "\\boldsymbol{F} &= \\frac{\\partial \\boldsymbol{x}}{\\partial \\boldsymbol{X}}\n"
 "\n"
@@ -420,14 +424,14 @@ msgstr ""
 "\n"
 "\\mathbb{A} &= \\frac{\\partial^2 \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}\\ \\partial \\boldsymbol{F}}"
 
-#: ../../felupe/docs/howto/solid.rst:46
+#: ../../felupe/docs/howto/solid.rst:48
 msgid ""
 "The Cauchy stress tensor, as well as the gradient and the hessian of the "
 "strain energy density function per unit undeformed volume are obtained by "
 "evaluate-methods of the solid body."
 msgstr ""
 
-#: ../../felupe/docs/howto/solid.rst:48
+#: ../../felupe/docs/howto/solid.rst:50
 msgid ""
 "\\boldsymbol{P} &= \\frac{\\partial \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}}\n"
 "\n"
@@ -441,41 +445,39 @@ msgstr ""
 "\n"
 "\\boldsymbol{\\sigma} &= \\frac{1}{J} \\boldsymbol{P} \\boldsymbol{F}^T"
 
-#: ../../felupe/docs/howto/solid.rst:65
+#: ../../felupe/docs/howto/solid.rst:68
 msgid "Body Force (Gravity) on a Solid Body"
 msgstr ""
 
-#: ../../felupe/docs/howto/solid.rst:67
+#: ../../felupe/docs/howto/solid.rst:70
 msgid ""
 "The generation of external force vectors or stiffness matrices of body "
 "forces acting on solid bodies are provided as assembly-methods of a "
-":class:`~felupe.SolidBodyGravity`."
+":class:`~felupe.SolidBodyForce`."
 msgstr ""
 
-#: ../../felupe/docs/howto/solid.rst:70
+#: ../../felupe/docs/howto/solid.rst:73
 msgid "\\delta W_{ext} = \\int_V \\delta \\boldsymbol{u} \\cdot \\rho \\boldsymbol{g} \\ dV"
 msgstr "\\delta W_{ext} = \\int_V \\delta \\boldsymbol{u} \\cdot \\rho \\boldsymbol{g} \\ dV"
 
-#: ../../felupe/docs/howto/solid.rst:83
+#: ../../felupe/docs/howto/solid.rst:87
 msgid "Pressure Boundary on a Solid Body"
 msgstr ""
 
-#: ../../felupe/docs/howto/solid.rst:85
+#: ../../felupe/docs/howto/solid.rst:89
 msgid ""
 "The generation of force vectors or stiffness matrices of pressure boundaries"
 " on solid bodies are provided as assembly-methods of a "
 ":class:`~felupe.SolidBodyPressure`."
 msgstr ""
 
-#: ../../felupe/docs/howto/solid.rst:87
+#: ../../felupe/docs/howto/solid.rst:91
 msgid ""
-"\\delta W_{ext} = \\int_{\\partial V} \\delta \\boldsymbol{u} \\cdot p \\ J "
-"\\boldsymbol{F}^{-T} \\ d\\boldsymbol{A}"
+"\\delta W_{ext} = \\int_{\\partial V} \\delta \\boldsymbol{u} \\cdot (-p) \\"
+" J \\boldsymbol{F}^{-T} \\ d\\boldsymbol{A}"
 msgstr ""
-"\\delta W_{ext} = \\int_{\\partial V} \\delta \\boldsymbol{u} \\cdot p \\ J "
-"\\boldsymbol{F}^{-T} \\ d\\boldsymbol{A}"
 
-#: ../../felupe/docs/howto/solid.rst:113
+#: ../../felupe/docs/howto/solid.rst:116
 msgid ""
 "For axisymmetric problems the boundary region has to be created with the "
 "attribute ``ensure_3d=True``."
@@ -501,16 +503,16 @@ msgstr ""
 msgid "Solvers from SciPy Sparse:"
 msgstr ""
 
-#: ../../felupe/docs/howto/solvers.rst:24
-msgid "**Note**: ``minres`` may be replaced by another iterative method."
+#: ../../felupe/docs/howto/solvers.rst:26
+msgid "``minres`` may be replaced by another iterative method."
 msgstr ""
 
-#: ../../felupe/docs/howto/solvers.rst:35
+#: ../../felupe/docs/howto/solvers.rst:37
 msgid "Solvers from external packages:"
 msgstr ""
 
-#: ../../felupe/docs/howto/solvers.rst:39
-#: ../../felupe/docs/howto/solvers.rst:55
+#: ../../felupe/docs/howto/solvers.rst:41
+#: ../../felupe/docs/howto/solvers.rst:53
 msgid ""
 "Ensure to have `PyPardiso <https://github.com/haasad/PyPardisoProject>`_  "
 "installed."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-29 22:55+0000\n"
+"POT-Creation-Date: 2024-08-08 00:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -216,6 +216,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.tovoigt:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve.plot:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.py:docstring of felupe.mechanics._pointload.PointLoad.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.py:docstring of felupe.mechanics._solidbody_force.SolidBodyForce.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:0
@@ -586,6 +587,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:57
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.py:docstring of felupe.mechanics._pointload.PointLoad:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:63
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.py:docstring of felupe.mechanics._solidbody_force.SolidBodyForce:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:237
@@ -6588,7 +6590,7 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/math.rst:29:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._field.deformation_gradient:1
-msgid "Return the deformation gradient of the n-th field."
+msgid "Return the deformation gradient tensors of the n-th field."
 msgstr ""
 
 #: ../../felupe/docs/felupe/math.rst:29:<autosummary>:1
@@ -7794,7 +7796,7 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:38:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.py:docstring of felupe.mechanics._pointload.PointLoad:1
-msgid "A point load with methods for the assembly of sparse vectors/matrices."
+msgid "A point load with methods for the assembly of sparse vectors/matrices, applied on the n-th field."
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:38:<autosummary>:1
@@ -8167,7 +8169,27 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_pressure.py:docstring of felupe.mechanics._solidbody_pressure.SolidBodyPressure:15
 msgid "\\delta W_{ext} = \\int_{\\partial V}\n"
-"    \\delta \\boldsymbol{u} \\cdot p J \\boldsymbol{F}^{-T} \\ d\\boldsymbol{A}"
+"    \\delta \\boldsymbol{u} \\cdot (-p) J \\boldsymbol{F}^{-T} \\ d\\boldsymbol{A}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.py:docstring of felupe.mechanics._pointload.PointLoad:4
+msgid "A field container with fields created on a region."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.py:docstring of felupe.mechanics._pointload.PointLoad:6
+msgid "A list with point ids where the values are applied."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.py:docstring of felupe.mechanics._pointload.PointLoad:8
+msgid "Values at points (default is None). If None, the values are set to zero."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.py:docstring of felupe.mechanics._pointload.PointLoad:10
+msgid "The n-th field on which the point load is applied (default is 0)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.py:docstring of felupe.mechanics._pointload.PointLoad:12
+msgid "A flag to multiply the assembled vector and matrix by a scaling factor of :math:`2 \\pi` (default is False)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_step.py:docstring of felupe.mechanics._step.Step:4
