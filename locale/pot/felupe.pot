@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-08 00:09+0000\n"
+"POT-Creation-Date: 2024-08-12 23:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,7 +129,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/element.rst:49
 #: ../../felupe/docs/felupe/field.rst:27
 #: ../../felupe/docs/felupe/math.rst:65
-#: ../../felupe/docs/felupe/mechanics.rst:39
+#: ../../felupe/docs/felupe/mechanics.rst:42
 #: ../../felupe/docs/felupe/mesh.rst:60
 #: ../../felupe/docs/felupe/quadrature.rst:30
 #: ../../felupe/docs/felupe/region.rst:37
@@ -7744,27 +7744,14 @@ msgid "A body force on a solid body."
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:17
-msgid "**State Variables**"
-msgstr ""
-
-#: ../../felupe/docs/felupe/mechanics.rst:22:<autosummary>:1
-msgid ":py:obj:`StateNearlyIncompressible <felupe.StateNearlyIncompressible>`\\ \\(field\\)"
-msgstr ""
-
-#: ../../felupe/docs/felupe/mechanics.rst:22:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:1
-msgid "A State with internal cell-wise constant dual fields for (nearly) incompressible solid bodies."
-msgstr ""
-
-#: ../../felupe/docs/felupe/mechanics.rst:23
 msgid "**Steps and Jobs**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:30:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:24:<autosummary>:1
 msgid ":py:obj:`Step <felupe.Step>`\\ \\(items\\[\\, ramp\\, boundaries\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:30:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:24:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:53
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:82
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:51
@@ -7772,39 +7759,79 @@ msgstr ""
 msgid "A Step with multiple substeps, subsequently depending on the solution of the previous substep."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:30:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:24:<autosummary>:1
 msgid ":py:obj:`Job <felupe.Job>`\\ \\(steps\\[\\, callback\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:30:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:24:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:1
 msgid "A job with a list of steps and a method to evaluate them."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:30:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:24:<autosummary>:1
 msgid ":py:obj:`CharacteristicCurve <felupe.CharacteristicCurve>`\\ \\(steps\\, boundary\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:31
+#: ../../felupe/docs/felupe/mechanics.rst:25
 msgid "**Point Load and Multi-Point Constraints**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:38:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:32:<autosummary>:1
 msgid ":py:obj:`PointLoad <felupe.PointLoad>`\\ \\(field\\, points\\[\\, values\\, apply\\_on\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:38:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:32:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.py:docstring of felupe.mechanics._pointload.PointLoad:1
 msgid "A point load with methods for the assembly of sparse vectors/matrices, applied on the n-th field."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:38:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:32:<autosummary>:1
 msgid ":py:obj:`MultiPointConstraint <felupe.MultiPointConstraint>`\\ \\(field\\, points\\, centerpoint\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:38:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:32:<autosummary>:1
 msgid ":py:obj:`MultiPointContact <felupe.MultiPointContact>`\\ \\(field\\, points\\, centerpoint\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:33
+msgid "**Helpers for Custom Items and State Variables**"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+msgid ":py:obj:`StateNearlyIncompressible <felupe.StateNearlyIncompressible>`\\ \\(field\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:1
+msgid "A State with internal cell-wise constant dual fields for (nearly) incompressible solid bodies."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+msgid ":py:obj:`mechanics.Assemble <felupe.mechanics.Assemble>`\\ \\(vector\\, matrix\\[\\, multiplier\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.Assemble:1
+msgid "A class with methods for assembling vectors and matrices of an Item."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+msgid ":py:obj:`mechanics.Evaluate <felupe.mechanics.Evaluate>`\\ \\(gradient\\, hessian\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.Evaluate:1
+msgid "A class with evaluate methods of an Item."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+msgid ":py:obj:`mechanics.Results <felupe.mechanics.Results>`\\ \\(\\[stress\\, elasticity\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.Results:1
+msgid "A class with intermediate results of an Item."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:1
@@ -8105,7 +8132,6 @@ msgstr ""
 msgid "A State with internal cell-wise constant fields for (nearly) incompressible solid bodies."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.py:docstring of felupe.mechanics._pointload.PointLoad:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.py:docstring of felupe.mechanics._solidbody_force.SolidBodyForce:1
@@ -8113,32 +8139,6 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_step.py:docstring of felupe.mechanics._step.Step:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/quadrature/_scheme.py:docstring of felupe.quadrature._scheme.Scheme:1
 msgid "Bases: :py:class:`object`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:6
-msgid "The internal fields :math:`p` and :math:`\\bar{J}` are treated as state variables, directly derived from the displacement field. Hence, these dual fields are not exported to the global degrees of freedom."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:10
-msgid "A field container with the displacement field."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible.integrate_shape_function_gradient:1
-msgid "Integrated sub-block matrix containing the shape-functions gradient w.r.t. the deformed coordinates :math:`\\boldsymbol{K}_{\\boldsymbol{u}p}`."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible.integrate_shape_function_gradient:4
-msgid "\\int_V \\delta \\boldsymbol{F} : \\frac{\\partial J}{\\partial \\boldsymbol{F}}\n"
-"    ~ dV\\ \\Delta p\n"
-"\\longrightarrow \\boldsymbol{K}_{\\boldsymbol{u}p}"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible.volume:1
-msgid "Return the cell volumes of the deformed configuration."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible.volume:3
-msgid "v = \\int_V J ~ dV"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.py:docstring of felupe.mechanics._solidbody_force.SolidBodyForce:3
@@ -8440,6 +8440,32 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve.plot:45
 msgid "**ax** (*matplotlib.axes.Axes*) -- The axes object where the plot is placed in."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:6
+msgid "The internal fields :math:`p` and :math:`\\bar{J}` are treated as state variables, directly derived from the displacement field. Hence, these dual fields are not exported to the global degrees of freedom."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:10
+msgid "A field container with the displacement field."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible.integrate_shape_function_gradient:1
+msgid "Integrated sub-block matrix containing the shape-functions gradient w.r.t. the deformed coordinates :math:`\\boldsymbol{K}_{\\boldsymbol{u}p}`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible.integrate_shape_function_gradient:4
+msgid "\\int_V \\delta \\boldsymbol{F} : \\frac{\\partial J}{\\partial \\boldsymbol{F}}\n"
+"    ~ dV\\ \\Delta p\n"
+"\\longrightarrow \\boldsymbol{K}_{\\boldsymbol{u}p}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible.volume:1
+msgid "Return the cell volumes of the deformed configuration."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible.volume:3
+msgid "v = \\int_V J ~ dV"
 msgstr ""
 
 #: ../../felupe/docs/felupe/mesh.rst:4
