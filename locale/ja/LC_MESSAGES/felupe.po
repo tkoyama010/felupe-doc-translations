@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-12 19:57+0000\n"
+"POT-Creation-Date: 2024-08-14 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -584,7 +584,7 @@ msgstr ""
 #: of felupe.constitution.hyperelasticity.models._ogden.ogden:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:26
+#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:28
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/models/_saint_venant_kirchhoff.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity.models._saint_venant_kirchhoff.saint_venant_kirchhoff:13
@@ -953,7 +953,7 @@ msgstr ""
 #: of felupe.constitution.hyperelasticity.models._ogden.ogden:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:49
+#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:51
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/models/_saint_venant_kirchhoff.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity.models._saint_venant_kirchhoff.saint_venant_kirchhoff:33
@@ -7488,7 +7488,15 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:27
+#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:24
+msgid ""
+"The keyword arguments of :func:`material <material(C, **kwargs)>` must not "
+"include the names ``r``, ``m`` and ``beta``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:29
 msgid ""
 "The pseudo-elastic strain energy density function :math:`\\widetilde{\\psi}`"
 " and the Mullins-effect related evolution equation are given in Eq. "
@@ -7502,7 +7510,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/models/_ogden_roxburgh.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:35
+#: felupe.constitution.hyperelasticity.models._ogden_roxburgh.ogden_roxburgh:37
 msgid ""
 "\\widetilde{\\psi} &= \\eta \\hat{\\psi} + \\phi\n"
 "\n"

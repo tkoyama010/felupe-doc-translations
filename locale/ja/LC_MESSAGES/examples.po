@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-08 00:09+0000\n"
+"POT-Creation-Date: 2024-08-14 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -145,7 +145,7 @@ msgstr ""
 #: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:245
 #: ../../felupe/docs/examples/ex07_engine-mount.rst:254
 #: ../../felupe/docs/examples/ex08_shear.rst:270
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:238
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:240
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:101
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:147
 #: ../../felupe/docs/examples/ex12_foot-bone.rst:101
@@ -952,7 +952,7 @@ msgstr ""
 msgid "plot force-displacement curve"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:56
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:57
 msgid ""
 "First, setup a problem as usual (mesh, region, field, boundaries and umat). "
 "For the material definition we use matADi (``pip install madati``). We "
@@ -960,7 +960,7 @@ msgid ""
 " in uniaxial tension."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:95
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:96
 msgid ""
 "An external normal force is applied at :math:`x=1` on a quarter model of a "
 "cube with symmetry planes at :math:`x=y=z=0`. Therefore, we have to define "
@@ -968,27 +968,27 @@ msgid ""
 "factor :math:`\\lambda` during numeric continuation."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:115
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:116
 msgid ""
 "The next step involves the problem definition for contique. For details have"
 " a look at `contique's README <https://github.com/adtzlr/contique>`_."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:163
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:162
 msgid ""
 "Next we have to init the problem and specify the initial values of unknowns "
 "(the undeformed configuration). After each completed step of the numeric "
 "continuation the XDMF-file will be updated."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:198
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:200
 msgid ""
 "Finally, the force-displacement curve is plotted. It can be seen that the "
 "resulting (unstable) force-controlled equilibrium path is equal to the "
 "displacement-controlled load case of matADi's lab."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:223
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:225
 msgid ""
 ":download:`Download Jupyter notebook: ex09_numeric-continuation.ipynb "
 "<ex09_numeric-continuation.ipynb>`"
@@ -996,13 +996,13 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex09_numeric-continuation.ipynb "
 "<ex09_numeric-continuation.ipynb>`"
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:227
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:229
 msgid ""
 ":download:`Download Python source code: ex09_numeric-continuation.py "
 "<ex09_numeric-continuation.py>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:231
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:233
 msgid ""
 ":download:`Download zipped: ex09_numeric-continuation.zip <ex09_numeric-"
 "continuation.zip>`"
