@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-14 00:09+0000\n"
+"POT-Creation-Date: 2024-08-17 00:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,6 +134,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/quadrature.rst:30
 #: ../../felupe/docs/felupe/region.rst:37
 #: ../../felupe/docs/felupe/tools.rst:34
+#: ../../felupe/docs/felupe/view.rst:14
 msgid "**Detailed API Reference**"
 msgstr ""
 
@@ -151,6 +152,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/mesh.rst:0
 #: ../../felupe/docs/felupe/region.rst:0
 #: ../../felupe/docs/felupe/tools.rst:0
+#: ../../felupe/docs/felupe/view.rst:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial.plot:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial.view:0
@@ -733,12 +735,12 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/assembly/_cartesian.py:docstring of felupe.assembly._cartesian.IntegralFormCartesian:69
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/assembly/_integral.py:docstring of felupe.assembly._integral.IntegralForm:155
-msgid ":obj:`felupe.IntegralFormAxisymmetric`"
+msgid ":obj:`felupe.assembly.IntegralFormAxisymmetric`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/assembly/_axi.py:docstring of felupe.assembly._axi.IntegralFormAxisymmetric:94
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/assembly/_integral.py:docstring of felupe.assembly._integral.IntegralForm:158
-msgid ":obj:`felupe.IntegralFormCartesian`"
+msgid ":obj:`felupe.assembly.IntegralFormCartesian`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/assembly/_axi.py:docstring of felupe.assembly._axi.IntegralFormAxisymmetric:95
@@ -4870,6 +4872,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_xdmf.py:docstring of felupe.view._xdmf.ViewXdmf:0
 msgid "type"
 msgstr ""
 
@@ -6086,6 +6093,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.view:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.plot:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.view:22
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:30
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:35
 msgid ":obj:`felupe.project`"
 msgstr ""
 
@@ -6095,6 +6104,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.plot:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.view:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/tools/_project.py:docstring of felupe.tools._project.project:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:31
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:36
 msgid "Project given values at quadrature-points to mesh-points."
 msgstr ""
 
@@ -6150,12 +6161,18 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.view:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.view:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.view:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:6
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:15
 msgid "Additional point-data dict (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.view:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.view:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.view:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:12
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:17
 msgid "Additional cell-data dict (default is None)."
 msgstr ""
 
@@ -6163,6 +6180,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.view:7
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.as_pyvista:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.view:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:14
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:19
 msgid "Cell-type of PyVista (default is None)."
 msgstr ""
 
@@ -11245,4 +11265,111 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/tools/_project.py:docstring of felupe.tools._project.extrapolate:12
 msgid "A flag to take the cell-means, averaged by the quadrature weights, of the values (default is False)."
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:2
+msgid "View"
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:13:<autosummary>:1
+msgid ":py:obj:`view.Scene <felupe.view.Scene>`\\ \\(\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:13:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:1
+msgid "Base class for plotting a static scene."
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:13:<autosummary>:1
+msgid ":py:obj:`ViewMesh <felupe.ViewMesh>`\\ \\(mesh\\[\\, point\\_data\\, cell\\_data\\, ...\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:13:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:1
+msgid "Provide Visualization methods for :class:`felupe.Mesh` with optional given dicts of point- and cell-data items."
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:13:<autosummary>:1
+msgid ":py:obj:`ViewField <felupe.ViewField>`\\ \\(field\\[\\, point\\_data\\, cell\\_data\\, ...\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:13:<autosummary>:1
+msgid "Provide Visualization methods for :class:`felupe.FieldContainer`."
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:13:<autosummary>:1
+msgid ":py:obj:`ViewSolid <felupe.ViewSolid>`\\ \\(field\\[\\, solid\\, stress\\_type\\, ...\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:13:<autosummary>:1
+msgid "Provide Visualization methods for :class:`felupe.Field` and `felupe.SolidBody`."
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:13:<autosummary>:1
+msgid ":py:obj:`ViewXdmf <felupe.ViewXdmf>`\\ \\(filename\\[\\, time\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:13:<autosummary>:1
+msgid "Provide Visualization methods for a XDMF file generated by `:meth:`Job.evaluate(filename=\"result.xdmf\")`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:23
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:28
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_xdmf.py:docstring of felupe.view._xdmf.ViewXdmf:12
+msgid "A generalized Dataset with the mesh as well as point- and cell-data. This is not an instance of :class:`felupe.Mesh`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:26
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:31
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_xdmf.py:docstring of felupe.view._xdmf.ViewXdmf:15
+msgid "pyvista.UnstructuredGrid"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:4
+msgid "The mesh object."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:1
+msgid "Provide Visualization methods for :class:`felupe.FieldContainer`. The warped (deformed) mesh is created from the values of the first field (displacements). By default, the \"Deformation Gradient\" tensor, the \"Logarithmic Strain\" tensor and the \"Principal Values of Logarithmic Strain\" are evaluated as field-related items of the cell-data dict. Optional items of given point- and cell-data overwrite these default field-related cell-data items."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:8
+msgid "The field-container."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:16
+msgid "Callable to project internal cell-data at quadrature-points to mesh-points (default is None). Valid callables are :class:`~felupe.project` or :class:`~felupe.tools.extrapolate`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:1
+msgid "Provide Visualization methods for :class:`felupe.Field` and `felupe.SolidBody`. The warped (deformed) mesh is created from the values of the first field (displacements). By default, the \"Deformation Gradient\" tensor, the \"Logarithmic Strain\" tensor and the \"Principal Values of Logarithmic Strain\" are evaluated as field-related items of the cell-data dict. Optional items of given point- and cell-data overwrite these default field-related cell-data items."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:10
+msgid "A solid body to evaluate the (Cauchy) stress (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:12
+msgid "The type of stress, either \"Cauchy\" or \"Kirchhoff, which is exported (default is \"Cauchy\")."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:21
+msgid "Callable to project stress at quadrature-points to mesh-points (default is None). Valid callables are :class:`~felupe.project` or :class:`~felupe.tools.extrapolate`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_xdmf.py:docstring of felupe.view._xdmf.ViewXdmf:1
+msgid "Provide Visualization methods for a XDMF file generated by `:meth:`Job.evaluate(filename=\"result.xdmf\")`. The warped (deformed) mesh is created from the values of the point-data \"Displacement\"."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_xdmf.py:docstring of felupe.view._xdmf.ViewXdmf:5
+msgid "The filename of the XDMF file (including the extension)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/felupe/view/_xdmf.py:docstring of felupe.view._xdmf.ViewXdmf:7
+msgid "The time value at which the data is extracted (default is 0)."
 msgstr ""
