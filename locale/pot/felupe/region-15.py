@@ -7,5 +7,6 @@ region
 ##   Element formulation: ArbitraryOrderLagrange
 ##   Quadrature rule: GaussLegendre
 ##   Gradient evaluated: True
+##   Hessian evaluated: False
 #
 region.plot().show()

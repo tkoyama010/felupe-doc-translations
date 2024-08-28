@@ -7,5 +7,6 @@ region
 ##   Element formulation: Hexahedron
 ##   Quadrature rule: GaussLegendreBoundary
 ##   Gradient evaluated: True
+##   Hessian evaluated: False
 #
 region.plot().show()

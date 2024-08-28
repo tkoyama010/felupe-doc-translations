@@ -8,5 +8,6 @@ region
 ##   Element formulation: TriQuadraticHexahedron
 ##   Quadrature rule: GaussLegendre
 ##   Gradient evaluated: True
+##   Hessian evaluated: False
 #
 region.plot().show()

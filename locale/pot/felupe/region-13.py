@@ -7,5 +7,6 @@ region
 ##   Element formulation: TriangleMINI
 ##   Quadrature rule: Triangle
 ##   Gradient evaluated: True
+##   Hessian evaluated: False
 #
 region.plot().show()

@@ -8,5 +8,6 @@ region
 ##   Element formulation: BiQuadraticQuad
 ##   Quadrature rule: GaussLegendre
 ##   Gradient evaluated: True
+##   Hessian evaluated: False
 #
 region.plot().show()

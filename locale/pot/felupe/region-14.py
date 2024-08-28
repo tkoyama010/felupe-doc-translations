@@ -7,5 +7,6 @@ region
 ##   Element formulation: TetraMINI
 ##   Quadrature rule: Tetrahedron
 ##   Gradient evaluated: True
+##   Hessian evaluated: False
 #
 region.plot().show()

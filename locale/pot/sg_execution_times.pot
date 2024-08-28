@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 00:09+0000\n"
+"POT-Creation-Date: 2024-08-28 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "Computation times"
 msgstr ""
 
 #: ../../felupe/docs/sg_execution_times.rst:9
-msgid "**00:00.000** total execution time for 22 files **from all galleries**:"
+msgid "**00:00.000** total execution time for 23 files **from all galleries**:"
 msgstr ""
 
 #: ../../felupe/docs/sg_execution_times.rst:32
@@ -62,6 +62,7 @@ msgstr ""
 #: ../../felupe/docs/sg_execution_times.rst:93
 #: ../../felupe/docs/sg_execution_times.rst:96
 #: ../../felupe/docs/sg_execution_times.rst:99
+#: ../../felupe/docs/sg_execution_times.rst:102
 msgid "00:00.000"
 msgstr ""
 
@@ -87,6 +88,7 @@ msgstr ""
 #: ../../felupe/docs/sg_execution_times.rst:94
 #: ../../felupe/docs/sg_execution_times.rst:97
 #: ../../felupe/docs/sg_execution_times.rst:100
+#: ../../felupe/docs/sg_execution_times.rst:103
 msgid "0.0"
 msgstr ""
 
@@ -172,4 +174,8 @@ msgstr ""
 
 #: ../../felupe/docs/sg_execution_times.rst:98
 msgid ":ref:`sphx_glr_examples_ex19_taylor-hood.py` (``../examples/ex19_taylor-hood.py``)"
+msgstr ""
+
+#: ../../felupe/docs/sg_execution_times.rst:101
+msgid ":ref:`sphx_glr_examples_ex20_third-medium-contact.py` (``../examples/ex20_third-medium-contact.py``)"
 msgstr ""
