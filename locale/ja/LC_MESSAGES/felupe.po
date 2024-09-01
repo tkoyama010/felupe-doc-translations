@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-31 00:09+0000\n"
+"POT-Creation-Date: 2024-09-01 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -229,7 +229,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution/tools.rst:33
 #: ../../felupe/docs/felupe/dof.rst:33 ../../felupe/docs/felupe/element.rst:49
 #: ../../felupe/docs/felupe/field.rst:27 ../../felupe/docs/felupe/math.rst:65
-#: ../../felupe/docs/felupe/mechanics.rst:42
+#: ../../felupe/docs/felupe/mechanics.rst:43
 #: ../../felupe/docs/felupe/mesh.rst:60
 #: ../../felupe/docs/felupe/quadrature.rst:30
 #: ../../felupe/docs/felupe/region.rst:37
@@ -257,41 +257,9 @@ msgstr ""
 #: ../../felupe/docs/felupe/mesh.rst:0 ../../felupe/docs/felupe/region.rst:0
 #: ../../felupe/docs/felupe/tools.rst:0 ../../felupe/docs/felupe/view.rst:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.byteswap:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.copy:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.fill:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.flatten:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.getfield:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.item:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setfield:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setflags:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tobytes:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tofile:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tolist:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
 #: of felupe.assembly.expression._basis.Basis:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
+#: of felupe.assembly.expression._basis.BasisArray:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
 #: of felupe.assembly.expression._basis.BasisField:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
@@ -442,6 +410,8 @@ msgstr ""
 #: of felupe.mechanics._pointload.PointLoad.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
+#: of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.pydocstring
 #: of felupe.mechanics._solidbody_force.SolidBodyForce.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
@@ -552,9 +522,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.topoints:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/tools/_save.pydocstring
-#: of felupe.tools._save.save:0 ../docstring of
-#: felupe.assembly.expression.BasisArray.ctypes:0 ../docstring of
-#: felupe.assembly.expression.BasisArray.dtype:0
+#: of felupe.tools._save.save:0
 msgid "Parameters"
 msgstr ""
 
@@ -603,28 +571,6 @@ msgstr ""
 #: of felupe.assembly._cartesian.IntegralFormCartesian:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
 #: of felupe.assembly._integral.IntegralForm:25
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:38
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.copy:19
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.item:21
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:44
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.reshape:11
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:19
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setflags:21
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:39
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tofile:22
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tolist:16
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
 #: of felupe.assembly.expression._basis.BasisField:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
@@ -712,7 +658,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/lagrange/models/_morph.pydocstring
 #: of felupe.constitution.lagrange.models._morph.morph:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.pydocstring
-#: of felupe.constitution.linear_elasticity._lame_converter.lame_converter:6
+#: of felupe.constitution.linear_elasticity._lame_converter.lame_converter:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
@@ -832,6 +778,8 @@ msgstr ""
 #: of felupe.mechanics._job.Job.evaluate:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody:17
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
+#: of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.pydocstring
 #: of felupe.mechanics._solidbody_force.SolidBodyForce:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
@@ -886,12 +834,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.project:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
-#: of felupe.tools._project.topoints:19 ../docstring of
-#: felupe.assembly.expression.BasisArray.ctypes:18 ../docstring of
-#: felupe.assembly.expression.BasisArray.flags:59 ../docstring of
-#: felupe.assembly.expression.BasisArray.nbytes:4 ../docstring of
-#: felupe.assembly.expression.BasisArray.size:7 ../docstring of
-#: felupe.assembly.expression.BasisArray.strides:18
+#: of felupe.tools._project.topoints:19
 msgid "Notes"
 msgstr ""
 
@@ -994,38 +937,6 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
 #: of felupe.assembly._integral.IntegralForm:73
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:52
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.byteswap:16
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.copy:25
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.fill:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.flatten:24
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.getfield:17
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.item:33
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:48
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:33
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setfield:18
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setflags:40
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:43
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tobytes:23
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tolist:21
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:30
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:41
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
 #: of felupe.assembly.expression._basis.Basis:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
@@ -1258,6 +1169,8 @@ msgstr ""
 #: of felupe.mechanics._pointload.PointLoad:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody:63
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
+#: of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.pydocstring
 #: of felupe.mechanics._solidbody_force.SolidBodyForce:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
@@ -1428,21 +1341,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.project:90
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/tools/_save.pydocstring
-#: of felupe.tools._save.save:20 ../docstring of
-#: felupe.assembly.expression.BasisArray.T:6 ../docstring of
-#: felupe.assembly.expression.BasisArray.base:4 ../docstring of
-#: felupe.assembly.expression.BasisArray.ctypes:48 ../docstring of
-#: felupe.assembly.expression.BasisArray.dtype:25 ../docstring of
-#: felupe.assembly.expression.BasisArray.flat:14 ../docstring of
-#: felupe.assembly.expression.BasisArray.imag:4 ../docstring of
-#: felupe.assembly.expression.BasisArray.itemsize:4 ../docstring of
-#: felupe.assembly.expression.BasisArray.mT:11 ../docstring of
-#: felupe.assembly.expression.BasisArray.nbytes:14 ../docstring of
-#: felupe.assembly.expression.BasisArray.ndim:4 ../docstring of
-#: felupe.assembly.expression.BasisArray.real:4 ../docstring of
-#: felupe.assembly.expression.BasisArray.shape:16 ../docstring of
-#: felupe.assembly.expression.BasisArray.size:15 ../docstring of
-#: felupe.assembly.expression.BasisArray.strides:35
+#: of felupe.tools._save.save:20
 msgid "Examples"
 msgstr ""
 
@@ -1852,20 +1751,6 @@ msgstr ""
 #: ../../felupe/docs/felupe/dof.rst:0 ../../felupe/docs/felupe/field.rst:0
 #: ../../felupe/docs/felupe/math.rst:0 ../../felupe/docs/felupe/mesh.rst:0
 #: ../../felupe/docs/felupe/region.rst:0 ../../felupe/docs/felupe/tools.rst:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.byteswap:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.flatten:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.item:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tobytes:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tolist:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
 #: of felupe.assembly.expression._decorator.FormExpressionDecorator:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
@@ -2028,9 +1913,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonrhapson:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
-#: of felupe.tools._project.topoints:0 ../docstring of
-#: felupe.assembly.expression.BasisArray.ctypes:0 ../docstring of
-#: felupe.assembly.expression.BasisArray.dtype:0
+#: of felupe.tools._project.topoints:0
 msgid "Returns"
 msgstr ""
 
@@ -2044,24 +1927,6 @@ msgstr ""
 #: ../../felupe/docs/felupe/dof.rst:0 ../../felupe/docs/felupe/field.rst:0
 #: ../../felupe/docs/felupe/math.rst:0 ../../felupe/docs/felupe/mesh.rst:0
 #: ../../felupe/docs/felupe/region.rst:0 ../../felupe/docs/felupe/tools.rst:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.byteswap:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.flatten:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.item:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setfield:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tobytes:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tolist:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
 #: of felupe.assembly.expression._decorator.FormExpressionDecorator:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
@@ -2167,9 +2032,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonrhapson:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
-#: of felupe.tools._project.topoints:0 ../docstring of
-#: felupe.assembly.expression.BasisArray.ctypes:0 ../docstring of
-#: felupe.assembly.expression.BasisArray.dtype:0
+#: of felupe.tools._project.topoints:0
 msgid "Return type"
 msgstr ""
 
@@ -2317,9 +2180,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
 #: of felupe.view._solid.ViewSolid:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/view/_xdmf.pydocstring
-#: of felupe.view._xdmf.ViewXdmf:0 ../docstring of
-#: numpy._core._internal._ctypes.shape:0 ../docstring of
-#: numpy._core._internal._ctypes.strides:0
+#: of felupe.view._xdmf.ViewXdmf:0
 msgid "type"
 msgstr ""
 
@@ -2434,7 +2295,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
 #: of felupe.assembly.expression._basis.BasisField:41
 msgid ""
-"\\text{grad}(\\varphi)_{ai~jk~qc} = \\delta_{ij}\n"
+"\\text{grad}(\\varphi)_{ai~jK~qc} = \\delta_{ij}\n"
 "    \\left( \\frac{\\partial h_a}{\\partial X_K} \\right)_{qc}"
 msgstr ""
 
@@ -2456,19 +2317,6 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
 #: of felupe.assembly.expression._basis.BasisArray:7
 msgid "The array for the hess-attribute (default is None)."
-msgstr ""
-
-#: ../../felupe/docs/felupe/assembly.rst:22
-#: ../../felupe/docs/felupe/assembly.rst:26
-msgid "[[0., 0., 0.],"
-msgstr ""
-
-#: ../../felupe/docs/felupe/assembly.rst:23
-msgid "[0., 0., 0.], [0., 0., 0.]],"
-msgstr ""
-
-#: ../../felupe/docs/felupe/assembly.rst:27
-msgid "[0., 0., 0.], [0., 0., 0.]]])"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
@@ -2583,2156 +2431,6 @@ msgstr ""
 msgid ""
 "https://numpy.org/doc/stable/user/basics.subclassing.html#slightly-more-"
 "realistic-example-attribute-added-to-existing-array"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.T:1
-msgid "View of the transposed array."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.T:3
-msgid "Same as ``self.transpose()``."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:20 ../docstring of
-#: felupe.assembly.expression.BasisArray.T:22
-msgid ":obj:`transpose`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.all:1
-msgid "Returns True if all elements evaluate to True."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.all:3
-msgid "Refer to `numpy.all` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.all:7
-msgid ":obj:`numpy.all`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.all:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.any:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.argmax:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.argmin:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.argpartition:10
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.argsort:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.choose:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.clip:9
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.compress:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.conj:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.conjugate:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.cumprod:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.cumsum:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.diagonal:10
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.max:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.mean:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.min:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.nonzero:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.prod:11
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.put:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.ravel:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.repeat:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.reshape:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.round:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.searchsorted:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.squeeze:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.std:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sum:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.swapaxes:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.take:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.trace:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.var:8 ../docstring of
-#: felupe.assembly.expression.BasisArray.real:15
-msgid "equivalent function"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.any:1
-msgid "Returns True if any of the elements of `a` evaluate to True."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.any:3
-msgid "Refer to `numpy.any` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.any:7
-msgid ":obj:`numpy.any`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.argmax:1
-msgid "Return indices of the maximum values along the given axis."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.argmax:3
-msgid "Refer to `numpy.argmax` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.argmax:7
-msgid ":obj:`numpy.argmax`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.argmin:1
-msgid "Return indices of the minimum values along the given axis."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.argmin:3
-msgid "Refer to `numpy.argmin` for detailed documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.argmin:7
-msgid ":obj:`numpy.argmin`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.argpartition:1
-msgid "Returns the indices that would partition this array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.argpartition:3
-msgid "Refer to `numpy.argpartition` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.argpartition:9
-msgid ":obj:`numpy.argpartition`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.argsort:1
-msgid "Returns the indices that would sort this array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.argsort:3
-msgid "Refer to `numpy.argsort` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.argsort:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:26
-msgid ":obj:`numpy.argsort`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:1
-msgid "Copy of the array, cast to a specified type."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:3
-msgid "Typecode or data-type to which the array is cast."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:5
-msgid ""
-"Controls the memory layout order of the result. 'C' means C order, 'F' means"
-" Fortran order, 'A' means 'F' order if all the arrays are Fortran "
-"contiguous, 'C' order otherwise, and 'K' means as close to the order the "
-"array elements appear in memory as possible. Default is 'K'."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:12
-msgid ""
-"Controls what kind of data casting may occur. Defaults to 'unsafe' for "
-"backwards compatibility.  * 'no' means the data types should not be cast at "
-"all. * 'equiv' means only byte-order changes are allowed. * 'safe' means "
-"only casts which can preserve values are allowed. * 'same_kind' means only "
-"safe casts or casts within a kind,   like float64 to float32, are allowed. *"
-" 'unsafe' means any data conversions may be done."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:12
-msgid ""
-"Controls what kind of data casting may occur. Defaults to 'unsafe' for "
-"backwards compatibility."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:15
-msgid "'no' means the data types should not be cast at all."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:16
-msgid "'equiv' means only byte-order changes are allowed."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:17
-msgid "'safe' means only casts which can preserve values are allowed."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:18
-msgid ""
-"'same_kind' means only safe casts or casts within a kind, like float64 to "
-"float32, are allowed."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:20
-msgid "'unsafe' means any data conversions may be done."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:22
-msgid ""
-"If True, then sub-classes will be passed-through (default), otherwise the "
-"returned array will be forced to be a base-class array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:25
-msgid ""
-"By default, astype always returns a newly allocated array. If this is set to"
-" false, and the `dtype`, `order`, and `subok` requirements are satisfied, "
-"the input array is returned instead of a copy."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:31
-msgid ""
-"**arr_t** -- Unless `copy` is False and the other conditions for returning "
-"the input array are satisfied (see description for `copy` input parameter), "
-"`arr_t` is a new array of the same shape as the input array, with dtype, "
-"order given by `dtype`, `order`."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:39
-msgid ""
-"Casting between a simple data type and a structured one is possible only for"
-" \"unsafe\" casting.  Casting to multiple fields is allowed, but casting "
-"from multiple fields is not."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:44
-msgid ""
-"Casting from numeric to string types in 'safe' casting mode requires that "
-"the string dtype length is long enough to store the max integer/float value "
-"converted."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:0 ../docstring of
-#: felupe.assembly.expression.BasisArray.mT:0
-msgid "Raises"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.astype:49
-msgid ""
-"When casting from complex to float or int. To avoid this,     one should use"
-" ``a.real.astype(t)``."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.base:1
-msgid "Base object if memory is from some other object."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.base:5
-msgid "The base of an array that owns its memory is None:"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.base:12
-msgid "Slicing creates a view, whose memory is shared with x:"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.byteswap:1
-msgid "Swap the bytes of the array elements"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.byteswap:3
-msgid ""
-"Toggle between low-endian and big-endian data representation by returning a "
-"byteswapped array, optionally swapped in-place. Arrays of byte-strings are "
-"not swapped. The real and imaginary parts of a complex number are swapped "
-"individually."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.byteswap:8
-msgid "If ``True``, swap bytes in-place, default is ``False``."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.byteswap:11
-msgid ""
-"**out** -- The byteswapped array. If `inplace` is ``True``, this is a view "
-"to self."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.byteswap:26
-msgid "Arrays of byte-strings are not swapped"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.byteswap:32
-msgid ""
-"``A.view(A.dtype.newbyteorder()).byteswap()`` produces an array with the "
-"same values but different representation in memory"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.choose:1
-msgid "Use an index array to construct a new array from a set of choices."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.choose:3
-msgid "Refer to `numpy.choose` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.choose:7
-msgid ":obj:`numpy.choose`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.clip:1
-msgid ""
-"Return an array whose values are limited to ``[min, max]``. One of max or "
-"min must be given."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.clip:4
-msgid "Refer to `numpy.clip` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.clip:8
-msgid ":obj:`numpy.clip`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.compress:1
-msgid "Return selected slices of this array along given axis."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.compress:3
-msgid "Refer to `numpy.compress` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.compress:7
-msgid ":obj:`numpy.compress`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.conj:1
-msgid "Complex-conjugate all elements."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.conj:3
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.conjugate:3
-msgid "Refer to `numpy.conjugate` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.conj:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.conjugate:7
-msgid ":obj:`numpy.conjugate`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.conjugate:1
-msgid "Return the complex conjugate, element-wise."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.copy:1
-msgid "Return a copy of the array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.copy:3
-msgid ""
-"Controls the memory layout of the copy. 'C' means C-order, 'F' means "
-"F-order, 'A' means 'F' if `a` is Fortran contiguous, 'C' otherwise. 'K' "
-"means match the layout of `a` as closely as possible. (Note that this "
-"function and :func:`numpy.copy` are very similar but have different default "
-"values for their order= arguments, and this function always passes sub-"
-"classes through.)"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.copy:13
-msgid ":obj:`numpy.copy`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.copy:14
-msgid "Similar function with different default behavior"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.copy:16
-msgid ":obj:`numpy.copyto`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.copy:20
-msgid ""
-"This function is the preferred method for creating an array copy.  The "
-"function :func:`numpy.copy` is similar, but it defaults to using order 'K', "
-"and will not pass sub-classes through by default."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.copy:44
-msgid ""
-"For arrays containing Python objects (e.g. dtype=object), the copy is a "
-"shallow one. The new array will contain the same object which may lead to "
-"surprises if that object can be modified (is mutable):"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.copy:55
-msgid ""
-"To ensure all elements within an ``object`` array are copied, use "
-"`copy.deepcopy`:"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.ctypes:1
-msgid ""
-"An object to simplify the interaction of the array with the ctypes module."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.ctypes:4
-msgid ""
-"This attribute creates an object that makes it easier to use arrays when "
-"calling shared libraries with the ctypes module. The returned object has, "
-"among others, data, shape, and strides attributes (see Notes below) which "
-"themselves return ctypes objects that can be used as arguments to a shared "
-"library."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.ctypes:12
-msgid "**c** -- Possessing attributes data, shape, strides, etc."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.ctypes:15
-msgid ":obj:`numpy.ctypeslib`"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.ctypes:19
-msgid ""
-"Below are the public attributes of this object which were documented in "
-"\"Guide to NumPy\" (we have omitted undocumented public attributes, as well "
-"as documented private attributes):"
-msgstr ""
-
-#: ../docstring of numpy._core._internal._ctypes.data:1
-msgid ""
-"A pointer to the memory area of the array as a Python integer. This memory "
-"area may contain data that is not aligned, or not in correct byte-order. The"
-" memory area may not even be writeable. The array flags and data-type of "
-"this array should be respected when passing this attribute to arbitrary "
-"C-code to avoid trouble that can include Python crashing. User Beware! The "
-"value of this attribute is exactly the same as: "
-"``self._array_interface_['data'][0]``."
-msgstr ""
-
-#: ../docstring of numpy._core._internal._ctypes.data:10
-msgid ""
-"Note that unlike ``data_as``, a reference won't be kept to the array: code "
-"like ``ctypes.c_void_p((a + b).ctypes.data)`` will result in a pointer to a "
-"deallocated array, and should be spelt ``(a + "
-"b).ctypes.data_as(ctypes.c_void_p)``"
-msgstr ""
-
-#: ../docstring of numpy._core._internal._ctypes.shape:1
-msgid ""
-"A ctypes array of length self.ndim where the basetype is the C-integer "
-"corresponding to ``dtype('p')`` on this platform (see "
-"`~numpy.ctypeslib.c_intp`). This base-type could be `ctypes.c_int`, "
-"`ctypes.c_long`, or `ctypes.c_longlong` depending on the platform. The "
-"ctypes array contains the shape of the underlying array."
-msgstr ""
-
-#: ../docstring of numpy._core._internal._ctypes.shape:8 ../docstring of
-#: numpy._core._internal._ctypes.strides:7
-msgid "(c_intp*self.ndim)"
-msgstr ""
-
-#: ../docstring of numpy._core._internal._ctypes.strides:1
-msgid ""
-"A ctypes array of length self.ndim where the basetype is the same as for the"
-" shape attribute. This ctypes array contains the strides information from "
-"the underlying array. This strides information is important for showing how "
-"many bytes must be jumped to get to the next element in the array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/numpy/_core/_internal.pydocstring
-#: of numpy._core._internal._ctypes.data_as:1
-msgid ""
-"Return the data pointer cast to a particular c-types object. For example, "
-"calling ``self._as_parameter_`` is equivalent to "
-"``self.data_as(ctypes.c_void_p)``. Perhaps you want to use the data as a "
-"pointer to a ctypes array of floating-point data: "
-"``self.data_as(ctypes.POINTER(ctypes.c_double))``."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/numpy/_core/_internal.pydocstring
-#: of numpy._core._internal._ctypes.data_as:7
-msgid "The returned pointer will keep a reference to the array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/numpy/_core/_internal.pydocstring
-#: of numpy._core._internal._ctypes.shape_as:1
-msgid ""
-"Return the shape tuple as an array of some other c-types type. For example: "
-"``self.shape_as(ctypes.c_short)``."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/numpy/_core/_internal.pydocstring
-#: of numpy._core._internal._ctypes.strides_as:1
-msgid ""
-"Return the strides tuple as an array of some other c-types type. For "
-"example: ``self.strides_as(ctypes.c_longlong)``."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.ctypes:41
-msgid ""
-"If the ctypes module is not available, then the ctypes attribute of array "
-"objects still returns something useful, but ctypes objects are not returned "
-"and errors may be raised instead. In particular, the object will still have "
-"the ``as_parameter`` attribute which will return an integer equal to the "
-"data attribute."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.cumprod:1
-msgid "Return the cumulative product of the elements along the given axis."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.cumprod:3
-msgid "Refer to `numpy.cumprod` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.cumprod:7
-msgid ":obj:`numpy.cumprod`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.cumsum:1
-msgid "Return the cumulative sum of the elements along the given axis."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.cumsum:3
-msgid "Refer to `numpy.cumsum` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.cumsum:7
-msgid ":obj:`numpy.cumsum`"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.data:1
-msgid "Python buffer object pointing to the start of the array's data."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.diagonal:1
-msgid ""
-"Return specified diagonals. In NumPy 1.9 the returned array is a read-only "
-"view instead of a copy as in previous NumPy versions.  In a future version "
-"the read-only restriction will be removed."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.diagonal:5
-msgid "Refer to :func:`numpy.diagonal` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.diagonal:9
-msgid ":obj:`numpy.diagonal`"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.dtype:1
-msgid "Data-type of the array's elements."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.dtype:5
-msgid ""
-"Setting ``arr.dtype`` is discouraged and may be deprecated in the future.  "
-"Setting will replace the ``dtype`` without modifying the memory (see also "
-"`ndarray.view` and `ndarray.astype`)."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.dtype:11
-msgid "**d**"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.dtype:16
-msgid ":obj:`ndarray.astype`"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.dtype:17
-msgid "Cast the values contained in the array to a new data-type."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.dtype:19
-msgid ":obj:`ndarray.view`"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.dtype:20
-msgid "Create a view of the same data but a different data-type."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.dtype:22
-msgid ":obj:`numpy.dtype`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.dump:1
-msgid ""
-"Dump a pickle of the array to the specified file. The array can be read back"
-" with pickle.load or numpy.load."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.dump:4
-msgid ""
-"A string naming the dump file.  .. versionchanged:: 1.17.0     "
-"`pathlib.Path` objects are now accepted."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.dump:4
-msgid "A string naming the dump file."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.dump:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tofile:9
-msgid "`pathlib.Path` objects are now accepted."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.dumps:1
-msgid ""
-"Returns the pickle of the array as a string. pickle.loads will convert the "
-"string back to an array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.fill:1
-msgid "Fill the array with a scalar value."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.fill:3
-msgid "All elements of `a` will be assigned this value."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.fill:18
-msgid ""
-"Fill expects a scalar value and always behaves the same as assigning to a "
-"single array element.  The following is a rare example where this "
-"distinction is important:"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.fill:30
-msgid "Where other forms of assignments will unpack the array being assigned:"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:1
-msgid "Information about the memory layout of the array."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:5
-msgid "The data is in a single, C-style contiguous segment."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:9
-msgid "The data is in a single, Fortran-style contiguous segment."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:13
-msgid "The array owns the memory it uses or borrows it from another object."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:17
-msgid ""
-"The data area can be written to.  Setting this to False locks the data, "
-"making it read-only.  A view (slice, etc.) inherits WRITEABLE from its base "
-"array at creation time, but a view of a writeable array may be subsequently "
-"locked while the base array remains writeable. (The opposite is not true, in"
-" that a view of a locked array may not be made writeable.  However, "
-"currently, locking a base object does not lock any views that already "
-"reference it, so under that circumstance it is possible to alter the "
-"contents of a locked array via a previously created writeable view onto it.)"
-"  Attempting to change a non-writeable array raises a RuntimeError "
-"exception."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:30
-msgid "The data and all elements are aligned appropriately for the hardware."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:34
-msgid ""
-"This array is a copy of some other array. The C-API function "
-"PyArray_ResolveWritebackIfCopy must be called before deallocating to the "
-"base array will be updated with the contents of this array."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:40
-msgid "F_CONTIGUOUS and not C_CONTIGUOUS."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:44
-msgid "F_CONTIGUOUS or C_CONTIGUOUS (one-segment test)."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:48
-msgid "ALIGNED and WRITEABLE."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:52
-msgid "BEHAVED and C_CONTIGUOUS."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:56
-msgid "BEHAVED and F_CONTIGUOUS and not C_CONTIGUOUS."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:60
-msgid ""
-"The `flags` object can be accessed dictionary-like (as in "
-"``a.flags['WRITEABLE']``), or by using lowercased attribute names (as in "
-"``a.flags.writeable``). Short flag names are only supported in dictionary "
-"access."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:64
-msgid ""
-"Only the WRITEBACKIFCOPY, WRITEABLE, and ALIGNED flags can be changed by the"
-" user, via direct assignment to the attribute or dictionary entry, or by "
-"calling `ndarray.setflags`."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:68
-msgid "The array flags cannot be set arbitrarily:"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:70
-msgid "WRITEBACKIFCOPY can only be set ``False``."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:71
-msgid "ALIGNED can only be set ``True`` if the data is truly aligned."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:72
-msgid ""
-"WRITEABLE can only be set ``True`` if the array owns its own memory or the "
-"ultimate owner of the memory exposes a writeable buffer interface or is a "
-"string."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:76
-msgid ""
-"Arrays can be both C-style and Fortran-style contiguous simultaneously. This"
-" is clear for 1-dimensional arrays, but can also be true for higher "
-"dimensional arrays."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flags:80
-msgid ""
-"Even for contiguous arrays a stride for a given dimension "
-"``arr.strides[dim]`` may be *arbitrary* if ``arr.shape[dim] == 1`` or the "
-"array has no elements. It does *not* generally hold that ``self.strides[-1] "
-"== self.itemsize`` for C-style contiguous arrays or ``self.strides[0] == "
-"self.itemsize`` for Fortran-style contiguous arrays is true."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flat:1
-msgid "A 1-D iterator over the array."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flat:3
-msgid ""
-"This is a `numpy.flatiter` instance, which acts similarly to, but is not a "
-"subclass of, Python's built-in iterator object."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flat:8
-msgid ":obj:`flatten`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.flatten:1 ../docstring of
-#: felupe.assembly.expression.BasisArray.flat:9
-msgid "Return a copy of the array collapsed into one dimension."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flat:11
-msgid ":obj:`flatiter`"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.flat:31
-msgid "An assignment example:"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.flatten:3
-msgid ""
-"'C' means to flatten in row-major (C-style) order. 'F' means to flatten in "
-"column-major (Fortran- style) order. 'A' means to flatten in column-major "
-"order if `a` is Fortran *contiguous* in memory, row-major order otherwise. "
-"'K' means to flatten `a` in the order the elements occur in memory. The "
-"default is 'C'."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.flatten:12
-msgid "**y** -- A copy of the input array, flattened to one dimension."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.flatten:17
-msgid ":obj:`ravel`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.flatten:18
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.ravel:1
-msgid "Return a flattened array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.flatten:20
-msgid ":obj:`flat`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.flatten:21
-msgid "A 1-D flat iterator over the array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.getfield:1
-msgid "Returns a field of the given array as a certain type."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.getfield:3
-msgid ""
-"A field is a view of the array data with a given data-type. The values in "
-"the view are determined by the given type and the offset into the current "
-"array in bytes. The offset needs to be such that the view dtype fits in the "
-"array dtype; for example an array of dtype complex128 has 16-byte elements. "
-"If taking a view with a 32-bit integer (4 bytes), the offset needs to be "
-"between 0 and 12 bytes."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.getfield:10
-msgid ""
-"The data type of the view. The dtype size of the view can not be larger than"
-" that of the array itself."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.getfield:13
-msgid "Number of bytes to skip before beginning the element view."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.getfield:28
-msgid ""
-"By choosing an offset of 8 bytes we can select the complex part of the array"
-" for our view:"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.imag:1
-msgid "The imaginary part of the array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.item:1
-msgid "Copy an element of an array to a standard Python scalar and return it."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.item:3
-msgid ""
-"* none: in this case, the method only works for arrays   with one element "
-"(`a.size == 1`), which element is   copied into a standard Python scalar "
-"object and returned.  * int_type: this argument is interpreted as a flat "
-"index into   the array, specifying which element to copy and return.  * "
-"tuple of int_types: functions as does a single int_type argument,   except "
-"that the argument is interpreted as an nd-index into the   array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.item:4
-msgid ""
-"none: in this case, the method only works for arrays with one element "
-"(`a.size == 1`), which element is copied into a standard Python scalar "
-"object and returned."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.item:8
-msgid ""
-"int_type: this argument is interpreted as a flat index into the array, "
-"specifying which element to copy and return."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.item:11
-msgid ""
-"tuple of int_types: functions as does a single int_type argument, except "
-"that the argument is interpreted as an nd-index into the array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.item:16
-msgid ""
-"**z** -- A copy of the specified element of the array as a suitable Python "
-"scalar"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.item:22
-msgid ""
-"When the data type of `a` is longdouble or clongdouble, item() returns a "
-"scalar array object because there is no available Python scalar that would "
-"not lose information. Void arrays return a buffer object for item(), unless "
-"fields are defined, in which case a tuple is returned."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.item:27
-msgid ""
-"`item` is very similar to a[args], except, instead of an array scalar, a "
-"standard Python scalar is returned. This can be useful for speeding up "
-"access to elements of the array and doing arithmetic on elements of the "
-"array using Python's optimized math."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.item:50
-msgid "For an array with object dtype, elements are returned as-is."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.itemsize:1
-msgid "Length of one array element in bytes."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.mT:1
-msgid "View of the matrix transposed array."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.mT:3
-msgid ""
-"The matrix transpose is the transpose of the last two dimensions, even if "
-"the array is of higher dimension."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.mT:8
-msgid "If the array is of dimension less than 2."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.max:1
-msgid "Return the maximum along a given axis."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.max:3
-msgid "Refer to `numpy.amax` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.max:7
-msgid ":obj:`numpy.amax`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.mean:1
-msgid "Returns the average of the array elements along given axis."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.mean:3
-msgid "Refer to `numpy.mean` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.mean:7
-msgid ":obj:`numpy.mean`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.min:1
-msgid "Return the minimum along a given axis."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.min:3
-msgid "Refer to `numpy.amin` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.min:7
-msgid ":obj:`numpy.amin`"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.nbytes:1
-msgid "Total bytes consumed by the elements of the array."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.nbytes:5
-msgid ""
-"Does not include memory consumed by non-element attributes of the array "
-"object."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.nbytes:10
-msgid ":obj:`sys.getsizeof`"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.nbytes:11
-msgid ""
-"Memory consumed by the object itself without parents in case view. This does"
-" include memory consumed by non-element attributes."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.ndim:1
-msgid "Number of array dimensions."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.nonzero:1
-msgid "Return the indices of the elements that are non-zero."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.nonzero:3
-msgid "Refer to `numpy.nonzero` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.nonzero:7
-msgid ":obj:`numpy.nonzero`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:1
-msgid ""
-"Partially sorts the elements in the array in such a way that the value of "
-"the element in k-th position is in the position it would be in a sorted "
-"array. In the output array, all elements smaller than the k-th element are "
-"located to the left of this element and all equal or greater are located to "
-"its right. The ordering of the elements in the two partitions on the either "
-"side of the k-th element in the output array is undefined."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:10
-msgid ""
-"Element index to partition by. The kth element value will be in its final "
-"sorted position and all smaller elements will be moved before it and all "
-"equal or greater elements behind it. The order of all elements in the "
-"partitions is undefined. If provided with a sequence of kth it will "
-"partition all elements indexed by kth of them into their sorted position at "
-"once.  .. deprecated:: 1.22.0     Passing booleans as index is deprecated."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:10
-msgid ""
-"Element index to partition by. The kth element value will be in its final "
-"sorted position and all smaller elements will be moved before it and all "
-"equal or greater elements behind it. The order of all elements in the "
-"partitions is undefined. If provided with a sequence of kth it will "
-"partition all elements indexed by kth of them into their sorted position at "
-"once."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:17
-msgid "Passing booleans as index is deprecated."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:20
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:3
-msgid ""
-"Axis along which to sort. Default is -1, which means sort along the last "
-"axis."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:23
-msgid "Selection algorithm. Default is 'introselect'."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:25
-msgid ""
-"When `a` is an array with fields defined, this argument specifies which "
-"fields to compare first, second, etc. A single field can be specified as a "
-"string, and not all fields need to be specified, but unspecified fields will"
-" still be used, in the order in which they come up in the dtype, to break "
-"ties."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:34
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:35
-msgid ":obj:`numpy.partition`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:35
-msgid "Return a partitioned copy of an array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:37
-msgid ":obj:`argpartition`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:38
-msgid "Indirect partition."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:40
-msgid ":obj:`sort`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:41
-msgid "Full sort."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.partition:45
-msgid "See ``np.partition`` for notes on the different algorithms."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.prod:1
-msgid "a.prod(axis=None, dtype=None, out=None, keepdims=False,"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.prod:2
-msgid "initial=1, where=True)"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.prod:4
-msgid "Return the product of the array elements over the given axis"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.prod:6
-msgid "Refer to `numpy.prod` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.prod:10
-msgid ":obj:`numpy.prod`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.put:1
-msgid "Set ``a.flat[n] = values[n]`` for all `n` in indices."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.put:3
-msgid "Refer to `numpy.put` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.put:7
-msgid ":obj:`numpy.put`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.ravel:3
-msgid "Refer to `numpy.ravel` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.ravel:7
-msgid ":obj:`numpy.ravel`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.ravel:10
-msgid ":obj:`ndarray.flat`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.ravel:11
-msgid "a flat iterator on the array."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.real:1
-msgid "The real part of the array."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.real:14
-msgid ":obj:`numpy.real`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.repeat:1
-msgid "Repeat elements of an array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.repeat:3
-msgid "Refer to `numpy.repeat` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.repeat:7
-msgid ":obj:`numpy.repeat`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.reshape:1
-msgid "Returns an array containing the same data with a new shape."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.reshape:3
-msgid "Refer to `numpy.reshape` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.reshape:7 ../docstring of
-#: felupe.assembly.expression.BasisArray.shape:44
-msgid ":obj:`numpy.reshape`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.reshape:12
-msgid ""
-"Unlike the free function `numpy.reshape`, this method on `ndarray` allows "
-"the elements of the shape parameter to be passed in as separate arguments. "
-"For example, ``a.reshape(10, 11)`` is equivalent to ``a.reshape((10, 11))``."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:1
-msgid "Change shape and size of array in-place."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:3
-msgid "Shape of resized array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:5
-msgid "If False, reference count will not be checked. Default is True."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:10
-msgid ""
-"If `a` does not own its own data or references or views to it exist,     and"
-" the data memory must be changed.     PyPy only: will always raise if the "
-"data memory must be changed, since     there is no reliable way to determine"
-" if references or views to it     exist."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:11
-msgid ""
-"If the `order` keyword argument is specified. This behaviour is a     bug in"
-" NumPy."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:15
-msgid ":obj:`resize`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:16
-msgid "Return a new array with the specified shape."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:20
-msgid "This reallocates space for the data area if necessary."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:22
-msgid ""
-"Only contiguous arrays (data elements consecutive in memory) can be resized."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:25
-msgid ""
-"The purpose of the reference count check is to make sure you do not use this"
-" array as a buffer for another Python object and then reallocate the memory."
-" However, reference counts can increase in other ways so if you are sure "
-"that you have not shared the memory for this array with another Python "
-"object, then you may safely set `refcheck` to False."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:34
-msgid ""
-"Shrinking an array: array is flattened (in the order that the data are "
-"stored in memory), resized, and reshaped:"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:51
-msgid ""
-"Enlarging an array: as above, but missing entries are filled with zeros:"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:59
-msgid "Referencing an array prevents resizing..."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.resize:67
-msgid "Unless `refcheck` is False:"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.round:1
-msgid "Return `a` with each element rounded to the given number of decimals."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.round:3
-msgid "Refer to `numpy.around` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.round:7
-msgid ":obj:`numpy.around`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.searchsorted:1
-msgid ""
-"Find indices where elements of v should be inserted in a to maintain order."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.searchsorted:3
-msgid "For full documentation, see `numpy.searchsorted`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.searchsorted:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:32
-msgid ":obj:`numpy.searchsorted`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setfield:1
-msgid "Put a value into a specified place in a field defined by a data-type."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setfield:3
-msgid ""
-"Place `val` into `a`'s field defined by `dtype` and beginning `offset` bytes"
-" into the field."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setfield:6
-msgid "Value to be placed in field."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setfield:8
-msgid "Data-type of the field in which to place `val`."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setfield:10
-msgid "The number of bytes into the field at which to place `val`."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setfield:15
-msgid ":obj:`getfield`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setflags:1
-msgid "Set array flags WRITEABLE, ALIGNED, WRITEBACKIFCOPY, respectively."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setflags:4
-msgid ""
-"These Boolean-valued flags affect how numpy interprets the memory area used "
-"by `a` (see Notes below). The ALIGNED flag can only be set to True if the "
-"data is actually aligned according to the type. The WRITEBACKIFCOPY flag can"
-" never be set to True. The flag WRITEABLE can only be set to True if the "
-"array owns its own memory, or the ultimate owner of the memory exposes a "
-"writeable buffer interface, or is a string. (The exception for string is "
-"made so that unpickling can be done without copying memory.)"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setflags:13
-msgid "Describes whether or not `a` can be written to."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setflags:15
-msgid "Describes whether or not `a` is aligned properly for its type."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setflags:17
-msgid "Describes whether or not `a` is a copy of another \"base\" array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setflags:22
-msgid ""
-"Array flags provide information about how the memory area used for the array"
-" is to be interpreted. There are 7 Boolean flags in use, only three of which"
-" can be changed by the user: WRITEBACKIFCOPY, WRITEABLE, and ALIGNED."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setflags:27
-msgid "WRITEABLE (W) the data area can be written to;"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setflags:29
-msgid ""
-"ALIGNED (A) the data and strides are aligned appropriately for the hardware "
-"(as determined by the compiler);"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setflags:32
-msgid ""
-"WRITEBACKIFCOPY (X) this array is a copy of some other array (referenced by "
-".base). When the C-API function PyArray_ResolveWritebackIfCopy is called, "
-"the base array will be updated with the contents of this array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.setflags:36
-msgid ""
-"All flags can be accessed using the single (upper case) letter as well as "
-"the full name."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.shape:1
-msgid "Tuple of array dimensions."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.shape:3
-msgid ""
-"The shape property is usually used to get the current shape of an array, but"
-" may also be used to reshape the array in-place by assigning a tuple of "
-"array dimensions to it.  As with `numpy.reshape`, one of the new shape "
-"dimensions can be -1, in which case its value is inferred from the size of "
-"the array and the remaining dimensions. Reshaping an array in-place will "
-"fail if a copy is required."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.shape:12
-msgid ""
-"Setting ``arr.shape`` is discouraged and may be deprecated in the future.  "
-"Using `ndarray.reshape` is the preferred approach."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.shape:41
-msgid ":obj:`numpy.shape`"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.shape:42
-msgid "Equivalent getter function."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.shape:45
-msgid "Function similar to setting ``shape``."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:26 ../docstring of
-#: felupe.assembly.expression.BasisArray.shape:47
-msgid ":obj:`ndarray.reshape`"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.shape:48
-msgid "Method similar to setting ``shape``."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.size:1
-msgid "Number of elements in the array."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.size:3
-msgid ""
-"Equal to ``np.prod(a.shape)``, i.e., the product of the array's dimensions."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.size:8
-msgid ""
-"`a.size` returns a standard arbitrary precision Python integer. This may not"
-" be the case with other methods of obtaining the same value (like the "
-"suggested ``np.prod(a.shape)``, which returns an instance of ``np.int_``), "
-"and may be relevant if the value is used further in calculations that may "
-"overflow a fixed size integer type."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:1
-msgid "Sort an array in-place. Refer to `numpy.sort` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:6
-msgid ""
-"Sorting algorithm. The default is 'quicksort'. Note that both 'stable' and "
-"'mergesort' use timsort under the covers and, in general, the actual "
-"implementation will vary with datatype. The 'mergesort' option is retained "
-"for backwards compatibility.  .. versionchanged:: 1.15.0    The 'stable' "
-"option was added."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:6
-msgid ""
-"Sorting algorithm. The default is 'quicksort'. Note that both 'stable' and "
-"'mergesort' use timsort under the covers and, in general, the actual "
-"implementation will vary with datatype. The 'mergesort' option is retained "
-"for backwards compatibility."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:11
-msgid "The 'stable' option was added."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:14
-msgid ""
-"When `a` is an array with fields defined, this argument specifies which "
-"fields to compare first, second, etc.  A single field can be specified as a "
-"string, and not all fields need be specified, but unspecified fields will "
-"still be used, in the order in which they come up in the dtype, to break "
-"ties."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:23
-msgid ":obj:`numpy.sort`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:24
-msgid "Return a sorted copy of an array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:27
-msgid "Indirect sort."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:29
-msgid ":obj:`numpy.lexsort`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:30
-msgid "Indirect stable sort on multiple keys."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:33
-msgid "Find elements in sorted array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:36
-msgid "Partial sort."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:40
-msgid "See `numpy.sort` for notes on the different sorting algorithms."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sort:55
-msgid ""
-"Use the `order` keyword to specify a field to use when sorting a structured "
-"array:"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.squeeze:1
-msgid "Remove axes of length one from `a`."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.squeeze:3
-msgid "Refer to `numpy.squeeze` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.squeeze:7
-msgid ":obj:`numpy.squeeze`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.std:1
-msgid "Returns the standard deviation of the array elements along given axis."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.std:3
-msgid "Refer to `numpy.std` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.std:7
-msgid ":obj:`numpy.std`"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.strides:1
-msgid "Tuple of bytes to step in each dimension when traversing an array."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.strides:3
-msgid ""
-"The byte offset of element ``(i[0], i[1], ..., i[n])`` in an array `a` is::"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.strides:8
-msgid ""
-"A more detailed explanation of strides can be found in "
-":ref:`arrays.ndarray`."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.strides:13
-msgid ""
-"Setting ``arr.strides`` is discouraged and may be deprecated in the future."
-"  `numpy.lib.stride_tricks.as_strided` should be preferred to create a new "
-"view of the same data in a safer way."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.strides:19
-msgid "Imagine an array of 32-bit integers (each 4 bytes)::"
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.strides:24
-msgid ""
-"This array is stored in memory as 40 bytes, one after the other (known as a "
-"contiguous block of memory).  The strides of an array tell us how many bytes"
-" we have to skip in memory to move to the next position along a certain "
-"axis.  For example, we have to skip 4 bytes (1 value) to move to the next "
-"column, but 20 bytes (5 values) to get to the same position in the next row."
-"  As such, the strides for the array `x` will be ``(20, 4)``."
-msgstr ""
-
-#: ../docstring of felupe.assembly.expression.BasisArray.strides:32
-msgid ":obj:`numpy.lib.stride_tricks.as_strided`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sum:1
-msgid "Return the sum of the array elements over the given axis."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sum:3
-msgid "Refer to `numpy.sum` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.sum:7
-msgid ":obj:`numpy.sum`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.swapaxes:1
-msgid "Return a view of the array with `axis1` and `axis2` interchanged."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.swapaxes:3
-msgid "Refer to `numpy.swapaxes` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.swapaxes:7
-msgid ":obj:`numpy.swapaxes`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.take:1
-msgid "Return an array formed from the elements of `a` at the given indices."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.take:3
-msgid "Refer to `numpy.take` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.take:7
-msgid ":obj:`numpy.take`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tobytes:1
-msgid "Construct Python bytes containing the raw data bytes in the array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tobytes:3
-msgid ""
-"Constructs Python bytes showing a copy of the raw contents of data memory. "
-"The bytes object is produced in C-order by default. This behavior is "
-"controlled by the ``order`` parameter."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tobytes:9
-msgid ""
-"Controls the memory layout of the bytes object. 'C' means C-order, 'F' means"
-" F-order, 'A' (short for *Any*) means 'F' if `a` is Fortran contiguous, 'C' "
-"otherwise. Default is 'C'."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tobytes:14
-msgid "**s** -- Python bytes exhibiting a copy of `a`'s raw data."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tobytes:19
-msgid ":obj:`frombuffer`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tobytes:20
-msgid ""
-"Inverse of this operation, construct a 1-dimensional array from Python "
-"bytes."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tofile:1
-msgid "Write array to a file as text or binary (default)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tofile:3
-msgid ""
-"Data is always written in 'C' order, independent of the order of `a`. The "
-"data produced by this method can be recovered using the function fromfile()."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tofile:7
-msgid ""
-"An open file object, or a string containing a filename.  .. versionchanged::"
-" 1.17.0     `pathlib.Path` objects are now accepted."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tofile:7
-msgid "An open file object, or a string containing a filename."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tofile:12
-msgid ""
-"Separator between array items for text output. If \"\" (empty), a binary "
-"file is written, equivalent to ``file.write(a.tobytes())``."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tofile:16
-msgid ""
-"Format string for text file output. Each entry in the array is formatted to "
-"text by first converting it to the closest Python type, and then using "
-"\"format\" % item."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tofile:23
-msgid ""
-"This is a convenience function for quick storage of array data. Information "
-"on endianness and precision is lost, so this method is not a good choice for"
-" files intended to archive data or transport data between machines with "
-"different endianness. Some of these problems can be overcome by outputting "
-"the data as text files, at the expense of speed and file size."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tofile:30
-msgid ""
-"When fid is a file object, array contents are directly written to the file, "
-"bypassing the file object's ``write`` method. As a result, tofile cannot be "
-"used with files objects supporting compression (e.g., GzipFile) or file-like"
-" objects that do not support ``fileno()`` (e.g., BytesIO)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tolist:1
-msgid ""
-"Return the array as an ``a.ndim``-levels deep nested list of Python scalars."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tolist:3
-msgid ""
-"Return a copy of the array data as a (nested) Python list. Data items are "
-"converted to the nearest compatible builtin Python type, via the "
-"`~numpy.ndarray.item` function."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tolist:7
-msgid ""
-"If ``a.ndim`` is 0, then since the depth of the nested list is 0, it will "
-"not be a list at all, but a simple Python scalar."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tolist:12
-msgid "**y** -- The possibly nested list of array elements."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tolist:17
-msgid ""
-"The array may be recreated via ``a = np.array(a.tolist())``, although this "
-"may sometimes lose precision."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tolist:22
-msgid ""
-"For a 1D array, ``a.tolist()`` is almost the same as ``list(a)``, except "
-"that ``tolist`` changes numpy scalars to Python scalars:"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tolist:38
-msgid "Additionally, for a 2D array, ``tolist`` applies recursively:"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tolist:46
-msgid "The base case for this recursion is a 0D array:"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tostring:1
-msgid ""
-"A compatibility alias for `~ndarray.tobytes`, with exactly the same "
-"behavior."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.tostring:4
-msgid "Despite its name, it returns :class:`bytes` not :class:`str`\\ s."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.trace:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.trace:45
-msgid "Return the sum along diagonals of the array."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.trace:3
-msgid "Refer to `numpy.trace` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.trace:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.trace:44
-msgid ":obj:`numpy.trace`"
-msgstr ":obj:`numpy.trace`"
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:1
-msgid "Returns a view of the array with axes transposed."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:3
-msgid "Refer to `numpy.transpose` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:5
-msgid ""
-"* None or no argument: reverses the order of the axes.  * tuple of ints: `i`"
-" in the `j`-th place in the tuple means that the   array's `i`-th axis "
-"becomes the transposed array's `j`-th axis.  * `n` ints: same as an n-tuple "
-"of the same ints (this form is   intended simply as a \"convenience\" "
-"alternative to the tuple form)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:6
-msgid "None or no argument: reverses the order of the axes."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:8
-msgid ""
-"tuple of ints: `i` in the `j`-th place in the tuple means that the array's "
-"`i`-th axis becomes the transposed array's `j`-th axis."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:11
-msgid ""
-"`n` ints: same as an n-tuple of the same ints (this form is intended simply "
-"as a \"convenience\" alternative to the tuple form)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:15
-msgid "**p** -- View of the array with its axes suitably permuted."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:21
-msgid "Equivalent function."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:23
-msgid ":obj:`ndarray.T`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:24
-msgid "Array property returning the array transposed."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.transpose:27
-msgid "Give a new shape to an array without changing its data."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.var:1
-msgid "Returns the variance of the array elements, along given axis."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.var:3
-msgid "Refer to `numpy.var` for full documentation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.var:7
-msgid ":obj:`numpy.var`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:1
-msgid "New view of array with the same data."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:4
-msgid ""
-"Passing None for ``dtype`` is different from omitting the parameter, since "
-"the former invokes ``dtype(None)`` which is an alias for "
-"``dtype('float64')``."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:8
-msgid ""
-"Data-type descriptor of the returned view, e.g., float32 or int16. Omitting "
-"it results in the view having the same data-type as `a`. This argument can "
-"also be specified as an ndarray sub-class, which then specifies the type of "
-"the returned object (this is equivalent to setting the ``type`` parameter)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:14
-msgid ""
-"Type of the returned view, e.g., ndarray or matrix.  Again, omission of the "
-"parameter results in type preservation."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:20
-msgid "``a.view()`` is used two different ways:"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:22
-msgid ""
-"``a.view(some_dtype)`` or ``a.view(dtype=some_dtype)`` constructs a view of "
-"the array's memory with a different data-type.  This can cause a "
-"reinterpretation of the bytes of memory."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:26
-msgid ""
-"``a.view(ndarray_subclass)`` or ``a.view(type=ndarray_subclass)`` just "
-"returns an instance of `ndarray_subclass` that looks at the same array (same"
-" shape, dtype, etc.)  This does not cause a reinterpretation of the memory."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:31
-msgid ""
-"For ``a.view(some_dtype)``, if ``some_dtype`` has a different number of "
-"bytes per entry than the previous dtype (for example, converting a regular "
-"array to a structured array), then the last axis of ``a`` must be "
-"contiguous. This axis will be resized in the result."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:36
-msgid ""
-"Only the last axis needs to be contiguous. Previously, the entire array had "
-"to be C-contiguous."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:45
-msgid "Viewing array data using a different type and dtype:"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:54
-msgid ""
-"Creating a view on a structured array so it can be used in calculations"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:64
-msgid "Making changes to the view changes the underlying array"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:70
-msgid "Using a view to convert an array to a recarray:"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:76
-msgid "Views share data:"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:82
-msgid ""
-"Views that change the dtype size (bytes per entry) should normally be "
-"avoided on arrays defined by slices, transposes, fortran-ordering, etc.:"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
-#: of felupe.assembly.expression.BasisArray.view:99
-msgid ""
-"However, views that change dtype are totally fine for arrays with a "
-"contiguous last axis, even if the rest of the axes are not C-contiguous:"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_item.pydocstring
@@ -6714,6 +4412,9 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
 #: of felupe.constitution._material.Material:249
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
+#: of
+#: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain:11
 msgid ":obj:`felupe.NeoHookeCompressible`"
 msgstr ":obj:`felupe.NeoHookeCompressible`"
 
@@ -6813,8 +4514,8 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:26:<autosummary>:1
-msgid ":py:obj:`LinearElastic <felupe.LinearElastic>`\\ \\(\\[E\\, nu\\]\\)"
-msgstr ":py:obj:`LinearElastic <felupe.LinearElastic>`\\ \\(\\[E\\, nu\\]\\)"
+msgid ":py:obj:`LinearElastic <felupe.LinearElastic>`\\ \\(E\\, nu\\)"
+msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:26:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
@@ -6823,21 +4524,6 @@ msgstr ":py:obj:`LinearElastic <felupe.LinearElastic>`\\ \\(\\[E\\, nu\\]\\)"
 #: of
 #: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation:1
 msgid "Isotropic linear-elastic material formulation."
-msgstr ""
-
-#: ../../felupe/docs/felupe/constitution/core.rst:26:<autosummary>:1
-msgid ""
-":py:obj:`LinearElasticPlaneStrain <felupe.LinearElasticPlaneStrain>`\\ "
-"\\(E\\, nu\\)"
-msgstr ""
-":py:obj:`LinearElasticPlaneStrain <felupe.LinearElasticPlaneStrain>`\\ "
-"\\(E\\, nu\\)"
-
-#: ../../felupe/docs/felupe/constitution/core.rst:26:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain:1
-msgid "Plane-strain isotropic linear-elastic material formulation."
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:26:<autosummary>:1
@@ -6858,18 +4544,14 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution/core.rst:26:<autosummary>:1
 msgid ""
 ":py:obj:`constitution.LinearElasticTensorNotation "
-"<felupe.constitution.LinearElasticTensorNotation>`\\ \\(\\[...\\]\\)"
+"<felupe.constitution.LinearElasticTensorNotation>`\\ \\(E\\, nu\\)"
 msgstr ""
-":py:obj:`constitution.LinearElasticTensorNotation "
-"<felupe.constitution.LinearElasticTensorNotation>`\\ \\(\\[...\\]\\)"
 
 #: ../../felupe/docs/felupe/constitution/core.rst:26:<autosummary>:1
 msgid ""
 ":py:obj:`LinearElasticLargeStrain <felupe.LinearElasticLargeStrain>`\\ "
-"\\(\\[E\\, nu\\, parallel\\]\\)"
+"\\(E\\, nu\\[\\, parallel\\]\\)"
 msgstr ""
-":py:obj:`LinearElasticLargeStrain <felupe.LinearElasticLargeStrain>`\\ "
-"\\(\\[E\\, nu\\, parallel\\]\\)"
 
 #: ../../felupe/docs/felupe/constitution/core.rst:26:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
@@ -7113,10 +4795,10 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElastic.hessian:11
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElastic.hessian:7
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.hessian:10
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.hessian:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_orthotropic.pydocstring
 #: of
 #: felupe.constitution.linear_elasticity._linear_elastic_orthotropic.LinearElasticOrthotropic.hessian:7
@@ -7131,12 +4813,9 @@ msgid "hessian of the potential w.r.t. the undeformed coordinates"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.pydocstring
-#: of felupe.constitution.linear_elasticity._lame_converter.lame_converter:13
+#: of felupe.constitution.linear_elasticity._lame_converter.lame_converter:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:3
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
 #: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress:3
@@ -7162,12 +4841,9 @@ msgid "Young's modulus."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.pydocstring
-#: of felupe.constitution.linear_elasticity._lame_converter.lame_converter:15
+#: of felupe.constitution.linear_elasticity._lame_converter.lame_converter:7
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:5
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
 #: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress:5
@@ -7294,97 +4970,19 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElastic.gradient:5
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElastic.gradient:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElastic.hessian:7
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.stress:7
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.gradient:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.hessian:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.strain:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.stress:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.gradient:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.strain:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.stress:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation.gradient:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation.hessian:7
-msgid "Young's modulus (default is None)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElastic.gradient:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElastic.hessian:9
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.gradient:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.hessian:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.strain:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.stress:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.gradient:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.hessian:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.strain:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.stress:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation.gradient:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation.hessian:9
-msgid "Poisson ratio (default is None)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElastic.gradient:10
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.stress:11
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.stress:11
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation.gradient:11
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation.gradient:7
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain.function:10
+#: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain.function:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain.gradient:10
+#: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain.gradient:6
 msgid "Stress tensor (3x3)"
 msgstr ""
 
@@ -7415,13 +5013,13 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElastic.hessian:14
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElastic.hessian:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation.hessian:16
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation.hessian:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain.hessian:10
+#: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain.hessian:6
 msgid "elasticity tensor (3x3x3x3)"
 msgstr ""
 
@@ -7565,12 +5163,6 @@ msgstr ":obj:`MaterialStrain`"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain:11
-msgid ":obj:`NeoHookeCompressible`"
-msgstr ":obj:`NeoHookeCompressible`"
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
-#: of
 #: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain:12
 msgid "Compressible isotropic hyperelastic Neo-Hooke material formulation."
 msgstr ""
@@ -7589,30 +5181,6 @@ msgstr ""
 #: of
 #: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain.gradient:3
 msgid "List with Deformation gradient ``F`` (3x3) as first item"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain.function:5
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain.gradient:5
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain.hessian:5
-msgid "Young's modulus (default is None)"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain.function:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain.gradient:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain.hessian:7
-msgid "Poisson ratio (default is None)"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
@@ -7656,37 +5224,22 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation.hessian:11
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation.hessian:7
 msgid "Tuple with shape of the trailing axes (default is (1, 1))"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation.hessian:13
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation.hessian:9
 msgid "Data-type of the returned array (default is None)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.gradient:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
 #: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.gradient:1
 msgid "Evaluate the 2d-stress tensor from the deformation gradient."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.gradient:3
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.hessian:3
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.strain:3
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.stress:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
 #: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.gradient:3
@@ -7703,50 +5256,8 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.gradient:11
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.gradient:11
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.gradient:7
 msgid "In-plane components of stress tensor (2x2)"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.hessian:1
-msgid "Evaluate the 2d-elasticity tensor from the deformation gradient."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.hessian:11
-msgid "In-plane components of elasticity tensor (2x2x2x2)"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.strain:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.strain:1
-msgid "Evaluate the strain tensor from the deformation gradient."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.strain:11
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.strain:11
-msgid "**e** -- Strain tensor (3x3)"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain.stress:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.stress:1
-msgid "\"Evaluate the 3d-stress tensor from the deformation gradient."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
@@ -7765,14 +5276,26 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.hessian:6
-msgid "Young's  modulus (default is None)."
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.hessian:9
+msgid "In-plane components of elasticity tensor (2x2x2x2)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.hessian:13
-msgid "In-plane components of elasticity tensor (2x2x2x2)."
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.strain:1
+msgid "Evaluate the strain tensor from the deformation gradient."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
+#: of
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.strain:7
+msgid "**e** -- Strain tensor (3x3)"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
+#: of
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStress.stress:1
+msgid "\"Evaluate the 3d-stress tensor from the deformation gradient."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.pydocstring
@@ -8141,22 +5664,22 @@ msgstr ""
 #: of felupe.constitution._mixed.NearlyIncompressible.hessian:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible.gradient:10
+#: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible.gradient:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible.hessian:10
+#: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible.hessian:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.gradient:10
+#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.gradient:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.hessian:10
+#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.hessian:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_volumetric.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.gradient:10
+#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.gradient:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_volumetric.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.hessian:10
+#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.hessian:6
 msgid "A location into which the result is stored (default is None)."
 msgstr ""
 
@@ -8266,13 +5789,13 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_nearly_incompressible.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke:6
-msgid "Shear modulus"
+msgid "Shear modulus (default is None)"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_nearly_incompressible.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke:8
-msgid "Bulk modulus"
+msgid "Bulk modulus (default is None)"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_nearly_incompressible.pydocstring
@@ -8562,57 +6085,6 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible.function:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible.gradient:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible.hessian:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_nearly_incompressible.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.function:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_nearly_incompressible.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.gradient:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_nearly_incompressible.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.hessian:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_volumetric.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.function:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_volumetric.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.gradient:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_volumetric.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.hessian:6
-msgid "Shear modulus (default is None)"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_nearly_incompressible.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.function:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_nearly_incompressible.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.gradient:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_nearly_incompressible.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.hessian:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_volumetric.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.function:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_volumetric.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.gradient:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_volumetric.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_nearly_incompressible.NeoHooke.hessian:8
-msgid "Bulk modulus (default is None)"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
-#: of
 #: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible.gradient:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_nearly_incompressible.pydocstring
 #: of
@@ -8651,24 +6123,12 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible:5
-msgid "Shear modulus (second Lamé constant)"
+msgid "Shear modulus (second Lamé constant). Default is None."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible:7
-msgid "First Lamé constant"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible.function:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible.gradient:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible.hessian:8
 msgid "First Lamé constant (default is None)"
 msgstr ""
 
@@ -11304,32 +8764,32 @@ msgid "Hessian of the determinant of the deformation gradient"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.pydocstring
-#: of felupe.constitution.linear_elasticity._lame_converter.lame_converter:7
-msgid ""
-"\\lambda &= \\frac{E \\nu}{(1 + \\nu) (1 - 2 \\nu)}\n"
-"\n"
-"\\mu &= \\frac{E}{2 (1 + \\nu)}"
-msgstr ""
-"\\lambda &= \\frac{E \\nu}{(1 + \\nu) (1 - 2 \\nu)}\n"
-"\n"
-"\\mu &= \\frac{E}{2 (1 + \\nu)}"
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.pydocstring
-#: of felupe.constitution.linear_elasticity._lame_converter.lame_converter:18
+#: of felupe.constitution.linear_elasticity._lame_converter.lame_converter:10
 msgid ""
 "* **lmbda** (*float*) -- First Lamé - constant. * **mu** (*float*) -- Second"
 " Lamé - constant (shear modulus)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.pydocstring
-#: of felupe.constitution.linear_elasticity._lame_converter.lame_converter:18
+#: of felupe.constitution.linear_elasticity._lame_converter.lame_converter:10
 msgid "**lmbda** (*float*) -- First Lamé - constant."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.pydocstring
-#: of felupe.constitution.linear_elasticity._lame_converter.lame_converter:19
+#: of felupe.constitution.linear_elasticity._lame_converter.lame_converter:11
 msgid "**mu** (*float*) -- Second Lamé - constant (shear modulus)."
 msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.pydocstring
+#: of felupe.constitution.linear_elasticity._lame_converter.lame_converter:15
+msgid ""
+"\\lambda &= \\frac{E \\nu}{(1 + \\nu) (1 - 2 \\nu)}\n"
+"\n"
+"\\mu &= \\frac{E}{2 (1 + \\nu)}"
+msgstr ""
+"\\lambda &= \\frac{E \\nu}{(1 + \\nu) (1 - 2 \\nu)}\n"
+"\n"
+"\\mu &= \\frac{E}{2 (1 + \\nu)}"
 
 #: ../../felupe/docs/felupe/dof.rst:2
 msgid "Degrees of Freedom"
@@ -16118,6 +13578,16 @@ msgstr ""
 "\n"
 "A_{ii} &= A_{ij} : \\delta_{ij}"
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.trace:44
+msgid ":obj:`numpy.trace`"
+msgstr ":obj:`numpy.trace`"
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.trace:45
+msgid "Return the sum along diagonals of the array."
+msgstr ""
+
 #: ../../felupe/docs/felupe/mechanics.rst:4
 msgid "Mechanics"
 msgstr ""
@@ -16126,17 +13596,17 @@ msgstr ""
 msgid "**Solid Bodies**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:16:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
 msgid ":py:obj:`SolidBody <felupe.SolidBody>`\\ \\(umat\\, field\\[\\, statevars\\]\\)"
 msgstr ":py:obj:`SolidBody <felupe.SolidBody>`\\ \\(umat\\, field\\[\\, statevars\\]\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:16:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody:1
 msgid "A SolidBody with methods for the assembly of sparse vectors/matrices."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:16:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
 msgid ""
 ":py:obj:`SolidBodyNearlyIncompressible "
 "<felupe.SolidBodyNearlyIncompressible>`\\ \\(umat\\, field\\, bulk\\)"
@@ -16144,7 +13614,7 @@ msgstr ""
 ":py:obj:`SolidBodyNearlyIncompressible "
 "<felupe.SolidBodyNearlyIncompressible>`\\ \\(umat\\, field\\, bulk\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:16:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.StateNearlyIncompressible:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
@@ -16154,41 +13624,53 @@ msgid ""
 " vectors/matrices."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:16:<autosummary>:1
-msgid ""
-":py:obj:`SolidBodyPressure <felupe.SolidBodyPressure>`\\ \\(field\\[\\, "
-"pressure\\]\\)"
-msgstr ""
-":py:obj:`SolidBodyPressure <felupe.SolidBodyPressure>`\\ \\(field\\[\\, "
-"pressure\\]\\)"
-
-#: ../../felupe/docs/felupe/mechanics.rst:16:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_pressure.pydocstring
-#: of felupe.mechanics._solidbody_pressure.SolidBodyPressure:1
-msgid "A hydrostatic pressure boundary on a solid body."
-msgstr ""
-
-#: ../../felupe/docs/felupe/mechanics.rst:16:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
 msgid ""
 ":py:obj:`SolidBodyForce <felupe.SolidBodyForce>`\\ \\(field\\[\\, values\\, "
 "scale\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:16:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.pydocstring
 #: of felupe.mechanics._solidbody_force.SolidBodyForce:1
 msgid "A body force on a solid body."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:17
+#: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
+msgid ""
+":py:obj:`SolidBodyPressure <felupe.SolidBodyPressure>`\\ \\(field\\[\\, "
+"pressure\\]\\)"
+msgstr ""
+":py:obj:`SolidBodyPressure <felupe.SolidBodyPressure>`\\ \\(field\\[\\, "
+"pressure\\]\\)"
+
+#: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_pressure.pydocstring
+#: of felupe.mechanics._solidbody_pressure.SolidBodyPressure:1
+msgid "A hydrostatic pressure boundary on a solid body."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
+msgid ""
+":py:obj:`SolidBodyCauchyStress <felupe.SolidBodyCauchyStress>`\\ "
+"\\(field\\[\\, cauchy\\_stress\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
+#: of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress:1
+msgid "A Cauchy stress boundary on a solid body."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:18
 msgid "**Steps and Jobs**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:24:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:25:<autosummary>:1
 msgid ":py:obj:`Step <felupe.Step>`\\ \\(items\\[\\, ramp\\, boundaries\\]\\)"
 msgstr ":py:obj:`Step <felupe.Step>`\\ \\(items\\[\\, ramp\\, boundaries\\]\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:24:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:25:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
 #: of felupe.mechanics._curve.CharacteristicCurve:53
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
@@ -16202,11 +13684,11 @@ msgid ""
 " previous substep."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:24:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:25:<autosummary>:1
 msgid ":py:obj:`Job <felupe.Job>`\\ \\(steps\\[\\, callback\\]\\)"
 msgstr ":py:obj:`Job <felupe.Job>`\\ \\(steps\\[\\, callback\\]\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:24:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:25:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
 #: of felupe.mechanics._curve.CharacteristicCurve:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
@@ -16214,7 +13696,7 @@ msgstr ":py:obj:`Job <felupe.Job>`\\ \\(steps\\[\\, callback\\]\\)"
 msgid "A job with a list of steps and a method to evaluate them."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:24:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:25:<autosummary>:1
 msgid ""
 ":py:obj:`CharacteristicCurve <felupe.CharacteristicCurve>`\\ \\(steps\\, "
 "boundary\\[\\, ...\\]\\)"
@@ -16222,11 +13704,11 @@ msgstr ""
 ":py:obj:`CharacteristicCurve <felupe.CharacteristicCurve>`\\ \\(steps\\, "
 "boundary\\[\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:25
+#: ../../felupe/docs/felupe/mechanics.rst:26
 msgid "**Point Load and Multi-Point Constraints**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:33:<autosummary>:1
 msgid ""
 ":py:obj:`PointLoad <felupe.PointLoad>`\\ \\(field\\, points\\[\\, values\\, "
 "apply\\_on\\, ...\\]\\)"
@@ -16234,7 +13716,7 @@ msgstr ""
 ":py:obj:`PointLoad <felupe.PointLoad>`\\ \\(field\\, points\\[\\, values\\, "
 "apply\\_on\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:33:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.pydocstring
 #: of felupe.mechanics._pointload.PointLoad:1
 msgid ""
@@ -16242,7 +13724,7 @@ msgid ""
 "applied on the n-th field."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:33:<autosummary>:1
 msgid ""
 ":py:obj:`MultiPointConstraint <felupe.MultiPointConstraint>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
@@ -16250,7 +13732,7 @@ msgstr ""
 ":py:obj:`MultiPointConstraint <felupe.MultiPointConstraint>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:33:<autosummary>:1
 msgid ""
 ":py:obj:`MultiPointContact <felupe.MultiPointContact>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
@@ -16258,11 +13740,11 @@ msgstr ""
 ":py:obj:`MultiPointContact <felupe.MultiPointContact>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:33
+#: ../../felupe/docs/felupe/mechanics.rst:34
 msgid "**Helpers for Custom Items and State Variables**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
 msgid ""
 ":py:obj:`StateNearlyIncompressible <felupe.StateNearlyIncompressible>`\\ "
 "\\(field\\)"
@@ -16270,7 +13752,7 @@ msgstr ""
 ":py:obj:`StateNearlyIncompressible <felupe.StateNearlyIncompressible>`\\ "
 "\\(field\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.StateNearlyIncompressible:1
 msgid ""
@@ -16278,37 +13760,37 @@ msgid ""
 "incompressible solid bodies."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.Assemble <felupe.mechanics.Assemble>`\\ \\(vector\\, "
 "matrix\\[\\, multiplier\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.Assemble:1
 msgid "A class with methods for assembling vectors and matrices of an Item."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.Evaluate <felupe.mechanics.Evaluate>`\\ \\(gradient\\, "
 "hessian\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.Evaluate:1
 msgid "A class with evaluate methods of an Item."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.Results <felupe.mechanics.Results>`\\ \\(\\[stress\\, "
 "elasticity\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.Results:1
 msgid "A class with intermediate results of an Item."
@@ -16882,6 +14364,8 @@ msgstr ""
 #: of felupe.mechanics._job.Job:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.pydocstring
 #: of felupe.mechanics._pointload.PointLoad:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
+#: of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.pydocstring
 #: of felupe.mechanics._solidbody_force.SolidBodyForce:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_pressure.pydocstring
@@ -16893,6 +14377,8 @@ msgstr ""
 msgid "Bases: :py:class:`object`"
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
+#: of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.pydocstring
 #: of felupe.mechanics._solidbody_force.SolidBodyForce:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_pressure.pydocstring
@@ -16943,6 +14429,23 @@ msgstr ""
 msgid ""
 "\\delta W_{ext} = \\int_{\\partial V}\n"
 "    \\delta \\boldsymbol{u} \\cdot (-p) J \\boldsymbol{F}^{-T} \\ d\\boldsymbol{A}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
+#: of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress:5
+msgid ""
+"The prescribed Cauchy stress components :math:`\\sigma_{ij}` (default is "
+"None). If None, all Cauchy stress components are set to zero."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
+#: of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress:11
+msgid ""
+"\\delta W_{ext} = \\int_{\\partial V}\n"
+"    \\delta \\boldsymbol{u} \\cdot \\boldsymbol{\\sigma}\\ d\\boldsymbol{a} =\n"
+"    \\int_{\\partial V}\n"
+"    \\delta \\boldsymbol{u} \\cdot \\boldsymbol{\\sigma} J \\boldsymbol{F}^{-T}\\\n"
+"    d\\boldsymbol{A}"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.pydocstring
