@@ -1,4 +1,7 @@
-import felupe as fem
-mesh = fem.Cube(n=6)
-triangulated = fem.mesh.triangulate(mesh, mode=3)
-triangulated.plot().show()
+container
+# Expected:
+## <felupe mesh container object>
+##   Number of points: 242
+##   Number of cells:
+##     quad: 100
+##     quad: 100

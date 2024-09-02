@@ -1,13 +1,6 @@
-rect1
+stack
 # Expected:
 ## <felupe Mesh object>
-##   Number of points: 121
-##   Number of cells:
-##     quad: 100
-#
-rect2
-# Expected:
-## <felupe Mesh object>
-##   Number of points: 121
-##   Number of cells:
-##     quad: 100
+## Number of points: 242
+## Number of cells:
+##     quad: 200

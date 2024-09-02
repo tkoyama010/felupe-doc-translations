@@ -1,7 +1,13 @@
-merged = fem.mesh.merge_duplicate_cells(mesh)
-merged
+rect1
 # Expected:
 ## <felupe Mesh object>
-## Number of points: 220
-## Number of cells:
-##     quad: 190
+##   Number of points: 121
+##   Number of cells:
+##     quad: 100
+#
+rect2
+# Expected:
+## <felupe Mesh object>
+##     Number of points: 121
+##     Number of cells:
+##     quad: 100

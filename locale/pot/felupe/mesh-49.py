@@ -1,7 +1,7 @@
-container
-# Expected:
-## <felupe mesh container object>
-## Number of points: 242
-## Number of cells:
-##     quad: 100
-##     quad: 100
+import felupe as fem
+import numpy as np
+mesh = fem.mesh.Line(n=5).expand(n=1)
+t = mesh.x.copy()
+mesh.points[:, 0] = np.sin(np.pi / 2 * t)
+mesh.points[:, 1] = np.cos(np.pi / 2 * t)
+mesh.plot(style="points", color="black").show()

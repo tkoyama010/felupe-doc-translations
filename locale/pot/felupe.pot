@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-01 00:11+0000\n"
+"POT-Creation-Date: 2024-09-02 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -159,7 +159,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/field.rst:27
 #: ../../felupe/docs/felupe/math.rst:65
 #: ../../felupe/docs/felupe/mechanics.rst:43
-#: ../../felupe/docs/felupe/mesh.rst:60
+#: ../../felupe/docs/felupe/mesh.rst:61
 #: ../../felupe/docs/felupe/quadrature.rst:30
 #: ../../felupe/docs/felupe/region.rst:37
 #: ../../felupe/docs/felupe/tools.rst:34
@@ -261,7 +261,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_step.py:docstring of felupe.mechanics._step.Step.generate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.add_midpoints_faces:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.add_midpoints_volumes:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.collect_edges:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.cell_types:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._dual.dual:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._read.read:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.concatenate:0
@@ -275,6 +275,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.stack:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.translate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.triangulate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.imshow:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.stack:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.py:docstring of felupe.mesh._geometry.Circle:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.py:docstring of felupe.mesh._geometry.Cube:0
@@ -644,6 +645,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.add_midpoints_edges:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.add_midpoints_faces:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.add_midpoints_volumes:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.cell_types:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.convert:33
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._dual.dual:35
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._interpolate.interpolate_line:21
@@ -662,6 +664,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.translate:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.triangulate:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.from_unstructured_grid:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.stack:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.py:docstring of felupe.mesh._geometry.Circle:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.py:docstring of felupe.mesh._geometry.Cube:12
@@ -1007,7 +1010,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.add_midpoints_faces:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.add_midpoints_volumes:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.collect_edges:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.cell_types:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._dual.dual:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._read.read:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.concatenate:0
@@ -1021,6 +1024,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.stack:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.translate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.triangulate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.imshow:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.stack:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.Mesh.z:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._discrete_geometry.DiscreteGeometry.copy:0
@@ -1090,6 +1094,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.flip:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.merge_duplicate_cells:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.merge_duplicate_points:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.imshow:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.stack:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.Mesh.z:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._discrete_geometry.DiscreteGeometry.copy:0
@@ -6297,7 +6302,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.view:7
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.view:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.as_pyvista:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.as_unstructured_grid:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.view:7
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:10
@@ -8685,6 +8690,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.merge_duplicate_cells:119
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.merge_duplicate_points:107
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.from_unstructured_grid:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh:90
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.merge_duplicate_points:87
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._tools.merge_duplicate_cells:119
@@ -8777,11 +8783,11 @@ msgstr ""
 msgid "A rectangular 2d-mesh with an arbitrary-order Lagrange hexahedron between ``a`` and ``b``."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.expand <felupe.mesh.expand>`\\ \\(points\\, cells\\, cell\\_type\\[\\, n\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.expand:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.expand:49
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.expand:1
@@ -8789,11 +8795,11 @@ msgstr ""
 msgid "Expand a 0d-Point to a 1d-Line, a 1d-Line to a 2d-Quad or a 2d-Quad to a 3d-Hexahedron Mesh."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.translate <felupe.mesh.translate>`\\ \\(points\\, cells\\, cell\\_type\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.translate:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.translate:33
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.translate:1
@@ -8801,11 +8807,11 @@ msgstr ""
 msgid "Translate (move) a Mesh along a given axis."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.rotate <felupe.mesh.rotate>`\\ \\(points\\, cells\\, cell\\_type\\, ...\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.rotate:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.rotate:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.rotate:1
@@ -8813,30 +8819,30 @@ msgstr ""
 msgid "Rotate a Mesh."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.revolve <felupe.mesh.revolve>`\\ \\(points\\, cells\\, cell\\_type\\[\\, n\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.revolve:1
 msgid "Revolve a 0d-Point to a 1d-Line, a 1d-Line to 2d-Quad or a 2d-Quad to a 3d-Hexahedron Mesh."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.sweep <felupe.mesh.sweep>`\\ \\(points\\, cells\\, cell\\_type\\[\\, decimals\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.merge_duplicate_points:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.merge_duplicate_points:1
 msgid "Merge duplicate points and update cells of a Mesh."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.mirror <felupe.mesh.mirror>`\\ \\(points\\, cells\\, cell\\_type\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.mirror:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.mirror:42
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.mirror:1
@@ -8844,15 +8850,15 @@ msgstr ""
 msgid "Mirror points by plane normal and ensure positive cell volumes for `tria`, `tetra`, `quad` and `hexahedron` cell types."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.merge_duplicate_points <felupe.mesh.merge_duplicate_points>`\\ \\(points\\, cells\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.merge_duplicate_cells <felupe.mesh.merge_duplicate_cells>`\\ \\(points\\, cells\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.merge_duplicate_cells:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.merge_duplicate_cells:116
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._tools.merge_duplicate_cells:1
@@ -8860,20 +8866,20 @@ msgstr ""
 msgid "Merge duplicate cells of a Mesh."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.concatenate <felupe.mesh.concatenate>`\\ \\(meshes\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.concatenate:1
 msgid "Join a sequence of meshes with identical cell types."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.runouts <felupe.mesh.runouts>`\\ \\(points\\, cells\\, cell\\_type\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.runouts:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.runouts:54
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_runouts:1
@@ -8881,11 +8887,11 @@ msgstr ""
 msgid "Add simple rubber-runouts for realistic rubber-metal structures."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.triangulate <felupe.mesh.triangulate>`\\ \\(points\\, cells\\, cell\\_type\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.triangulate:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.triangulate:49
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.triangulate:1
@@ -8893,49 +8899,49 @@ msgstr ""
 msgid "Triangulate a quad or a hex mesh."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.convert <felupe.mesh.convert>`\\ \\(points\\, cells\\, cell\\_type\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid "Convert a mesh to a given order."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.collect_edges <felupe.mesh.collect_edges>`\\ \\(points\\, cells\\, cell\\_type\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.collect_edges:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._convert.collect_edges:1
 msgid "Collect all unique edges, calculate and return midpoints on edges as well as the additional cells array."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.collect_faces <felupe.mesh.collect_faces>`\\ \\(points\\, cells\\, cell\\_type\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.collect_faces:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._convert.collect_faces:1
 msgid "Collect all unique faces, calculate and return midpoints on faces as well as the additional cells array."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.collect_volumes <felupe.mesh.collect_volumes>`\\ \\(points\\, cells\\, cell\\_type\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.collect_volumes:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._convert.collect_volumes:1
 msgid "Collect all volumes, calculate and return midpoints on volumes as well as the additional cells array."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.add_midpoints_edges <felupe.mesh.add_midpoints_edges>`\\ \\(points\\, cells\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.add_midpoints_edges:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.add_midpoints_edges:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.convert:56
@@ -8947,11 +8953,11 @@ msgstr ""
 msgid "Add midpoints on edges for given points and cells and update cell_type accordingly."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.add_midpoints_faces <felupe.mesh.add_midpoints_faces>`\\ \\(points\\, cells\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.add_midpoints_faces:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.add_midpoints_faces:43
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.convert:59
@@ -8963,11 +8969,11 @@ msgstr ""
 msgid "Add midpoints on faces for given points and cells and update cell_type accordingly."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.add_midpoints_volumes <felupe.mesh.add_midpoints_volumes>`\\ \\(points\\, cells\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.add_midpoints_volumes:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.add_midpoints_volumes:43
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.convert:62
@@ -8979,11 +8985,11 @@ msgstr ""
 msgid "Add midpoints on volumes for given points and cells and update cell_type accordingly."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.flip <felupe.mesh.flip>`\\ \\(points\\, cells\\, cell\\_type\\[\\, mask\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.flip:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.flip:62
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.flip:1
@@ -8991,21 +8997,21 @@ msgstr ""
 msgid "Ensure positive cell volumes for `tria`, `tetra`, `quad` and `hexahedron` cell types."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.fill_between <felupe.mesh.fill_between>`\\ \\(mesh\\, other\\_mesh\\[\\, n\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.fill_between:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.fill_between:34
 msgid "Fill a 2d-Quad Mesh between two 1d-Line Meshes, embedded in 2d-space, or a 3d-Hexahedron Mesh between two 2d-Quad Meshes, embedded in 3d-space, by expansion."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.dual <felupe.mesh.dual>`\\ \\(points\\, cells\\, cell\\_type\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._dual.dual:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._dual.dual:53
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.disconnect:9
@@ -9014,32 +9020,41 @@ msgstr ""
 msgid "Create a new dual mesh with given points per cell."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.stack <felupe.mesh.stack>`\\ \\(meshes\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.stack:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.stack:42
 msgid "Stack cell-blocks from meshes with identical points-array and cell-types."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.read <felupe.mesh.read>`\\ \\(filename\\[\\, file\\_format\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._read.read:1
 msgid "Read a mesh from a file using :func:`meshio.read` and create a :class:`~felupe.MeshContainer`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ":py:obj:`mesh.interpolate_line <felupe.mesh.interpolate_line>`\\ \\(mesh\\, xi\\, axis\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._interpolate.interpolate_line:1
 msgid "Return an interpolated line mesh from an existing line mesh with provided interpolation points on a given axis."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
+msgid ":py:obj:`mesh.cell_types <felupe.mesh.cell_types>`\\ \\(\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.cell_types:1
+msgid "Return a list with tuples of identical cell types for different packages."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh:3
@@ -9247,15 +9262,15 @@ msgstr ""
 msgid "The mesh as :class:`meshio.Mesh`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.as_pyvista:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.as_unstructured_grid:1
 msgid "Export the mesh as :class:`pyvista.UnstructuredGrid`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.as_pyvista:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.as_unstructured_grid:5
 msgid "Additional keyword-arguments for :class:`pyvista.UnstructuredGrid`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.as_pyvista:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.as_unstructured_grid:8
 msgid "The mesh as :class:`pyvista.UnstructuredGrid`."
 msgstr ""
 
@@ -10049,6 +10064,38 @@ msgstr ""
 msgid "Return a deepcopy of the mesh container."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.from_unstructured_grid:1
+msgid "Create a mesh container from an unstructured grid (PyVista)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.from_unstructured_grid:3
+msgid "PyVista dataset used for arbitrary combinations of all possible cell types."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.from_unstructured_grid:5
+msgid "Trim the dimension of the ``points``-array (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.from_unstructured_grid:7
+msgid "Additional keyword-arguments are passed to the mesh container."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.from_unstructured_grid:31
+msgid ":obj:`felupe.mesh.cell_types`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.from_unstructured_grid:32
+msgid "Return a list with tuples of cell type mappings."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.from_unstructured_grid:34
+msgid ":obj:`felupe.Mesh.as_unstructured_grid`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.from_unstructured_grid:35
+msgid "Export the mesh as unstructured grid."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.imshow:1
 msgid "Take a screenshot of the meshes of the mesh container, show the image data in a figure and return the ax."
 msgstr ""
@@ -10246,6 +10293,14 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.runouts:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.triangulate:13
 msgid "**cells** (*ndarray*) -- Modified point-connectivity of cells."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.cell_types:12
+msgid "Create a dict which takes a FElupe cell-type string and returns the PyVista cell- type."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.cell_types:22
+msgid "Create a dict which takes a PyVista cell-type string and returns the FElupe cell- type."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.concatenate:3

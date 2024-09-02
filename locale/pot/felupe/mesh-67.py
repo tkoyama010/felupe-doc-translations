@@ -1,7 +1,4 @@
-container
-# Expected:
-## <felupe mesh container object>
-##   Number of points: 242
-##   Number of cells:
-##     quad: 100
-##     quad: 100
+import felupe as fem
+cube = fem.Cube(a=(-3, -2, -1), b=(3, 2, 1), n=(31, 21, 11))
+mesh = fem.mesh.runouts(cube, axis=2, values=[0.1, 0.3], normalize=True)
+mesh.plot().show()

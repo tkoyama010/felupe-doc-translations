@@ -1,7 +1,5 @@
-import felupe as fem
-import numpy as np
-mesh = fem.mesh.Line(n=5).expand(n=1)
-t = mesh.x.copy()
-mesh.points[:, 0] = np.sin(np.pi / 2 * t)
-mesh.points[:, 1] = np.cos(np.pi / 2 * t)
-mesh.plot(style="points", color="black").show()
+import pyvista as pv
+cell_types_pyvista_to_felupe = dict(cell_types_array[:, [1, 0]])
+cell_types_pyvista_to_felupe[pv.CellType.LINE]
+# Expected:
+## "line"
