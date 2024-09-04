@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-01 23:02+0000\n"
+"POT-Creation-Date: 2024-09-04 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -10827,19 +10827,19 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._axi.FieldAxisymmetric.grad:14
+#: of felupe.field._axi.FieldAxisymmetric.grad:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
 #: of felupe.field._axi.FieldAxisymmetric.interpolate:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
 #: of felupe.field._base.Field.extract:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._base.Field.hess:9
+#: of felupe.field._base.Field.hess:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field.extract:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field.grad:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.hess:9
+#: of felupe.field._base.Field.hess:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field.interpolate:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
@@ -10849,7 +10849,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._base.Field.grad:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.hess:9
+#: of felupe.field._base.Field.hess:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._base.Field.interpolate:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -10868,19 +10868,19 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._axi.FieldAxisymmetric.grad:17
+#: of felupe.field._axi.FieldAxisymmetric.grad:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
 #: of felupe.field._axi.FieldAxisymmetric.interpolate:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
 #: of felupe.field._base.Field.extract:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._base.Field.hess:12
+#: of felupe.field._base.Field.hess:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field.extract:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field.grad:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.hess:12
+#: of felupe.field._base.Field.hess:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field.interpolate:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
@@ -10890,7 +10890,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._base.Field.grad:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.hess:12
+#: of felupe.field._base.Field.hess:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._base.Field.interpolate:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -11425,18 +11425,12 @@ msgid ""
 "all cells in the region."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._base.Field.hess:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field.grad:5
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.hess:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._base.Field.grad:5
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.hess:4
 msgid ""
 "\\left( \\frac{\\partial u_i}{\\partial X_J} \\right)_{(qc)} =\n"
 "    \\hat{u}_{ai} \\left( \\frac{\\partial h_a}{\\partial X_J} \\right)_{(qc)}"
@@ -11514,7 +11508,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._axi.FieldAxisymmetric.grad:12
+#: of felupe.field._axi.FieldAxisymmetric.grad:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field.grad:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
@@ -11548,11 +11542,24 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._base.Field.hess:17
+#: of felupe.field._base.Field.hess:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.hess:17
+#: of felupe.field._base.Field.hess:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.hess:17
+#: of felupe.field._base.Field.hess:4
+msgid ""
+"\\left( \\frac{\\partial^2 u_i}{\\partial X_J~\\partial X_K} \\right)_{(qc)} =\n"
+"    \\hat{u}_{ai} \\left(\n"
+"        \\frac{\\partial^2 h_a}{\\partial X_J~\\partial X_K}\n"
+"    \\right)_{(qc)}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
+#: of felupe.field._base.Field.hess:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.hess:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.hess:19
 msgid ""
 "Hessian as partial derivative of field value components ``i`` at points "
 "w.r.t. the undeformed coordinates ``j`` and ``k``, evaluated at the "
@@ -11623,6 +11630,8 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
 #: of felupe.field._axi.FieldAxisymmetric:35
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
+#: of felupe.field._axi.FieldAxisymmetric.grad:6
 msgid ""
 "\\frac{\\partial \\boldsymbol{u}}{\\partial \\boldsymbol{X}} =\n"
 "    \\begin{bmatrix}\n"
@@ -11651,7 +11660,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._axi.FieldAxisymmetric.grad:22
+#: of felupe.field._axi.FieldAxisymmetric.grad:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
 #: of felupe.field._planestrain.FieldPlaneStrain.grad:22
 msgid ""
@@ -17450,15 +17459,15 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._convert.cell_types:12
 msgid ""
-"Create a dict which takes a FElupe cell-type string and returns the PyVista "
-"cell- type."
+"Create a dict which takes a FElupe cell type string and returns the PyVista "
+"cell type."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._convert.cell_types:22
 msgid ""
-"Create a dict which takes a PyVista cell-type string and returns the FElupe "
-"cell- type."
+"Create a dict which takes a PyVista cell type string and returns the FElupe "
+"cell type."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
