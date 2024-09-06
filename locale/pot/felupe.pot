@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-04 00:09+0000\n"
+"POT-Creation-Date: 2024-09-06 00:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -155,7 +155,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution/lagrange.rst:30
 #: ../../felupe/docs/felupe/constitution/tools.rst:33
 #: ../../felupe/docs/felupe/dof.rst:33
-#: ../../felupe/docs/felupe/element.rst:49
+#: ../../felupe/docs/felupe/element.rst:51
 #: ../../felupe/docs/felupe/field.rst:27
 #: ../../felupe/docs/felupe/math.rst:65
 #: ../../felupe/docs/felupe/mechanics.rst:43
@@ -5409,174 +5409,174 @@ msgstr ""
 msgid "The shear displacement is applied incrementally."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:2
+#: ../../felupe/docs/felupe/element.rst:4
 msgid "Element"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:4
+#: ../../felupe/docs/felupe/element.rst:6
 msgid "This module provides classes for the finite element formulations."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:6
+#: ../../felupe/docs/felupe/element.rst:8
 msgid "**Linear Elements**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:17:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:19:<autosummary>:1
 msgid ":py:obj:`Line <felupe.Line>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:17:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:19:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/element/_line.py:docstring of felupe.element._line.Line:1
 msgid "A 1D line element formulation with linear shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:17:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:19:<autosummary>:1
 msgid ":py:obj:`Quad <felupe.Quad>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:17:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:19:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.Quad:1
 msgid "A 2D quadrilateral element formulation with linear shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:17:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:19:<autosummary>:1
 msgid ":py:obj:`Hexahedron <felupe.Hexahedron>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:17:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:19:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron:1
 msgid "A 3D hexahedron (brick) element formulation with linear shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:17:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:19:<autosummary>:1
 msgid ":py:obj:`Triangle <felupe.Triangle>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:17:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:19:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.Triangle:1
 msgid "A 2D triangle element formulation with linear shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:17:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:19:<autosummary>:1
 msgid ":py:obj:`Tetra <felupe.Tetra>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:17:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:19:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.Tetra:1
 msgid "A 3D tetrahedron element formulation with linear shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:18
+#: ../../felupe/docs/felupe/element.rst:20
 msgid "**Constant Elements**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:24:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:26:<autosummary>:1
 msgid ":py:obj:`ConstantQuad <felupe.ConstantQuad>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:24:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:26:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.ConstantQuad:1
 msgid "A 2D quadrilateral element formulation with constant shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:24:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:26:<autosummary>:1
 msgid ":py:obj:`ConstantHexahedron <felupe.ConstantHexahedron>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:24:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:26:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.ConstantHexahedron:1
 msgid "A 3D hexahedron (brick) element formulation with constant shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:25
+#: ../../felupe/docs/felupe/element.rst:27
 msgid "**Quadratic Elements**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:37:<autosummary>:1
 msgid ":py:obj:`QuadraticQuad <felupe.QuadraticQuad>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.QuadraticQuad:1
 msgid "A 2D quadrilateral element formulation with quadratic (serendipity) shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:37:<autosummary>:1
 msgid ":py:obj:`QuadraticHexahedron <felupe.QuadraticHexahedron>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron:1
 msgid "A 3D hexahedron (brick) element formulation with quadratic (serendipity) shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:37:<autosummary>:1
 msgid ":py:obj:`BiQuadraticQuad <felupe.BiQuadraticQuad>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.BiQuadraticQuad:1
 msgid "A 2D quadrilateral element formulation with bi-quadratic shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:37:<autosummary>:1
 msgid ":py:obj:`TriQuadraticHexahedron <felupe.TriQuadraticHexahedron>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:1
 msgid "A 3D hexahedron (brick) element formulation with tri-quadratic shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:37:<autosummary>:1
 msgid ":py:obj:`QuadraticTriangle <felupe.QuadraticTriangle>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.QuadraticTriangle:1
 msgid "A 2D triangle element formulation with quadratic shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:37:<autosummary>:1
 msgid ":py:obj:`QuadraticTetra <felupe.QuadraticTetra>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.QuadraticTetra:1
 msgid "A 3D tetrahedron element formulation with quadratic shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:36
+#: ../../felupe/docs/felupe/element.rst:38
 msgid "**Bubble-Enriched Elements**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:44:<autosummary>:1
 msgid ":py:obj:`TriangleMINI <felupe.TriangleMINI>`\\ \\(\\[bubble\\_multiplier\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:44:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.TriangleMINI:1
 msgid "A 2D triangle element formulation with bubble-enriched linear shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:44:<autosummary>:1
 msgid ":py:obj:`TetraMINI <felupe.TetraMINI>`\\ \\(\\[bubble\\_multiplier\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:44:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.TetraMINI:1
 msgid "A 3D tetrahedron element formulation with bubble-enriched linear shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:43
+#: ../../felupe/docs/felupe/element.rst:45
 msgid "**Arbitrary-Order Elements**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:48:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:50:<autosummary>:1
 msgid ":py:obj:`element.ArbitraryOrderLagrange <felupe.element.ArbitraryOrderLagrange>`\\ \\(order\\, dim\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:48:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:50:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/felupe/element/_lagrange.py:docstring of felupe.element._lagrange.ArbitraryOrderLagrange:1
 msgid "A n-dimensional Lagrange finite element (e.g. line, quad or hexahdron) of arbitrary order."
 msgstr ""

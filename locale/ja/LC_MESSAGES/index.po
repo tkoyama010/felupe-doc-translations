@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-11 00:08+0000\n"
+"POT-Creation-Date: 2024-09-06 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../felupe/docs/index.rst:208
+#: ../../felupe/docs/index.rst:212
 msgid "Contents:"
 msgstr "内容:"
 
@@ -33,14 +33,12 @@ msgstr "FElupe ドキュメント"
 msgid ""
 "FElupe is a Python 3.8+ 🐍 finite element analysis package 📦 focusing on the "
 "formulation and numerical solution of nonlinear problems in continuum "
-"mechanics 🔧 of solid bodies 🚂. Its name is a combination of FE (finite "
-"element) and the german word *Lupe* 🔍 (magnifying glass) as a synonym for "
-"getting an insight 📖 how a finite element analysis code 🧮 looks like under "
-"the hood 🕳️."
+"mechanics 🔧 of solid bodies 🪨. This package is intended for scientific "
+"research 💻, but is also suitable for running nonlinear simulations 🚂 in "
+"general 🏎️. In addition to the transformation of general weak forms into "
+"sparse vectors and matrices, FElupe provides an efficient high-level "
+"abstraction layer for the simulation of the deformation of solid bodies."
 msgstr ""
-"FElupe は Python 3.8+ 🐍 有限要素解析パッケージです📦 固体の連続体力学🔧 "
-"における非線形問題の定式化と数値解法に焦点を当てています。この名前は、FE (finite element) とドイツ語の *Lupe* 🔍 (虫眼鏡)"
-" を組み合わせたもので、有限要素解析コードがフードの下でどのように 📖 見えるかを理解するための同義語です。🕳️"
 
 #: ../../felupe/docs/index.rst:8
 msgid "🏃 Beginner's Guide"
@@ -85,55 +83,59 @@ msgstr "📚例題"
 msgid "A gallery of examples."
 msgstr "例のギャラリー。"
 
-#: ../../felupe/docs/index.rst:36
+#: ../../felupe/docs/index.rst:35
 msgid "Highlights"
 msgstr "注目ポイント"
 
-#: ../../felupe/docs/index.rst:39
-msgid "high-level :ref:`finite-element-analysis API <felupe-api>`"
-msgstr "ハイレベル :ref:`finite-element-analysis API <felupe-api>`"
-
-#: ../../felupe/docs/index.rst:41
+#: ../../felupe/docs/index.rst:38
 msgid ""
-"flexible building blocks for :ref:`finite element assembly <felupe-api-"
-"assembly>`"
+"100% Python package built with `NumPy <https://numpy.org/>`_ and `SciPy "
+"<https://scipy.org/>`_"
 msgstr ""
-":ref:`finite element assembly <felupe-api-assembly>` のための柔軟なビルディング・ブロック"
 
-#: ../../felupe/docs/index.rst:43
-msgid "hyperelastic :class:`integral (weak) forms <felupe.IntegralForm>`"
-msgstr "超弾性 :class:`積分(弱)形式 <felupe.IntegralForm>`"
+#: ../../felupe/docs/index.rst:40
+msgid "easy to learn and productive high-level :ref:`API <felupe-api>`"
+msgstr ""
 
-#: ../../felupe/docs/index.rst:45
+#: ../../felupe/docs/index.rst:42
+msgid "nonlinear deformation of :class:`solid bodies <felupe.SolidBody>`"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:44
 msgid ""
-"easy-to-use :ref:`hyperelastic material models <felupe-api-constitution-"
-"hyperelasticity>` with `automatic-differentiation "
-"<https://github.com/adtzlr/tensortrax>`_"
+"interactive views on meshes, fields and solid bodies (using `PyVista "
+"<https://pyvista.org/>`_)"
 msgstr ""
-"使いやすい  `automatic-differentiation <https://github.com/adtzlr/tensortrax>`_ "
-"による :ref:`hyperelastic material models <felupe-api-constitution-"
+
+#: ../../felupe/docs/index.rst:46
+msgid "typical :ref:`finite elements <felupe-api-element>`"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:48
+msgid "axisymmetric, plane strain and mixed fields"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:50
+msgid ""
+":ref:`hyperelastic material models <felupe-api-constitution-"
 "hyperelasticity>`"
-
-#: ../../felupe/docs/index.rst:47
-msgid ""
-"straight-forward definition of :class:`mixed-fields <felupe.FieldsMixed>`"
-msgstr ":class:`mixed-fields <felupe.FieldsMixed>` のストレートな定義。"
-
-#: ../../felupe/docs/index.rst:49
-msgid ""
-":class:`nearly-incompressible hyperelastic solid bodies "
-"<felupe.SolidBodyNearlyIncompressible>`"
-msgstr ":class:`微圧縮性の超弾性固体 <felupe.SolidBodyNearlyIncompressible>`"
+msgstr ""
 
 #: ../../felupe/docs/index.rst:52
+msgid ""
+"strain energy density functions with :class:`automatic differentiation "
+"<felupe.Hyperelastic>`"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:56
 msgid "Installation"
 msgstr "インストール"
 
-#: ../../felupe/docs/index.rst:53
+#: ../../felupe/docs/index.rst:57
 msgid "Install Python, fire up 🔥 a terminal and run 🏃"
 msgstr "Pythonをインストールし、ターミナルを起動し🔥、 実行する🏃"
 
-#: ../../felupe/docs/index.rst:62
+#: ../../felupe/docs/index.rst:66
 msgid ""
 "where ``[all]`` is a combination of ``[io,parallel,plot,progress,view]`` and"
 " installs all optional dependencies. FElupe has minimal requirements, all "
@@ -142,160 +144,160 @@ msgstr ""
 "ここで ``[all]`` は ``[io,parallel,plot,progress,view]`` "
 "の組み合わせで、オプションの依存関係をすべてインストールします。FElupeには最小限の要件しかなく、すべてのプラットフォームをサポートするPyPIで入手可能です。"
 
-#: ../../felupe/docs/index.rst:64
+#: ../../felupe/docs/index.rst:68
 msgid "`numpy <https://github.com/numpy/numpy>`_ for array operations"
 msgstr "配列操作のための `numpy <https://github.com/numpy/numpy>`_"
 
-#: ../../felupe/docs/index.rst:65
+#: ../../felupe/docs/index.rst:69
 msgid "`scipy <https://github.com/scipy/scipy>`_ for sparse matrices"
 msgstr "疎行列のための `scipy <https://github.com/scipy/scipy>`_"
 
-#: ../../felupe/docs/index.rst:66
+#: ../../felupe/docs/index.rst:70
 msgid ""
 "`tensortrax <https://github.com/adtzlr/tensortrax>`_ for automatic "
 "differentiation"
 msgstr "自動微分のための `tensortrax <https://github.com/adtzlr/tensortrax>`_"
 
-#: ../../felupe/docs/index.rst:68
+#: ../../felupe/docs/index.rst:72
 msgid ""
 "In order to make use of all features of FElupe 💎💰💍👑💎, it is suggested to "
 "install all optional dependencies."
 msgstr "FElupe のすべての機能を使用するには💎💰💍👑💎、すべてのオプションの依存関係をインストールすることをお勧めします。"
 
-#: ../../felupe/docs/index.rst:70
+#: ../../felupe/docs/index.rst:74
 msgid ""
 "`einsumt <https://github.com/mrkwjc/einsumt>`_ for parallel (threaded) "
 "assembly"
 msgstr "(スレッド)並列アセンブリのための `einsumt <https://github.com/mrkwjc/einsumt>`_"
 
-#: ../../felupe/docs/index.rst:71
+#: ../../felupe/docs/index.rst:75
 msgid "`h5py <https://github.com/h5py/h5py>`_ for writing XDMF result files"
 msgstr "XDMF結果ファイル書き込みのための `h5py <https://github.com/h5py/h5py>`_"
 
-#: ../../felupe/docs/index.rst:72
+#: ../../felupe/docs/index.rst:76
 msgid ""
 "`matplotlib <https://github.com/matplotlib/matplotlib>`_ for plotting graphs"
 msgstr "グラフのプロットのための `matplotlib <https://github.com/matplotlib/matplotlib>`_"
 
-#: ../../felupe/docs/index.rst:73
+#: ../../felupe/docs/index.rst:77
 msgid "`meshio <https://github.com/nschloe/meshio>`_ for mesh-related I/O"
 msgstr "メッシュ関連I/Oのための `meshio <https://github.com/nschloe/meshio>`_"
 
-#: ../../felupe/docs/index.rst:74
+#: ../../felupe/docs/index.rst:78
 msgid ""
 "`pyvista <https://github.com/pyvista/pyvista>`_ for interactive "
 "visualizations"
 msgstr ""
 "インタラクティブなビジュアライゼーションのための `pyvista <https://github.com/pyvista/pyvista>`_"
 
-#: ../../felupe/docs/index.rst:75
+#: ../../felupe/docs/index.rst:79
 msgid ""
 "`tqdm <https://github.com/tqdm/tqdm>`_ for showing progress bars during job "
 "evaluations"
 msgstr "ジョブの評価時にプログレスバーを表示するための `tqdm <https://github.com/tqdm/tqdm>`_"
 
-#: ../../felupe/docs/index.rst:78
+#: ../../felupe/docs/index.rst:82
 msgid "Extension Packages"
 msgstr "拡張パッケージ"
 
-#: ../../felupe/docs/index.rst:80
+#: ../../felupe/docs/index.rst:84
 msgid ""
 "The capabilities of FElupe may be enhanced with extension packages created "
 "by the community."
 msgstr "FElupeの機能は、コミュニティによって作成された拡張パッケージによって強化されるかもしれません。"
 
-#: ../../felupe/docs/index.rst:83
+#: ../../felupe/docs/index.rst:87
 msgid "Package"
 msgstr "パッケージ"
 
-#: ../../felupe/docs/index.rst:83
+#: ../../felupe/docs/index.rst:87
 msgid "Description"
 msgstr "説明"
 
-#: ../../felupe/docs/index.rst:85
+#: ../../felupe/docs/index.rst:89
 msgid "`hyperelastic <https://github.com/adtzlr/hyperelastic>`_"
 msgstr "`hyperelastic <https://github.com/adtzlr/hyperelastic>`_"
 
-#: ../../felupe/docs/index.rst:85
+#: ../../felupe/docs/index.rst:89
 msgid "Constitutive hyperelastic material formulations"
 msgstr "構成的超弾性材料の定式化"
 
-#: ../../felupe/docs/index.rst:87
+#: ../../felupe/docs/index.rst:91
 msgid "`matadi <https://github.com/adtzlr/matadi>`_"
 msgstr "`matadi <https://github.com/adtzlr/matadi>`_"
 
-#: ../../felupe/docs/index.rst:87
+#: ../../felupe/docs/index.rst:91
 msgid "Material Definition with Automatic Differentiation (AD)"
 msgstr "自動微分(AD)による材料定義"
 
-#: ../../felupe/docs/index.rst:89
+#: ../../felupe/docs/index.rst:93
 msgid "`tensortrax <https://github.com/adtzlr/tensortrax>`_"
 msgstr "`tensortrax <https://github.com/adtzlr/tensortrax>`_"
 
-#: ../../felupe/docs/index.rst:89
+#: ../../felupe/docs/index.rst:93
 msgid "Differentiable Tensors based on NumPy Arrays (bundled with FElupe)"
 msgstr "NumPyの配列に基づく微分可能なテンソル（FElupeにバンドル）"
 
-#: ../../felupe/docs/index.rst:92
+#: ../../felupe/docs/index.rst:96
 msgid "`feplot <https://github.com/ZAARAOUI999/feplot>`_"
 msgstr "`feplot <https://github.com/ZAARAOUI999/feplot>`_"
 
-#: ../../felupe/docs/index.rst:92
+#: ../../felupe/docs/index.rst:96
 msgid "A visualization tool for FElupe"
 msgstr "FElupeのための視覚化ツール"
 
-#: ../../felupe/docs/index.rst:96
+#: ../../felupe/docs/index.rst:100
 msgid "Performance"
 msgstr "パフォーマンス"
 
-#: ../../felupe/docs/index.rst:97
+#: ../../felupe/docs/index.rst:101
 msgid ""
 "This is a simple benchmark to compare assembly times for linear elasticity "
 "and hyperelasticity on tetrahedrons."
 msgstr "これは、四面体上の線形弾性と超弾性のアセンブリ時間を比較する簡単なベンチマークです。"
 
-#: ../../felupe/docs/index.rst:105
+#: ../../felupe/docs/index.rst:109
 msgid "Analysis"
 msgstr "解析"
 
-#: ../../felupe/docs/index.rst:105
+#: ../../felupe/docs/index.rst:109
 msgid "DOF/s"
 msgstr "DOF/s"
 
-#: ../../felupe/docs/index.rst:107
+#: ../../felupe/docs/index.rst:111
 msgid "Linear-Elastic"
 msgstr "線形弾性"
 
-#: ../../felupe/docs/index.rst:107
+#: ../../felupe/docs/index.rst:111
 msgid "136193 +/-22916"
 msgstr "136193 +/-22916"
 
-#: ../../felupe/docs/index.rst:109
+#: ../../felupe/docs/index.rst:113
 msgid "Hyperelastic"
 msgstr "超弾性"
 
-#: ../../felupe/docs/index.rst:109
+#: ../../felupe/docs/index.rst:113
 msgid "100613 +/-18702"
 msgstr "100613 +/-18702"
 
-#: ../../felupe/docs/index.rst:112
+#: ../../felupe/docs/index.rst:116
 msgid ""
 "Tested on: Windows 10, Python 3.11, Intel® Core™ i7-11850H @ 2.50GHz, 32GB "
 "RAM."
 msgstr ""
 "テスト環境：Windows 10、Python 3.11、インテル® Core™ i7-11850H @ 2.50GHz、32GB RAM。"
 
-#: ../../felupe/docs/index.rst:218
+#: ../../felupe/docs/index.rst:222
 msgid "License"
 msgstr "ライセンス"
 
-#: ../../felupe/docs/index.rst:220
+#: ../../felupe/docs/index.rst:224
 msgid ""
 "FElupe - Finite Element Analysis (C) 2021-2024 Andreas Dutzler, Graz "
 "(Austria)."
 msgstr "FElupe - 有限要素解析 (C) 2021-2024 Andreas Dutzler, Graz (Austria)."
 
-#: ../../felupe/docs/index.rst:222
+#: ../../felupe/docs/index.rst:226
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
@@ -304,7 +306,7 @@ msgid ""
 msgstr ""
 "このプログラムはフリー・ソフトウェアです。あなたは、フリー・ソフトウェア財団によって発行されたGNU一般公衆利用許諾契約書のバージョン3、または（あなたの選択により）それ以降のバージョンのいずれかに従って、このプログラムを再配布、または改変することができます。"
 
-#: ../../felupe/docs/index.rst:224
+#: ../../felupe/docs/index.rst:228
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
@@ -313,7 +315,7 @@ msgid ""
 msgstr ""
 "このプログラムは有用であることを願って配布されていますが、いかなる保証もありません。商品性や特定目的への適合性の暗黙の保証さえもありません。詳細はGNU一般公衆利用許諾契約書をご覧ください。"
 
-#: ../../felupe/docs/index.rst:226
+#: ../../felupe/docs/index.rst:230
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program. If not, see `<https://www.gnu.org/licenses/>`_."
@@ -321,18 +323,18 @@ msgstr ""
 "あなたはこのプログラムとともにGNU一般公衆利用許諾契約書のコピーを受け取っているはずです。そうでない場合は、 "
 "`<https://www.gnu.org/licenses/>`_ を参照してください。"
 
-#: ../../felupe/docs/index.rst:229
+#: ../../felupe/docs/index.rst:233
 msgid "Indices and tables"
 msgstr "インデックスとテーブル"
 
-#: ../../felupe/docs/index.rst:231
+#: ../../felupe/docs/index.rst:235
 msgid ":ref:`genindex`"
 msgstr ":ref:`genindex`"
 
-#: ../../felupe/docs/index.rst:232
+#: ../../felupe/docs/index.rst:236
 msgid ":ref:`modindex`"
 msgstr ":ref:`modindex`"
 
-#: ../../felupe/docs/index.rst:233
+#: ../../felupe/docs/index.rst:237
 msgid ":ref:`search`"
 msgstr ":ref:`search`"
