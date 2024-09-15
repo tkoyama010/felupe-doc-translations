@@ -29,6 +29,7 @@ msgstr "計算時間"
 msgid ""
 "**00:00.000** total execution time for 23 files **from all galleries**:"
 msgstr ""
+"**00:00.000** total execution time for 23 files **from all galleries**:"
 
 #: ../../felupe/docs/sg_execution_times.rst:32
 msgid "Example"
@@ -266,3 +267,5 @@ msgid ""
 ":ref:`sphx_glr_examples_ex20_third-medium-contact.py` "
 "(``../examples/ex20_third-medium-contact.py``)"
 msgstr ""
+":ref:`sphx_glr_examples_ex20_third-medium-contact.py` "
+"(``../examples/ex20_third-medium-contact.py``)"
