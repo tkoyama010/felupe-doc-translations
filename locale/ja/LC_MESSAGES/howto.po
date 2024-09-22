@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-12 23:12+0000\n"
+"POT-Creation-Date: 2024-09-22 19:03+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -619,45 +619,54 @@ msgid "list of old state variables"
 msgstr ""
 
 #: ../../felupe/docs/howto/umat.rst:17 ../../felupe/docs/howto/umat.rst:19
+#: ../../felupe/docs/howto/umat.rst:21
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:11
 msgid "Return"
 msgstr ""
 
 #: ../../felupe/docs/howto/umat.rst:17
-msgid "σ"
-msgstr "σ"
+msgid "dσdε"
+msgstr ""
 
 #: ../../felupe/docs/howto/umat.rst:17
 msgid "tangent modulus"
 msgstr ""
 
 #: ../../felupe/docs/howto/umat.rst:19
+msgid "σ"
+msgstr "σ"
+
+#: ../../felupe/docs/howto/umat.rst:19
+msgid "new stress tensor"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat.rst:21
 msgid "ζ"
 msgstr "ζ"
 
-#: ../../felupe/docs/howto/umat.rst:19
+#: ../../felupe/docs/howto/umat.rst:21
 msgid "list of new state variables"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:27
+#: ../../felupe/docs/howto/umat.rst:29
 msgid ""
 "This function is further added as the ``material`` argument of "
 ":class:`~felupe.MaterialStrain`. If the material makes use of state "
 "variables, the shapes of these internal state variables must be provided."
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:35
+#: ../../felupe/docs/howto/umat.rst:37
 msgid ""
 "FElupe contains two reference small-strain user materials, one for linear "
 "elastic materials and another one for linear elastic-plastic materials with "
 "isotropic hardening:"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:37
+#: ../../felupe/docs/howto/umat.rst:39
 msgid ":func:`~felupe.linear_elastic`"
 msgstr ":func:`~felupe.linear_elastic`"
 
-#: ../../felupe/docs/howto/umat.rst:38
+#: ../../felupe/docs/howto/umat.rst:40
 msgid ":func:`~felupe.linear_elastic_plastic_isotropic_hardening`"
 msgstr ":func:`~felupe.linear_elastic_plastic_isotropic_hardening`"
 

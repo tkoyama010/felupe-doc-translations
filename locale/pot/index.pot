@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-22 00:12+0000\n"
+"POT-Creation-Date: 2024-09-22 19:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,7 +85,7 @@ msgid "typical :ref:`finite elements <felupe-api-element>`"
 msgstr ""
 
 #: ../../felupe/docs/index.rst:48
-msgid "axisymmetric, plane strain and mixed fields"
+msgid "cartesian, axisymmetric, plane strain and mixed fields"
 msgstr ""
 
 #: ../../felupe/docs/index.rst:50
