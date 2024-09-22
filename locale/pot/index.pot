@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-15 00:10+0000\n"
+"POT-Creation-Date: 2024-09-22 00:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../felupe/docs/index.rst:212
+#: ../../felupe/docs/index.rst:226
 msgid "Contents:"
 msgstr ""
 
@@ -148,122 +148,130 @@ msgstr ""
 msgid "`tqdm <https://github.com/tqdm/tqdm>`_ for showing progress bars during job evaluations"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:82
+#: ../../felupe/docs/index.rst:81
+msgid "The development version may contain not yet released bug fixes and features. Consider using the ``--user`` option to install the package into your home directory (see `pip documentation <https://pip.pypa.io/en/stable/user_guide/#user-installs>`_ for more details). To install FElupe from the latest development branch, use"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:87
+msgid "or clone the repository and install the package in editable mode."
+msgstr ""
+
+#: ../../felupe/docs/index.rst:96
 msgid "Extension Packages"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:84
+#: ../../felupe/docs/index.rst:98
 msgid "The capabilities of FElupe may be enhanced with extension packages created by the community."
 msgstr ""
 
-#: ../../felupe/docs/index.rst:87
+#: ../../felupe/docs/index.rst:101
 msgid "Package"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:87
+#: ../../felupe/docs/index.rst:101
 msgid "Description"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:89
+#: ../../felupe/docs/index.rst:103
 msgid "`hyperelastic <https://github.com/adtzlr/hyperelastic>`_"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:89
+#: ../../felupe/docs/index.rst:103
 msgid "Constitutive hyperelastic material formulations"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:91
+#: ../../felupe/docs/index.rst:105
 msgid "`matadi <https://github.com/adtzlr/matadi>`_"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:91
+#: ../../felupe/docs/index.rst:105
 msgid "Material Definition with Automatic Differentiation (AD)"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:93
+#: ../../felupe/docs/index.rst:107
 msgid "`tensortrax <https://github.com/adtzlr/tensortrax>`_"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:93
+#: ../../felupe/docs/index.rst:107
 msgid "Differentiable Tensors based on NumPy Arrays (bundled with FElupe)"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:96
+#: ../../felupe/docs/index.rst:110
 msgid "`feplot <https://github.com/ZAARAOUI999/feplot>`_"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:96
+#: ../../felupe/docs/index.rst:110
 msgid "A visualization tool for FElupe"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:100
+#: ../../felupe/docs/index.rst:114
 msgid "Performance"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:101
+#: ../../felupe/docs/index.rst:115
 msgid "This is a simple benchmark to compare assembly times for linear elasticity and hyperelasticity on tetrahedrons."
 msgstr ""
 
-#: ../../felupe/docs/index.rst:109
+#: ../../felupe/docs/index.rst:123
 msgid "Analysis"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:109
+#: ../../felupe/docs/index.rst:123
 msgid "DOF/s"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:111
+#: ../../felupe/docs/index.rst:125
 msgid "Linear-Elastic"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:111
+#: ../../felupe/docs/index.rst:125
 msgid "136193 +/-22916"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:113
+#: ../../felupe/docs/index.rst:127
 msgid "Hyperelastic"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:113
+#: ../../felupe/docs/index.rst:127
 msgid "100613 +/-18702"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:116
+#: ../../felupe/docs/index.rst:130
 msgid "Tested on: Windows 10, Python 3.11, Intel® Core™ i7-11850H @ 2.50GHz, 32GB RAM."
 msgstr ""
 
-#: ../../felupe/docs/index.rst:222
+#: ../../felupe/docs/index.rst:236
 msgid "License"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:224
+#: ../../felupe/docs/index.rst:238
 msgid "FElupe - Finite Element Analysis (C) 2021-2024 Andreas Dutzler, Graz (Austria)."
 msgstr ""
 
-#: ../../felupe/docs/index.rst:226
+#: ../../felupe/docs/index.rst:240
 msgid "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version."
 msgstr ""
 
-#: ../../felupe/docs/index.rst:228
+#: ../../felupe/docs/index.rst:242
 msgid "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details."
 msgstr ""
 
-#: ../../felupe/docs/index.rst:230
+#: ../../felupe/docs/index.rst:244
 msgid "You should have received a copy of the GNU General Public License along with this program. If not, see `<https://www.gnu.org/licenses/>`_."
 msgstr ""
 
-#: ../../felupe/docs/index.rst:233
+#: ../../felupe/docs/index.rst:247
 msgid "Indices and tables"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:235
+#: ../../felupe/docs/index.rst:249
 msgid ":ref:`genindex`"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:236
+#: ../../felupe/docs/index.rst:250
 msgid ":ref:`modindex`"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:237
+#: ../../felupe/docs/index.rst:251
 msgid ":ref:`search`"
 msgstr ""

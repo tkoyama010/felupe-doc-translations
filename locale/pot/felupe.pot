@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-18 00:09+0000\n"
+"POT-Creation-Date: 2024-09-22 00:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -243,6 +243,10 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.symmetry:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.uniaxial:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/dof/_tools.py:docstring of felupe.dof._tools.partition:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.py:docstring of felupe.field._base.Field.interpolate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._base.Field.interpolate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_evaluate.py:docstring of felupe.field._evaluate.EvaluateFieldContainer.strain:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._spatial.rotation_matrix:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.ddot:0
@@ -311,6 +315,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/tools/_newton.py:docstring of felupe.tools._newton.newtonrhapson:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/tools/_project.py:docstring of felupe.tools._project.topoints:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/tools/_save.py:docstring of felupe.tools._save.save:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:0
 msgid "Parameters"
 msgstr ""
 
@@ -613,6 +620,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.py:docstring of felupe.field._base.Field:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:26
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_evaluate.py:docstring of felupe.field._evaluate.EvaluateFieldContainer:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._math.linsteps:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:31
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._spatial.rotation_matrix:40
@@ -728,6 +736,10 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/tools/_newton.py:docstring of felupe.tools._newton.newtonrhapson:112
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/tools/_project.py:docstring of felupe.tools._project.project:90
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/tools/_save.py:docstring of felupe.tools._save.save:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:29
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:21
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:11
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:34
 msgid "Examples"
 msgstr ""
 
@@ -1002,6 +1014,10 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.symmetry:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.uniaxial:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/dof/_tools.py:docstring of felupe.dof._tools.partition:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.py:docstring of felupe.field._base.Field.interpolate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._base.Field.interpolate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_evaluate.py:docstring of felupe.field._evaluate.EvaluateFieldContainer.strain:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._spatial.rotation_matrix:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.ddot:0
@@ -1085,6 +1101,10 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/_material_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.symmetry:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.py:docstring of felupe.field._base.Field.interpolate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._base.Field.interpolate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_evaluate.py:docstring of felupe.field._evaluate.EvaluateFieldContainer.strain:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._solve.solve_2d:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._spatial.rotation_matrix:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.ddot:0
@@ -6087,43 +6107,43 @@ msgstr ""
 msgid "field.EvaluateFieldContainer"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:32
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:35
 msgid "A new :class:`~felupe.FieldContainer` is also created by one of the logical-and combinations of a :class:`~felupe.Field`, :class:`~felupe.FieldAxisymmetric`, :class:`~felupe.FieldPlaneStrain` or :class:`~felupe.FieldContainer`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_axi.py:docstring of felupe.field._axi.FieldAxisymmetric:48
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:54
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:42
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:60
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:50
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:38
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_planestrain.py:docstring of felupe.field._planestrain.FieldPlaneStrain:34
 msgid ":obj:`felupe.Field`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_axi.py:docstring of felupe.field._axi.FieldAxisymmetric:49
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:55
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:43
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:61
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:51
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:39
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_planestrain.py:docstring of felupe.field._planestrain.FieldPlaneStrain:35
 msgid "Field on points of a :class:`~felupe.Region` with dimension ``dim`` and initial point ``values``."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:57
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:45
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:63
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:53
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:44
 msgid ":obj:`felupe.FieldAxisymmetric`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:58
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:64
 msgid "An axisymmetric :class:`~felupe.Field` on points of a two dimensional :class:`~felupe.Region` with dimension ``dim`` (default is 2) and initial point ``values`` (default is 0)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:60
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:48
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:66
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:47
 msgid ":obj:`felupe.FieldPlaneStrain`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:61
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:67
 msgid "A plane strain :class:`~felupe.Field` on points of a two dimensional :class:`~felupe.Region` with dimension ``dim`` (default is 2) and initial point ``values`` (default is 0)."
 msgstr ""
 
@@ -6254,8 +6274,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.view:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.plot:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.view:22
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:30
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:35
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:55
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:61
 msgid ":obj:`felupe.project`"
 msgstr ""
 
@@ -6265,8 +6285,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.plot:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.view:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/tools/_project.py:docstring of felupe.tools._project.project:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:31
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:36
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:56
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:62
 msgid "Project given values at quadrature-points to mesh-points."
 msgstr ""
 
@@ -6359,6 +6379,9 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.view:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.view:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:39
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:30
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:58
 msgid ":obj:`felupe.ViewField`"
 msgstr ""
 
@@ -6373,6 +6396,18 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_evaluate.py:docstring of felupe.field._evaluate.EvaluateFieldContainer:4
 msgid "A container for fields."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:47
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_evaluate.py:docstring of felupe.field._evaluate.EvaluateFieldContainer:30
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:35
+msgid ":obj:`felupe.FieldContainer`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:48
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_evaluate.py:docstring of felupe.field._evaluate.EvaluateFieldContainer:31
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:36
+msgid "A container which holds one or multiple (mixed) fields."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_evaluate.py:docstring of felupe.field._evaluate.EvaluateFieldContainer.deformation_gradient:1
@@ -6533,11 +6568,11 @@ msgid "\\left( \\frac{\\partial u_i}{\\partial X_J} \\right)_{(qc)} =\n"
 "    \\hat{u}_{ai} \\left( \\frac{\\partial h_a}{\\partial X_J} \\right)_{(qc)}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.py:docstring of felupe.field._base.Field:46
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.py:docstring of felupe.field._base.Field:49
 msgid "To obtain deformation-related quantities like the right Cauchy-Green deformation tensor or the principal stretches, use the math-helpers from FElupe. These functions operate on arrays with trailing axes."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.py:docstring of felupe.field._base.Field:50
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.py:docstring of felupe.field._base.Field:53
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._field.strain:29
 msgid "\\boldsymbol{C} = \\boldsymbol{F}^T \\boldsymbol{F}"
 msgstr ""
@@ -6711,33 +6746,23 @@ msgstr ""
 msgid "Optional keyword arguments for the dual region."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:39
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:35
-msgid ":obj:`felupe.FieldContainer`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:40
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:36
-msgid "A container which holds one or multiple (mixed) fields."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:46
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:54
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:45
 msgid "Axisymmetric field on points of a :class:`~felupe.Region` with dimension ``dim`` and initial point ``values``."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:49
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:57
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:48
 msgid "Plane strain field on points of a :class:`~felupe.Region` with dimension ``dim`` and initial point ``values``."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:51
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:59
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:50
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.dual:47
 msgid ":obj:`felupe.mesh.dual`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:52
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:60
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:51
 msgid "Create a dual :class:`~felupe.Mesh`."
 msgstr ""
@@ -10016,6 +10041,9 @@ msgid "A object which provides visualization methods for :class:`felupe.Mesh`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.view:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:49
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:27
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:55
 msgid ":obj:`felupe.ViewMesh`"
 msgstr ""
 
@@ -11557,7 +11585,10 @@ msgid ":py:obj:`view.Scene <felupe.view.Scene>`\\ \\(\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/view.rst:16:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:47
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:37
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:53
 msgid "Base class for plotting a static scene."
 msgstr ""
 
@@ -11610,8 +11641,38 @@ msgstr ""
 msgid "pyvista.UnstructuredGrid"
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:50
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:28
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:56
+msgid "Provide Visualization methods for a mesh with optional given dicts of point- and cell-data items."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:40
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:31
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:59
+msgid "Provide Visualization methods for a field container."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:52
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:42
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:33
+msgid ":obj:`felupe.ViewSolid`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:53
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:43
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:34
+msgid "Provide Visualization methods for a field container or a solid body."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:4
 msgid "The mesh object."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:46
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:36
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:52
+msgid ":obj:`felupe.view.Scene`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:1
@@ -11636,7 +11697,7 @@ msgid "A solid body to evaluate the (Cauchy) stress (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:12
-msgid "The type of stress, either \"Cauchy\" or \"Kirchhoff, which is exported (default is \"Cauchy\")."
+msgid "The type of stress which is exported, either \"Cauchy\" or \"Kirchhoff\" (default is \"Cauchy\")."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:21
