@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-12 23:12+0000\n"
+"POT-Creation-Date: 2024-09-25 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,43 +31,53 @@ msgstr ""
 msgid "First, let’s import FElupe and create a meshed :class:`cube <felupe.Cube>` out of :class:`hexahedron <felupe.Hexahedron>` cells with a given number of points per axis. A numeric :class:`region <felupe.RegionHexahedron>`, pre-defined for hexahedrons, is created on the mesh. A vector-valued displacement :class:`field <felupe.Field>` is initiated on the region. Next, a :class:`field container <felupe.FieldContainer>` is created on top of this field."
 msgstr ""
 
-#: ../../felupe/docs/tutorial/examples/README.rst:18
-#: ../../felupe/docs/tutorial/index.rst:20
+#: ../../felupe/docs/tutorial/examples/README.rst:19
+#: ../../felupe/docs/tutorial/index.rst:21
 msgid "A :func:`~felupe.dof.uniaxial` load case is applied on the displacement :class:`field <felupe.Field>` stored inside the :class:`field container <felupe.FieldContainer>`. This involves setting up :func:`~felupe.dof.symmetry` planes as well as the absolute value of the prescribed displacement at the mesh-points on the right-end face of the cube. The right-end face is *clamped* 🛠️: only displacements in direction *x* are allowed. The dict of :class:`boundary <felupe.Boundary>` conditions for this pre-defined load case are returned as ``boundaries`` and the partitioned degrees of freedom as well as the external displacements are stored within the returned dict ``loadcase``."
 msgstr ""
 
-#: ../../felupe/docs/tutorial/examples/README.rst:24
-#: ../../felupe/docs/tutorial/index.rst:26
+#: ../../felupe/docs/tutorial/examples/README.rst:26
+#: ../../felupe/docs/tutorial/index.rst:28
 msgid "An isotropic pseudo-elastic :class:`Ogden-Roxburgh <felupe.OgdenRoxburgh>` Mullins-softening model formulation in combination with an isotropic hyperelastic :class:`Neo-Hookean <felupe.NeoHooke>` material formulation is applied on the displacement :class:`field <felupe.Field>` of a :class:`nearly-incompressible solid body <felupe.SolidBodyNearlyIncompressible>`."
 msgstr ""
 
-#: ../../felupe/docs/tutorial/examples/README.rst:31
-#: ../../felupe/docs/tutorial/index.rst:33
+#: ../../felupe/docs/tutorial/examples/README.rst:34
+#: ../../felupe/docs/tutorial/index.rst:36
 msgid "A :class:`step <felupe.Step>` generates the consecutive substep-movements of a given :class:`boundary <felupe.Boundary>` condition."
 msgstr ""
 
-#: ../../felupe/docs/tutorial/examples/README.rst:38
-#: ../../felupe/docs/tutorial/index.rst:40
+#: ../../felupe/docs/tutorial/examples/README.rst:42
+#: ../../felupe/docs/tutorial/index.rst:44
 msgid "The :class:`step <felupe.Step>` is further added to a list of steps of a :class:`job <felupe.Job>` 👩‍💻 (here, a :class:`characteristic curve <felupe.CharacteristicCurve>` 📈 job is used). During :meth:`evaluation <felupe.Job.evaluate>` ⏳, each substep of each :class:`step <felupe.Step>` is solved by an iterative :func:`Newton-Rhapson <felupe.newtonrhapson>` procedure ⚖️. The :func:`solution <felupe.tools.NewtonResult>` is exported after each completed substep as a time-series ⌚ XDMF file."
 msgstr ""
 
-#: ../../felupe/docs/tutorial/examples/README.rst:50
-#: ../../felupe/docs/tutorial/index.rst:52
+#: ../../felupe/docs/tutorial/examples/README.rst:66
+#: ../../felupe/docs/tutorial/index.rst:68
 msgid "Finally, the result of the last completed substep is plotted."
 msgstr ""
 
-#: ../../felupe/docs/tutorial/examples/README.rst:56
-#: ../../felupe/docs/tutorial/index.rst:58
+#: ../../felupe/docs/tutorial/examples/README.rst:0
+#: ../../felupe/docs/tutorial/index.rst:0
+msgid "Static Scene"
+msgstr ""
+
+#: ../../felupe/docs/tutorial/examples/README.rst:0
+#: ../../felupe/docs/tutorial/index.rst:0
+msgid "Interactive Scene"
+msgstr ""
+
+#: ../../felupe/docs/tutorial/examples/README.rst:73
+#: ../../felupe/docs/tutorial/index.rst:75
 msgid "Slightly modified code-blocks are provided for different kind of analyses and element formulations."
 msgstr ""
 
-#: ../../felupe/docs/tutorial/examples/README.rst:205
-#: ../../felupe/docs/tutorial/index.rst:207
+#: ../../felupe/docs/tutorial/examples/README.rst:222
+#: ../../felupe/docs/tutorial/index.rst:224
 msgid "Tutorials"
 msgstr ""
 
-#: ../../felupe/docs/tutorial/examples/README.rst:207
-#: ../../felupe/docs/tutorial/index.rst:209
+#: ../../felupe/docs/tutorial/examples/README.rst:224
+#: ../../felupe/docs/tutorial/index.rst:226
 msgid "This section is all about learning. Each tutorial focuses on some lessons to learn."
 msgstr ""
 
@@ -142,7 +152,7 @@ msgstr ""
 #: ../../felupe/docs/tutorial/extut01_getting_started.rst:135
 #: ../../felupe/docs/tutorial/extut02_job.rst:133
 #: ../../felupe/docs/tutorial/extut03_building_blocks.rst:530
-#: ../../felupe/docs/tutorial/index.rst:290
+#: ../../felupe/docs/tutorial/index.rst:307
 msgid "`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
 msgstr ""
 
@@ -405,15 +415,15 @@ msgstr ""
 msgid ":download:`Download zipped: extut03_building_blocks.zip <extut03_building_blocks.zip>`"
 msgstr ""
 
-#: ../../felupe/docs/tutorial/index.rst:228
+#: ../../felupe/docs/tutorial/index.rst:245
 msgid ":ref:`sphx_glr_tutorial_extut01_getting_started.py`"
 msgstr ""
 
-#: ../../felupe/docs/tutorial/index.rst:245
+#: ../../felupe/docs/tutorial/index.rst:262
 msgid ":ref:`sphx_glr_tutorial_extut02_job.py`"
 msgstr ""
 
-#: ../../felupe/docs/tutorial/index.rst:262
+#: ../../felupe/docs/tutorial/index.rst:279
 msgid ":ref:`sphx_glr_tutorial_extut03_building_blocks.py`"
 msgstr ""
 

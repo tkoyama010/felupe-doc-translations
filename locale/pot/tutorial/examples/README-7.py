@@ -1,0 +1,1 @@
+solid.plot("Principal Values of Cauchy Stress").show()

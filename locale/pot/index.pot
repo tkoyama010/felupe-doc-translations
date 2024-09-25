@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-22 19:03+0000\n"
+"POT-Creation-Date: 2024-09-25 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -225,7 +225,7 @@ msgid "Linear-Elastic"
 msgstr ""
 
 #: ../../felupe/docs/index.rst:125
-msgid "136193 +/-22916"
+msgid "130039 +/-23464"
 msgstr ""
 
 #: ../../felupe/docs/index.rst:127
@@ -233,7 +233,7 @@ msgid "Hyperelastic"
 msgstr ""
 
 #: ../../felupe/docs/index.rst:127
-msgid "100613 +/-18702"
+msgid "116819 +/-21979"
 msgstr ""
 
 #: ../../felupe/docs/index.rst:130

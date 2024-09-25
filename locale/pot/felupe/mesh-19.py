@@ -6,4 +6,4 @@ mesh
 ##   Number of cells:
 ##     quad: 200
 #
-ax = mesh.imshow(opacity=0.6)
+mesh.plot(opacity=0.6).show()

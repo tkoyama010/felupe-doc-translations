@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-22 19:03+0000\n"
+"POT-Creation-Date: 2024-09-25 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -321,23 +321,23 @@ msgid "Use external solvers"
 msgstr ""
 
 #: ../../felupe/docs/howto/solvers.rst:4
-msgid "FElupe uses SuperLU as direct sparse solver by default because it is shipped with SciPy (and SciPy is already a dependency of FElupe). While it is definitely a good choice for small to mid-sized problems, faster alternatives are easy to install and use. This section demonstrates several possibilities, e.g. a fast direct solver from `PyPardiso <https://github.com/haasad/PyPardisoProject>`_ (``pip install pypardiso``) and the ``minres`` iterative solver from ``SciPy``. Custom solvers may be passed to the evaluation of a job."
+msgid "FElupe uses SuperLU as direct sparse solver by default because it is shipped with SciPy (and SciPy is already a dependency of FElupe). While it is definitely a good choice for small to mid-sized problems, faster alternatives are easy to install and use. This section demonstrates several possibilities, e.g. a fast direct solver from `PyPardiso <https://github.com/haasad/PyPardisoProject>`_ (``pip install pypardiso``) and the :func:`~scipy.sparse.linalg.minres` iterative solver from ``SciPy``. Custom solvers may be passed to the evaluation of a :class:`~felupe.Job`."
 msgstr ""
 
-#: ../../felupe/docs/howto/solvers.rst:13
+#: ../../felupe/docs/howto/solvers.rst:15
 msgid "Solvers from SciPy Sparse:"
 msgstr ""
 
-#: ../../felupe/docs/howto/solvers.rst:26
+#: ../../felupe/docs/howto/solvers.rst:28
 msgid "``minres`` may be replaced by another iterative method."
 msgstr ""
 
-#: ../../felupe/docs/howto/solvers.rst:37
+#: ../../felupe/docs/howto/solvers.rst:39
 msgid "Solvers from external packages:"
 msgstr ""
 
-#: ../../felupe/docs/howto/solvers.rst:41
-#: ../../felupe/docs/howto/solvers.rst:53
+#: ../../felupe/docs/howto/solvers.rst:43
+#: ../../felupe/docs/howto/solvers.rst:55
 msgid "Ensure to have `PyPardiso <https://github.com/haasad/PyPardisoProject>`_  installed."
 msgstr ""
 

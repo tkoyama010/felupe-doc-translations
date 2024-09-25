@@ -1,13 +1,2 @@
-rect1
-# Expected:
-## <felupe Mesh object>
-##   Number of points: 121
-##   Number of cells:
-##     quad: 100
-#
-rect2
-# Expected:
-## <felupe Mesh object>
-##     Number of points: 121
-##     Number of cells:
-##     quad: 100
+mesh_new = fem.mesh.interpolate_line(mesh, xi=np.linspace(0, 1), axis=1)
+mesh_new.plot(style="points", color="black").show()

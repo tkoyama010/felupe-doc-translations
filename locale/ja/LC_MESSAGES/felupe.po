@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-22 00:12+0000\n"
+"POT-Creation-Date: 2024-09-25 00:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -97,7 +97,7 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/assembly.rst:31:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:92
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:111
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_cartesian.pydocstring
 #: of felupe.assembly._cartesian.IntegralFormCartesian:69
 msgid ""
@@ -442,6 +442,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.concatenate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.expand:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.fill_between:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.flip:0
@@ -552,6 +554,8 @@ msgstr ""
 msgid "The field container for the test fields."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_cartesian.pydocstring
 #: of felupe.assembly._cartesian.IntegralFormCartesian:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
@@ -582,7 +586,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:4
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_cartesian.pydocstring
 #: of felupe.assembly._cartesian.IntegralFormCartesian:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
@@ -743,6 +747,10 @@ msgstr ""
 #: of felupe.field._axi.FieldAxisymmetric:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field:17
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.extract:35
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.extract:35
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._fields.FieldsMixed:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
@@ -1489,14 +1497,14 @@ msgid ":obj:`felupe.assembly.IntegralFormAxisymmetric`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:94
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:113
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
 #: of felupe.assembly._integral.IntegralForm:159
 msgid ":obj:`felupe.assembly.IntegralFormCartesian`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:95
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:114
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
 #: of felupe.assembly._integral.IntegralForm:160
 msgid "Single-field integral form."
@@ -1523,6 +1531,8 @@ msgid ""
 "``grad_v`` and ``grad_u`` to True (default is False for both fields)."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_cartesian.pydocstring
 #: of felupe.assembly._cartesian.IntegralFormCartesian:6
 msgid ""
@@ -1535,17 +1545,23 @@ msgstr ""
 msgid "The test field."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_cartesian.pydocstring
 #: of felupe.assembly._cartesian.IntegralFormCartesian:13
 msgid "If a field is passed, a bilinear form is created (default is None)."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_cartesian.pydocstring
 #: of felupe.assembly._cartesian.IntegralFormCartesian:15
 msgid ""
 "Flag to activate the gradient on the test field ``v`` (default is False)."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_cartesian.pydocstring
 #: of felupe.assembly._cartesian.IntegralFormCartesian:17
 msgid ""
@@ -1553,7 +1569,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:91
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:110
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_cartesian.pydocstring
 #: of felupe.assembly._cartesian.IntegralFormCartesian:68
 msgid ":obj:`felupe.IntegralForm`"
@@ -1574,18 +1590,34 @@ msgid "Return evaluated (but not assembled) integrals."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:5
-msgid ""
-"Axisymmetric scenarios are modeled with a 2D-mesh and consequently, a 2D "
-"element formulation. The rotation axis is chosen along the global X-axis "
-":math:`(X,Y,Z) \\widehat{=} (Z,R,\\varphi)`. The 3x3 deformation gradient "
-"consists of an in-plane 2x2 sub-matrix and one additional entry for the out-"
-"of-plane stretch which is equal to the ratio of deformed and undeformed "
-"radius."
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:6
+msgid "The axisymmetric test field."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:11
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:19
+msgid ""
+"Axisymmetric integral forms are created with a two-dimensional mesh, a two- "
+"dimensional element formulation and an axisymmetric field."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:24
+msgid ""
+"The rotation axis is chosen along the global X-axis :math:`(X,Y,Z) "
+"\\widehat{=} (Z,R,\\varphi)`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:27
+msgid ""
+"The three-dimensional deformation gradient consists of four in-plane "
+"components and one additional non-zero entry for the out-of-plane stretch, "
+"which is equal to the ratio of the deformed and the undeformed radius."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:31
 msgid ""
 "\\boldsymbol{F} = \\begin{bmatrix}\n"
 "        \\boldsymbol{F}_{(2D)} & \\boldsymbol{0} \\\\\n"
@@ -1598,32 +1630,28 @@ msgstr ""
 "    \\end{bmatrix}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:18
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:38
 msgid ""
 "The variation of the deformation gradient consists of both in- and out-of-"
 "plane contributions."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:21
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:41
 msgid ""
-"\\delta \\boldsymbol{F}_{(2D)} = \\delta \\frac{\n"
+"\\delta \\boldsymbol{F}_{(2D)} = \\delta \\left( \\frac{\n"
 "        \\partial \\boldsymbol{u}}{\\partial \\boldsymbol{X}\n"
-"    } \\qquad \\text{and} \\qquad \\delta \\left(\\frac{r}{R}\\right)\n"
+"    } \\right) \\qquad \\text{and} \\qquad \\delta \\left(\\frac{r}{R}\\right)\n"
 "    = \\frac{\\delta u_r}{R}"
 msgstr ""
-"\\delta \\boldsymbol{F}_{(2D)} = \\delta \\frac{\n"
-"        \\partial \\boldsymbol{u}}{\\partial \\boldsymbol{X}\n"
-"    } \\qquad \\text{and} \\qquad \\delta \\left(\\frac{r}{R}\\right)\n"
-"    = \\frac{\\delta u_r}{R}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:28
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:48
 msgid "Again, the internal virtual work leads to two seperate terms."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:30
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:50
 msgid ""
 "-\\delta W_{int} = \\int_V \\boldsymbol{P} : \\delta \\boldsymbol{F} \\ dV\n"
 "    = \\int_V \\boldsymbol{P}_{(2D)} : \\delta \\boldsymbol{F}_{(2D)} \\ dV\n"
@@ -1634,7 +1662,7 @@ msgstr ""
 "    + \\int_V \\frac{P_{33}}{R} : \\delta u_r \\ dV"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:36
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:56
 msgid ""
 "The differential volume is further expressed as a product of the "
 "differential in-plane area and the differential arc length. The arc length "
@@ -1642,19 +1670,19 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:40
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:60
 msgid "\\int_V dV = \\int_{\\varphi=0}^{2\\pi} \\int_A R\\ dA\\ d\\varphi = 2\\pi \\int_A R\\ dA"
 msgstr "\\int_V dV = \\int_{\\varphi=0}^{2\\pi} \\int_A R\\ dA\\ d\\varphi = 2\\pi \\int_A R\\ dA"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:44
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:64
 msgid ""
 "Inserting the differential volume integral into the expression of internal "
 "virtual work, this leads to:"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:47
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:67
 msgid ""
 "-\\delta W_{int} = 2\\pi \\int_A \\boldsymbol{P}_{(2D)}\n"
 "    : \\delta \\boldsymbol{F}_{(2D)} \\ R \\ dA\n"
@@ -1665,13 +1693,13 @@ msgstr ""
 "    + 2\\pi \\int_A P_{33} : \\delta u_r \\ dA"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:53
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:73
 msgid ""
 "A Linearization of the internal virtual work expression gives four terms."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:55
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:75
 msgid ""
 "-\\Delta \\delta W_{int} &= \\Delta_{(2D)} \\delta_{(2D)} W_{int}\n"
 "    + \\Delta_{33} \\delta_{(2D)} W_{int} + \\Delta_{(2D)} \\delta_{33} W_{int}\n"
@@ -1708,11 +1736,9 @@ msgstr ""
 "    \\delta u_r : \\frac{\\mathbb{A}_{33,33}}{R} : \\Delta u_r \\ dA"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:74
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:94
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
 #: of felupe.assembly.expression._decorator.FormExpressionDecorator:77
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
-#: of felupe.constitution._material.Material:169
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
 #: of felupe.constitution._mixed.ThreeFieldVariation:125
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
@@ -1733,29 +1759,18 @@ msgid "with"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
-#: of felupe.assembly._axi.IntegralFormAxisymmetric:76
+#: of felupe.assembly._axi.IntegralFormAxisymmetric:96
 msgid ""
-"\\mathbb{A}_{(2D),(2D)} &= \\frac{\n"
-"    \\partial \\psi}{\\partial \\boldsymbol{F}_{(2D)} \\partial \\boldsymbol{F}_{(2D)}\n"
+"\\mathbb{A}_{(2D)~(2D)} &= \\frac{\n"
+"    \\partial \\psi}{\\partial \\boldsymbol{F}_{(2D)}~\\partial \\boldsymbol{F}_{(2D)}\n"
 "}\n"
 "\n"
-"\\mathbb{A}_{(2D),33} &= \\frac{\n"
-"    \\partial \\psi}{\\partial \\boldsymbol{F}_{(2D)} \\partial F^3_{\\hphantom{3}3}}\n"
-"    \\left ( = \\mathbb{A}_{33,(2D)} \\right )\n"
+"\\mathbb{A}_{(2D)~33} &= \\frac{\n"
+"    \\partial \\psi}{\\partial \\boldsymbol{F}_{(2D)}\\ \\partial F_{33}}\n"
+"    \\left ( = \\mathbb{A}_{33~(2D)} \\right )\n"
 "\n"
-"\\mathbb{A}_{33,33} &= \\frac{\\partial \\psi}{F^3_{\\hphantom{3}3}\n"
-"    \\partial F^3_{\\hphantom{3}3}}"
+"\\mathbb{A}_{33~33} &= \\frac{\\partial \\psi}{\\partial F_{33}~\\partial F_{33}}"
 msgstr ""
-"\\mathbb{A}_{(2D),(2D)} &= \\frac{\n"
-"    \\partial \\psi}{\\partial \\boldsymbol{F}_{(2D)} \\partial \\boldsymbol{F}_{(2D)}\n"
-"}\n"
-"\n"
-"\\mathbb{A}_{(2D),33} &= \\frac{\n"
-"    \\partial \\psi}{\\partial \\boldsymbol{F}_{(2D)} \\partial F^3_{\\hphantom{3}3}}\n"
-"    \\left ( = \\mathbb{A}_{33,(2D)} \\right )\n"
-"\n"
-"\\mathbb{A}_{33,33} &= \\frac{\\partial \\psi}{F^3_{\\hphantom{3}3}\n"
-"    \\partial F^3_{\\hphantom{3}3}}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
 #: of felupe.assembly.expression._decorator.FormExpressionDecorator:4
@@ -1895,6 +1910,8 @@ msgstr ""
 #: of felupe.mesh._read.read:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.concatenate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.expand:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.fill_between:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
@@ -4375,35 +4392,33 @@ msgstr ""
 #: of felupe.constitution._material.Material:159
 msgid ""
 "The compressible isotropic hyperelastic Neo-Hookean material formulation is "
-"given by the strain energy density function."
+"given by the strain energy density function"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
 #: of felupe.constitution._material.Material:162
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible:12
 msgid ""
-"\\psi &= \\psi(\\boldsymbol{C})\n"
-"\n"
-"\\psi(\\boldsymbol{C}) &= \\frac{\\mu}{2} \\text{tr}(\\boldsymbol{C})\n"
+"\\psi(\\boldsymbol{C}) = \\frac{\\mu}{2} \\text{tr}(\\boldsymbol{C})\n"
 "    - \\mu \\ln(J) + \\frac{\\lambda}{2} \\ln(J)^2"
 msgstr ""
-"\\psi &= \\psi(\\boldsymbol{C})\n"
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
+#: of felupe.constitution._material.Material:167
+msgid ""
+"with the determinant of the deformation gradient and the right Cauchy Green "
+"deformation tensor."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
+#: of felupe.constitution._material.Material:170
+msgid ""
+"J &= \\text{det}(\\boldsymbol{F})\n"
 "\n"
-"\\psi(\\boldsymbol{C}) &= \\frac{\\mu}{2} \\text{tr}(\\boldsymbol{C})\n"
-"    - \\mu \\ln(J) + \\frac{\\lambda}{2} \\ln(J)^2"
+"C &= \\boldsymbol{F}^T\\ \\boldsymbol{F}"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
-#: of felupe.constitution._material.Material:171
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible:21
-msgid "J = \\text{det}(\\boldsymbol{F})"
-msgstr "J = \\text{det}(\\boldsymbol{F})"
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
-#: of felupe.constitution._material.Material:175
+#: of felupe.constitution._material.Material:176
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible:25
@@ -4413,7 +4428,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
-#: of felupe.constitution._material.Material:178
+#: of felupe.constitution._material.Material:179
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible:28
@@ -4429,7 +4444,7 @@ msgstr ""
 "    + \\lambda \\ln(J) \\boldsymbol{F}^{-T}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
-#: of felupe.constitution._material.Material:185
+#: of felupe.constitution._material.Material:186
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible:35
@@ -4439,7 +4454,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
-#: of felupe.constitution._material.Material:188
+#: of felupe.constitution._material.Material:189
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible:38
@@ -4461,14 +4476,14 @@ msgstr ""
 "    + \\lambda \\boldsymbol{F}^{-T} {\\otimes} \\boldsymbol{F}^{-T}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
-#: of felupe.constitution._material.Material:233
+#: of felupe.constitution._material.Material:234
 msgid ""
 "The material formulation is tested in a minimal example of non-homogeneous "
 "uniaxial tension."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
-#: of felupe.constitution._material.Material:249
+#: of felupe.constitution._material.Material:254
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
 #: of
 #: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain:11
@@ -4477,7 +4492,7 @@ msgstr ":obj:`felupe.NeoHookeCompressible`"
 
 #: ../../felupe/docs/felupe/constitution/core.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
-#: of felupe.constitution._material.Material:250
+#: of felupe.constitution._material.Material:255
 msgid ""
 "Nearly-incompressible isotropic hyperelastic Neo-Hookean material "
 "formulation."
@@ -6257,6 +6272,26 @@ msgstr ""
 #: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible:7
 msgid "First Lamé constant (default is None)"
 msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible:12
+msgid ""
+"\\psi &= \\psi(\\boldsymbol{C})\n"
+"\n"
+"\\psi(\\boldsymbol{C}) &= \\frac{\\mu}{2} \\text{tr}(\\boldsymbol{C})\n"
+"    - \\mu \\ln(J) + \\frac{\\lambda}{2} \\ln(J)^2"
+msgstr ""
+"\\psi &= \\psi(\\boldsymbol{C})\n"
+"\n"
+"\\psi(\\boldsymbol{C}) &= \\frac{\\mu}{2} \\text{tr}(\\boldsymbol{C})\n"
+"    - \\mu \\ln(J) + \\frac{\\lambda}{2} \\ln(J)^2"
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_neo_hooke_compressible.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity.core._neo_hooke_compressible.NeoHookeCompressible:21
+msgid "J = \\text{det}(\\boldsymbol{F})"
+msgstr "J = \\text{det}(\\boldsymbol{F})"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/core/_ogden_roxburgh.pydocstring
 #: of felupe.constitution.hyperelasticity.core._ogden_roxburgh.OgdenRoxburgh:5
@@ -11027,21 +11062,119 @@ msgid ""
 "allocated array is returned (default is None)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._base.Field.extract:21
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.extract:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer.extract:24
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.extract:21
+#: of felupe.field._container.FieldContainer.extract:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
-#: of felupe.field._container.FieldContainer.extract:24
+#: of felupe.field._container.FieldContainer.extract:23
+msgid ""
+"Controls the memory layout of the outputs. 'C' means it should be C "
+"contiguous. 'F' means it should be Fortran contiguous, 'A' means it should "
+"be 'F' if the inputs are all 'F', 'C' otherwise. 'K' means it should be as "
+"close to the layout as the inputs as is possible, including arbitrarily "
+"permuted axes. Default is 'C'."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
+#: of felupe.field._base.Field.extract:27
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.extract:27
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.extract:30
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.extract:27
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.extract:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._base.Field.extract:21
+#: of felupe.field._base.Field.extract:27
 msgid ""
 "(Symmetric) gradient or interpolated field values evaluated at the "
 "integration points of each cell in the region."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.extract:36
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.extract:36
+msgid ""
+"If the gradient is not requested, the interpolation method returns the field"
+" values evaluated at the numeric integration  points ``q`` for each cell "
+"``c`` in the region (so-called *trailing axes*)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
+#: of felupe.field._axi.FieldAxisymmetric.interpolate:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field:22
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.interpolate:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.extract:40
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.interpolate:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.extract:40
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
+#: of felupe.field._planestrain.FieldPlaneStrain.interpolate:4
+msgid "u_{i(qc)} = \\hat{u}_{ai}\\ h_{a(qc)}"
+msgstr "u_{i(qc)} = \\hat{u}_{ai}\\ h_{a(qc)}"
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.extract:44
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.extract:44
+msgid ""
+"On the other hand, the gradient method returns the gradient of the field "
+"values w.r.t. the undeformed mesh point coordinates, evaluated at the "
+"integration points of all cells in the region."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field:30
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.grad:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.extract:48
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.grad:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.extract:48
+msgid ""
+"\\left( \\frac{\\partial u_i}{\\partial X_J} \\right)_{(qc)} =\n"
+"    \\hat{u}_{ai} \\left( \\frac{\\partial h_a}{\\partial X_J} \\right)_{(qc)}"
+msgstr ""
+"\\left( \\frac{\\partial u_i}{\\partial X_J} \\right)_{(qc)} =\n"
+"    \\hat{u}_{ai} \\left( \\frac{\\partial h_a}{\\partial X_J} \\right)_{(qc)}"
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.extract:55
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.extract:55
+msgid ":obj:`felupe.Field.interpolate`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.extract:56
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.extract:56
+msgid ""
+"Interpolate field values located at mesh-points to the quadrature points in "
+"the region."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.extract:58
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.extract:58
+msgid ":obj:`felupe.Field.grad`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.extract:59
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.extract:59
+msgid ""
+"Gradient as partial derivative of field values w.r.t. undeformed "
+"coordinates."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
@@ -11546,19 +11679,6 @@ msgid ""
 "*trailing axes*)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._axi.FieldAxisymmetric.interpolate:4
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field:22
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.interpolate:4
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.interpolate:4
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._planestrain.FieldPlaneStrain.interpolate:4
-msgid "u_{i(qc)} = \\hat{u}_{ai}\\ h_{a(qc)}"
-msgstr "u_{i(qc)} = \\hat{u}_{ai}\\ h_{a(qc)}"
-
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field:26
 msgid ""
@@ -11566,19 +11686,6 @@ msgid ""
 "undeformed mesh point coordinates, evaluated at the integration points of "
 "all cells in the region."
 msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field:30
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.grad:5
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.grad:5
-msgid ""
-"\\left( \\frac{\\partial u_i}{\\partial X_J} \\right)_{(qc)} =\n"
-"    \\hat{u}_{ai} \\left( \\frac{\\partial h_a}{\\partial X_J} \\right)_{(qc)}"
-msgstr ""
-"\\left( \\frac{\\partial u_i}{\\partial X_J} \\right)_{(qc)} =\n"
-"    \\hat{u}_{ai} \\left( \\frac{\\partial h_a}{\\partial X_J} \\right)_{(qc)}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field:49
@@ -11618,13 +11725,53 @@ msgid "Flag for gradient evaluation (default is True)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._base.Field.extract:25
+#: of felupe.field._axi.FieldAxisymmetric.grad:25
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
+#: of felupe.field._axi.FieldAxisymmetric.interpolate:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
+#: of felupe.field._base.Field.extract:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
+#: of felupe.field._base.Field.hess:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.extract:25
+#: of felupe.field._base.Field.extract:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.grad:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.hess:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.interpolate:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.extract:25
+#: of felupe.field._base.Field.extract:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.grad:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.hess:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.interpolate:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._base.Field.extract:25
+#: of felupe.field._base.Field.extract:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
+#: of felupe.field._planestrain.FieldPlaneStrain.grad:21
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
+#: of felupe.field._planestrain.FieldPlaneStrain.hess:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
+#: of felupe.field._planestrain.FieldPlaneStrain.interpolate:15
+msgid ""
+"Controls the memory layout of the output. 'C' means it should be C "
+"contiguous. 'F' means it should be Fortran contiguous, 'A' means it should "
+"be 'F' if the inputs are all 'F', 'C' otherwise. 'K' means it should be as "
+"close to the layout as the inputs as is possible, including arbitrarily "
+"permuted axes. Default is 'C'."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
+#: of felupe.field._base.Field.extract:31
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.extract:31
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.extract:31
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
+#: of felupe.field._base.Field.extract:31
 msgid ":obj:`Field.interpolate`, :obj:`Field.grad`"
 msgstr ":obj:`Field.interpolate`, :obj:`Field.grad`"
 
@@ -11663,9 +11810,9 @@ msgid "Calculate the symmetric part of the gradient (default is False)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.grad:20
+#: of felupe.field._base.Field.grad:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.grad:20
+#: of felupe.field._base.Field.grad:26
 msgid ""
 "Gradient as partial derivative of field value components ``i`` at points "
 "w.r.t. the undeformed coordinates ``j``, evaluated at the quadrature points "
@@ -11697,11 +11844,11 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._base.Field.hess:19
+#: of felupe.field._base.Field.hess:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.hess:19
+#: of felupe.field._base.Field.hess:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.hess:19
+#: of felupe.field._base.Field.hess:25
 msgid ""
 "Hessian as partial derivative of field value components ``i`` at points "
 "w.r.t. the undeformed coordinates ``j`` and ``k``, evaluated at the "
@@ -11722,13 +11869,13 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._axi.FieldAxisymmetric.interpolate:16
+#: of felupe.field._axi.FieldAxisymmetric.interpolate:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.interpolate:16
+#: of felupe.field._base.Field.interpolate:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.interpolate:16
+#: of felupe.field._base.Field.interpolate:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._planestrain.FieldPlaneStrain.interpolate:16
+#: of felupe.field._planestrain.FieldPlaneStrain.interpolate:22
 msgid ""
 "Interpolated field value components ``i``, evaluated at the quadrature "
 "points ``q`` of each cell ``c`` in the region."
@@ -11802,9 +11949,9 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
-#: of felupe.field._axi.FieldAxisymmetric.grad:26
+#: of felupe.field._axi.FieldAxisymmetric.grad:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._planestrain.FieldPlaneStrain.grad:22
+#: of felupe.field._planestrain.FieldPlaneStrain.grad:28
 msgid ""
 "Full 3D-gradient as partial derivative of field values at points w.r.t. "
 "undeformed coordinates, evaluated at the integration points of all cells in "
@@ -11847,7 +11994,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._planestrain.FieldPlaneStrain.hess:16
+#: of felupe.field._planestrain.FieldPlaneStrain.hess:22
 msgid ""
 "Full 3D-hessian as second partial derivative of field values at points "
 "w.r.t. undeformed coordinates, evaluated at the integration points of all "
@@ -15113,7 +15260,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh:90
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.merge_duplicate_points:87
+#: of felupe.mesh._mesh.Mesh.merge_duplicate_points:88
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._tools.merge_duplicate_cells:119
 msgid ""
@@ -15647,7 +15794,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._dual.dual:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._dual.dual:53
+#: of felupe.mesh._dual.dual:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.disconnect:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
@@ -15665,7 +15812,7 @@ msgstr ":py:obj:`mesh.stack <felupe.mesh.stack>`\\ \\(meshes\\)"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.stack:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_container.pydocstring
-#: of felupe.mesh._container.MeshContainer.stack:42
+#: of felupe.mesh._container.MeshContainer.stack:43
 msgid ""
 "Stack cell-blocks from meshes with identical points-array and cell-types."
 msgstr ""
@@ -15811,7 +15958,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh:89
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.merge_duplicate_points:86
+#: of felupe.mesh._mesh.Mesh.merge_duplicate_points:87
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._tools.merge_duplicate_cells:118
 msgid ":obj:`felupe.MeshContainer`"
@@ -16181,7 +16328,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._dual.dual:52
+#: of felupe.mesh._dual.dual:54
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.disconnect:8
 msgid ":obj:`felupe.Mesh.dual`"
@@ -16722,7 +16869,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.merge_duplicate_points:97
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.merge_duplicate_points:77
+#: of felupe.mesh._mesh.Mesh.merge_duplicate_points:78
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._tools.merge_duplicate_cells:94
 msgid ""
@@ -16804,14 +16951,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.merge_duplicate_points:83
+#: of felupe.mesh._mesh.Mesh.merge_duplicate_points:84
 msgid ":obj:`felupe.mesh.merge_duplicate_points`"
 msgstr ":obj:`felupe.mesh.merge_duplicate_points`"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.merge_duplicate_points:104
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.merge_duplicate_points:84
+#: of felupe.mesh._mesh.Mesh.merge_duplicate_points:85
 msgid "Merge duplicated points and update cells of a Mesh."
 msgstr ""
 
@@ -17366,7 +17513,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_container.pydocstring
-#: of felupe.mesh._container.MeshContainer.stack:41
+#: of felupe.mesh._container.MeshContainer.stack:42
 msgid ":obj:`felupe.mesh.stack`"
 msgstr ":obj:`felupe.mesh.stack`"
 
@@ -17451,12 +17598,12 @@ msgid "1-D arrays representing the coordinates of a grid."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
-#: of felupe.mesh._geometry.Grid:52
+#: of felupe.mesh._geometry.Grid:53
 msgid ":obj:`numpy.meshgrid`"
 msgstr ":obj:`numpy.meshgrid`"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
-#: of felupe.mesh._geometry.Grid:53
+#: of felupe.mesh._geometry.Grid:54
 msgid "Return a list of coordinate matrices from coordinate vectors."
 msgstr ""
 

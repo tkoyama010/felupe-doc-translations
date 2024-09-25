@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-22 19:03+0000\n"
+"POT-Creation-Date: 2024-09-25 00:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -282,16 +282,16 @@ msgid "Linear-Elastic"
 msgstr "線形弾性"
 
 #: ../../felupe/docs/index.rst:125
-msgid "136193 +/-22916"
-msgstr "136193 +/-22916"
+msgid "130039 +/-23464"
+msgstr ""
 
 #: ../../felupe/docs/index.rst:127
 msgid "Hyperelastic"
 msgstr "超弾性"
 
 #: ../../felupe/docs/index.rst:127
-msgid "100613 +/-18702"
-msgstr "100613 +/-18702"
+msgid "116819 +/-21979"
+msgstr ""
 
 #: ../../felupe/docs/index.rst:130
 msgid ""

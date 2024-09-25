@@ -1,4 +1,11 @@
 import felupe as fem
-rect = fem.Rectangle(n=4)
-cube = fem.mesh.expand(rect, n=7, z=2)
-cube.plot().show()
+mesh = fem.Rectangle(n=6)
+mesh2 = fem.mesh.convert(mesh, order=2)
+mesh2.plot(plotter=mesh.plot(), style="points", color="black").show()
+#
+mesh2
+# Expected:
+## <felupe Mesh object>
+##   Number of points: 96
+##   Number of cells:
+##     quad8: 25

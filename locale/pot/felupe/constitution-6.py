@@ -25,4 +25,3 @@ def elasticity(x, mu, lmbda):
         mu * cdya_ik(eye, eye) + lmbda * dya(iFT, iFT) +
         (mu - lmbda * np.log(J)) * cdya_il(iFT, iFT)
     ]
-umat = fem.Material(stress, elasticity, mu=1.0, lmbda=2.0)

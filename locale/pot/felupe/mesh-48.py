@@ -1,7 +1,10 @@
 import felupe as fem
-inner = fem.mesh.revolve(fem.Point(1)).expand(z=0.4).translate(0.2, axis=2)
-outer = fem.mesh.revolve(fem.Point(2), phi=160).rotate(
-    axis=2, angle_deg=20
-).expand(z=1.2)
-mesh = fem.mesh.fill_between(inner, outer, n=6)
-mesh.plot().show()
+mesh = fem.Rectangle(n=5).add_midpoints_edges()
+region = fem.RegionQuadraticQuad(mesh=mesh)
+mesh_dual = fem.mesh.dual(mesh, points_per_cell=1, disconnect=False)
+region_dual = fem.RegionConstantQuad(
+    mesh_dual, quadrature=region.quadrature, grad=False
+)
+displacement = fem.FieldPlaneStrain(region, dim=2)
+pressure = fem.Field(region_dual)
+field = fem.FieldContainer([displacement, pressure])
