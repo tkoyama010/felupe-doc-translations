@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-25 00:10+0000\n"
+"POT-Creation-Date: 2024-10-24 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -230,22 +230,6 @@ msgstr ""
 
 #: ../../felupe/docs/howto/mixed.rst:48
 msgid "The Step and Job definitions are identical to ones used with single field formulations. The deformed cube is finally visualized by PyVista. The cell-based means of the maximum principal values of the logarithmic strain tensor are shown."
-msgstr ""
-
-#: ../../felupe/docs/howto/rbe2.rst:2
-msgid "Multi-Point Constraints"
-msgstr ""
-
-#: ../../felupe/docs/howto/rbe2.rst:4
-msgid "This How-To demonstrates the usage of multi-point constraints (also called MPC or RBE2 rigid-body-elements) with an independent centerpoint and one or more dependent points. First, a centerpoint has to be added to the mesh. MPC objects are supported as ``items`` of a :class:`~felupe.Step` and within the :func:`~felupe.newtonrhapson` procedure."
-msgstr ""
-
-#: ../../felupe/docs/howto/rbe2.rst:23
-msgid "An instance of :class:`~felupe.MultiPointConstraint` defines the multi-point constraint. This instance provides two methods, :meth:`MultiPointConstraint.assemble.vector() <felupe.MultiPointConstraint.assemble.vector>` and :meth:`MultiPointConstraint.assemble.matrix() <felupe.MultiPointConstraint.assemble.matrix>`."
-msgstr ""
-
-#: ../../felupe/docs/howto/rbe2.rst:35
-msgid "Finally, add the results of these methods to the internal force vector or the stiffness matrix."
 msgstr ""
 
 #: ../../felupe/docs/howto/solid.rst:2
