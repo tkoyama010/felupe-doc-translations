@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-24 00:10+0000\n"
+"POT-Creation-Date: 2024-10-27 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1076,7 +1076,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:81
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:44
+#: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:58
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
 #: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation:28
@@ -4651,12 +4651,14 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:26:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
+#: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:81
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
 #: of
 #: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain:1
 msgid ""
-"Linear-elastic material formulation suitable for large-rotation analyses "
-"based on the compressible Neo-Hookean material formulation."
+"Linear-elastic material formulation suitable for large-strain analyses based"
+" on the compressible Neo-Hookean material formulation."
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:26:<autosummary>:1
@@ -4965,6 +4967,13 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:10
 msgid ""
+"The stress-strain relation of the linear-elastic material formulation is "
+"given in Eq. :eq:`linear-elastic`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
+#: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:13
+msgid ""
 "\\begin{bmatrix}\n"
 "    \\sigma_{11} \\\\\n"
 "    \\sigma_{22} \\\\\n"
@@ -5012,15 +5021,12 @@ msgstr ""
 "\\end{bmatrix}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:35
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of
-#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation:19
-msgid "with the strain tensor"
+#: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:39
+msgid "with the small-strain tensor from Eq. :eq:`linear-elastic-strain`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:37
+#: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:41
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
 #: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation:21
@@ -5032,6 +5038,39 @@ msgstr ""
 "\\boldsymbol{\\varepsilon} = \\frac{1}{2} \\left( \\frac{\\partial \\boldsymbol{u}}\n"
 "{\\partial \\boldsymbol{X}} + \\left( \\frac{\\partial \\boldsymbol{u}}\n"
 "{\\partial \\boldsymbol{X}} \\right)^T \\right)"
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
+#: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:50
+msgid ""
+"This material formulation must not be used in analyses where large "
+"rotations, large displacements or large strains occur. In this case, "
+"consider using a :class:`~felupe.Hyperelastic` material formulation instead."
+" :class:`~felupe.LinearElasticLargeStrain` is based on a compressible "
+"version of the Neo-Hookean material formulation and is safe to use for large"
+" rotations, large displacements and large strains."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
+#: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:80
+msgid ":obj:`felupe.LinearElasticLargeStrain`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/lagrange/_total_lagrange.pydocstring
+#: of felupe.constitution.lagrange._total_lagrange.total_lagrange:25
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/lagrange/_updated_lagrange.pydocstring
+#: of felupe.constitution.lagrange._updated_lagrange.updated_lagrange:26
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
+#: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:83
+msgid ":obj:`felupe.Hyperelastic`"
+msgstr ":obj:`felupe.Hyperelastic`"
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
+#: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:84
+msgid ""
+"A hyperelastic material definition with a given function for the strain "
+"energy density function per unit undeformed volume with automatic "
+"differentiation."
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
@@ -5322,6 +5361,12 @@ msgstr ""
 "\\frac{\\boldsymbol{\\partial \\sigma}}{\\partial \\boldsymbol{\\varepsilon}} &=\n"
 "2 \\mu \\ \\boldsymbol{I} \\odot \\boldsymbol{I} + \\gamma \\ \\boldsymbol{I} \\otimes\n"
 "\\boldsymbol{I}"
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
+#: of
+#: felupe.constitution.linear_elasticity._linear_elastic.LinearElasticTensorNotation:19
+msgid "with the strain tensor"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of
@@ -8453,13 +8498,6 @@ msgstr ""
 #: of felupe.constitution.lagrange._total_lagrange.total_lagrange:6
 msgid "\\delta \\psi = \\boldsymbol{F} \\boldsymbol{S} : \\delta \\boldsymbol{F}"
 msgstr "\\delta \\psi = \\boldsymbol{F} \\boldsymbol{S} : \\delta \\boldsymbol{F}"
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/lagrange/_total_lagrange.pydocstring
-#: of felupe.constitution.lagrange._total_lagrange.total_lagrange:25
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/lagrange/_updated_lagrange.pydocstring
-#: of felupe.constitution.lagrange._updated_lagrange.updated_lagrange:26
-msgid ":obj:`felupe.Hyperelastic`"
-msgstr ":obj:`felupe.Hyperelastic`"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/lagrange/_total_lagrange.pydocstring
 #: of felupe.constitution.lagrange._total_lagrange.total_lagrange:26
