@@ -1,5 +1,4 @@
-import pyvista as pv
-cell_types_pyvista_to_felupe = dict(cell_types_array[:, [1, 0]])
-cell_types_pyvista_to_felupe[pv.CellType.LINE]
+cell_types_felupe_to_pyvista = dict(cell_types_array)
+cell_types_felupe_to_pyvista["line"]
 # Expected:
-## "line"
+## <CellType.LINE: 3>

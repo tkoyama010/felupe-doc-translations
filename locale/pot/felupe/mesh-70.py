@@ -1,7 +1,4 @@
 import felupe as fem
-mesh = fem.Rectangle(n=11)
-rect1, rect2 = mesh.copy(), mesh.copy()
-rect1.update(cells=mesh.cells[: 40])
-rect2.update(cells=mesh.cells[-50:])
-mesh = fem.mesh.stack([rect1, rect2])
+cube = fem.Cube(a=(-3, -2, -1), b=(3, 2, 1), n=(31, 21, 11))
+mesh = fem.mesh.runouts(cube, axis=2, values=[0.1, 0.3], normalize=True)
 mesh.plot().show()

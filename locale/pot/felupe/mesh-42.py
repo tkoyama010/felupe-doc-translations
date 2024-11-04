@@ -1,8 +1,6 @@
 import felupe as fem
 mesh = fem.Rectangle(n=6)
-mesh_with_midpoints_faces = fem.mesh.add_midpoints_faces(
-    mesh, cell_type_new="quad"
-)
-plotter = mesh_with_midpoints_faces.plot(
+mesh_with_midpoints_edges = fem.mesh.add_midpoints_edges(mesh)
+mesh_with_midpoints_edges.plot(
     plotter=mesh.plot(), style="points", color="black"
 ).show()

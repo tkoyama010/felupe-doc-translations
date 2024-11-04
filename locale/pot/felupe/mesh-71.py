@@ -1,7 +1,7 @@
 import felupe as fem
-rect1 = fem.Rectangle(n=11)
-rect2 = fem.Rectangle(a=(0.9, 0), b=(1.9, 1), n=11)
-container = fem.MeshContainer([rect1, rect2])
-stack = fem.mesh.stack(container.meshes)
-mesh = fem.mesh.merge_duplicate_points(stack)
-mesh.plot(opacity=0.6).show()
+mesh = fem.Rectangle(n=11)
+rect1, rect2 = mesh.copy(), mesh.copy()
+rect1.update(cells=mesh.cells[: 40])
+rect2.update(cells=mesh.cells[-50:])
+mesh = fem.mesh.stack([rect1, rect2])
+mesh.plot().show()

@@ -1,10 +1,5 @@
 import felupe as fem
-import pyvista as pv
-grid = pv.UnstructuredGrid(pv.examples.hexbeamfile)
-container = fem.MechContainer.from_unstructured_grid(grid)
-container
-# Expected:
-## <felupe mesh container object>
-##   Number of points: 99
-##   Number of cells:
-##     hexahedron: 40
+cube = fem.Cube(n=3)
+cylinder = fem.Circle().expand(n=2)
+mesh = fem.MeshContainer([cube, cylinder], merge=True)
+mesh.plot().show()

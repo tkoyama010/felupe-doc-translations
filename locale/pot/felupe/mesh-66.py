@@ -1,4 +1,3 @@
 import felupe as fem
-rect = fem.Rectangle(a=(0, 4), b=(3, 5), n=(10, 4))
-mesh = fem.mesh.revolve(rect, n=11, phi=180, axis=0)
-mesh.plot().show()
+mesh = fem.Circle(sections=[0, 90, 180], n=5)
+fem.mesh.mirror(mesh, normal=[0, 1, 0]).plot().show()
