@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 00:10+0000\n"
+"POT-Creation-Date: 2024-11-09 00:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -223,8 +223,8 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/assembly.rst:49
 #: ../../felupe/docs/felupe/constitution.rst:33
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:46
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:57
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:53
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:62
 #: ../../felupe/docs/felupe/constitution/core.rst:56
 #: ../../felupe/docs/felupe/constitution/tools.rst:33
 #: ../../felupe/docs/felupe/dof.rst:33 ../../felupe/docs/felupe/element.rst:51
@@ -2530,7 +2530,7 @@ msgstr ""
 #: felupe.constitution.tensortrax.models.hyperelastic._lopez_pamies.lopez_pamies:68
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
 #: of
-#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:48
+#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:58
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_van_der_waals.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._van_der_waals.van_der_waals:39
@@ -4856,6 +4856,16 @@ msgstr ""
 msgid "It is straightforward to switch between these backends."
 msgstr ""
 
+#: ../../felupe/docs/felupe/constitution/autodiff.rst:52
+msgid ""
+"The default backend is available in the top-level package namespace, this "
+"includes all models from "
+":mod:`felupe.constitution.tensortrax.models.hyperelastic` and "
+":mod:`felupe.constitution.tensortrax.models.lagrange` as well as the "
+"material classes :class:`felupe.constitution.tensortrax.Material` and "
+":class:`felupe.constitution.tensortrax.Hyperelastic`."
+msgstr ""
+
 #: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:4
 msgid "Materials with Automatic Differentiation (JAX)"
 msgstr ""
@@ -4873,8 +4883,8 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18:<autosummary>:1
 msgid ""
-":py:obj:`constitution.jax.Hyperelastic "
-"<felupe.constitution.jax.Hyperelastic>`\\ \\(fun\\[\\, ...\\]\\)"
+":py:obj:`Hyperelastic <felupe.constitution.jax.Hyperelastic>`\\ \\(fun\\[\\,"
+" nstatevars\\, jit\\, parallel\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18:<autosummary>:1
@@ -4888,8 +4898,8 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18:<autosummary>:1
 msgid ""
-":py:obj:`constitution.jax.Material <felupe.constitution.jax.Material>`\\ "
-"\\(fun\\[\\, nstatevars\\, ...\\]\\)"
+":py:obj:`Material <felupe.constitution.jax.Material>`\\ \\(fun\\[\\, "
+"nstatevars\\, jit\\, parallel\\, ...\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18:<autosummary>:1
@@ -4901,8 +4911,8 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18:<autosummary>:1
 msgid ""
-":py:obj:`constitution.jax.total_lagrange "
-"<felupe.constitution.jax.total_lagrange>`\\ \\(material\\)"
+":py:obj:`total_lagrange <felupe.constitution.jax.total_lagrange>`\\ "
+"\\(material\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18:<autosummary>:1
@@ -4918,8 +4928,8 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18:<autosummary>:1
 msgid ""
-":py:obj:`constitution.jax.updated_lagrange "
-"<felupe.constitution.jax.updated_lagrange>`\\ \\(material\\)"
+":py:obj:`updated_lagrange <felupe.constitution.jax.updated_lagrange>`\\ "
+"\\(material\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18:<autosummary>:1
@@ -4944,15 +4954,32 @@ msgid ""
 "function."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:28:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31:<autosummary>:1
 msgid ""
-":py:obj:`felupe.constitution.jax.models.hyperelastic.mooney_rivlin "
-"<felupe.constitution.jax.models.hyperelastic.mooney_rivlin>`\\ \\(C\\, "
-"...\\)"
+":py:obj:`miehe_goektepe_lulei "
+"<felupe.constitution.jax.models.hyperelastic.miehe_goektepe_lulei>`\\ "
+"\\(C\\, mu\\, N\\, U\\, p\\, q\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:28:<autosummary>:1
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:1
+msgid ""
+"Strain energy function of the isotropic hyperelastic `micro-sphere "
+"<https://doi.org/10.1016/j.jmps.2004.03.011>`_ model formulation [1]_."
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31:<autosummary>:1
+msgid ""
+":py:obj:`mooney_rivlin "
+"<felupe.constitution.jax.models.hyperelastic.mooney_rivlin>`\\ \\(C\\, "
+"C10\\, C01\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_mooney_rivlin.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._mooney_rivlin.mooney_rivlin:1
@@ -4961,15 +4988,15 @@ msgid ""
 "<https://en.wikipedia.org/wiki/Mooney-Rivlin_solid>`_ material formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:28:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31:<autosummary>:1
 msgid ""
-":py:obj:`felupe.constitution.jax.models.hyperelastic.third_order_deformation"
-" <felupe.constitution.jax.models.hyperelastic.third_order_deformation>`\\ "
-"\\(C\\, ...\\)"
+":py:obj:`third_order_deformation "
+"<felupe.constitution.jax.models.hyperelastic.third_order_deformation>`\\ "
+"\\(C\\, C10\\, C01\\, C11\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:28:<autosummary>:1
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_third_order_deformation.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._third_order_deformation.third_order_deformation:1
@@ -4979,14 +5006,14 @@ msgid ""
 "formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:28:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31:<autosummary>:1
 msgid ""
-":py:obj:`felupe.constitution.jax.models.hyperelastic.yeoh "
-"<felupe.constitution.jax.models.hyperelastic.yeoh>`\\ \\(C\\, ...\\)"
+":py:obj:`yeoh <felupe.constitution.jax.models.hyperelastic.yeoh>`\\ \\(C\\, "
+"C10\\, C20\\, C30\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:28:<autosummary>:1
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_yeoh.pydocstring
 #: of felupe.constitution.tensortrax.models.hyperelastic._yeoh.yeoh:1
 msgid ""
@@ -4995,11 +5022,11 @@ msgid ""
 "formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:29
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:32
 msgid "**Material Models for** :class:`felupe.constitution.jax.Material`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:34
 msgid ""
 "The material model formulations are defined by the first Piola-Kirchhoff "
 "stress tensor. Function-decorators are available to use Total-Lagrange and "
@@ -5007,14 +5034,14 @@ msgid ""
 ":class:`~felupe.constitution.jax.Material`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:39:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:44:<autosummary>:1
 msgid ""
-":py:obj:`felupe.constitution.jax.models.lagrange.morph "
-"<felupe.constitution.jax.models.lagrange.morph>`\\ \\(F\\, ...\\)"
+":py:obj:`morph <felupe.constitution.jax.models.lagrange.morph>`\\ \\(F\\, "
+"statevars\\, p\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:39:<autosummary>:1
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:56:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:44:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:61:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
 #: of felupe.constitution.tensortrax.models.lagrange._morph.morph:1
 msgid ""
@@ -5022,26 +5049,25 @@ msgid ""
 "<https://doi.org/10.1016/s0749-6419(02)00091-8>`_ model formulation [1]_."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:39:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:44:<autosummary>:1
 msgid ""
-":py:obj:`felupe.constitution.jax.models.lagrange.morph_representative_directions"
-" "
+":py:obj:`morph_representative_directions "
 "<felupe.constitution.jax.models.lagrange.morph_representative_directions>`\\"
 " \\(F\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:40
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:45
 #: ../../felupe/docs/felupe/dof.rst:15 ../../felupe/docs/felupe/mesh.rst:31
 msgid "**Tools**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:52:<autosummary>:1
 msgid ""
-":py:obj:`constitution.jax.vmap <felupe.constitution.jax.vmap>`\\ "
-"\\(fun\\[\\, in\\_axes\\, out\\_axes\\]\\)"
+":py:obj:`vmap <felupe.constitution.jax.vmap>`\\ \\(fun\\[\\, in\\_axes\\, "
+"out\\_axes\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:52:<autosummary>:1
 msgid "Vectorizing map."
 msgstr ""
 
@@ -5320,6 +5346,83 @@ msgstr ""
 msgid "Right Cauchy-Green deformation tensor."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:6
+msgid "Shear modulus (ground state stifness)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:8
+msgid "Number of chain segments (chain locking response)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:10
+msgid "Tube geometry parameter (3D locking characteristics)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:12
+msgid "Non-affine stretch parameter (additional constraint stifness)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:14
+msgid "Non-affine tube parameter (shape of constraint stress)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_mooney_rivlin.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.hyperelastic._mooney_rivlin.mooney_rivlin:44
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_third_order_deformation.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.hyperelastic._third_order_deformation.third_order_deformation:56
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_yeoh.pydocstring
+#: of felupe.constitution.tensortrax.models.hyperelastic._yeoh.yeoh:42
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._morph.morph:105
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:18
+msgid "First, choose the desired automatic differentiation backend"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:27
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_mooney_rivlin.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.hyperelastic._mooney_rivlin.mooney_rivlin:52
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_third_order_deformation.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.hyperelastic._third_order_deformation.third_order_deformation:64
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_yeoh.pydocstring
+#: of felupe.constitution.tensortrax.models.hyperelastic._yeoh.yeoh:50
+msgid "and create the hyperelastic material."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:59
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:71
+msgid ""
+"C. Miehe, S. Göktepe and F. Lulei, \"A micro-macro approach to rubber-like "
+"materials - Part I: the non-affine micro-sphere model of rubber "
+"elasticity\", Journal of the Mechanics and Physics of Solids, vol. 52, no. "
+"11. Elsevier BV, pp. 2617–2660, Nov. 2004. doi: `10.1016/j.jmps.2004.03.011 "
+"<https://doi.org/10.1016/j.jmps.2004.03.011>`_."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_mooney_rivlin.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._mooney_rivlin.mooney_rivlin:7
@@ -5396,33 +5499,6 @@ msgstr ""
 #: felupe.constitution.tensortrax.models.hyperelastic._third_order_deformation.third_order_deformation:49
 msgid "\\mu = 2 \\left( C_{10} + C_{01} \\right)"
 msgstr "\\mu = 2 \\left( C_{10} + C_{01} \\right)"
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_mooney_rivlin.pydocstring
-#: of
-#: felupe.constitution.tensortrax.models.hyperelastic._mooney_rivlin.mooney_rivlin:44
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_third_order_deformation.pydocstring
-#: of
-#: felupe.constitution.tensortrax.models.hyperelastic._third_order_deformation.third_order_deformation:56
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_yeoh.pydocstring
-#: of felupe.constitution.tensortrax.models.hyperelastic._yeoh.yeoh:42
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
-#: of felupe.constitution.tensortrax.models.lagrange._morph.morph:105
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
-#: of
-#: felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:18
-msgid "First, choose the desired automatic differentiation backend"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_mooney_rivlin.pydocstring
-#: of
-#: felupe.constitution.tensortrax.models.hyperelastic._mooney_rivlin.mooney_rivlin:52
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_third_order_deformation.pydocstring
-#: of
-#: felupe.constitution.tensortrax.models.hyperelastic._third_order_deformation.third_order_deformation:64
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_yeoh.pydocstring
-#: of felupe.constitution.tensortrax.models.hyperelastic._yeoh.yeoh:50
-msgid "and create the hyperelastic material."
-msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_third_order_deformation.pydocstring
 #: of
@@ -5802,20 +5878,6 @@ msgid ""
 "Chemnitz, 2013."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
-#: of
-#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:49
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
-#: of
-#: felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:71
-msgid ""
-"C. Miehe, S. Göktepe and F. Lulei, \"A micro-macro approach to rubber-like "
-"materials - Part I: the non-affine micro-sphere model of rubber "
-"elasticity\", Journal of the Mechanics and Physics of Solids, vol. 52, no. "
-"11. Elsevier BV, pp. 2617–2660, Nov. 2004. doi: `10.1016/j.jmps.2004.03.011 "
-"<https://doi.org/10.1016/j.jmps.2004.03.011>`_."
-msgstr ""
-
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:79
@@ -5863,8 +5925,8 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:23:<autosummary>:1
 msgid ""
-":py:obj:`constitution.tensortrax.Hyperelastic "
-"<felupe.constitution.tensortrax.Hyperelastic>`\\ \\(fun\\[\\, ...\\]\\)"
+":py:obj:`Hyperelastic <felupe.constitution.tensortrax.Hyperelastic>`\\ "
+"\\(fun\\[\\, nstatevars\\, parallel\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:23:<autosummary>:1
@@ -5878,20 +5940,20 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:23:<autosummary>:1
 msgid ""
-":py:obj:`constitution.tensortrax.Material "
-"<felupe.constitution.tensortrax.Material>`\\ \\(fun\\[\\, ...\\]\\)"
+":py:obj:`Material <felupe.constitution.tensortrax.Material>`\\ \\(fun\\[\\, "
+"nstatevars\\, parallel\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:23:<autosummary>:1
 msgid ""
-":py:obj:`constitution.tensortrax.total_lagrange "
-"<felupe.constitution.tensortrax.total_lagrange>`\\ \\(material\\)"
+":py:obj:`total_lagrange <felupe.constitution.tensortrax.total_lagrange>`\\ "
+"\\(material\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:23:<autosummary>:1
 msgid ""
-":py:obj:`constitution.tensortrax.updated_lagrange "
-"<felupe.constitution.tensortrax.updated_lagrange>`\\ \\(...\\)"
+":py:obj:`updated_lagrange "
+"<felupe.constitution.tensortrax.updated_lagrange>`\\ \\(material\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:24
@@ -5899,11 +5961,14 @@ msgid ""
 "**Material Models for** :class:`felupe.constitution.tensortrax.Hyperelastic`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
-msgid ":py:obj:`alexander <felupe.alexander>`\\ \\(C\\, C1\\, C2\\, C3\\, gamma\\, k\\)"
-msgstr ":py:obj:`alexander <felupe.alexander>`\\ \\(C\\, C1\\, C2\\, C3\\, gamma\\, k\\)"
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
+msgid ""
+":py:obj:`alexander "
+"<felupe.constitution.tensortrax.models.hyperelastic.alexander>`\\ \\(C\\, "
+"C1\\, C2\\, C3\\, gamma\\, k\\)"
+msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_alexander.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._alexander.alexander:1
@@ -5912,15 +5977,14 @@ msgid ""
 "<https://doi.org/10.1016/0020-7225(68)90006-2>`_ material formulation [1]_."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 msgid ""
-":py:obj:`anssari_benam_bucchi <felupe.anssari_benam_bucchi>`\\ \\(C\\, mu\\,"
-" N\\)"
+":py:obj:`anssari_benam_bucchi "
+"<felupe.constitution.tensortrax.models.hyperelastic.anssari_benam_bucchi>`\\"
+" \\(C\\, mu\\, N\\)"
 msgstr ""
-":py:obj:`anssari_benam_bucchi <felupe.anssari_benam_bucchi>`\\ \\(C\\, mu\\,"
-" N\\)"
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_anssari_benam_bucchi.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._anssari_benam_bucchi.anssari_benam_bucchi:1
@@ -5930,11 +5994,14 @@ msgid ""
 " material formulation [1]_."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
-msgid ":py:obj:`arruda_boyce <felupe.arruda_boyce>`\\ \\(C\\, C1\\, limit\\)"
-msgstr ":py:obj:`arruda_boyce <felupe.arruda_boyce>`\\ \\(C\\, C1\\, limit\\)"
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
+msgid ""
+":py:obj:`arruda_boyce "
+"<felupe.constitution.tensortrax.models.hyperelastic.arruda_boyce>`\\ \\(C\\,"
+" C1\\, limit\\)"
+msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_arruda_boyce.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._arruda_boyce.arruda_boyce:1
@@ -5943,15 +6010,14 @@ msgid ""
 "<https://en.wikipedia.org/wiki/Arruda-Boyce_model>`_ material formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 msgid ""
-":py:obj:`extended_tube <felupe.extended_tube>`\\ \\(C\\, Gc\\, delta\\, "
-"Ge\\, beta\\)"
+":py:obj:`extended_tube "
+"<felupe.constitution.tensortrax.models.hyperelastic.extended_tube>`\\ "
+"\\(C\\, Gc\\, delta\\, Ge\\, beta\\)"
 msgstr ""
-":py:obj:`extended_tube <felupe.extended_tube>`\\ \\(C\\, Gc\\, delta\\, "
-"Ge\\, beta\\)"
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_extended_tube.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._extended_tube.extended_tube:1
@@ -5960,15 +6026,14 @@ msgid ""
 "<https://www.doi.org/10.5254/1.3538822>`_ [1]_ material formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 msgid ""
-":py:obj:`finite_strain_viscoelastic <felupe.finite_strain_viscoelastic>`\\ "
-"\\(C\\, Cin\\, mu\\, eta\\, ...\\)"
+":py:obj:`finite_strain_viscoelastic "
+"<felupe.constitution.tensortrax.models.hyperelastic.finite_strain_viscoelastic>`\\"
+" \\(C\\, Cin\\, mu\\, eta\\, ...\\)"
 msgstr ""
-":py:obj:`finite_strain_viscoelastic <felupe.finite_strain_viscoelastic>`\\ "
-"\\(C\\, Cin\\, mu\\, eta\\, ...\\)"
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_finite_strain_viscoelastic.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._finite_strain_viscoelastic.finite_strain_viscoelastic:1
@@ -5977,11 +6042,14 @@ msgid ""
 "<https://doi.org/10.1016/j.cma.2013.07.004>`_ [1]_ material formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
-msgid ":py:obj:`lopez_pamies <felupe.lopez_pamies>`\\ \\(C\\, mu\\, alpha\\)"
-msgstr ":py:obj:`lopez_pamies <felupe.lopez_pamies>`\\ \\(C\\, mu\\, alpha\\)"
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
+msgid ""
+":py:obj:`lopez_pamies "
+"<felupe.constitution.tensortrax.models.hyperelastic.lopez_pamies>`\\ \\(C\\,"
+" mu\\, alpha\\)"
+msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_lopez_pamies.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._lopez_pamies.lopez_pamies:1
@@ -5990,32 +6058,28 @@ msgid ""
 "<https://doi.org/10.1016/j.crme.2009.12.007>`_ material formulation [1]_."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 msgid ""
-":py:obj:`miehe_goektepe_lulei <felupe.miehe_goektepe_lulei>`\\ \\(C\\, mu\\,"
-" N\\, U\\, p\\, q\\)"
-msgstr ""
-":py:obj:`miehe_goektepe_lulei <felupe.miehe_goektepe_lulei>`\\ \\(C\\, mu\\,"
-" N\\, U\\, p\\, q\\)"
-
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
-#: of
-#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:1
-msgid ""
-"Strain energy function of the isotropic hyperelastic `micro-sphere "
-"<https://doi.org/10.1016/j.jmps.2004.03.011>`_ model formulation [1]_."
+":py:obj:`miehe_goektepe_lulei "
+"<felupe.constitution.tensortrax.models.hyperelastic.miehe_goektepe_lulei>`\\"
+" \\(C\\, mu\\, N\\, U\\, p\\, q\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
-msgid ":py:obj:`mooney_rivlin <felupe.mooney_rivlin>`\\ \\(C\\, C10\\, C01\\)"
-msgstr ":py:obj:`mooney_rivlin <felupe.mooney_rivlin>`\\ \\(C\\, C10\\, C01\\)"
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
+msgid ""
+":py:obj:`mooney_rivlin "
+"<felupe.constitution.tensortrax.models.hyperelastic.mooney_rivlin>`\\ "
+"\\(C\\, C10\\, C01\\)"
+msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
-msgid ":py:obj:`neo_hooke <felupe.neo_hooke>`\\ \\(C\\, mu\\)"
-msgstr ":py:obj:`neo_hooke <felupe.neo_hooke>`\\ \\(C\\, mu\\)"
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
+msgid ""
+":py:obj:`neo_hooke "
+"<felupe.constitution.tensortrax.models.hyperelastic.neo_hooke>`\\ \\(C\\, "
+"mu\\)"
+msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_neo_hooke.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._neo_hooke.neo_hooke:1
@@ -6024,11 +6088,13 @@ msgid ""
 "<https://en.wikipedia.org/wiki/Neo-Hookean_solid>`_ material formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
-msgid ":py:obj:`ogden <felupe.ogden>`\\ \\(C\\, mu\\, alpha\\)"
-msgstr ":py:obj:`ogden <felupe.ogden>`\\ \\(C\\, mu\\, alpha\\)"
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
+msgid ""
+":py:obj:`ogden <felupe.constitution.tensortrax.models.hyperelastic.ogden>`\\"
+" \\(C\\, mu\\, alpha\\)"
+msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_ogden.pydocstring
 #: of felupe.constitution.tensortrax.models.hyperelastic._ogden.ogden:1
 msgid ""
@@ -6037,15 +6103,14 @@ msgid ""
 "formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 msgid ""
-":py:obj:`ogden_roxburgh <felupe.ogden_roxburgh>`\\ \\(C\\, Wmax\\_n\\, "
-"material\\, r\\, m\\, ...\\)"
+":py:obj:`ogden_roxburgh "
+"<felupe.constitution.tensortrax.models.hyperelastic.ogden_roxburgh>`\\ "
+"\\(C\\, Wmax\\_n\\, material\\, r\\, m\\, ...\\)"
 msgstr ""
-":py:obj:`ogden_roxburgh <felupe.ogden_roxburgh>`\\ \\(C\\, Wmax\\_n\\, "
-"material\\, r\\, m\\, ...\\)"
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../felupe/docs/felupe/constitution/core.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.pydocstring
 #: of felupe.constitution.hyperelasticity._ogden_roxburgh.OgdenRoxburgh:1
@@ -6058,15 +6123,14 @@ msgid ""
 "dependent Mullins-softening of rubber-like materials."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 msgid ""
-":py:obj:`saint_venant_kirchhoff <felupe.saint_venant_kirchhoff>`\\ \\(C\\, "
-"mu\\, lmbda\\)"
+":py:obj:`saint_venant_kirchhoff "
+"<felupe.constitution.tensortrax.models.hyperelastic.saint_venant_kirchhoff>`\\"
+" \\(C\\, mu\\, lmbda\\)"
 msgstr ""
-":py:obj:`saint_venant_kirchhoff <felupe.saint_venant_kirchhoff>`\\ \\(C\\, "
-"mu\\, lmbda\\)"
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff.saint_venant_kirchhoff:1
@@ -6076,21 +6140,21 @@ msgid ""
 "Kirchhoff_model>`_ material formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 msgid ""
-":py:obj:`third_order_deformation <felupe.third_order_deformation>`\\ \\(C\\,"
-" C10\\, C01\\, C11\\, ...\\)"
+":py:obj:`third_order_deformation "
+"<felupe.constitution.tensortrax.models.hyperelastic.third_order_deformation>`\\"
+" \\(C\\, C10\\, C01\\, C11\\, ...\\)"
 msgstr ""
-":py:obj:`third_order_deformation <felupe.third_order_deformation>`\\ \\(C\\,"
-" C10\\, C01\\, C11\\, ...\\)"
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
-msgid ":py:obj:`van_der_waals <felupe.van_der_waals>`\\ \\(C\\, mu\\, limit\\, a\\, beta\\)"
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
+msgid ""
+":py:obj:`van_der_waals "
+"<felupe.constitution.tensortrax.models.hyperelastic.van_der_waals>`\\ "
+"\\(C\\, mu\\, limit\\, a\\, beta\\)"
 msgstr ""
-":py:obj:`van_der_waals <felupe.van_der_waals>`\\ \\(C\\, mu\\, limit\\, a\\,"
-" beta\\)"
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_van_der_waals.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._van_der_waals.van_der_waals:1
@@ -6099,34 +6163,38 @@ msgid ""
 "<https://doi.org/10.1016/0032-3861(81)90200-7>`_ [1]_ material formulation.,"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:45:<autosummary>:1
-msgid ":py:obj:`yeoh <felupe.yeoh>`\\ \\(C\\, C10\\, C20\\, C30\\)"
-msgstr ":py:obj:`yeoh <felupe.yeoh>`\\ \\(C\\, C10\\, C20\\, C30\\)"
-
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:46
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 msgid ""
-"**Material Models for** :class:`felupe.constitution.tensortrax.Material`"
+":py:obj:`yeoh <felupe.constitution.tensortrax.models.hyperelastic.yeoh>`\\ "
+"\\(C\\, C10\\, C20\\, C30\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:48
 msgid ""
-"The material model formulations are defined by the first Piola-Kirchhoff "
-"stress tensor. Function-decorators are available to use Total-Lagrange and "
-"Updated-Lagrange material formulations in "
-":class:`~felupe.constitution.tensortrax.Material`."
+"**Material Models for** :class:`felupe.constitution.tensortrax.Material`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:56:<autosummary>:1
-msgid ":py:obj:`morph <felupe.morph>`\\ \\(F\\, statevars\\, p\\)"
-msgstr ":py:obj:`morph <felupe.morph>`\\ \\(F\\, statevars\\, p\\)"
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:50
+msgid ""
+"The material model formulations are defined by the first Piola-Kirchhoff "
+"stress tensor. Function-decorators are available to use "
+":func:`~felupe.constitution.tensortrax.total_lagrange` and "
+":func:`~felupe.constitution.tensortrax.updated_lagrange` material "
+"formulations in :class:`~felupe.constitution.tensortrax.Material`."
+msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:56:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:61:<autosummary>:1
+msgid ""
+":py:obj:`morph <felupe.constitution.tensortrax.models.lagrange.morph>`\\ "
+"\\(F\\, statevars\\, p\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:61:<autosummary>:1
 msgid ""
 ":py:obj:`morph_representative_directions "
-"<felupe.morph_representative_directions>`\\ \\(F\\, ...\\)"
+"<felupe.constitution.tensortrax.models.lagrange.morph_representative_directions>`\\"
+" \\(F\\, ...\\)"
 msgstr ""
-":py:obj:`morph_representative_directions "
-"<felupe.morph_representative_directions>`\\ \\(F\\, ...\\)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:5
@@ -6164,8 +6232,9 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:114
-msgid ":obj:`saint_venant_kirchhoff`"
-msgstr ":obj:`saint_venant_kirchhoff`"
+msgid ""
+":obj:`felupe.constitution.tensortrax.models.hyperelastic.saint_venant_kirchhoff`"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:115
@@ -6175,8 +6244,8 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:117
-msgid ":obj:`neo_hooke`"
-msgstr ":obj:`neo_hooke`"
+msgid ":obj:`felupe.constitution.tensortrax.models.hyperelastic.neo_hooke`"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:118
@@ -6185,8 +6254,9 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:120
-msgid ":obj:`mooney_rivlin`"
-msgstr ":obj:`mooney_rivlin`"
+msgid ""
+":obj:`felupe.constitution.tensortrax.models.hyperelastic.mooney_rivlin`"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:121
@@ -6195,8 +6265,8 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:123
-msgid ":obj:`yeoh`"
-msgstr ":obj:`yeoh`"
+msgid ":obj:`felupe.constitution.tensortrax.models.hyperelastic.yeoh`"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:124
@@ -6205,8 +6275,9 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:126
-msgid ":obj:`third_order_deformation`"
-msgstr ":obj:`third_order_deformation`"
+msgid ""
+":obj:`felupe.constitution.tensortrax.models.hyperelastic.third_order_deformation`"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:127
@@ -6216,8 +6287,8 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:129
-msgid ":obj:`ogden`"
-msgstr ":obj:`ogden`"
+msgid ":obj:`felupe.constitution.tensortrax.models.hyperelastic.ogden`"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:130
@@ -6226,8 +6297,8 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:132
-msgid ":obj:`arruda_boyce`"
-msgstr ":obj:`arruda_boyce`"
+msgid ":obj:`felupe.constitution.tensortrax.models.hyperelastic.arruda_boyce`"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:133
@@ -6236,8 +6307,9 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:135
-msgid ":obj:`extended_tube`"
-msgstr ":obj:`extended_tube`"
+msgid ""
+":obj:`felupe.constitution.tensortrax.models.hyperelastic.extended_tube`"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:136
@@ -6246,8 +6318,9 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:138
-msgid ":obj:`van_der_waals`"
-msgstr ":obj:`van_der_waals`"
+msgid ""
+":obj:`felupe.constitution.tensortrax.models.hyperelastic.van_der_waals`"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:139
@@ -6256,8 +6329,9 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:141
-msgid ":obj:`finite_strain_viscoelastic`"
-msgstr ":obj:`finite_strain_viscoelastic`"
+msgid ""
+":obj:`felupe.constitution.tensortrax.models.hyperelastic.finite_strain_viscoelastic`"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:142
@@ -6849,36 +6923,6 @@ msgid ""
 "materials\", Comptes Rendus. Mécanique, vol. 338, no. 1. Cellule "
 "MathDoc/Centre Mersenne, pp. 3–11, Dec. 23, 2009. doi: "
 "`10.1016/j.crme.2009.12.007 <https://doi.org/10.1016/j.crme.2009.12.007>`_."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
-#: of
-#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:6
-msgid "Shear modulus (ground state stifness)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
-#: of
-#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:8
-msgid "Number of chain segments (chain locking response)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
-#: of
-#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:10
-msgid "Tube geometry parameter (3D locking characteristics)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
-#: of
-#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:12
-msgid "Non-affine stretch parameter (additional constraint stifness)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
-#: of
-#: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:14
-msgid "Non-affine tube parameter (shape of constraint stress)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_orthotropic.pydocstring

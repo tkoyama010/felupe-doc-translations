@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-04 00:11+0000\n"
+"POT-Creation-Date: 2024-11-09 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,14 +101,14 @@ msgstr ""
 #: ../../felupe/docs/examples/ex01_beam.rst:155
 #: ../../felupe/docs/examples/ex02_plate-with-hole.rst:196
 #: ../../felupe/docs/examples/ex03_plasticity.rst:160
-#: ../../felupe/docs/examples/ex04_balloon.rst:205
+#: ../../felupe/docs/examples/ex04_balloon.rst:210
 #: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:204
 #: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:246
 #: ../../felupe/docs/examples/ex07_engine-mount.rst:255
-#: ../../felupe/docs/examples/ex08_shear.rst:271
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:240
+#: ../../felupe/docs/examples/ex08_shear.rst:263
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:227
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:101
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:148
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:152
 #: ../../felupe/docs/examples/ex12_foot-bone.rst:93
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:372
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:243
@@ -276,7 +276,7 @@ msgid "Numeric continuation of a hyperelastic balloon under inner pressure."
 msgstr ""
 
 #: ../../felupe/docs/examples/ex04_balloon.rst:26
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:28
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:33
 msgid "use FElupe with contique"
 msgstr ""
 
@@ -291,8 +291,6 @@ msgstr ""
 #: ../../felupe/docs/examples/ex04_balloon.rst:32
 #: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:36
 #: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:34
-#: ../../felupe/docs/examples/ex08_shear.rst:38
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:34
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:36
 #: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:37
 msgid "This example requires external packages."
@@ -312,31 +310,31 @@ msgid "\\psi = \\frac{\\mu}{2} \\left(\n"
 "\\right)"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:91
+#: ../../felupe/docs/examples/ex04_balloon.rst:92
 msgid "The next step involves the problem definition for contique. For details have a look at its `README <https://github.com/adtzlr/contique>`_."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:128
+#: ../../felupe/docs/examples/ex04_balloon.rst:129
 msgid "Next we have to init the problem and specify the initial values of unknowns (the undeformed configuration). After each completed step of the numeric continuation the results are saved."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:151
+#: ../../felupe/docs/examples/ex04_balloon.rst:156
 msgid "The unstable pressure-controlled equilibrium path is plotted as pressure-displacement curve."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:167
+#: ../../felupe/docs/examples/ex04_balloon.rst:172
 msgid "The 3d-deformed configuration of the solid body is plotted."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:190
+#: ../../felupe/docs/examples/ex04_balloon.rst:195
 msgid ":download:`Download Jupyter notebook: ex04_balloon.ipynb <ex04_balloon.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:194
+#: ../../felupe/docs/examples/ex04_balloon.rst:199
 msgid ":download:`Download Python source code: ex04_balloon.py <ex04_balloon.py>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:198
+#: ../../felupe/docs/examples/ex04_balloon.rst:203
 msgid ":download:`Download zipped: ex04_balloon.zip <ex04_balloon.zip>`"
 msgstr ""
 
@@ -586,47 +584,47 @@ msgstr ""
 msgid "plot force - displacement curves"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:45
+#: ../../felupe/docs/examples/ex08_shear.rst:38
 msgid "Two rubber blocks of height :math:`H` and length :math:`L`, both glued to a rigid plate on their top and bottom faces, are subjected to a displacement controlled non-homogeneous shear deformation by :math:`u_{ext}` in combination with a compressive normal force :math:`F`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:54
+#: ../../felupe/docs/examples/ex08_shear.rst:47
 msgid "Let's create the mesh. An additional center-point is created for a multi-point constraint (MPC). By default, FElupe stores points not connected to any cells in :attr:`Mesh.points_without_cells` and adds them to the list of inactive degrees of freedom. Hence, we have to drop our MPC-centerpoint from that list."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:82
+#: ../../felupe/docs/examples/ex08_shear.rst:75
 msgid "A numeric quad-region created on the mesh in combination with a vector-valued displacement field for plane-strain as well as scalar-valued fields for the hydrostatic pressure and the volume ratio represents the rubber numerically. A shear load case is applied on the displacement field. This involves setting up a y-symmetry plane as well as the absolute value of the prescribed shear movement in direction :math:`x` at the MPC-centerpoint."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:107
-msgid "The micro-sphere material formulation is used for the rubber. It is defined as a hyperelastic material in `matADi <https://github.com/adtzlr/matadi>`_. The material formulation is finally applied on the plane-strain field, resulting in a hyperelastic solid body."
+#: ../../felupe/docs/examples/ex08_shear.rst:100
+msgid "The micro-sphere material formulation is used for the rubber. It is defined as a :class:`~felupe.constitution.jax.Hyperelastic` JAX-based material. The material formulation is finally applied on the plane-strain field, resulting in a hyperelastic solid body."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:134
+#: ../../felupe/docs/examples/ex08_shear.rst:126
 msgid "At the centerpoint of a multi-point constraint (MPC) the external shear movement is prescribed. It also ensures a force-free top plate in direction :math:`y`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:156
+#: ../../felupe/docs/examples/ex08_shear.rst:148
 msgid "The shear movement is applied in substeps, which are each solved with an iterative newton-rhapson procedure. Inside an iteration, the force residual vector and the tangent stiffness matrix are assembled. The fields are updated with the solution of unknowns. The equilibrium is checked as ratio between the norm of residual forces of the active vs. the norm of the residual forces of the inactive degrees of freedom. If convergence is obtained, the iteration loop ends. Both :math:`y`-displacement and the reaction force in direction :math:`x` of the top plate are saved. This is realized by a callback-function which is called after each successful substep. A step combines all active items along with constant and ramped boundary conditions. Finally, the step is added to a job. A job returns a generator object with the results of all substeps."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:191
+#: ../../felupe/docs/examples/ex08_shear.rst:183
 msgid "The principal stretches are evaluated for the maximum deformed configuration. This may be done manually, starting from the deformation gradient tensor, or by modifying the :meth:`FieldContainer.evaluate.strain <felupe.field.EvaluateFieldContainer.strain>`- method to return the principal stretches. For plotting, these values are projected from quadrature-points to mesh-points."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:224
+#: ../../felupe/docs/examples/ex08_shear.rst:216
 msgid "The shear force :math:`F_x` vs. the displacements :math:`u_x` and :math:`u_y`, all located at the top plate, are plotted."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:256
+#: ../../felupe/docs/examples/ex08_shear.rst:248
 msgid ":download:`Download Jupyter notebook: ex08_shear.ipynb <ex08_shear.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:260
+#: ../../felupe/docs/examples/ex08_shear.rst:252
 msgid ":download:`Download Python source code: ex08_shear.py <ex08_shear.py>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:264
+#: ../../felupe/docs/examples/ex08_shear.rst:256
 msgid ":download:`Download zipped: ex08_shear.zip <ex08_shear.zip>`"
 msgstr ""
 
@@ -639,50 +637,50 @@ msgid "Numeric Continuation"
 msgstr ""
 
 #: ../../felupe/docs/examples/ex09_numeric-continuation.rst:24
-msgid "With the help of `contique <https://github.com/adtzlr/contique>`_ (install with ``pip install contique``) it is possible to apply a numerical parameter continuation algorithm on any system of equilibrium equations. This example demonstrates the usage of FElupe in conjunction with contique. An unstable isotropic hyperelastic material formulation is applied on a single hexahedron. The model will be visualized by the XDMF-output (of meshio) and the resulting force - displacement curve will be plotted."
+msgid "With the help of `contique <https://github.com/adtzlr/contique>`_ (install with ``pip install contique``) it is possible to apply a numerical parameter continuation algorithm on any system of equilibrium equations. This example demonstrates the usage of FElupe in conjunction with contique. An unstable isotropic hyperelastic material formulation is applied on a single hexahedron. The model will be visualized and the resulting force - displacement curve will be plotted."
 msgstr ""
 
 #: ../../felupe/docs/examples/ex09_numeric-continuation.rst:22
 msgid "Numeric continuation of a hyperelastic cube."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:30
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:35
 msgid "on-the-fly XDMF-file export"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:32
-msgid "plot force-displacement curve"
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:37
+msgid "plot a force-displacement curve"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:57
-msgid "First, setup a problem as usual (mesh, region, field, boundaries and umat). For the material definition we use matADi (``pip install madati``). We utilize matADi's lab- capability to visualize the unstable material behavior in uniaxial tension."
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:55
+msgid "First, setup a problem as usual (mesh, region, field, boundaries and umat). The unstable material behavior is plotted for uniaxial incompressible tension."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:96
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:82
 msgid "An external normal force is applied at :math:`x=1` on a quarter model of a cube with symmetry planes at :math:`x=y=z=0`. Therefore, we have to define an external load vector which will be scaled with the load-proportionality factor :math:`\\lambda` during numeric continuation."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:116
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:102
 msgid "The next step involves the problem definition for contique. For details have a look at `contique's README <https://github.com/adtzlr/contique>`_."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:162
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:148
 msgid "Next we have to init the problem and specify the initial values of unknowns (the undeformed configuration). After each completed step of the numeric continuation the XDMF-file will be updated."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:200
-msgid "Finally, the force-displacement curve is plotted. It can be seen that the resulting (unstable) force-controlled equilibrium path is equal to the displacement-controlled load case of matADi's lab."
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:187
+msgid "Finally, the force-displacement curve is plotted. It can be seen that the resulting (unstable) force-controlled equilibrium path is equal to the displacement-controlled load case."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:225
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:212
 msgid ":download:`Download Jupyter notebook: ex09_numeric-continuation.ipynb <ex09_numeric-continuation.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:229
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:216
 msgid ":download:`Download Python source code: ex09_numeric-continuation.py <ex09_numeric-continuation.py>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:233
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:220
 msgid ":download:`Download zipped: ex09_numeric-continuation.zip <ex09_numeric-continuation.zip>`"
 msgstr ""
 
@@ -758,26 +756,26 @@ msgid "evaluate the fatigue life"
 msgstr ""
 
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:43
-msgid "A linear-elastic notched plate is subjected to uniaxial tension. The cell-based mean of the stress tensor is projected to the mesh-points and its maximum principal value is plotted. FElupe has no quadratic wedge element formulation implemented and hence, the quadratic wedges in the mesh are converted to quadratic hexahedrons."
+msgid "A linear-elastic notched plate is subjected to uniaxial tension. The cell-based mean of the stress tensor is projected to the mesh-points and its maximum principal value is plotted. FElupe has no wedge element formulation implemented and hence, the wedges in the mesh are converted to hexahedrons."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:86
-msgid "The number of maximum endurable cycles between zero and the applied displacement is evaluated with a SN-curve as denoted in Eq. :eq:`sn-curve`. The range of the maximum principal value of the Cauchy stress tensor is used to evaluate the fatigue life. For simplicity, the stress is evaluated for the total solid body. To consider only stresses on points which lie on the surface of the solid body, the cells on faces :meth:`~felupe.RegionQuadraticHexahedronBoundary.mesh.cells_faces` must be determined first."
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:90
+msgid "The number of maximum endurable cycles between zero and the applied displacement is evaluated with a SN-curve as denoted in Eq. :eq:`sn-curve`. The range of the maximum principal value of the Cauchy stress tensor is used to evaluate the fatigue life. For simplicity, the stress is evaluated for the total solid body. To consider only stresses on points which lie on the surface of the solid body, the cells on faces :meth:`~felupe.RegionHexahedronBoundary.mesh.cells_faces` must be determined first."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:94
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:98
 msgid "\\frac{N}{N_D} = \\left( \\frac{S}{S_D} \\right)^{-k}"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:133
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:137
 msgid ":download:`Download Jupyter notebook: ex11_notch-stress.ipynb <ex11_notch-stress.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:137
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:141
 msgid ":download:`Download Python source code: ex11_notch-stress.py <ex11_notch-stress.py>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:141
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:145
 msgid ":download:`Download zipped: ex11_notch-stress.zip <ex11_notch-stress.zip>`"
 msgstr ""
 
