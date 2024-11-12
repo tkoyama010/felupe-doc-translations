@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-04 00:11+0000\n"
+"POT-Creation-Date: 2024-11-12 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,7 @@ msgid "Install Python, fire up 🔥 a terminal and run 🏃"
 msgstr ""
 
 #: ../../felupe/docs/index.rst:64
-msgid "where ``[all]`` is a combination of ``[io,parallel,plot,progress,view]`` and installs all optional dependencies. FElupe has minimal requirements, all available at PyPI supporting all platforms."
+msgid "where ``[all]`` is a combination of ``[autodiff,io,parallel,plot,progress,view]`` and installs all optional dependencies. FElupe has minimal requirements, all available at PyPI supporting all platforms."
 msgstr ""
 
 #: ../../felupe/docs/index.rst:66
@@ -112,36 +112,36 @@ msgstr ""
 msgid "`scipy <https://github.com/scipy/scipy>`_ for sparse matrices"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:68
-msgid "`tensortrax <https://github.com/adtzlr/tensortrax>`_ for automatic differentiation"
-msgstr ""
-
-#: ../../felupe/docs/index.rst:70
+#: ../../felupe/docs/index.rst:69
 msgid "In order to make use of all features of FElupe 💎💰💍👑💎, it is suggested to install all optional dependencies."
 msgstr ""
 
-#: ../../felupe/docs/index.rst:72
+#: ../../felupe/docs/index.rst:71
 msgid "`einsumt <https://github.com/mrkwjc/einsumt>`_ for parallel (threaded) assembly"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:73
-msgid "`jax <https://github.com/jax-ml/jax>`_ for JAX-based material formulations"
+#: ../../felupe/docs/index.rst:72
+msgid "`jax <https://github.com/jax-ml/jax>`_ for automatic differentiation in material formulations (JAX-based)"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:74
+#: ../../felupe/docs/index.rst:73
 msgid "`h5py <https://github.com/h5py/h5py>`_ for writing XDMF result files"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:75
+#: ../../felupe/docs/index.rst:74
 msgid "`matplotlib <https://github.com/matplotlib/matplotlib>`_ for plotting graphs"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:76
+#: ../../felupe/docs/index.rst:75
 msgid "`meshio <https://github.com/nschloe/meshio>`_ for mesh-related I/O"
 msgstr ""
 
-#: ../../felupe/docs/index.rst:77
+#: ../../felupe/docs/index.rst:76
 msgid "`pyvista <https://github.com/pyvista/pyvista>`_ for interactive visualizations"
+msgstr ""
+
+#: ../../felupe/docs/index.rst:77
+msgid "`tensortrax <https://github.com/adtzlr/tensortrax>`_ for automatic differentiation in material formulations (NumPy-based)"
 msgstr ""
 
 #: ../../felupe/docs/index.rst:78

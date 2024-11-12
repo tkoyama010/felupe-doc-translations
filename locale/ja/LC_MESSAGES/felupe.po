@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-09 00:10+0000\n"
+"POT-Creation-Date: 2024-11-11 01:18+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -223,7 +223,7 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/assembly.rst:49
 #: ../../felupe/docs/felupe/constitution.rst:33
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:53
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:76
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:62
 #: ../../felupe/docs/felupe/constitution/core.rst:56
 #: ../../felupe/docs/felupe/constitution/tools.rst:33
@@ -654,11 +654,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
-#: of felupe.constitution.jax._hyperelastic.Hyperelastic:23
+#: of felupe.constitution.jax._hyperelastic.Hyperelastic:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
-#: of felupe.constitution.jax._material.Material:28
+#: of felupe.constitution.jax._material.Material:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.pydocstring
 #: of felupe.constitution.jax._total_lagrange.total_lagrange:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
@@ -1054,11 +1054,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:81
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
-#: of felupe.constitution.jax._hyperelastic.Hyperelastic:87
+#: of felupe.constitution.jax._hyperelastic.Hyperelastic:88
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:81
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
-#: of felupe.constitution.jax._material.Material:94
+#: of felupe.constitution.jax._material.Material:95
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.pydocstring
 #: of felupe.constitution.jax._total_lagrange.total_lagrange:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
@@ -4464,22 +4464,17 @@ msgstr ""
 #: of felupe.constitution._base.constitutive_material:17
 msgid ""
 "This example shows how to create a derived user material class to enable the"
-" methods from :class:`~felupe.ConstitutiveMaterial` on an externally defined"
-" user material."
+" methods from :class:`~felupe.ConstitutiveMaterial` on any (external) "
+"material."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
-#: of felupe.constitution._base.constitutive_material:21
-msgid "This example requires external packages."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
-#: of felupe.constitution._base.constitutive_material:51
+#: of felupe.constitution._base.constitutive_material:58
 msgid ":obj:`felupe.ConstitutiveMaterial`"
 msgstr ":obj:`felupe.ConstitutiveMaterial`"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
-#: of felupe.constitution._base.constitutive_material:52
+#: of felupe.constitution._base.constitutive_material:59
 msgid "Base class for constitutive material formulations."
 msgstr ""
 
@@ -4876,18 +4871,36 @@ msgid ""
 "differentiation using :mod:`jax`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:8
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:11
+msgid ""
+"JAX uses single-precision (32bit) data types by default. This requires to "
+"relax the tolerance of :func:`~felupe.newtonrhapson` to ``tol=1e-4``. If "
+"required, JAX may be enforced to use double-precision at startup with "
+"``jax.config.update(\"jax_enable_x64\", True)``."
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18
+msgid ""
+"The number of local XLA devices available must be greater or equal the "
+"number of the parallel-mapped axis, i.e. the number of quadrature points per"
+" cell when used in :class:`~felupe.constitution.jax.Material` and "
+":class:`~felupe.constitution.jax.Hyperelastic` along with ``parallel=True``."
+" To use the multiple cores of a CPU device as multiple local XLA devices, "
+"the XLA device count must be defined at startup."
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:13
 msgid "**Frameworks**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:41:<autosummary>:1
 msgid ""
 ":py:obj:`Hyperelastic <felupe.constitution.jax.Hyperelastic>`\\ \\(fun\\[\\,"
 " nstatevars\\, jit\\, parallel\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:41:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
 #: of felupe.constitution.jax._hyperelastic.Hyperelastic:1
 msgid ""
@@ -4896,26 +4909,26 @@ msgid ""
 "Differentiation provided by :mod:`jax`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:41:<autosummary>:1
 msgid ""
 ":py:obj:`Material <felupe.constitution.jax.Material>`\\ \\(fun\\[\\, "
 "nstatevars\\, jit\\, parallel\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:41:<autosummary>:1
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:23:<autosummary>:1
 msgid ""
 "A material definition with a given function for the partial derivative of "
 "the strain energy function w.r.t."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:41:<autosummary>:1
 msgid ""
 ":py:obj:`total_lagrange <felupe.constitution.jax.total_lagrange>`\\ "
 "\\(material\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:41:<autosummary>:1
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:23:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.pydocstring
 #: of felupe.constitution.jax._total_lagrange.total_lagrange:1
@@ -4926,13 +4939,13 @@ msgid ""
 " as a first Piola-Kirchoff stress function."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:41:<autosummary>:1
 msgid ""
 ":py:obj:`updated_lagrange <felupe.constitution.jax.updated_lagrange>`\\ "
 "\\(material\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:41:<autosummary>:1
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:23:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
 #: of felupe.constitution.jax._updated_lagrange.updated_lagrange:1
@@ -4943,25 +4956,25 @@ msgid ""
 "Piola- Kirchoff stress function."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:19
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:42
 msgid "**Material Models for** :class:`felupe.constitution.jax.Hyperelastic`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:21
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:44
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:26
 msgid ""
 "These material model formulations are defined by a strain energy density "
 "function."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:54:<autosummary>:1
 msgid ""
 ":py:obj:`miehe_goektepe_lulei "
 "<felupe.constitution.jax.models.hyperelastic.miehe_goektepe_lulei>`\\ "
 "\\(C\\, mu\\, N\\, U\\, p\\, q\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:54:<autosummary>:1
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
 #: of
@@ -4971,14 +4984,14 @@ msgid ""
 "<https://doi.org/10.1016/j.jmps.2004.03.011>`_ model formulation [1]_."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:54:<autosummary>:1
 msgid ""
 ":py:obj:`mooney_rivlin "
 "<felupe.constitution.jax.models.hyperelastic.mooney_rivlin>`\\ \\(C\\, "
 "C10\\, C01\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:54:<autosummary>:1
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_mooney_rivlin.pydocstring
 #: of
@@ -4988,14 +5001,14 @@ msgid ""
 "<https://en.wikipedia.org/wiki/Mooney-Rivlin_solid>`_ material formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:54:<autosummary>:1
 msgid ""
 ":py:obj:`third_order_deformation "
 "<felupe.constitution.jax.models.hyperelastic.third_order_deformation>`\\ "
 "\\(C\\, C10\\, C01\\, C11\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:54:<autosummary>:1
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_third_order_deformation.pydocstring
 #: of
@@ -5006,13 +5019,13 @@ msgid ""
 "formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:54:<autosummary>:1
 msgid ""
 ":py:obj:`yeoh <felupe.constitution.jax.models.hyperelastic.yeoh>`\\ \\(C\\, "
 "C10\\, C20\\, C30\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:31:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:54:<autosummary>:1
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_yeoh.pydocstring
 #: of felupe.constitution.tensortrax.models.hyperelastic._yeoh.yeoh:1
@@ -5022,11 +5035,11 @@ msgid ""
 "formulation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:32
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:55
 msgid "**Material Models for** :class:`felupe.constitution.jax.Material`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:34
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:57
 msgid ""
 "The material model formulations are defined by the first Piola-Kirchhoff "
 "stress tensor. Function-decorators are available to use Total-Lagrange and "
@@ -5034,13 +5047,13 @@ msgid ""
 ":class:`~felupe.constitution.jax.Material`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:44:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:67:<autosummary>:1
 msgid ""
 ":py:obj:`morph <felupe.constitution.jax.models.lagrange.morph>`\\ \\(F\\, "
 "statevars\\, p\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:44:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:67:<autosummary>:1
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:61:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
 #: of felupe.constitution.tensortrax.models.lagrange._morph.morph:1
@@ -5049,25 +5062,25 @@ msgid ""
 "<https://doi.org/10.1016/s0749-6419(02)00091-8>`_ model formulation [1]_."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:44:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:67:<autosummary>:1
 msgid ""
 ":py:obj:`morph_representative_directions "
 "<felupe.constitution.jax.models.lagrange.morph_representative_directions>`\\"
 " \\(F\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:45
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:68
 #: ../../felupe/docs/felupe/dof.rst:15 ../../felupe/docs/felupe/mesh.rst:31
 msgid "**Tools**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:52:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:75:<autosummary>:1
 msgid ""
 ":py:obj:`vmap <felupe.constitution.jax.vmap>`\\ \\(fun\\[\\, in\\_axes\\, "
-"out\\_axes\\]\\)"
+"out\\_axes\\, method\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:52:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:75:<autosummary>:1
 msgid "Vectorizing map."
 msgstr ""
 
@@ -5103,19 +5116,21 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
 #: of felupe.constitution.jax._hyperelastic.Hyperelastic:16
 msgid ""
-"A flag to invoke threaded strain energy density function evaluations "
-"(default is False). Not implemented."
+"A flag to invoke parallel strain energy density function evaluations "
+"(default is False). If True, the quadrature points are executed in parallel."
+" The number of devices must be greater or equal the number of quadrature "
+"points per cell."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
-#: of felupe.constitution.jax._hyperelastic.Hyperelastic:19
+#: of felupe.constitution.jax._hyperelastic.Hyperelastic:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:18
 msgid "Optional keyword-arguments for the strain energy density function."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
-#: of felupe.constitution.jax._hyperelastic.Hyperelastic:24
+#: of felupe.constitution.jax._hyperelastic.Hyperelastic:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:23
 msgid ""
@@ -5128,45 +5143,45 @@ msgstr ""
 "\\boldsymbol{F}^T \\boldsymbol{F}`."
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
-#: of felupe.constitution.jax._hyperelastic.Hyperelastic:29
+#: of felupe.constitution.jax._hyperelastic.Hyperelastic:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
-#: of felupe.constitution.jax._material.Material:34
+#: of felupe.constitution.jax._material.Material:35
 msgid ""
 "It is important to use only differentiable math-functions from :mod:`jax`!"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
-#: of felupe.constitution.jax._hyperelastic.Hyperelastic:31
+#: of felupe.constitution.jax._hyperelastic.Hyperelastic:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:31
 msgid "Take this minimal code-block as template"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
-#: of felupe.constitution.jax._hyperelastic.Hyperelastic:33
+#: of felupe.constitution.jax._hyperelastic.Hyperelastic:34
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:33
 msgid "\\psi = \\psi(\\boldsymbol{C})"
 msgstr "\\psi = \\psi(\\boldsymbol{C})"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
-#: of felupe.constitution.jax._hyperelastic.Hyperelastic:49
+#: of felupe.constitution.jax._hyperelastic.Hyperelastic:50
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:49
 msgid "and this code-block for material formulations with state variables."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
-#: of felupe.constitution.jax._hyperelastic.Hyperelastic:51
+#: of felupe.constitution.jax._hyperelastic.Hyperelastic:52
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:51
 msgid "\\psi = \\psi(\\boldsymbol{C}, \\boldsymbol{\\zeta})"
 msgstr "\\psi = \\psi(\\boldsymbol{C}, \\boldsymbol{\\zeta})"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
-#: of felupe.constitution.jax._hyperelastic.Hyperelastic:80
+#: of felupe.constitution.jax._hyperelastic.Hyperelastic:81
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
-#: of felupe.constitution.jax._material.Material:87
+#: of felupe.constitution.jax._material.Material:88
 msgid ""
 "See the `documentation of JAX <https://jax.readthedocs.io>`_ for further "
 "details. JAX uses single-precision (32bit) data types by default. This "
@@ -5176,9 +5191,9 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
-#: of felupe.constitution.jax._hyperelastic.Hyperelastic:88
+#: of felupe.constitution.jax._hyperelastic.Hyperelastic:89
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
-#: of felupe.constitution.jax._material.Material:95
+#: of felupe.constitution.jax._material.Material:96
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:85
 msgid "View force-stretch curves on elementary incompressible deformations."
@@ -5206,12 +5221,13 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
 #: of felupe.constitution.jax._material.Material:16
 msgid ""
-"A flag to invoke threaded function evaluations (defaultnis False). Not "
-"implemented."
+"A flag to invoke parallel function evaluations (default is False). If True, "
+"the quadrature points are executed in parallel. The number of devices must "
+"be greater or equal the number of quadrature points per cell."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
-#: of felupe.constitution.jax._material.Material:19
+#: of felupe.constitution.jax._material.Material:20
 msgid ""
 "A callable for the Jacobian. Default is None, where :func:`jax.jacobian` is "
 "used. This may be used to switch to forward-mode differentian "
@@ -5219,7 +5235,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
-#: of felupe.constitution.jax._material.Material:23
+#: of felupe.constitution.jax._material.Material:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.pydocstring
 #: of felupe.constitution.tensortrax._material.Material:18
 msgid ""
@@ -5228,7 +5244,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
-#: of felupe.constitution.jax._material.Material:29
+#: of felupe.constitution.jax._material.Material:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.pydocstring
 #: of felupe.constitution.tensortrax._material.Material:24
 msgid ""
@@ -5238,14 +5254,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
-#: of felupe.constitution.jax._material.Material:36
+#: of felupe.constitution.jax._material.Material:37
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.pydocstring
 #: of felupe.constitution.tensortrax._material.Material:37
 msgid "Take this code-block as template"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
-#: of felupe.constitution.jax._material.Material:55
+#: of felupe.constitution.jax._material.Material:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.pydocstring
 #: of felupe.constitution.tensortrax._material.Material:55
 msgid "and this code-block for material formulations with state variables:"
