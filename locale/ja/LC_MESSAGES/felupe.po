@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-11 01:18+0000\n"
+"POT-Creation-Date: 2024-11-15 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -793,7 +793,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
 #: of felupe.field._planestrain.FieldPlaneStrain:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._field.strain:24
+#: of felupe.math._field.strain:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._field.strain_stretch_1d:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -5853,14 +5853,23 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
 #: of felupe.constitution.tensortrax.models.lagrange._morph.morph:156
-msgid ":obj:`felupe.morph_representative_directions`"
-msgstr ":obj:`felupe.morph_representative_directions`"
+msgid ""
+":obj:`felupe.constitution.tensortrax.models.lagrange.morph_representative_directions`"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
 #: of felupe.constitution.tensortrax.models.lagrange._morph.morph:157
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._morph.morph:160
 msgid ""
 "Strain energy function of the MORPH model formulation, implemented by the "
 "concept of representative directions."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._morph.morph:159
+msgid ""
+":obj:`felupe.constitution.jax.models.lagrange.morph_representative_directions`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
@@ -5897,13 +5906,22 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:79
-msgid ":obj:`felupe.morph`"
-msgstr ":obj:`felupe.morph`"
+msgid ":obj:`felupe.constitution.tensortrax.models.lagrange.morph`"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:80
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:83
 msgid "Strain energy function of the MORPH model formulation."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:82
+msgid ":obj:`felupe.constitution.jax.models.lagrange.morph`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_helpers.pydocstring
@@ -6406,14 +6424,12 @@ msgid ""
 "<https://github.com/adtzlr/tensortrax>`_ for further details."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:83
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.pydocstring
 #: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
 #: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:27
-msgid ":obj:`felupe.Hyperelastic`"
-msgstr ":obj:`felupe.Hyperelastic`"
+msgid ":obj:`felupe.constitution.tensortrax.Hyperelastic`"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.pydocstring
 #: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:27
@@ -6429,8 +6445,8 @@ msgstr ""
 #: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
 #: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:30
-msgid ":obj:`felupe.MaterialAD`"
-msgstr ":obj:`felupe.MaterialAD`"
+msgid ":obj:`felupe.constitution.tensortrax.Material`"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.pydocstring
 #: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:30
@@ -7639,6 +7655,11 @@ msgstr ""
 #: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:80
 msgid ":obj:`felupe.LinearElasticLargeStrain`"
 msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
+#: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:83
+msgid ":obj:`felupe.Hyperelastic`"
+msgstr ":obj:`felupe.Hyperelastic`"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:84
@@ -12287,7 +12308,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
 #: of felupe.field._evaluate.EvaluateFieldContainer.strain:28
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._field.strain:15
+#: of felupe.math._field.strain:20
 msgid "The index of the displacement field (default is 0)."
 msgstr ""
 
@@ -12325,7 +12346,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
 #: of felupe.field._evaluate.EvaluateFieldContainer.strain:41
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._field.strain:59
+#: of felupe.math._field.strain:64
 msgid ":obj:`math.strain_stretch_1d`"
 msgstr ":obj:`math.strain_stretch_1d`"
 
@@ -12337,7 +12358,7 @@ msgstr ":obj:`math.strain_stretch_1d`"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
 #: of felupe.field._evaluate.EvaluateFieldContainer.strain:42
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._field.strain:60
+#: of felupe.math._field.strain:65
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._field.strain_stretch_1d:1
 msgid "Compute the Seth-Hill strains."
@@ -12357,6 +12378,26 @@ msgid ""
 msgstr ""
 "\\boldsymbol{E} = \\sum_\\alpha \\ln(\\lambda_\\alpha) \\\n"
 "    \\boldsymbol{N}_\\alpha \\otimes \\boldsymbol{N}_\\alpha"
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
+#: of
+#: felupe.field._evaluate.EvaluateFieldContainer.right_cauchy_green_deformation:1
+msgid "Return the right Cauchy-Green deformation tensor."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
+#: of
+#: felupe.field._evaluate.EvaluateFieldContainer.right_cauchy_green_deformation:3
+msgid ""
+":label:right-cauchy-green-deformation-tensor\n"
+"\n"
+"\\boldsymbol{F} &= \\frac{\\partial \\boldsymbol{x}}{\\partial \\boldsymbol{X}}\n"
+"\n"
+"\\boldsymbol{C} &= \\boldsymbol{F}^T \\boldsymbol{F}\n"
+"\n"
+"\\boldsymbol{C} &= \\sum_\\alpha \\lambda^2_\\alpha\n"
+"    \\ \\boldsymbol{N}_\\alpha \\otimes \\boldsymbol{N}_\\alpha"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
 #: of felupe.field._evaluate.EvaluateFieldContainer.strain:1
@@ -12471,7 +12512,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field:53
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._field.strain:29
+#: of felupe.math._field.strain:34
 msgid "\\boldsymbol{C} = \\boldsymbol{F}^T \\boldsymbol{F}"
 msgstr "\\boldsymbol{C} = \\boldsymbol{F}^T \\boldsymbol{F}"
 
@@ -12949,11 +12990,9 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/math.rst:29:<autosummary>:1
 msgid ""
-":py:obj:`math.strain <felupe.math.strain>`\\ \\(field\\[\\, fun\\, tensor\\,"
-" asvoigt\\, n\\]\\)"
+":py:obj:`math.strain <felupe.math.strain>`\\ \\(field\\[\\, C\\, fun\\, "
+"tensor\\, asvoigt\\, n\\]\\)"
 msgstr ""
-":py:obj:`math.strain <felupe.math.strain>`\\ \\(field\\[\\, fun\\, tensor\\,"
-" asvoigt\\, n\\]\\)"
 
 #: ../../felupe/docs/felupe/math.rst:29:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -14502,11 +14541,21 @@ msgstr "A_{ijkl} : x_{kl} = b_{ij}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._field.strain:3
-msgid "A field container with a displacement field."
+msgid ""
+"A field container with a displacement field from which the deformation "
+"gradient tensor is extracted if ``def_grad`` is None."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._field.strain:5
+#: of felupe.math._field.strain:6
+msgid ""
+"Optional array of right Cauchy-Green deformation tensors. If None, the right"
+" Cauchy-Green deformation tensor is obtained from the field. Default is "
+"None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._field.strain:10
 msgid ""
 "A callable for the one-dimensional strain-stretch relation. Function "
 "signature must be ``lambda stretch, **kwargs: strain`` (default is the log. "
@@ -14514,31 +14563,31 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._field.strain:9
+#: of felupe.math._field.strain:14
 msgid ""
 "Assemble and return the strain tensors if True or return their principal "
 "values only if False. Default is True."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._field.strain:12
+#: of felupe.math._field.strain:17
 msgid ""
 "Return the symmetric strain tensors in reduced vector (Voigt) storage. "
 "Default is False."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._field.strain:17
+#: of felupe.math._field.strain:22
 msgid "Optional keyword-arguments are passed to ``fun(stretch, **kwargs)``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._field.strain:20
+#: of felupe.math._field.strain:25
 msgid "The strain tensors or their principal values."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._field.strain:25
+#: of felupe.math._field.strain:30
 msgid ""
 "The right Cauchy-Green deformation tensor is defined by the dot-products of "
 "the column vectors of the deformation gradient tensor and enables a "
@@ -14547,7 +14596,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._field.strain:34
+#: of felupe.math._field.strain:39
 msgid ""
 "The principal stretches are obtained as the square-roots of the eigenvalues "
 "of the right Cauchy-Green deformation tensor, see Eq. :eq:`principal-"
@@ -14555,7 +14604,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._field.strain:37
+#: of felupe.math._field.strain:42
 msgid ""
 "\\lambda^2_\\alpha, \\boldsymbol{N}_\\alpha = \\text{eig}\\left( "
 "\\boldsymbol{C} \\right)"
@@ -14564,7 +14613,7 @@ msgstr ""
 "\\boldsymbol{C} \\right)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._field.strain:42
+#: of felupe.math._field.strain:47
 msgid ""
 "The Lagrangian strain tensor is assembled with the one-dimensional strain-"
 "stretch relation from Eq. :eq:`principal-strain` and the eigenbases as "
@@ -14572,12 +14621,12 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._field.strain:46
+#: of felupe.math._field.strain:51
 msgid "E_\\alpha = \\text{f}\\left( \\lambda_\\alpha \\right)"
 msgstr "E_\\alpha = \\text{f}\\left( \\lambda_\\alpha \\right)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._field.strain:51
+#: of felupe.math._field.strain:56
 msgid ""
 "\\boldsymbol{E} = \\sum_\\alpha E_\\alpha \\\n"
 "    \\boldsymbol{N}_\\alpha \\otimes \\boldsymbol{N}_\\alpha"
@@ -19809,7 +19858,7 @@ msgstr ""
 #: of felupe.region._region.Region.astype:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region.astype:15
-msgid ":obj:`felupe.region.copy`"
+msgid ":obj:`felupe.Region.copy`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
@@ -20021,6 +20070,16 @@ msgstr ""
 msgid ""
 "A third example shows the standard unit vectors and the area normals, "
 "located at the quadrature points for one face of a hexahedron."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._boundary.RegionBoundary:266
+msgid ""
+"This examples shows how to evaluate the strain on the faces of the boundary "
+"region. A field can't be used to evaluate the strain of a quad-cell in 3D "
+"space. However, it is possible to evaluate the in-plane components of the "
+"right Cauchy-Green deformation tensor on the boundary. With this tensor at "
+"hand, it is possible to evaluate any in-plane strain tensor."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring

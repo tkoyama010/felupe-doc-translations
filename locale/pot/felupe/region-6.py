@@ -1,11 +1,11 @@
 import felupe as fem
 mesh = fem.Cube()
-region = fem.RegionHexahedron(mesh)
+region = fem.RegionHexahedronBoundary(mesh)
 region
 # Expected:
 ## <felupe Region object>
 ##   Element formulation: Hexahedron
-##   Quadrature rule: GaussLegendre
+##   Quadrature rule: GaussLegendreBoundary
 ##   Gradient evaluated: True
 ##   Hessian evaluated: False
 #

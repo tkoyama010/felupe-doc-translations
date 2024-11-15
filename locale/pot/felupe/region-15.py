@@ -1,11 +1,11 @@
 import felupe as fem
-mesh = fem.Rectangle().triangulate().add_midpoints_faces()
-region = fem.RegionTriangleMINI(mesh)
+mesh = fem.Cube().triangulate().add_midpoints_edges()
+region = fem.RegionQuadraticTetra(mesh)
 region
 # Expected:
 ## <felupe Region object>
-##   Element formulation: TriangleMINI
-##   Quadrature rule: Triangle
+##   Element formulation: QuadraticTetra
+##   Quadrature rule: Tetrahedron
 ##   Gradient evaluated: True
 ##   Hessian evaluated: False
 #

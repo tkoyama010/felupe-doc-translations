@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-12 00:10+0000\n"
+"POT-Creation-Date: 2024-11-15 00:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -108,8 +108,8 @@ msgstr ""
 #: ../../felupe/docs/examples/ex08_shear.rst:264
 #: ../../felupe/docs/examples/ex09_numeric-continuation.rst:227
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:101
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:152
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:93
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:159
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:90
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:372
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:243
 #: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:103
@@ -292,6 +292,7 @@ msgstr ""
 #: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:36
 #: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:34
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:36
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:26
 #: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:37
 msgid "This example requires external packages."
 msgstr ""
@@ -415,7 +416,6 @@ msgid "A hyperelastic spring with a simplified frictionless contact."
 msgstr ""
 
 #: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:26
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:26
 msgid "read a mesh file"
 msgstr ""
 
@@ -739,6 +739,10 @@ msgstr ""
 msgid "Three-dimensional linear-elastic analysis."
 msgstr ""
 
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:26
+msgid "create a hexahedron mesh"
+msgstr ""
+
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:28
 msgid "define a linear-elastic solid body"
 msgstr ""
@@ -756,26 +760,26 @@ msgid "evaluate the fatigue life"
 msgstr ""
 
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:43
-msgid "A linear-elastic notched plate is subjected to uniaxial tension. The cell-based mean of the stress tensor is projected to the mesh-points and its maximum principal value is plotted. FElupe has no wedge element formulation implemented and hence, the wedges in the mesh are converted to hexahedrons."
+msgid "A linear-elastic notched plate is subjected to uniaxial tension. The cell-based mean of the stress tensor is projected to the mesh-points and its maximum principal value is plotted."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:90
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:97
 msgid "The number of maximum endurable cycles between zero and the applied displacement is evaluated with a SN-curve as denoted in Eq. :eq:`sn-curve`. The range of the maximum principal value of the Cauchy stress tensor is used to evaluate the fatigue life. For simplicity, the stress is evaluated for the total solid body. To consider only stresses on points which lie on the surface of the solid body, the cells on faces :meth:`~felupe.RegionHexahedronBoundary.mesh.cells_faces` must be determined first."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:98
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:105
 msgid "\\frac{N}{N_D} = \\left( \\frac{S}{S_D} \\right)^{-k}"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:137
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:144
 msgid ":download:`Download Jupyter notebook: ex11_notch-stress.ipynb <ex11_notch-stress.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:141
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:148
 msgid ":download:`Download Python source code: ex11_notch-stress.py <ex11_notch-stress.py>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:145
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:152
 msgid ":download:`Download zipped: ex11_notch-stress.zip <ex11_notch-stress.zip>`"
 msgstr ""
 
@@ -784,22 +788,22 @@ msgid ":ref:`Go to the end <sphx_glr_download_examples_ex12_foot-bone.py>` to do
 msgstr ""
 
 #: ../../felupe/docs/examples/ex12_foot-bone.rst:22
-msgid "Voxelized Foot Bone"
+msgid "Voxelized Foot Bones"
 msgstr ""
 
 #: ../../felupe/docs/examples/ex12_foot-bone.rst:23
 msgid "A :class:`~felupe.Region` on a voxel-based mesh with uniform hexahedrons should be created with ``uniform=True`` to enhance performance."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:78
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:75
 msgid ":download:`Download Jupyter notebook: ex12_foot-bone.ipynb <ex12_foot-bone.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:82
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:79
 msgid ":download:`Download Python source code: ex12_foot-bone.py <ex12_foot-bone.py>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:86
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:83
 msgid ":download:`Download zipped: ex12_foot-bone.zip <ex12_foot-bone.zip>`"
 msgstr ""
 
@@ -894,7 +898,7 @@ msgid "Only the upper-triangle entries of the symmetric stress-tensor state vari
 msgstr ""
 
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:203
-msgid "The MORPH material model formulation is also available in FElupe, see :class:`~felupe.morph` (tensortrax) and :class:`~felupe.constitution.jax.models.lagrange.morph` (JAX)."
+msgid "The MORPH material model formulation is also available in FElupe, see :class:`~felupe.constitution.tensortrax.models.lagrange.morph` (tensortrax) and :class:`~felupe.constitution.jax.models.lagrange.morph` (JAX)."
 msgstr ""
 
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:207

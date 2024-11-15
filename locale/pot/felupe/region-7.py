@@ -1,11 +1,11 @@
 import felupe as fem
-mesh = fem.mesh.Rectangle().triangulate()
-region = fem.RegionTriangle(mesh)
+mesh = fem.Cube()
+region = fem.RegionHexahedron(mesh)
 region
 # Expected:
 ## <felupe Region object>
-##   Element formulation: Triangle
-##   Quadrature rule: Triangle
+##   Element formulation: Hexahedron
+##   Quadrature rule: GaussLegendre
 ##   Gradient evaluated: True
 ##   Hessian evaluated: False
 #
