@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-15 00:11+0000\n"
+"POT-Creation-Date: 2024-11-18 00:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -145,7 +145,7 @@ msgstr ""
 #: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:204
 #: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:246
 #: ../../felupe/docs/examples/ex07_engine-mount.rst:255
-#: ../../felupe/docs/examples/ex08_shear.rst:264
+#: ../../felupe/docs/examples/ex08_shear.rst:265
 #: ../../felupe/docs/examples/ex09_numeric-continuation.rst:227
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:101
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:159
@@ -865,14 +865,14 @@ msgid ""
 " body."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:127
+#: ../../felupe/docs/examples/ex08_shear.rst:128
 msgid ""
 "At the centerpoint of a multi-point constraint (MPC) the external shear "
 "movement is prescribed. It also ensures a force-free top plate in direction "
 ":math:`y`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:149
+#: ../../felupe/docs/examples/ex08_shear.rst:150
 msgid ""
 "The shear movement is applied in substeps, which are each solved with an "
 "iterative newton-rhapson procedure. Inside an iteration, the force residual "
@@ -888,7 +888,7 @@ msgid ""
 "generator object with the results of all substeps."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:184
+#: ../../felupe/docs/examples/ex08_shear.rst:185
 msgid ""
 "The principal stretches are evaluated for the maximum deformed "
 "configuration. This may be done manually, starting from the deformation "
@@ -898,23 +898,23 @@ msgid ""
 "quadrature-points to mesh-points."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:217
+#: ../../felupe/docs/examples/ex08_shear.rst:218
 msgid ""
 "The shear force :math:`F_x` vs. the displacements :math:`u_x` and "
 ":math:`u_y`, all located at the top plate, are plotted."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:249
+#: ../../felupe/docs/examples/ex08_shear.rst:250
 msgid ""
 ":download:`Download Jupyter notebook: ex08_shear.ipynb <ex08_shear.ipynb>`"
 msgstr ""
 ":download:`Download Jupyter notebook: ex08_shear.ipynb <ex08_shear.ipynb>`"
 
-#: ../../felupe/docs/examples/ex08_shear.rst:253
+#: ../../felupe/docs/examples/ex08_shear.rst:254
 msgid ":download:`Download Python source code: ex08_shear.py <ex08_shear.py>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:257
+#: ../../felupe/docs/examples/ex08_shear.rst:258
 msgid ":download:`Download zipped: ex08_shear.zip <ex08_shear.zip>`"
 msgstr ""
 

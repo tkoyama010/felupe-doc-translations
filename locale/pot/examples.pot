@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-15 00:11+0000\n"
+"POT-Creation-Date: 2024-11-18 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,7 @@ msgstr ""
 #: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:204
 #: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:246
 #: ../../felupe/docs/examples/ex07_engine-mount.rst:255
-#: ../../felupe/docs/examples/ex08_shear.rst:264
+#: ../../felupe/docs/examples/ex08_shear.rst:265
 #: ../../felupe/docs/examples/ex09_numeric-continuation.rst:227
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:101
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:159
@@ -600,31 +600,31 @@ msgstr ""
 msgid "The micro-sphere material formulation is used for the rubber. It is defined as a :class:`~felupe.Hyperelastic` material. The material formulation is finally applied on the plane-strain field, resulting in a hyperelastic solid body."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:127
+#: ../../felupe/docs/examples/ex08_shear.rst:128
 msgid "At the centerpoint of a multi-point constraint (MPC) the external shear movement is prescribed. It also ensures a force-free top plate in direction :math:`y`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:149
+#: ../../felupe/docs/examples/ex08_shear.rst:150
 msgid "The shear movement is applied in substeps, which are each solved with an iterative newton-rhapson procedure. Inside an iteration, the force residual vector and the tangent stiffness matrix are assembled. The fields are updated with the solution of unknowns. The equilibrium is checked as ratio between the norm of residual forces of the active vs. the norm of the residual forces of the inactive degrees of freedom. If convergence is obtained, the iteration loop ends. Both :math:`y`-displacement and the reaction force in direction :math:`x` of the top plate are saved. This is realized by a callback-function which is called after each successful substep. A step combines all active items along with constant and ramped boundary conditions. Finally, the step is added to a job. A job returns a generator object with the results of all substeps."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:184
+#: ../../felupe/docs/examples/ex08_shear.rst:185
 msgid "The principal stretches are evaluated for the maximum deformed configuration. This may be done manually, starting from the deformation gradient tensor, or by modifying the :meth:`FieldContainer.evaluate.strain <felupe.field.EvaluateFieldContainer.strain>`- method to return the principal stretches. For plotting, these values are projected from quadrature-points to mesh-points."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:217
+#: ../../felupe/docs/examples/ex08_shear.rst:218
 msgid "The shear force :math:`F_x` vs. the displacements :math:`u_x` and :math:`u_y`, all located at the top plate, are plotted."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:249
+#: ../../felupe/docs/examples/ex08_shear.rst:250
 msgid ":download:`Download Jupyter notebook: ex08_shear.ipynb <ex08_shear.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:253
+#: ../../felupe/docs/examples/ex08_shear.rst:254
 msgid ":download:`Download Python source code: ex08_shear.py <ex08_shear.py>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:257
+#: ../../felupe/docs/examples/ex08_shear.rst:258
 msgid ":download:`Download zipped: ex08_shear.zip <ex08_shear.zip>`"
 msgstr ""
 
