@@ -1,7 +1,7 @@
 umat = mat.Material(
-    mat.models.lagrange.morph,
-    p=[0.039, 0.371, 0.174, 2.41, 0.0094, 6.84, 5.65, 0.244],
-    nstatevars=13,
+    mat.models.lagrange.morph_representative_directions,
+    p=[0.011, 0.408, 0.421, 6.85, 0.0056, 5.54, 5.84, 0.117],
+    nstatevars=84,
 )
 ax = umat.plot(
    incompressible=True,

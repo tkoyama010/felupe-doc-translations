@@ -1,1 +1,4 @@
-import felupe.constitution.tensortrax as mat
+import pyvista as pv
+fig = ax.get_figure()
+chart = pv.ChartMPL(fig)
+chart.show()

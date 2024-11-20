@@ -1,3 +1,4 @@
-import felupe as fem
-umat = fem.Hyperelastic(fem.neo_hooke, mu=1.0)
-ax = umat.plot(incompressible=True)
+import pyvista as pv
+fig = ax.get_figure()
+chart = pv.ChartMPL(fig)
+chart.show()
