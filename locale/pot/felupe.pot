@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-20 00:10+0000\n"
+"POT-Creation-Date: 2024-11-23 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -388,6 +388,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.py:docstring of felupe.constitution.jax._total_lagrange.total_lagrange:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.py:docstring of felupe.constitution.jax._updated_lagrange.updated_lagrange:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter:14
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution.linear_elasticity._linear_elastic.LinearElasticPlaneStrain:9
@@ -417,8 +418,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_neo_hooke.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._neo_hooke.neo_hooke:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_ogden.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._ogden.ogden:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_ogden_roxburgh.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._ogden_roxburgh.ogden_roxburgh:28
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff.saint_venant_kirchhoff:13
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff_orthotropic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff_orthotropic.saint_venant_kirchhoff_orthotropic:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff.saint_venant_kirchhoff:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff_orthotropic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff_orthotropic.saint_venant_kirchhoff_orthotropic:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_storakers.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._storakers.storakers:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_third_order_deformation.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._third_order_deformation.third_order_deformation:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_yeoh.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._yeoh.yeoh:15
@@ -624,8 +625,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_neo_hooke.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._neo_hooke.neo_hooke:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_ogden.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._ogden.ogden:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_ogden_roxburgh.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._ogden_roxburgh.ogden_roxburgh:51
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff.saint_venant_kirchhoff:33
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff_orthotropic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff_orthotropic.saint_venant_kirchhoff_orthotropic:33
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff.saint_venant_kirchhoff:36
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff_orthotropic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff_orthotropic.saint_venant_kirchhoff_orthotropic:37
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_storakers.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._storakers.storakers:43
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_third_order_deformation.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._third_order_deformation.third_order_deformation:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_van_der_waals.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._van_der_waals.van_der_waals:18
@@ -3574,7 +3575,7 @@ msgid "`Ogden-Roxburgh <https://doi.org/10.1098%2Frspa.1999.0431>`_ Pseudo-Elast
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:50:<autosummary>:1
-msgid ":py:obj:`saint_venant_kirchhoff <felupe.constitution.tensortrax.models.hyperelastic.saint_venant_kirchhoff>`\\ \\(C\\, mu\\, lmbda\\)"
+msgid ":py:obj:`saint_venant_kirchhoff <felupe.constitution.tensortrax.models.hyperelastic.saint_venant_kirchhoff>`\\ \\(C\\, mu\\, lmbda\\[\\, k\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:50:<autosummary>:1
@@ -4024,25 +4025,30 @@ msgstr ""
 msgid "First Lamé constant (shear modulus)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff.saint_venant_kirchhoff:14
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff.saint_venant_kirchhoff:11
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff_orthotropic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff_orthotropic.saint_venant_kirchhoff_orthotropic:19
+msgid "Strain exponent (default is 2). If 2, the Green-Lagrange strain measure is used. For any other value, the family of Seth-Hill strains is used."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff.saint_venant_kirchhoff:17
 msgid "The strain energy function is given in Eq. :eq:`psi-svk`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff.saint_venant_kirchhoff:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff.saint_venant_kirchhoff:19
 msgid "\\psi = \\mu I_2 + \\lambda \\frac{I_1^2}{2}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff.saint_venant_kirchhoff:21
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff.saint_venant_kirchhoff:24
 msgid "with the first and second invariant of the Green-Lagrange strain tensor :math:`\\boldsymbol{E} = \\frac{1}{2} (\\boldsymbol{C} - \\boldsymbol{1})`, see Eq. :eq:`invariants-svk`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff.saint_venant_kirchhoff:25
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff.saint_venant_kirchhoff:28
 msgid "I_1 &= \\text{tr}\\left( \\boldsymbol{E} \\right)\n"
 "\n"
 "I_2 &= \\boldsymbol{E} : \\boldsymbol{E}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff.saint_venant_kirchhoff:35
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff.saint_venant_kirchhoff:38
 msgid "The Saint-Venant Kirchhoff material formulation is unstable for large strains."
 msgstr ""
 
@@ -4051,11 +4057,11 @@ msgid "Strain energy function of the orthotropic hyperelastic `Saint-Venant Kirc
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff_orthotropic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff_orthotropic.saint_venant_kirchhoff_orthotropic:7
-msgid "List of the three second Lamé parameters :math:`\\mu_1,\\mu_2, \\mu3`."
+msgid "List of the three second Lamé parameters :math:`\\mu_1,\\mu_2, \\mu_3`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff_orthotropic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff_orthotropic.saint_venant_kirchhoff_orthotropic:9
-msgid "List of six (upper triangle) first Lamé parameters :math:`\\lambda_11, \\lambda_12, \\lambda_13, \\lambda_22, \\lambda_23, \\lambda_33`."
+msgid "List of six (upper triangle) first Lamé parameters :math:`\\lambda_{11}, \\lambda_{12}, \\lambda_{13}, \\lambda_{22}, \\lambda_{23}, \\lambda_{33}`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff_orthotropic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff_orthotropic.saint_venant_kirchhoff_orthotropic:12
@@ -4067,14 +4073,14 @@ msgid "Second normal vector of planes of symmetry."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff_orthotropic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff_orthotropic.saint_venant_kirchhoff_orthotropic:16
-msgid "Third normal vector of planes of symmetry."
+msgid "Third normal vector of planes of symmetry. If None, the third normal vector is evaluated as :math:`r_1 \\times r_2`. Default is None."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff_orthotropic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff_orthotropic.saint_venant_kirchhoff_orthotropic:21
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff_orthotropic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff_orthotropic.saint_venant_kirchhoff_orthotropic:25
 msgid "The strain energy function is given in Eq. :eq:`psi-svk-ortho`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff_orthotropic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff_orthotropic.saint_venant_kirchhoff_orthotropic:23
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff_orthotropic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff_orthotropic.saint_venant_kirchhoff_orthotropic:27
 msgid "\\psi = \\sum_{a=1}^3\n"
 "    \\mu_a \\boldsymbol{E} : \\boldsymbol{r}_a \\otimes \\boldsymbol{r}_a +\n"
 "    \\sum_{a=1}^3 \\sum_{b=1}^3 \\frac{\\lambda_{ab}}{2}\n"
@@ -4082,7 +4088,7 @@ msgid "\\psi = \\sum_{a=1}^3\n"
 "        \\left(\\boldsymbol{E} : \\boldsymbol{r}_b \\otimes \\boldsymbol{r}_b \\right)"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff_orthotropic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff_orthotropic.saint_venant_kirchhoff_orthotropic:35
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_saint_venant_kirchhoff_orthotropic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._saint_venant_kirchhoff_orthotropic.saint_venant_kirchhoff_orthotropic:39
 msgid "The orthotropic Saint-Venant Kirchhoff material formulation is unstable for large strains."
 msgstr ""
 
@@ -4154,6 +4160,7 @@ msgid ":py:obj:`LinearElasticOrthotropic <felupe.LinearElasticOrthotropic>`\\ \\
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:26:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:59
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_orthotropic.py:docstring of felupe.constitution.linear_elasticity._linear_elastic_orthotropic.LinearElasticOrthotropic:1
 msgid "Orthotropic linear-elastic material formulation."
 msgstr ""
@@ -5325,7 +5332,7 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/tools.rst:33:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:1
-msgid "Convert elastic orthotropic material parameters to Lamé parameter."
+msgid "Convert elastic orthotropic material parameters to Lamé constants."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/_view.py:docstring of felupe.constitution._view.ViewMaterial:5
@@ -5574,15 +5581,68 @@ msgid "List of three shear moduli :math:`G_{12}, G_{23}, G_{31}`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:10
-msgid "* **lmbda** (*list of float*) -- List of six (upper triangle) first Lamé parameters   :math:`\\lambda_11, \\lambda_12, \\lambda_13, \\lambda_22, \\lambda_23, \\lambda_33`. * **mu** (*list of float*) -- List of the three second Lamé parameters :math:`\\mu_1,\\mu_2, \\mu3`."
+msgid "* **lmbda** (*list of float*) -- List of six (upper triangle) first Lamé parameters :math:`\\lambda_{11},   \\lambda_{12}, \\lambda_{13}, \\lambda_{22}, \\lambda_{23}, \\lambda_{33}`. * **mu** (*list of float*) -- List of the three second Lamé parameters :math:`\\mu_1,\\mu_2, \\mu_3`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:10
-msgid "**lmbda** (*list of float*) -- List of six (upper triangle) first Lamé parameters :math:`\\lambda_11, \\lambda_12, \\lambda_13, \\lambda_22, \\lambda_23, \\lambda_33`."
+msgid "**lmbda** (*list of float*) -- List of six (upper triangle) first Lamé parameters :math:`\\lambda_{11}, \\lambda_{12}, \\lambda_{13}, \\lambda_{22}, \\lambda_{23}, \\lambda_{33}`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:12
-msgid "**mu** (*list of float*) -- List of the three second Lamé parameters :math:`\\mu_1,\\mu_2, \\mu3`."
+msgid "**mu** (*list of float*) -- List of the three second Lamé parameters :math:`\\mu_1,\\mu_2, \\mu_3`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:16
+msgid "The orthotropic material parameters are converted to orthotropic Lamé constants."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:19
+msgid "The compliance matrix as the inverse of the stiffness matrix with the parameters :math:`E_i`, :math:`\\nu_{ij}` and :math:`G_{ij}` is given in Eq. :eq:`ortho-matrix-inv`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:23
+msgid "\\boldsymbol{C}^{-1} = \\begin{bmatrix}\n"
+"    \\frac{1}{E_1} & -\\frac{\\nu_{21}}{E_2} & -\\frac{\\nu_{31}}{E_3}\n"
+"        & 0 & 0 & 0 \\\\\n"
+"    -\\frac{\\nu_{12}}{E_1} & \\frac{1}{E_2} & -\\frac{\\nu_{32}}{E_3}\n"
+"        & 0 & 0 & 0 \\\\\n"
+"    -\\frac{\\nu_{13}}{E_1} & -\\frac{\\nu_{23}}{E_2} & \\frac{1}{E_3}\n"
+"        & 0 & 0 & 0 \\\\\n"
+"    0 & 0 & 0 & \\frac{1}{G_{12}} & 0 & 0 \\\\\n"
+"    0 & 0 & 0 & 0 & \\frac{1}{G_{23}} & 0 \\\\\n"
+"    0 & 0 & 0 & 0 & 0 & \\frac{1}{G_{31}}\n"
+"\\end{bmatrix}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:38
+msgid "The stiffness matrix with the Lamé constants is denoted in Eq. :eq:`ortho-matrix`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:41
+msgid "\\boldsymbol{C} = \\begin{bmatrix}\n"
+"    \\lambda_{11} + 2 \\mu_1 & \\lambda_{12} & \\lambda_{13} & 0 & 0 & 0 \\\\\n"
+"    \\lambda_{11} & \\lambda_{12} + 2 \\mu_2 & \\lambda_{13} & 0 & 0 & 0 \\\\\n"
+"    \\lambda_{11} & \\lambda_{12} & \\lambda_{13} + 2 \\mu_3 & 0 & 0 & 0 \\\\\n"
+"    0 & 0 & 0 & \\frac{\\mu_1 + \\mu_2}{2} & 0 & 0 \\\\\n"
+"    0 & 0 & 0 & 0 & \\frac{\\mu_2 + \\mu_3}{2} & 0 \\\\\n"
+"    0 & 0 & 0 & 0 & 0 & \\frac{\\mu_3 + \\mu_1}{2}\n"
+"\\end{bmatrix}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:53
+msgid "Eq. :eq:`ortho-matrix-inv` is evaluated and inverted numerically to extract the Lamé constants."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:58
+msgid ":obj:`felupe.LinearElasticOrthotropic`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:61
+msgid ":obj:`felupe.constitution.tensortrax.models.hyperelastic.saint_venant_kirchhoff_orthotropic`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:62
+msgid "Strain energy function of the orthotropic hyperelastic Saint-Venant Kirchhoff material formulation."
 msgstr ""
 
 #: ../../felupe/docs/felupe/dof.rst:2
