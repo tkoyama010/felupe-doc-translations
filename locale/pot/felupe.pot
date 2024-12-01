@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-23 00:10+0000\n"
+"POT-Creation-Date: 2024-12-01 00:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -158,7 +158,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/element.rst:51
 #: ../../felupe/docs/felupe/field.rst:27
 #: ../../felupe/docs/felupe/math.rst:66
-#: ../../felupe/docs/felupe/mechanics.rst:43
+#: ../../felupe/docs/felupe/mechanics.rst:44
 #: ../../felupe/docs/felupe/mesh.rst:61
 #: ../../felupe/docs/felupe/quadrature.rst:30
 #: ../../felupe/docs/felupe/region.rst:37
@@ -263,6 +263,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.sym:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.tovoigt:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve.plot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.py:docstring of felupe.mechanics._free_vibration.FreeVibration.extract:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointConstraint.plot:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointContact.plot:0
@@ -470,15 +471,16 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.sym:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.tovoigt:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.trace:12
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.py:docstring of felupe.mechanics._free_vibration.FreeVibration:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointConstraint:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointContact:18
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:17
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.py:docstring of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.py:docstring of felupe.mechanics._solidbody_force.SolidBodyForce:14
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:27
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_pressure.py:docstring of felupe.mechanics._solidbody_pressure.SolidBodyPressure:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._dual.dual:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.concatenate:10
@@ -681,15 +683,16 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.tovoigt:34
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.trace:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:22
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.py:docstring of felupe.mechanics._free_vibration.FreeVibration:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:57
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointConstraint:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointContact:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.py:docstring of felupe.mechanics._pointload.PointLoad:17
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:63
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:65
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.py:docstring of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.py:docstring of felupe.mechanics._solidbody_force.SolidBodyForce:21
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:237
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:239
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_pressure.py:docstring of felupe.mechanics._solidbody_pressure.SolidBodyPressure:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_step.py:docstring of felupe.mechanics._step.Step:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.add_midpoints_edges:19
@@ -780,7 +783,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:11
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:34
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:35
 msgid "Examples"
 msgstr ""
 
@@ -1417,7 +1420,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.QuadraticTriangle:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.Triangle:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.TriangleMINI:30
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:261
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:263
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.triangulate:41
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.triangulate:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/quadrature/_sphere.py:docstring of felupe.quadrature._sphere.BazantOh:33
@@ -4752,7 +4755,7 @@ msgid "The total potential energy of internal forces is given in Eq. :eq:`nearly
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._mixed.NearlyIncompressible:9
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:32
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:34
 msgid "\\Pi_{int}(\\boldsymbol{F}, p, \\bar{J}) =\n"
 "    \\int_V \\hat{\\psi}(\\boldsymbol{F})\\ dV +\n"
 "    \\int_V U(\\bar{J})\\ dV +\n"
@@ -4760,12 +4763,12 @@ msgid "\\Pi_{int}(\\boldsymbol{F}, p, \\bar{J}) =\n"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._mixed.NearlyIncompressible:17
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:99
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:101
 msgid "The volumetric part of the strain energy density function is denoted in Eq. :eq:`nearlyincompressible-volumetric` along with its first and second derivatives."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._mixed.NearlyIncompressible:20
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:102
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:104
 msgid "\\bar{U} &= \\frac{K}{2} \\left( \\bar{J} - 1 \\right)^2\n"
 "\n"
 "\\bar{U}' &= K \\left( \\bar{J} - 1 \\right)\n"
@@ -7027,7 +7030,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.plot:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.view:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:55
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:61
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:62
 msgid ":obj:`felupe.project`"
 msgstr ""
 
@@ -7038,7 +7041,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.view:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/tools/_project.py:docstring of felupe.tools._project.project:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:56
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:62
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:63
 msgid "Project given values at quadrature-points to mesh-points."
 msgstr ""
 
@@ -7096,7 +7099,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.view:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:6
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:16
 msgid "Additional point-data dict (default is None)."
 msgstr ""
 
@@ -7105,7 +7108,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.view:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:17
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:18
 msgid "Additional cell-data dict (default is None)."
 msgstr ""
 
@@ -7115,7 +7118,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.view:7
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:10
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:20
 msgid "Cell-type of PyVista (default is None)."
 msgstr ""
 
@@ -7133,7 +7136,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.view:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:39
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:30
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:58
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:59
 msgid ":obj:`felupe.ViewField`"
 msgstr ""
 
@@ -8762,7 +8765,7 @@ msgid "**Solid Bodies**"
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
-msgid ":py:obj:`SolidBody <felupe.SolidBody>`\\ \\(umat\\, field\\[\\, statevars\\]\\)"
+msgid ":py:obj:`SolidBody <felupe.SolidBody>`\\ \\(umat\\, field\\[\\, statevars\\, density\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
@@ -8776,7 +8779,7 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:16
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:89
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:91
 msgid "A (nearly) incompressible solid body with methods for the assembly of sparse vectors/matrices."
 msgstr ""
 
@@ -8811,11 +8814,11 @@ msgstr ""
 msgid "**Steps and Jobs**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:25:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:26:<autosummary>:1
 msgid ":py:obj:`Step <felupe.Step>`\\ \\(items\\[\\, ramp\\, boundaries\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:25:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:26:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:53
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:82
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:51
@@ -8823,88 +8826,97 @@ msgstr ""
 msgid "A Step with multiple substeps, subsequently depending on the solution of the previous substep."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:25:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:26:<autosummary>:1
 msgid ":py:obj:`Job <felupe.Job>`\\ \\(steps\\[\\, callback\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:25:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:26:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:1
 msgid "A job with a list of steps and a method to evaluate them."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:25:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:26:<autosummary>:1
 msgid ":py:obj:`CharacteristicCurve <felupe.CharacteristicCurve>`\\ \\(steps\\, boundary\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:26
+#: ../../felupe/docs/felupe/mechanics.rst:26:<autosummary>:1
+msgid ":py:obj:`FreeVibration <felupe.FreeVibration>`\\ \\(items\\[\\, boundaries\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:26:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.py:docstring of felupe.mechanics._free_vibration.FreeVibration:1
+msgid "A Free-Vibration Step/Job."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:27
 msgid "**Point Load and Multi-Point Constraints**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:34:<autosummary>:1
 msgid ":py:obj:`PointLoad <felupe.PointLoad>`\\ \\(field\\, points\\[\\, values\\, apply\\_on\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:34:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.py:docstring of felupe.mechanics._pointload.PointLoad:1
 msgid "A point load with methods for the assembly of sparse vectors/matrices, applied on the n-th field."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:34:<autosummary>:1
 msgid ":py:obj:`MultiPointConstraint <felupe.MultiPointConstraint>`\\ \\(field\\, points\\, centerpoint\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:34:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointConstraint:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointContact:132
 msgid "A Multi-point-constraint which connects a center-point to a list of points."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:34:<autosummary>:1
 msgid ":py:obj:`MultiPointContact <felupe.MultiPointContact>`\\ \\(field\\, points\\, centerpoint\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:34:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointContact:1
 msgid "A frictionless point-to-rigid (wall) contact which connects a center-point to a list of points."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:34
+#: ../../felupe/docs/felupe/mechanics.rst:35
 msgid "**Helpers for Custom Items and State Variables**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:43:<autosummary>:1
 msgid ":py:obj:`StateNearlyIncompressible <felupe.StateNearlyIncompressible>`\\ \\(field\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:43:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:1
 msgid "A State with internal cell-wise constant dual fields for (nearly) incompressible solid bodies."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
-msgid ":py:obj:`mechanics.Assemble <felupe.mechanics.Assemble>`\\ \\(vector\\, matrix\\[\\, multiplier\\]\\)"
+#: ../../felupe/docs/felupe/mechanics.rst:43:<autosummary>:1
+msgid ":py:obj:`mechanics.Assemble <felupe.mechanics.Assemble>`\\ \\(vector\\, matrix\\[\\, mass\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:43:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.Assemble:1
 msgid "A class with methods for assembling vectors and matrices of an Item."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:43:<autosummary>:1
 msgid ":py:obj:`mechanics.Evaluate <felupe.mechanics.Evaluate>`\\ \\(gradient\\, hessian\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:43:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.Evaluate:1
 msgid "A class with evaluate methods of an Item."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:43:<autosummary>:1
 msgid ":py:obj:`mechanics.Results <felupe.mechanics.Results>`\\ \\(\\[stress\\, elasticity\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:43:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.Results:1
 msgid "A class with intermediate results of an Item."
 msgstr ""
@@ -8928,29 +8940,34 @@ msgstr ""
 msgid "Array of initial internal state variables (default is None)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:25
+msgid "The density of the solid body."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:20
 msgid "The total potential energy of internal forces is given in Eq. :eq:`solidbody`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:21
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:23
 msgid "\\Pi_{int}(\\boldsymbol{F}) = \\int_V \\psi(\\boldsymbol{F})\\ dV"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:26
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:28
 msgid "with its variation, see Eq. :eq:`solidbody-variation`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:28
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:30
 msgid "\\delta_\\boldsymbol{u}(\\Pi_{int}) =\n"
 "    \\int_V \\frac{\\partial \\psi}{\\partial \\boldsymbol{F}} \\ dV\n"
 "\\longrightarrow \\boldsymbol{f}_\\boldsymbol{u}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:35
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:37
 msgid "and linearization, see Eq. :eq:`solidbody-linearization`. The right-arrows in Eq. :eq:`solidbody-variation` and Eq. :eq:`solidbody-linearization` represent the assembly into system scalars, vectors or matrices."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:39
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:41
 msgid "\\delta_\\boldsymbol{u}\\Delta_\\boldsymbol{u}(\\Pi_{int}) =\n"
 "    \\int_V \\delta\\boldsymbol{F} :\n"
 "        \\frac{\\partial^2 \\psi}{\n"
@@ -8959,16 +8976,16 @@ msgid "\\delta_\\boldsymbol{u}\\Delta_\\boldsymbol{u}(\\Pi_{int}) =\n"
 "\\longrightarrow \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:49
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:51
 msgid "The displacement-based formulation leads to a linearized equation system as given in Eq. :eq:`solidbody-final`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:52
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:54
 msgid "\\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}} \\cdot \\delta \\boldsymbol{u} +\n"
 "    \\boldsymbol{f}_\\boldsymbol{u} = \\boldsymbol{0}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:59
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:61
 msgid "This class also supports ``umat`` with mixed-field formulations like :class:`~felupe.NearlyIncompressible` or :class:`~felupe.ThreeFieldVariation`."
 msgstr ""
 
@@ -8983,7 +9000,7 @@ msgid "Interactive Scene"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:15
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:88
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:90
 msgid ":obj:`felupe.SolidBodyNearlyIncompressible`"
 msgstr ""
 
@@ -9003,15 +9020,15 @@ msgstr ""
 msgid "A valid initial state for a (nearly) incompressible solid (default is None)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:28
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:30
 msgid "The total potential energy of internal forces for a three-field variational approach, suitable for nearly-incompressible material behaviour, is given in Eq. :eq:`nearlyincompressible`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:40
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:42
 msgid "with its variations, see Eq. :eq:`nearlyinc-variations`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:42
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:44
 msgid "\\delta_\\boldsymbol{u}(\\Pi_{int}) &=\n"
 "    \\int_V \\left( \\frac{\\partial \\hat{\\psi}}{\\partial \\boldsymbol{F}} +\n"
 "    p\\ \\frac{\\partial J}{\\partial \\boldsymbol{F}} \\right) :\n"
@@ -9027,11 +9044,11 @@ msgid "\\delta_\\boldsymbol{u}(\\Pi_{int}) &=\n"
 "\\longrightarrow r_{\\bar{J}}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:59
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:61
 msgid "and linearizations, see Eq. :eq:`nearlyinc-linearizations` [1]_ [2]_ [3]_. The right-arrows in Eq. :eq:`nearlyinc-variations` and Eq. :eq:`nearlyinc-linearizations` represent the assembly into system scalars, vectors or matrices."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:64
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:66
 msgid "\\delta_\\boldsymbol{u}\\Delta_\\boldsymbol{u}(\\Pi_{int}) &=\n"
 "    \\int_V \\delta\\boldsymbol{F} : \\left(\n"
 "        \\frac{\\partial^2 \\hat{\\psi}}{\n"
@@ -9054,25 +9071,25 @@ msgid "\\delta_\\boldsymbol{u}\\Delta_\\boldsymbol{u}(\\Pi_{int}) &=\n"
 "\\longrightarrow K\\ V"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:88
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:90
 msgid "The assembled constraint equations for the variations w.r.t. the dual fields :math:`p` and :math:`\\bar{J}` are given in Eq. :eq:`nearlyinc-constraints`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:91
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:93
 msgid "r_p &= \\left( \\frac{v}{V} - \\bar{J} \\right) V\n"
 "\n"
 "r_{\\bar{J}} &= \\left( K (\\bar{J} - 1) - p \\right) V"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:112
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:114
 msgid "**Hu-Washizu Three-Field-Variational Principle**"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:114
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:116
 msgid "The Three-Field-Variation :math:`(\\boldsymbol{u},p,\\bar{J})` leads to a linearized equation system with nine sub block-matrices, see Eq. :eq:`hu-washizu` [4]_. Due to the fact that the equation system is derived by a potential, the matrix is symmetric and hence, only six independent sub-matrices have to be evaluated. Furthermore, by the application of the mean dilatation technique, two of the remaining six sub-matrices are identified to be zero. That means four sub-matrices are left to be evaluated, where two non-zero sub-matrices are scalar-valued entries."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:124
 msgid "\\begin{bmatrix}\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}\n"
 "        & \\boldsymbol{K}_{\\boldsymbol{u}p} & \\boldsymbol{0} \\\\\n"
@@ -9094,11 +9111,11 @@ msgid "\\begin{bmatrix}\n"
 "\\end{bmatrix}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:145
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:147
 msgid "A condensed representation of the equation system, only dependent on the primary unknowns :math:`\\boldsymbol{u}` is carried out. To do so, the second line is multiplied by the bulk modulus :math:`K`, see Eq. :eq:`nearlyinc-condensed`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:149
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:151
 msgid "\\begin{bmatrix}\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}\n"
 "        & \\boldsymbol{K}_{\\boldsymbol{u}p} & \\boldsymbol{0} \\\\\n"
@@ -9120,11 +9137,11 @@ msgid "\\begin{bmatrix}\n"
 "\\end{bmatrix}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:172
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:174
 msgid "Lines two and three are contracted by summation as given in Eq. :eq:`nearlyinc-contracted-sum`. This eliminates :math:`\\bar{J}` from the unknowns."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:175
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:177
 msgid "\\begin{bmatrix}\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}\n"
 "        & \\boldsymbol{K}_{\\boldsymbol{u}p} \\\\\n"
@@ -9142,11 +9159,11 @@ msgid "\\begin{bmatrix}\n"
 "\\end{bmatrix}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:194
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:196
 msgid "Next, the second line is left-expanded by :math:`\\frac{1}{V}~\\boldsymbol{K}_{\\boldsymbol{u}p}` and both equations are summed up again, see :eq:`nearlyinc-contracted-sum-final`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:198
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:200
 msgid "\\left(\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}\n"
 "        + \\frac{K}{V}~\\boldsymbol{K}_{\\boldsymbol{u}p} \\otimes\n"
@@ -9156,57 +9173,58 @@ msgid "\\left(\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}p} = \\boldsymbol{0}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:209
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:211
 msgid "The secondary unknowns are evaluated after solving the primary unknowns, see Eq. :eq:`nearlyinc-final`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:212
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:214
 msgid "\\delta \\bar{J} &= \\frac{1}{V} \\delta \\boldsymbol{u} \\cdot\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}p} + \\frac{v}{V} - \\bar{J}\n"
 "\n"
 "\\delta p &= K \\left(\\bar{J} + \\delta \\bar{J} - 1 \\right) - p"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:220
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:222
 msgid "The condensed constraint equation in Eq. :eq:`nearlyinc-contracted-sum-final` is given in Eq. :eq:`nearlyinc-constraint`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:223
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:225
 msgid "\\frac{K~r_p + r_{\\bar{J}}}{V} = K \\left( \\frac{v}{V} - 1 \\right) - p"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:228
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:230
 msgid "and the deformed volume is evaluated by Eq. :eq:`nearlyinc-deformed-volume`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:230
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:232
 msgid "v = \\int_V J\\ dV"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:262
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:264
 msgid "J. Bonet, A. J. Gil, and R. D. Wood, \"Nonlinear Solid Mechanics for Finite Element Analysis: Statics\". Cambridge University Press, Jun. 05, 2016. doi: 10.1017/cbo9781316336144."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:266
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:268
 msgid "O. C. Zienkiewicz, R. L. Taylor and J.Z. Zhu, \"The Finite Element Method: its Basis and Fundamentals\". Elsevier, 2013. doi: 10.1016/c2009-0-24909-9."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:269
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:271
 msgid "G. A. Holzapfel, \"Nonlinear Solid Mechanics. A Continuum Approach for Engineering\". Wiley, 2000. isbn: 047182304X."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:272
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:274
 msgid "J. A. Schönherr, P. Schneider, and C. Mittelstedt, \"Robust hybrid/mixed finite elements for rubber-like materials under severe compression\", Computational Mechanics, vol. 70, no. 1. Springer Science and Business Media LLC, pp. 101–122, Mar. 31, 2022. doi: 10.1007/s00466-022-02157-y."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:279
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:281
 msgid ":obj:`felupe.StateNearlyIncompressible`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:280
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:282
 msgid "A State with internal cell-wise constant fields for (nearly) incompressible solid bodies."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.py:docstring of felupe.mechanics._free_vibration.FreeVibration:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.py:docstring of felupe.mechanics._pointload.PointLoad:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.py:docstring of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress:1
@@ -9289,6 +9307,7 @@ msgstr ""
 msgid "A dict with :class:`~felupe.Boundary` or ``item``-keys which holds the array of values to ramp (default is None). If None, only one substep is evaluated."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.py:docstring of felupe.mechanics._free_vibration.FreeVibration:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_step.py:docstring of felupe.mechanics._step.Step:9
 msgid "A dict with :class:`~felupe.Boundary` conditions (default is None)."
 msgstr ""
@@ -9529,6 +9548,14 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve.plot:45
 msgid "**ax** (*matplotlib.axes.Axes*) -- The axes object where the plot is placed in."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.py:docstring of felupe.mechanics._free_vibration.FreeVibration:3
+msgid "A list of items with methods for the assembly of sparse stiffness and mass matrices."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.py:docstring of felupe.mechanics._free_vibration.FreeVibration:13
+msgid "Boundary conditions with non-zero values are not supported."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointConstraint:3
@@ -10957,7 +10984,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.view:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:49
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:27
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:55
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:56
 msgid ":obj:`felupe.ViewMesh`"
 msgstr ""
 
@@ -12541,7 +12568,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:47
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:37
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:53
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:54
 msgid "Base class for plotting a static scene."
 msgstr ""
 
@@ -12581,7 +12608,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:5
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:28
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_xdmf.py:docstring of felupe.view._xdmf.ViewXdmf:12
 msgid "A generalized Dataset with the mesh as well as point- and cell-data. This is not an instance of :class:`felupe.Mesh`."
 msgstr ""
@@ -12589,20 +12616,20 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:31
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_xdmf.py:docstring of felupe.view._xdmf.ViewXdmf:15
 msgid "pyvista.UnstructuredGrid"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:50
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:28
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:56
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:57
 msgid "Provide Visualization methods for a mesh with optional given dicts of point- and cell-data items."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:40
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:31
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:59
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:60
 msgid "Provide Visualization methods for a field container."
 msgstr ""
 
@@ -12624,7 +12651,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:46
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:36
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:52
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:53
 msgid ":obj:`felupe.view.Scene`"
 msgstr ""
 
@@ -12650,10 +12677,10 @@ msgid "A solid body to evaluate the (Cauchy) stress (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:12
-msgid "The type of stress which is exported, either \"Cauchy\" or \"Kirchhoff\" (default is \"Cauchy\")."
+msgid "The type of stress which is exported, either \"Cauchy\", \"Kirchhoff\" or None. If None, the first Piola-Kirchhoff stress (engineering stress in linear elasticity) is used. Default is \"Cauchy\"."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:21
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:22
 msgid "Callable to project stress at quadrature-points to mesh-points (default is None). Valid callables are :class:`~felupe.project` or :class:`~felupe.tools.extrapolate`."
 msgstr ""
 

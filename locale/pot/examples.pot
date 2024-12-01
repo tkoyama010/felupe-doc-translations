@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-18 00:10+0000\n"
+"POT-Creation-Date: 2024-12-01 00:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -171,7 +171,7 @@ msgid "The external uniaxial tension is applied by a pressure load on the right 
 msgstr ""
 
 #: ../../felupe/docs/examples/ex02_plate-with-hole.rst:131
-msgid "The simulation model is now ready to be solved. The equivalent von Mises Cauchy stress will be plotted. For the two-dimensional case it is calculated by Eq. :eq:`svM`. Stresses, located at quadrature-points of cells, are shifted to and averaged at mesh- points."
+msgid "The simulation model is now ready to be solved. The equivalent von Mises stress will be plotted. For the two-dimensional case it is calculated by Eq. :eq:`svM`. Stresses, located at quadrature-points of cells, are shifted to and averaged at mesh- points."
 msgstr ""
 
 #: ../../felupe/docs/examples/ex02_plate-with-hole.rst:136
@@ -764,7 +764,7 @@ msgid "A linear-elastic notched plate is subjected to uniaxial tension. The cell
 msgstr ""
 
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:97
-msgid "The number of maximum endurable cycles between zero and the applied displacement is evaluated with a SN-curve as denoted in Eq. :eq:`sn-curve`. The range of the maximum principal value of the Cauchy stress tensor is used to evaluate the fatigue life. For simplicity, the stress is evaluated for the total solid body. To consider only stresses on points which lie on the surface of the solid body, the cells on faces :meth:`~felupe.RegionHexahedronBoundary.mesh.cells_faces` must be determined first."
+msgid "The number of maximum endurable cycles between zero and the applied displacement is evaluated with a SN-curve as denoted in Eq. :eq:`sn-curve`. The range of the maximum principal value of the stress tensor is used to evaluate the fatigue life. For simplicity, the stress is evaluated for the total solid body. To consider only stresses on points which lie on the surface of the solid body, the cells on faces :meth:`~felupe.RegionHexahedronBoundary.mesh.cells_faces` must be determined first."
 msgstr ""
 
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:105
