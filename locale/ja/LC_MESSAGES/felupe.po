@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-01 00:13+0000\n"
+"POT-Creation-Date: 2024-12-08 00:12+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -227,7 +227,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:65
 #: ../../felupe/docs/felupe/constitution/core.rst:56
 #: ../../felupe/docs/felupe/constitution/tools.rst:34
-#: ../../felupe/docs/felupe/dof.rst:33 ../../felupe/docs/felupe/element.rst:51
+#: ../../felupe/docs/felupe/dof.rst:34 ../../felupe/docs/felupe/element.rst:51
 #: ../../felupe/docs/felupe/field.rst:27 ../../felupe/docs/felupe/math.rst:66
 #: ../../felupe/docs/felupe/mechanics.rst:44
 #: ../../felupe/docs/felupe/mesh.rst:61
@@ -2327,7 +2327,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
 #: of felupe.assembly.expression._decorator.FormExpressionDecorator:123
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:219
+#: of felupe.dof._boundary.Boundary:172
 msgid ":obj:`felupe.FormItem`"
 msgstr ""
 
@@ -5180,7 +5180,7 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:73
-#: ../../felupe/docs/felupe/dof.rst:15 ../../felupe/docs/felupe/mesh.rst:31
+#: ../../felupe/docs/felupe/dof.rst:16 ../../felupe/docs/felupe/mesh.rst:31
 msgid "**Tools**"
 msgstr ""
 
@@ -10236,7 +10236,7 @@ msgid ""
 "templates for simple load cases."
 msgstr ""
 
-#: ../../felupe/docs/felupe/dof.rst:14:<autosummary>:1
+#: ../../felupe/docs/felupe/dof.rst:15:<autosummary>:1
 msgid ""
 ":py:obj:`Boundary <felupe.Boundary>`\\ \\(field\\[\\, name\\, fx\\, fy\\, "
 "fz\\, value\\, ...\\]\\)"
@@ -10244,7 +10244,7 @@ msgstr ""
 ":py:obj:`Boundary <felupe.Boundary>`\\ \\(field\\[\\, name\\, fx\\, fy\\, "
 "fz\\, value\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/dof.rst:14:<autosummary>:1
+#: ../../felupe/docs/felupe/dof.rst:15:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:1
 msgid ""
@@ -10252,11 +10252,21 @@ msgid ""
 "coordinate components of a field at points of a mesh)."
 msgstr ""
 
-#: ../../felupe/docs/felupe/dof.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/dof.rst:15:<autosummary>:1
+msgid ":py:obj:`BoundaryDict <felupe.BoundaryDict>`\\"
+msgstr ""
+
+#: ../../felupe/docs/felupe/dof.rst:15:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
+#: of felupe.dof._dict.BoundaryDict:1
+msgid "A dict of boundary conditions."
+msgstr ""
+
+#: ../../felupe/docs/felupe/dof.rst:24:<autosummary>:1
 msgid ":py:obj:`dof.partition <felupe.dof.partition>`\\ \\(field\\, bounds\\)"
 msgstr ":py:obj:`dof.partition <felupe.dof.partition>`\\ \\(field\\, bounds\\)"
 
-#: ../../felupe/docs/felupe/dof.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/dof.rst:24:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.partition:1
 msgid ""
@@ -10264,11 +10274,11 @@ msgid ""
 "(dof1) degrees of freedom."
 msgstr ""
 
-#: ../../felupe/docs/felupe/dof.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/dof.rst:24:<autosummary>:1
 msgid ":py:obj:`dof.apply <felupe.dof.apply>`\\ \\(field\\, bounds\\[\\, dof0\\]\\)"
 msgstr ":py:obj:`dof.apply <felupe.dof.apply>`\\ \\(field\\, bounds\\[\\, dof0\\]\\)"
 
-#: ../../felupe/docs/felupe/dof.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/dof.rst:24:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.apply:1
 msgid ""
@@ -10276,7 +10286,7 @@ msgid ""
 " only the prescribed components of the ``field`` based on ``dof0``."
 msgstr ""
 
-#: ../../felupe/docs/felupe/dof.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/dof.rst:24:<autosummary>:1
 msgid ""
 ":py:obj:`dof.symmetry <felupe.dof.symmetry>`\\ \\(field\\[\\, axes\\, x\\, "
 "y\\, z\\, bounds\\]\\)"
@@ -10284,7 +10294,7 @@ msgstr ""
 ":py:obj:`dof.symmetry <felupe.dof.symmetry>`\\ \\(field\\[\\, axes\\, x\\, "
 "y\\, z\\, bounds\\]\\)"
 
-#: ../../felupe/docs/felupe/dof.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/dof.rst:24:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.symmetry:1
 msgid ""
@@ -10292,11 +10302,11 @@ msgid ""
 "z-coordinates."
 msgstr ""
 
-#: ../../felupe/docs/felupe/dof.rst:24
+#: ../../felupe/docs/felupe/dof.rst:25
 msgid "**Load Cases**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/dof.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/dof.rst:33:<autosummary>:1
 msgid ""
 ":py:obj:`dof.uniaxial <felupe.dof.uniaxial>`\\ \\(field\\[\\, left\\, "
 "right\\, move\\, ...\\]\\)"
@@ -10304,14 +10314,14 @@ msgstr ""
 ":py:obj:`dof.uniaxial <felupe.dof.uniaxial>`\\ \\(field\\[\\, left\\, "
 "right\\, move\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/dof.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/dof.rst:33:<autosummary>:1
 msgid ""
 "Return a dict of boundaries for uniaxial loading between a left (fixed or "
 "symmetry face) and a right (applied) end face along a given axis with "
 "optional selective symmetries at the origin."
 msgstr ""
 
-#: ../../felupe/docs/felupe/dof.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/dof.rst:33:<autosummary>:1
 msgid ""
 ":py:obj:`dof.biaxial <felupe.dof.biaxial>`\\ \\(field\\[\\, lefts\\, "
 "rights\\, moves\\, ...\\]\\)"
@@ -10319,14 +10329,14 @@ msgstr ""
 ":py:obj:`dof.biaxial <felupe.dof.biaxial>`\\ \\(field\\[\\, lefts\\, "
 "rights\\, moves\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/dof.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/dof.rst:33:<autosummary>:1
 msgid ""
 "Return a dict of boundaries for biaxial loading between a left (applied or "
 "symmetry face) and a right (applied) end face along a given pair of axes "
 "with optional selective symmetries at the origin."
 msgstr ""
 
-#: ../../felupe/docs/felupe/dof.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/dof.rst:33:<autosummary>:1
 msgid ""
 ":py:obj:`dof.shear <felupe.dof.shear>`\\ \\(field\\[\\, bottom\\, top\\, "
 "moves\\, axes\\, sym\\]\\)"
@@ -10334,7 +10344,7 @@ msgstr ""
 ":py:obj:`dof.shear <felupe.dof.shear>`\\ \\(field\\[\\, bottom\\, top\\, "
 "moves\\, axes\\, sym\\]\\)"
 
-#: ../../felupe/docs/felupe/dof.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/dof.rst:33:<autosummary>:1
 msgid ""
 "Return a dict of boundaries for shear loading with optional combined "
 "compression between a rigid bottom and a rigid top end face along a given "
@@ -10449,18 +10459,18 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:97
+#: of felupe.dof._boundary.Boundary:89
 msgid ""
 "If ``fx`` and ``fy`` are given, the masks are combined by *logical-or*."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:113
+#: of felupe.dof._boundary.Boundary:98
 msgid "This may be changed to *logical-and* if desired."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:129
+#: of felupe.dof._boundary.Boundary:107
 msgid ""
 "For the most-general case, a user-defined boolean mask for the selection of "
 "the mesh-points is provided. While the two upper methods are useful to "
@@ -10470,14 +10480,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:149
+#: of felupe.dof._boundary.Boundary:121
 msgid ""
 "The application of a new mask allows to change the selected points of an "
 "existing boundary condition."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:167
+#: of felupe.dof._boundary.Boundary:133
 msgid ""
 "A boundary condition may be skipped on given axes, i.e. if only the "
 "x-components of a field should be prescribed on the selected points, then "
@@ -10485,14 +10495,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:185
+#: of felupe.dof._boundary.Boundary:144
 msgid ""
 "Values for the prescribed degress of freedom are either applied during "
 "creation or by the update-method."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:203
+#: of felupe.dof._boundary.Boundary:156
 msgid ""
 "Sometimes it is useful to create a boundary with all axes skipped. This "
 "boundary has no prescribed degrees of freedom and hence, is without effect. "
@@ -10501,17 +10511,17 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:210
+#: of felupe.dof._boundary.Boundary:163
 msgid ":obj:`felupe.CharacteristicCurve`"
 msgstr ":obj:`felupe.CharacteristicCurve`"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:211
+#: of felupe.dof._boundary.Boundary:164
 msgid "A job with a boundary to be tracked."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:213
+#: of felupe.dof._boundary.Boundary:166
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:142
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -10524,7 +10534,7 @@ msgid ":obj:`felupe.dof.partition`"
 msgstr ":obj:`felupe.dof.partition`"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:214
+#: of felupe.dof._boundary.Boundary:167
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:143
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -10537,7 +10547,7 @@ msgid "Partition degrees of freedom into prescribed and active dof."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:216
+#: of felupe.dof._boundary.Boundary:169
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:145
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -10550,7 +10560,7 @@ msgid ":obj:`felupe.dof.apply`"
 msgstr ":obj:`felupe.dof.apply`"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:217
+#: of felupe.dof._boundary.Boundary:170
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:146
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -10563,7 +10573,7 @@ msgid "Apply prescribed values for a list of boundaries."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:220
+#: of felupe.dof._boundary.Boundary:173
 msgid "Create boundaries by weak forms."
 msgstr ""
 
@@ -10573,8 +10583,76 @@ msgid "Apply a boolean mask to the boundary."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary.plot:1
+msgid ""
+"Plot the points and their prescribed directions of a boundary condition."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary.update:1
 msgid "Update the value of the boundary in-place."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
+#: of felupe.BoundaryDict.fromkeys:1
+msgid ""
+"Create a new dictionary with keys from iterable and values set to value."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
+#: of felupe.BoundaryDict.get:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
+#: of felupe.BoundaryDict.setdefault:3
+msgid "Return the value for key if key is in the dictionary, else default."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
+#: of felupe.dof._dict.BoundaryDict.imshow:1
+msgid ""
+"Take a screenshot of the boundary conditions, show the image data in a "
+"figure and return the ax."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
+#: of felupe.dof._dict.BoundaryDict.plot:1
+msgid "Plot the boundary conditions."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
+#: of felupe.BoundaryDict.pop:1
+msgid ""
+"If the key is not found, return the default if given; otherwise, raise a "
+"KeyError."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
+#: of felupe.BoundaryDict.popitem:1
+msgid "Remove and return a (key, value) pair as a 2-tuple."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
+#: of felupe.BoundaryDict.popitem:3
+msgid ""
+"Pairs are returned in LIFO (last-in, first-out) order. Raises KeyError if "
+"the dict is empty."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
+#: of felupe.dof._dict.BoundaryDict.screenshot:1
+msgid "Take a screenshot of the boundary conditions."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
+#: of felupe.BoundaryDict.setdefault:1
+msgid "Insert key with a value of default if key is not in the dictionary."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
+#: of felupe.BoundaryDict.update:1
+msgid ""
+"If E is present and has a .keys() method, then does:  for k in E: D[k] = "
+"E[k] If E is present and lacks a .keys() method, then does:  for k, v in E: "
+"D[k] = v In either case, this is followed by: for k in F:  D[k] = F[k]"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
@@ -16157,6 +16235,11 @@ msgstr ""
 msgid ""
 "A flag to multiply the assembled vector and matrix by a scaling factor of "
 ":math:`2 \\pi` (default is False)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.pydocstring
+#: of felupe.mechanics._pointload.PointLoad.plot:1
+msgid "Plot the point load."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.7/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
