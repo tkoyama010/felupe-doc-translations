@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-14 00:11+0000\n"
+"POT-Creation-Date: 2024-12-19 00:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -477,7 +477,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointConstraint:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointContact:18
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.py:docstring of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.py:docstring of felupe.mechanics._solidbody_force.SolidBodyForce:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:29
@@ -689,7 +689,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointConstraint:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointContact:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.py:docstring of felupe.mechanics._pointload.PointLoad:17
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:65
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:72
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.py:docstring of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.py:docstring of felupe.mechanics._solidbody_force.SolidBodyForce:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:239
@@ -8823,7 +8823,7 @@ msgid "**Solid Bodies**"
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
-msgid ":py:obj:`SolidBody <felupe.SolidBody>`\\ \\(umat\\, field\\[\\, statevars\\, density\\]\\)"
+msgid ":py:obj:`SolidBody <felupe.SolidBody>`\\ \\(umat\\, field\\[\\, statevars\\, density\\, ...\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
@@ -8837,7 +8837,7 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:16
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:91
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:98
 msgid "A (nearly) incompressible solid body with methods for the assembly of sparse vectors/matrices."
 msgstr ""
 
@@ -9003,29 +9003,41 @@ msgstr ""
 msgid "The density of the solid body."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:17
+msgid "Assemble a sparse matrix from sparse sub-blocks or assemble a sparse vector by stacking sparse matrices vertically (row wise). Default is True."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:20
+msgid "Apply a callable on the assembled vectors and sparse matrices. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:22
+msgid "A scale factor for the assembled vector and matrix. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:27
 msgid "The total potential energy of internal forces is given in Eq. :eq:`solidbody`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:23
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:30
 msgid "\\Pi_{int}(\\boldsymbol{F}) = \\int_V \\psi(\\boldsymbol{F})\\ dV"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:28
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:35
 msgid "with its variation, see Eq. :eq:`solidbody-variation`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:30
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:37
 msgid "\\delta_\\boldsymbol{u}(\\Pi_{int}) =\n"
 "    \\int_V \\frac{\\partial \\psi}{\\partial \\boldsymbol{F}} \\ dV\n"
 "\\longrightarrow \\boldsymbol{f}_\\boldsymbol{u}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:37
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:44
 msgid "and linearization, see Eq. :eq:`solidbody-linearization`. The right-arrows in Eq. :eq:`solidbody-variation` and Eq. :eq:`solidbody-linearization` represent the assembly into system scalars, vectors or matrices."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:41
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:48
 msgid "\\delta_\\boldsymbol{u}\\Delta_\\boldsymbol{u}(\\Pi_{int}) =\n"
 "    \\int_V \\delta\\boldsymbol{F} :\n"
 "        \\frac{\\partial^2 \\psi}{\n"
@@ -9034,16 +9046,16 @@ msgid "\\delta_\\boldsymbol{u}\\Delta_\\boldsymbol{u}(\\Pi_{int}) =\n"
 "\\longrightarrow \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:51
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:58
 msgid "The displacement-based formulation leads to a linearized equation system as given in Eq. :eq:`solidbody-final`."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:54
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:61
 msgid "\\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}} \\cdot \\delta \\boldsymbol{u} +\n"
 "    \\boldsymbol{f}_\\boldsymbol{u} = \\boldsymbol{0}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:61
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:68
 msgid "This class also supports ``umat`` with mixed-field formulations like :class:`~felupe.NearlyIncompressible` or :class:`~felupe.ThreeFieldVariation`."
 msgstr ""
 
@@ -9058,7 +9070,7 @@ msgid "Interactive Scene"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:15
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:90
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:97
 msgid ":obj:`felupe.SolidBodyNearlyIncompressible`"
 msgstr ""
 
