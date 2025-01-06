@@ -1,3 +1,3 @@
 import felupe as fem
-element = fem.TriQuadraticHexahedron()
+element = fem.QuadraticHexahedron()
 element.plot().show()
