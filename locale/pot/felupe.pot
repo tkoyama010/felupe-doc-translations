@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-06 00:11+0000\n"
+"POT-Creation-Date: 2025-02-11 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -8901,7 +8901,7 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:17:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:16
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:98
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:99
 msgid "A (nearly) incompressible solid body with methods for the assembly of sparse vectors/matrices."
 msgstr ""
 
@@ -9123,18 +9123,8 @@ msgstr ""
 msgid "This class also supports ``umat`` with mixed-field formulations like :class:`~felupe.NearlyIncompressible` or :class:`~felupe.ThreeFieldVariation`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:0
-#: ../../felupe/docs/felupe/mesh.rst:0
-msgid "Static Scene"
-msgstr ""
-
-#: ../../felupe/docs/felupe/mechanics.rst:0
-#: ../../felupe/docs/felupe/mesh.rst:0
-msgid "Interactive Scene"
-msgstr ""
-
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:15
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:97
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:98
 msgid ":obj:`felupe.SolidBodyNearlyIncompressible`"
 msgstr ""
 
@@ -9332,6 +9322,16 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:232
 msgid "v = \\int_V J\\ dV"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:0
+#: ../../felupe/docs/felupe/mesh.rst:0
+msgid "Static Scene"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:0
+#: ../../felupe/docs/felupe/mesh.rst:0
+msgid "Interactive Scene"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:264
