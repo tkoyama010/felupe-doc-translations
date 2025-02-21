@@ -1,3 +1,3 @@
 import felupe as fem
-element = fem.TriangleMINI()
+element = fem.TetraMINI()
 element.plot().show()

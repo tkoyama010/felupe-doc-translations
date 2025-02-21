@@ -1,3 +1,3 @@
 import felupe as fem
-element = fem.BiQuadraticQuad()
+element = fem.QuadraticTriangle()
 element.plot().show()

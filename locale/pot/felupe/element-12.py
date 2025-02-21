@@ -1,3 +1,3 @@
 import felupe as fem
-element = fem.QuadraticTriangle()
+element = fem.QuadraticTetra()
 element.plot().show()

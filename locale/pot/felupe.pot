@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-15 00:10+0000\n"
+"POT-Creation-Date: 2025-02-21 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -155,13 +155,13 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution/core.rst:56
 #: ../../felupe/docs/felupe/constitution/tools.rst:34
 #: ../../felupe/docs/felupe/dof.rst:34
-#: ../../felupe/docs/felupe/element.rst:55
+#: ../../felupe/docs/felupe/element.rst:56
 #: ../../felupe/docs/felupe/field.rst:27
 #: ../../felupe/docs/felupe/math.rst:66
 #: ../../felupe/docs/felupe/mechanics.rst:44
 #: ../../felupe/docs/felupe/mesh.rst:61
-#: ../../felupe/docs/felupe/quadrature.rst:30
-#: ../../felupe/docs/felupe/region.rst:37
+#: ../../felupe/docs/felupe/quadrature.rst:32
+#: ../../felupe/docs/felupe/region.rst:38
 #: ../../felupe/docs/felupe/tools.rst:34
 #: ../../felupe/docs/felupe/view.rst:17
 msgid "**Detailed API Reference**"
@@ -321,8 +321,10 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.rotate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.screenshot:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendre.inv:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendreBoundary:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendre.inv:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendreBoundary:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobatto:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobattoBoundary:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_sphere.py:docstring of felupe.quadrature._sphere.BazantOh:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_tetra.py:docstring of felupe.quadrature._tetra.Tetrahedron:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_triangle.py:docstring of felupe.quadrature._triangle.Triangle:0
@@ -431,7 +433,6 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.ConstantHexahedron:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron:5
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_lagrange.py:docstring of felupe.element._lagrange.ArbitraryOrderLagrange:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_line.py:docstring of felupe.element._line.Line:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.BiQuadraticQuad:4
@@ -444,6 +445,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.QuadraticTriangle:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.Triangle:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.TriangleMINI:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_vertex.py:docstring of felupe.element._vertex.Vertex:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_axi.py:docstring of felupe.field._axi.FieldAxisymmetric:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_base.py:docstring of felupe.field._base.Field:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.extract:35
@@ -495,8 +497,10 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.modify_corners:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.write:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._tools.merge_duplicate_cells:15
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendre:15
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendreBoundary:14
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendre:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendreBoundary:14
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobatto:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobattoBoundary:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_scheme.py:docstring of felupe.quadrature._scheme.Scheme:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_sphere.py:docstring of felupe.quadrature._sphere.BazantOh:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_tetra.py:docstring of felupe.quadrature._tetra.Tetrahedron:8
@@ -647,7 +651,6 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.ConstantHexahedron:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron:16
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_lagrange.py:docstring of felupe.element._lagrange.ArbitraryOrderLagrange:76
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.BiQuadraticQuad:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.ConstantQuad:14
@@ -755,8 +758,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.triangulate:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.write:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._tools.merge_duplicate_cells:23
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendre:25
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendreBoundary:24
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendre:25
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendreBoundary:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_sphere.py:docstring of felupe.quadrature._sphere.BazantOh:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_tetra.py:docstring of felupe.quadrature._tetra.Tetrahedron:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_triangle.py:docstring of felupe.quadrature._triangle.Triangle:18
@@ -843,12 +846,12 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/assembly/_cartesian.py:docstring of felupe.assembly._cartesian.IntegralFormCartesian:71
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/assembly/_integral.py:docstring of felupe.assembly._integral.IntegralForm:156
-msgid ":obj:`felupe.assembly.IntegralFormAxisymmetric`"
+msgid ":py:obj:`felupe.assembly.IntegralFormAxisymmetric`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/assembly/_axi.py:docstring of felupe.assembly._axi.IntegralFormAxisymmetric:113
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/assembly/_integral.py:docstring of felupe.assembly._integral.IntegralForm:159
-msgid ":obj:`felupe.assembly.IntegralFormCartesian`"
+msgid ":py:obj:`felupe.assembly.IntegralFormCartesian`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/assembly/_axi.py:docstring of felupe.assembly._axi.IntegralFormAxisymmetric:114
@@ -858,7 +861,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/assembly/_integral.py:docstring of felupe.assembly._integral.IntegralForm:162
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:154
-msgid ":obj:`felupe.Form`"
+msgid ":py:obj:`felupe.Form`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/assembly/_integral.py:docstring of felupe.assembly._integral.IntegralForm:163
@@ -895,7 +898,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/assembly/_axi.py:docstring of felupe.assembly._axi.IntegralFormAxisymmetric:110
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/assembly/_cartesian.py:docstring of felupe.assembly._cartesian.IntegralFormCartesian:68
-msgid ":obj:`felupe.IntegralForm`"
+msgid ":py:obj:`felupe.IntegralForm`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/assembly/_axi.py:docstring of felupe.assembly._axi.IntegralFormAxisymmetric.assemble:1
@@ -1263,7 +1266,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:123
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_boundary.py:docstring of felupe.dof._boundary.Boundary:172
-msgid ":obj:`felupe.FormItem`"
+msgid ":py:obj:`felupe.FormItem`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.py:docstring of felupe.assembly.expression._decorator.FormExpressionDecorator:124
@@ -1324,7 +1327,7 @@ msgid "ndarray"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.py:docstring of felupe.assembly.expression._basis.Basis:39
-msgid ":obj:`felupe.assembly.expression.BasisField`"
+msgid ":py:obj:`felupe.assembly.expression.BasisField`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.py:docstring of felupe.assembly.expression._basis.BasisField:3
@@ -1365,7 +1368,7 @@ msgid "\\text{grad}(\\varphi)_{ai~jK~qc} = \\delta_{ij}\n"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.py:docstring of felupe.assembly.expression._basis.BasisField:69
-msgid ":obj:`felupe.assembly.expression.Basis`"
+msgid ":py:obj:`felupe.assembly.expression.Basis`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.py:docstring of felupe.assembly.expression._basis.BasisArray:3
@@ -1412,7 +1415,6 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.ConstantHexahedron:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron:35
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron:26
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:31
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_line.py:docstring of felupe.element._line.Line:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.BiQuadraticQuad:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.ConstantQuad:24
@@ -1495,7 +1497,7 @@ msgid "A function decorator for a linear- or bilinear-form object."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:157
-msgid ":obj:`felupe.Step`"
+msgid ":py:obj:`felupe.Step`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_item.py:docstring of felupe.mechanics._item.FormItem:158
@@ -1561,7 +1563,7 @@ msgid "Take this code-block as a template for a two-field :math:`(\\boldsymbol{u
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial:73
-msgid ":obj:`felupe.constitutive_material`"
+msgid ":py:obj:`felupe.constitutive_material`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial:74
@@ -1957,7 +1959,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-msgid ":obj:`scipy.optimize.least_squares`"
+msgid ":py:obj:`scipy.optimize.least_squares`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
@@ -2179,7 +2181,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.plot:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.screenshot:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.view:15
-msgid ":obj:`felupe.ViewMaterial`"
+msgid ":py:obj:`felupe.ViewMaterial`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial.plot:16
@@ -2304,7 +2306,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.plot:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.screenshot:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.view:18
-msgid ":obj:`felupe.ViewMaterialIncompressible`"
+msgid ":py:obj:`felupe.ViewMaterialIncompressible`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial.plot:19
@@ -2418,7 +2420,7 @@ msgid "This example shows how to create a derived user material class to enable 
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.constitutive_material:58
-msgid ":obj:`felupe.ConstitutiveMaterial`"
+msgid ":py:obj:`felupe.ConstitutiveMaterial`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.constitutive_material:59
@@ -2556,7 +2558,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/_material.py:docstring of felupe.constitution._material.Material:254
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.py:docstring of felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain:11
-msgid ":obj:`felupe.NeoHookeCompressible`"
+msgid ":py:obj:`felupe.NeoHookeCompressible`"
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:40:<autosummary>:1
@@ -2928,7 +2930,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.py:docstring of felupe.constitution.jax._total_lagrange.total_lagrange:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.py:docstring of felupe.constitution.jax._updated_lagrange.updated_lagrange:28
-msgid ":obj:`felupe.constitution.jax.Hyperelastic`"
+msgid ":py:obj:`felupe.constitution.jax.Hyperelastic`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.py:docstring of felupe.constitution.jax._total_lagrange.total_lagrange:28
@@ -2938,7 +2940,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.py:docstring of felupe.constitution.jax._total_lagrange.total_lagrange:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.py:docstring of felupe.constitution.jax._updated_lagrange.updated_lagrange:31
-msgid ":obj:`felupe.constitution.jax.Material`"
+msgid ":py:obj:`felupe.constitution.jax.Material`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.py:docstring of felupe.constitution.jax._total_lagrange.total_lagrange:31
@@ -3406,7 +3408,7 @@ msgid "D. Besdo and J. Ihlemann, \"A phenomenological constitutive model for rub
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.py:docstring of felupe.constitution.tensortrax.models.lagrange._morph.morph:156
-msgid ":obj:`felupe.constitution.tensortrax.models.lagrange.morph_representative_directions`"
+msgid ":py:obj:`felupe.constitution.tensortrax.models.lagrange.morph_representative_directions`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.py:docstring of felupe.constitution.tensortrax.models.lagrange._morph.morph:157
@@ -3415,7 +3417,7 @@ msgid "Strain energy function of the MORPH model formulation, implemented by the
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.py:docstring of felupe.constitution.tensortrax.models.lagrange._morph.morph:159
-msgid ":obj:`felupe.constitution.jax.models.lagrange.morph_representative_directions`"
+msgid ":py:obj:`felupe.constitution.jax.models.lagrange.morph_representative_directions`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.py:docstring of felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:1
@@ -3435,7 +3437,7 @@ msgid "M. Freund, \"Verallgemeinerung eindimensionaler Materialmodelle für die 
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.py:docstring of felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:79
-msgid ":obj:`felupe.constitution.tensortrax.models.lagrange.morph`"
+msgid ":py:obj:`felupe.constitution.tensortrax.models.lagrange.morph`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.py:docstring of felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:80
@@ -3444,7 +3446,7 @@ msgid "Strain energy function of the MORPH model formulation."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.py:docstring of felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:82
-msgid ":obj:`felupe.constitution.jax.models.lagrange.morph`"
+msgid ":py:obj:`felupe.constitution.jax.models.lagrange.morph`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/jax/_helpers.py:docstring of felupe.constitution.jax._helpers.vmap:1
@@ -3452,7 +3454,7 @@ msgid "Vectorizing map. Creates a function which maps ``fun`` over argument axes
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/jax/_helpers.py:docstring of felupe.constitution.jax._helpers.vmap:6
-msgid ":obj:`jax.vmap`"
+msgid ":py:obj:`jax.vmap`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/jax/_helpers.py:docstring of felupe.constitution.jax._helpers.vmap:7
@@ -3643,7 +3645,7 @@ msgid "See the `documentation of tensortrax <https://tensortrax.readthedocs.io>`
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:114
-msgid ":obj:`felupe.constitution.tensortrax.models.hyperelastic.saint_venant_kirchhoff`"
+msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.saint_venant_kirchhoff`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:115
@@ -3651,7 +3653,7 @@ msgid "Strain energy function of the Saint Venant-Kirchhoff material formulation
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:117
-msgid ":obj:`felupe.constitution.tensortrax.models.hyperelastic.neo_hooke`"
+msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.neo_hooke`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:118
@@ -3659,7 +3661,7 @@ msgid "Strain energy function of the Neo-Hookean material formulation."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:120
-msgid ":obj:`felupe.constitution.tensortrax.models.hyperelastic.mooney_rivlin`"
+msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.mooney_rivlin`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:121
@@ -3667,7 +3669,7 @@ msgid "Strain energy function of the Mooney-Rivlin material formulation."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:123
-msgid ":obj:`felupe.constitution.tensortrax.models.hyperelastic.yeoh`"
+msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.yeoh`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:124
@@ -3675,7 +3677,7 @@ msgid "\"Strain energy function of the Yeoh material formulation."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:126
-msgid ":obj:`felupe.constitution.tensortrax.models.hyperelastic.third_order_deformation`"
+msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.third_order_deformation`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:127
@@ -3683,7 +3685,7 @@ msgid "Strain energy function of the Third-Order-Deformation material formulatio
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:129
-msgid ":obj:`felupe.constitution.tensortrax.models.hyperelastic.ogden`"
+msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.ogden`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:130
@@ -3691,7 +3693,7 @@ msgid "Strain energy function of the Ogden material formulation."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:132
-msgid ":obj:`felupe.constitution.tensortrax.models.hyperelastic.arruda_boyce`"
+msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.arruda_boyce`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:133
@@ -3699,7 +3701,7 @@ msgid "Strain energy function of the Arruda-Boyce material formulation."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:135
-msgid ":obj:`felupe.constitution.tensortrax.models.hyperelastic.extended_tube`"
+msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.extended_tube`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:136
@@ -3707,7 +3709,7 @@ msgid "Strain energy function of the Extended-Tube material formulation."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:138
-msgid ":obj:`felupe.constitution.tensortrax.models.hyperelastic.van_der_waals`"
+msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.van_der_waals`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:139
@@ -3715,7 +3717,7 @@ msgid "Strain energy function of the Van der Waals material formulation."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:141
-msgid ":obj:`felupe.constitution.tensortrax.models.hyperelastic.finite_strain_viscoelastic`"
+msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.finite_strain_viscoelastic`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:142
@@ -3749,7 +3751,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.py:docstring of felupe.constitution.tensortrax._total_lagrange.total_lagrange:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.py:docstring of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:27
-msgid ":obj:`felupe.constitution.tensortrax.Hyperelastic`"
+msgid ":py:obj:`felupe.constitution.tensortrax.Hyperelastic`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.py:docstring of felupe.constitution.tensortrax._total_lagrange.total_lagrange:27
@@ -3759,7 +3761,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.py:docstring of felupe.constitution.tensortrax._total_lagrange.total_lagrange:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.py:docstring of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:30
-msgid ":obj:`felupe.constitution.tensortrax.Material`"
+msgid ":py:obj:`felupe.constitution.tensortrax.Material`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.py:docstring of felupe.constitution.tensortrax._total_lagrange.total_lagrange:30
@@ -4378,11 +4380,11 @@ msgid "This material formulation must not be used in analyses where large rotati
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:80
-msgid ":obj:`felupe.LinearElasticLargeStrain`"
+msgid ":py:obj:`felupe.LinearElasticLargeStrain`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:83
-msgid ":obj:`felupe.Hyperelastic`"
+msgid ":py:obj:`felupe.Hyperelastic`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:84
@@ -4505,7 +4507,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic.py:docstring of felupe.constitution.small_strain.models._linear_elastic.linear_elastic:62
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution.small_strain.models._linear_elastic_plastic_isotropic.LinearElasticPlasticIsotropicHardening:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution.small_strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:118
-msgid ":obj:`MaterialStrain`"
+msgid ":py:obj:`MaterialStrain`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.py:docstring of felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain:12
@@ -4625,7 +4627,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/_material_strain.py:docstring of felupe.constitution.small_strain._material_strain.MaterialStrain:58
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution.small_strain.models._linear_elastic_plastic_isotropic.LinearElasticPlasticIsotropicHardening:18
-msgid ":obj:`linear_elastic_plastic_isotropic_hardening`"
+msgid ":py:obj:`linear_elastic_plastic_isotropic_hardening`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/_material_strain.py:docstring of felupe.constitution.small_strain._material_strain.MaterialStrain.extract:1
@@ -4743,7 +4745,7 @@ msgid "or this minimal header as template:"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/_material_strain.py:docstring of felupe.constitution.small_strain._material_strain.MaterialStrain:55
-msgid ":obj:`linear_elastic`"
+msgid ":py:obj:`linear_elastic`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/_material_strain.py:docstring of felupe.constitution.small_strain._material_strain.MaterialStrain:56
@@ -4751,7 +4753,7 @@ msgid "3D linear-elastic material formulation"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/_material_strain.py:docstring of felupe.constitution.small_strain._material_strain.MaterialStrain:61
-msgid ":obj:`LinearElasticPlasticIsotropicHardening`"
+msgid ":py:obj:`LinearElasticPlasticIsotropicHardening`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._mixed.NearlyIncompressible:6
@@ -4802,7 +4804,7 @@ msgid "A function which evaluates the second derivative of the volumetric part o
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._mixed.NearlyIncompressible:63
-msgid ":obj:`ThreeFieldVariation`"
+msgid ":py:obj:`ThreeFieldVariation`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._mixed.NearlyIncompressible:64
@@ -5641,11 +5643,11 @@ msgid "Eq. :eq:`ortho-matrix-inv` is evaluated and inverted numerically to extra
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:58
-msgid ":obj:`felupe.LinearElasticOrthotropic`"
+msgid ":py:obj:`felupe.LinearElasticOrthotropic`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:61
-msgid ":obj:`felupe.constitution.tensortrax.models.hyperelastic.saint_venant_kirchhoff_orthotropic`"
+msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.saint_venant_kirchhoff_orthotropic`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.py:docstring of felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:62
@@ -5826,7 +5828,7 @@ msgid "Sometimes it is useful to create a boundary with all axes skipped. This b
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_boundary.py:docstring of felupe.dof._boundary.Boundary:163
-msgid ":obj:`felupe.CharacteristicCurve`"
+msgid ":py:obj:`felupe.CharacteristicCurve`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_boundary.py:docstring of felupe.dof._boundary.Boundary:164
@@ -5838,7 +5840,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.shear:76
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.uniaxial:72
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_tools.py:docstring of felupe.dof._tools.apply:64
-msgid ":obj:`felupe.dof.partition`"
+msgid ":py:obj:`felupe.dof.partition`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_boundary.py:docstring of felupe.dof._boundary.Boundary:167
@@ -5854,7 +5856,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.shear:79
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.uniaxial:75
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_tools.py:docstring of felupe.dof._tools.partition:58
-msgid ":obj:`felupe.dof.apply`"
+msgid ":py:obj:`felupe.dof.apply`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_boundary.py:docstring of felupe.dof._boundary.Boundary:170
@@ -5954,7 +5956,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.uniaxial:69
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_tools.py:docstring of felupe.dof._tools.apply:61
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_tools.py:docstring of felupe.dof._tools.partition:55
-msgid ":obj:`felupe.Boundary`"
+msgid ":py:obj:`felupe.Boundary`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.biaxial:140
@@ -6121,7 +6123,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.biaxial:148
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.shear:82
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.uniaxial:78
-msgid ":obj:`felupe.dof.symmetry`"
+msgid ":py:obj:`felupe.dof.symmetry`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.py:docstring of felupe.dof._loadcase.biaxial:149
@@ -6245,162 +6247,162 @@ msgstr ""
 msgid "**Linear Elements**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:24:<autosummary>:1
+msgid ":py:obj:`Vertex <felupe.Vertex>`\\ \\(\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/element.rst:24:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_vertex.py:docstring of felupe.element._vertex.Vertex:1
+msgid "A vertex element formulation with constant shape functions."
+msgstr ""
+
+#: ../../felupe/docs/felupe/element.rst:24:<autosummary>:1
 msgid ":py:obj:`Line <felupe.Line>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:24:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_line.py:docstring of felupe.element._line.Line:1
 msgid "A 1D line element formulation with linear shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:24:<autosummary>:1
 msgid ":py:obj:`Quad <felupe.Quad>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:24:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.Quad:1
 msgid "A 2D quadrilateral element formulation with linear shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:24:<autosummary>:1
 msgid ":py:obj:`Hexahedron <felupe.Hexahedron>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:24:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron:1
 msgid "A 3D hexahedron (brick) element formulation with linear shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:24:<autosummary>:1
 msgid ":py:obj:`Triangle <felupe.Triangle>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:24:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.Triangle:1
 msgid "A 2D triangle element formulation with linear shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:24:<autosummary>:1
 msgid ":py:obj:`Tetra <felupe.Tetra>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:24:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.Tetra:1
 msgid "A 3D tetrahedron element formulation with linear shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:24
+#: ../../felupe/docs/felupe/element.rst:25
 msgid "**Constant Elements**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:30:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:31:<autosummary>:1
 msgid ":py:obj:`ConstantQuad <felupe.ConstantQuad>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:30:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:31:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.ConstantQuad:1
 msgid "A 2D quadrilateral element formulation with constant shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:30:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:31:<autosummary>:1
 msgid ":py:obj:`ConstantHexahedron <felupe.ConstantHexahedron>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:30:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:31:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.ConstantHexahedron:1
 msgid "A 3D hexahedron (brick) element formulation with constant shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:31
+#: ../../felupe/docs/felupe/element.rst:32
 msgid "**Quadratic Elements**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
 msgid ":py:obj:`QuadraticQuad <felupe.QuadraticQuad>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.QuadraticQuad:1
 msgid "A 2D quadrilateral element formulation with quadratic (serendipity) shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
 msgid ":py:obj:`QuadraticHexahedron <felupe.QuadraticHexahedron>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron:1
 msgid "A 3D hexahedron (brick) element formulation with quadratic (serendipity) shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
 msgid ":py:obj:`BiQuadraticQuad <felupe.BiQuadraticQuad>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.BiQuadraticQuad:1
 msgid "A 2D quadrilateral element formulation with bi-quadratic shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:41:<autosummary>:1
-msgid ":py:obj:`TriQuadraticHexahedron <felupe.TriQuadraticHexahedron>`\\ \\(\\)"
-msgstr ""
-
-#: ../../felupe/docs/felupe/element.rst:41:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:1
-msgid "A 3D hexahedron (brick) element formulation with tri-quadratic shape functions."
-msgstr ""
-
-#: ../../felupe/docs/felupe/element.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
 msgid ":py:obj:`QuadraticTriangle <felupe.QuadraticTriangle>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.QuadraticTriangle:1
 msgid "A 2D triangle element formulation with quadratic shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
 msgid ":py:obj:`QuadraticTetra <felupe.QuadraticTetra>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.QuadraticTetra:1
 msgid "A 3D tetrahedron element formulation with quadratic shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:42
+#: ../../felupe/docs/felupe/element.rst:43
 msgid "**Bubble-Enriched Elements**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:48:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:49:<autosummary>:1
 msgid ":py:obj:`TriangleMINI <felupe.TriangleMINI>`\\ \\(\\[bubble\\_multiplier\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:48:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:49:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.TriangleMINI:1
 msgid "A 2D triangle element formulation with bubble-enriched linear shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:48:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:49:<autosummary>:1
 msgid ":py:obj:`TetraMINI <felupe.TetraMINI>`\\ \\(\\[bubble\\_multiplier\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:48:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:49:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.TetraMINI:1
 msgid "A 3D tetrahedron element formulation with bubble-enriched linear shape functions."
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:49
+#: ../../felupe/docs/felupe/element.rst:50
 msgid "**Arbitrary-Order Elements**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:54:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:55:<autosummary>:1
 msgid ":py:obj:`element.ArbitraryOrderLagrange <felupe.element.ArbitraryOrderLagrange>`\\ \\(order\\, dim\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/element.rst:54:<autosummary>:1
+#: ../../felupe/docs/felupe/element.rst:55:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_lagrange.py:docstring of felupe.element._lagrange.ArbitraryOrderLagrange:1
 msgid "A n-dimensional Lagrange finite element (e.g. line, quad or hexahdron) of arbitrary order."
 msgstr ""
@@ -6431,7 +6433,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.plot:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.plot:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_scheme.py:docstring of felupe.quadrature._scheme.Scheme.plot:6
-msgid ":obj:`felupe.Scene.plot`"
+msgid ":py:obj:`felupe.Scene.plot`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_base.py:docstring of felupe.element._base.Element.plot:6
@@ -6455,7 +6457,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_scheme.py:docstring of felupe.quadrature._scheme.Scheme.screenshot:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.screenshot:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.screenshot:5
-msgid ":obj:`pyvista.Plotter.screenshot`"
+msgid ":py:obj:`pyvista.Plotter.screenshot`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_base.py:docstring of felupe.element._base.Element.screenshot:6
@@ -6513,7 +6515,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:49
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:56
-msgid ":obj:`felupe.ViewMesh`"
+msgid ":py:obj:`felupe.ViewMesh`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_base.py:docstring of felupe.element._base.Element.view:17
@@ -6523,7 +6525,6 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.ConstantHexahedron:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_lagrange.py:docstring of felupe.element._lagrange.ArbitraryOrderLagrange:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_line.py:docstring of felupe.element._line.Line:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.BiQuadraticQuad:1
@@ -6536,7 +6537,24 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.QuadraticTriangle:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.Triangle:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.TriangleMINI:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_vertex.py:docstring of felupe.element._vertex.Vertex:1
 msgid "Bases: :py:class:`~felupe.element._base.Element`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_vertex.py:docstring of felupe.element._vertex.Vertex:5
+msgid "The vertex element is defined by one point."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_vertex.py:docstring of felupe.element._vertex.Vertex.function:1
+msgid "Return the shape functions at given coordinate (r)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_vertex.py:docstring of felupe.element._vertex.Vertex.gradient:1
+msgid "Return the gradient of shape functions at given coordinate (r)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_vertex.py:docstring of felupe.element._vertex.Vertex.hessian:1
+msgid "Return the hessian of shape functions at given coordinate (r)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_line.py:docstring of felupe.element._line.Line:5
@@ -6557,7 +6575,6 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.ConstantHexahedron:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron:27
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_line.py:docstring of felupe.element._line.Line:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.BiQuadraticQuad:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.ConstantQuad:25
@@ -6639,7 +6656,6 @@ msgid "The hexahedron element is defined by eight points (0-7) where (0,1,2,3) f
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.QuadraticTetra:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.Tetra:7
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.TetraMINI:8
@@ -6662,7 +6678,6 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.ConstantHexahedron.function:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron.function:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron.function:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron.function:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.QuadraticTetra.function:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.Tetra.function:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.TetraMINI.function:1
@@ -6672,7 +6687,6 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.ConstantHexahedron.gradient:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron.gradient:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron.gradient:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron.gradient:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.QuadraticTetra.gradient:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.Tetra.gradient:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.TetraMINI.gradient:1
@@ -6744,10 +6758,6 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron:12
 msgid "The shape functions :math:`\\boldsymbol{h}` are given in terms of the coordinates :math:`(r,s,t)`.."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:5
-msgid "The hexahedron element is defined by 27 points. This includes 8 corner points, 12 mid-edge points, 6 mid-face points and one mid-volume point. The ordering of the 27 points defining the element is point ids (0-7,8-19, 20-25, 26) where point ids 0-7 are the eight corner vertices of the cube; followed by twelve midedge points (8-19); followed by 6 mid-face points (20-25) and the last point (26) is the mid-volume point. Note that these mid-edge points correspond to the edges defined by (0,1), (1,2), (2,3), (3,0), (4,5), (5,6), (6,7), (7,4), (0,4), (1,5), (2,6), (3,7). The mid-surface points lie on the faces defined by (first edge point id's, than mid-edge point id's): (0,1,5,4;8,17,12,16), (1,2,6,5;9,18,13,17), (2,3,7,6,10,19,14,18), (3,0,4,7;11,16,15,19), (0,1,2,3;8,9,10,11), (4,5,6,7;12,13,14,15). The last point lies in the center (0,1,2,3,4,5,6,7). [1]"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.QuadraticQuad:6
@@ -6999,7 +7009,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:50
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:38
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_planestrain.py:docstring of felupe.field._planestrain.FieldPlaneStrain:34
-msgid ":obj:`felupe.Field`"
+msgid ":py:obj:`felupe.Field`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_axi.py:docstring of felupe.field._axi.FieldAxisymmetric:49
@@ -7013,7 +7023,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:63
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:53
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:44
-msgid ":obj:`felupe.FieldAxisymmetric`"
+msgid ":py:obj:`felupe.FieldAxisymmetric`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:64
@@ -7023,7 +7033,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:66
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:47
-msgid ":obj:`felupe.FieldPlaneStrain`"
+msgid ":py:obj:`felupe.FieldPlaneStrain`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer:67
@@ -7158,7 +7168,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.extract:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.extract:55
-msgid ":obj:`felupe.Field.interpolate`"
+msgid ":py:obj:`felupe.Field.interpolate`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.extract:56
@@ -7168,7 +7178,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.extract:58
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.extract:58
-msgid ":obj:`felupe.Field.grad`"
+msgid ":py:obj:`felupe.Field.grad`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.extract:59
@@ -7197,7 +7207,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.view:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:62
-msgid ":obj:`felupe.project`"
+msgid ":py:obj:`felupe.project`"
 msgstr ""
 
 #: ../../felupe/docs/felupe/tools.rst:26:<autosummary>:1
@@ -7215,7 +7225,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.view:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.plot:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._container.FieldContainer.view:25
-msgid ":obj:`felupe.topoints`"
+msgid ":py:obj:`felupe.topoints`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.plot:12
@@ -7255,7 +7265,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:39
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:59
-msgid ":obj:`felupe.ViewField`"
+msgid ":py:obj:`felupe.ViewField`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_container.py:docstring of felupe.field._container.FieldContainer.view:20
@@ -7274,7 +7284,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:47
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_evaluate.py:docstring of felupe.field._evaluate.EvaluateFieldContainer:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:35
-msgid ":obj:`felupe.FieldContainer`"
+msgid ":py:obj:`felupe.FieldContainer`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:48
@@ -7331,7 +7341,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_evaluate.py:docstring of felupe.field._evaluate.EvaluateFieldContainer.green_lagrange_strain:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_evaluate.py:docstring of felupe.field._evaluate.EvaluateFieldContainer.log_strain:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_evaluate.py:docstring of felupe.field._evaluate.EvaluateFieldContainer.strain:38
-msgid ":obj:`math.strain`"
+msgid ":py:obj:`math.strain`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_evaluate.py:docstring of felupe.field._evaluate.EvaluateFieldContainer.green_lagrange_strain:24
@@ -7344,7 +7354,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_evaluate.py:docstring of felupe.field._evaluate.EvaluateFieldContainer.log_strain:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_evaluate.py:docstring of felupe.field._evaluate.EvaluateFieldContainer.strain:41
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._field.strain:64
-msgid ":obj:`math.strain_stretch_1d`"
+msgid ":py:obj:`math.strain_stretch_1d`"
 msgstr ""
 
 #: ../../felupe/docs/felupe/math.rst:29:<autosummary>:1
@@ -7487,7 +7497,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_base.py:docstring of felupe.field._base.Field.extract:31
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._base.Field.extract:31
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_planestrain.py:docstring of felupe.field._base.Field.extract:31
-msgid ":obj:`Field.interpolate`, :obj:`Field.grad`"
+msgid ":py:obj:`Field.interpolate`, :py:obj:`Field.grad`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_axi.py:docstring of felupe.field._base.Field.fill:1
@@ -7495,6 +7505,13 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._base.Field.fill:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_planestrain.py:docstring of felupe.field._base.Field.fill:1
 msgid "Fill all field values with a scalar value."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_axi.py:docstring of felupe.field._base.Field.from_mesh_container:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_base.py:docstring of felupe.field._base.Field.from_mesh_container:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._base.Field.from_mesh_container:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_planestrain.py:docstring of felupe.field._base.Field.from_mesh_container:1
+msgid "Create a Field on a vertex mesh from a mesh container."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_base.py:docstring of felupe.field._base.Field.grad:1
@@ -7651,7 +7668,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:59
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:50
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.dual:47
-msgid ":obj:`felupe.mesh.dual`"
+msgid ":py:obj:`felupe.mesh.dual`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_dual.py:docstring of felupe.field._dual.FieldDual:60
@@ -7684,7 +7701,7 @@ msgid "The dual region is chosen automatically, i.e. for a :class:`RegionHexahed
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/field/_fields.py:docstring of felupe.field._fields.FieldsMixed:41
-msgid ":obj:`felupe.FieldDual`"
+msgid ":py:obj:`felupe.FieldDual`"
 msgstr ""
 
 #: ../../felupe/docs/felupe/math.rst:4
@@ -8065,7 +8082,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya_ik:52
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya_il:52
-msgid ":obj:`felupe.math.dya`"
+msgid ":py:obj:`felupe.math.dya`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya:56
@@ -8077,7 +8094,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya:58
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya_il:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.dya:67
-msgid ":obj:`felupe.math.cdya_ik`"
+msgid ":py:obj:`felupe.math.cdya_ik`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya:59
@@ -8089,7 +8106,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya:61
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya_ik:58
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.dya:70
-msgid ":obj:`felupe.math.cdya_il`"
+msgid ":py:obj:`felupe.math.cdya_il`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya:62
@@ -8111,7 +8128,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya_ik:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya_il:58
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.dya:64
-msgid ":obj:`felupe.math.cdya`"
+msgid ":py:obj:`felupe.math.cdya`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cdya_ik:56
@@ -8187,11 +8204,11 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cof:66
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.inv:78
-msgid ":obj:`felupe.math.det`"
+msgid ":py:obj:`felupe.math.det`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cof:69
-msgid ":obj:`felupe.math.inv`"
+msgid ":py:obj:`felupe.math.inv`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cof:70
@@ -8223,7 +8240,7 @@ msgid "This is :func:`numpy.cross` with ``axisa = axisb = axisc = 0``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cross:42
-msgid ":obj:`numpy.cross`"
+msgid ":py:obj:`numpy.cross`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.cross:43
@@ -8350,7 +8367,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.dev:43
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.identity:69
-msgid ":obj:`numpy.eye`"
+msgid ":py:obj:`numpy.eye`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.dev:44
@@ -8434,17 +8451,17 @@ msgid "The associated eigenvectors are extracted. The first column is the eigenv
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.eig:53
-msgid ":obj:`felupe.math.eigh`"
+msgid ":py:obj:`felupe.math.eigh`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.eig:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.eigh:58
-msgid ":obj:`numpy.linalg.eig`"
+msgid ":py:obj:`numpy.linalg.eig`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.eig:59
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.eigh:61
-msgid ":obj:`numpy.linalg.eigh`"
+msgid ":py:obj:`numpy.linalg.eigh`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.eigh:4
@@ -8472,7 +8489,7 @@ msgid "The associated eigenvectors are extracted. The first column is the eigenv
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.eigh:55
-msgid ":obj:`felupe.math.eig`"
+msgid ":py:obj:`felupe.math.eig`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.equivalent_von_mises:3
@@ -8613,7 +8630,7 @@ msgid "with the column (grid) vectors :math:`\\boldsymbol{A}_j`, see Eq. :eq:`ma
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.inv:81
-msgid ":obj:`felupe.math.cof`"
+msgid ":py:obj:`felupe.math.cof`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.inv:82
@@ -8665,7 +8682,7 @@ msgid "or an empty array."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._math.linsteps:70
-msgid ":obj:`numpy.linspace`"
+msgid ":py:obj:`numpy.linspace`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._math.linsteps:71
@@ -8871,7 +8888,7 @@ msgid "\\text{tr} \\left( \\boldsymbol{A} \\right) &= \\boldsymbol{A} : \\boldsy
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.trace:44
-msgid ":obj:`numpy.trace`"
+msgid ":py:obj:`numpy.trace`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/math/__init__.py:docstring of felupe.math._tensor.trace:45
@@ -9125,7 +9142,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.py:docstring of felupe.mechanics._solidbody.SolidBody:98
-msgid ":obj:`felupe.SolidBodyNearlyIncompressible`"
+msgid ":py:obj:`felupe.SolidBodyNearlyIncompressible`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:1
@@ -9351,7 +9368,7 @@ msgid "J. A. Schönherr, P. Schneider, and C. Mittelstedt, \"Robust hybrid/mixed
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:281
-msgid ":obj:`felupe.StateNearlyIncompressible`"
+msgid ":py:obj:`felupe.StateNearlyIncompressible`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:282
@@ -9507,12 +9524,12 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:52
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:81
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:50
-msgid ":obj:`Step`"
+msgid ":py:obj:`Step`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:84
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:53
-msgid ":obj:`CharacteristicCurve`"
+msgid ":py:obj:`CharacteristicCurve`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:85
@@ -9522,7 +9539,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:58
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:87
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:56
-msgid ":obj:`tools.NewtonResult`"
+msgid ":py:obj:`tools.NewtonResult`"
 msgstr ""
 
 #: ../../felupe/docs/felupe/tools.rst:12:<autosummary>:1
@@ -9598,7 +9615,7 @@ msgid "A list of items with methods for the assembly of sparse vectors/matrices 
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:55
-msgid ":obj:`Job`"
+msgid ":py:obj:`Job`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve.plot:1
@@ -9739,7 +9756,7 @@ msgid "A view on the deformed mesh including the :class:`~felupe.MultiPointConst
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointConstraint:129
-msgid ":obj:`felupe.MultiPointContact`"
+msgid ":py:obj:`felupe.MultiPointContact`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointConstraint:130
@@ -9771,7 +9788,7 @@ msgid "A view on the deformed mesh including the :class:`~felupe.MultiPointConta
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointContact:131
-msgid ":obj:`felupe.MultiPointConstraint`"
+msgid ":py:obj:`felupe.MultiPointConstraint`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.py:docstring of felupe.mechanics._helpers.StateNearlyIncompressible:6
@@ -10264,19 +10281,19 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh:89
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.merge_duplicate_points:87
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._tools.merge_duplicate_cells:119
-msgid ":obj:`felupe.MeshContainer`"
+msgid ":py:obj:`felupe.MeshContainer`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh:92
-msgid ":obj:`felupe.Rectangle`"
+msgid ":py:obj:`felupe.Rectangle`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh:95
-msgid ":obj:`felupe.Cube`"
+msgid ":py:obj:`felupe.Cube`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh:98
-msgid ":obj:`felupe.Grid`"
+msgid ":py:obj:`felupe.Grid`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.py:docstring of felupe.mesh._geometry.Grid:1
@@ -10285,7 +10302,7 @@ msgid "A grid shaped 3d-mesh with hexahedrons. Basically a wrapper for :func:`nu
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh:101
-msgid ":obj:`felupe.Circle`"
+msgid ":py:obj:`felupe.Circle`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.py:docstring of felupe.mesh._geometry.Circle:1
@@ -10294,7 +10311,7 @@ msgid "A circular shaped 2d-mesh with quads and ``n`` points on the circumferent
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh:104
-msgid ":obj:`felupe.mesh.Triangle`"
+msgid ":py:obj:`felupe.mesh.Triangle`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.add_midpoints_edges:10
@@ -10322,7 +10339,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._convert.collect_edges:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_midpoints_edges:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.convert:47
-msgid ":obj:`felupe.mesh.add_midpoints_edges`"
+msgid ":py:obj:`felupe.mesh.add_midpoints_edges`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_midpoints_faces:8
@@ -10334,7 +10351,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._convert.collect_faces:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_midpoints_faces:33
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.convert:50
-msgid ":obj:`felupe.mesh.add_midpoints_faces`"
+msgid ":py:obj:`felupe.mesh.add_midpoints_faces`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_midpoints_volumes:8
@@ -10346,7 +10363,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._convert.collect_volumes:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_midpoints_volumes:35
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.convert:53
-msgid ":obj:`felupe.mesh.add_midpoints_volumes`"
+msgid ":py:obj:`felupe.mesh.add_midpoints_volumes`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.runouts:9
@@ -10384,7 +10401,7 @@ msgid "The mesh with the modified point coordinates."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_runouts:46
-msgid ":obj:`felupe.mesh.runouts`"
+msgid ":py:obj:`felupe.mesh.runouts`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.as_meshio:1
@@ -10423,7 +10440,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.convert:64
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._convert.collect_edges:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.convert:56
-msgid ":obj:`felupe.Mesh.add_midpoints_edges`"
+msgid ":py:obj:`felupe.Mesh.add_midpoints_edges`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.collect_faces:7
@@ -10438,7 +10455,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.convert:67
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._convert.collect_faces:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.convert:59
-msgid ":obj:`felupe.Mesh.add_midpoints_faces`"
+msgid ":py:obj:`felupe.Mesh.add_midpoints_faces`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.collect_volumes:7
@@ -10453,7 +10470,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.convert:70
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._convert.collect_volumes:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.convert:62
-msgid ":obj:`felupe.Mesh.add_midpoints_volumes`"
+msgid ":py:obj:`felupe.Mesh.add_midpoints_volumes`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.convert:1
@@ -10495,7 +10512,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._dual.dual:54
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.disconnect:8
-msgid ":obj:`felupe.Mesh.dual`"
+msgid ":py:obj:`felupe.Mesh.dual`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._dual.dual:9
@@ -10569,7 +10586,7 @@ msgid "Expand a rectangle to a cube."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.expand:43
-msgid ":obj:`felupe.mesh.expand`"
+msgid ":py:obj:`felupe.mesh.expand`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.fill_between:1
@@ -10588,7 +10605,7 @@ msgid "Number of n-point repetitions or (n-1)-cell repetitions, (default is 11).
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.fill_between:33
-msgid ":obj:`felupe.mesh.fill_between`"
+msgid ":py:obj:`felupe.mesh.fill_between`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.flip:10
@@ -10626,7 +10643,7 @@ msgid "A region now correctly evaluates the total volume of the mesh to 1.0."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.flip:54
-msgid ":obj:`felupe.mesh.flip`"
+msgid ":py:obj:`felupe.mesh.flip`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.get_cell_ids:1
@@ -10844,7 +10861,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.merge_duplicate_cells:113
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.merge_duplicate_points:104
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._tools.merge_duplicate_cells:113
-msgid ":obj:`felupe.Mesh.merge_duplicate_points`"
+msgid ":py:obj:`felupe.Mesh.merge_duplicate_points`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.merge_duplicate_cells:114
@@ -10854,7 +10871,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.merge_duplicate_cells:116
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._tools.merge_duplicate_cells:116
-msgid ":obj:`felupe.Mesh.merge_duplicate_cells`"
+msgid ":py:obj:`felupe.Mesh.merge_duplicate_cells`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.merge_duplicate_points:9
@@ -10886,7 +10903,7 @@ msgid "Each mesh contains 121 points and 100 cells. These two meshes are now sto
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.merge_duplicate_points:84
-msgid ":obj:`felupe.mesh.merge_duplicate_points`"
+msgid ":py:obj:`felupe.mesh.merge_duplicate_points`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.merge_duplicate_points:105
@@ -10915,7 +10932,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.mirror:41
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.mirror:34
-msgid ":obj:`felupe.Mesh.mirror`"
+msgid ":py:obj:`felupe.Mesh.mirror`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.modify_corners:1
@@ -10993,7 +11010,7 @@ msgid "Revolve a cylinder from a rectangle."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.revolve:37
-msgid ":obj:`felupe.mesh.revolve`"
+msgid ":py:obj:`felupe.mesh.revolve`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.rotate:13
@@ -11011,7 +11028,7 @@ msgid "Rotate a rectangle in the xy-plane by 35 degree."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.rotate:36
-msgid ":obj:`felupe.mesh.rotate`"
+msgid ":py:obj:`felupe.mesh.rotate`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.screenshot:1
@@ -11033,7 +11050,7 @@ msgid "The translated mesh."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.translate:25
-msgid ":obj:`felupe.mesh.translate`"
+msgid ":py:obj:`felupe.mesh.translate`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.triangulate:9
@@ -11061,7 +11078,7 @@ msgid "Dompierre, J., Labbé, P., Vallet, M. G., & Camarero, R. (1999). How to S
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.triangulate:39
-msgid ":obj:`felupe.mesh.triangulate`"
+msgid ":py:obj:`felupe.mesh.triangulate`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._discrete_geometry.DiscreteGeometry.update:1
@@ -11093,7 +11110,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._discrete_geometry.DiscreteGeometry.update:34
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.copy:31
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.copy:31
-msgid ":obj:`felupe.Region.reload`"
+msgid ":py:obj:`felupe.Region.reload`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._discrete_geometry.DiscreteGeometry.update:35
@@ -11131,7 +11148,7 @@ msgid "For XDMF-export please ensure to have ``h5py`` (as an optional dependency
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.write:23
-msgid ":obj:`felupe.mesh.read`"
+msgid ":py:obj:`felupe.mesh.read`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.write:24
@@ -11140,7 +11157,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._read.read:49
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.write:26
-msgid ":obj:`felupe.Mesh.write`"
+msgid ":py:obj:`felupe.Mesh.write`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.Mesh.x:1
@@ -11193,6 +11210,10 @@ msgstr ""
 msgid "Export a (combined) mesh object as :class:`meshio.Mesh`."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.as_vertex_mesh:1
+msgid "Return a merged vertex-mesh."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.cells:1
 msgid "Return a list of tuples with cell-types and cell-connectivities."
 msgstr ""
@@ -11218,7 +11239,7 @@ msgid "Additional keyword-arguments are passed to the mesh container."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.from_unstructured_grid:31
-msgid ":obj:`felupe.mesh.cell_types`"
+msgid ":py:obj:`felupe.mesh.cell_types`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.from_unstructured_grid:32
@@ -11226,7 +11247,7 @@ msgid "Return a list with tuples of cell type mappings."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.from_unstructured_grid:34
-msgid ":obj:`felupe.Mesh.as_unstructured_grid`"
+msgid ":py:obj:`felupe.Mesh.as_unstructured_grid`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.from_unstructured_grid:35
@@ -11277,7 +11298,7 @@ msgid "Two quad meshes with identical point arrays should be stacked into a sing
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_container.py:docstring of felupe.mesh._container.MeshContainer.stack:42
-msgid ":obj:`felupe.mesh.stack`"
+msgid ":py:obj:`felupe.mesh.stack`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.py:docstring of felupe.mesh._geometry.Circle:1
@@ -11339,7 +11360,7 @@ msgid "1-D arrays representing the coordinates of a grid."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.py:docstring of felupe.mesh._geometry.Grid:52
-msgid ":obj:`numpy.meshgrid`"
+msgid ":py:obj:`numpy.meshgrid`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.py:docstring of felupe.mesh._geometry.Grid:53
@@ -11493,7 +11514,7 @@ msgid "Total expansion as float (edge length in expand direction is ``z / (n - 1
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.expand:48
-msgid ":obj:`felupe.Mesh.expand`"
+msgid ":py:obj:`felupe.Mesh.expand`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.fill_between:6
@@ -11505,7 +11526,7 @@ msgid "**mesh** -- The expanded mesh."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.fill_between:35
-msgid ":obj:`felupe.Mesh.fill_between`"
+msgid ":py:obj:`felupe.Mesh.fill_between`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.flip:14
@@ -11513,7 +11534,7 @@ msgid "* **points** (*ndarray*) -- Point coordinates. * **cells** (*ndarray*) --
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.flip:61
-msgid ":obj:`felupe.Mesh.flip`"
+msgid ":py:obj:`felupe.Mesh.flip`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._interpolate.interpolate_line:4
@@ -11561,7 +11582,7 @@ msgid "A mesh container created with :func:`meshio.read`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._read.read:46
-msgid ":obj:`meshio.read`"
+msgid ":py:obj:`meshio.read`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._read.read:47
@@ -11569,7 +11590,7 @@ msgid "Reads an unstructured mesh with added data."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.revolve:45
-msgid ":obj:`felupe.Mesh.revolve`"
+msgid ":py:obj:`felupe.Mesh.revolve`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.rotate:18
@@ -11583,11 +11604,11 @@ msgid "**cells** (*list or ndarray*) -- Original point-connectivity of cells."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.rotate:43
-msgid ":obj:`felupe.Mesh.rotate`"
+msgid ":py:obj:`felupe.Mesh.rotate`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.runouts:53
-msgid ":obj:`felupe.Mesh.add_runouts`"
+msgid ":py:obj:`felupe.Mesh.add_runouts`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.stack:3
@@ -11599,15 +11620,15 @@ msgid "The ``points``-array is taken from the first mesh. The ``points``-arrays 
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.stack:41
-msgid ":obj:`felupe.MeshContainer.stack`"
+msgid ":py:obj:`felupe.MeshContainer.stack`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.translate:32
-msgid ":obj:`felupe.Mesh.translate`"
+msgid ":py:obj:`felupe.Mesh.translate`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.triangulate:48
-msgid ":obj:`felupe.Mesh.triangulate`"
+msgid ":py:obj:`felupe.Mesh.triangulate`"
 msgstr ""
 
 #: ../../felupe/docs/felupe/quadrature.rst:2
@@ -11622,71 +11643,89 @@ msgstr ""
 msgid "**Lines, Quads and Hexahedrons**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/quadrature.rst:14:<autosummary>:1
+#: ../../felupe/docs/felupe/quadrature.rst:16:<autosummary>:1
 msgid ":py:obj:`GaussLegendre <felupe.GaussLegendre>`\\ \\(order\\, dim\\[\\, permute\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/quadrature.rst:14:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendre:1
+#: ../../felupe/docs/felupe/quadrature.rst:16:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendre:1
 msgid "An arbitrary-`order` Gauss-Legendre quadrature rule of dimension 1, 2 or 3 on the interval :math:`[-1, 1]`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/quadrature.rst:14:<autosummary>:1
+#: ../../felupe/docs/felupe/quadrature.rst:16:<autosummary>:1
 msgid ":py:obj:`GaussLegendreBoundary <felupe.GaussLegendreBoundary>`\\ \\(order\\, dim\\[\\, permute\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/quadrature.rst:14:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendreBoundary:1
+#: ../../felupe/docs/felupe/quadrature.rst:16:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendreBoundary:1
 msgid "An arbitrary-`order` Gauss-Legendre quadrature rule of `dim` 1, 2 or 3 on the interval ``[-1, 1]``."
 msgstr ""
 
-#: ../../felupe/docs/felupe/quadrature.rst:15
+#: ../../felupe/docs/felupe/quadrature.rst:16:<autosummary>:1
+msgid ":py:obj:`GaussLobatto <felupe.GaussLobatto>`\\ \\(order\\, dim\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/quadrature.rst:16:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobatto:1
+msgid "An arbitrary-`order` Gauss-Lobatto quadrature rule of dimension 1, 2 or 3 on the interval :math:`[-1, 1]`."
+msgstr ""
+
+#: ../../felupe/docs/felupe/quadrature.rst:16:<autosummary>:1
+msgid ":py:obj:`GaussLobattoBoundary <felupe.GaussLobattoBoundary>`\\ \\(order\\, dim\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/quadrature.rst:16:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobattoBoundary:1
+msgid "An arbitrary-`order` Gauss-Lobatto quadrature rule of `dim` 1, 2 or 3 on the interval ``[-1, 1]``."
+msgstr ""
+
+#: ../../felupe/docs/felupe/quadrature.rst:17
 msgid "**Triangles and Tetrahedrons**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/quadrature.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/quadrature.rst:25:<autosummary>:1
 msgid ":py:obj:`quadrature.Triangle <felupe.quadrature.Triangle>`\\ \\(order\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/quadrature.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/quadrature.rst:25:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_triangle.py:docstring of felupe.quadrature._triangle.Triangle:1
 msgid "A quadrature scheme suitable for Triangles of order 1, 2 or 3 on the interval :math:`[0, 1]`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/quadrature.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/quadrature.rst:25:<autosummary>:1
 msgid ":py:obj:`quadrature.Tetrahedron <felupe.quadrature.Tetrahedron>`\\ \\(order\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/quadrature.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/quadrature.rst:25:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_tetra.py:docstring of felupe.quadrature._tetra.Tetrahedron:1
 msgid "A quadrature scheme suitable for Tetrahedrons of order 1, 2 or 3 on the interval :math:`[0, 1]`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/quadrature.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/quadrature.rst:25:<autosummary>:1
 msgid ":py:obj:`TriangleQuadrature <felupe.TriangleQuadrature>`\\"
 msgstr ""
 
-#: ../../felupe/docs/felupe/quadrature.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/quadrature.rst:25:<autosummary>:1
 msgid "alias of :py:class:`~felupe.quadrature._triangle.Triangle`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/quadrature.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/quadrature.rst:25:<autosummary>:1
 msgid ":py:obj:`TetrahedronQuadrature <felupe.TetrahedronQuadrature>`\\"
 msgstr ""
 
-#: ../../felupe/docs/felupe/quadrature.rst:23:<autosummary>:1
+#: ../../felupe/docs/felupe/quadrature.rst:25:<autosummary>:1
 msgid "alias of :py:class:`~felupe.quadrature._tetra.Tetrahedron`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/quadrature.rst:24
+#: ../../felupe/docs/felupe/quadrature.rst:26
 msgid "**Sphere**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/quadrature.rst:29:<autosummary>:1
+#: ../../felupe/docs/felupe/quadrature.rst:31:<autosummary>:1
 msgid ":py:obj:`BazantOh <felupe.BazantOh>`\\ \\(\\[n\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/quadrature.rst:29:<autosummary>:1
+#: ../../felupe/docs/felupe/quadrature.rst:31:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_sphere.py:docstring of felupe.quadrature._sphere.BazantOh:1
 msgid "Quadrature scheme for a numeric integration of the surface of a unit sphere [1]_."
 msgstr ""
@@ -11695,8 +11734,10 @@ msgstr ""
 msgid "A quadrature scheme with integration points :math:`x_q` and weights :math:`w_q`. It approximates the integral of a function over a region :math:`V` by a weighted sum of function values :math:`f_q = f(x_q)`, evaluated on the quadrature-points."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendre:16
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendreBoundary:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendre:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendreBoundary:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobatto:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobattoBoundary:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_scheme.py:docstring of felupe.quadrature._scheme.Scheme:7
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_sphere.py:docstring of felupe.quadrature._sphere.BazantOh:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_tetra.py:docstring of felupe.quadrature._tetra.Tetrahedron:9
@@ -11709,8 +11750,10 @@ msgstr ""
 msgid "\\int_V f(x) dV \\approx \\sum f(x_q) w_q"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendre:22
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendreBoundary:21
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendre:22
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendreBoundary:21
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobatto:22
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobattoBoundary:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_scheme.py:docstring of felupe.quadrature._scheme.Scheme:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_sphere.py:docstring of felupe.quadrature._sphere.BazantOh:15
 msgid "with quadrature points :math:`x_q` and corresponding weights :math:`w_q`."
@@ -11724,42 +11767,58 @@ msgstr ""
 msgid "Take a screenshot of the quadrature."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendre:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendre:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobatto:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_sphere.py:docstring of felupe.quadrature._sphere.BazantOh:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_tetra.py:docstring of felupe.quadrature._tetra.Tetrahedron:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_triangle.py:docstring of felupe.quadrature._triangle.Triangle:1
 msgid "Bases: :py:class:`~felupe.quadrature._scheme.Scheme`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendre:4
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendreBoundary:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendre:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendreBoundary:4
 msgid "The number of sample points :math:`n` minus one. The quadrature rule integrates degree :math:`2n-1` polynomials exactly."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendre:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendreBoundary:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendre:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendreBoundary:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobatto:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobattoBoundary:7
 msgid "The dimension of the quadrature region."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendre:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendre:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobatto:9
 msgid "Permute the quadrature points according to the cell point orderings (default is True). This is supported for two and three dimensions as well as first and second order schemes. Otherwise this flag is silently ignored."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendre:18
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendreBoundary:17
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendre:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendreBoundary:17
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobatto:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobattoBoundary:17
 msgid "\\int_{-1}^1 f(x) dx \\approx \\sum f(x_q) w_q"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendre.inv:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendre.inv:1
 msgid "Return the inverse quadrature scheme."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendreBoundary:1
-msgid "Bases: :py:class:`~felupe.quadrature._gausslegendre.GaussLegendre`"
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendreBoundary:1
+msgid "Bases: :py:class:`~felupe.quadrature._gauss_legendre.GaussLegendre`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gausslegendre.py:docstring of felupe.quadrature._gausslegendre.GaussLegendreBoundary:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.py:docstring of felupe.quadrature._gauss_legendre.GaussLegendreBoundary:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobattoBoundary:9
 msgid "Permute the quadrature points according to the cell point orderings (default is True)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobatto:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobattoBoundary:4
+msgid "The number of sample points :math:`n` minus two. The quadrature rule integrates degree :math:`2n-3` polynomials exactly."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.py:docstring of felupe.quadrature._gauss_lobatto.GaussLobattoBoundary:1
+msgid "Bases: :py:class:`~felupe.quadrature._gauss_lobatto.GaussLobatto`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/quadrature/_tetra.py:docstring of felupe.quadrature._tetra.Tetrahedron:4
@@ -11828,153 +11887,162 @@ msgstr ""
 msgid "**Templates**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionQuad <felupe.RegionQuad>`\\ \\(mesh\\[\\, quadrature\\, grad\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionQuad:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionQuadBoundary:1
 msgid "A region with a quad element."
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionHexahedron <felupe.RegionHexahedron>`\\ \\(mesh\\[\\, quadrature\\, grad\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionHexahedron:1
 msgid "A region with a hexahedron element."
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionTriangle <felupe.RegionTriangle>`\\ \\(mesh\\[\\, quadrature\\, grad\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionTriangle:1
 msgid "A region with a triangle element."
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionTetra <felupe.RegionTetra>`\\ \\(mesh\\[\\, quadrature\\, grad\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionTetra:1
 msgid "A region with a tetra element."
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionConstantQuad <felupe.RegionConstantQuad>`\\ \\(mesh\\[\\, quadrature\\, grad\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionConstantQuad:1
 msgid "A region with a constant quad element."
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionConstantHexahedron <felupe.RegionConstantHexahedron>`\\ \\(mesh\\[\\, quadrature\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionConstantHexahedron:1
 msgid "A region with a constant hexahedron element."
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionQuadraticQuad <felupe.RegionQuadraticQuad>`\\ \\(mesh\\[\\, quadrature\\, grad\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionQuadraticQuad:1
 msgid "A region with a (serendipity) quadratic quad element."
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionQuadraticHexahedron <felupe.RegionQuadraticHexahedron>`\\ \\(mesh\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionQuadraticHexahedron:1
 msgid "A region with a (serendipity) quadratic hexahedron element."
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionQuadraticTriangle <felupe.RegionQuadraticTriangle>`\\ \\(mesh\\[\\, quadrature\\, grad\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionQuadraticTriangle:1
 msgid "A region with a quadratic triangle element."
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionQuadraticTetra <felupe.RegionQuadraticTetra>`\\ \\(mesh\\[\\, quadrature\\, grad\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionQuadraticTetra:1
 msgid "A region with a quadratic tetra element."
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionBiQuadraticQuad <felupe.RegionBiQuadraticQuad>`\\ \\(mesh\\[\\, quadrature\\, grad\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionBiQuadraticQuad:1
 msgid "A region with a bi-quadratic (Lagrange) quad element."
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionTriQuadraticHexahedron <felupe.RegionTriQuadraticHexahedron>`\\ \\(mesh\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionTriQuadraticHexahedron:1
 msgid "A region with a tri-quadratic (Lagrange) hexahedron element."
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionTriangleMINI <felupe.RegionTriangleMINI>`\\ \\(mesh\\[\\, quadrature\\, grad\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionTriangleMINI:1
 msgid "A region with a triangle-MINI element."
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionTetraMINI <felupe.RegionTetraMINI>`\\ \\(mesh\\[\\, quadrature\\, grad\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionTetraMINI:1
 msgid "A region with a tetra-MINI element."
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionLagrange <felupe.RegionLagrange>`\\ \\(mesh\\, order\\, dim\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionLagrange:1
 msgid "A region with an arbitrary order Lagrange element."
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionQuadBoundary <felupe.RegionQuadBoundary>`\\ \\(mesh\\[\\, quadrature\\, grad\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 msgid ":py:obj:`RegionHexahedronBoundary <felupe.RegionHexahedronBoundary>`\\ \\(mesh\\[\\, quadrature\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/region.rst:36:<autosummary>:1
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionHexahedronBoundary:1
 msgid "A boundary region with a hexahedron element."
+msgstr ""
+
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
+msgid ":py:obj:`RegionVertex <felupe.RegionVertex>`\\ \\(mesh\\[\\, quadrature\\, grad\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/region.rst:37:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionVertex:1
+msgid "A region with a vertex element."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_boundary.py:docstring of felupe.region._boundary.RegionBoundary:4
@@ -12108,7 +12176,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.astype:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.astype:15
-msgid ":obj:`felupe.Region.copy`"
+msgid ":py:obj:`felupe.Region.copy`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.astype:16
@@ -12170,7 +12238,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.reload:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_region.py:docstring of felupe.region._region.Region.reload:44
-msgid ":obj:`felupe.Mesh.update`"
+msgid ":py:obj:`felupe.Mesh.update`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_boundary.py:docstring of felupe.region._region.Region.screenshot:1
@@ -12265,6 +12333,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionTriQuadraticHexahedron:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionTriangle:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionTriangleMINI:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionVertex:1
 msgid "Bases: :py:class:`~felupe.region._region.Region`"
 msgstr ""
 
@@ -12293,7 +12362,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionHexahedronBoundary:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/region/_templates.py:docstring of felupe.region._templates.RegionQuadBoundary:25
-msgid ":obj:`felupe.RegionBoundary`"
+msgid ":py:obj:`felupe.RegionBoundary`"
 msgstr ""
 
 #: ../../felupe/docs/felupe/tools.rst:2
@@ -12756,7 +12825,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:52
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:42
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/view/_scene.py:docstring of felupe.view._scene.Scene:33
-msgid ":obj:`felupe.ViewSolid`"
+msgid ":py:obj:`felupe.ViewSolid`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:53
@@ -12772,7 +12841,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:46
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/view/_mesh.py:docstring of felupe.view._mesh.ViewMesh:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/view/_solid.py:docstring of felupe.view._solid.ViewSolid:53
-msgid ":obj:`felupe.view.Scene`"
+msgid ":py:obj:`felupe.view.Scene`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/view/_field.py:docstring of felupe.view._field.ViewField:1
