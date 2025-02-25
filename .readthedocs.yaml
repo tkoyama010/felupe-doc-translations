@@ -7,6 +7,7 @@ build:
   apt_packages:
     - libgl1-mesa-dev
     - xvfb
+    - pandoc
 
 submodules:
   include:
@@ -15,6 +16,7 @@ submodules:
 
 sphinx:
   configuration: conf.py
+  fail_on_warning: false
 
 python:
   install:
