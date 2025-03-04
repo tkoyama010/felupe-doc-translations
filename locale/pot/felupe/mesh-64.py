@@ -1,6 +1,3 @@
-mesh
-# Expected:
-## <felupe Mesh object>
-##   Number of points: 220
-##   Number of cells:
-##     quad: 200
+import felupe as fem
+mesh = fem.Circle(sections=[0, 90, 180], n=5)
+mesh.plot().show()
