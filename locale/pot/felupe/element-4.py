@@ -1,3 +1,3 @@
 import felupe as fem
-element = fem.Tetra()
+element = fem.Triangle()
 element.plot().show()

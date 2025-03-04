@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2021-2024, Andreas Dutzler
+# Copyright (C) 2021-2025, Andreas Dutzler
 # This file is distributed under the same license as the FElupe package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-04 00:11+0000\n"
+"POT-Creation-Date: 2025-02-21 00:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -30,31 +30,32 @@ msgid "How-To Guides"
 msgstr "ハウツーガイド"
 
 #: ../../felupe/docs/howto/axi.rst:2
-msgid "Axisymmetric Problems"
-msgstr "軸対称の問題"
+msgid "Two-dimensional Problems"
+msgstr ""
 
 #: ../../felupe/docs/howto/axi.rst:4
 msgid ""
-"For axisymmetric analyses an axisymmetric vector-valued field has to be "
-"created for the in-plane displacements."
-msgstr "軸対称解析では、面内変位に対して軸対称のベクトル値フィールドを作成する必要があります。"
-
-#: ../../felupe/docs/howto/axi.rst:15
-msgid ""
-"Now it gets important: The 3x3 deformation gradient for an axisymmetric "
-"problem is obtained with :meth:`~felupe.FieldAxisymmetric.grad` or "
-":meth:`~felupe.FieldAxisymmetric.extract` methods. For a two-dimensional "
-":class:`~felupe.FieldAxisymmetric` the gradient is modified to return a "
-"three-dimensional gradient."
+"For plane-strain and axisymmetric problems a vector-valued field has to be "
+"created for the two-dimensional in-plane displacement components."
 msgstr ""
 
-#: ../../felupe/docs/howto/axi.rst:21
+#: ../../felupe/docs/howto/axi.rst:28
+msgid ""
+"The 3x3 deformation gradient for axisymmetric and plane-strain two-"
+"dimensional problems is obtained by the "
+":meth:`~felupe.FieldAxisymmetric.grad` or "
+":meth:`~felupe.FieldAxisymmetric.extract` methods (same for "
+":class:`~felupe.FieldPlaneStrain`). For these two-dimensional fields the "
+"gradient is modified to return a three-dimensional gradient."
+msgstr ""
+
+#: ../../felupe/docs/howto/axi.rst:39
 msgid ""
 "For simplicity, let's use the isotropic hyperelastic "
 ":class:`~felupe.NeoHooke` material model formulation."
 msgstr ""
 
-#: ../../felupe/docs/howto/axi.rst:29
+#: ../../felupe/docs/howto/axi.rst:48
 msgid ""
 "Internally, FElupe provides an adopted low-level "
 ":class:`~felupe.assembly.IntegralFormAxisymmetric` class for the integration"
@@ -66,38 +67,49 @@ msgid ""
 "level integral form based on the kind of field inside the field container."
 msgstr ""
 
-#: ../../felupe/docs/howto/axi.rst:38
+#: ../../felupe/docs/howto/axi.rst:64
 msgid ""
-"To sum up, for axisymmetric problems use :class:`~felupe.FieldAxisymmetric`."
-" Of course, mixed-field formulations may also be used with axisymmetric "
-"(displacement) fields."
+"To sum up, for axisymmetric problems use :class:`~felupe.FieldAxisymmetric` "
+"and for plane-strain problems use :class:`~felupe.FieldPlaneStrain`. Of "
+"course, mixed-field formulations may also be used with axisymmetric or "
+"plane-strain (displacement) fields."
 msgstr ""
 
 #: ../../felupe/docs/howto/composite.rst:2
-msgid "Composite Regions with Solid Bodies"
-msgstr "固体との複合領域"
+msgid "Multiple Solid Bodies"
+msgstr ""
 
 #: ../../felupe/docs/howto/composite.rst:4
 msgid ""
 "This section demonstrates how to set up a problem with two regions, each "
-"associated to a seperated solid body."
+"associated to a seperated solid body. Different element formulations are "
+"used for the solid bodies."
 msgstr ""
 
-#: ../../felupe/docs/howto/composite.rst:15
-msgid "In a second step, sub-meshes are created."
-msgstr ""
-
-#: ../../felupe/docs/howto/composite.rst:36
+#: ../../felupe/docs/howto/composite.rst:24
 msgid ""
-"This is followed by the creation of a global region/field and two sub-"
-"regions/sub-fields."
+"A top-level (vertex) field, which contains all the unknowns, is required for"
+" the definition of the boundary conditions as well as for the evaluation of "
+"the job."
 msgstr ""
 
-#: ../../felupe/docs/howto/composite.rst:52
-msgid "The displacement boundaries are created on the total field."
+#: ../../felupe/docs/howto/composite.rst:28
+msgid ""
+"Ensure to init the mesh container with ``merge=True``, otherwise the points-"
+"array of the container will be empty."
 msgstr ""
 
-#: ../../felupe/docs/howto/composite.rst:63
+#: ../../felupe/docs/howto/composite.rst:40
+msgid ""
+"The sub-meshes are available in the global mesh container, on which the sub-"
+"fields are created."
+msgstr ""
+
+#: ../../felupe/docs/howto/composite.rst:55
+msgid "The displacement boundaries are created on the top-level field."
+msgstr ""
+
+#: ../../felupe/docs/howto/composite.rst:66
 msgid ""
 "The rubber is associated to a Neo-Hookean material formulation whereas the "
 "steel is modeled by a linear elastic material formulation. Due to the large "
@@ -105,12 +117,12 @@ msgid ""
 "solid body is created."
 msgstr ""
 
-#: ../../felupe/docs/howto/composite.rst:77
+#: ../../felupe/docs/howto/composite.rst:82
 msgid ""
 "A step is created and further added to a job. The global field must be "
-"passed to the ``x0`` argument during the evaluation of the job. Internally, "
+"passed as the ``x0`` argument during the evaluation of the job. Internally, "
 "all field values are linked automatically, i.e. they share their ``values`` "
-"attribute."
+"array."
 msgstr ""
 
 #: ../../felupe/docs/howto/items.rst:2
@@ -130,18 +142,18 @@ msgid ""
 "`field` argument, have to be linked to :class:`~felupe.mechanics.Assemble`."
 msgstr ""
 
-#: ../../felupe/docs/howto/items.rst:7
+#: ../../felupe/docs/howto/items.rst:15
 msgid ""
 "This is only a minimal working example for an item. For more details, see "
 "the sources of :class:`~felupe.SolidBody` or "
 ":class:`~felupe.SolidBodyNearlyIncompressible`."
 msgstr ""
 
-#: ../../felupe/docs/howto/items.rst:28
-msgid "This item may be added to a basic script."
+#: ../../felupe/docs/howto/items.rst:38
+msgid "This item is now added to a basic script."
 msgstr ""
 
-#: ../../felupe/docs/howto/items.rst:32
+#: ../../felupe/docs/howto/items.rst:42
 msgid ""
 "The vector- and matrix-shapes are automatically increased to match the shape"
 " of the other items if necessary. Hence, a sparse matrix with shape ``(1, "
@@ -168,11 +180,11 @@ msgid ""
 "lagrange-cells with polynomial shape functions of arbitrary order."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:50
+#: ../../felupe/docs/howto/meshgen.rst:44
 msgid "A cube by hand"
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:52
+#: ../../felupe/docs/howto/meshgen.rst:46
 msgid ""
 "First let's start with the generation of a point at ``x=0``, expanded to a "
 "line from ``x=1`` to ``x=3`` with ``n=7`` points. Next, the line is expanded"
@@ -185,17 +197,17 @@ msgid ""
 "hand, rectangles, cubes or cylinders may be constructed with ease."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:66
+#: ../../felupe/docs/howto/meshgen.rst:60
 msgid ""
 "Alternatively, these mesh-related tools are also provided as methods of a "
 ":class:`~felupe.Mesh`."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:77
+#: ../../felupe/docs/howto/meshgen.rst:71
 msgid "Elementary Shapes"
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:79
+#: ../../felupe/docs/howto/meshgen.rst:73
 msgid ""
 "Lines, rectangles, cubes, circles and triangles do not have to be "
 "constructed manually each time. Instead, some easier to use classes are "
@@ -204,13 +216,13 @@ msgid ""
 "points per axis use :class:`~felupe.Grid`."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:88
+#: ../../felupe/docs/howto/meshgen.rst:82
 msgid ""
 "For circles, there is :class:`~felupe.Circle` for the creation of a quad-"
 "mesh for a circle."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:97
+#: ../../felupe/docs/howto/meshgen.rst:91
 msgid ""
 "For triangles, there is :class:`~felupe.mesh.Triangle` for the creation of a"
 " quad-mesh for a triangle. For positive cell volumes, the coordinates of "
@@ -218,30 +230,30 @@ msgid ""
 "point."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:107
+#: ../../felupe/docs/howto/meshgen.rst:101
 msgid "Corner Modifications"
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:109
+#: ../../felupe/docs/howto/meshgen.rst:103
 msgid ""
 "For a regular :class:`~felupe.Rectangle` or a :class:`~felupe.Cube`, corners"
 " may be modified by :meth:`~felupe.Mesh.modify_corners()`. This is sometimes"
 " beneficial for compressive states of deformation."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:119
+#: ../../felupe/docs/howto/meshgen.rst:113
 msgid "Cylinders"
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:121
+#: ../../felupe/docs/howto/meshgen.rst:115
 msgid "Cylinders are created by a revolution of a rectangle."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:136
+#: ../../felupe/docs/howto/meshgen.rst:130
 msgid "Fill between boundaries"
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:138
+#: ../../felupe/docs/howto/meshgen.rst:132
 msgid ""
 "Meshed boundaries may be used to fill the area or volume in between for line"
 " and quad meshes. A plate with a hole is initiated by a line mesh, which is "
@@ -249,21 +261,21 @@ msgid ""
 "hole and the upper edge. The face is filled by a quad mesh."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:160
+#: ../../felupe/docs/howto/meshgen.rst:154
 msgid "Connect two quad-meshed faces by hexahedrons:"
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:185
+#: ../../felupe/docs/howto/meshgen.rst:179
 msgid "Combinations of elementary shapes"
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:187
+#: ../../felupe/docs/howto/meshgen.rst:181
 msgid ""
 "The elementary shapes are combined to create more complex shapes, e.g. a "
 "planar triangular shaped face connected to three arms with rounded ends."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:204
+#: ../../felupe/docs/howto/meshgen.rst:198
 msgid ""
 "For quad- and hexahedron-meshes it is possible to extract the boundaries of "
 "the mesh by a boundary region. The boundary-mesh consists of the quad-cells "
@@ -274,13 +286,13 @@ msgid ""
 " obtained by a mesh-*face* method of the boundary region."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:219
+#: ../../felupe/docs/howto/meshgen.rst:213
 msgid ""
 "A three-dimensional example demonstrates a combination of two different "
 "expansions of a rectangle, fill-betweens of two lines and a circle."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:253
+#: ../../felupe/docs/howto/meshgen.rst:247
 msgid ""
 "The boundary mesh isn't visualized correctly in PyVista and in ParaView "
 "because there are two duplicated cells at the edges. However, this is not a "
@@ -289,11 +301,11 @@ msgid ""
 "overlapping cells with different point connectivity."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:264
+#: ../../felupe/docs/howto/meshgen.rst:258
 msgid "Boundary modification (runouts)"
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:266
+#: ../../felupe/docs/howto/meshgen.rst:260
 msgid ""
 "Indentations (runouts) of the boundary edges or faces are defined by a "
 "centerpoint, an axis and their relative amounts (values) per axis. "
@@ -301,21 +313,21 @@ msgid ""
 "list of given points."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:287
+#: ../../felupe/docs/howto/meshgen.rst:281
 msgid "Triangle and Tetrahedron meshes"
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:289
+#: ../../felupe/docs/howto/meshgen.rst:283
 msgid ""
 "Any quad or tetrahedron mesh may be subdivided (triangulated) to meshes out "
 "of Triangles or Tetrahedrons by :func:`~felupe.mesh.triangulate`."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:313
+#: ../../felupe/docs/howto/meshgen.rst:307
 msgid "Meshes with midpoints"
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:315
+#: ../../felupe/docs/howto/meshgen.rst:309
 msgid ""
 "If a mesh with midpoints is required by a region, functions for edge, face "
 "and volume midpoint insertions are provided in "
@@ -328,11 +340,11 @@ msgid ""
 " are also calculated, the resulting cell-type is ``quad9``."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:324
+#: ../../felupe/docs/howto/meshgen.rst:318
 msgid "The same also applies on meshes with triangles."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:332
+#: ../../felupe/docs/howto/meshgen.rst:326
 msgid ""
 "While views on higher-order meshes are possible, it is suggested to use "
 "ParaView for the visualization of meshes with midpoints due to the improved "
@@ -356,7 +368,7 @@ msgid ""
 "problems."
 msgstr ""
 
-#: ../../felupe/docs/howto/mixed.rst:14
+#: ../../felupe/docs/howto/mixed.rst:20
 msgid ""
 "Next, let's create a meshed cube for a Hood-Taylor element formulation. The "
 "family of Hood-Taylor elements have a pressure field which is one order "
@@ -370,14 +382,14 @@ msgid ""
 "discontinuous fields."
 msgstr ""
 
-#: ../../felupe/docs/howto/mixed.rst:41
+#: ../../felupe/docs/howto/mixed.rst:55
 msgid ""
 "Boundary conditions are enforced on the displacement field. For the pre-"
 "defined loadcases like the clamped uniaxial compression, the boundaries are "
 "automatically applied on the first field."
 msgstr ""
 
-#: ../../felupe/docs/howto/mixed.rst:48
+#: ../../felupe/docs/howto/mixed.rst:64
 msgid ""
 "The Step and Job definitions are identical to ones used with single field "
 "formulations. The deformed cube is finally visualized by PyVista. The cell-"
@@ -393,21 +405,21 @@ msgstr ""
 msgid ""
 "The mechanics submodule contains classes for the generation of solid bodies."
 " Solid body objects are supported as items of a :class:`~felupe.Step` and "
-"the :func:`~felupe.newtonrhapson` procedure."
-msgstr ""
-
-#: ../../felupe/docs/howto/solid.rst:7
-msgid "Solid Body"
+"the :func:`~felupe.newtonrhapson` function."
 msgstr ""
 
 #: ../../felupe/docs/howto/solid.rst:9
+msgid "Solid Body"
+msgstr ""
+
+#: ../../felupe/docs/howto/solid.rst:11
 msgid ""
 "The generation of internal force vectors and stiffness matrices of solid "
 "bodies are provided as assembly-methods of a :class:`~felupe.SolidBody` or a"
 " :class:`~felupe.SolidBodyNearlyIncompressible`."
 msgstr ""
 
-#: ../../felupe/docs/howto/solid.rst:30
+#: ../../felupe/docs/howto/solid.rst:34
 msgid ""
 "During assembly, several results are stored, e.g. the gradient of the strain"
 " energy density function per unit undeformed volume w.r.t. the deformation "
@@ -416,74 +428,74 @@ msgid ""
 " first Piola-Kirchhoff stress tensor."
 msgstr ""
 
-#: ../../felupe/docs/howto/solid.rst:32
+#: ../../felupe/docs/howto/solid.rst:39
 msgid ""
-"\\boldsymbol{F} &= \\frac{\\partial \\boldsymbol{x}}{\\partial \\boldsymbol{X}}\n"
+"\\boldsymbol{F} &= \\frac{\n"
+"    \\partial \\boldsymbol{x}}{\\partial \\boldsymbol{X}\n"
+"}\n"
 "\n"
-"\\boldsymbol{P} &= \\frac{\\partial \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}}\n"
+"\\boldsymbol{P} &= \\frac{\n"
+"    \\partial \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}\n"
+"}\n"
 "\n"
-"\\mathbb{A} &= \\frac{\\partial^2 \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}\\ \\partial \\boldsymbol{F}}"
+"\\mathbb{A} &= \\frac{\n"
+"    \\partial^2 \\psi(\\boldsymbol{C}(\\boldsymbol{F}))\n"
+"}{\\partial \\boldsymbol{F}\\ \\partial \\boldsymbol{F}}"
 msgstr ""
-"\\boldsymbol{F} &= \\frac{\\partial \\boldsymbol{x}}{\\partial \\boldsymbol{X}}\n"
-"\n"
-"\\boldsymbol{P} &= \\frac{\\partial \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}}\n"
-"\n"
-"\\mathbb{A} &= \\frac{\\partial^2 \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}\\ \\partial \\boldsymbol{F}}"
 
-#: ../../felupe/docs/howto/solid.rst:48
+#: ../../felupe/docs/howto/solid.rst:61
 msgid ""
 "The Cauchy stress tensor, as well as the gradient and the hessian of the "
 "strain energy density function per unit undeformed volume are obtained by "
 "evaluate-methods of the solid body."
 msgstr ""
 
-#: ../../felupe/docs/howto/solid.rst:50
+#: ../../felupe/docs/howto/solid.rst:65
 msgid ""
-"\\boldsymbol{P} &= \\frac{\\partial \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}}\n"
+"\\boldsymbol{P} &= \\frac{\n"
+"    \\partial \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}\n"
+"}\n"
 "\n"
-"\\mathbb{A} &= \\frac{\\partial^2 \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}\\ \\partial \\boldsymbol{F}}\n"
+"\\mathbb{A} &= \\frac{\n"
+"    \\partial^2 \\psi(\\boldsymbol{C}(\\boldsymbol{F}))\n"
+"}{\\partial \\boldsymbol{F}\\ \\partial \\boldsymbol{F}}\n"
 "\n"
 "\\boldsymbol{\\sigma} &= \\frac{1}{J} \\boldsymbol{P} \\boldsymbol{F}^T"
 msgstr ""
-"\\boldsymbol{P} &= \\frac{\\partial \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}}\n"
-"\n"
-"\\mathbb{A} &= \\frac{\\partial^2 \\psi(\\boldsymbol{C}(\\boldsymbol{F}))}{\\partial \\boldsymbol{F}\\ \\partial \\boldsymbol{F}}\n"
-"\n"
-"\\boldsymbol{\\sigma} &= \\frac{1}{J} \\boldsymbol{P} \\boldsymbol{F}^T"
 
-#: ../../felupe/docs/howto/solid.rst:68
+#: ../../felupe/docs/howto/solid.rst:87
 msgid "Body Force (Gravity) on a Solid Body"
 msgstr ""
 
-#: ../../felupe/docs/howto/solid.rst:70
+#: ../../felupe/docs/howto/solid.rst:89
 msgid ""
 "The generation of external force vectors or stiffness matrices of body "
 "forces acting on solid bodies are provided as assembly-methods of a "
 ":class:`~felupe.SolidBodyForce`."
 msgstr ""
 
-#: ../../felupe/docs/howto/solid.rst:73
+#: ../../felupe/docs/howto/solid.rst:93
 msgid "\\delta W_{ext} = \\int_V \\delta \\boldsymbol{u} \\cdot \\rho \\boldsymbol{g} \\ dV"
 msgstr "\\delta W_{ext} = \\int_V \\delta \\boldsymbol{u} \\cdot \\rho \\boldsymbol{g} \\ dV"
 
-#: ../../felupe/docs/howto/solid.rst:87
+#: ../../felupe/docs/howto/solid.rst:107
 msgid "Pressure Boundary on a Solid Body"
 msgstr ""
 
-#: ../../felupe/docs/howto/solid.rst:89
+#: ../../felupe/docs/howto/solid.rst:109
 msgid ""
 "The generation of force vectors or stiffness matrices of pressure boundaries"
 " on solid bodies are provided as assembly-methods of a "
 ":class:`~felupe.SolidBodyPressure`."
 msgstr ""
 
-#: ../../felupe/docs/howto/solid.rst:91
+#: ../../felupe/docs/howto/solid.rst:112
 msgid ""
-"\\delta W_{ext} = \\int_{\\partial V} \\delta \\boldsymbol{u} \\cdot (-p) \\"
-" J \\boldsymbol{F}^{-T} \\ d\\boldsymbol{A}"
+"\\delta W_{ext} = \\int_{\\partial V}\n"
+"    \\delta \\boldsymbol{u} \\cdot (-p) \\ J \\boldsymbol{F}^{-T} \\ d\\boldsymbol{A}"
 msgstr ""
 
-#: ../../felupe/docs/howto/solid.rst:116
+#: ../../felupe/docs/howto/solid.rst:138
 msgid ""
 "For axisymmetric problems the boundary region has to be created with the "
 "attribute ``ensure_3d=True``."
@@ -536,108 +548,108 @@ msgid ""
 "with the arguments and must return:"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:7
+#: ../../felupe/docs/howto/umat.rst:10
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:7
 msgid "**Kind**"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:7
+#: ../../felupe/docs/howto/umat.rst:10
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:7
 msgid "**Symbol**"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:7
+#: ../../felupe/docs/howto/umat.rst:10
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:7
 msgid "**Description**"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:9 ../../felupe/docs/howto/umat.rst:11
-#: ../../felupe/docs/howto/umat.rst:13 ../../felupe/docs/howto/umat.rst:15
+#: ../../felupe/docs/howto/umat.rst:12 ../../felupe/docs/howto/umat.rst:14
+#: ../../felupe/docs/howto/umat.rst:16 ../../felupe/docs/howto/umat.rst:18
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:9
 msgid "Argument"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:9
+#: ../../felupe/docs/howto/umat.rst:12
 msgid "dε"
 msgstr "dε"
 
-#: ../../felupe/docs/howto/umat.rst:9
+#: ../../felupe/docs/howto/umat.rst:12
 msgid "strain increment"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:11
+#: ../../felupe/docs/howto/umat.rst:14
 msgid "εn"
 msgstr "εn"
 
-#: ../../felupe/docs/howto/umat.rst:11
+#: ../../felupe/docs/howto/umat.rst:14
 msgid "old strain tensor"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:13
+#: ../../felupe/docs/howto/umat.rst:16
 msgid "σn"
 msgstr "σn"
 
-#: ../../felupe/docs/howto/umat.rst:13
+#: ../../felupe/docs/howto/umat.rst:16
 msgid "old stress tensor"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:15
+#: ../../felupe/docs/howto/umat.rst:18
 msgid "ζn"
 msgstr "ζn"
 
-#: ../../felupe/docs/howto/umat.rst:15
+#: ../../felupe/docs/howto/umat.rst:18
 msgid "list of old state variables"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:17 ../../felupe/docs/howto/umat.rst:19
-#: ../../felupe/docs/howto/umat.rst:21
+#: ../../felupe/docs/howto/umat.rst:20 ../../felupe/docs/howto/umat.rst:22
+#: ../../felupe/docs/howto/umat.rst:24
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:11
 msgid "Return"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:17
+#: ../../felupe/docs/howto/umat.rst:20
 msgid "dσdε"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:17
+#: ../../felupe/docs/howto/umat.rst:20
 msgid "tangent modulus"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:19
+#: ../../felupe/docs/howto/umat.rst:22
 msgid "σ"
 msgstr "σ"
 
-#: ../../felupe/docs/howto/umat.rst:19
+#: ../../felupe/docs/howto/umat.rst:22
 msgid "new stress tensor"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:21
+#: ../../felupe/docs/howto/umat.rst:24
 msgid "ζ"
 msgstr "ζ"
 
-#: ../../felupe/docs/howto/umat.rst:21
+#: ../../felupe/docs/howto/umat.rst:24
 msgid "list of new state variables"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:29
+#: ../../felupe/docs/howto/umat.rst:32
 msgid ""
 "This function is further added as the ``material`` argument of "
 ":class:`~felupe.MaterialStrain`. If the material makes use of state "
 "variables, the shapes of these internal state variables must be provided."
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:37
+#: ../../felupe/docs/howto/umat.rst:42
 msgid ""
 "FElupe contains two reference small-strain user materials, one for linear "
 "elastic materials and another one for linear elastic-plastic materials with "
 "isotropic hardening:"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:39
+#: ../../felupe/docs/howto/umat.rst:45
 msgid ":func:`~felupe.linear_elastic`"
 msgstr ":func:`~felupe.linear_elastic`"
 
-#: ../../felupe/docs/howto/umat.rst:40
+#: ../../felupe/docs/howto/umat.rst:46
 msgid ":func:`~felupe.linear_elastic_plastic_isotropic_hardening`"
 msgstr ":func:`~felupe.linear_elastic_plastic_isotropic_hardening`"
 
@@ -684,23 +696,24 @@ msgid ""
 "material formulations, like"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat_hyperelasticity.rst:31
-msgid ":func:`~felupe.neo_hooke`,"
-msgstr ":func:`~felupe.neo_hooke`,"
-
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:32
-msgid ":func:`~felupe.mooney_rivlin`,"
-msgstr ":func:`~felupe.mooney_rivlin`,"
+msgid ":func:`~felupe.constitution.tensortrax.models.hyperelastic.neo_hooke`,"
+msgstr ""
 
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:33
-msgid ":func:`~felupe.yeoh` or"
+msgid ""
+":func:`~felupe.constitution.tensortrax.models.hyperelastic.mooney_rivlin`,"
 msgstr ""
 
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:34
-msgid ":func:`~felupe.ogden`."
-msgstr ":func:`~felupe.ogden`."
+msgid ":func:`~felupe.constitution.tensortrax.models.hyperelastic.yeoh` or"
+msgstr ""
 
-#: ../../felupe/docs/howto/umat_hyperelasticity.rst:36
+#: ../../felupe/docs/howto/umat_hyperelasticity.rst:35
+msgid ":func:`~felupe.constitution.tensortrax.models.hyperelastic.ogden`."
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_hyperelasticity.rst:37
 msgid ""
 "A complete list of all available model formulations is available in the "
 ":ref:`hyperelasticity <felupe-api-constitution-autodiff>` section of the API"

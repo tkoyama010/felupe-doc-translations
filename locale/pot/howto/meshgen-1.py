@@ -19,9 +19,3 @@ mesh_meshio = mesh.as_meshio()
 
 # view the mesh in an interactive window
 mesh.plot().show()
-
-# take a screenshot of an off-screen view
-img = mesh.screenshot(
-    filename="mesh.png",
-    transparent_background=True,
-)
