@@ -1,11 +1,12 @@
 import felupe as fem
-mesh = fem.Rectangle().triangulate().add_midpoints_edges()
-region = fem.RegionQuadraticTriangle(mesh)
+rect = fem.Rectangle()
+mesh = rect.add_midpoints_edges().add_midpoints_faces()
+region = fem.RegionBiQuadraticQuad(mesh)
 region
 # Expected:
 ## <felupe Region object>
-##   Element formulation: QuadraticTriangle
-##   Quadrature rule: Triangle
+##   Element formulation: BiQuadraticQuad
+##   Quadrature rule: GaussLegendre
 ##   Gradient evaluated: True
 ##   Hessian evaluated: False
 #

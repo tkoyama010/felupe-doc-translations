@@ -1,11 +1,5 @@
-import felupe as fem
-mesh = fem.Rectangle(n=6)
-mesh2 = fem.mesh.convert(mesh, order=2)
-mesh2.plot(plotter=mesh.plot(), style="points", color="black").show()
-#
-mesh2
+import pyvista as pv
+cell_types_pyvista_to_felupe = dict(cell_types_array[:, [1, 0]])
+cell_types_pyvista_to_felupe[pv.CellType.LINE]
 # Expected:
-## <felupe Mesh object>
-##   Number of points: 96
-##   Number of cells:
-##     quad8: 25
+## "line"

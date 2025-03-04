@@ -1,4 +1,2 @@
-cell_types_felupe_to_pyvista = dict(cell_types_array)
-cell_types_felupe_to_pyvista["line"]
-# Expected:
-## <CellType.LINE: 3>
+import felupe as fem
+cell_types_array = fem.mesh.cell_types()

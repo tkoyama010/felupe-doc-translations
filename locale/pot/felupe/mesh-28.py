@@ -1,5 +1,6 @@
 import felupe as fem
-cube = fem.Cube(n=3)
-cylinder = fem.Circle().expand(n=2)
-mesh = fem.MeshContainer([cube, cylinder])
-mesh.plot().show()
+mesh = fem.Cube(n=6)
+region = fem.RegionHexahedron(mesh)
+field = fem.FieldContainer([fem.Field(region, dim=3)])
+new_points = mesh.rotate(angle_deg=-90, axis=2).points
+mesh.update(points=new_points, callback=region.reload)

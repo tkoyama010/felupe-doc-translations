@@ -1,11 +1,11 @@
 import felupe as fem
-mesh = fem.mesh.CubeArbitraryOrderHexahedron(order=3)
-region = fem.RegionLagrange(mesh, order=3, dim=3)
+mesh = fem.Cube().triangulate().add_midpoints_edges()
+region = fem.RegionQuadraticTetra(mesh)
 region
 # Expected:
 ## <felupe Region object>
-##   Element formulation: ArbitraryOrderLagrange
-##   Quadrature rule: GaussLegendre
+##   Element formulation: QuadraticTetra
+##   Quadrature rule: Tetrahedron
 ##   Gradient evaluated: True
 ##   Hessian evaluated: False
 #
