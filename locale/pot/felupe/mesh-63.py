@@ -1,6 +1,6 @@
-stack
+mesh
 # Expected:
 ## <felupe Mesh object>
-##   Number of points: 242
+##   Number of points: 220
 ##   Number of cells:
 ##     quad: 200

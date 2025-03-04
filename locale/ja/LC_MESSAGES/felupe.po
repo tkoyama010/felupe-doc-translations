@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-21 00:10+0000\n"
+"POT-Creation-Date: 2025-03-04 00:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1329,7 +1329,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._dual.dual:35
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._interpolate.interpolate_line:21
+#: of felupe.mesh._interpolate.interpolate_line:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._read.read:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
@@ -17594,7 +17594,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
 msgid ""
 ":py:obj:`mesh.interpolate_line <felupe.mesh.interpolate_line>`\\ \\(mesh\\, "
-"xi\\, axis\\[\\, ...\\]\\)"
+"xi\\[\\, axis\\, ...\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
@@ -19640,28 +19640,32 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._interpolate.interpolate_line:6
-msgid "Points at which to interpolate data."
+msgid ""
+"Points at which to interpolate data. If axis is None, a normalized curve- "
+"progress must be provided (:math:`0 \\le \\xi \\le 1`)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._interpolate.interpolate_line:8
-msgid "The axis of the points at which the data will be interpolated."
+#: of felupe.mesh._interpolate.interpolate_line:9
+msgid ""
+"The axis of the points at which the data will be interpolated. If None, a "
+"normalized curve-progress is used. Default is None."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._interpolate.interpolate_line:10
+#: of felupe.mesh._interpolate.interpolate_line:12
 msgid ""
 "An interpolator class (default is "
 ":class:`scipy.interpolate.PchipInterpolator`)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._interpolate.interpolate_line:12
-msgid "Optional keyword arguments are passed to the interpolator."
+#: of felupe.mesh._interpolate.interpolate_line:14
+msgid "Optional keyword arguments are passed to the Interpolator."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._interpolate.interpolate_line:15
+#: of felupe.mesh._interpolate.interpolate_line:17
 msgid ""
 "A new line mesh with interpolated points. The attribute "
 "``points_derivative`` holds the derivatives of the independent variable "

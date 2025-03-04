@@ -1,4 +1,4 @@
 import felupe as fem
-rect = fem.Rectangle(b=(3, 1), n=(10, 4))
-mesh = fem.mesh.rotate(rect, angle_deg=35, axis=2, center=[1.5, 0.5])
+rect = fem.Rectangle(a=(-3, -1), b=(3, 1), n=(31, 11))
+mesh = fem.mesh.runouts(rect, axis=1, values=[0.2], normalize=True)
 mesh.plot().show()

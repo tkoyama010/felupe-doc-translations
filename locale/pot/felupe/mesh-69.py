@@ -1,4 +1,4 @@
 import felupe as fem
-rect = fem.Rectangle(a=(-3, -1), b=(3, 1), n=(31, 11))
-mesh = fem.mesh.runouts(rect, axis=1, values=[0.2], normalize=True)
+cube = fem.Cube(a=(-3, -2, -1), b=(3, 2, 1), n=(31, 21, 11))
+mesh = fem.mesh.runouts(cube, axis=2, values=[0.1, 0.3], normalize=True)
 mesh.plot().show()
