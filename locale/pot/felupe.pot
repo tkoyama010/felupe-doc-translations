@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-04 00:10+0000\n"
+"POT-Creation-Date: 2025-03-11 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3637,6 +3637,7 @@ msgid "A flag to invoke threaded strain energy density function evaluations (def
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:28
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_base.py:docstring of felupe.element._base.Element:45
 msgid "It is important to use only differentiable math-functions from :mod:`tensortrax.math`!"
 msgstr ""
 
@@ -6421,6 +6422,10 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_base.py:docstring of felupe.element._base.Element:5
 msgid "This example shows how to implement a hexahedron element."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_base.py:docstring of felupe.element._base.Element:41
+msgid "The gradient (and optionally the hessian) may be carried out using automatic differentiation."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/element/_base.py:docstring of felupe.element._base.Element.plot:1

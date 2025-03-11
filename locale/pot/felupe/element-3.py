@@ -1,3 +1,3 @@
 import felupe as fem
-element = fem.Hexahedron()
+element = fem.Quad()
 element.plot().show()

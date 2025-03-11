@@ -1,3 +1,3 @@
 import felupe as fem
-element = fem.Triangle()
+element = fem.Hexahedron()
 element.plot().show()
