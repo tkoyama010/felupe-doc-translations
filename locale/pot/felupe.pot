@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-11 00:10+0000\n"
+"POT-Creation-Date: 2025-03-20 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -306,7 +306,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._discrete_geometry.DiscreteGeometry.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_midpoints_faces:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_midpoints_volumes:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_runouts:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_points:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.as_meshio:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.fill_between:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.flip:0
@@ -1120,7 +1120,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._discrete_geometry.DiscreteGeometry.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_midpoints_faces:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_midpoints_volumes:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_runouts:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_points:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.as_meshio:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.fill_between:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.flip:0
@@ -1199,7 +1199,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._discrete_geometry.DiscreteGeometry.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_midpoints_faces:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_midpoints_volumes:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_runouts:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_points:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.as_meshio:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.fill_between:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.flip:0
@@ -10371,6 +10371,10 @@ msgstr ""
 msgid ":py:obj:`felupe.mesh.add_midpoints_volumes`"
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_points:1
+msgid "Add additional points to the mesh."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.runouts:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.add_runouts:3
 msgid "Relative amount of runouts (per coordinate) perpendicular to the axis (default is 10% per coordinate, i.e. [0.1, 0.1])."
@@ -10431,6 +10435,10 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.as_unstructured_grid:8
 msgid "The mesh as :class:`pyvista.UnstructuredGrid`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.clear_points_without_cells:1
+msgid "Clear the list of points without cells."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._convert.collect_edges:7
