@@ -1,3 +1,3 @@
 import felupe as fem
-element = fem.ArbitraryOrderLagrangeElement(order=4, dim=2)
+element = fem.TetraMINI()
 element.plot().show()

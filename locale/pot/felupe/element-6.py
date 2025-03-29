@@ -1,3 +1,3 @@
 import felupe as fem
-element = fem.ConstantQuad()
+element = fem.Tetra()
 element.plot().show()
