@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-21 00:10+0000\n"
+"POT-Creation-Date: 2025-04-04 00:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -234,6 +234,18 @@ msgstr ""
 
 #: ../../felupe/docs/howto/mixed.rst:64
 msgid "The Step and Job definitions are identical to ones used with single field formulations. The deformed cube is finally visualized by PyVista. The cell-based means of the maximum principal values of the logarithmic strain tensor are shown."
+msgstr ""
+
+#: ../../felupe/docs/howto/project.rst:2
+msgid "Project cell values to mesh-points"
+msgstr ""
+
+#: ../../felupe/docs/howto/project.rst:4
+msgid "This section demonstrates how to move cell-values, located at the quadrature points of cells, to mesh-points. The results of :func:`~felupe.project`, :func:`~felupe.topoints` and :func:`~felupe.tools.extrapolate` are compared for the Cauchy stresses of a rectangular block under compression."
+msgstr ""
+
+#: ../../felupe/docs/howto/project.rst:22
+msgid "Cell-based results, like Cauchy stresses, are not projected to mesh-points by default. Different methods may be used to *move* the cell-data to the mesh-points."
 msgstr ""
 
 #: ../../felupe/docs/howto/solid.rst:2
