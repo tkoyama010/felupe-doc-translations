@@ -10,7 +10,7 @@ build:
     - pandoc
   jobs:
     post_create_environment:
-      - cp -a locales felupe/
+      - cp -a locales felupe/docs
 
 submodules:
   include:
