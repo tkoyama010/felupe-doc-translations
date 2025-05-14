@@ -36,6 +36,10 @@ jobs:
         with:
           host: github.com
           private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - uses: awalsh128/cache-apt-pkgs-action@v1.5.0
+        with:
+          packages: libosmesa6-dev libgl1-mesa-dev python3-tk pandoc git-restore-mtime xvfb pandoc
+          version: 3.0
       - name: install
         run: |
           (cd felupe; git fetch origin; git checkout main; git reset --hard origin/main; git branch -a)
