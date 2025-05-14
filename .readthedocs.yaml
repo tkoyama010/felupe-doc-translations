@@ -8,6 +8,9 @@ build:
     - libgl1-mesa-dev
     - xvfb
     - pandoc
+  jobs:
+    post_create_environment:
+      - cp -a locales felupe/
 
 submodules:
   include:
