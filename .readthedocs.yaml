@@ -18,7 +18,7 @@ submodules:
   recursive: true
 
 sphinx:
-  configuration: conf.py
+  configuration: felupe/docs/conf.py
   fail_on_warning: false
 
 python:
