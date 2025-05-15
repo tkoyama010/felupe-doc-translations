@@ -8,6 +8,9 @@ build:
     - libgl1-mesa-dev
     - xvfb
     - pandoc
+  jobs:
+    post_create_environment:
+      - cp -a locales felupe/docs
 
 submodules:
   include:
@@ -15,7 +18,7 @@ submodules:
   recursive: true
 
 sphinx:
-  configuration: conf.py
+  configuration: felupe/docs/conf.py
   fail_on_warning: false
 
 python:
