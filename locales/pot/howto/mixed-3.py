@@ -1,1 +1,0 @@
-boundaries, loadcase = fem.dof.uniaxial(field, clamped=True)
