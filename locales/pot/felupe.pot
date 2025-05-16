@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-16 00:12+0000\n"
+"POT-Creation-Date: 2025-05-16 03:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -433,6 +433,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.ConstantHexahedron:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_lagrange.py:docstring of felupe.element._lagrange.ArbitraryOrderLagrange:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_line.py:docstring of felupe.element._line.Line:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.BiQuadraticQuad:4
@@ -651,6 +652,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.ConstantHexahedron:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_lagrange.py:docstring of felupe.element._lagrange.ArbitraryOrderLagrange:76
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.BiQuadraticQuad:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.ConstantQuad:14
@@ -1384,37 +1386,38 @@ msgid "The array for the hess-attribute (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.py:docstring of felupe.assembly.expression._basis.BasisArray:42
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_orthotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/poisson/_laplace.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/_material_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:133
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_alexander.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._alexander.alexander:87
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_anssari_benam_bucchi.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._anssari_benam_bucchi.anssari_benam_bucchi:64
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_blatz_ko.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._blatz_ko.blatz_ko:59
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_extended_tube.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._extended_tube.extended_tube:94
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_finite_strain_viscoelastic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._finite_strain_viscoelastic.finite_strain_viscoelastic:80
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_lopez_pamies.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._lopez_pamies.lopez_pamies:68
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:58
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_storakers.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._storakers.storakers:83
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_van_der_waals.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._van_der_waals.van_der_waals:55
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_orthotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/poisson/_laplace.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/_material_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_alexander.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._alexander.alexander:75
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_anssari_benam_bucchi.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._anssari_benam_bucchi.anssari_benam_bucchi:52
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_blatz_ko.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._blatz_ko.blatz_ko:48
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_extended_tube.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._extended_tube.extended_tube:83
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_finite_strain_viscoelastic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._finite_strain_viscoelastic.finite_strain_viscoelastic:68
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_lopez_pamies.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._lopez_pamies.lopez_pamies:56
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:47
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_storakers.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._storakers.storakers:72
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_van_der_waals.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._van_der_waals.van_der_waals:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.py:docstring of felupe.constitution.tensortrax.models.lagrange._morph.morph:148
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.py:docstring of felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:61
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.ConstantHexahedron:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron:35
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron:26
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:31
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_line.py:docstring of felupe.element._line.Line:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.BiQuadraticQuad:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.ConstantQuad:24
@@ -1426,7 +1429,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.QuadraticTriangle:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.Triangle:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_triangle.py:docstring of felupe.element._triangle.TriangleMINI:30
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:263
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:264
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mesh/__init__.py:docstring of felupe.mesh._tools.triangulate:41
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.py:docstring of felupe.mesh._mesh.Mesh.triangulate:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/quadrature/_sphere.py:docstring of felupe.quadrature._sphere.BazantOh:33
@@ -1942,63 +1945,63 @@ msgstr ""
 msgid "The :func:`Anssari-Benam Bucchi <felupe.anssari_benam_bucchi>` material model formulation is best-fitted on Treloar's uniaxial and biaxial tension data [1]_."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_orthotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/poisson/_laplace.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/_material_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:129
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_orthotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/poisson/_laplace.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/_material_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:117
 msgid ":py:obj:`scipy.optimize.least_squares`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_orthotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/poisson/_laplace.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/_material_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:130
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_orthotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/poisson/_laplace.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/_material_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:118
 msgid "Solve a nonlinear least-squares problem with bounds on the variables."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_orthotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/poisson/_laplace.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/_material_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:134
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_orthotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/poisson/_laplace.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/_material_strain.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.py:docstring of felupe.constitution._base.ConstitutiveMaterial.optimize:122
 msgid "L. R. G. Treloar, \"Stress-strain data for vulcanised rubber under various types of deformation\", Transactions of the Faraday Society, vol. 40. Royal Society of Chemistry (RSC), p. 59, 1944. doi: `10.1039/tf9444000059 <https://doi.org/10.1039/tf9444000059>`_. Data available at https://www.uni-due.de/mathematik/ag_neff/neff_hencky."
 msgstr ""
 
@@ -2419,11 +2422,11 @@ msgstr ""
 msgid "This example shows how to create a derived user material class to enable the methods from :class:`~felupe.ConstitutiveMaterial` on any (external) material."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.constitutive_material:58
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.constitutive_material:46
 msgid ":py:obj:`felupe.ConstitutiveMaterial`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.constitutive_material:59
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_base.py:docstring of felupe.constitution._base.constitutive_material:47
 msgid "Base class for constitutive material formulations."
 msgstr ""
 
@@ -3019,7 +3022,7 @@ msgstr ""
 msgid "and create the hyperelastic material."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_blatz_ko.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._blatz_ko.blatz_ko:60
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_blatz_ko.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._blatz_ko.blatz_ko:49
 msgid "P. J. Blatz and W. L. Ko, \"Application of Finite Elastic Theory to the Deformation of Rubbery Materials\", Transactions of the Society of Rheology, vol. 6, no. 1. Society of Rheology, pp. 223–252, Mar. 01, 1962. doi: 10.1122/1.548937."
 msgstr ""
 
@@ -3081,7 +3084,7 @@ msgstr ""
 msgid "\\mu = G_e + G_c"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_extended_tube.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._extended_tube.extended_tube:95
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_extended_tube.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._extended_tube.extended_tube:84
 msgid "M. Kaliske and G. Heinrich, \"An Extended Tube-Model for Rubber Elasticity: Statistical-Mechanical Theory and Finite Element Implementation\", Rubber Chemistry and Technology, vol. 72, no. 4. Rubber Division, ACS, pp. 602–632, Sep. 01, 1999. doi: `10.5254/1.3538822 <https://www.doi.org/10.5254/1.3538822>`_."
 msgstr ""
 
@@ -3105,7 +3108,7 @@ msgstr ""
 msgid "Non-affine tube parameter (shape of constraint stress)."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:59
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:48
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.py:docstring of felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:71
 msgid "C. Miehe, S. Göktepe and F. Lulei, \"A micro-macro approach to rubber-like materials - Part I: the non-affine micro-sphere model of rubber elasticity\", Journal of the Mechanics and Physics of Solids, vol. 52, no. 11. Elsevier BV, pp. 2617–2660, Nov. 2004. doi: `10.1016/j.jmps.2004.03.011 <https://doi.org/10.1016/j.jmps.2004.03.011>`_."
 msgstr ""
@@ -3211,7 +3214,7 @@ msgstr ""
 msgid "K = \\sum_i 2 \\mu_i \\left( \\frac{1}{3} + \\beta_i \\right)"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_storakers.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._storakers.storakers:84
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_storakers.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._storakers.storakers:73
 msgid "B. Storåkers, \"On material representation and constitutive branching in finite compressible elasticity\", Journal of the Mechanics and Physics of Solids, vol. 34, no. 2. Elsevier BV, pp. 125–145, Jan. 1986. doi: 10.1016/0022-5096(86)90033-5."
 msgstr ""
 
@@ -3276,7 +3279,7 @@ msgstr ""
 msgid "Mixed-Invariant factor: 0 for pure I1- and 1 for pure I2-contribution."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_van_der_waals.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._van_der_waals.van_der_waals:56
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_van_der_waals.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._van_der_waals.van_der_waals:45
 msgid "H.-G. Kilian, \"Equation of state of real networks\", Polymer, vol. 22, no. 2. Elsevier BV, pp. 209–217, Feb. 1981. doi: `10.1016/0032-3861(81)90200-7 <https://www.doi.org/10.1016/0032-3861(81)90200-7>`_."
 msgstr ""
 
@@ -3645,83 +3648,83 @@ msgstr ""
 msgid "See the `documentation of tensortrax <https://tensortrax.readthedocs.io>`_ for further details."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:114
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:102
 msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.saint_venant_kirchhoff`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:115
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:103
 msgid "Strain energy function of the Saint Venant-Kirchhoff material formulation."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:105
 msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.neo_hooke`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:106
 msgid "Strain energy function of the Neo-Hookean material formulation."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:120
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:108
 msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.mooney_rivlin`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:121
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:109
 msgid "Strain energy function of the Mooney-Rivlin material formulation."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:123
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:111
 msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.yeoh`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:124
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:112
 msgid "\"Strain energy function of the Yeoh material formulation."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:126
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:114
 msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.third_order_deformation`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:127
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:115
 msgid "Strain energy function of the Third-Order-Deformation material formulation."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:129
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:117
 msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.ogden`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:130
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:118
 msgid "Strain energy function of the Ogden material formulation."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:132
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:120
 msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.arruda_boyce`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:133
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:121
 msgid "Strain energy function of the Arruda-Boyce material formulation."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:135
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:123
 msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.extended_tube`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:136
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:124
 msgid "Strain energy function of the Extended-Tube material formulation."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:138
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:126
 msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.van_der_waals`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:139
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:127
 msgid "Strain energy function of the Van der Waals material formulation."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:141
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:129
 msgid ":py:obj:`felupe.constitution.tensortrax.models.hyperelastic.finite_strain_viscoelastic`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:142
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.py:docstring of felupe.constitution.tensortrax._hyperelastic.Hyperelastic:130
 msgid "Finite strain viscoelastic material formulation."
 msgstr ""
 
@@ -3818,7 +3821,7 @@ msgstr ""
 msgid "\\mu = 2 \\left( C_1 + \\frac{C_2}{\\gamma} + C_3 \\right)"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_alexander.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._alexander.alexander:88
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_alexander.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._alexander.alexander:76
 msgid "H. Alexander, \"A constitutive relation for rubber-like materials\", International Journal of Engineering Science, vol. 6, no. 9. Elsevier BV, pp. 549–563, Sep. 1968. doi: `10.1016/0020-7225(68)90006-2 <https://doi.org/10.1016/0020-7225(68)90006-2>`_."
 msgstr ""
 
@@ -3851,7 +3854,7 @@ msgstr ""
 msgid "\\mu_0 = \\mu \\frac{1 - 3N}{3 - 3N}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_anssari_benam_bucchi.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._anssari_benam_bucchi.anssari_benam_bucchi:65
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_anssari_benam_bucchi.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._anssari_benam_bucchi.anssari_benam_bucchi:53
 msgid "A. Anssari-Benam and A. Bucchi, \"A generalised neo-Hookean strain energy function for application to the finite deformation of elastomers\", International Journal of Non-Linear Mechanics, vol. 128. Elsevier BV, p. 103626, Jan. 2021. doi: `10.1016/j.ijnonlinmec.2020.103626 <https://doi.org/10.1016/j.ijnonlinmec.2020.103626>`_."
 msgstr ""
 
@@ -3932,7 +3935,7 @@ msgid "\\hat{\\psi} = \\frac{\\mu}{2} \\left( \\text{tr}\\left(\n"
 "\\right) - 3 \\right)"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_finite_strain_viscoelastic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._finite_strain_viscoelastic.finite_strain_viscoelastic:81
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_finite_strain_viscoelastic.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._finite_strain_viscoelastic.finite_strain_viscoelastic:69
 msgid "A. V. Shutov, R. Landgraf, and J. Ihlemann, \"An explicit solution for implicit time stepping in multiplicative finite strain viscoelasticity\", Computer Methods in Applied Mechanics and Engineering, vol. 265. Elsevier BV, pp. 213–225, Oct. 2013. doi: `10.1016/j.cma.2013.07.004 <https://doi.org/10.1016/j.cma.2013.07.004>`_."
 msgstr ""
 
@@ -3962,7 +3965,7 @@ msgstr ""
 msgid "\\mu = \\sum_r \\mu_r"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_lopez_pamies.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._lopez_pamies.lopez_pamies:69
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_lopez_pamies.py:docstring of felupe.constitution.tensortrax.models.hyperelastic._lopez_pamies.lopez_pamies:57
 msgid "O. Lopez-Pamies, \"A new I1-based hyperelastic model for rubber elastic materials\", Comptes Rendus. Mécanique, vol. 338, no. 1. Cellule MathDoc/Centre Mersenne, pp. 3–11, Dec. 23, 2009. doi: `10.1016/j.crme.2009.12.007 <https://doi.org/10.1016/j.crme.2009.12.007>`_."
 msgstr ""
 
@@ -4160,7 +4163,7 @@ msgid ":py:obj:`LinearElasticLargeStrain <felupe.LinearElasticLargeStrain>`\\ \\
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:26:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:81
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:69
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.py:docstring of felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain:1
 msgid "Linear-elastic material formulation suitable for large-strain analyses based on the compressible Neo-Hookean material formulation."
 msgstr ""
@@ -4242,9 +4245,9 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:55:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/_material_strain.py:docstring of felupe.constitution.small_strain._material_strain.MaterialStrain:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic.py:docstring of felupe.constitution.small_strain.models._linear_elastic.linear_elastic:63
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic.py:docstring of felupe.constitution.small_strain.models._linear_elastic.linear_elastic:51
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution.small_strain.models._linear_elastic_plastic_isotropic.LinearElasticPlasticIsotropicHardening:16
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution.small_strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:119
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution.small_strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:107
 msgid "A strain-based user-defined material definition with a given function for the stress tensor and the (fourth-order) elasticity tensor."
 msgstr ""
 
@@ -4380,15 +4383,15 @@ msgstr ""
 msgid "This material formulation must not be used in analyses where large rotations, large displacements or large strains occur. In this case, consider using a :class:`~felupe.Hyperelastic` material formulation instead. :class:`~felupe.LinearElasticLargeStrain` is based on a compressible version of the Neo-Hookean material formulation and is safe to use for large rotations, large displacements and large strains."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:80
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:68
 msgid ":py:obj:`felupe.LinearElasticLargeStrain`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:83
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:71
 msgid ":py:obj:`felupe.Hyperelastic`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:84
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.py:docstring of felupe.constitution.linear_elasticity._linear_elastic.LinearElastic:72
 msgid "A hyperelastic material definition with a given function for the strain energy density function per unit undeformed volume with automatic differentiation."
 msgstr ""
 
@@ -4505,9 +4508,9 @@ msgid "\\mathbb{C} &= \\lambda \\ \\boldsymbol{1} \\otimes \\boldsymbol{1} +\n"
 "    + \\mathbb{C} : \\Delta\\boldsymbol{\\varepsilon}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic.py:docstring of felupe.constitution.small_strain.models._linear_elastic.linear_elastic:62
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic.py:docstring of felupe.constitution.small_strain.models._linear_elastic.linear_elastic:50
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution.small_strain.models._linear_elastic_plastic_isotropic.LinearElasticPlasticIsotropicHardening:15
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution.small_strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:118
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/small_strain/models/_linear_elastic_plastic_isotropic.py:docstring of felupe.constitution.small_strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:106
 msgid ":py:obj:`MaterialStrain`"
 msgstr ""
 
@@ -4804,11 +4807,11 @@ msgstr ""
 msgid "A function which evaluates the second derivative of the volumetric part of the strain energy function :math:`\\bar{U}''` w.r.t. the volume ratio :math:`\\bar{J}`. Function signature must be ``lambda J, bulk: d2UdJdJ``. Default is :math:`\\bar{U}'' = K` or ``lambda J, bulk: bulk``."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._mixed.NearlyIncompressible:63
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._mixed.NearlyIncompressible:64
 msgid ":py:obj:`ThreeFieldVariation`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._mixed.NearlyIncompressible:64
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.py:docstring of felupe.constitution._mixed.NearlyIncompressible:65
 msgid "Hu-Washizu hydrostatic-volumetric selective three-field variation for nearly-incompressible material formulations."
 msgstr ""
 
@@ -6356,6 +6359,15 @@ msgid "A 2D quadrilateral element formulation with bi-quadratic shape functions.
 msgstr ""
 
 #: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
+msgid ":py:obj:`TriQuadraticHexahedron <felupe.TriQuadraticHexahedron>`\\ \\(\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:1
+msgid "A 3D hexahedron (brick) element formulation with tri-quadratic shape functions."
+msgstr ""
+
+#: ../../felupe/docs/felupe/element.rst:42:<autosummary>:1
 msgid ":py:obj:`QuadraticTriangle <felupe.QuadraticTriangle>`\\ \\(\\)"
 msgstr ""
 
@@ -6530,6 +6542,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.ConstantHexahedron:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_lagrange.py:docstring of felupe.element._lagrange.ArbitraryOrderLagrange:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_line.py:docstring of felupe.element._line.Line:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.BiQuadraticQuad:1
@@ -6580,6 +6593,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.ConstantHexahedron:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron:27
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_line.py:docstring of felupe.element._line.Line:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.BiQuadraticQuad:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.ConstantQuad:25
@@ -6661,6 +6675,7 @@ msgid "The hexahedron element is defined by eight points (0-7) where (0,1,2,3) f
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.QuadraticTetra:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.Tetra:7
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.TetraMINI:8
@@ -6683,6 +6698,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.ConstantHexahedron.function:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron.function:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron.function:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron.function:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.QuadraticTetra.function:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.Tetra.function:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.TetraMINI.function:1
@@ -6692,6 +6708,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.ConstantHexahedron.gradient:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.Hexahedron.gradient:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron.gradient:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron.gradient:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.QuadraticTetra.gradient:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.Tetra.gradient:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_tetra.py:docstring of felupe.element._tetra.TetraMINI.gradient:1
@@ -6763,6 +6780,10 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.QuadraticHexahedron:12
 msgid "The shape functions :math:`\\boldsymbol{h}` are given in terms of the coordinates :math:`(r,s,t)`.."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.py:docstring of felupe.element._hexahedron.TriQuadraticHexahedron:5
+msgid "The hexahedron element is defined by 27 points. This includes 8 corner points, 12 mid-edge points, 6 mid-face points and one mid-volume point. The ordering of the 27 points defining the element is point ids (0-7,8-19, 20-25, 26) where point ids 0-7 are the eight corner vertices of the cube; followed by twelve midedge points (8-19); followed by 6 mid-face points (20-25) and the last point (26) is the mid-volume point. Note that these mid-edge points correspond to the edges defined by (0,1), (1,2), (2,3), (3,0), (4,5), (5,6), (6,7), (7,4), (0,4), (1,5), (2,6), (3,7). The mid-surface points lie on the faces defined by (first edge point id's, than mid-edge point id's): (0,1,5,4;8,17,12,16), (1,2,6,5;9,18,13,17), (2,3,7,6,10,19,14,18), (3,0,4,7;11,16,15,19), (0,1,2,3;8,9,10,11), (4,5,6,7;12,13,14,15). The last point lies in the center (0,1,2,3,4,5,6,7). [1]"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/element/_quad.py:docstring of felupe.element._quad.QuadraticQuad:6
@@ -8963,8 +8984,8 @@ msgid ":py:obj:`Step <felupe.Step>`\\ \\(items\\[\\, ramp\\, boundaries\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:26:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:53
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:82
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:66
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:83
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:51
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_step.py:docstring of felupe.mechanics._step.Step:1
 msgid "A Step with multiple substeps, subsequently depending on the solution of the previous substep."
@@ -8975,8 +8996,9 @@ msgid ":py:obj:`Job <felupe.Job>`\\ \\(steps\\[\\, callback\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:26:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:56
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:69
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_step.py:docstring of felupe.mechanics._step.Step:39
 msgid "A job with a list of steps and a method to evaluate them."
 msgstr ""
 
@@ -9012,7 +9034,7 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:34:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointConstraint:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointContact:132
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointContact:130
 msgid "A Multi-point-constraint which connects a center-point to a list of points."
 msgstr ""
 
@@ -9346,37 +9368,27 @@ msgstr ""
 msgid "v = \\int_V J\\ dV"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:0
-#: ../../felupe/docs/felupe/mesh.rst:0
-msgid "Static Scene"
-msgstr ""
-
-#: ../../felupe/docs/felupe/mechanics.rst:0
-#: ../../felupe/docs/felupe/mesh.rst:0
-msgid "Interactive Scene"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:264
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:265
 msgid "J. Bonet, A. J. Gil, and R. D. Wood, \"Nonlinear Solid Mechanics for Finite Element Analysis: Statics\". Cambridge University Press, Jun. 05, 2016. doi: 10.1017/cbo9781316336144."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:268
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:269
 msgid "O. C. Zienkiewicz, R. L. Taylor and J.Z. Zhu, \"The Finite Element Method: its Basis and Fundamentals\". Elsevier, 2013. doi: 10.1016/c2009-0-24909-9."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:271
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:272
 msgid "G. A. Holzapfel, \"Nonlinear Solid Mechanics. A Continuum Approach for Engineering\". Wiley, 2000. isbn: 047182304X."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:274
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:275
 msgid "J. A. Schönherr, P. Schneider, and C. Mittelstedt, \"Robust hybrid/mixed finite elements for rubber-like materials under severe compression\", Computational Mechanics, vol. 70, no. 1. Springer Science and Business Media LLC, pp. 101–122, Mar. 31, 2022. doi: 10.1007/s00466-022-02157-y."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:281
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:282
 msgid ":py:obj:`felupe.StateNearlyIncompressible`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:282
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.py:docstring of felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:283
 msgid "A State with internal cell-wise constant fields for (nearly) incompressible solid bodies."
 msgstr ""
 
@@ -9397,6 +9409,14 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.py:docstring of felupe.mechanics._solidbody_force.SolidBodyForce:15
 msgid "\\delta W_{ext} = \\int_V\n"
 "    \\delta \\boldsymbol{u} \\cdot \\rho \\boldsymbol{g} \\ dV"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:0
+msgid "Static Scene"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:0
+msgid "Interactive Scene"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_pressure.py:docstring of felupe.mechanics._solidbody_pressure.SolidBodyPressure:5
@@ -9459,6 +9479,22 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.py:docstring of felupe.mechanics._free_vibration.FreeVibration:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_step.py:docstring of felupe.mechanics._step.Step:9
 msgid "A dict with :class:`~felupe.Boundary` conditions (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:68
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_step.py:docstring of felupe.mechanics._step.Step:38
+msgid ":py:obj:`Job`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:85
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:53
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_step.py:docstring of felupe.mechanics._step.Step:41
+msgid ":py:obj:`CharacteristicCurve`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:86
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_step.py:docstring of felupe.mechanics._step.Step:42
+msgid "A job with a list of steps and a method to evaluate them. Force-displacement curve data is tracked during evaluation for a given :class:`~felupe.Boundary`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_step.py:docstring of felupe.mechanics._step.Step.generate:1
@@ -9526,30 +9562,21 @@ msgstr ""
 msgid "dict"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:52
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:81
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:65
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:82
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:50
 msgid ":py:obj:`Step`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:84
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:53
-msgid ":py:obj:`CharacteristicCurve`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:85
-msgid "A job with a list of steps and a method to evaluate them. Force-displacement curve data is tracked during evaluation for a given :class:`~felupe.Boundary`."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:58
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:87
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:71
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:88
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:56
 msgid ":py:obj:`tools.NewtonResult`"
 msgstr ""
 
 #: ../../felupe/docs/felupe/tools.rst:12:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:59
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:88
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:72
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job:89
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_job.py:docstring of felupe.mechanics._job.Job.evaluate:57
 msgid "A data class which represents the result found by Newton's method."
 msgstr ""
@@ -9617,10 +9644,6 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:8
 msgid "A list of items with methods for the assembly of sparse vectors/matrices which are used to evaluate the sum of reaction forces. If None, the total reaction forces from the :class:`~felupe.tools.NewtonResult` of the substep are used."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve:55
-msgid ":py:obj:`Job`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.py:docstring of felupe.mechanics._curve.CharacteristicCurve.plot:1
@@ -9760,11 +9783,11 @@ msgstr ""
 msgid "A view on the deformed mesh including the :class:`~felupe.MultiPointConstraint` is plotted."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointConstraint:129
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointConstraint:127
 msgid ":py:obj:`felupe.MultiPointContact`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointConstraint:130
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointConstraint:128
 msgid "A frictionless point-to-rigid (wall) contact."
 msgstr ""
 
@@ -9792,7 +9815,7 @@ msgstr ""
 msgid "A view on the deformed mesh including the :class:`~felupe.MultiPointContact` is plotted."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointContact:131
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.py:docstring of felupe.mechanics._multipoint.MultiPointContact:129
 msgid ":py:obj:`felupe.MultiPointConstraint`"
 msgstr ""
 
@@ -9939,7 +9962,7 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/mesh.rst:30:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.py:docstring of felupe.mesh._geometry.CubeArbitraryOrderHexahedron:1
-msgid "A rectangular 2d-mesh with an arbitrary-order Lagrange hexahedron between ``a`` and ``b``."
+msgid "A rectangular 3d-mesh with an arbitrary-order Lagrange hexahedron between ``a`` and ``b``."
 msgstr ""
 
 #: ../../felupe/docs/felupe/mesh.rst:60:<autosummary>:1
