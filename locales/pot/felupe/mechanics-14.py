@@ -1,14 +1,7 @@
-plotter = pv.Plotter()
-actor_1 = plotter.add_points(
-    mesh.points[mpc.points] + displacement.values[mpc.points],
-    point_size=16,
-    color="red",
+boundaries = {"fixed": fem.Boundary(displacement, fx=0)}
+load = fem.PointLoad(field, points=[-1])
+table = fem.math.linsteps([0, 1], num=5, axis=0, axes=3)
+step = fem.Step(
+    [solid, mpc, load], boundaries=boundaries, ramp={load: table}
 )
-actor_2 = plotter.add_points(
-    mesh.points[[mpc.centerpoint]] + displacement.values[[mpc.centerpoint]],
-    point_size=16,
-    color="green",
-)
-field.plot(
-    "Displacement", component=None, plotter=mpc.plot(plotter=plotter)
-).show()
+job = fem.Job([step]).evaluate()

@@ -1,7 +1,18 @@
-boundaries = {"fixed": fem.Boundary(displacement, fx=0)}
-load = fem.PointLoad(field, points=[-1])
-table = fem.math.linsteps([0, 1], num=5, axis=0, axes=3)
-step = fem.Step(
-    [solid, mpc, load], boundaries=boundaries, ramp={load: table}
+import pyvista as pv
+mpc = fem.MultiPointConstraint(
+    field=field,
+    points=np.arange(mesh.npoints)[mesh.x == 1],
+    centerpoint=-1,
 )
-job = fem.Job([step]).evaluate()
+plotter = pv.Plotter()
+actor_1 = plotter.add_points(
+    mesh.points[mpc.points],
+    point_size=16,
+    color="red",
+)
+actor_2 = plotter.add_points(
+    mesh.points[[mpc.centerpoint]],
+    point_size=16,
+    color="green",
+)
+mesh.plot(plotter=mpc.plot(plotter=plotter)).show()

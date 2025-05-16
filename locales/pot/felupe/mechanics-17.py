@@ -1,12 +1,19 @@
-boundaries = {
-    "fixed": fem.Boundary(displacement, fx=0),
-    "control": fem.Boundary(displacement, fx=2, skip=(1, 0, 0)),
-    "move": fem.Boundary(displacement, fx=2, skip=(0, 1, 1)),
-}
-table = fem.math.linsteps([0, -1, -1.5], num=5)
-step = fem.Step(
-    [solid, contact],
-    boundaries=boundaries,
-    ramp={boundaries["move"]: table},
+import pyvista as pv
+contact = fem.MultiPointContact(
+    field=field,
+    points=np.arange(mesh.npoints)[mesh.x == 1],
+    centerpoint=-1,
+    skip=(False, True, True)
 )
-job = fem.Job([step]).evaluate()
+plotter = pv.Plotter()
+actor_1 = plotter.add_points(
+    mesh.points[mpc.points],
+    point_size=16,
+    color="red",
+)
+actor_2 = plotter.add_points(
+    mesh.points[[mpc.centerpoint]],
+    point_size=16,
+    color="green",
+)
+mesh.plot(plotter=contact.plot(plotter=plotter)).show()
