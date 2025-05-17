@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-20 00:10+0000\n"
+"POT-Creation-Date: 2025-05-17 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../felupe/docs/index.rst:225
+#: ../../felupe/docs/index.rst:224
 msgid "Contents:"
 msgstr "内容:"
 
@@ -299,17 +299,17 @@ msgid ""
 msgstr ""
 "テスト環境：Windows 10、Python 3.11、インテル® Core™ i7-11850H @ 2.50GHz、32GB RAM。"
 
-#: ../../felupe/docs/index.rst:235
+#: ../../felupe/docs/index.rst:234
 msgid "License"
 msgstr "ライセンス"
 
-#: ../../felupe/docs/index.rst:237
+#: ../../felupe/docs/index.rst:236
 msgid ""
 "FElupe - Finite Element Analysis (C) 2021-2025 Andreas Dutzler, Graz "
 "(Austria)."
 msgstr ""
 
-#: ../../felupe/docs/index.rst:239
+#: ../../felupe/docs/index.rst:238
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
@@ -318,7 +318,7 @@ msgid ""
 msgstr ""
 "このプログラムはフリー・ソフトウェアです。あなたは、フリー・ソフトウェア財団によって発行されたGNU一般公衆利用許諾契約書のバージョン3、または（あなたの選択により）それ以降のバージョンのいずれかに従って、このプログラムを再配布、または改変することができます。"
 
-#: ../../felupe/docs/index.rst:241
+#: ../../felupe/docs/index.rst:240
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
@@ -327,7 +327,7 @@ msgid ""
 msgstr ""
 "このプログラムは有用であることを願って配布されていますが、いかなる保証もありません。商品性や特定目的への適合性の暗黙の保証さえもありません。詳細はGNU一般公衆利用許諾契約書をご覧ください。"
 
-#: ../../felupe/docs/index.rst:243
+#: ../../felupe/docs/index.rst:242
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program. If not, see `<https://www.gnu.org/licenses/>`_."
@@ -335,18 +335,18 @@ msgstr ""
 "あなたはこのプログラムとともにGNU一般公衆利用許諾契約書のコピーを受け取っているはずです。そうでない場合は、 "
 "`<https://www.gnu.org/licenses/>`_ を参照してください。"
 
-#: ../../felupe/docs/index.rst:246
+#: ../../felupe/docs/index.rst:245
 msgid "Indices and tables"
 msgstr "インデックスとテーブル"
 
-#: ../../felupe/docs/index.rst:248
+#: ../../felupe/docs/index.rst:247
 msgid ":ref:`genindex`"
 msgstr ":ref:`genindex`"
 
-#: ../../felupe/docs/index.rst:249
+#: ../../felupe/docs/index.rst:248
 msgid ":ref:`modindex`"
 msgstr ":ref:`modindex`"
 
-#: ../../felupe/docs/index.rst:250
+#: ../../felupe/docs/index.rst:249
 msgid ":ref:`search`"
 msgstr ":ref:`search`"
