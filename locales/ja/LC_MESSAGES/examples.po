@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-17 00:11+0000\n"
+"POT-Creation-Date: 2025-05-29 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -144,7 +144,7 @@ msgstr ":download:`Download zipped: ex01_beam.zip <ex01_beam.zip>`"
 #: ../../felupe/docs/examples/ex07_engine-mount.rst:256
 #: ../../felupe/docs/examples/ex08_shear.rst:265
 #: ../../felupe/docs/examples/ex09_numeric-continuation.rst:227
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:101
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:102
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:159
 #: ../../felupe/docs/examples/ex12_foot-bone.rst:90
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:372
@@ -1070,7 +1070,7 @@ msgid ""
 "    \\ d\\Omega = \\int_\\Omega  \\delta u \\cdot f \\ d\\Omega"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:86
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:87
 msgid ""
 ":download:`Download Jupyter notebook: ex10_poisson-equation.ipynb "
 "<ex10_poisson-equation.ipynb>`"
@@ -1078,7 +1078,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex10_poisson-equation.ipynb "
 "<ex10_poisson-equation.ipynb>`"
 
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:90
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:91
 msgid ""
 ":download:`Download Python source code: ex10_poisson-equation.py "
 "<ex10_poisson-equation.py>`"
@@ -1086,7 +1086,7 @@ msgstr ""
 ":download:`Download Python source code: ex10_poisson-equation.py "
 "<ex10_poisson-equation.py>`"
 
-#: ../../felupe/docs/examples/ex10_poisson-equation.rst:94
+#: ../../felupe/docs/examples/ex10_poisson-equation.rst:95
 msgid ""
 ":download:`Download zipped: ex10_poisson-equation.zip <ex10_poisson-"
 "equation.zip>`"
