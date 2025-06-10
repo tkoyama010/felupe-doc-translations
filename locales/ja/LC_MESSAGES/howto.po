@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-07 00:11+0000\n"
+"POT-Creation-Date: 2025-06-10 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -28,6 +28,47 @@ msgstr "ハウツー"
 #: ../../felupe/docs/howto.rst:4
 msgid "How-To Guides"
 msgstr "ハウツーガイド"
+
+#: ../../felupe/docs/howto/assemble.rst:2
+msgid "Assemble Vectors and Matrices"
+msgstr ""
+
+#: ../../felupe/docs/howto/assemble.rst:4
+msgid ""
+"Integral (weak) forms are transformed into sparse vectors and matrices by "
+"calling the assemble-method of an :class:`integral "
+"form<felupe.IntegralForm>`. The :class:`Neo-Hookean <felupe.NeoHooke>` "
+"material model formulation is used to evaluate both the variation and "
+"linerization of its strain energy density function."
+msgstr ""
+
+#: ../../felupe/docs/howto/assemble.rst:23
+msgid ""
+"The code for the variation of the total-potential energy, as given in Eq. "
+":eq:`total-potential-energy-variation`, is very close to the analytical "
+"expression."
+msgstr ""
+
+#: ../../felupe/docs/howto/assemble.rst:26
+msgid ""
+"\\delta \\Pi = \\int_V \\boldsymbol{P} : \\frac{\n"
+"    \\partial \\delta \\boldsymbol{u}\n"
+"}{\\partial \\boldsymbol{X}} \\ dV"
+msgstr ""
+
+#: ../../felupe/docs/howto/assemble.rst:44
+msgid ""
+"For the linearization, see Eq. :eq:`total-potential-energy-linearization`."
+msgstr ""
+
+#: ../../felupe/docs/howto/assemble.rst:46
+msgid ""
+"\\Delta \\delta \\Pi = \\int_V \\frac{\n"
+"    \\partial \\delta \\boldsymbol{u}\n"
+"}{\\partial \\boldsymbol{X}} : \\mathbb{A} : \\frac{\n"
+"    \\partial \\Delta \\boldsymbol{u}\n"
+"}{\\partial \\boldsymbol{X}} \\ dV"
+msgstr ""
 
 #: ../../felupe/docs/howto/axi.rst:2
 msgid "Two-dimensional Problems"
