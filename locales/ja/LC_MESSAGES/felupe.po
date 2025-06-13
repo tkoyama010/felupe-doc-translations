@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-02 00:12+0000\n"
+"POT-Creation-Date: 2025-06-13 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -499,8 +499,6 @@ msgstr ""
 #: of felupe.mechanics._solidbody_pressure.SolidBodyPressure.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.Step.generate:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._convert.add_midpoints_faces:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
@@ -971,8 +969,6 @@ msgstr ""
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_pressure.pydocstring
 #: of felupe.mechanics._solidbody_pressure.SolidBodyPressure:10
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._dual.dual:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
@@ -1446,8 +1442,6 @@ msgstr ""
 #: of felupe.mechanics._solidbody_pressure.SolidBodyPressure:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.Step:13
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:121
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._convert.add_midpoints_edges:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
@@ -16477,7 +16471,7 @@ msgstr ""
 #: of
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:11
+#: of felupe.mechanics._truss.TrussBody:14
 msgid "A field container with one or more fields."
 msgstr ""
 
@@ -16487,7 +16481,7 @@ msgstr ""
 #: of
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:15
+#: of felupe.mechanics._truss.TrussBody:18
 msgid "Array of initial internal state variables (default is None)."
 msgstr ""
 
@@ -17149,7 +17143,17 @@ msgid "Plot the point load."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:3
+#: of felupe.mechanics._truss.TrussBody:5
+msgid "umat"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
+#: of felupe.mechanics._truss.TrussBody-1
+msgid "class"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
+#: of felupe.mechanics._truss.TrussBody:6
 msgid ""
 "A class which provides methods for evaluating the gradient and the hessian "
 "of the strain energy density function per unit undeformed volume. The "
@@ -17162,50 +17166,77 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
 #: of felupe.mechanics._truss.TrussBody:13
+msgid "field"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
+#: of felupe.mechanics._truss.TrussBody-1
+msgid "FieldContainer"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
+#: of felupe.mechanics._truss.TrussBody:15
+msgid "area"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
+#: of felupe.mechanics._truss.TrussBody-1
+msgid "float or ndarray"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
+#: of felupe.mechanics._truss.TrussBody:16
 msgid "The cross-sectional areas of the trusses."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:20
-msgid ""
-"For a truss element the stretch may be calculated as given in Eq. "
-":eq:`truss-stretch`."
+#: of felupe.mechanics._truss.TrussBody:17
+msgid "statevars"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:23
+#: of felupe.mechanics._truss.TrussBody-1
+msgid "ndarray or None, optional"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
+#: of felupe.mechanics._truss.TrussBody:22
 msgid ""
-"\\Lambda = \\frac{l}{L} = \\sqrt{1 + 2 \\left(\n"
-"        \\frac{\\boldsymbol{\\Delta X}}{L}\n"
-"    \\right)^T \\left(\\frac{\\boldsymbol{\\Delta u}}{L}\\right) + \\left(\n"
-"        \\frac{\\boldsymbol{\\Delta u}}{L}\n"
-"    \\right)^T \\left(\\frac{\\boldsymbol{\\Delta u}}{L}\\right)}"
+"For a truss element the stretch is evaluated as given in Eq. :eq:`truss-"
+"stretch`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
+#: of felupe.mechanics._truss.TrussBody:24
+msgid "\\Lambda = \\sqrt{\\frac{l^2}{L^2}}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
+#: of felupe.mechanics._truss.TrussBody:29
+msgid ""
+"with the squared undeformed and deformed lengths, denoted in Eqs. "
+":eq:`truss-lengths`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
 #: of felupe.mechanics._truss.TrussBody:32
-msgid "This follows from Eqs. :eq:`truss-lengths`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:34
 msgid ""
 "l^2 &= \\boldsymbol{\\Delta x}^T \\boldsymbol{\\Delta x} \\\\\n"
 "L^2 &= \\boldsymbol{\\Delta X}^T \\boldsymbol{\\Delta X}"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:40
-msgid "and enables the Biot strain measure, see Eq. :eq:`truss-strain`."
+#: of felupe.mechanics._truss.TrussBody:38
+msgid "This enables the Biot strain measure, see Eq. :eq:`truss-strain`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:42
+#: of felupe.mechanics._truss.TrussBody:40
 msgid "E_{11} = \\Lambda - 1"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:47
+#: of felupe.mechanics._truss.TrussBody:45
 msgid ""
 "The normal force of a truss depends directly on the geometric exactly "
 "defined strain measure :math:`E_{11}`. For the general case of a nonlinear "
@@ -17214,17 +17245,17 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:51
+#: of felupe.mechanics._truss.TrussBody:49
 msgid "N = S_{11}(E_{11})~A"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:56
+#: of felupe.mechanics._truss.TrussBody:54
 msgid "and the derivative according to Eq. :eq:`truss-force-derivative`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:58
+#: of felupe.mechanics._truss.TrussBody:56
 msgid ""
 "\\frac{\\partial N}{\\partial E_{11}} = \\frac{\n"
 "        \\partial S_{11}(E_{11})\n"
@@ -17232,14 +17263,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:65
+#: of felupe.mechanics._truss.TrussBody:63
 msgid ""
 "For the case of a linear elastic material this reduces to Eqs. :eq:`truss-"
 "force-linear`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:68
+#: of felupe.mechanics._truss.TrussBody:66
 msgid ""
 "S_{11}(E_{11}) &= E~E_{11} \\\\\n"
 "N              &= EA~E_{11} \\\\\n"
@@ -17247,7 +17278,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:75
+#: of felupe.mechanics._truss.TrussBody:73
 msgid ""
 "The (nonlinear) fixing force column vector may be expressed as a function of"
 " the elemental force :math:`N_k` and the deformed unit vector "
@@ -17255,7 +17286,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:79
+#: of felupe.mechanics._truss.TrussBody:77
 msgid ""
 "\\boldsymbol{r}_k = \\begin{bmatrix}\n"
 "        \\boldsymbol{r}_A \\\\\n"
@@ -17267,7 +17298,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:90
+#: of felupe.mechanics._truss.TrussBody:88
 msgid ""
 "For a truss the stiffness matrix is divided into four block matrices of the "
 "same components but with different signs, see Eq. :eq:`truss-stiffness-"
@@ -17275,7 +17306,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:93
+#: of felupe.mechanics._truss.TrussBody:91
 msgid ""
 "\\boldsymbol{K}_{k~(6,6)} = \\begin{bmatrix}\n"
 "        \\boldsymbol{K}_{AA} & \\boldsymbol{K}_{AE}\\\\\n"
@@ -17287,7 +17318,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:104
+#: of felupe.mechanics._truss.TrussBody:102
 msgid ""
 "A change in the fixing force vector at the end node `E` w.r.t. a small "
 "change of the displacements at node `E` is defined as the tangent stiffnes "
@@ -17295,7 +17326,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
-#: of felupe.mechanics._truss.TrussBody:108
+#: of felupe.mechanics._truss.TrussBody:106
 msgid ""
 "\\boldsymbol{K}_{EE} &= \\frac{\n"
 "    \\partial \\boldsymbol{r}_E}{\\partial \\boldsymbol{U}_E\n"
