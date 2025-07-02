@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-27 00:13+0000\n"
+"POT-Creation-Date: 2025-07-02 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1562,6 +1562,10 @@ msgstr ""
 #: of felupe.quadrature._gauss_legendre.GaussLegendre:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.pydocstring
 #: of felupe.quadrature._gauss_legendre.GaussLegendreBoundary:24
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.pydocstring
+#: of felupe.quadrature._gauss_lobatto.GaussLobatto:25
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.pydocstring
+#: of felupe.quadrature._gauss_lobatto.GaussLobattoBoundary:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/quadrature/_sphere.pydocstring
 #: of felupe.quadrature._sphere.BazantOh:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/quadrature/_tetra.pydocstring
@@ -18843,7 +18847,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.add_points:1
-msgid "Add additional points to the mesh."
+msgid "Add additional points to the mesh in-place."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
@@ -21049,6 +21053,15 @@ msgstr ""
 msgid ""
 "The number of sample points :math:`n` minus two. The quadrature rule "
 "integrates degree :math:`2n-3` polynomials exactly."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.pydocstring
+#: of felupe.quadrature._gauss_lobatto.GaussLobatto:28
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.pydocstring
+#: of felupe.quadrature._gauss_lobatto.GaussLobattoBoundary:27
+msgid ""
+"The quadrature points are not weighted in the plots because the end-points "
+"would be almost invisible for the Gauss-Lobatto quadrature rule."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_lobatto.pydocstring
