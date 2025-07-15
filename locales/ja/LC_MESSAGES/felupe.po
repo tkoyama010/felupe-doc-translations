@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-13 00:13+0000\n"
+"POT-Creation-Date: 2025-07-14 18:15+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1430,7 +1430,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.pydocstring
 #: of felupe.mechanics._pointload.PointLoad:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody:72
+#: of felupe.mechanics._solidbody.SolidBody:71
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
 #: of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.pydocstring
@@ -16226,7 +16226,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.StateNearlyIncompressible:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody:99
+#: of felupe.mechanics._solidbody.SolidBody:98
 msgid ""
 "A (nearly) incompressible solid body with methods for the assembly of sparse"
 " vectors/matrices."
@@ -16522,17 +16522,17 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody:30
+#: of felupe.mechanics._solidbody.SolidBody:29
 msgid "\\Pi_{int}(\\boldsymbol{F}) = \\int_V \\psi(\\boldsymbol{F})\\ dV"
 msgstr "\\Pi_{int}(\\boldsymbol{F}) = \\int_V \\psi(\\boldsymbol{F})\\ dV"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody:35
+#: of felupe.mechanics._solidbody.SolidBody:34
 msgid "with its variation, see Eq. :eq:`solidbody-variation`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody:37
+#: of felupe.mechanics._solidbody.SolidBody:36
 msgid ""
 "\\delta_\\boldsymbol{u}(\\Pi_{int}) =\n"
 "    \\int_V \\frac{\\partial \\psi}{\\partial \\boldsymbol{F}} \\ dV\n"
@@ -16543,7 +16543,7 @@ msgstr ""
 "\\longrightarrow \\boldsymbol{f}_\\boldsymbol{u}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody:44
+#: of felupe.mechanics._solidbody.SolidBody:43
 msgid ""
 "and linearization, see Eq. :eq:`solidbody-linearization`. The right-arrows "
 "in Eq. :eq:`solidbody-variation` and Eq. :eq:`solidbody-linearization` "
@@ -16551,7 +16551,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody:48
+#: of felupe.mechanics._solidbody.SolidBody:47
 msgid ""
 "\\delta_\\boldsymbol{u}\\Delta_\\boldsymbol{u}(\\Pi_{int}) =\n"
 "    \\int_V \\delta\\boldsymbol{F} :\n"
@@ -16568,14 +16568,14 @@ msgstr ""
 "\\longrightarrow \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody:58
+#: of felupe.mechanics._solidbody.SolidBody:57
 msgid ""
 "The displacement-based formulation leads to a linearized equation system as "
 "given in Eq. :eq:`solidbody-final`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody:61
+#: of felupe.mechanics._solidbody.SolidBody:60
 msgid ""
 "\\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}} \\cdot \\delta \\boldsymbol{u} +\n"
 "    \\boldsymbol{f}_\\boldsymbol{u} = \\boldsymbol{0}"
@@ -16584,7 +16584,7 @@ msgstr ""
 "    \\boldsymbol{f}_\\boldsymbol{u} = \\boldsymbol{0}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody:68
+#: of felupe.mechanics._solidbody.SolidBody:67
 msgid ""
 "This class also supports ``umat`` with mixed-field formulations like "
 ":class:`~felupe.NearlyIncompressible` or "
@@ -16594,7 +16594,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.StateNearlyIncompressible:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody:98
+#: of felupe.mechanics._solidbody.SolidBody:97
 msgid ":py:obj:`felupe.SolidBodyNearlyIncompressible`"
 msgstr ""
 
