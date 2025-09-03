@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-17 00:13+0000\n"
+"POT-Creation-Date: 2025-09-03 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -100,7 +100,7 @@ msgid ""
 msgstr "変位フィールドの大きさは、300倍に拡大された変形形状上にプロットされています。"
 
 #: ../../felupe/docs/examples/ex01_beam.rst:123
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:332
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:330
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:206
 #: ../../felupe/docs/examples/ex18_nonlinear-viscoelasticity-newton.rst:137
 #: ../../felupe/docs/examples/ex20_third-medium-contact.rst:203
@@ -147,11 +147,11 @@ msgstr ":download:`Download zipped: ex01_beam.zip <ex01_beam.zip>`"
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:102
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:159
 #: ../../felupe/docs/examples/ex12_foot-bone.rst:90
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:372
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:370
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:243
 #: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:103
 #: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:183
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:154
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:152
 #: ../../felupe/docs/examples/ex18_nonlinear-viscoelasticity-newton.rst:171
 #: ../../felupe/docs/examples/ex19_taylor-hood.rst:140
 #: ../../felupe/docs/examples/ex20_third-medium-contact.rst:246
@@ -1412,7 +1412,7 @@ msgid ""
 "fem.math.linsteps([0, 360, 720], num=[18, 18])``."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:280
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:278
 msgid ""
 "A nearly-incompressible solid body is created for the rubber. At the bottom,"
 " a frictionless contact edge is created. Both items are added to a step, "
@@ -1420,13 +1420,13 @@ msgid ""
 " successive rotation angles of the wheel."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:315
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:313
 msgid ""
 "The resulting max. principal values of the Cauchy stresses are shown for the"
 " final rotation angle."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:333
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:331
 msgid ""
 "D. Besdo and J. Ihlemann, \"A phenomenological constitutive model for "
 "rubberlike materials and its numerical applications\", International Journal"
@@ -1435,14 +1435,14 @@ msgid ""
 "<https://doi.org/10.1016/s0749-6419(02)00091-8>`_."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:338
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:336
 msgid ""
 "M. Freund, \"Verallgemeinerung eindimensionaler Materialmodelle für die "
 "Finite-Elemente-Methode\", Dissertation, Technische Universität Chemnitz, "
 "Chemnitz, 2013."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:342
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:340
 msgid ""
 "C. Miehe, S. Göktepe and F. Lulei, \"A micro-macro approach to rubber-like "
 "materials - Part I: the non-affine micro-sphere model of rubber "
@@ -1451,7 +1451,7 @@ msgid ""
 "<https://doi.org/10.1016/j.jmps.2004.03.011>`_."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:357
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:355
 msgid ""
 ":download:`Download Jupyter notebook: ex13_morph-rubber-wheel.ipynb "
 "<ex13_morph-rubber-wheel.ipynb>`"
@@ -1459,7 +1459,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex13_morph-rubber-wheel.ipynb "
 "<ex13_morph-rubber-wheel.ipynb>`"
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:361
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:359
 msgid ""
 ":download:`Download Python source code: ex13_morph-rubber-wheel.py "
 "<ex13_morph-rubber-wheel.py>`"
@@ -1467,7 +1467,7 @@ msgstr ""
 ":download:`Download Python source code: ex13_morph-rubber-wheel.py "
 "<ex13_morph-rubber-wheel.py>`"
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:365
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:363
 msgid ""
 ":download:`Download zipped: ex13_morph-rubber-wheel.zip <ex13_morph-rubber-"
 "wheel.zip>`"
@@ -1781,7 +1781,7 @@ msgid ""
 "This is even possible in a :class:`~felupe.Step` with the ``ramp``-argument."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:77
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:75
 msgid ""
 "The reaction moment on the centerpoint of the right end face is tracked by a"
 " ``callback()`` function when we :meth:`~felupe.Job.evaluate` the "
@@ -1790,11 +1790,11 @@ msgid ""
 "``close()`` the plotter."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:119
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:117
 msgid "Finally, let's plot the reaction moment vs. torsion angle curve."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:139
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:137
 msgid ""
 ":download:`Download Jupyter notebook: ex17_torsion-gif.ipynb <ex17_torsion-"
 "gif.ipynb>`"
@@ -1802,7 +1802,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex17_torsion-gif.ipynb <ex17_torsion-"
 "gif.ipynb>`"
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:143
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:141
 msgid ""
 ":download:`Download Python source code: ex17_torsion-gif.py <ex17_torsion-"
 "gif.py>`"
@@ -1810,7 +1810,7 @@ msgstr ""
 ":download:`Download Python source code: ex17_torsion-gif.py <ex17_torsion-"
 "gif.py>`"
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:147
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:145
 msgid ""
 ":download:`Download zipped: ex17_torsion-gif.zip <ex17_torsion-gif.zip>`"
 msgstr ""

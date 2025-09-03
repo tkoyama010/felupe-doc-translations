@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-28 21:25+0000\n"
+"POT-Creation-Date: 2025-09-03 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -16684,7 +16684,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.checkpoint:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.restore:9
+#: of felupe.mechanics._solidbody.SolidBody.restore:12
 msgid "Return a checkpoint of the solid body."
 msgstr ""
 
@@ -16702,7 +16702,17 @@ msgid "Restore a checkpoint of a solid body inplace."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.restore:8
+#: of felupe.mechanics._solidbody.SolidBody.restore:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.restore:5
+msgid ""
+"Flag to restore state variables. This is a power feature and must be used "
+"with caution! Default is True."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.restore:11
 msgid ":py:obj:`felupe.SolidBody.checkpoint`"
 msgstr ""
 
@@ -17145,7 +17155,7 @@ msgstr ""
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.checkpoint:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.restore:9
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.restore:12
 msgid "Return a checkpoint of the nearly-incompressible solid body."
 msgstr ""
 
@@ -17157,7 +17167,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.restore:8
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.restore:11
 msgid ":py:obj:`felupe.SolidBodyNearlyIncompressible.checkpoint`"
 msgstr ""
 
