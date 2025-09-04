@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 18:25+0000\n"
+"POT-Creation-Date: 2025-09-04 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -27,9 +27,8 @@ msgstr "計算時間"
 
 #: ../../felupe/docs/sg_execution_times.rst:9
 msgid ""
-"**00:00.000** total execution time for 23 files **from all galleries**:"
+"**00:00.000** total execution time for 24 files **from all galleries**:"
 msgstr ""
-"**00:00.000** total execution time for 23 files **from all galleries**:"
 
 #: ../../felupe/docs/sg_execution_times.rst:32
 msgid "Example"
@@ -74,6 +73,7 @@ msgstr ""
 #: ../../felupe/docs/sg_execution_times.rst:96
 #: ../../felupe/docs/sg_execution_times.rst:99
 #: ../../felupe/docs/sg_execution_times.rst:102
+#: ../../felupe/docs/sg_execution_times.rst:105
 msgid "00:00.000"
 msgstr "00:00.000"
 
@@ -100,6 +100,7 @@ msgstr "00:00.000"
 #: ../../felupe/docs/sg_execution_times.rst:97
 #: ../../felupe/docs/sg_execution_times.rst:100
 #: ../../felupe/docs/sg_execution_times.rst:103
+#: ../../felupe/docs/sg_execution_times.rst:106
 msgid "0.0"
 msgstr "0.0"
 
@@ -113,55 +114,59 @@ msgstr ""
 
 #: ../../felupe/docs/sg_execution_times.rst:41
 msgid ""
-":ref:`sphx_glr_tutorial_extut03_building_blocks.py` "
-"(``tutorial/examples/extut03_building_blocks.py``)"
+":ref:`sphx_glr_tutorial_extut03_multiple-solids.py` "
+"(``tutorial/examples/extut03_multiple-solids.py``)"
 msgstr ""
-":ref:`sphx_glr_tutorial_extut03_building_blocks.py` "
-"(``tutorial/examples/extut03_building_blocks.py``)"
 
 #: ../../felupe/docs/sg_execution_times.rst:44
+msgid ""
+":ref:`sphx_glr_tutorial_extut04_building_blocks.py` "
+"(``tutorial/examples/extut04_building_blocks.py``)"
+msgstr ""
+
+#: ../../felupe/docs/sg_execution_times.rst:47
 msgid ":ref:`sphx_glr_examples_ex01_beam.py` (``../examples/ex01_beam.py``)"
 msgstr ":ref:`sphx_glr_examples_ex01_beam.py` (``../examples/ex01_beam.py``)"
 
-#: ../../felupe/docs/sg_execution_times.rst:47
-msgid ""
-":ref:`sphx_glr_examples_ex02_plate-with-hole.py` (``../examples/ex02_plate-"
-"with-hole.py``)"
-msgstr ""
-":ref:`sphx_glr_examples_ex02_plate-with-hole.py` (``../examples/ex02_plate-"
-"with-hole.py``)"
-
 #: ../../felupe/docs/sg_execution_times.rst:50
 msgid ""
-":ref:`sphx_glr_examples_ex03_plasticity.py` "
-"(``../examples/ex03_plasticity.py``)"
+":ref:`sphx_glr_examples_ex02_plate-with-hole.py` (``../examples/ex02_plate-"
+"with-hole.py``)"
 msgstr ""
-":ref:`sphx_glr_examples_ex03_plasticity.py` "
-"(``../examples/ex03_plasticity.py``)"
+":ref:`sphx_glr_examples_ex02_plate-with-hole.py` (``../examples/ex02_plate-"
+"with-hole.py``)"
 
 #: ../../felupe/docs/sg_execution_times.rst:53
 msgid ""
-":ref:`sphx_glr_examples_ex04_balloon.py` (``../examples/ex04_balloon.py``)"
+":ref:`sphx_glr_examples_ex03_plasticity.py` "
+"(``../examples/ex03_plasticity.py``)"
 msgstr ""
-":ref:`sphx_glr_examples_ex04_balloon.py` (``../examples/ex04_balloon.py``)"
+":ref:`sphx_glr_examples_ex03_plasticity.py` "
+"(``../examples/ex03_plasticity.py``)"
 
 #: ../../felupe/docs/sg_execution_times.rst:56
 msgid ""
-":ref:`sphx_glr_examples_ex05_rubber-metal-bushing.py` "
-"(``../examples/ex05_rubber-metal-bushing.py``)"
+":ref:`sphx_glr_examples_ex04_balloon.py` (``../examples/ex04_balloon.py``)"
 msgstr ""
-":ref:`sphx_glr_examples_ex05_rubber-metal-bushing.py` "
-"(``../examples/ex05_rubber-metal-bushing.py``)"
+":ref:`sphx_glr_examples_ex04_balloon.py` (``../examples/ex04_balloon.py``)"
 
 #: ../../felupe/docs/sg_execution_times.rst:59
 msgid ""
+":ref:`sphx_glr_examples_ex05_rubber-metal-bushing.py` "
+"(``../examples/ex05_rubber-metal-bushing.py``)"
+msgstr ""
+":ref:`sphx_glr_examples_ex05_rubber-metal-bushing.py` "
+"(``../examples/ex05_rubber-metal-bushing.py``)"
+
+#: ../../felupe/docs/sg_execution_times.rst:62
+msgid ""
 ":ref:`sphx_glr_examples_ex06_rubber-metal-spring.py` "
 "(``../examples/ex06_rubber-metal-spring.py``)"
 msgstr ""
 ":ref:`sphx_glr_examples_ex06_rubber-metal-spring.py` "
 "(``../examples/ex06_rubber-metal-spring.py``)"
 
-#: ../../felupe/docs/sg_execution_times.rst:62
+#: ../../felupe/docs/sg_execution_times.rst:65
 msgid ""
 ":ref:`sphx_glr_examples_ex07_engine-mount.py` (``../examples/ex07_engine-"
 "mount.py``)"
@@ -169,92 +174,92 @@ msgstr ""
 ":ref:`sphx_glr_examples_ex07_engine-mount.py` (``../examples/ex07_engine-"
 "mount.py``)"
 
-#: ../../felupe/docs/sg_execution_times.rst:65
+#: ../../felupe/docs/sg_execution_times.rst:68
 msgid ":ref:`sphx_glr_examples_ex08_shear.py` (``../examples/ex08_shear.py``)"
 msgstr ""
 ":ref:`sphx_glr_examples_ex08_shear.py` (``../examples/ex08_shear.py``)"
 
-#: ../../felupe/docs/sg_execution_times.rst:68
-msgid ""
-":ref:`sphx_glr_examples_ex09_numeric-continuation.py` "
-"(``../examples/ex09_numeric-continuation.py``)"
-msgstr ""
-":ref:`sphx_glr_examples_ex09_numeric-continuation.py` "
-"(``../examples/ex09_numeric-continuation.py``)"
-
 #: ../../felupe/docs/sg_execution_times.rst:71
 msgid ""
-":ref:`sphx_glr_examples_ex10_poisson-equation.py` "
-"(``../examples/ex10_poisson-equation.py``)"
+":ref:`sphx_glr_examples_ex09_numeric-continuation.py` "
+"(``../examples/ex09_numeric-continuation.py``)"
 msgstr ""
-":ref:`sphx_glr_examples_ex10_poisson-equation.py` "
-"(``../examples/ex10_poisson-equation.py``)"
+":ref:`sphx_glr_examples_ex09_numeric-continuation.py` "
+"(``../examples/ex09_numeric-continuation.py``)"
 
 #: ../../felupe/docs/sg_execution_times.rst:74
 msgid ""
-":ref:`sphx_glr_examples_ex11_notch-stress.py` (``../examples/ex11_notch-"
-"stress.py``)"
+":ref:`sphx_glr_examples_ex10_poisson-equation.py` "
+"(``../examples/ex10_poisson-equation.py``)"
 msgstr ""
-":ref:`sphx_glr_examples_ex11_notch-stress.py` (``../examples/ex11_notch-"
-"stress.py``)"
+":ref:`sphx_glr_examples_ex10_poisson-equation.py` "
+"(``../examples/ex10_poisson-equation.py``)"
 
 #: ../../felupe/docs/sg_execution_times.rst:77
 msgid ""
-":ref:`sphx_glr_examples_ex12_foot-bone.py` (``../examples/ex12_foot-"
-"bone.py``)"
+":ref:`sphx_glr_examples_ex11_notch-stress.py` (``../examples/ex11_notch-"
+"stress.py``)"
 msgstr ""
-":ref:`sphx_glr_examples_ex12_foot-bone.py` (``../examples/ex12_foot-"
-"bone.py``)"
+":ref:`sphx_glr_examples_ex11_notch-stress.py` (``../examples/ex11_notch-"
+"stress.py``)"
 
 #: ../../felupe/docs/sg_execution_times.rst:80
 msgid ""
-":ref:`sphx_glr_examples_ex13_morph-rubber-wheel.py` "
-"(``../examples/ex13_morph-rubber-wheel.py``)"
+":ref:`sphx_glr_examples_ex12_foot-bone.py` (``../examples/ex12_foot-"
+"bone.py``)"
 msgstr ""
-":ref:`sphx_glr_examples_ex13_morph-rubber-wheel.py` "
-"(``../examples/ex13_morph-rubber-wheel.py``)"
+":ref:`sphx_glr_examples_ex12_foot-bone.py` (``../examples/ex12_foot-"
+"bone.py``)"
 
 #: ../../felupe/docs/sg_execution_times.rst:83
 msgid ""
-":ref:`sphx_glr_examples_ex14_hyperelasticity.py` "
-"(``../examples/ex14_hyperelasticity.py``)"
+":ref:`sphx_glr_examples_ex13_morph-rubber-wheel.py` "
+"(``../examples/ex13_morph-rubber-wheel.py``)"
 msgstr ""
-":ref:`sphx_glr_examples_ex14_hyperelasticity.py` "
-"(``../examples/ex14_hyperelasticity.py``)"
+":ref:`sphx_glr_examples_ex13_morph-rubber-wheel.py` "
+"(``../examples/ex13_morph-rubber-wheel.py``)"
 
 #: ../../felupe/docs/sg_execution_times.rst:86
 msgid ""
-":ref:`sphx_glr_examples_ex15_hexmesh-metacone.py` "
-"(``../examples/ex15_hexmesh-metacone.py``)"
+":ref:`sphx_glr_examples_ex14_hyperelasticity.py` "
+"(``../examples/ex14_hyperelasticity.py``)"
 msgstr ""
-":ref:`sphx_glr_examples_ex15_hexmesh-metacone.py` "
-"(``../examples/ex15_hexmesh-metacone.py``)"
+":ref:`sphx_glr_examples_ex14_hyperelasticity.py` "
+"(``../examples/ex14_hyperelasticity.py``)"
 
 #: ../../felupe/docs/sg_execution_times.rst:89
 msgid ""
-":ref:`sphx_glr_examples_ex16_deeplearning-torch.py` "
-"(``../examples/ex16_deeplearning-torch.py``)"
+":ref:`sphx_glr_examples_ex15_hexmesh-metacone.py` "
+"(``../examples/ex15_hexmesh-metacone.py``)"
 msgstr ""
-":ref:`sphx_glr_examples_ex16_deeplearning-torch.py` "
-"(``../examples/ex16_deeplearning-torch.py``)"
+":ref:`sphx_glr_examples_ex15_hexmesh-metacone.py` "
+"(``../examples/ex15_hexmesh-metacone.py``)"
 
 #: ../../felupe/docs/sg_execution_times.rst:92
 msgid ""
-":ref:`sphx_glr_examples_ex17_torsion-gif.py` (``../examples/ex17_torsion-"
-"gif.py``)"
+":ref:`sphx_glr_examples_ex16_deeplearning-torch.py` "
+"(``../examples/ex16_deeplearning-torch.py``)"
 msgstr ""
-":ref:`sphx_glr_examples_ex17_torsion-gif.py` (``../examples/ex17_torsion-"
-"gif.py``)"
+":ref:`sphx_glr_examples_ex16_deeplearning-torch.py` "
+"(``../examples/ex16_deeplearning-torch.py``)"
 
 #: ../../felupe/docs/sg_execution_times.rst:95
 msgid ""
+":ref:`sphx_glr_examples_ex17_torsion-gif.py` (``../examples/ex17_torsion-"
+"gif.py``)"
+msgstr ""
+":ref:`sphx_glr_examples_ex17_torsion-gif.py` (``../examples/ex17_torsion-"
+"gif.py``)"
+
+#: ../../felupe/docs/sg_execution_times.rst:98
+msgid ""
 ":ref:`sphx_glr_examples_ex18_nonlinear-viscoelasticity-newton.py` "
 "(``../examples/ex18_nonlinear-viscoelasticity-newton.py``)"
 msgstr ""
 ":ref:`sphx_glr_examples_ex18_nonlinear-viscoelasticity-newton.py` "
 "(``../examples/ex18_nonlinear-viscoelasticity-newton.py``)"
 
-#: ../../felupe/docs/sg_execution_times.rst:98
+#: ../../felupe/docs/sg_execution_times.rst:101
 msgid ""
 ":ref:`sphx_glr_examples_ex19_taylor-hood.py` (``../examples/ex19_taylor-"
 "hood.py``)"
@@ -262,7 +267,7 @@ msgstr ""
 ":ref:`sphx_glr_examples_ex19_taylor-hood.py` (``../examples/ex19_taylor-"
 "hood.py``)"
 
-#: ../../felupe/docs/sg_execution_times.rst:101
+#: ../../felupe/docs/sg_execution_times.rst:104
 msgid ""
 ":ref:`sphx_glr_examples_ex20_third-medium-contact.py` "
 "(``../examples/ex20_third-medium-contact.py``)"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 00:11+0000\n"
+"POT-Creation-Date: 2025-09-04 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -453,11 +453,17 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field.interpolate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.plot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._base.Field.interpolate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
 #: of felupe.field._evaluate.EvaluateFieldContainer.strain:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.plot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._solve.solve_2d:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -487,14 +493,14 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.pydocstring
 #: of felupe.mechanics._pointload.PointLoad.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.restore:0
+#: of felupe.mechanics._solidbody.SolidBody.revolve:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
 #: of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.pydocstring
 #: of felupe.mechanics._solidbody_force.SolidBodyForce.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.restore:0
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_pressure.pydocstring
 #: of felupe.mechanics._solidbody_pressure.SolidBodyPressure.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
@@ -1369,10 +1375,14 @@ msgstr ""
 #: of felupe.field._base.Field:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.merge:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._dual.FieldDual:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
 #: of felupe.field._evaluate.EvaluateFieldContainer:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.merge:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._math.linsteps:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -1433,6 +1443,8 @@ msgstr ""
 #: of felupe.mechanics._solidbody.SolidBody:71
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.checkpoint:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
 #: of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.pydocstring
@@ -2167,11 +2179,17 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field.interpolate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.plot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._base.Field.interpolate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
 #: of felupe.field._evaluate.EvaluateFieldContainer.strain:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.plot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._solve.solve_2d:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -2194,9 +2212,14 @@ msgstr ""
 #: of felupe.mechanics._job.Job.evaluate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.restore:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.restore:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._convert.add_midpoints_faces:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
@@ -2384,6 +2407,8 @@ msgstr ""
 #: of felupe.field._base.Field.interpolate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
 #: of felupe.field._evaluate.EvaluateFieldContainer.strain:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._solve.solve_2d:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -2404,9 +2429,14 @@ msgstr ""
 #: of felupe.mechanics._job.Job.evaluate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.restore:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.restore:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.concatenate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
@@ -13561,6 +13591,53 @@ msgid "Link value array of other field."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.merge:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.merge:1
+msgid ""
+"Merge all fields and return a list of field containers as well as the top-"
+"level field container."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.merge:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.merge:4
+msgid ""
+"Precision decimals for merging duplicated mesh points. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.merge:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.merge:7
+msgid ""
+"* *list of FieldContainer* -- A list with field containers to be used in "
+"different items (solid bodies). * *FieldContainer* -- The top-level field "
+"container, to be used as the ``x0``-argument in   "
+"`meth:`~felupe.Job.evaluate and for the creation of boundary conditions."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.merge:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.merge:7
+msgid ""
+"*list of FieldContainer* -- A list with field containers to be used in "
+"different items (solid bodies)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.merge:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.merge:8
+msgid ""
+"*FieldContainer* -- The top-level field container, to be used as the "
+"``x0``-argument in `meth:`~felupe.Job.evaluate and for the creation of "
+"boundary conditions."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.plot:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.plot:1
@@ -16716,6 +16793,75 @@ msgstr ""
 msgid ":py:obj:`felupe.SolidBody.checkpoint`"
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:1
+msgid "Return a revolved solid body."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.revolve:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.revolve:3
+msgid ""
+"Number of n-point revolutions (or (n-1) cell revolutions), default is 11."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.revolve:13
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.revolve:6
+msgid "Revolution angle in degree (default is 180)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:8
+msgid "The revolved solid body."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:13
+msgid ""
+"First, create an axisymmetric model. A non-homogeneous uniaxial tension load"
+" case is applied on the solid body."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:36
+msgid ""
+"The solid body is now revolved around the x-axis. This model may now be used"
+" to apply non-axisymmetric loads. Here, the same load case is also applied "
+"on the 3d-model."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:56
+msgid ":py:obj:`SolidBodyNearlyIncompressible.revolve`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:57
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:14
+msgid "Return a revolved solid body"
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:1
@@ -17169,6 +17315,12 @@ msgstr ""
 #: of
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.restore:11
 msgid ":py:obj:`felupe.SolidBodyNearlyIncompressible.checkpoint`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:13
+msgid ":py:obj:`SolidBody.revolve`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
@@ -19962,21 +20114,6 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.revolve:38
 msgid "Revolve a 2d-Quad to a 3d-Hexahedron Mesh."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.revolve:10
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.revolve:3
-msgid ""
-"Number of n-point revolutions (or (n-1) cell revolutions), default is 11."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.revolve:13
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.revolve:6
-msgid "Revolution angle in degree (default is 180)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
