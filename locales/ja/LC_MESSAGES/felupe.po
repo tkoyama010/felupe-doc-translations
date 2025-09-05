@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-04 00:11+0000\n"
+"POT-Creation-Date: 2025-09-05 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -455,6 +455,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.plot:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.screenshot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._base.Field.interpolate:0
@@ -462,6 +464,8 @@ msgstr ""
 #: of felupe.field._evaluate.EvaluateFieldContainer.strain:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.plot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.screenshot:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -902,8 +906,12 @@ msgstr ""
 #: of felupe.field._base.Field:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.extract:35
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.merge:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.extract:35
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.merge:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._fields.FieldsMixed:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
@@ -1374,15 +1382,19 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:16
+#: of felupe.field._container.FieldContainer:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer.merge:12
+#: of felupe.field._container.FieldContainer.merge:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._dual.FieldDual:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
 #: of felupe.field._evaluate.EvaluateFieldContainer:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
-#: of felupe.field._container.FieldContainer.merge:12
+#: of felupe.field._container.FieldContainer.merge:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._math.linsteps:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -2181,6 +2193,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.plot:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.screenshot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._base.Field.interpolate:0
@@ -2188,6 +2202,8 @@ msgstr ""
 #: of felupe.field._evaluate.EvaluateFieldContainer.strain:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.plot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.screenshot:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -2402,11 +2418,15 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field.interpolate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.screenshot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._base.Field.interpolate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
 #: of felupe.field._evaluate.EvaluateFieldContainer.strain:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.screenshot:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -13102,8 +13122,8 @@ msgid "A field container is created with a list of one or more fields."
 msgstr ""
 
 #: ../../felupe/docs/felupe/field.rst:17:<autosummary>:1
-msgid ":py:obj:`FieldContainer <felupe.FieldContainer>`\\ \\(fields\\)"
-msgstr ":py:obj:`FieldContainer <felupe.FieldContainer>`\\ \\(fields\\)"
+msgid ":py:obj:`FieldContainer <felupe.FieldContainer>`\\ \\(fields\\, \\*\\*kwargs\\)"
+msgstr ""
 
 #: ../../felupe/docs/felupe/field.rst:17:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
@@ -13183,7 +13203,12 @@ msgid "List with fields. The region is linked to the first field."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:9
+#: of felupe.field._container.FieldContainer:6
+msgid "Extra class attributes for the field container."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer:11
 msgid ""
 "Methods to evaluate the deformation gradient and strain measures, see "
 ":class:`~felupe.field.EvaluateFieldContainer` for details on the provided "
@@ -13191,12 +13216,12 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:13
+#: of felupe.field._container.FieldContainer:15
 msgid "field.EvaluateFieldContainer"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:35
+#: of felupe.field._container.FieldContainer:37
 msgid ""
 "A new :class:`~felupe.FieldContainer` is also created by one of the logical-"
 "and combinations of a :class:`~felupe.Field`, "
@@ -13207,7 +13232,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
 #: of felupe.field._axi.FieldAxisymmetric:48
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:60
+#: of felupe.field._container.FieldContainer:62
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._dual.FieldDual:50
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -13220,7 +13245,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
 #: of felupe.field._axi.FieldAxisymmetric:49
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:61
+#: of felupe.field._container.FieldContainer:63
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._dual.FieldDual:51
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -13233,7 +13258,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:63
+#: of felupe.field._container.FieldContainer:65
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._dual.FieldDual:53
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -13242,7 +13267,7 @@ msgid ":py:obj:`felupe.FieldAxisymmetric`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:64
+#: of felupe.field._container.FieldContainer:66
 msgid ""
 "An axisymmetric :class:`~felupe.Field` on points of a two dimensional "
 ":class:`~felupe.Region` with dimension ``dim`` (default is 2) and initial "
@@ -13250,7 +13275,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:66
+#: of felupe.field._container.FieldContainer:68
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._dual.FieldDual:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -13259,7 +13284,7 @@ msgid ":py:obj:`felupe.FieldPlaneStrain`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:67
+#: of felupe.field._container.FieldContainer:69
 msgid ""
 "A plane strain :class:`~felupe.Field` on points of a two dimensional "
 ":class:`~felupe.Region` with dimension ``dim`` (default is 2) and initial "
@@ -13638,6 +13663,16 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.merge:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.merge:15
+msgid ""
+"This works only if all regions are template regions, like "
+":class:`~felupe.RegionQuad` or :class:`~felupe.RegionHexahedron`, which are "
+"supported by :class:`~felupe.FieldDual`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.plot:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.plot:1
@@ -13733,6 +13768,103 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.restore:8
 msgid ":py:obj:`felupe.FieldContainer.checkpoint`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:1
+msgid "Return a revolved field container."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.revolve:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.revolve:3
+msgid ""
+"Number of n-point revolutions (or (n-1) cell revolutions), default is 11."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.revolve:13
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.revolve:6
+msgid "Revolution angle in degree (default is 180)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:8
+msgid "The revolved field container."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:13
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:13
+msgid "First, create an axisymmetric field."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:25
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:25
+msgid ""
+"The first field of the field container is now revolved around the x-axis."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:36
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:36
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:13
+msgid ":py:obj:`SolidBody.revolve`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:37
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:40
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:37
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:40
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:57
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:14
+msgid "Return a revolved solid body"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:39
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.revolve:39
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:56
+msgid ":py:obj:`SolidBodyNearlyIncompressible.revolve`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
@@ -16802,31 +16934,6 @@ msgid "Return a revolved solid body."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.revolve:3
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
-#: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:3
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.revolve:10
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.revolve:3
-msgid ""
-"Number of n-point revolutions (or (n-1) cell revolutions), default is 11."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.revolve:5
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
-#: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:5
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.revolve:13
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.revolve:6
-msgid "Revolution angle in degree (default is 180)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.revolve:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
@@ -16847,19 +16954,6 @@ msgid ""
 "The solid body is now revolved around the x-axis. This model may now be used"
 " to apply non-axisymmetric loads. Here, the same load case is also applied "
 "on the 3d-model."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.revolve:56
-msgid ":py:obj:`SolidBodyNearlyIncompressible.revolve`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.revolve:57
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
-#: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:14
-msgid "Return a revolved solid body"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
@@ -17315,12 +17409,6 @@ msgstr ""
 #: of
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.restore:11
 msgid ":py:obj:`felupe.SolidBodyNearlyIncompressible.checkpoint`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
-#: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:13
-msgid ":py:obj:`SolidBody.revolve`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring

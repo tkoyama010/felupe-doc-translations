@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 00:11+0000\n"
+"POT-Creation-Date: 2025-09-05 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -139,9 +139,9 @@ msgstr ":download:`Download zipped: ex01_beam.zip <ex01_beam.zip>`"
 #: ../../felupe/docs/examples/ex02_plate-with-hole.rst:195
 #: ../../felupe/docs/examples/ex03_plasticity.rst:161
 #: ../../felupe/docs/examples/ex04_balloon.rst:210
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:203
+#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:209
 #: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:246
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:256
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:257
 #: ../../felupe/docs/examples/ex08_shear.rst:265
 #: ../../felupe/docs/examples/ex09_numeric-continuation.rst:227
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:102
@@ -149,7 +149,7 @@ msgstr ":download:`Download zipped: ex01_beam.zip <ex01_beam.zip>`"
 #: ../../felupe/docs/examples/ex12_foot-bone.rst:90
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:370
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:243
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:103
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:160
 #: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:183
 #: ../../felupe/docs/examples/ex17_torsion-gif.rst:152
 #: ../../felupe/docs/examples/ex18_nonlinear-viscoelasticity-newton.rst:171
@@ -522,31 +522,35 @@ msgid ""
 "are created."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:85
+#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:83
 msgid ""
-"A global region as well as sub-regions for all materials are generated. The "
-"same applies to the fields, the material formulations as well as the solid "
-"bodies."
+"Sub-regions are generated for all materials. The same applies to the "
+"material formulations as well as the solid bodies. The sub-fields are also "
+"created as vector- valued displacement fields. However, the fields must be "
+"merged in a top-level field- container. This modifies the sub-fields to be "
+"used in the solid bodies."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:108
+#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:105
 msgid ""
-"The boundary conditions are created on the global displacement field. Masks "
-"are created for both the innermost and the outermost metal sheet faces."
+"The boundary conditions are created on the top-level displacement field. "
+"Masks are created for both the innermost and the outermost metal sheet "
+"faces. The global field holds a mesh-container attribute which may be used "
+"for plotting."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:149
+#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:148
 msgid ""
 "After defining the load step, the simulation model is ready to be solved."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:162
+#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:161
 msgid ""
 "The maximum principal values of the logarithmic strain are plotted on the "
 "total simulation model as well as on a clipped view."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:188
+#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:194
 msgid ""
 ":download:`Download Jupyter notebook: ex05_rubber-metal-bushing.ipynb "
 "<ex05_rubber-metal-bushing.ipynb>`"
@@ -554,7 +558,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex05_rubber-metal-bushing.ipynb "
 "<ex05_rubber-metal-bushing.ipynb>`"
 
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:192
+#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:198
 msgid ""
 ":download:`Download Python source code: ex05_rubber-metal-bushing.py "
 "<ex05_rubber-metal-bushing.py>`"
@@ -562,7 +566,7 @@ msgstr ""
 ":download:`Download Python source code: ex05_rubber-metal-bushing.py "
 "<ex05_rubber-metal-bushing.py>`"
 
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:196
+#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:202
 msgid ""
 ":download:`Download zipped: ex05_rubber-metal-bushing.zip <ex05_rubber-"
 "metal-bushing.zip>`"
@@ -741,20 +745,22 @@ msgid ""
 " engine mount."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:71
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:68
 msgid ""
-"A global region as well as sub-regions for all materials are generated. The "
-"same applies to the fields."
+"Sub-regions and fields for all materials are generated. The sub-fields must "
+"be merged to generate both the displacement fields for metal / rubber / air "
+"and a top-level displacement field."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:88
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:85
 msgid ""
 "The boundary conditions are created on the global displacement field. First,"
 " a mask for all points related to the metal parts is created. Then, this "
-"mask is splitted into the inner and the outer metal part."
+"mask is splitted into the inner and the outer metal part. The global field "
+"holds a mesh-container attribute which may be used for plotting."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:114
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:115
 msgid ""
 "The material behaviour of the rubberlike solid is defined through a built-in"
 " hyperelastic isotropic compressible Neo-Hookean material formulation. A "
@@ -771,7 +777,7 @@ msgid ""
 " analysis."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:139
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:140
 msgid ""
 "After defining the consecutive load steps, the simulation model is ready to "
 "be solved. As we are not interested in the strains of the simulated air, a "
@@ -780,13 +786,13 @@ msgid ""
 "different levels of vertical displacement."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:221
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:222
 msgid ""
 "The maximum principal values of the logarithmic strain tensors are plotted "
 "on the deformed configuration."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:241
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:242
 msgid ""
 ":download:`Download Jupyter notebook: ex07_engine-mount.ipynb <ex07_engine-"
 "mount.ipynb>`"
@@ -794,7 +800,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex07_engine-mount.ipynb <ex07_engine-"
 "mount.ipynb>`"
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:245
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:246
 msgid ""
 ":download:`Download Python source code: ex07_engine-mount.py <ex07_engine-"
 "mount.py>`"
@@ -802,7 +808,7 @@ msgstr ""
 ":download:`Download Python source code: ex07_engine-mount.py <ex07_engine-"
 "mount.py>`"
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:249
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:250
 msgid ""
 ":download:`Download zipped: ex07_engine-mount.zip <ex07_engine-mount.zip>`"
 msgstr ""
@@ -1622,24 +1628,45 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:22
-msgid "Script-based Hex-meshing"
+msgid "Script-based Hex-meshing with revolve"
 msgstr ""
 
 #: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:22
-msgid "Create a 3d dynamic mesh for a metacone component out of hexahedrons."
+msgid ""
+"Create a 3d dynamic mesh for a metacone component out of quads and revolve "
+"it to hexahedrons."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:26
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:27
 msgid "apply :ref:`mesh-tools <felupe-api-mesh>`"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:28
-msgid ""
-"create a :class:`~felupe.MeshContainer` for meshes associated to two "
-"materials"
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:29
+msgid "use :class:`~felupe.MeshContainer` to combine multiple meshes"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:88
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:31
+msgid ""
+"run an axisymmetric simulation and revolve the results to a 3d simulation"
+msgstr ""
+
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:83
+msgid ""
+"Sub-fields and a top-level field are created by the merge-method of a field "
+"container. Two solid bodies are created, one for the rubber and one for the "
+"metal. The top-level field is passed as the ``x0``-argument to the evaluate-"
+"method of the job. The part is displaced along the rotation axis."
+msgstr ""
+
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:115
+msgid ""
+"In order to obtain a 3d-model, the top-level field and the solid bodies are "
+"revolved. For simplicity, the same load case is applied on the 3d-model. "
+"This may be used as a starting point for further non-axisymmetric loads "
+"applied on the model."
+msgstr ""
+
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:145
 msgid ""
 ":download:`Download Jupyter notebook: ex15_hexmesh-metacone.ipynb "
 "<ex15_hexmesh-metacone.ipynb>`"
@@ -1647,7 +1674,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex15_hexmesh-metacone.ipynb "
 "<ex15_hexmesh-metacone.ipynb>`"
 
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:92
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:149
 msgid ""
 ":download:`Download Python source code: ex15_hexmesh-metacone.py "
 "<ex15_hexmesh-metacone.py>`"
@@ -1655,7 +1682,7 @@ msgstr ""
 ":download:`Download Python source code: ex15_hexmesh-metacone.py "
 "<ex15_hexmesh-metacone.py>`"
 
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:96
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:153
 msgid ""
 ":download:`Download zipped: ex15_hexmesh-metacone.zip <ex15_hexmesh-"
 "metacone.zip>`"
