@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-05 00:11+0000\n"
+"POT-Creation-Date: 2025-09-06 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -138,10 +138,10 @@ msgstr ":download:`Download zipped: ex01_beam.zip <ex01_beam.zip>`"
 #: ../../felupe/docs/examples/ex01_beam.rst:155
 #: ../../felupe/docs/examples/ex02_plate-with-hole.rst:195
 #: ../../felupe/docs/examples/ex03_plasticity.rst:161
-#: ../../felupe/docs/examples/ex04_balloon.rst:210
+#: ../../felupe/docs/examples/ex04_balloon.rst:207
 #: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:209
 #: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:246
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:257
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:260
 #: ../../felupe/docs/examples/ex08_shear.rst:265
 #: ../../felupe/docs/examples/ex09_numeric-continuation.rst:227
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:102
@@ -417,9 +417,9 @@ msgid ""
 "possible to apply a numerical parameter continuation algorithm on any system"
 " of equilibrium equations. This advanced tutorial demonstrates the usage of "
 "FElupe in conjunction with `contique <https://github.com/adtzlr/contique>`_."
-" The unstable inflation of a rectangular hyperelastic balloon demonstrates "
-"this powerful approach. The deformed model and the pressure - displacement "
-"curve is plotted."
+" The unstable inflation of a circular hyperelastic balloon demonstrates this"
+" powerful approach. The deformed model and the pressure - displacement curve"
+" is plotted."
 msgstr ""
 
 #: ../../felupe/docs/examples/ex04_balloon.rst:49
@@ -432,38 +432,34 @@ msgstr ""
 
 #: ../../felupe/docs/examples/ex04_balloon.rst:54
 msgid ""
-"\\psi = \\frac{\\mu}{2} \\left(\n"
-"    \\text{tr}(\\boldsymbol{C}) - \\ln(\\det(\\boldsymbol{C}))\n"
-"\\right)"
+"\\psi(\\boldsymbol{C}) = \\frac{\\mu}{2} \\text{tr}(\\boldsymbol{C})\n"
+"    - \\mu \\ln(J) + \\frac{\\lambda}{2} \\ln(J)^2"
 msgstr ""
-"\\psi = \\frac{\\mu}{2} \\left(\n"
-"    \\text{tr}(\\boldsymbol{C}) - \\ln(\\det(\\boldsymbol{C}))\n"
-"\\right)"
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:92
+#: ../../felupe/docs/examples/ex04_balloon.rst:93
 msgid ""
 "The next step involves the problem definition for contique. For details have"
 " a look at its `README <https://github.com/adtzlr/contique>`_."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:129
+#: ../../felupe/docs/examples/ex04_balloon.rst:130
 msgid ""
 "Next we have to init the problem and specify the initial values of unknowns "
 "(the undeformed configuration). After each completed step of the numeric "
 "continuation the results are saved."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:156
+#: ../../felupe/docs/examples/ex04_balloon.rst:157
 msgid ""
 "The unstable pressure-controlled equilibrium path is plotted as pressure-"
 "displacement curve."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:172
-msgid "The 3d-deformed configuration of the solid body is plotted."
+#: ../../felupe/docs/examples/ex04_balloon.rst:173
+msgid "The deformed configuration of the revolved solid body is plotted."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:195
+#: ../../felupe/docs/examples/ex04_balloon.rst:192
 msgid ""
 ":download:`Download Jupyter notebook: ex04_balloon.ipynb "
 "<ex04_balloon.ipynb>`"
@@ -471,13 +467,13 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex04_balloon.ipynb "
 "<ex04_balloon.ipynb>`"
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:199
+#: ../../felupe/docs/examples/ex04_balloon.rst:196
 msgid ""
 ":download:`Download Python source code: ex04_balloon.py <ex04_balloon.py>`"
 msgstr ""
 ":download:`Download Python source code: ex04_balloon.py <ex04_balloon.py>`"
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:203
+#: ../../felupe/docs/examples/ex04_balloon.rst:200
 msgid ":download:`Download zipped: ex04_balloon.zip <ex04_balloon.zip>`"
 msgstr ":download:`Download zipped: ex04_balloon.zip <ex04_balloon.zip>`"
 
@@ -789,10 +785,11 @@ msgstr ""
 #: ../../felupe/docs/examples/ex07_engine-mount.rst:222
 msgid ""
 "The maximum principal values of the logarithmic strain tensors are plotted "
-"on the deformed configuration."
+"on the deformed configuration. The displacement field of the metal parts was"
+" not used and must be linked manually to the top-level field."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:242
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:245
 msgid ""
 ":download:`Download Jupyter notebook: ex07_engine-mount.ipynb <ex07_engine-"
 "mount.ipynb>`"
@@ -800,7 +797,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex07_engine-mount.ipynb <ex07_engine-"
 "mount.ipynb>`"
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:246
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:249
 msgid ""
 ":download:`Download Python source code: ex07_engine-mount.py <ex07_engine-"
 "mount.py>`"
@@ -808,7 +805,7 @@ msgstr ""
 ":download:`Download Python source code: ex07_engine-mount.py <ex07_engine-"
 "mount.py>`"
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:250
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:253
 msgid ""
 ":download:`Download zipped: ex07_engine-mount.zip <ex07_engine-mount.zip>`"
 msgstr ""
