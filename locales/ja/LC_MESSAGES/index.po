@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-28 00:11+0000\n"
+"POT-Creation-Date: 2025-09-12 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -31,13 +31,13 @@ msgstr "FElupe ドキュメント"
 
 #: ../../felupe/docs/index.rst:4
 msgid ""
-"FElupe is a Python 3.9+ 🐍 finite element analysis package 📦 focusing on the "
+"FElupe is a Python 3.9+ finite element analysis package focusing on the "
 "formulation and numerical solution of nonlinear problems in continuum "
-"mechanics of solid bodies 🔧. This package is intended for scientific "
-"research 💻, but is also suitable for running nonlinear simulations 🚂 in "
-"general 🏎️. In addition to the transformation of general weak forms into "
-"sparse vectors and matrices, FElupe provides an efficient high-level "
-"abstraction layer for the simulation of the deformation of solid bodies."
+"mechanics of solid bodies. This package is intended for scientific research,"
+" but is also suitable for running nonlinear simulations in general. In "
+"addition to the transformation of general weak forms into sparse vectors and"
+" matrices, FElupe provides an efficient high-level abstraction layer for the"
+" simulation of the deformation of solid bodies."
 msgstr ""
 
 #: ../../felupe/docs/index.rst:8
@@ -126,8 +126,8 @@ msgid "Installation"
 msgstr "インストール"
 
 #: ../../felupe/docs/index.rst:55
-msgid "Install Python, fire up 🔥 a terminal and run 🏃"
-msgstr "Pythonをインストールし、ターミナルを起動し🔥、 実行する🏃"
+msgid "Install Python, open a terminal and run"
+msgstr ""
 
 #: ../../felupe/docs/index.rst:64
 msgid ""
@@ -147,9 +147,9 @@ msgstr "疎行列のための `scipy <https://github.com/scipy/scipy>`_"
 
 #: ../../felupe/docs/index.rst:69
 msgid ""
-"In order to make use of all features of FElupe 💎💰💍👑💎, it is suggested to "
-"install all optional dependencies."
-msgstr "FElupe のすべての機能を使用するには💎💰💍👑💎、すべてのオプションの依存関係をインストールすることをお勧めします。"
+"In order to make use of all features of FElupe, it is suggested to install "
+"all optional dependencies."
+msgstr ""
 
 #: ../../felupe/docs/index.rst:71
 msgid ""
