@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2024
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-12 00:11+0000\n"
+"POT-Creation-Date: 2025-09-18 00:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,6 +39,8 @@ msgid ""
 " matrices, FElupe provides an efficient high-level abstraction layer for the"
 " simulation of the deformation of solid bodies."
 msgstr ""
+"FElupeは、固体における連続体力学の非線形問題の定式化と数値解法に焦点を当てたPython "
+"3.9+用有限要素解析パッケージです。本パッケージは科学研究を目的としていますが、一般的な非線形シミュレーションの実行にも適しています。一般的な弱形の疎行列・疎ベクトルへの変換に加え、FElupeは固体の変形シミュレーションのための効率的な高レベル抽象化レイヤーを提供します。"
 
 #: ../../felupe/docs/index.rst:8
 msgid "🏃 Beginner's Guide"
@@ -282,7 +284,7 @@ msgstr "線形弾性"
 
 #: ../../felupe/docs/index.rst:124
 msgid "130039 +/-23464"
-msgstr ""
+msgstr "130039 +/-23464"
 
 #: ../../felupe/docs/index.rst:126
 msgid "Hyperelastic"
@@ -290,7 +292,7 @@ msgstr "超弾性"
 
 #: ../../felupe/docs/index.rst:126
 msgid "116819 +/-21979"
-msgstr ""
+msgstr "116819 +/-21979"
 
 #: ../../felupe/docs/index.rst:129
 msgid ""

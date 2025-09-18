@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2024
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-12 23:32+0000\n"
+"POT-Creation-Date: 2025-09-18 00:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,6 +35,9 @@ msgid ""
 "behaviour is subjected to a :func:`~felupe.dof.uniaxial` elongation applied "
 "at a clamped end-face."
 msgstr ""
+"この最小限のコードブロックは、FElupeを使用して問題を作成し、解決するための本質的な高レベルの部分をカバーしています。入門的な例として、超弾性の材料挙動を持つ立体の"
+" :class:`cube <felupe.Cube>` の1/4モデルが、固定された端面で加えられる "
+":func:`~felupe.dof.uniaxial` 伸びを受けます。"
 
 #: ../../felupe/docs/tutorial/examples/README.rst:8
 #: ../../felupe/docs/tutorial/index.rst:10
@@ -67,6 +70,12 @@ msgid ""
 "partitioned degrees of freedom as well as the external displacements are "
 "stored within the returned dict ``loadcase``."
 msgstr ""
+":func:`~felupe.dof.uniaxial` 荷重ケースは、 :class:`field container "
+"<felupe.FieldContainer>` 内に格納された変位 :class:`field <felupe.Field>` に適用されます。これは"
+" :func:`~felupe.dof.symmetry` 平面を設定し、立方体の右端面のメッシュポイントに所定の変位の絶対値を設定します。右端面は "
+"*clamped* : *x* 方向の変位のみが許されます。この事前に定義された荷重ケースの :class:`boundary "
+"<felupe.Boundary>` 条件のdictは ``boundaries`` として返され、分割された自由度と外部変位は返されたdict "
+"``loadcase`` 内に格納されます。"
 
 #: ../../felupe/docs/tutorial/examples/README.rst:26
 #: ../../felupe/docs/tutorial/index.rst:28
