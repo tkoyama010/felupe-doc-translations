@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-18 00:10+0000\n"
+"POT-Creation-Date: 2025-09-19 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../felupe/docs/index.rst:224
+#: ../../felupe/docs/index.rst:230
 msgid "Contents:"
 msgstr "内容:"
 
@@ -210,108 +210,113 @@ msgstr ""
 msgid "or clone the repository and install the package in editable mode."
 msgstr ""
 
-#: ../../felupe/docs/index.rst:95
+#: ../../felupe/docs/index.rst:94
+msgid ""
+"Optional dependencies may also be installed by replacing the last line."
+msgstr ""
+
+#: ../../felupe/docs/index.rst:101
 msgid "Extension Packages"
 msgstr "拡張パッケージ"
 
-#: ../../felupe/docs/index.rst:97
+#: ../../felupe/docs/index.rst:103
 msgid ""
 "The capabilities of FElupe may be enhanced with extension packages created "
 "by the community."
 msgstr "FElupeの機能は、コミュニティによって作成された拡張パッケージによって強化されるかもしれません。"
 
-#: ../../felupe/docs/index.rst:100
+#: ../../felupe/docs/index.rst:106
 msgid "Package"
 msgstr "パッケージ"
 
-#: ../../felupe/docs/index.rst:100
+#: ../../felupe/docs/index.rst:106
 msgid "Description"
 msgstr "説明"
 
-#: ../../felupe/docs/index.rst:102
+#: ../../felupe/docs/index.rst:108
 msgid "`hyperelastic <https://github.com/adtzlr/hyperelastic>`_"
 msgstr "`hyperelastic <https://github.com/adtzlr/hyperelastic>`_"
 
-#: ../../felupe/docs/index.rst:102
+#: ../../felupe/docs/index.rst:108
 msgid "Constitutive hyperelastic material formulations"
 msgstr "構成的超弾性材料の定式化"
 
-#: ../../felupe/docs/index.rst:104
+#: ../../felupe/docs/index.rst:110
 msgid "`matadi <https://github.com/adtzlr/matadi>`_"
 msgstr "`matadi <https://github.com/adtzlr/matadi>`_"
 
-#: ../../felupe/docs/index.rst:104
+#: ../../felupe/docs/index.rst:110
 msgid "Material Definition with Automatic Differentiation (AD)"
 msgstr "自動微分(AD)による材料定義"
 
-#: ../../felupe/docs/index.rst:106
+#: ../../felupe/docs/index.rst:112
 msgid "`tensortrax <https://github.com/adtzlr/tensortrax>`_"
 msgstr "`tensortrax <https://github.com/adtzlr/tensortrax>`_"
 
-#: ../../felupe/docs/index.rst:106
+#: ../../felupe/docs/index.rst:112
 msgid "Differentiable Tensors based on NumPy Arrays (bundled with FElupe)"
 msgstr "NumPyの配列に基づく微分可能なテンソル（FElupeにバンドル）"
 
-#: ../../felupe/docs/index.rst:109
+#: ../../felupe/docs/index.rst:115
 msgid "`feplot <https://github.com/ZAARAOUI999/feplot>`_"
 msgstr "`feplot <https://github.com/ZAARAOUI999/feplot>`_"
 
-#: ../../felupe/docs/index.rst:109
+#: ../../felupe/docs/index.rst:115
 msgid "A visualization tool for FElupe"
 msgstr "FElupeのための視覚化ツール"
 
-#: ../../felupe/docs/index.rst:113
+#: ../../felupe/docs/index.rst:119
 msgid "Performance"
 msgstr "パフォーマンス"
 
-#: ../../felupe/docs/index.rst:114
+#: ../../felupe/docs/index.rst:120
 msgid ""
 "This is a simple benchmark to compare assembly times for linear elasticity "
 "and hyperelasticity on tetrahedrons."
 msgstr "これは、四面体上の線形弾性と超弾性のアセンブリ時間を比較する簡単なベンチマークです。"
 
-#: ../../felupe/docs/index.rst:122
+#: ../../felupe/docs/index.rst:128
 msgid "Analysis"
 msgstr "解析"
 
-#: ../../felupe/docs/index.rst:122
+#: ../../felupe/docs/index.rst:128
 msgid "DOF/s"
 msgstr "DOF/s"
 
-#: ../../felupe/docs/index.rst:124
+#: ../../felupe/docs/index.rst:130
 msgid "Linear-Elastic"
 msgstr "線形弾性"
 
-#: ../../felupe/docs/index.rst:124
+#: ../../felupe/docs/index.rst:130
 msgid "130039 +/-23464"
 msgstr "130039 +/-23464"
 
-#: ../../felupe/docs/index.rst:126
+#: ../../felupe/docs/index.rst:132
 msgid "Hyperelastic"
 msgstr "超弾性"
 
-#: ../../felupe/docs/index.rst:126
+#: ../../felupe/docs/index.rst:132
 msgid "116819 +/-21979"
 msgstr "116819 +/-21979"
 
-#: ../../felupe/docs/index.rst:129
+#: ../../felupe/docs/index.rst:135
 msgid ""
 "Tested on: Windows 10, Python 3.11, Intel® Core™ i7-11850H @ 2.50GHz, 32GB "
 "RAM."
 msgstr ""
 "テスト環境：Windows 10、Python 3.11、インテル® Core™ i7-11850H @ 2.50GHz、32GB RAM。"
 
-#: ../../felupe/docs/index.rst:234
+#: ../../felupe/docs/index.rst:240
 msgid "License"
 msgstr "ライセンス"
 
-#: ../../felupe/docs/index.rst:236
+#: ../../felupe/docs/index.rst:242
 msgid ""
 "FElupe - Finite Element Analysis (C) 2021-2025 Andreas Dutzler, Graz "
 "(Austria)."
 msgstr ""
 
-#: ../../felupe/docs/index.rst:238
+#: ../../felupe/docs/index.rst:244
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
@@ -320,7 +325,7 @@ msgid ""
 msgstr ""
 "このプログラムはフリー・ソフトウェアです。あなたは、フリー・ソフトウェア財団によって発行されたGNU一般公衆利用許諾契約書のバージョン3、または（あなたの選択により）それ以降のバージョンのいずれかに従って、このプログラムを再配布、または改変することができます。"
 
-#: ../../felupe/docs/index.rst:240
+#: ../../felupe/docs/index.rst:246
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
@@ -329,7 +334,7 @@ msgid ""
 msgstr ""
 "このプログラムは有用であることを願って配布されていますが、いかなる保証もありません。商品性や特定目的への適合性の暗黙の保証さえもありません。詳細はGNU一般公衆利用許諾契約書をご覧ください。"
 
-#: ../../felupe/docs/index.rst:242
+#: ../../felupe/docs/index.rst:248
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program. If not, see `<https://www.gnu.org/licenses/>`_."
@@ -337,18 +342,18 @@ msgstr ""
 "あなたはこのプログラムとともにGNU一般公衆利用許諾契約書のコピーを受け取っているはずです。そうでない場合は、 "
 "`<https://www.gnu.org/licenses/>`_ を参照してください。"
 
-#: ../../felupe/docs/index.rst:245
+#: ../../felupe/docs/index.rst:251
 msgid "Indices and tables"
 msgstr "インデックスとテーブル"
 
-#: ../../felupe/docs/index.rst:247
+#: ../../felupe/docs/index.rst:253
 msgid ":ref:`genindex`"
 msgstr ":ref:`genindex`"
 
-#: ../../felupe/docs/index.rst:248
+#: ../../felupe/docs/index.rst:254
 msgid ":ref:`modindex`"
 msgstr ":ref:`modindex`"
 
-#: ../../felupe/docs/index.rst:249
+#: ../../felupe/docs/index.rst:255
 msgid ":ref:`search`"
 msgstr ":ref:`search`"
