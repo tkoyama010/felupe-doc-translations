@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-25 00:11+0000\n"
+"POT-Creation-Date: 2025-10-10 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -967,7 +967,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_item.pydocstring
 #: of felupe.mechanics._item.FormItem:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job.evaluate:44
+#: of felupe.mechanics._job.Job.evaluate:48
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointConstraint:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
@@ -1030,7 +1030,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.NewtonResult:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:60
+#: of felupe.tools._newton.newtonrhapson:64
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.project:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
@@ -1640,7 +1640,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/region/_templates.pydocstring
 #: of felupe.region._templates.RegionTriangleMINI:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:120
+#: of felupe.tools._newton.newtonrhapson:124
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.project:90
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_save.pydocstring
@@ -16588,7 +16588,7 @@ msgstr ":py:obj:`Step <felupe.Step>`\\ \\(items\\[\\, ramp\\, boundaries\\]\\)"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:83
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job.evaluate:51
+#: of felupe.mechanics._job.Job.evaluate:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.Step:1
 msgid ""
@@ -17750,7 +17750,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:85
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job.evaluate:53
+#: of felupe.mechanics._job.Job.evaluate:57
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.Step:41
 msgid ":py:obj:`CharacteristicCurve`"
@@ -17874,7 +17874,7 @@ msgstr "dict"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:82
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job.evaluate:50
+#: of felupe.mechanics._job.Job.evaluate:54
 msgid ":py:obj:`Step`"
 msgstr ""
 
@@ -17883,7 +17883,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:88
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job.evaluate:56
+#: of felupe.mechanics._job.Job.evaluate:60
 msgid ":py:obj:`tools.NewtonResult`"
 msgstr ""
 
@@ -17893,7 +17893,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:89
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job.evaluate:57
+#: of felupe.mechanics._job.Job.evaluate:61
 msgid "A data class which represents the result found by Newton's method."
 msgstr ""
 
@@ -17967,6 +17967,16 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:34
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonrhapson:55
+msgid ""
+"If verbose is True, choose a backend for ``tqdm`` (None, ``\"auto\"`` or "
+"``\"notebook\"``. Default is ``\"auto\"``. Note that ``tqdm.auto`` does not "
+"update the progress bar in a Jupyter console, which is used in Spyder IDE."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
+#: of felupe.mechanics._job.Job.evaluate:38
 msgid ""
 "Optional keyword arguments for :meth:`~felupe.Step.generate`. If "
 "``parallel=True``, it is added as ``kwargs[\"parallel\"] = True`` to the "
@@ -17975,19 +17985,19 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job.evaluate:40
+#: of felupe.mechanics._job.Job.evaluate:44
 msgid "The job object."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job.evaluate:45
+#: of felupe.mechanics._job.Job.evaluate:49
 msgid ""
 "Requires ``meshio`` and ``h5py`` if ``filename`` is not None. Also requires "
 "``tqdm`` for an interactive progress bar if ``verbose=True``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job.evaluate:54
+#: of felupe.mechanics._job.Job.evaluate:58
 msgid ""
 "A job with a list of steps and a method to evaluate them. Force-displacement"
 " curve data is tracked during evaluation for a given "
@@ -22612,17 +22622,17 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonrhapson:52
 msgid ""
-"A progress bar if verbose is True. If None and verbose is True, a new bar is"
-" created."
+"Use an existing instance of a progress bar if verbose is True. If None and "
+"verbose is True, a new bar is created. Default is None."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:56
+#: of felupe.tools._newton.newtonrhapson:60
 msgid "The result object."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:61
+#: of felupe.tools._newton.newtonrhapson:65
 msgid ""
 "Nonlinear equilibrium equations :math:`f(x)` as a function of the unknowns "
 ":math:`x` are solved by linearization of :math:`f` at a valid starting point"
@@ -22630,53 +22640,53 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:65
+#: of felupe.tools._newton.newtonrhapson:69
 msgid "f(x_0) = 0"
 msgstr "f(x_0) = 0"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:70
+#: of felupe.tools._newton.newtonrhapson:74
 msgid "The linearization is given in Eq. :eq:`newton-lin`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:72
+#: of felupe.tools._newton.newtonrhapson:76
 msgid "f(x_0 + dx) \\approx f(x_0) + K(x_0) \\ dx \\ (= 0)"
 msgstr "f(x_0 + dx) \\approx f(x_0) + K(x_0) \\ dx \\ (= 0)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:77
+#: of felupe.tools._newton.newtonrhapson:81
 msgid ""
 "with the Jacobian as in Eq. :eq:`newton-jac`, evaluated at given unknowns "
 ":math:`x_0`,"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:80
+#: of felupe.tools._newton.newtonrhapson:84
 msgid "K(x_0) = \\frac{\\partial f}{\\partial x}(x_0)"
 msgstr "K(x_0) = \\frac{\\partial f}{\\partial x}(x_0)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:85
+#: of felupe.tools._newton.newtonrhapson:89
 msgid ""
 "and is rearranged to an equation system with left- and right-hand sides, see"
 " Eq. :eq:`newton-lhs-rhs`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:88
+#: of felupe.tools._newton.newtonrhapson:92
 msgid "K(x_0) \\ dx = -f(x_0)"
 msgstr "K(x_0) \\ dx = -f(x_0)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:93
+#: of felupe.tools._newton.newtonrhapson:97
 msgid ""
 "After a solution is found, the unknowns are updated, see Eq. :eq:`newton-"
 "update-0`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:95
+#: of felupe.tools._newton.newtonrhapson:99
 msgid ""
 "dx &= \\text{solve} \\left( K(x_0), -f(x_0) \\right) \\nonumber\n"
 "\n"
@@ -22684,7 +22694,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:102
+#: of felupe.tools._newton.newtonrhapson:106
 msgid ""
 "Repeated evaluations lead to an incrementally updated solution of :math:`x`."
 " Herein, :math:`x_n` refer to the inital unknowns whereas :math:`x` are the "
@@ -22692,13 +22702,13 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:107
+#: of felupe.tools._newton.newtonrhapson:111
 msgid ""
 "The subscript :math:`(\\bullet)_{n+1}` is dropped for easier readability."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:109
+#: of felupe.tools._newton.newtonrhapson:113
 msgid ""
 "dx &= \\text{solve} \\left( K(x_n), -f(x_n) \\right) \\nonumber\n"
 "\n"
@@ -22706,7 +22716,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:116
+#: of felupe.tools._newton.newtonrhapson:120
 msgid ""
 "Then, the nonlinear equilibrium equations are evaluated with the updated "
 "unknowns :math:`f(x)`. The procedure is repeated until convergence is "
@@ -22714,18 +22724,18 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:142
+#: of felupe.tools._newton.newtonrhapson:146
 msgid "Newton's method had success"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:147
+#: of felupe.tools._newton.newtonrhapson:151
 msgid ""
 "and 4 iterations were needed to converge within the specified tolerance."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:152
+#: of felupe.tools._newton.newtonrhapson:156
 msgid ""
 "The norm of the objective function for all active degrees of freedom is "
 "lower than 3e-15."
