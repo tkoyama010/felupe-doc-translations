@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-22 00:11+0000\n"
+"POT-Creation-Date: 2025-10-24 00:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -103,7 +103,7 @@ msgstr "変位フィールドの大きさは、300倍に拡大された変形形
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:330
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:206
 #: ../../felupe/docs/examples/ex18_nonlinear-viscoelasticity-newton.rst:137
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:203
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:220
 msgid "References"
 msgstr "参考資料"
 
@@ -154,7 +154,7 @@ msgstr ":download:`Download zipped: ex01_beam.zip <ex01_beam.zip>`"
 #: ../../felupe/docs/examples/ex17_torsion-gif.rst:152
 #: ../../felupe/docs/examples/ex18_nonlinear-viscoelasticity-newton.rst:171
 #: ../../felupe/docs/examples/ex19_taylor-hood.rst:140
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:246
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:263
 #: ../../felupe/docs/examples/ex21_nonlinear-truss-analysis.rst:287
 #: ../../felupe/docs/examples/index.rst:414
 msgid ""
@@ -1992,25 +1992,25 @@ msgid "define multiple solid bodies and create a top-level field"
 msgstr ""
 
 #: ../../felupe/docs/examples/ex20_third-medium-contact.rst:30
-msgid "create an animation of the deformed solid"
+msgid "plot the deformed solid"
 msgstr ""
 
 #: ../../felupe/docs/examples/ex20_third-medium-contact.rst:32
 msgid ""
 "This contact method uses a third medium for two solid contact bodies with a "
 "a Hessian- based regularization [2]_. First, let's create sub meshes with "
-"quad cells for the solid body. All sub meshes are merged by stacking the "
-"meshes of the :class:`mesh container <felupe.MeshContainer>` into a "
-":class:`mesh <felupe.Mesh>`."
+"bi-quadratic quad cells for the solid body. All sub meshes are merged by "
+"stacking the meshes of the :class:`mesh container <felupe.MeshContainer>` "
+"into a :class:`mesh <felupe.Mesh>`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:62
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:63
 msgid ""
 "This is repeated for the medium, where two meshes are added to a mesh "
 "container. Extra cells are added on the right edge to improve convergence."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:76
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:78
 msgid ""
 "Both stacked meshes are added to a top-level mesh container. For each mesh "
 "of the container, quad regions and plane-strain vector-fields for the "
@@ -2019,7 +2019,7 @@ msgid ""
 "background material but with scaled down material parameters."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:100
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:105
 msgid ""
 "A top-level plane-strain field is created on a stacked mesh. This field "
 "includes all unknowns and is required for the selection of prescribed "
@@ -2028,38 +2028,36 @@ msgid ""
 " point."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:120
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:125
 msgid ""
-"The so-called HuHu-regularization is created by two weak-:func:`forms "
+"The so-called HuHu-LuLu-regularization is created by two weak- :func:`forms "
 "<felupe.Form>`, which are derived from the regularization potential, see Eq."
 " :eq:`huhu-regularization` [3]_."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:124
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:129
 msgid ""
-"\\Pi = \\frac{1}{2} \\int_V\n"
-"    \\mathbb{H}(\\boldsymbol{u})~\\vdots~\\mathbb{H}(\\boldsymbol{u})~dV"
+"\\Psi(\\boldsymbol{u}) = W(\\boldsymbol{u}) +\n"
+"    \\mathbb{H}(\\boldsymbol{u})~\\vdots~\\mathbb{H}(\\boldsymbol{u})\n"
+"    - \\frac{1}{\\text{tr}(\\boldsymbol{1})}\n"
+"      \\mathbb{L}(\\boldsymbol{u}) \\cdot \\mathbb{L}(\\boldsymbol{u})"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:158
-msgid ""
-"The prescribed displacement is ramped up to the maximum value and released "
-"until zero."
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:182
+msgid "The prescribed displacement is ramped up to the maximum value."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:174
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:198
 msgid ""
-"The deformation is captured in a GIF-file. The top-level field has to be "
-"passed as the ``x0``-argument for :func:`Newton's method "
-"<felupe.newtonrhapson>`, which is called on evaluation. After all frames are"
-" recorded, it is important to ``close()`` the plotter."
+"The top-level field has to be passed as the ``x0``-argument of the job. The "
+"deformation configuration is plotted."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:205
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:222
 msgid "https://en.wikipedia.org/wiki/Third_medium_contact_method"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:207
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:224
 msgid ""
 "G. L. Bluhm, O. Sigmund, and K. Poulios, \"Internal contact modeling for "
 "finite strain topology optimization\", Computational Mechanics, vol. 67, no."
@@ -2067,11 +2065,11 @@ msgid ""
 "|DOI-2|."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:215
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:232
 msgid "DOI-2"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:211
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:228
 msgid ""
 "A. H. Frederiksen, O. Sigmund, and K. Poulios, \"Topology optimization of "
 "self- contacting structures\", Computational Mechanics, vol. 73, no. 4. "
@@ -2079,11 +2077,11 @@ msgid ""
 "|DOI-3|."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:218
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:235
 msgid "DOI-3"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:231
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:248
 msgid ""
 ":download:`Download Jupyter notebook: ex20_third-medium-contact.ipynb "
 "<ex20_third-medium-contact.ipynb>`"
@@ -2091,7 +2089,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex20_third-medium-contact.ipynb "
 "<ex20_third-medium-contact.ipynb>`"
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:235
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:252
 msgid ""
 ":download:`Download Python source code: ex20_third-medium-contact.py "
 "<ex20_third-medium-contact.py>`"
@@ -2099,7 +2097,7 @@ msgstr ""
 ":download:`Download Python source code: ex20_third-medium-contact.py "
 "<ex20_third-medium-contact.py>`"
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:239
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:256
 msgid ""
 ":download:`Download zipped: ex20_third-medium-contact.zip <ex20_third-"
 "medium-contact.zip>`"

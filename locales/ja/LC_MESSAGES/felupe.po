@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-21 00:11+0000\n"
+"POT-Creation-Date: 2025-10-24 00:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -12590,6 +12590,8 @@ msgid "Return the gradient of shape functions at given coordinates (r, s)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/element/_quad.pydocstring
+#: of felupe.element._quad.BiQuadraticQuad.hessian:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/element/_quad.pydocstring
 #: of felupe.element._quad.ConstantQuad.hessian:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/element/_quad.pydocstring
 #: of felupe.element._quad.Quad.hessian:1
@@ -12689,6 +12691,8 @@ msgstr ""
 #: of felupe.element._hexahedron.ConstantHexahedron.hessian:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.pydocstring
 #: of felupe.element._hexahedron.Hexahedron.hessian:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.pydocstring
+#: of felupe.element._hexahedron.TriQuadraticHexahedron.hessian:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/element/_tetra.pydocstring
 #: of felupe.element._tetra.Tetra.hessian:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/element/_tetra.pydocstring
@@ -13100,6 +13104,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/element/_lagrange.pydocstring
 #: of felupe.element._lagrange.ArbitraryOrderLagrange.gradient:1
 msgid "Return the gradient of shape functions at given coordinate vector r."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/felupe/element/_lagrange.pydocstring
+#: of felupe.element._lagrange.ArbitraryOrderLagrange.hessian:1
+msgid "Return the hessian of shape functions at given coordinate vector r."
 msgstr ""
 
 #: ../../felupe/docs/felupe/field.rst:2
