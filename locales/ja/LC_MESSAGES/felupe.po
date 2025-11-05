@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 00:12+0000\n"
+"POT-Creation-Date: 2025-11-05 00:12+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -18873,11 +18873,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._convert.subdivide:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._convert.subdivide:29
+#: of felupe.mesh._convert.subdivide:37
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.subdivide:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.subdivide:21
+#: of felupe.mesh._mesh.Mesh.subdivide:29
 msgid "Subdivide cells by adding midpoints on edges, faces and volumes."
 msgstr ""
 
@@ -20281,9 +20281,16 @@ msgid "A new subdivided mesh."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._convert.subdivide:28
+#: of felupe.mesh._convert.subdivide:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.subdivide:20
+#: of felupe.mesh._mesh.Mesh.subdivide:8
+msgid "Take a rectangle mesh and subdivide it two times."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._convert.subdivide:36
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.subdivide:28
 msgid ":py:obj:`felupe.Mesh.subdivide`"
 msgstr ""
 
