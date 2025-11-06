@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-05 00:12+0000\n"
+"POT-Creation-Date: 2025-11-06 00:12+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1003,6 +1003,8 @@ msgstr ""
 #: of felupe.mesh._container.MeshContainer:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_container.pydocstring
 #: of felupe.mesh._container.MeshContainer.stack:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
+#: of felupe.mesh._geometry.Triangle:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.dual:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
@@ -1546,7 +1548,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
 #: of felupe.mesh._geometry.RectangleArbitraryOrderQuad:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
-#: of felupe.mesh._geometry.Triangle:17
+#: of felupe.mesh._geometry.Triangle:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._discrete_geometry.DiscreteGeometry.update:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
@@ -2326,6 +2328,8 @@ msgstr ""
 #: of felupe.mesh._mesh.Mesh.rotate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.screenshot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.translate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.screenshot:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
@@ -2519,6 +2523,8 @@ msgstr ""
 #: of felupe.mesh._mesh.Mesh.rotate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.screenshot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.translate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.screenshot:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
@@ -20820,7 +20826,12 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
 #: of felupe.mesh._geometry.Triangle:10
-msgid "Number of points per axis (default is 2)."
+msgid "Number of points per axis is 2n - 1 if n >= 2 (default is 2)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
+#: of felupe.mesh._geometry.Triangle:18
+msgid "If ``n < 2``, a triangle mesh with a single triangle cell is created."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
