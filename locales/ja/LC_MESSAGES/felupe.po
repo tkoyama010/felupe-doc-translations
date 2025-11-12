@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-10 00:13+0000\n"
+"POT-Creation-Date: 2025-11-12 00:12+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1261,7 +1261,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:81
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:71
+#: of felupe.constitution.strain._material_strain.MaterialStrain:77
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
 #: of felupe.constitution.strain.models._linear_elastic.linear_elastic:40
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
@@ -8364,9 +8364,9 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:33:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:146
+#: of felupe.constitution.strain._material_strain.MaterialStrain:152
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:149
+#: of felupe.constitution.strain._material_strain.MaterialStrain:155
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.LinearElasticPlasticIsotropicHardening:1
@@ -9226,7 +9226,7 @@ msgid "Isotropic hardening modulus."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:145
+#: of felupe.constitution.strain._material_strain.MaterialStrain:151
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.LinearElasticPlasticIsotropicHardening:18
@@ -9442,7 +9442,8 @@ msgstr ""
 #: of felupe.constitution.strain._material_strain.MaterialStrain:15
 msgid ""
 "The framework to be used for the stress and strain formulations. \"small-"
-"strain\" and \"total-lagrange\" are supported. Default is \"small-strain\"."
+"strain\", \"total-lagrange\" and \"co-rotational\" are supported. Default is"
+" \"small-strain\"."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
@@ -9526,33 +9527,41 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
 #: of felupe.constitution.strain._material_strain.MaterialStrain:72
+msgid ""
+"The implementation of the co-rotational framework is experimental. The "
+"fourth- order elasticity tensor is an approximation and hence, Newton's "
+"method does not converge quadratically."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:78
 msgid "Take this code-block for a linear-elastic material formulation"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:115
+#: of felupe.constitution.strain._material_strain.MaterialStrain:121
 msgid "or this minimal header as template."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:125
+#: of felupe.constitution.strain._material_strain.MaterialStrain:131
 msgid ""
 "The Total-Lagrange framework changes the linear-elastic material formulation"
 " to the Saint-Venant Kirchhoff material model formulation."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:142
+#: of felupe.constitution.strain._material_strain.MaterialStrain:148
 msgid ":py:obj:`linear_elastic`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:143
+#: of felupe.constitution.strain._material_strain.MaterialStrain:149
 msgid "3D linear-elastic material formulation"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:148
+#: of felupe.constitution.strain._material_strain.MaterialStrain:154
 msgid ":py:obj:`LinearElasticPlasticIsotropicHardening`"
 msgstr ""
 
