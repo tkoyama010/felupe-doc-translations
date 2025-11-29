@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-12 00:12+0000\n"
+"POT-Creation-Date: 2025-11-29 00:12+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -12738,6 +12738,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.pydocstring
 #: of felupe.element._hexahedron.Hexahedron:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.pydocstring
+#: of felupe.element._hexahedron.QuadraticHexahedron:12
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.pydocstring
 #: of felupe.element._hexahedron.TriQuadraticHexahedron:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/element/_tetra.pydocstring
 #: of felupe.element._tetra.QuadraticTetra:11
@@ -12916,13 +12918,6 @@ msgid ""
 "followed by 12 mid- edge points. The mid-edge points correspond to the edges"
 " defined by the lines between the points (0,1), (1,2), (2,3), (3,0), (4,5), "
 "(5,6), (6,7), (7,4), (0,4), (1,5), (2,6), (3,7). [1]"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.pydocstring
-#: of felupe.element._hexahedron.QuadraticHexahedron:12
-msgid ""
-"The shape functions :math:`\\boldsymbol{h}` are given in terms of the "
-"coordinates :math:`(r,s,t)`.."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.pydocstring
