@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-17 00:12+0000\n"
+"POT-Creation-Date: 2025-12-03 00:12+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -793,19 +793,19 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/tutorial/index.rst:263
-msgid ":ref:`sphx_glr_tutorial_extut01_getting_started.py`"
-msgstr ":ref:`sphx_glr_tutorial_extut01_getting_started.py`"
+msgid ":doc:`/tutorial/extut01_getting_started`"
+msgstr ""
 
 #: ../../felupe/docs/tutorial/index.rst:280
-msgid ":ref:`sphx_glr_tutorial_extut02_job.py`"
-msgstr ":ref:`sphx_glr_tutorial_extut02_job.py`"
+msgid ":doc:`/tutorial/extut02_job`"
+msgstr ""
 
 #: ../../felupe/docs/tutorial/index.rst:297
-msgid ":ref:`sphx_glr_tutorial_extut03_multiple-solids.py`"
+msgid ":doc:`/tutorial/extut03_multiple-solids`"
 msgstr ""
 
 #: ../../felupe/docs/tutorial/index.rst:314
-msgid ":ref:`sphx_glr_tutorial_extut04_building_blocks.py`"
+msgid ":doc:`/tutorial/extut04_building_blocks`"
 msgstr ""
 
 #: ../../felupe/docs/tutorial/sg_execution_times.rst:8

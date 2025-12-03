@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-29 00:12+0000\n"
+"POT-Creation-Date: 2025-12-03 00:12+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -2212,87 +2212,87 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:28
-msgid ":ref:`sphx_glr_examples_ex01_beam.py`"
-msgstr ":ref:`sphx_glr_examples_ex01_beam.py`"
+msgid ":doc:`/examples/ex01_beam`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:45
-msgid ":ref:`sphx_glr_examples_ex02_plate-with-hole.py`"
-msgstr ":ref:`sphx_glr_examples_ex02_plate-with-hole.py`"
+msgid ":doc:`/examples/ex02_plate-with-hole`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:62
-msgid ":ref:`sphx_glr_examples_ex03_plasticity.py`"
-msgstr ":ref:`sphx_glr_examples_ex03_plasticity.py`"
+msgid ":doc:`/examples/ex03_plasticity`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:79
-msgid ":ref:`sphx_glr_examples_ex04_balloon.py`"
-msgstr ":ref:`sphx_glr_examples_ex04_balloon.py`"
+msgid ":doc:`/examples/ex04_balloon`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:96
-msgid ":ref:`sphx_glr_examples_ex05_rubber-metal-bushing.py`"
-msgstr ":ref:`sphx_glr_examples_ex05_rubber-metal-bushing.py`"
+msgid ":doc:`/examples/ex05_rubber-metal-bushing`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:113
-msgid ":ref:`sphx_glr_examples_ex06_rubber-metal-spring.py`"
-msgstr ":ref:`sphx_glr_examples_ex06_rubber-metal-spring.py`"
+msgid ":doc:`/examples/ex06_rubber-metal-spring`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:130
-msgid ":ref:`sphx_glr_examples_ex07_engine-mount.py`"
-msgstr ":ref:`sphx_glr_examples_ex07_engine-mount.py`"
+msgid ":doc:`/examples/ex07_engine-mount`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:147
-msgid ":ref:`sphx_glr_examples_ex08_shear.py`"
-msgstr ":ref:`sphx_glr_examples_ex08_shear.py`"
+msgid ":doc:`/examples/ex08_shear`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:164
-msgid ":ref:`sphx_glr_examples_ex09_numeric-continuation.py`"
-msgstr ":ref:`sphx_glr_examples_ex09_numeric-continuation.py`"
+msgid ":doc:`/examples/ex09_numeric-continuation`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:181
-msgid ":ref:`sphx_glr_examples_ex10_poisson-equation.py`"
-msgstr ":ref:`sphx_glr_examples_ex10_poisson-equation.py`"
+msgid ":doc:`/examples/ex10_poisson-equation`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:198
-msgid ":ref:`sphx_glr_examples_ex11_notch-stress.py`"
-msgstr ":ref:`sphx_glr_examples_ex11_notch-stress.py`"
+msgid ":doc:`/examples/ex11_notch-stress`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:215
-msgid ":ref:`sphx_glr_examples_ex12_foot-bone.py`"
-msgstr ":ref:`sphx_glr_examples_ex12_foot-bone.py`"
+msgid ":doc:`/examples/ex12_foot-bone`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:232
-msgid ":ref:`sphx_glr_examples_ex13_morph-rubber-wheel.py`"
-msgstr ":ref:`sphx_glr_examples_ex13_morph-rubber-wheel.py`"
+msgid ":doc:`/examples/ex13_morph-rubber-wheel`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:249
-msgid ":ref:`sphx_glr_examples_ex14_hyperelasticity.py`"
-msgstr ":ref:`sphx_glr_examples_ex14_hyperelasticity.py`"
+msgid ":doc:`/examples/ex14_hyperelasticity`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:266
-msgid ":ref:`sphx_glr_examples_ex15_hexmesh-metacone.py`"
-msgstr ":ref:`sphx_glr_examples_ex15_hexmesh-metacone.py`"
+msgid ":doc:`/examples/ex15_hexmesh-metacone`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:283
-msgid ":ref:`sphx_glr_examples_ex16_deeplearning-torch.py`"
-msgstr ":ref:`sphx_glr_examples_ex16_deeplearning-torch.py`"
+msgid ":doc:`/examples/ex16_deeplearning-torch`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:300
-msgid ":ref:`sphx_glr_examples_ex17_torsion-gif.py`"
-msgstr ":ref:`sphx_glr_examples_ex17_torsion-gif.py`"
+msgid ":doc:`/examples/ex17_torsion-gif`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:317
-msgid ":ref:`sphx_glr_examples_ex18_nonlinear-viscoelasticity-newton.py`"
-msgstr ":ref:`sphx_glr_examples_ex18_nonlinear-viscoelasticity-newton.py`"
+msgid ":doc:`/examples/ex18_nonlinear-viscoelasticity-newton`"
+msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:334
-msgid ":ref:`sphx_glr_examples_ex19_taylor-hood.py`"
+msgid ":doc:`/examples/ex19_taylor-hood`"
 msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:351
-msgid ":ref:`sphx_glr_examples_ex20_third-medium-contact.py`"
+msgid ":doc:`/examples/ex20_third-medium-contact`"
 msgstr ""
 
 #: ../../felupe/docs/examples/index.rst:368
-msgid ":ref:`sphx_glr_examples_ex21_nonlinear-truss-analysis.py`"
+msgid ":doc:`/examples/ex21_nonlinear-truss-analysis`"
 msgstr ""
 
 #: ../../felupe/docs/examples/sg_execution_times.rst:8
