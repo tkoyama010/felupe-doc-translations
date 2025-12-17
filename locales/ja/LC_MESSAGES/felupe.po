@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-29 00:12+0000\n"
+"POT-Creation-Date: 2025-12-17 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1007,6 +1007,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
 #: of felupe.mesh._geometry.Triangle:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh:12
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.dual:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.merge_duplicate_points:10
@@ -1554,7 +1556,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._discrete_geometry.DiscreteGeometry.update:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:72
+#: of felupe.mesh._mesh.Mesh:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.add_midpoints_edges:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
@@ -2665,8 +2667,6 @@ msgstr ""
 #: of felupe.field._container.FieldContainer:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._boundary.RegionBoundary:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
@@ -2698,16 +2698,6 @@ msgstr ""
 #: of felupe.dof._boundary.Boundary:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:51
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:15
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:21
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:57
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:63
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:69
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._boundary.RegionBoundary:42
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
@@ -17901,14 +17891,6 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:26
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:33
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:39
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:45
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:51
 msgid "int"
 msgstr "int"
 
@@ -18482,7 +18464,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_container.pydocstring
 #: of felupe.mesh._container.MeshContainer.from_unstructured_grid:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:90
+#: of felupe.mesh._mesh.Mesh:96
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.merge_duplicate_points:88
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
@@ -18523,7 +18505,7 @@ msgstr ":py:obj:`Rectangle <felupe.Rectangle>`\\ \\(\\[a\\, b\\, n\\]\\)"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
 #: of felupe.mesh._geometry.Rectangle:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:93
+#: of felupe.mesh._mesh.Mesh:99
 msgid ""
 "A rectangular 2d-mesh with quads between ``a`` and ``b`` with ``n`` points "
 "per axis."
@@ -18537,7 +18519,7 @@ msgstr ":py:obj:`Cube <felupe.Cube>`\\ \\(\\[a\\, b\\, n\\]\\)"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
 #: of felupe.mesh._geometry.Cube:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:96
+#: of felupe.mesh._mesh.Mesh:102
 msgid ""
 "A cube shaped 3d-mesh with hexahedrons between ``a`` and ``b`` with ``n`` "
 "points per axis."
@@ -18577,7 +18559,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
 #: of felupe.mesh._geometry.Triangle:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:105
+#: of felupe.mesh._mesh.Mesh:111
 msgid ""
 "A triangular shaped 2d-mesh with quads and ``n`` points at the edges of the "
 "three sub-quadrilaterals."
@@ -19098,16 +19080,12 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh:3
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:13
-msgid "Point coordinates."
+msgid "Array with point coordinates of shape ``(npoints, dim)``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh:5
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:19
-msgid "Point-connectivity of cells."
+msgid "Array with cell connectivities of shape ``(ncells, points_per_cell)``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
@@ -19117,82 +19095,71 @@ msgid ""
 "is None). Necessary when a mesh is saved to a file."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._convert.add_midpoints_edges:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._convert.add_midpoints_faces:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._convert.add_midpoints_volumes:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._convert.subdivide:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._dual.dual:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.expand:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.flip:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.merge_duplicate_cells:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.merge_duplicate_points:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.mirror:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.revolve:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.rotate:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.runouts:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.translate:7
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.triangulate:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh:13
+msgid ""
+"The ``points``-array is of shape ``(npoints, dim)``, as denoted in Eq. "
+":eq:`points`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh:15
+msgid ""
+"\\hat{\\boldsymbol{X}} = \\begin{bmatrix}\n"
+"    \\hat{\\boldsymbol{X}_1}^T \\\\\n"
+"    \\hat{\\boldsymbol{X}_2}^T \\\\\n"
+"    \\dots \\\\\n"
+"    \\hat{\\boldsymbol{X}_n}^T \\\\\n"
+"\\end{bmatrix}"
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh:25
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._tools.merge_duplicate_cells:7
-msgid "A string in VTK-convention that specifies the cell type."
+msgid ""
+"Exemplaric point coordinates of a single point at the origin in "
+":math:`\\mathbb{R}^3` are shown in Eq. :eq:`point`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:27
-msgid "str or None"
+#: of felupe.mesh._mesh.Mesh:28
+msgid "\\hat{\\boldsymbol{X}_1}^T = \\begin{bmatrix} 0.0 & 0.0 & 0.0 \\end{bmatrix}"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:31
-msgid "Amount of points."
+#: of felupe.mesh._mesh.Mesh:33
+msgid ""
+"Topologic cell connectivies are stored inside the ``cells``-array, see Eq. "
+":eq:`cells`,"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:37
-msgid "Dimension of mesh point coordinates."
+#: of felupe.mesh._mesh.Mesh:36
+msgid ""
+"\\boldsymbol{t} = \\begin{bmatrix}\n"
+"    \\boldsymbol{t}_1^T \\\\\n"
+"    \\boldsymbol{t}_2^T \\\\\n"
+"    \\vdots \\\\\n"
+"    \\boldsymbol{t}_n^T \\\\\n"
+"\\end{bmatrix}"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:43
-msgid "Amount of degrees of freedom."
+#: of felupe.mesh._mesh.Mesh:46
+msgid ""
+"with an exemplaric topologic cell-connectivity of a :class:`~felupe.Quad`, "
+"as shown in Eq. :eq:`cell`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh:49
-msgid "Amount of cells."
+msgid "\\boldsymbol{t}_1^T = \\begin{bmatrix} 0 & 1 & 2 & 3 \\end{bmatrix}"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:55
-msgid "Array with points connected to cells."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:61
-msgid "Array with points not connected to cells."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:67
+#: ../../felupe/docs/felupe/mesh.rst:29
 msgid ""
-"Array which counts connected cells per point. Used for averaging results."
+"A mesh provides several useful attributes, like the dimension, the number of"
+" points, number of cells, number of deegrees of freedom, points connected to"
+" cells and points not connected to cells."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
@@ -19200,7 +19167,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.merge_duplicate_points:107
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:89
+#: of felupe.mesh._mesh.Mesh:95
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.merge_duplicate_points:87
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
@@ -19209,38 +19176,38 @@ msgid ":py:obj:`felupe.MeshContainer`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:92
+#: of felupe.mesh._mesh.Mesh:98
 msgid ":py:obj:`felupe.Rectangle`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:95
+#: of felupe.mesh._mesh.Mesh:101
 msgid ":py:obj:`felupe.Cube`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:98
+#: of felupe.mesh._mesh.Mesh:104
 msgid ":py:obj:`felupe.Grid`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
 #: of felupe.mesh._geometry.Grid:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:99
+#: of felupe.mesh._mesh.Mesh:105
 msgid ""
 "A grid shaped 3d-mesh with hexahedrons. Basically a wrapper for "
 ":func:`numpy.meshgrid` with  default ``indexing=\"ij\"``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:101
+#: of felupe.mesh._mesh.Mesh:107
 msgid ":py:obj:`felupe.Circle`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
 #: of felupe.mesh._geometry.Circle:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:102
+#: of felupe.mesh._mesh.Mesh:108
 msgid ""
 "A circular shaped 2d-mesh with quads and ``n`` points on the circumferential"
 " edge of a 45-degree section. 90-degree ``sections`` are placed at given "
@@ -19248,7 +19215,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:104
+#: of felupe.mesh._mesh.Mesh:110
 msgid ":py:obj:`felupe.mesh.Triangle`"
 msgstr ""
 
@@ -19989,6 +19956,41 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._tools.merge_duplicate_cells:5
 msgid "Original point-connectivity of cells."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._convert.add_midpoints_edges:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._convert.add_midpoints_faces:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._convert.add_midpoints_volumes:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._convert.subdivide:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._dual.dual:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.expand:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.flip:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.merge_duplicate_cells:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.merge_duplicate_points:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.mirror:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.revolve:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.rotate:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.runouts:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.translate:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.triangulate:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._tools.merge_duplicate_cells:7
+msgid "A string in VTK-convention that specifies the cell type."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
