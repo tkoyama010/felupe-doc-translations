@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-17 00:11+0000\n"
+"POT-Creation-Date: 2025-12-18 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -222,7 +222,7 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/felupe/assembly.rst:49
-#: ../../felupe/docs/felupe/constitution.rst:33
+#: ../../felupe/docs/felupe/constitution.rst:46
 #: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:81
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:65
 #: ../../felupe/docs/felupe/constitution/core.rst:57
@@ -796,14 +796,14 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
 #: of felupe.constitution.strain._material_strain.MaterialStrain:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
-#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:22
+#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.is_stable:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:26
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.is_stable:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
@@ -1265,14 +1265,14 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
 #: of felupe.constitution.strain._material_strain.MaterialStrain:77
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
-#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:40
+#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.is_stable:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:81
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:87
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:91
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.is_stable:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
@@ -3033,7 +3033,7 @@ msgstr ""
 msgid "A Step with multiple substeps."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:8
+#: ../../felupe/docs/felupe/constitution.rst:61
 msgid "Constitution:"
 msgstr ""
 
@@ -3047,7 +3047,33 @@ msgid ""
 "<felupe.ConstitutiveMaterial>` formulations."
 msgstr ""
 
+#: ../../felupe/docs/felupe/constitution.rst:10
+msgid "🏠 Models"
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution.rst:14
+msgid "Core frameworks and library with basic material models."
+msgstr ""
+
 #: ../../felupe/docs/felupe/constitution.rst:16
+msgid "🧮 Automatic Differentiation"
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution.rst:20
+msgid ""
+"Advanced frameworks and material models with support for automatic "
+"differentiation."
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution.rst:22
+msgid "🔧 Tools & Helpers"
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution.rst:26
+msgid "Utilities to speed up repetitive & complicated tasks."
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution.rst:29
 msgid ""
 "There are many different pre-defined constitutive material formulations "
 "available, including definitions for linear-elasticity, small-strain "
@@ -3059,21 +3085,21 @@ msgid ""
 "elasticity tensors in terms of the deformation gradient."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:18
+#: ../../felupe/docs/felupe/constitution.rst:31
 msgid "**Constitutive Material Formulation**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:26:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:39:<autosummary>:1
 msgid ":py:obj:`ConstitutiveMaterial <felupe.ConstitutiveMaterial>`\\ \\(\\)"
 msgstr ":py:obj:`ConstitutiveMaterial <felupe.ConstitutiveMaterial>`\\ \\(\\)"
 
-#: ../../felupe/docs/felupe/constitution.rst:26:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:39:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial:1
 msgid "Base class for constitutive materials."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:26:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:39:<autosummary>:1
 msgid ""
 ":py:obj:`constitutive_material <felupe.constitutive_material>`\\ "
 "\\(Material\\[\\, name\\]\\)"
@@ -3081,17 +3107,17 @@ msgstr ""
 ":py:obj:`constitutive_material <felupe.constitutive_material>`\\ "
 "\\(Material\\[\\, name\\]\\)"
 
-#: ../../felupe/docs/felupe/constitution.rst:26:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:39:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
 #: of felupe.constitution._base.constitutive_material:1
 msgid "A class-decorator for a constitutive material definition."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:27
+#: ../../felupe/docs/felupe/constitution.rst:40
 msgid "**Deformation Gradient-based Materials**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:45:<autosummary>:1
 msgid ""
 ":py:obj:`Material <felupe.Material>`\\ \\(stress\\, elasticity\\[\\, "
 "nstatevars\\]\\)"
@@ -3099,7 +3125,7 @@ msgstr ""
 ":py:obj:`Material <felupe.Material>`\\ \\(stress\\, elasticity\\[\\, "
 "nstatevars\\]\\)"
 
-#: ../../felupe/docs/felupe/constitution.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:45:<autosummary>:1
 msgid ""
 "A user-defined material definition with given functions for the (first "
 "Piola-Kirchhoff) stress tensor :math:`\\boldsymbol{P}`, optional constraints"
@@ -8441,13 +8467,13 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
 #: of felupe.constitution.strain._material_strain.MaterialStrain:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
-#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:51
+#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.LinearElasticPlasticIsotropicHardening:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:107
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:111
 msgid ""
 "A strain-based user-defined material definition with a given function for "
 "the stress tensor and the (fourth-order) elasticity tensor."
@@ -8932,15 +8958,21 @@ msgid "Second Lamé-constant (shear modulus)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
-#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:17
+#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
+#: of
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:20
 msgid ""
-"* **dσdε** (*ndarray*) -- Elasticity tensor. * **σ** (*ndarray*) -- (New) "
-"stress tensor. * **ζ** (*list*) -- List of new state variables."
+"Additional keyword arguments.  tangent : bool     A flag to evaluate the "
+"elasticity tensor."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
-#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:17
-msgid "**dσdε** (*ndarray*) -- Elasticity tensor."
+#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
+#: of
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:20
+msgid "Additional keyword arguments."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
@@ -8948,7 +8980,15 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:22
-msgid "**σ** (*ndarray*) -- (New) stress tensor."
+msgid "tangent"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
+#: of felupe.constitution.strain.models._linear_elastic.linear_elastic-1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
+#: of
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening-1
+msgid "bool"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
@@ -8956,18 +8996,46 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:23
-msgid "**ζ** (*list*) -- List of new state variables."
+msgid "A flag to evaluate the elasticity tensor."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
+#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:21
+msgid ""
+"* **dσdε** (*ndarray*) -- Elasticity tensor. * **σ** (*ndarray*) -- (New) "
+"stress tensor. * **ζ** (*list*) -- List of new state variables."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
+#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:21
+msgid "**dσdε** (*ndarray*) -- Elasticity tensor."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
+#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:22
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
+#: of
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:26
+msgid "**σ** (*ndarray*) -- (New) stress tensor."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
 #: of felupe.constitution.strain.models._linear_elastic.linear_elastic:23
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
+#: of
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:27
+msgid "**ζ** (*list*) -- List of new state variables."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
+#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:27
 msgid ""
 "Given state in point :math:`\\boldsymbol{x} (\\boldsymbol{\\sigma}_n)` "
 "(valid)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
-#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:25
+#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:29
 msgid ""
 "Given strain increment :math:`\\Delta\\boldsymbol{\\varepsilon}`, so that "
 ":math:`\\boldsymbol{\\varepsilon} = \\boldsymbol{\\varepsilon}_n + "
@@ -8975,14 +9043,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
-#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:28
+#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:32
 msgid ""
 "Evaluation of the stress :math:`\\boldsymbol{\\sigma}` and the algorithmic "
 "consistent tangent modulus :math:`\\mathbb{C}` (=**dσdε**)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
-#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:31
+#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:35
 msgid ""
 "\\mathbb{C} &= \\lambda \\ \\boldsymbol{1} \\otimes \\boldsymbol{1} +\n"
 "    2 \\mu \\ \\boldsymbol{1} \\odot \\boldsymbol{1}\n"
@@ -8997,13 +9065,13 @@ msgstr ""
 "    + \\mathbb{C} : \\Delta\\boldsymbol{\\varepsilon}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
-#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:50
+#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:54
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.LinearElasticPlasticIsotropicHardening:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:106
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:110
 msgid ":py:obj:`MaterialStrain`"
 msgstr ""
 
@@ -9232,7 +9300,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:21
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:25
 msgid ""
 "* **dσdε** (*ndarray*) -- Algorithmic consistent elasticity tensor. * **σ** "
 "(*ndarray*) -- (New) stress tensor. * **ζ** (*list*) -- List of new state "
@@ -9241,13 +9309,13 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:21
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:25
 msgid "**dσdε** (*ndarray*) -- Algorithmic consistent elasticity tensor."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:27
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:31
 msgid ""
 "Given state in point :math:`x (\\sigma_n, \\zeta_n=[\\varepsilon^p_n, "
 "\\alpha_n])` (valid)."
@@ -9255,7 +9323,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:30
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:34
 msgid ""
 "Given strain increment :math:`\\Delta\\varepsilon`, so that "
 ":math:`\\varepsilon = \\varepsilon_n + \\Delta\\varepsilon`."
@@ -9263,13 +9331,13 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:33
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:37
 msgid "Evaluation of the hypothetic trial state:"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:35
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:39
 msgid ""
 "\\mathbb{C} &= \\lambda\\ \\boldsymbol{1} \\otimes \\boldsymbol{1}\n"
 "    + 2 \\mu\\ \\boldsymbol{1} \\odot \\boldsymbol{1}\n"
@@ -9299,37 +9367,37 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:50
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:54
 msgid "If :math:`f \\le 0`, then elastic step:"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:52
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:56
 msgid "Set :math:`y = y_n + \\Delta y, y=(\\sigma, \\zeta=[\\varepsilon^p, \\alpha])`,"
 msgstr "Set :math:`y = y_n + \\Delta y, y=(\\sigma, \\zeta=[\\varepsilon^p, \\alpha])`,"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:54
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:58
 msgid "algorithmic consistent tangent modulus :math:`d\\sigma d\\varepsilon`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:56
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:60
 msgid "d\\sigma d\\varepsilon = \\mathbb{C}"
 msgstr "d\\sigma d\\varepsilon = \\mathbb{C}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:60
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:64
 msgid "Else:"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:62
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:66
 msgid ""
 "d\\gamma &= \\frac{f}{2\\mu + \\frac{2}{3} K}\n"
 "\n"
@@ -9353,13 +9421,13 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:74
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:78
 msgid "Algorithmic consistent tangent modulus:"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:76
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:80
 msgid ""
 "d\\sigma d\\varepsilon = \\mathbb{C}\n"
 "    - \\frac{2 \\mu}{1 + \\frac{K}{3 \\mu}} n \\otimes n\n"
