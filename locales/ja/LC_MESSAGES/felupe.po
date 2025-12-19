@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-18 00:11+0000\n"
+"POT-Creation-Date: 2025-12-19 00:13+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -222,7 +222,7 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/felupe/assembly.rst:49
-#: ../../felupe/docs/felupe/constitution.rst:46
+#: ../../felupe/docs/felupe/constitution.rst:54
 #: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:81
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:65
 #: ../../felupe/docs/felupe/constitution/core.rst:57
@@ -3033,7 +3033,7 @@ msgstr ""
 msgid "A Step with multiple substeps."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:61
+#: ../../felupe/docs/felupe/constitution.rst:8
 msgid "Constitution:"
 msgstr ""
 
@@ -3047,33 +3047,33 @@ msgid ""
 "<felupe.ConstitutiveMaterial>` formulations."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:10
+#: ../../felupe/docs/felupe/constitution.rst:18
 msgid "🏠 Models"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:14
+#: ../../felupe/docs/felupe/constitution.rst:22
 msgid "Core frameworks and library with basic material models."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:16
+#: ../../felupe/docs/felupe/constitution.rst:24
 msgid "🧮 Automatic Differentiation"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:20
+#: ../../felupe/docs/felupe/constitution.rst:28
 msgid ""
 "Advanced frameworks and material models with support for automatic "
 "differentiation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:22
+#: ../../felupe/docs/felupe/constitution.rst:30
 msgid "🔧 Tools & Helpers"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:26
+#: ../../felupe/docs/felupe/constitution.rst:34
 msgid "Utilities to speed up repetitive & complicated tasks."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:29
+#: ../../felupe/docs/felupe/constitution.rst:37
 msgid ""
 "There are many different pre-defined constitutive material formulations "
 "available, including definitions for linear-elasticity, small-strain "
@@ -3085,21 +3085,21 @@ msgid ""
 "elasticity tensors in terms of the deformation gradient."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:31
+#: ../../felupe/docs/felupe/constitution.rst:39
 msgid "**Constitutive Material Formulation**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:39:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:47:<autosummary>:1
 msgid ":py:obj:`ConstitutiveMaterial <felupe.ConstitutiveMaterial>`\\ \\(\\)"
 msgstr ":py:obj:`ConstitutiveMaterial <felupe.ConstitutiveMaterial>`\\ \\(\\)"
 
-#: ../../felupe/docs/felupe/constitution.rst:39:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial:1
 msgid "Base class for constitutive materials."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:39:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:47:<autosummary>:1
 msgid ""
 ":py:obj:`constitutive_material <felupe.constitutive_material>`\\ "
 "\\(Material\\[\\, name\\]\\)"
@@ -3107,17 +3107,17 @@ msgstr ""
 ":py:obj:`constitutive_material <felupe.constitutive_material>`\\ "
 "\\(Material\\[\\, name\\]\\)"
 
-#: ../../felupe/docs/felupe/constitution.rst:39:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:47:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
 #: of felupe.constitution._base.constitutive_material:1
 msgid "A class-decorator for a constitutive material definition."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:40
+#: ../../felupe/docs/felupe/constitution.rst:48
 msgid "**Deformation Gradient-based Materials**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:53:<autosummary>:1
 msgid ""
 ":py:obj:`Material <felupe.Material>`\\ \\(stress\\, elasticity\\[\\, "
 "nstatevars\\]\\)"
@@ -3125,7 +3125,7 @@ msgstr ""
 ":py:obj:`Material <felupe.Material>`\\ \\(stress\\, elasticity\\[\\, "
 "nstatevars\\]\\)"
 
-#: ../../felupe/docs/felupe/constitution.rst:45:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:53:<autosummary>:1
 msgid ""
 "A user-defined material definition with given functions for the (first "
 "Piola-Kirchhoff) stress tensor :math:`\\boldsymbol{P}`, optional constraints"
