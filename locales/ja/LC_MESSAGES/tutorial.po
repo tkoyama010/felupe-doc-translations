@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2021-2025, Andreas Dutzler
+# Copyright (C) 2021-2026, Andreas Dutzler
 # This file is distributed under the same license as the FElupe package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-03 00:12+0000\n"
+"POT-Creation-Date: 2026-01-07 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -66,34 +66,28 @@ msgid ""
 "prescribed displacement at the mesh-points on the right-end face of the "
 "cube. The right-end face is *clamped*: only displacements in direction *x* "
 "are allowed. The dict of :class:`boundary <felupe.Boundary>` conditions for "
-"this pre-defined load case are returned as ``boundaries`` and the "
+"this pre-defined load case are returned as ``boundaries``. Optionally, the "
 "partitioned degrees of freedom as well as the external displacements are "
 "stored within the returned dict ``loadcase``."
 msgstr ""
-":func:`~felupe.dof.uniaxial` 荷重ケースは、 :class:`field container "
-"<felupe.FieldContainer>` 内に格納された変位 :class:`field <felupe.Field>` に適用されます。これは"
-" :func:`~felupe.dof.symmetry` 平面を設定し、立方体の右端面のメッシュポイントに所定の変位の絶対値を設定します。右端面は "
-"*clamped* : *x* 方向の変位のみが許されます。この事前に定義された荷重ケースの :class:`boundary "
-"<felupe.Boundary>` 条件のdictは ``boundaries`` として返され、分割された自由度と外部変位は返されたdict "
-"``loadcase`` 内に格納されます。"
 
-#: ../../felupe/docs/tutorial/examples/README.rst:26
-#: ../../felupe/docs/tutorial/index.rst:28
+#: ../../felupe/docs/tutorial/examples/README.rst:28
+#: ../../felupe/docs/tutorial/index.rst:30
 msgid ""
 "An isotropic hyperelastic :class:`Neo-Hookean <felupe.NeoHooke>` material "
 "model formulation is applied on the displacement :class:`field "
-"<felupe.Field>` of a :class:solid body <felupe.SolidBody>`."
+"<felupe.Field>` of a :class:`solid body <felupe.SolidBody>`."
 msgstr ""
 
-#: ../../felupe/docs/tutorial/examples/README.rst:34
-#: ../../felupe/docs/tutorial/index.rst:36
+#: ../../felupe/docs/tutorial/examples/README.rst:36
+#: ../../felupe/docs/tutorial/index.rst:38
 msgid ""
 "A :class:`step <felupe.Step>` generates the consecutive substep-movements of"
 " a given :class:`boundary <felupe.Boundary>` condition."
 msgstr ""
 
-#: ../../felupe/docs/tutorial/examples/README.rst:44
-#: ../../felupe/docs/tutorial/index.rst:46
+#: ../../felupe/docs/tutorial/examples/README.rst:46
+#: ../../felupe/docs/tutorial/index.rst:48
 msgid ""
 "The :class:`step <felupe.Step>` is further added to a list of steps of a "
 ":class:`job <felupe.Job>` (here, a :class:`characteristic curve "
@@ -104,8 +98,8 @@ msgid ""
 "after each completed substep as a time-series XDMF file."
 msgstr ""
 
-#: ../../felupe/docs/tutorial/examples/README.rst:68
-#: ../../felupe/docs/tutorial/index.rst:70
+#: ../../felupe/docs/tutorial/examples/README.rst:70
+#: ../../felupe/docs/tutorial/index.rst:72
 msgid "Finally, the result of the last completed substep is plotted."
 msgstr ""
 
@@ -119,28 +113,28 @@ msgstr ""
 msgid "Interactive Scene"
 msgstr ""
 
-#: ../../felupe/docs/tutorial/examples/README.rst:75
-#: ../../felupe/docs/tutorial/index.rst:77
+#: ../../felupe/docs/tutorial/examples/README.rst:77
+#: ../../felupe/docs/tutorial/index.rst:79
 msgid ""
 "Slightly modified code-blocks are provided for different kind of analyses"
 msgstr ""
 
-#: ../../felupe/docs/tutorial/examples/README.rst:79
-#: ../../felupe/docs/tutorial/examples/README.rst:173
-#: ../../felupe/docs/tutorial/examples/README.rst:207
-#: ../../felupe/docs/tutorial/index.rst:81
-#: ../../felupe/docs/tutorial/index.rst:175
-#: ../../felupe/docs/tutorial/index.rst:209
+#: ../../felupe/docs/tutorial/examples/README.rst:81
+#: ../../felupe/docs/tutorial/examples/README.rst:175
+#: ../../felupe/docs/tutorial/examples/README.rst:209
+#: ../../felupe/docs/tutorial/index.rst:83
+#: ../../felupe/docs/tutorial/index.rst:177
+#: ../../felupe/docs/tutorial/index.rst:211
 msgid "and element formulations."
 msgstr ""
 
-#: ../../felupe/docs/tutorial/examples/README.rst:240
-#: ../../felupe/docs/tutorial/index.rst:242
+#: ../../felupe/docs/tutorial/examples/README.rst:242
+#: ../../felupe/docs/tutorial/index.rst:244
 msgid "Tutorials"
 msgstr "チュートリアル"
 
-#: ../../felupe/docs/tutorial/examples/README.rst:242
-#: ../../felupe/docs/tutorial/index.rst:244
+#: ../../felupe/docs/tutorial/examples/README.rst:244
+#: ../../felupe/docs/tutorial/index.rst:246
 msgid ""
 "This section is all about learning. Each tutorial focuses on some lessons to"
 " learn."
@@ -216,7 +210,7 @@ msgstr ""
 "一軸荷重ケースは、フィールドコンテナ内に格納された変位フィールドに適用されます。これには、立方体の右端面のメッシュ点における所定の変位の絶対値だけでなく、対称面の設定が含まれます。右端面は*クランプ*されており、x方向の変位のみが許容されます。この事前に定義された荷重ケースの境界条件のdictは"
 " ``boundaries`` として返され、分割された自由度と外部変位は、返されたdict ``loadcase`` 内に格納されます。"
 
-#: ../../felupe/docs/tutorial/extut01_getting_started.rst:78
+#: ../../felupe/docs/tutorial/extut01_getting_started.rst:84
 msgid ""
 "The material behaviour is defined through a built-in Neo-Hookean material "
 "formulation. The constitutive isotropic hyperelastic material formulation is"
@@ -225,7 +219,7 @@ msgstr ""
 "材料挙動はビルトインされたNeo-"
 "Hookeanの材料定式化によって定義されます。構成的等方性超弾性材料定式化は、固体の定義によって変位フィールドに適用されます。"
 
-#: ../../felupe/docs/tutorial/extut01_getting_started.rst:92
+#: ../../felupe/docs/tutorial/extut01_getting_started.rst:98
 msgid ""
 "The problem is solved by an iterative :func:`Newton-Rhapson "
 "<felupe.newtonrhapson>` procedure. A verbosity level of 2 enables a detailed"
@@ -234,11 +228,11 @@ msgstr ""
 "この問題は、反復的な :func:`Newton-Rhapson <felupe.newtonrhapson>` "
 "手続きによって解かれます。冗長度レベルを2にすると、詳細なテキストベースのロギングが可能になります。"
 
-#: ../../felupe/docs/tutorial/extut01_getting_started.rst:104
+#: ../../felupe/docs/tutorial/extut01_getting_started.rst:110
 msgid "Results may be viewed in an interactive window."
 msgstr "結果はインタラクティブなウィンドウで見ることができます。"
 
-#: ../../felupe/docs/tutorial/extut01_getting_started.rst:121
+#: ../../felupe/docs/tutorial/extut01_getting_started.rst:127
 msgid ""
 ":download:`Download Jupyter notebook: extut01_getting_started.ipynb "
 "<extut01_getting_started.ipynb>`"
@@ -246,7 +240,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: extut01_getting_started.ipynb "
 "<extut01_getting_started.ipynb>`"
 
-#: ../../felupe/docs/tutorial/extut01_getting_started.rst:125
+#: ../../felupe/docs/tutorial/extut01_getting_started.rst:131
 msgid ""
 ":download:`Download Python source code: extut01_getting_started.py "
 "<extut01_getting_started.py>`"
@@ -254,17 +248,17 @@ msgstr ""
 ":download:`Download Python source code: extut01_getting_started.py "
 "<extut01_getting_started.py>`"
 
-#: ../../felupe/docs/tutorial/extut01_getting_started.rst:129
+#: ../../felupe/docs/tutorial/extut01_getting_started.rst:135
 msgid ""
 ":download:`Download zipped: extut01_getting_started.zip "
 "<extut01_getting_started.zip>`"
 msgstr ""
 
-#: ../../felupe/docs/tutorial/extut01_getting_started.rst:136
+#: ../../felupe/docs/tutorial/extut01_getting_started.rst:142
 #: ../../felupe/docs/tutorial/extut02_job.rst:134
 #: ../../felupe/docs/tutorial/extut03_multiple-solids.rst:122
 #: ../../felupe/docs/tutorial/extut04_building_blocks.rst:539
-#: ../../felupe/docs/tutorial/index.rst:343
+#: ../../felupe/docs/tutorial/index.rst:345
 msgid ""
 "`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
 msgstr "`Sphinx-Galleryによって生成されたギャラリー <https://sphinx-gallery.github.io>`_"
@@ -792,19 +786,19 @@ msgid ""
 "<extut04_building_blocks.zip>`"
 msgstr ""
 
-#: ../../felupe/docs/tutorial/index.rst:263
+#: ../../felupe/docs/tutorial/index.rst:265
 msgid ":doc:`/tutorial/extut01_getting_started`"
 msgstr ""
 
-#: ../../felupe/docs/tutorial/index.rst:280
+#: ../../felupe/docs/tutorial/index.rst:282
 msgid ":doc:`/tutorial/extut02_job`"
 msgstr ""
 
-#: ../../felupe/docs/tutorial/index.rst:297
+#: ../../felupe/docs/tutorial/index.rst:299
 msgid ":doc:`/tutorial/extut03_multiple-solids`"
 msgstr ""
 
-#: ../../felupe/docs/tutorial/index.rst:314
+#: ../../felupe/docs/tutorial/index.rst:316
 msgid ":doc:`/tutorial/extut04_building_blocks`"
 msgstr ""
 

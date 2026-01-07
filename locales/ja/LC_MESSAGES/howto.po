@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2021-2025, Andreas Dutzler
+# Copyright (C) 2021-2026, Andreas Dutzler
 # This file is distributed under the same license as the FElupe package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-17 00:11+0000\n"
+"POT-Creation-Date: 2026-01-07 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -389,15 +389,12 @@ msgid ""
 " are also calculated, the resulting cell-type is ``quad9``."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:318
+#: ../../felupe/docs/howto/meshgen.rst:319
 msgid "The same also applies on meshes with triangles."
 msgstr ""
 
-#: ../../felupe/docs/howto/meshgen.rst:326
-msgid ""
-"While views on higher-order meshes are possible, it is suggested to use "
-"ParaView for the visualization of meshes with midpoints due to the improved "
-"representation of the cells."
+#: ../../felupe/docs/howto/meshgen.rst:330
+msgid "For views on higher-order meshes use ``nonlinear_subdivision``."
 msgstr ""
 
 #: ../../felupe/docs/howto/mixed.rst:2

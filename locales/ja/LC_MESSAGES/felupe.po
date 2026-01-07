@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2021-2025, Andreas Dutzler
+# Copyright (C) 2021-2026, Andreas Dutzler
 # This file is distributed under the same license as the FElupe package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-19 00:13+0000\n"
+"POT-Creation-Date: 2026-01-07 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -222,7 +222,7 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/felupe/assembly.rst:49
-#: ../../felupe/docs/felupe/constitution.rst:54
+#: ../../felupe/docs/felupe/constitution.rst:55
 #: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:81
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:65
 #: ../../felupe/docs/felupe/constitution/core.rst:57
@@ -868,7 +868,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
 #: of felupe.constitution.tensortrax.models.lagrange._morph.morph:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:39
+#: of felupe.dof._loadcase.biaxial:46
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.symmetry:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/element/_hexahedron.pydocstring
@@ -1348,13 +1348,13 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:60
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:44
+#: of felupe.dof._loadcase.biaxial:51
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.shear:36
+#: of felupe.dof._loadcase.shear:43
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.symmetry:35
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:38
+#: of felupe.dof._loadcase.uniaxial:45
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.apply:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
@@ -2022,7 +2022,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
 #: of felupe.assembly._axi.IntegralFormAxisymmetric:94
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
-#: of felupe.assembly.expression._decorator.FormExpressionDecorator:77
+#: of felupe.assembly.expression._decorator.FormExpressionDecorator:79
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
 #: of felupe.constitution._mixed.ThreeFieldVariation:125
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.pydocstring
@@ -2592,12 +2592,12 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
-#: of felupe.assembly.expression._decorator.FormExpressionDecorator:68
+#: of felupe.assembly.expression._decorator.FormExpressionDecorator:70
 msgid "The bilinear form of linear elasticity is defined as"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
-#: of felupe.assembly.expression._decorator.FormExpressionDecorator:70
+#: of felupe.assembly.expression._decorator.FormExpressionDecorator:72
 msgid ""
 "a(v, u) = \\int_\\Omega 2 \\mu \\\n"
 "    \\delta\\boldsymbol{\\varepsilon} : \\boldsymbol{\\varepsilon} +\n"
@@ -2610,7 +2610,7 @@ msgstr ""
 "        \\text{tr}(\\boldsymbol{\\varepsilon}) \\ dv"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
-#: of felupe.assembly.expression._decorator.FormExpressionDecorator:79
+#: of felupe.assembly.expression._decorator.FormExpressionDecorator:81
 msgid ""
 "\\delta\\boldsymbol{\\varepsilon} &= \\text{sym}(\\text{grad}(\\boldsymbol{v}))\n"
 "\n"
@@ -2621,7 +2621,7 @@ msgstr ""
 "\\boldsymbol{\\varepsilon} &= \\text{sym}(\\text{grad}(\\boldsymbol{u}))"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
-#: of felupe.assembly.expression._decorator.FormExpressionDecorator:85
+#: of felupe.assembly.expression._decorator.FormExpressionDecorator:87
 msgid ""
 "and implemented in FElupe closely to the analytic expression. The first two "
 "arguments for the callable *weak-form* function of a bilinear form are "
@@ -2636,14 +2636,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
-#: of felupe.assembly.expression._decorator.FormExpressionDecorator:123
+#: of felupe.assembly.expression._decorator.FormExpressionDecorator:125
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:173
 msgid ":py:obj:`felupe.FormItem`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
-#: of felupe.assembly.expression._decorator.FormExpressionDecorator:124
+#: of felupe.assembly.expression._decorator.FormExpressionDecorator:126
 msgid "Bilinear and optional linear form objects based on weak-forms."
 msgstr ""
 
@@ -3047,33 +3047,33 @@ msgid ""
 "<felupe.ConstitutiveMaterial>` formulations."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:18
+#: ../../felupe/docs/felupe/constitution.rst:19
 msgid "🏠 Models"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:22
+#: ../../felupe/docs/felupe/constitution.rst:23
 msgid "Core frameworks and library with basic material models."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:24
+#: ../../felupe/docs/felupe/constitution.rst:25
 msgid "🧮 Automatic Differentiation"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:28
+#: ../../felupe/docs/felupe/constitution.rst:29
 msgid ""
 "Advanced frameworks and material models with support for automatic "
 "differentiation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:30
+#: ../../felupe/docs/felupe/constitution.rst:31
 msgid "🔧 Tools & Helpers"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:34
+#: ../../felupe/docs/felupe/constitution.rst:35
 msgid "Utilities to speed up repetitive & complicated tasks."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:37
+#: ../../felupe/docs/felupe/constitution.rst:38
 msgid ""
 "There are many different pre-defined constitutive material formulations "
 "available, including definitions for linear-elasticity, small-strain "
@@ -3085,21 +3085,21 @@ msgid ""
 "elasticity tensors in terms of the deformation gradient."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:39
+#: ../../felupe/docs/felupe/constitution.rst:40
 msgid "**Constitutive Material Formulation**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:47:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:48:<autosummary>:1
 msgid ":py:obj:`ConstitutiveMaterial <felupe.ConstitutiveMaterial>`\\ \\(\\)"
 msgstr ":py:obj:`ConstitutiveMaterial <felupe.ConstitutiveMaterial>`\\ \\(\\)"
 
-#: ../../felupe/docs/felupe/constitution.rst:47:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:48:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial:1
 msgid "Base class for constitutive materials."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:47:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:48:<autosummary>:1
 msgid ""
 ":py:obj:`constitutive_material <felupe.constitutive_material>`\\ "
 "\\(Material\\[\\, name\\]\\)"
@@ -3107,17 +3107,17 @@ msgstr ""
 ":py:obj:`constitutive_material <felupe.constitutive_material>`\\ "
 "\\(Material\\[\\, name\\]\\)"
 
-#: ../../felupe/docs/felupe/constitution.rst:47:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:48:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
 #: of felupe.constitution._base.constitutive_material:1
 msgid "A class-decorator for a constitutive material definition."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:48
+#: ../../felupe/docs/felupe/constitution.rst:49
 msgid "**Deformation Gradient-based Materials**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution.rst:53:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:54:<autosummary>:1
 msgid ""
 ":py:obj:`Material <felupe.Material>`\\ \\(stress\\, elasticity\\[\\, "
 "nstatevars\\]\\)"
@@ -3125,7 +3125,7 @@ msgstr ""
 ":py:obj:`Material <felupe.Material>`\\ \\(stress\\, elasticity\\[\\, "
 "nstatevars\\]\\)"
 
-#: ../../felupe/docs/felupe/constitution.rst:53:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution.rst:54:<autosummary>:1
 msgid ""
 "A user-defined material definition with given functions for the (first "
 "Piola-Kirchhoff) stress tensor :math:`\\boldsymbol{P}`, optional constraints"
@@ -5619,19 +5619,34 @@ msgstr ""
 msgid "Automatic Differentiation"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff.rst:13
+#: ../../felupe/docs/felupe/constitution/autodiff.rst:16
+msgid "NumPy"
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/autodiff.rst:20
+msgid ""
+"Default NumPy-based backend ``tensortrax`` for automatic differentiation "
+"(bundled with FElupe)."
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/autodiff.rst:23
+msgid "JAX"
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/autodiff.rst:27
+msgid ""
+"Use JAX as backend for automatic differentiation. Preferred option for "
+"computationally expensive material formulations."
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/autodiff.rst:30
 msgid ""
 "FElupe supports multiple backends for constitutive material formulations "
-"with automatic differentiation. The default backend is based on "
-":mod:`tensortrax` which ships with FElupe. For more computationally "
-"expensive material formulations, :mod:`jax` may be the preferred option."
+"with automatic differentiation. It is straightforward to switch between "
+"these backends."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff.rst:18
-msgid "It is straightforward to switch between these backends."
-msgstr ""
-
-#: ../../felupe/docs/felupe/constitution/autodiff.rst:52
+#: ../../felupe/docs/felupe/constitution/autodiff.rst:65
 msgid ""
 "The default backend is available in the top-level package namespace, this "
 "includes all models from "
@@ -11275,10 +11290,8 @@ msgstr ""
 #: ../../felupe/docs/felupe/dof.rst:24:<autosummary>:1
 msgid ""
 ":py:obj:`dof.symmetry <felupe.dof.symmetry>`\\ \\(field\\[\\, axes\\, x\\, "
-"y\\, z\\, bounds\\]\\)"
+"y\\, z\\, bounds\\, ...\\]\\)"
 msgstr ""
-":py:obj:`dof.symmetry <felupe.dof.symmetry>`\\ \\(field\\[\\, axes\\, x\\, "
-"y\\, z\\, bounds\\]\\)"
 
 #: ../../felupe/docs/felupe/dof.rst:24:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -11325,10 +11338,8 @@ msgstr ""
 #: ../../felupe/docs/felupe/dof.rst:33:<autosummary>:1
 msgid ""
 ":py:obj:`dof.shear <felupe.dof.shear>`\\ \\(field\\[\\, bottom\\, top\\, "
-"moves\\, axes\\, sym\\]\\)"
+"moves\\, axes\\, ...\\]\\)"
 msgstr ""
-":py:obj:`dof.shear <felupe.dof.shear>`\\ \\(field\\[\\, bottom\\, top\\, "
-"moves\\, axes\\, sym\\]\\)"
 
 #: ../../felupe/docs/felupe/dof.rst:33:<autosummary>:1
 msgid ""
@@ -11509,11 +11520,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:167
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:142
+#: of felupe.dof._loadcase.biaxial:149
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.shear:76
+#: of felupe.dof._loadcase.shear:83
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:72
+#: of felupe.dof._loadcase.uniaxial:79
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.apply:64
 msgid ":py:obj:`felupe.dof.partition`"
@@ -11522,11 +11533,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:168
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:143
+#: of felupe.dof._loadcase.biaxial:150
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.shear:77
+#: of felupe.dof._loadcase.shear:84
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:73
+#: of felupe.dof._loadcase.uniaxial:80
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.apply:65
 msgid "Partition degrees of freedom into prescribed and active dof."
@@ -11535,11 +11546,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:170
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:145
+#: of felupe.dof._loadcase.biaxial:152
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.shear:79
+#: of felupe.dof._loadcase.shear:86
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:75
+#: of felupe.dof._loadcase.uniaxial:82
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.partition:58
 msgid ":py:obj:`felupe.dof.apply`"
@@ -11548,11 +11559,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:171
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:146
+#: of felupe.dof._loadcase.biaxial:153
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.shear:80
+#: of felupe.dof._loadcase.shear:87
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:76
+#: of felupe.dof._loadcase.uniaxial:83
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.partition:59
 msgid "Apply prescribed values for a list of boundaries."
@@ -11580,19 +11591,6 @@ msgid "Update the value of the boundary in-place."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
-#: of felupe.BoundaryDict.fromkeys:1
-msgid ""
-"Create a new dictionary with keys from iterable and values set to value."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
-#: of felupe.BoundaryDict.get:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
-#: of felupe.BoundaryDict.setdefault:3
-msgid "Return the value for key if key is in the dictionary, else default."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
 #: of felupe.dof._dict.BoundaryDict.imshow:1
 msgid ""
 "Take a screenshot of the boundary conditions, show the image data in a "
@@ -11605,41 +11603,8 @@ msgid "Plot the boundary conditions."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
-#: of felupe.BoundaryDict.pop:1
-msgid ""
-"If the key is not found, return the default if given; otherwise, raise a "
-"KeyError."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
-#: of felupe.BoundaryDict.popitem:1
-msgid "Remove and return a (key, value) pair as a 2-tuple."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
-#: of felupe.BoundaryDict.popitem:3
-msgid ""
-"Pairs are returned in LIFO (last-in, first-out) order. Raises KeyError if "
-"the dict is empty."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
 #: of felupe.dof._dict.BoundaryDict.screenshot:1
 msgid "Take a screenshot of the boundary conditions."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
-#: of felupe.BoundaryDict.setdefault:1
-msgid "Insert key with a value of default if key is not in the dictionary."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_dict.pydocstring
-#: of felupe.BoundaryDict.update:1
-msgid ""
-"If E is present and has a .keys() method, then does:  for k in E.keys(): "
-"D[k] = E[k] If E is present and lacks a .keys() method, then does:  for k, v"
-" in E: D[k] = v In either case, this is followed by: for k in F:  D[k] = "
-"F[k]"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
@@ -11684,13 +11649,13 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:139
+#: of felupe.dof._loadcase.biaxial:146
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.shear:73
+#: of felupe.dof._loadcase.shear:80
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.symmetry:64
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:69
+#: of felupe.dof._loadcase.uniaxial:76
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.apply:61
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
@@ -11699,13 +11664,13 @@ msgid ":py:obj:`felupe.Boundary`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:140
+#: of felupe.dof._loadcase.biaxial:147
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.shear:74
+#: of felupe.dof._loadcase.shear:81
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.symmetry:65
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:70
+#: of felupe.dof._loadcase.uniaxial:77
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.apply:62
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
@@ -11911,59 +11876,124 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:32
-msgid ""
-"* *dict of felupe.Boundary* -- Dict of boundaries for a uniaxial loadcase. *"
-" *dict of ndarray* -- Loadcase-related partitioned prescribed ``dof0`` and "
-"active ``dof1`` degrees of   freedom as well as the external displacement "
-"values ``ext0`` for the prescribed   degrees of freedom."
+#: of felupe.dof._loadcase.biaxial:32
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.shear:29
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.uniaxial:31
+msgid "A flag to return a dict with loadcase-related data. Default is False."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:32
+#: of felupe.dof._loadcase.biaxial:35
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.shear:32
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.uniaxial:34
 msgid ""
-"*dict of felupe.Boundary* -- Dict of boundaries for a uniaxial loadcase."
+"* *felupe.BoundaryDict* -- Dict of boundaries for this loadcase. * "
+"*LoadcaseResult* -- Returned only if ``return_loadcase=True``.    bounds: "
+"felupe.BoundaryDict       Dict of boundaries for this loadcase.   loadcase :"
+" dict       Loadcase-related partitioned prescribed ``dof0`` and active "
+"``dof1`` degrees of       freedom as well as the external displacement "
+"values ``ext0`` for the prescribed       degrees of freedom."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:34
+#: of felupe.dof._loadcase.biaxial:35
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.shear:31
+#: of felupe.dof._loadcase.shear:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:33
-msgid ""
-"*dict of ndarray* -- Loadcase-related partitioned prescribed ``dof0`` and "
-"active ``dof1`` degrees of freedom as well as the external displacement "
-"values ``ext0`` for the prescribed degrees of freedom."
+#: of felupe.dof._loadcase.uniaxial:34
+msgid "*felupe.BoundaryDict* -- Dict of boundaries for this loadcase."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.biaxial:36
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.shear:33
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.uniaxial:35
+msgid "*LoadcaseResult* -- Returned only if ``return_loadcase=True``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.biaxial:38
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.shear:35
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.uniaxial:37
+msgid "bounds: felupe.BoundaryDict"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.biaxial:39
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.shear:36
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.uniaxial:38
+msgid "Dict of boundaries for this loadcase."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.biaxial:40
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.shear:37
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.uniaxial:39
+msgid "loadcase"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.biaxial-1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.shear-1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.uniaxial-1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
+#: of felupe.mechanics._job.Job:54
+msgid "dict"
+msgstr "dict"
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.biaxial:41
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.shear:38
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.uniaxial:40
+msgid ""
+"Loadcase-related partitioned prescribed ``dof0`` and active ``dof1`` degrees"
+" of freedom as well as the external displacement values ``ext0`` for the "
+"prescribed degrees of freedom."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.uniaxial:46
 msgid ""
 "A quarter of a solid hyperelastic cube is subjected to uniaxial "
 "displacement- controlled compression on a rigid end face."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:52
+#: of felupe.dof._loadcase.uniaxial:59
 msgid "The longitudinal displacement is applied incrementally."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:148
+#: of felupe.dof._loadcase.biaxial:155
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.shear:82
+#: of felupe.dof._loadcase.shear:89
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:78
+#: of felupe.dof._loadcase.uniaxial:85
 msgid ":py:obj:`felupe.dof.symmetry`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:149
+#: of felupe.dof._loadcase.biaxial:156
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.shear:83
+#: of felupe.dof._loadcase.shear:90
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:79
+#: of felupe.dof._loadcase.uniaxial:86
 msgid "Return a dict of boundaries for the symmetry axes."
 msgstr ""
 
@@ -12023,52 +12053,33 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:33
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.shear:30
-msgid ""
-"* *dict of felupe.Boundary* -- Dict of boundaries for a biaxial loadcase. * "
-"*dict of ndarray* -- Loadcase-related partitioned prescribed ``dof0`` and "
-"active ``dof1`` degrees of   freedom as well as the external displacement "
-"values ``ext0`` for the prescribed   degrees of freedom."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:33
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.shear:30
-msgid ""
-"*dict of felupe.Boundary* -- Dict of boundaries for a biaxial loadcase."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:40
+#: of felupe.dof._loadcase.biaxial:47
 msgid ""
 "Note that `clampes=(True, True)` is not a valid loadcase for a cube. "
 "Instead, use a shape where the clamped end faces do not share mesh-points."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:45
+#: of felupe.dof._loadcase.biaxial:52
 msgid ""
 "A cross-like planar specimen of a hyperelastic solid is subjected to biaxial"
 " displacement-controlled tension on rigid end faces."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:64
+#: of felupe.dof._loadcase.biaxial:71
 msgid "The longitudinal displacements are applied incrementally."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:82
+#: of felupe.dof._loadcase.biaxial:89
 msgid ""
 "Repeating the above example with ``fem.dof.biaxial(field, clampes=(False, "
 "False)`` results in a different deformation at the end faces."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:113
+#: of felupe.dof._loadcase.biaxial:120
 msgid ""
 "The biaxial load case may also invoke a planar loading, where one of the "
 "longitudinal axes is fixed with no displacements at the end plates. The "
@@ -12126,7 +12137,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.shear:37
+#: of felupe.dof._loadcase.shear:44
 msgid ""
 "A rectangular planar specimen of a hyperelastic solid is subjected to a "
 "displacement-controlled combined shear-compression loading on rigid end "
@@ -12134,13 +12145,13 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.shear:49
+#: of felupe.dof._loadcase.shear:56
 msgid ""
 "The top edge is moved by ``-0.1`` to add a 10% constant compressive loading."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.shear:56
+#: of felupe.dof._loadcase.shear:63
 msgid "The shear displacement is applied incrementally."
 msgstr ""
 
@@ -17999,11 +18010,6 @@ msgstr ""
 msgid "list of list of float"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:54
-msgid "dict"
-msgstr "dict"
-
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
 #: of felupe.mechanics._curve.CharacteristicCurve:65
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
@@ -18102,8 +18108,6 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:34
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:55
 msgid ""
 "If verbose is True, choose a backend for ``tqdm`` (\"tqdm\", ``\"auto\"`` or"
 " ``\"notebook\"``. Default is ``\"tqdm\"``."
@@ -22834,6 +22838,13 @@ msgstr ""
 msgid ""
 "Use an existing instance of a progress bar if verbose is True. If None and "
 "verbose is True, a new bar is created. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonrhapson:55
+msgid ""
+"If verbose is True, choose a backend for ``tqdm`` (``\"tqdm\"``, "
+"``\"auto\"`` or ``\"notebook\"``). Default is ``\"tqdm\"``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
