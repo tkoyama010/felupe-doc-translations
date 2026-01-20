@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-07 00:11+0000\n"
+"POT-Creation-Date: 2026-01-19 18:55+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -33,7 +33,7 @@ msgstr ""
 msgid "Cantilever beam under gravity"
 msgstr "重力下での片持ち梁"
 
-#: ../../felupe/docs/examples/ex01_beam.rst:22
+#: ../../felupe/docs/examples/ex01_beam.rst:24
 msgid "Apply a gravity load on a solid body."
 msgstr "固体に重力負荷をかけます。"
 
@@ -173,7 +173,7 @@ msgstr ""
 msgid "Plate with a Hole"
 msgstr "穴の開いたプレート"
 
-#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:22
+#: ../../felupe/docs/examples/ex02_plate-with-hole.rst:24
 msgid "Plane stress linear analysis."
 msgstr "平面応力線形解析"
 
@@ -288,7 +288,7 @@ msgstr ""
 msgid "Plasticity with Isotropic Hardening"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex03_plasticity.rst:22
+#: ../../felupe/docs/examples/ex03_plasticity.rst:24
 msgid "Small-strain Plasticity"
 msgstr "微小ひずみ可塑性"
 
@@ -386,7 +386,7 @@ msgstr ""
 msgid "Inflation of a hyperelastic balloon"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex04_balloon.rst:22
+#: ../../felupe/docs/examples/ex04_balloon.rst:24
 msgid "Numeric continuation of a hyperelastic balloon under inner pressure."
 msgstr ""
 
@@ -490,7 +490,7 @@ msgstr ""
 msgid "Elastic bearing with torsional loading"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:22
+#: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:24
 msgid "An elastic bearing with combined multiaxial loading."
 msgstr ""
 
@@ -583,7 +583,7 @@ msgstr ""
 msgid "Hyperelastic Spring"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:22
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:24
 msgid "A hyperelastic spring with a simplified frictionless contact."
 msgstr ""
 
@@ -699,7 +699,7 @@ msgstr ""
 msgid "Engine Mount"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex07_engine-mount.rst:22
+#: ../../felupe/docs/examples/ex07_engine-mount.rst:24
 msgid "A rubberlike-metal component used as an engine-mount."
 msgstr ""
 
@@ -824,7 +824,7 @@ msgstr ""
 msgid "Non-homogeneous shear"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:22
+#: ../../felupe/docs/examples/ex08_shear.rst:24
 msgid "Plane strain hyperelastic non-homogeneous shear loadcase"
 msgstr ""
 
@@ -962,7 +962,7 @@ msgid ""
 "displacement curve will be plotted."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:22
+#: ../../felupe/docs/examples/ex09_numeric-continuation.rst:31
 msgid "Numeric continuation of a hyperelastic cube."
 msgstr ""
 
@@ -1112,7 +1112,7 @@ msgstr ""
 msgid "Notch Stress"
 msgstr "切り欠き応力"
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:22
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:24
 msgid "Three-dimensional linear-elastic analysis."
 msgstr ""
 
@@ -1491,7 +1491,7 @@ msgstr ""
 msgid "Best-fit Hyperelastic Material Parameters"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:22
+#: ../../felupe/docs/examples/ex14_hyperelasticity.rst:24
 msgid ""
 "Best-fit of hyperelastic material parameters on given experimental data."
 msgstr ""
@@ -1631,7 +1631,7 @@ msgstr ""
 msgid "Script-based Hex-meshing with revolve"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:22
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:24
 msgid ""
 "Create a 3d dynamic mesh for a metacone component out of quads and revolve "
 "it to hexahedrons."
@@ -1700,7 +1700,7 @@ msgstr ""
 msgid "Train a deep neural network"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:22
+#: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:24
 msgid "Train a PyTorch model by simulation results."
 msgstr ""
 
@@ -1778,7 +1778,7 @@ msgstr ""
 msgid "Animated torsional-shear loading"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex17_torsion-gif.rst:22
+#: ../../felupe/docs/examples/ex17_torsion-gif.rst:24
 msgid "Save an animation of a custom boundary condition."
 msgstr ""
 
@@ -1979,7 +1979,7 @@ msgstr ""
 msgid "Third Medium Contact"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:22
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:24
 msgid "Frictionless contact method simulated by a third medium [1]_."
 msgstr ""
 
@@ -2115,7 +2115,7 @@ msgstr ""
 msgid "Nonlinear Truss Analysis"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex21_nonlinear-truss-analysis.rst:22
+#: ../../felupe/docs/examples/ex21_nonlinear-truss-analysis.rst:24
 msgid "Numeric continuation of a 3d truss system."
 msgstr ""
 

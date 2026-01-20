@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-07 00:11+0000\n"
+"POT-Creation-Date: 2026-01-19 18:55+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -152,7 +152,7 @@ msgstr ""
 msgid "Getting Started"
 msgstr "はじめに"
 
-#: ../../felupe/docs/tutorial/extut01_getting_started.rst:22
+#: ../../felupe/docs/tutorial/extut01_getting_started.rst:24
 msgid "Your very first steps with FElupe."
 msgstr "FElupe での最初のステップ。"
 
@@ -275,7 +275,7 @@ msgstr ""
 msgid "Run a Job"
 msgstr "ジョブの実行"
 
-#: ../../felupe/docs/tutorial/extut02_job.rst:22
+#: ../../felupe/docs/tutorial/extut02_job.rst:24
 msgid ""
 "Learn how to apply boundary conditions in a ramped manner within a **Step** "
 "and run a **Job**."
@@ -362,7 +362,7 @@ msgstr ""
 msgid "Multiple solid bodies"
 msgstr ""
 
-#: ../../felupe/docs/tutorial/extut03_multiple-solids.rst:22
+#: ../../felupe/docs/tutorial/extut03_multiple-solids.rst:24
 msgid "Learn how to add three solid bodies to a job."
 msgstr ""
 
@@ -426,7 +426,7 @@ msgstr ""
 msgid "Building Blocks"
 msgstr "ブロックを構築"
 
-#: ../../felupe/docs/tutorial/extut04_building_blocks.rst:22
+#: ../../felupe/docs/tutorial/extut04_building_blocks.rst:24
 msgid "Learn the building blocks of FElupe."
 msgstr "FElupeのブロック構築を学ぶ"
 
