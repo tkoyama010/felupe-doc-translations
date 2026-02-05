@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-19 18:55+0000\n"
+"POT-Creation-Date: 2026-02-05 00:16+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1197,7 +1197,7 @@ msgstr ""
 #: of
 #: felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:60
+#: of felupe.dof._boundary.Boundary:58
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:51
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -2280,7 +2280,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
 #: of felupe.assembly.expression._decorator.FormExpressionDecorator:125
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:173
+#: of felupe.dof._boundary.Boundary:171
 msgid ":py:obj:`felupe.FormItem`"
 msgstr ""
 
@@ -2335,11 +2335,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
 #: of felupe.assembly.expression._basis.BasisField:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:38
+#: of felupe.dof._boundary.Boundary:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:44
+#: of felupe.dof._boundary.Boundary:42
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:51
+#: of felupe.dof._boundary.Boundary:49
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._boundary.RegionBoundary:42
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
@@ -11071,11 +11071,9 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/dof.rst:15:<autosummary>:1
 msgid ""
-":py:obj:`Boundary <felupe.Boundary>`\\ \\(field\\[\\, name\\, fx\\, fy\\, "
-"fz\\, value\\, ...\\]\\)"
+":py:obj:`Boundary <felupe.Boundary>`\\ \\(field\\[\\, fx\\, fy\\, fz\\, "
+"value\\, skip\\, ...\\]\\)"
 msgstr ""
-":py:obj:`Boundary <felupe.Boundary>`\\ \\(field\\[\\, name\\, fx\\, fy\\, "
-"fz\\, value\\, ...\\]\\)"
 
 #: ../../felupe/docs/felupe/dof.rst:15:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
@@ -11187,11 +11185,6 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:6
-msgid "Name of the boundary."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:8
 msgid ""
 "Mask-function for x-component of mesh-points which returns `True` at points "
 "on which the boundary will be applied (default is ``np.isnan``). If a float "
@@ -11199,7 +11192,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:12
+#: of felupe.dof._boundary.Boundary:10
 msgid ""
 "Mask-function for y-component of mesh-points which returns `True` at points "
 "on which the boundary will be applied (default is ``np.isnan``). If a float "
@@ -11207,7 +11200,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:16
+#: of felupe.dof._boundary.Boundary:14
 msgid ""
 "Mask-function for z-component of mesh-points which returns `True` at points "
 "on which the boundary will be applied (default is ``np.isnan``). If a float "
@@ -11215,13 +11208,13 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:20
+#: of felupe.dof._boundary.Boundary:18
 msgid ""
 "Value(s) of the selected (prescribed) degrees of freedom (default is 0.0)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:22
+#: of felupe.dof._boundary.Boundary:20
 msgid ""
 "A tuple to define which axes of the selected points should be skipped, i.e. "
 "not prescribed (default is ``None`` and will be set to ``(False, False, "
@@ -11229,7 +11222,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:26
+#: of felupe.dof._boundary.Boundary:24
 msgid ""
 "Boolean mask for the prescribed degrees of freedom. If a mask is passed, "
 "``fx``, ``fy`` and ``fz`` are ignored. However, ``skip`` is still applied on"
@@ -11237,41 +11230,41 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:30
+#: of felupe.dof._boundary.Boundary:28
 msgid ""
 "A string which defines the logical operation for the selected points per "
 "axis (default is ``\"or\"``)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:36
+#: of felupe.dof._boundary.Boundary:34
 msgid "1d- or 2d-boolean mask array for the prescribed degrees of freedom."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:42
+#: of felupe.dof._boundary.Boundary:40
 msgid "1d-array of ints which contains the prescribed degrees of freedom."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:48
+#: of felupe.dof._boundary.Boundary:46
 msgid ""
 "1d-array of ints which contains the point ids on which one or more degrees "
 "of freedom are prescribed."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:55
+#: of felupe.dof._boundary.Boundary:53
 msgid "Value of the selected (prescribed) degrees of freedom."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:57
+#: of felupe.dof._boundary.Boundary:55
 msgid "ndarray or float"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:61
+#: of felupe.dof._boundary.Boundary:59
 msgid ""
 "A boundary condition prescribes values for chosen degrees of freedom of a "
 "given field (**not** a field container). This is demonstrated for a vector "
@@ -11279,7 +11272,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:76
+#: of felupe.dof._boundary.Boundary:74
 msgid ""
 "A boundary on the displacement field which prescribes all components of the "
 "field on the outermost right point of the circle is created. The easiest way"
@@ -11288,18 +11281,18 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:90
+#: of felupe.dof._boundary.Boundary:88
 msgid ""
 "If ``fx`` and ``fy`` are given, the masks are combined by *logical-or*."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:99
+#: of felupe.dof._boundary.Boundary:97
 msgid "This may be changed to *logical-and* if desired."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:108
+#: of felupe.dof._boundary.Boundary:106
 msgid ""
 "For the most-general case, a user-defined boolean mask for the selection of "
 "the mesh-points is provided. While the two upper methods are useful to "
@@ -11309,14 +11302,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:122
+#: of felupe.dof._boundary.Boundary:120
 msgid ""
 "The application of a new mask allows to change the selected points of an "
 "existing boundary condition."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:134
+#: of felupe.dof._boundary.Boundary:132
 msgid ""
 "A boundary condition may be skipped on given axes, i.e. if only the "
 "x-components of a field should be prescribed on the selected points, then "
@@ -11324,14 +11317,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:145
+#: of felupe.dof._boundary.Boundary:143
 msgid ""
 "Values for the prescribed degress of freedom are either applied during "
 "creation or by the update-method."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:157
+#: of felupe.dof._boundary.Boundary:155
 msgid ""
 "Sometimes it is useful to create a boundary with all axes skipped. This "
 "boundary has no prescribed degrees of freedom and hence, is without effect. "
@@ -11340,17 +11333,17 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:164
+#: of felupe.dof._boundary.Boundary:162
 msgid ":py:obj:`felupe.CharacteristicCurve`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:165
+#: of felupe.dof._boundary.Boundary:163
 msgid "A job with a boundary to be tracked."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:167
+#: of felupe.dof._boundary.Boundary:165
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:149
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -11363,7 +11356,7 @@ msgid ":py:obj:`felupe.dof.partition`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:168
+#: of felupe.dof._boundary.Boundary:166
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:150
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -11376,7 +11369,7 @@ msgid "Partition degrees of freedom into prescribed and active dof."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:170
+#: of felupe.dof._boundary.Boundary:168
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:152
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -11389,7 +11382,7 @@ msgid ":py:obj:`felupe.dof.apply`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:171
+#: of felupe.dof._boundary.Boundary:169
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:153
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -11402,7 +11395,7 @@ msgid "Apply prescribed values for a list of boundaries."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:174
+#: of felupe.dof._boundary.Boundary:172
 msgid "Create boundaries by weak forms."
 msgstr ""
 
