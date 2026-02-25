@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 00:16+0000\n"
+"POT-Creation-Date: 2026-02-25 00:18+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1067,9 +1067,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
 #: of felupe.constitution.jax._material.Material:95
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.pydocstring
-#: of felupe.constitution.jax._total_lagrange.total_lagrange:11
+#: of felupe.constitution.jax._total_lagrange.total_lagrange:40
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
-#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:11
+#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:63
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.is_stable:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
@@ -1137,9 +1137,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.pydocstring
 #: of felupe.constitution.tensortrax._material.Material:87
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.pydocstring
-#: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:11
+#: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:40
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
-#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:11
+#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:63
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_alexander.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._alexander.alexander:60
@@ -5817,20 +5817,76 @@ msgstr ""
 #: of felupe.constitution.jax._total_lagrange.total_lagrange:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.pydocstring
 #: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:6
-msgid "\\delta \\psi = \\boldsymbol{F} \\boldsymbol{S} : \\delta \\boldsymbol{F}"
-msgstr "\\delta \\psi = \\boldsymbol{F} \\boldsymbol{S} : \\delta \\boldsymbol{F}"
+msgid ""
+"The Green-Lagrange strain tensor and its first variation are given in Eq. "
+":eq:`green_lagrange_strain_tl`."
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.pydocstring
-#: of felupe.constitution.jax._total_lagrange.total_lagrange:27
+#: of felupe.constitution.jax._total_lagrange.total_lagrange:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.pydocstring
+#: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:9
+msgid ""
+"\\boldsymbol{E} &= \\frac{1}{2} \\left(\n"
+"    \\boldsymbol{F}^T \\boldsymbol{F} - \\boldsymbol{1}\n"
+"\\right)\n"
+"\n"
+"\\delta \\boldsymbol{E} &= \\frac{1}{2} \\left(\n"
+"    \\delta \\boldsymbol{F}^T \\boldsymbol{F} +\n"
+"    \\boldsymbol{F}^T \\delta \\boldsymbol{F}\n"
+"\\right)"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.pydocstring
+#: of felupe.constitution.jax._total_lagrange.total_lagrange:21
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.pydocstring
+#: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:21
+msgid ""
+"This will lead to the variations of the strain energy density function per "
+"unit undeformed volume, see Eq. :eq:`total_lagrange_variation`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.pydocstring
+#: of felupe.constitution.jax._total_lagrange.total_lagrange:24
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.pydocstring
+#: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:24
+msgid ""
+"\\delta \\psi &= \\boldsymbol{S} : \\delta \\boldsymbol{E}\n"
+"\n"
+"\\delta \\psi &= \\boldsymbol{F} \\boldsymbol{S} : \\delta \\boldsymbol{F}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.pydocstring
+#: of felupe.constitution.jax._total_lagrange.total_lagrange:31
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
-#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:28
+#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:54
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.pydocstring
+#: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:31
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
+#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:54
+msgid ""
+"Finally, the first Piola-Kirchhoff stress tensor is given by Eq. "
+":eq:`first_piola_kirchhoff_stress`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.pydocstring
+#: of felupe.constitution.jax._total_lagrange.total_lagrange:34
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.pydocstring
+#: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:34
+msgid "\\boldsymbol{P} = \\boldsymbol{F} \\boldsymbol{S}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.pydocstring
+#: of felupe.constitution.jax._total_lagrange.total_lagrange:56
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
+#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:80
 msgid ":py:obj:`felupe.constitution.jax.Hyperelastic`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.pydocstring
-#: of felupe.constitution.jax._total_lagrange.total_lagrange:28
+#: of felupe.constitution.jax._total_lagrange.total_lagrange:57
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
-#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:29
+#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:81
 msgid ""
 "A hyperelastic material definition with a given function for the strain "
 "energy density function per unit undeformed volume with Automatic "
@@ -5838,16 +5894,16 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.pydocstring
-#: of felupe.constitution.jax._total_lagrange.total_lagrange:30
+#: of felupe.constitution.jax._total_lagrange.total_lagrange:59
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
-#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:31
+#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:83
 msgid ":py:obj:`felupe.constitution.jax.Material`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_total_lagrange.pydocstring
-#: of felupe.constitution.jax._total_lagrange.total_lagrange:31
+#: of felupe.constitution.jax._total_lagrange.total_lagrange:60
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
-#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:32
+#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:84
 msgid ""
 "A material definition with a given function for the partial derivative of "
 "the strain energy function w.r.t. the deformation gradient tensor with "
@@ -5859,11 +5915,91 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
 #: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:6
 msgid ""
-"\\delta \\psi =  J \\boldsymbol{\\sigma} \\boldsymbol{F}^{-T} : \\delta "
-"\\boldsymbol{F}"
+"The equilibrium equations for statics are given in Eq. "
+":eq:`equilibrium_statics`."
 msgstr ""
-"\\delta \\psi =  J \\boldsymbol{\\sigma} \\boldsymbol{F}^{-T} : \\delta "
-"\\boldsymbol{F}"
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
+#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
+#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:8
+msgid "\\operatorname{div} \\boldsymbol{\\sigma} + \\boldsymbol{b} = \\boldsymbol{0}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
+#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:13
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
+#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:13
+msgid ""
+"The weak form of the equilibrium equations for statics is given in Eq. "
+":eq:`equilibrium_statics_weak`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
+#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
+#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:16
+msgid ""
+"\\int_v \\operatorname{div} \\boldsymbol{\\sigma} \\cdot \\delta \\boldsymbol{u} \\ \\mathrm{d}v\n"
+"    + \\int_v \\boldsymbol{b} \\cdot \\delta \\boldsymbol{u} \\ \\mathrm{d}v &= 0\n"
+"\n"
+"- \\int_v \\boldsymbol{\\sigma} :\n"
+"    \\frac{\\partial \\delta \\boldsymbol{u}}{\\partial \\boldsymbol{x}} \\ \\mathrm{d}v\n"
+"    + \\int_{\\partial v} \\left( \\boldsymbol{\\sigma} \\cdot \\boldsymbol{n} \\right )\n"
+"    \\cdot \\delta \\boldsymbol{u} \\ \\mathrm{d}a\n"
+"    + \\int_v \\boldsymbol{b} \\cdot \\delta \\boldsymbol{u} \\ \\mathrm{d}v &= 0"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
+#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:28
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
+#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:28
+msgid ""
+"This leads to the virtual work of internal forces, see Eq. "
+":eq:`virtual_work_internal`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
+#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:31
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
+#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:31
+msgid ""
+"\\delta W_{\\text{int}} = -\\int_v\n"
+"    \\boldsymbol{\\sigma} :\n"
+"    \\frac{\\partial \\delta \\boldsymbol{u}}{\\partial \\boldsymbol{x}} \\ \\mathrm{d}v"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
+#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:38
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
+#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:38
+msgid ""
+"The variation of the total potential energy of internal forces is given in "
+"Eq. :eq:`updated_lagrange_variation`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
+#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:41
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
+#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:41
+msgid ""
+"\\delta \\Pi &=  \\int_v\n"
+"    \\boldsymbol{\\sigma} :\n"
+"    \\frac{\\partial \\delta \\boldsymbol{u}}{\\partial \\boldsymbol{x}} \\ \\mathrm{d}v\n"
+"\n"
+"\\delta \\Pi &=  \\int_V\n"
+"    \\boldsymbol{\\sigma} : \\delta \\boldsymbol{F} \\boldsymbol{F}^{-1} \\ J \\mathrm{d}V\n"
+"\n"
+"\\delta \\Pi &=  \\int_V\n"
+"    \\boldsymbol{P} : \\delta \\boldsymbol{F} \\ \\mathrm{d}V"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/jax/_updated_lagrange.pydocstring
+#: of felupe.constitution.jax._updated_lagrange.updated_lagrange:57
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
+#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:57
+msgid "\\boldsymbol{P} = J \\boldsymbol{\\sigma} \\boldsymbol{F}^{-T}"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_alexander.pydocstring
 #: of
@@ -7300,16 +7436,16 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.pydocstring
-#: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:28
+#: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:57
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
-#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:29
+#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:81
 msgid ":py:obj:`felupe.constitution.tensortrax.Hyperelastic`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.pydocstring
-#: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:29
+#: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:58
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
-#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:30
+#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:82
 msgid ""
 "A hyperelastic material definition with a given function for the strain "
 "energy density function per unit undeformed volume with Automatic "
@@ -7317,16 +7453,16 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.pydocstring
-#: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:31
+#: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:60
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
-#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:32
+#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:84
 msgid ":py:obj:`felupe.constitution.tensortrax.Material`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_total_lagrange.pydocstring
-#: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:32
+#: of felupe.constitution.tensortrax._total_lagrange.total_lagrange:61
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_updated_lagrange.pydocstring
-#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:33
+#: of felupe.constitution.tensortrax._updated_lagrange.updated_lagrange:85
 msgid ""
 "A material definition with a given function for the partial derivative of "
 "the strain energy function w.r.t. the deformation gradient tensor with "
