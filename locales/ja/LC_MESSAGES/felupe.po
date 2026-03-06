@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-26 00:14+0000\n"
+"POT-Creation-Date: 2026-03-06 00:20+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -223,8 +223,8 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/assembly.rst:49
 #: ../../felupe/docs/felupe/constitution.rst:55
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:87
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:65
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:88
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:66
 #: ../../felupe/docs/felupe/constitution/core.rst:58
 #: ../../felupe/docs/felupe/constitution/tools.rst:34
 #: ../../felupe/docs/felupe/dof.rst:34 ../../felupe/docs/felupe/element.rst:56
@@ -362,6 +362,8 @@ msgstr ""
 #: felupe.constitution.tensortrax.models.hyperelastic._van_der_waals.van_der_waals:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_yeoh.pydocstring
 #: of felupe.constitution.tensortrax.models.hyperelastic._yeoh.yeoh:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
 #: of felupe.constitution.tensortrax.models.lagrange._morph.morph:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
@@ -713,6 +715,8 @@ msgstr ""
 #: felupe.constitution.tensortrax.models.hyperelastic._third_order_deformation.third_order_deformation:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_yeoh.pydocstring
 #: of felupe.constitution.tensortrax.models.hyperelastic._yeoh.yeoh:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
 #: of felupe.constitution.tensortrax.models.lagrange._morph.morph:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -1191,6 +1195,8 @@ msgstr ""
 #: felupe.constitution.tensortrax.models.hyperelastic._van_der_waals.van_der_waals:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_yeoh.pydocstring
 #: of felupe.constitution.tensortrax.models.hyperelastic._yeoh.yeoh:41
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
 #: of felupe.constitution.tensortrax.models.lagrange._morph.morph:104
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
@@ -1990,6 +1996,8 @@ msgstr ""
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -2118,6 +2126,8 @@ msgstr ""
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.symmetry:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/element/_base.pydocstring
@@ -2515,6 +2525,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_van_der_waals.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._van_der_waals.van_der_waals:42
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
 #: of felupe.constitution.tensortrax.models.lagrange._morph.morph:137
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
@@ -5622,14 +5634,30 @@ msgid ""
 ":class:`~felupe.constitution.jax.Material`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:78:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:79:<autosummary>:1
+msgid ""
+":py:obj:`becker <felupe.constitution.jax.models.lagrange.becker>`\\ \\(F\\, "
+"mu\\, lmbda\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:79:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:65:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:1
+msgid ""
+"Second Piola-Kirchhoff stress tensor of `Becker "
+"<https://en.wikipedia.org/wiki/George_Ferdinand_Becker>`_'s logarithmic "
+"material model formulation [1]_ [2]_."
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:79:<autosummary>:1
 msgid ""
 ":py:obj:`morph <felupe.constitution.jax.models.lagrange.morph>`\\ \\(F\\, "
 "statevars\\, p\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:78:<autosummary>:1
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:64:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:79:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:65:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
 #: of felupe.constitution.tensortrax.models.lagrange._morph.morph:1
 msgid ""
@@ -5637,15 +5665,15 @@ msgid ""
 "<https://doi.org/10.1016/s0749-6419(02)00091-8>`_ model formulation [1]_."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:78:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:79:<autosummary>:1
 msgid ""
 ":py:obj:`morph_representative_directions "
 "<felupe.constitution.jax.models.lagrange.morph_representative_directions>`\\"
 " \\(F\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:78:<autosummary>:1
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:64:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:79:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:65:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:1
@@ -5656,18 +5684,18 @@ msgid ""
 "resolving.org/urn:nbn:de:bsz:ch1-qucosa-114428>`_ [2]_, [3]_."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:79
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:80
 #: ../../felupe/docs/felupe/dof.rst:16 ../../felupe/docs/felupe/mesh.rst:31
 msgid "**Tools**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:86:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:87:<autosummary>:1
 msgid ""
 ":py:obj:`vmap <felupe.constitution.jax.vmap>`\\ \\(fun\\[\\, in\\_axes\\, "
 "out\\_axes\\, method\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:86:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:87:<autosummary>:1
 msgid "Vectorizing map."
 msgstr ""
 
@@ -6147,6 +6175,8 @@ msgstr ""
 #: felupe.constitution.tensortrax.models.hyperelastic._van_der_waals.van_der_waals:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_yeoh.pydocstring
 #: of felupe.constitution.tensortrax.models.hyperelastic._yeoh.yeoh:42
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:37
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
 #: of felupe.constitution.tensortrax.models.lagrange._morph.morph:105
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
@@ -6711,12 +6741,83 @@ msgstr ""
 msgid "\\mu = 2 C_{10}"
 msgstr "\\mu = 2 C_{10}"
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
 #: of felupe.constitution.tensortrax.models.lagrange._morph.morph:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:7
 msgid "Deformation gradient tensor."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:7
+msgid "Shear modulus (second Lamé parameter)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:9
+msgid "First Lamé parameter."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:12
+msgid "**S** -- Second Piola-Kirchhoff stress tensor."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:17
+msgid ""
+"This logarithmic material model formulation utilizes a linear-elastic "
+"stress-strain formulation for the Biot stress tensor, based on the "
+"Lagrangian logarithmic strain tensor, see Eq. :eq:`becker-biot-stress`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:21
+msgid ""
+"\\boldsymbol{T} = 2 \\mu \\ \\ln \\boldsymbol{U}\n"
+"    + \\lambda \\ \\operatorname{tr}(\\ln \\boldsymbol{U}) \\boldsymbol{1}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:27
+msgid ""
+"The second Piola-Kirchhoff stress tensor is then obtained from the Biot "
+"stress tensor, see Eq. :eq:`becker-pk2-stress`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:30
+msgid "\\boldsymbol{S} = \\boldsymbol{U}^{-1} \\boldsymbol{T}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:47
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._morph.morph:115
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
+#: of
+#: felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:28
+msgid "and create the material."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:57
+msgid ""
+"P. Neff, I. Münch, and R. Martin, \"Rediscovering GF Becker's early "
+"axiomatic deduction of a multiaxial nonlinear stress–strain relation based "
+"on logarithmic strain\", Mathematics and Mechanics of Solids, vol. 21, no. "
+"7, pp. 856–911, Aug. 2014, doi: `10.1177/1081286514542296 "
+"<https://doi.org/10.1177/1081286514542296>`_."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:62
+msgid ""
+"G.F. Becker, \"The Finite Elastic Stress-Strain Function\", The American "
+"Journal of Science, pp.337–356, 1893."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
@@ -6892,14 +6993,6 @@ msgid ""
 "variables are stored in the solid body. Hence, it is necessary to extract "
 "such variables with :func:`tm.special.from_triu_1d` and export them as "
 ":func:`tm.special.triu_1d`."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
-#: of felupe.constitution.tensortrax.models.lagrange._morph.morph:115
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph_representative_directions.pydocstring
-#: of
-#: felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:28
-msgid "and create the material."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
@@ -7266,13 +7359,19 @@ msgid ""
 "formulations in :class:`~felupe.constitution.tensortrax.Material`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:64:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:65:<autosummary>:1
+msgid ""
+":py:obj:`becker <felupe.constitution.tensortrax.models.lagrange.becker>`\\ "
+"\\(F\\, mu\\, lmbda\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:65:<autosummary>:1
 msgid ""
 ":py:obj:`morph <felupe.constitution.tensortrax.models.lagrange.morph>`\\ "
 "\\(F\\, statevars\\, p\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:64:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:65:<autosummary>:1
 msgid ""
 ":py:obj:`morph_representative_directions "
 "<felupe.constitution.tensortrax.models.lagrange.morph_representative_directions>`\\"
