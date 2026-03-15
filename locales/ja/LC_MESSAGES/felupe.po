@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-14 00:16+0000\n"
+"POT-Creation-Date: 2026-03-15 00:18+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -233,7 +233,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/mesh.rst:62
 #: ../../felupe/docs/felupe/quadrature.rst:32
 #: ../../felupe/docs/felupe/region.rst:39
-#: ../../felupe/docs/felupe/thermal.rst:20
+#: ../../felupe/docs/felupe/thermal.rst:21
 #: ../../felupe/docs/felupe/tools.rst:34 ../../felupe/docs/felupe/view.rst:17
 msgid "**Detailed API Reference**"
 msgstr ""
@@ -899,6 +899,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_convection.pydocstring
 #: of
 #: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:11
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_heat_flux.pydocstring
+#: of felupe.thermal._solidbody_thermal_heat_flux.SolidBodyThermalHeatFlux:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
 #: of felupe.thermal._time_step.TimeStep:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
@@ -1530,6 +1532,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_convection.pydocstring
 #: of
 #: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_heat_flux.pydocstring
+#: of felupe.thermal._solidbody_thermal_heat_flux.SolidBodyThermalHeatFlux:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
 #: of felupe.thermal._time_step.TimeStep:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
@@ -16985,8 +16989,8 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:44:<autosummary>:1
 msgid ""
-":py:obj:`mechanics.Assemble <felupe.mechanics.Assemble>`\\ \\(vector\\, "
-"matrix\\[\\, mass\\, ...\\]\\)"
+":py:obj:`mechanics.Assemble <felupe.mechanics.Assemble>`\\ \\(\\[vector\\, "
+"matrix\\, mass\\, ...\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:44:<autosummary>:1
@@ -22535,13 +22539,13 @@ msgstr ""
 msgid "Thermal"
 msgstr ""
 
-#: ../../felupe/docs/felupe/thermal.rst:14:<autosummary>:1
+#: ../../felupe/docs/felupe/thermal.rst:15:<autosummary>:1
 msgid ""
 ":py:obj:`thermal.SolidBodyThermal <felupe.thermal.SolidBodyThermal>`\\ "
 "\\(field\\, ...\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/thermal.rst:14:<autosummary>:1
+#: ../../felupe/docs/felupe/thermal.rst:15:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
@@ -22549,35 +22553,49 @@ msgstr ""
 msgid "A thermal solid body."
 msgstr ""
 
-#: ../../felupe/docs/felupe/thermal.rst:14:<autosummary>:1
+#: ../../felupe/docs/felupe/thermal.rst:15:<autosummary>:1
 msgid ""
 ":py:obj:`thermal.SolidBodyThermalConvection "
 "<felupe.thermal.SolidBodyThermalConvection>`\\ \\(field\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/thermal.rst:14:<autosummary>:1
+#: ../../felupe/docs/felupe/thermal.rst:15:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_convection.pydocstring
 #: of
 #: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:1
 msgid "A thermal convection boundary condition for a thermal solid body."
 msgstr ""
 
-#: ../../felupe/docs/felupe/thermal.rst:15
+#: ../../felupe/docs/felupe/thermal.rst:15:<autosummary>:1
+msgid ""
+":py:obj:`thermal.SolidBodyThermalHeatFlux "
+"<felupe.thermal.SolidBodyThermalHeatFlux>`\\ \\(field\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/thermal.rst:15:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_heat_flux.pydocstring
+#: of felupe.thermal._solidbody_thermal_heat_flux.SolidBodyThermalHeatFlux:1
+msgid "A thermal heat flux boundary condition for a thermal solid body."
+msgstr ""
+
+#: ../../felupe/docs/felupe/thermal.rst:16
 msgid "**Helpers**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/thermal.rst:19:<autosummary>:1
+#: ../../felupe/docs/felupe/thermal.rst:20:<autosummary>:1
 msgid ""
 ":py:obj:`thermal.TimeStep <felupe.thermal.TimeStep>`\\ \\(items\\[\\, "
 "time\\_old\\, time\\_new\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/thermal.rst:19:<autosummary>:1
+#: ../../felupe/docs/felupe/thermal.rst:20:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal:90
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_convection.pydocstring
 #: of
-#: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:70
+#: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:74
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_heat_flux.pydocstring
+#: of felupe.thermal._solidbody_thermal_heat_flux.SolidBodyThermalHeatFlux:69
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
 #: of felupe.thermal._time_step.TimeStep:1
 msgid "A time step item."
@@ -22660,12 +22678,16 @@ msgstr ""
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal:89
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_convection.pydocstring
 #: of
-#: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:69
+#: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:73
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_heat_flux.pydocstring
+#: of felupe.thermal._solidbody_thermal_heat_flux.SolidBodyThermalHeatFlux:68
 msgid ":py:obj:`felupe.thermal.TimeStep`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal:92
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_heat_flux.pydocstring
+#: of felupe.thermal._solidbody_thermal_heat_flux.SolidBodyThermalHeatFlux:74
 msgid ":py:obj:`felupe.thermal.SolidBodyThermalConvection`"
 msgstr ""
 
@@ -22674,9 +22696,24 @@ msgstr ""
 msgid "A thermal convection boundary condition."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:95
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_convection.pydocstring
+#: of
+#: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:79
+msgid ":py:obj:`felupe.thermal.SolidBodyThermalHeatFlux`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:96
+msgid "A thermal heat flux boundary condition."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_convection.pydocstring
 #: of
 #: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_heat_flux.pydocstring
+#: of felupe.thermal._solidbody_thermal_heat_flux.SolidBodyThermalHeatFlux:3
 msgid "The field container with the temperature as first field."
 msgstr ""
 
@@ -22705,7 +22742,9 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_convection.pydocstring
 #: of
-#: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:72
+#: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:76
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_heat_flux.pydocstring
+#: of felupe.thermal._solidbody_thermal_heat_flux.SolidBodyThermalHeatFlux:71
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
 #: of felupe.thermal._time_step.TimeStep:47
 msgid ":py:obj:`felupe.thermal.SolidBodyThermal`"
@@ -22713,8 +22752,35 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_convection.pydocstring
 #: of
-#: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:73
+#: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:77
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_heat_flux.pydocstring
+#: of felupe.thermal._solidbody_thermal_heat_flux.SolidBodyThermalHeatFlux:72
 msgid "A thermal solid body for heat conduction."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_convection.pydocstring
+#: of
+#: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:80
+msgid "A thermal solid body for heat flux."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_heat_flux.pydocstring
+#: of felupe.thermal._solidbody_thermal_heat_flux.SolidBodyThermalHeatFlux:5
+msgid "The heat flux coefficient :math:`q` in W/m^2."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_heat_flux.pydocstring
+#: of felupe.thermal._solidbody_thermal_heat_flux.SolidBodyThermalHeatFlux:10
+msgid ""
+"This class represents a thermal heat flux boundary condition for a thermal "
+"solid body, which is used to model heat flux at the boundary of a solid "
+"material. The heat flux coefficient is used to calculate the heat flux at "
+"the boundary."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_heat_flux.pydocstring
+#: of felupe.thermal._solidbody_thermal_heat_flux.SolidBodyThermalHeatFlux:75
+msgid "A thermal solid body for heat convection."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
