@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-06 00:20+0000\n"
+"POT-Creation-Date: 2026-03-18 00:17+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -87,11 +87,10 @@ msgstr ""
 
 #: ../../felupe/docs/examples/ex01_beam.rst:96
 msgid ""
-"Inside a Newton-Rhapson procedure, the weak form of linear elasticity is "
+"Inside a Newton-Raphson procedure, the weak form of linear elasticity is "
 "assembled into the stiffness matrix and the applied gravity field is "
 "assembled into the body force vector."
 msgstr ""
-"Newton-Rhapson法の内部では、線形弾性の弱形式が剛性マトリックスに組み立てられ、適用される重力場が物体力ベクトルに組み立てられます。"
 
 #: ../../felupe/docs/examples/ex01_beam.rst:110
 msgid ""
@@ -340,7 +339,7 @@ msgstr "\\delta W_{ext} = \\int_v \\delta \\boldsymbol{u} \\cdot \\boldsymbol{b}
 
 #: ../../felupe/docs/examples/ex03_plasticity.rst:102
 msgid ""
-"Inside a Newton-Rhapson procedure, the vectors and matrices are assembled "
+"Inside a Newton-Raphson procedure, the vectors and matrices are assembled "
 "for the given *items* and the boundary conditions are incorporated into the "
 "equilibrium equations."
 msgstr ""
@@ -897,7 +896,7 @@ msgstr ""
 #: ../../felupe/docs/examples/ex08_shear.rst:150
 msgid ""
 "The shear movement is applied in substeps, which are each solved with an "
-"iterative newton-rhapson procedure. Inside an iteration, the force residual "
+"iterative newton-raphson procedure. Inside an iteration, the force residual "
 "vector and the tangent stiffness matrix are assembled. The fields are "
 "updated with the solution of unknowns. The equilibrium is checked as ratio "
 "between the norm of residual forces of the active vs. the norm of the "

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 00:15+0000\n"
+"POT-Creation-Date: 2026-03-18 00:17+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -93,7 +93,7 @@ msgid ""
 ":class:`job <felupe.Job>` (here, a :class:`characteristic curve "
 "<felupe.CharacteristicCurve>` job is used). During :meth:`evaluation "
 "<felupe.Job.evaluate>`, each substep of each :class:`step <felupe.Step>` is "
-"solved by an iterative :func:`Newton-Rhapson <felupe.newtonrhapson>` "
+"solved by an iterative :func:`Newton-Raphson <felupe.newtonraphson>` "
 "procedure. The :func:`solution <felupe.tools.NewtonResult>` is exported "
 "after each completed substep as a time-series XDMF file."
 msgstr ""
@@ -221,12 +221,10 @@ msgstr ""
 
 #: ../../felupe/docs/tutorial/extut01_getting_started.rst:98
 msgid ""
-"The problem is solved by an iterative :func:`Newton-Rhapson "
-"<felupe.newtonrhapson>` procedure. A verbosity level of 2 enables a detailed"
+"The problem is solved by an iterative :func:`Newton-Raphson "
+"<felupe.newtonraphson>` procedure. A verbosity level of 2 enables a detailed"
 " text-based logging."
 msgstr ""
-"この問題は、反復的な :func:`Newton-Rhapson <felupe.newtonrhapson>` "
-"手続きによって解かれます。冗長度レベルを2にすると、詳細なテキストベースのロギングが可能になります。"
 
 #: ../../felupe/docs/tutorial/extut01_getting_started.rst:110
 msgid "Results may be viewed in an interactive window."
@@ -451,7 +449,7 @@ msgid "apply your own boundary conditions"
 msgstr ""
 
 #: ../../felupe/docs/tutorial/extut04_building_blocks.rst:36
-msgid "solve the problem (create your own Newton-Rhapson iteration loop)"
+msgid "solve the problem (create your own Newton-Raphson iteration loop)"
 msgstr ""
 
 #: ../../felupe/docs/tutorial/extut04_building_blocks.rst:38
@@ -663,10 +661,10 @@ msgid ""
 "passed to the (sparse direct) solver. Given a set of nonlinear equilibrium "
 "equations :math:`\\boldsymbol{g}` the unknowns :math:`\\boldsymbol{u}` are "
 "found by linearization at a valid initial state of equilibrium and an "
-"iterative Newton-Rhapson solution prodecure. The incremental values of "
+"iterative Newton-Raphson solution prodecure. The incremental values of "
 "inactive degrees of freedom are given as the difference of external "
 "prescribed and current values of unknowns. The (linear) solution is equal to"
-" the first result of a Newton-Rhapson iterative solution procedure. The "
+" the first result of a Newton-Raphson iterative solution procedure. The "
 "solution ``du`` is finally added to the displacement field."
 msgstr ""
 
@@ -721,13 +719,13 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/tutorial/extut04_building_blocks.rst:391
-msgid "A very simple Newton-Rhapson code looks like this:"
+msgid "A very simple Newton-Raphson code looks like this:"
 msgstr ""
 
 #: ../../felupe/docs/tutorial/extut04_building_blocks.rst:419
 msgid ""
-"By alternative, one may also use the :func:`Newton-Rhapson "
-"<felupe.newtonrhapson>` function of FElupe."
+"By alternative, one may also use the :func:`Newton-Raphson "
+"<felupe.newtonraphson>` function of FElupe."
 msgstr ""
 
 #: ../../felupe/docs/tutorial/extut04_building_blocks.rst:436

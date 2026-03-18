@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:51+0000\n"
+"POT-Creation-Date: 2026-03-18 00:17+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -72,7 +72,7 @@ msgid ""
 "module (e.g. in a :class:`~felupe.SolidBody`) to integrate and/or assemble a"
 " :class:`constitutive material formulation <felupe.ConstitutiveMaterial>` "
 "and to provide an ``item`` for a :class:`~felupe.Step` or to use it in "
-":func:`~felupe.newtonrhapson` directly."
+":func:`~felupe.newtonraphson` directly."
 msgstr ""
 
 #: ../../felupe/docs/felupe/assembly.rst:18 ../../felupe/docs/felupe/dof.rst:6
@@ -471,9 +471,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.screenshot:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:0
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:0
+#: of felupe.tools._newton.newtonraphson:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.topoints:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_save.pydocstring
@@ -895,18 +895,18 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region:92
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:21
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_convection.pydocstring
 #: of
 #: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_heat_flux.pydocstring
 #: of felupe.thermal._solidbody_thermal_heat_flux.SolidBodyThermalHeatFlux:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
-#: of felupe.thermal._time_step.TimeStep:11
+#: of felupe.thermal._time_step.TimeStep:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.NewtonResult:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:63
+#: of felupe.tools._newton.newtonraphson:63
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.project:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
@@ -1528,16 +1528,16 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/region/_templates.pydocstring
 #: of felupe.region._templates.RegionTriangleMINI:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:46
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:48
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_convection.pydocstring
 #: of
 #: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_heat_flux.pydocstring
 #: of felupe.thermal._solidbody_thermal_heat_flux.SolidBodyThermalHeatFlux:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
-#: of felupe.thermal._time_step.TimeStep:23
+#: of felupe.thermal._time_step.TimeStep:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:123
+#: of felupe.tools._newton.newtonraphson:123
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.project:90
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_save.pydocstring
@@ -2087,8 +2087,10 @@ msgstr ""
 #: of felupe.mesh._mesh.Mesh.get_point_ids_shared:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.screenshot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:0
+#: of felupe.tools._newton.newtonraphson:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.topoints:0
 msgid "Returns"
@@ -2205,8 +2207,10 @@ msgstr ""
 #: of felupe.mesh._mesh.Mesh.get_point_ids_shared:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.screenshot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:0
+#: of felupe.tools._newton.newtonraphson:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.topoints:0
 msgid "Return type"
@@ -5396,7 +5400,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:26
 msgid ""
 "JAX uses single-precision (32bit) data types by default. This requires to "
-"relax the tolerance of :func:`~felupe.newtonrhapson` to ``tol=1e-4``. If "
+"relax the tolerance of :func:`~felupe.newtonraphson` to ``tol=1e-4``. If "
 "required, JAX may be enforced to use double-precision at startup,"
 msgstr ""
 
@@ -5822,7 +5826,7 @@ msgstr "\\psi = \\psi(\\boldsymbol{C}, \\boldsymbol{\\zeta})"
 msgid ""
 "See the `documentation of JAX <https://jax.readthedocs.io>`_ for further "
 "details. JAX uses single-precision (32bit) data types by default. This "
-"requires to relax the tolerance of :func:`~felupe.newtonrhapson` to "
+"requires to relax the tolerance of :func:`~felupe.newtonraphson` to "
 "``tol=1e-4``. If required, JAX may be enforced to use double-precision at "
 "startup with ``jax.config.update(\"jax_enable_x64\", True)``."
 msgstr ""
@@ -18172,7 +18176,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:41
+#: of felupe.tools._newton.newtonraphson:41
 msgid ""
 "Verbosity level to control how messages are printed during evaluation. If 1 "
 "or True and ``tqdm`` is installed, a progress bar is shown. If ``tqdm`` is "
@@ -22549,7 +22553,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
-#: of felupe.thermal._time_step.TimeStep:48
+#: of felupe.thermal._time_step.TimeStep:51
 msgid "A thermal solid body."
 msgstr ""
 
@@ -22585,12 +22589,12 @@ msgstr ""
 #: ../../felupe/docs/felupe/thermal.rst:20:<autosummary>:1
 msgid ""
 ":py:obj:`thermal.TimeStep <felupe.thermal.TimeStep>`\\ \\(items\\[\\, "
-"time\\_old\\, time\\_new\\]\\)"
+"time\\_old\\, ...\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/thermal.rst:20:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:90
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:101
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_convection.pydocstring
 #: of
 #: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:74
@@ -22623,25 +22627,28 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal:11
-msgid "The time step :math:`\\Delta t` (default is None)."
+msgid ""
+"The time step :math:`\\Delta t` If None, the stationary solution will be "
+"calculated. If a float is provided, an implicit time integration scheme will"
+" be used. Default is None."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:13
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:15
 msgid ""
 "A model for the thermal conductivity. Default is None, which defaults to "
 ":class:`~felupe.Laplace`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:16
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:18
 msgid ""
 "A flag to use a lumped instead of a consistent capacity matrix (default is "
 "True)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:22
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:24
 msgid ""
 "This class represents a thermal solid body, which is used to model heat "
 "conduction in a solid material. The thermal conductivity is modeled using "
@@ -22652,7 +22659,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:28
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:30
 msgid ""
 "An implicit time integration scheme is used, where the stiffness matrix is "
 "updated at each time step to include the contribution from the capacity "
@@ -22663,7 +22670,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:34
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:36
 msgid ""
 "\\boldsymbol{K} \\boldsymbol{T} &= -\\boldsymbol{r}\n"
 "\n"
@@ -22675,7 +22682,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:89
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:100
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_convection.pydocstring
 #: of
 #: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:73
@@ -22685,19 +22692,19 @@ msgid ":py:obj:`felupe.thermal.TimeStep`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:92
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:103
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_heat_flux.pydocstring
 #: of felupe.thermal._solidbody_thermal_heat_flux.SolidBodyThermalHeatFlux:74
 msgid ":py:obj:`felupe.thermal.SolidBodyThermalConvection`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:93
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:104
 msgid "A thermal convection boundary condition."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:95
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:106
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_convection.pydocstring
 #: of
 #: felupe.thermal._solidbody_thermal_convection.SolidBodyThermalConvection:79
@@ -22705,8 +22712,57 @@ msgid ":py:obj:`felupe.thermal.SolidBodyThermalHeatFlux`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:96
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:107
 msgid "A thermal heat flux boundary condition."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:1
+msgid "Calculate the heat flux on a boundary region."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:3
+msgid ""
+"The field container with the temperature field as first field on which to "
+"calculate the heat flux. If None, a field will be created on the provided "
+"region and linked to the body's field (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:7
+msgid ""
+"The boundary region on which to calculate the heat flux. If None, the heat "
+"flux will be calculated on provided field's region (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:10
+msgid ""
+"If True, return the normal component of the heat flux (default is True)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:12
+msgid "If True, return the total heat transfer rate (default is False)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:14
+msgid ""
+"If True, return the mean heat flux over the boundary (default is False)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:16
+msgid "Additional keyword arguments to be passed to the gradient function."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:18
+msgid ""
+"**heat_flux** -- The heat flux on the boundary, or the total heat transfer "
+"rate if `total` is True, or the mean heat flux if `mean` is True."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_convection.pydocstring
@@ -22746,7 +22802,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal_heat_flux.pydocstring
 #: of felupe.thermal._solidbody_thermal_heat_flux.SolidBodyThermalHeatFlux:71
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
-#: of felupe.thermal._time_step.TimeStep:47
+#: of felupe.thermal._time_step.TimeStep:50
 msgid ":py:obj:`felupe.thermal.SolidBodyThermal`"
 msgstr ""
 
@@ -22799,7 +22855,14 @@ msgid "New time (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
-#: of felupe.thermal._time_step.TimeStep:12
+#: of felupe.thermal._time_step.TimeStep:9
+msgid ""
+"Minimum time step to avoid numerical issues (default is "
+":math:`\\sqrt{\\epsilon}`)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
+#: of felupe.thermal._time_step.TimeStep:15
 msgid ""
 "This class is used to update the time step for each item in the list of "
 "items. The time step is calculated as the difference between the new time "
@@ -22807,7 +22870,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
-#: of felupe.thermal._time_step.TimeStep:18
+#: of felupe.thermal._time_step.TimeStep:21
 msgid ""
 "It is important to include this :class:`~felupe.thermal.TimeStep` item in a "
 "step as **first item**, so that the time step is updated before the thermal "
@@ -22824,15 +22887,13 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/tools.rst:12:<autosummary>:1
 msgid ""
-":py:obj:`newtonrhapson <felupe.newtonrhapson>`\\ \\(\\[x0\\, fun\\, jac\\, "
+":py:obj:`newtonraphson <felupe.newtonraphson>`\\ \\(\\[x0\\, fun\\, jac\\, "
 "solve\\, ...\\]\\)"
 msgstr ""
-":py:obj:`newtonrhapson <felupe.newtonrhapson>`\\ \\(\\[x0\\, fun\\, jac\\, "
-"solve\\, ...\\]\\)"
 
 #: ../../felupe/docs/felupe/tools.rst:12:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:1
+#: of felupe.tools._newton.newtonraphson:1
 msgid "Find a root of a real function using the Newton-Raphson method."
 msgstr ""
 
@@ -22991,14 +23052,14 @@ msgstr ""
 "    {\\varepsilon + ||\\boldsymbol{f}_0||}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:3
+#: of felupe.tools._newton.newtonraphson:3
 msgid ""
 "Array or Field container with values of unknowns at a valid starting point "
 "(default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:6
+#: of felupe.tools._newton.newtonraphson:6
 msgid ""
 "Callable which assembles the vector-valued objective function. Additional "
 "args and kwargs are passed. Function signature of a user-defined function "
@@ -23006,7 +23067,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:10
+#: of felupe.tools._newton.newtonraphson:10
 msgid ""
 "Callable which assembles the matrix-valued Jacobian. Additional args and "
 "kwargs are passed. Function signature of a user-defined Jacobian has to be "
@@ -23014,7 +23075,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:14
+#: of felupe.tools._newton.newtonraphson:14
 msgid ""
 "Callable which prepares the linear equation system and solves it. If a "
 "keyword- argument from the list ``[\"x\", \"dof1\", \"dof0\", \"ext0\", "
@@ -23023,58 +23084,58 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:18
+#: of felupe.tools._newton.newtonraphson:18
 msgid "Maximum number of function iterations (default is 16)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:20
+#: of felupe.tools._newton.newtonraphson:20
 msgid ""
 "Callable to update the unknowns. Function signature must be ``update = "
 "lambda x0, dx: x``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:23
+#: of felupe.tools._newton.newtonraphson:23
 msgid ""
 "Callable to check the result with signature ``check = lambda xnorm, fnorm, "
 "success: dx, x, **kwargs``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:26
+#: of felupe.tools._newton.newtonraphson:26
 msgid ""
 "Tolerance value to check if the function has converged (default is "
 "1.490e-8)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:28
+#: of felupe.tools._newton.newtonraphson:28
 msgid ""
 "List with items which provide methods for assembly, e.g. like "
 ":class:`felupe.SolidBody` (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:31
+#: of felupe.tools._newton.newtonraphson:31
 msgid "1d-array of int with all active degrees of freedom (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:33
+#: of felupe.tools._newton.newtonraphson:33
 msgid ""
 "1d-array of int with all prescribed degress of freedom (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:35
+#: of felupe.tools._newton.newtonraphson:35
 msgid ""
 "Field values at mesh-points for the prescribed components of the unknowns "
 "based on ``dof0`` (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:38
+#: of felupe.tools._newton.newtonraphson:38
 msgid ""
 "A sparse or dense solver (default is :func:`scipy.sparse.linalg.spsolve`). "
 "For a more performant alternative install PyPardiso and use "
@@ -23082,7 +23143,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:48
+#: of felupe.tools._newton.newtonraphson:48
 msgid ""
 "An optional callback function with function signature ``callback = lambda "
 "dx, x, iteration, xnorm, fnorm, success: None``, which is called after each "
@@ -23090,26 +23151,26 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:52
+#: of felupe.tools._newton.newtonraphson:52
 msgid ""
 "Use an existing instance of a progress bar if verbose is True. If None and "
 "verbose is True, a new bar is created. Default is None."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:55
+#: of felupe.tools._newton.newtonraphson:55
 msgid ""
 "If verbose is True, choose a backend for ``tqdm`` (``\"tqdm\"``, "
 "``\"auto\"`` or ``\"notebook\"``). Default is ``\"tqdm\"``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:59
+#: of felupe.tools._newton.newtonraphson:59
 msgid "The result object."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:64
+#: of felupe.tools._newton.newtonraphson:64
 msgid ""
 "Nonlinear equilibrium equations :math:`f(x)` as a function of the unknowns "
 ":math:`x` are solved by linearization of :math:`f` at a valid starting point"
@@ -23117,53 +23178,53 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:68
+#: of felupe.tools._newton.newtonraphson:68
 msgid "f(x_0) = 0"
 msgstr "f(x_0) = 0"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:73
+#: of felupe.tools._newton.newtonraphson:73
 msgid "The linearization is given in Eq. :eq:`newton-lin`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:75
+#: of felupe.tools._newton.newtonraphson:75
 msgid "f(x_0 + dx) \\approx f(x_0) + K(x_0) \\ dx \\ (= 0)"
 msgstr "f(x_0 + dx) \\approx f(x_0) + K(x_0) \\ dx \\ (= 0)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:80
+#: of felupe.tools._newton.newtonraphson:80
 msgid ""
 "with the Jacobian as in Eq. :eq:`newton-jac`, evaluated at given unknowns "
 ":math:`x_0`,"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:83
+#: of felupe.tools._newton.newtonraphson:83
 msgid "K(x_0) = \\frac{\\partial f}{\\partial x}(x_0)"
 msgstr "K(x_0) = \\frac{\\partial f}{\\partial x}(x_0)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:88
+#: of felupe.tools._newton.newtonraphson:88
 msgid ""
 "and is rearranged to an equation system with left- and right-hand sides, see"
 " Eq. :eq:`newton-lhs-rhs`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:91
+#: of felupe.tools._newton.newtonraphson:91
 msgid "K(x_0) \\ dx = -f(x_0)"
 msgstr "K(x_0) \\ dx = -f(x_0)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:96
+#: of felupe.tools._newton.newtonraphson:96
 msgid ""
 "After a solution is found, the unknowns are updated, see Eq. :eq:`newton-"
 "update-0`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:98
+#: of felupe.tools._newton.newtonraphson:98
 msgid ""
 "dx &= \\text{solve} \\left( K(x_0), -f(x_0) \\right) \\nonumber\n"
 "\n"
@@ -23171,7 +23232,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:105
+#: of felupe.tools._newton.newtonraphson:105
 msgid ""
 "Repeated evaluations lead to an incrementally updated solution of :math:`x`."
 " Herein, :math:`x_n` refer to the inital unknowns whereas :math:`x` are the "
@@ -23179,13 +23240,13 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:110
+#: of felupe.tools._newton.newtonraphson:110
 msgid ""
 "The subscript :math:`(\\bullet)_{n+1}` is dropped for easier readability."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:112
+#: of felupe.tools._newton.newtonraphson:112
 msgid ""
 "dx &= \\text{solve} \\left( K(x_n), -f(x_n) \\right) \\nonumber\n"
 "\n"
@@ -23193,7 +23254,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:119
+#: of felupe.tools._newton.newtonraphson:119
 msgid ""
 "Then, the nonlinear equilibrium equations are evaluated with the updated "
 "unknowns :math:`f(x)`. The procedure is repeated until convergence is "
@@ -23201,18 +23262,18 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:147
+#: of felupe.tools._newton.newtonraphson:147
 msgid "Newton's method had success"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:152
+#: of felupe.tools._newton.newtonraphson:152
 msgid ""
 "and 4 iterations were needed to converge within the specified tolerance."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonrhapson:157
+#: of felupe.tools._newton.newtonraphson:157
 msgid ""
 "The norm of the objective function for all active degrees of freedom is "
 "lower than 3e-15."
