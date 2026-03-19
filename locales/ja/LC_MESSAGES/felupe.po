@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-18 00:17+0000\n"
+"POT-Creation-Date: 2026-03-19 00:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -32,12 +32,10 @@ msgstr "APIリファレンス"
 #: ../../felupe/docs/felupe.rst:6
 msgid ""
 "FElupe consists of several (sub-) modules. Relevant functions and classes "
-"are available in the global namespace of FElupe where posssible. However, "
+"are available in the global namespace of FElupe where possible. However, "
 "some classes or functions are only available in their respective submodule "
 "namespace due to naming conflicts, e.g."
 msgstr ""
-"FElupeはいくつかの（サブ）モジュールから構成されています。関連する関数やクラスは、可能な限り FElupe "
-"のグローバル名前空間で利用できます。しかし、いくつかのクラスや関数は、名前の衝突のため、それぞれのサブモジュールの名前空間でしか利用できません。例えば、"
 
 #: ../../felupe/docs/felupe.rst:8
 msgid ""
@@ -1810,7 +1808,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
 #: of felupe.assembly._axi.IntegralFormAxisymmetric:48
-msgid "Again, the internal virtual work leads to two seperate terms."
+msgid "Again, the internal virtual work leads to two separate terms."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
@@ -4997,7 +4995,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
 #: of felupe.constitution._material.Material:11
 msgid ""
-"A constitutive material definition which returns a list containting the "
+"A constitutive material definition which returns a list containing the "
 "(first Piola-Kirchhoff) stress tensor, optional additional constraints as "
 "well as the state variables. The state variables must always be included "
 "even if they are None. See template code-blocks for the required function "
@@ -6370,7 +6368,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:6
-msgid "Shear modulus (ground state stifness)."
+msgid "Shear modulus (ground state stiffness)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
@@ -6388,7 +6386,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
 #: of
 #: felupe.constitution.tensortrax.models.hyperelastic._miehe_goektepe_lulei.miehe_goektepe_lulei:12
-msgid "Non-affine stretch parameter (additional constraint stifness)."
+msgid "Non-affine stretch parameter (additional constraint stiffness)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/hyperelastic/_miehe_goektepe_lulei.pydocstring
@@ -11482,7 +11480,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:4
-msgid "Field on wich the boundary is created."
+msgid "Field on which the boundary is created."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
@@ -11621,7 +11619,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:143
 msgid ""
-"Values for the prescribed degress of freedom are either applied during "
+"Values for the prescribed degrees of freedom are either applied during "
 "creation or by the update-method."
 msgstr ""
 
@@ -11751,7 +11749,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.partition:9
 msgid ""
-"* **dof0** (*ndarray*) -- 1d-array of int with all prescribed degress of "
+"* **dof0** (*ndarray*) -- 1d-array of int with all prescribed degrees of "
 "freedom. * **dof1** (*ndarray*) -- 1d-array of int with all active degrees "
 "of freedom."
 msgstr ""
@@ -11759,7 +11757,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.partition:9
 msgid ""
-"**dof0** (*ndarray*) -- 1d-array of int with all prescribed degress of "
+"**dof0** (*ndarray*) -- 1d-array of int with all prescribed degrees of "
 "freedom."
 msgstr ""
 
@@ -11829,7 +11827,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.symmetry:4
-msgid "Field on wich the symmetry boundaries are created."
+msgid "Field on which the symmetry boundaries are created."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -11955,7 +11953,7 @@ msgstr ""
 #: of felupe.dof._loadcase.shear:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.uniaxial:7
-msgid "FieldContainer on wich the symmetry boundaries are created."
+msgid "FieldContainer on which the symmetry boundaries are created."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -13658,9 +13656,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.extract:6
 msgid ""
-"Flag(s) for gradient evaluation(s). A boolean value is appplied on the first"
-" field only and all other fields are extracted with ``grad=False``. To "
-"enable or disable gradients per-field, use a list of boolean values instead "
+"Flag(s) for gradient evaluation(s). A boolean value is applied on the first "
+"field only and all other fields are extracted with ``grad=False``. To enable"
+" or disable gradients per-field, use a list of boolean values instead "
 "(default is True)."
 msgstr ""
 
@@ -16121,7 +16119,7 @@ msgstr ""
 #: of felupe.math._tensor.eigh:44
 msgid ""
 "The associated eigenvectors are extracted. The first column is the "
-"eigenvector, associated to the greated eigenvalue, for the first right "
+"eigenvector, associated to the greatest eigenvalue, for the first right "
 "Cauchy-Green deformation tensor and the second column for the second right "
 "Cauchy-Green deformation tensor."
 msgstr ""
@@ -16200,7 +16198,7 @@ msgstr ""
 #: of felupe.math._tensor.identity:24
 msgid ""
 "The first two axes are the matrix dimensions and all remaining trailing axes"
-" are treated as batch dimensions. As the identity matrix is idependent of "
+" are treated as batch dimensions. As the identity matrix is independent of "
 "the input matrices ``A``, the size of the trailing axes is reduced to one."
 msgstr ""
 
@@ -16426,7 +16424,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._math.linsteps:58
-msgid "The ouput degenerates to the end value"
+msgid "The output degenerates to the end value"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -16496,7 +16494,7 @@ msgid ""
 "A three-dimensional rotation matrix is created by inserting zeros in the row"
 " and column at the given axis of rotation and one at the intersection, see "
 "Eq. :eq:`rotation-matrix-3d`. If the axis of rotation is the second axis, "
-"the two- dimensinal rotation matrix is transposed."
+"the two- dimensional rotation matrix is transposed."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -17244,7 +17242,7 @@ msgid ""
 " vectors/matrices. The constitutive material definition must provide the "
 "distortional part of the strain energy density function per unit undeformed "
 "volume only. The volumetric part of the strain energy density function is "
-"automatically added on additonal internal (dual) cell-wise constant fields."
+"automatically added on additional internal (dual) cell-wise constant fields."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
@@ -18135,7 +18133,7 @@ msgstr ""
 #: of felupe.mechanics._job.Job.evaluate:3
 msgid ""
 "The filename of the XDMF result file. Must include the file extension "
-"``my_result.xdmf``. If None, no result file is writte during evaluation. "
+"``my_result.xdmf``. If None, no result file is written during evaluation. "
 "Default is None."
 msgstr ""
 
@@ -20444,7 +20442,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.modify_corners:16
-msgid "Get attached cell and find cell neighours."
+msgid "Get attached cell and find cell neighbours."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
@@ -23124,7 +23122,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonraphson:33
 msgid ""
-"1d-array of int with all prescribed degress of freedom (default is None)."
+"1d-array of int with all prescribed degrees of freedom (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
@@ -23235,8 +23233,8 @@ msgstr ""
 #: of felupe.tools._newton.newtonraphson:105
 msgid ""
 "Repeated evaluations lead to an incrementally updated solution of :math:`x`."
-" Herein, :math:`x_n` refer to the inital unknowns whereas :math:`x` are the "
-"updated unknowns, see Eq. :eq:`newton-update`."
+" Herein, :math:`x_n` refer to the initial unknowns whereas :math:`x` are the"
+" updated unknowns, see Eq. :eq:`newton-update`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
