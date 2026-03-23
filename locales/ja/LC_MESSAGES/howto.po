@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-19 00:10+0000\n"
+"POT-Creation-Date: 2026-03-23 18:42+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -193,16 +193,25 @@ msgstr ""
 
 #: ../../felupe/docs/howto/items.rst:15
 msgid ""
-"This is only a minimal working example for an item. For more details, see "
-"the sources of :class:`~felupe.SolidBody` or "
-":class:`~felupe.SolidBodyNearlyIncompressible`."
+"This is a minimal working example for an item. For more details, see the "
+"sources of :class:`~felupe.SolidBody` or "
+":class:`~felupe.SolidBodyNearlyIncompressible`. It is considered good "
+"practice to add the parameters of the item as attributes to the "
+":class:`~felupe.mechanics.Results`, so that they are automatically available"
+" in the post-processing. To ramp parameters within a step, the item has to "
+"be updated with its ``update()`` method, which is called by the step at the "
+"beginning of each substep. If more parameters have to be updated, it is "
+"recommended to add a separate method for each parameter with  the naming "
+"convention ``_update_my_parameter()``. Then, "
+":class:`~felupe.mechanics.UpdateItem` can be used to update the item with "
+"the syntax ``my_item[\"my_parameter\"] = my_parameter_value`` in a step."
 msgstr ""
 
-#: ../../felupe/docs/howto/items.rst:38
+#: ../../felupe/docs/howto/items.rst:61
 msgid "This item is now added to a basic script."
 msgstr ""
 
-#: ../../felupe/docs/howto/items.rst:42
+#: ../../felupe/docs/howto/items.rst:65
 msgid ""
 "The vector- and matrix-shapes are automatically increased to match the shape"
 " of the other items if necessary. Hence, a sparse matrix with shape ``(1, "
