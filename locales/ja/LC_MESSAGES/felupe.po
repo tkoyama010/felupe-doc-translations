@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-23 18:42+0000\n"
+"POT-Creation-Date: 2026-03-25 00:17+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -16977,11 +16977,9 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:45:<autosummary>:1
 msgid ""
-":py:obj:`StateNearlyIncompressible <felupe.StateNearlyIncompressible>`\\ "
-"\\(field\\)"
+":py:obj:`mechanics.StateNearlyIncompressible "
+"<felupe.mechanics.StateNearlyIncompressible>`\\ \\(field\\)"
 msgstr ""
-":py:obj:`StateNearlyIncompressible <felupe.StateNearlyIncompressible>`\\ "
-"\\(field\\)"
 
 #: ../../felupe/docs/felupe/mechanics.rst:45:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring

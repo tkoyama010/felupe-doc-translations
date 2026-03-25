@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-23 18:42+0000\n"
+"POT-Creation-Date: 2026-03-25 00:17+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -207,11 +207,11 @@ msgid ""
 "the syntax ``my_item[\"my_parameter\"] = my_parameter_value`` in a step."
 msgstr ""
 
-#: ../../felupe/docs/howto/items.rst:61
+#: ../../felupe/docs/howto/items.rst:84
 msgid "This item is now added to a basic script."
 msgstr ""
 
-#: ../../felupe/docs/howto/items.rst:65
+#: ../../felupe/docs/howto/items.rst:88
 msgid ""
 "The vector- and matrix-shapes are automatically increased to match the shape"
 " of the other items if necessary. Hence, a sparse matrix with shape ``(1, "
