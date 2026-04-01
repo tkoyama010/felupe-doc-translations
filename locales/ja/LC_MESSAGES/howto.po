@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-25 00:17+0000\n"
+"POT-Creation-Date: 2026-04-01 00:20+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -459,16 +459,36 @@ msgstr ""
 #: ../../felupe/docs/howto/project.rst:4
 msgid ""
 "This section demonstrates how to move cell-values, located at the quadrature"
-" points of cells, to mesh-points. The results of :func:`~felupe.project`, "
-":func:`~felupe.topoints` and :func:`~felupe.tools.extrapolate` are compared "
+" points of cells, to mesh-points. The results of :func:`~felupe.topoints`, "
+":func:`~felupe.tools.extrapolate` and :func:`~felupe.project` are compared "
 "for the Cauchy stresses of a rectangular block under compression."
 msgstr ""
 
 #: ../../felupe/docs/howto/project.rst:24
 msgid ""
 "Cell-based results, like Cauchy stresses, are not projected to mesh-points "
-"by default. Different methods may be used to *move* the cell-data to the "
+"by default. The means of the cell-values are plotted if no projection method"
+" is specified. Different methods may be used to *move* the cell-data to the "
 "mesh-points."
+msgstr ""
+
+#: ../../felupe/docs/howto/project.rst:28
+msgid ""
+"With :func:`~felupe.topoints`, the cell-values are translated to and "
+"averaged at the mesh-points."
+msgstr ""
+
+#: ../../felupe/docs/howto/project.rst:31
+msgid ""
+"With :func:`~felupe.tools.extrapolate`, the cell-values are extrapolated to "
+"the mesh- points by evaluating the cell-values at the quadrature points of "
+"the cells and extrapolating them to the mesh-points."
+msgstr ""
+
+#: ../../felupe/docs/howto/project.rst:35
+msgid ""
+"With :func:`~felupe.project`, the cell-values are projected to the mesh-"
+"points by solving a least-squares problem."
 msgstr ""
 
 #: ../../felupe/docs/howto/solid.rst:2
