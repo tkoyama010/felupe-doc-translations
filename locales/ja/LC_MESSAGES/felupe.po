@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-03 00:19+0000\n"
+"POT-Creation-Date: 2026-04-04 00:17+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1533,7 +1533,7 @@ msgstr ""
 #: of
 #: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:53
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:52
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
 #: of felupe.thermal._time_step.TimeStep:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
@@ -22642,7 +22642,7 @@ msgstr ""
 #: of
 #: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:77
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:106
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:104
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
 #: of felupe.thermal._time_step.TimeStep:1
 msgid "A time step item."
@@ -22734,19 +22734,19 @@ msgstr ""
 #: of
 #: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:76
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:105
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:103
 msgid ":py:obj:`felupe.thermal.TimeStep`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
 #: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:74
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:108
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:106
 msgid ":py:obj:`felupe.thermal.SolidBodySurfaceHeatTransfer`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:109
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:107
 msgid "A thermal convection boundary condition."
 msgstr ""
 
@@ -22754,22 +22754,24 @@ msgstr ""
 #: of
 #: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:82
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:111
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:109
 msgid ":py:obj:`felupe.thermal.SolidBodyHeatFlux`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:112
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:110
 msgid "A thermal heat flux boundary condition."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:1
-msgid "Calculate the heat flux on a boundary region."
+msgid ""
+"Calculate the heat flux or the integrated heat transfer rate on a boundary "
+"region."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:3
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:4
 msgid ""
 "The field container with the temperature field as first field on which to "
 "calculate the heat flux. If None, a field will be created on the provided "
@@ -22777,39 +22779,38 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:7
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:8
 msgid ""
 "The boundary region on which to calculate the heat flux. If None, the heat "
-"flux will be calculated on provided field's region (default is None)."
+"flux will be calculated on the provided field's region (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:10
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:11
 msgid ""
-"If True, return the normal component of the heat flux (default is True)."
+"If True, evaluate the integrated heat transfer rate. Note that if ``mean`` "
+"is also True, the mean heat flux over the boundary is returned. If ``mean`` "
+"is False, the integrated heat transfer rate is returned. Default is True."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:12
-msgid "If True, return the total heat transfer rate (default is False)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:14
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:15
 msgid ""
-"If True, return the mean heat flux over the boundary (default is False)."
+"If True, return the mean heat flux over the boundary. If ``integrate`` is "
+"also True, the mean heat flux is calculated as the integrated heat transfer "
+"rate divided by the total area of the boundary. If ``integrate`` is False, "
+"the mean heat flux is calculated as the heat transfer rate per cell, divided"
+" by the area per cell. Default is True."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:16
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:21
 msgid "Additional keyword arguments to be passed to the gradient function."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:18
-msgid ""
-"**heat_flux** -- The heat flux on the boundary, or the total heat transfer "
-"rate if `total` is True, or the mean heat flux if `mean` is True."
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:23
+msgid "**heat_flux** -- The heat flux or heat transfer rate on the boundary."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
