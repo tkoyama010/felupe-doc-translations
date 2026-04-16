@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-07 00:19+0000\n"
+"POT-Creation-Date: 2026-04-16 00:24+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -231,7 +231,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/mesh.rst:62
 #: ../../felupe/docs/felupe/quadrature.rst:32
 #: ../../felupe/docs/felupe/region.rst:39
-#: ../../felupe/docs/felupe/thermal.rst:21
+#: ../../felupe/docs/felupe/thermal.rst:27
 #: ../../felupe/docs/felupe/tools.rst:34 ../../felupe/docs/felupe/view.rst:17
 msgid "**Detailed API Reference**"
 msgstr ""
@@ -897,6 +897,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
 #: of
 #: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:11
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_radiation.pydocstring
+#: of felupe.thermal._solidbody_surface_radiation.SolidBodySurfaceRadiation:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
@@ -1343,7 +1345,7 @@ msgstr ""
 #: of felupe.mechanics._solidbody_force.SolidBodyForce:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:239
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:246
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.checkpoint:7
@@ -1532,6 +1534,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
 #: of
 #: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_radiation.pydocstring
+#: of felupe.thermal._solidbody_surface_radiation.SolidBodySurfaceRadiation:24
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal:52
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
@@ -2590,7 +2594,7 @@ msgstr ""
 #: of felupe.element._triangle.TriangleMINI:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:264
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:271
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.triangulate:41
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
@@ -9783,7 +9787,7 @@ msgstr ""
 #: of felupe.constitution._mixed.NearlyIncompressible:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:34
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:41
 msgid ""
 "\\Pi_{int}(\\boldsymbol{F}, p, \\bar{J}) =\n"
 "    \\int_V \\hat{\\psi}(\\boldsymbol{F})\\ dV +\n"
@@ -9799,7 +9803,7 @@ msgstr ""
 #: of felupe.constitution._mixed.NearlyIncompressible:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:101
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:108
 msgid ""
 "The volumetric part of the strain energy density function is denoted in Eq. "
 ":eq:`nearlyincompressible-volumetric` along with its first and second "
@@ -9810,7 +9814,7 @@ msgstr ""
 #: of felupe.constitution._mixed.NearlyIncompressible:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:104
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:111
 msgid ""
 "\\bar{U} &= \\frac{K}{2} \\left( \\bar{J} - 1 \\right)^2\n"
 "\n"
@@ -16780,7 +16784,7 @@ msgid "Mechanics"
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:8
-#: ../../felupe/docs/felupe/thermal.rst:8
+#: ../../felupe/docs/felupe/thermal.rst:13
 msgid "**Solid Bodies**"
 msgstr ""
 
@@ -17289,7 +17293,17 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:30
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:32
+msgid ""
+"This nearly-incompressible solid body works best with "
+":class:`~felupe.RegionQuad` and :class:`~felupe.RegionHexahedron` regions. "
+":class:`~felupe.RegionQuadraticTriangle` and "
+":class:`~felupe.RegionQuadraticTetra` regions are also supported."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:37
 msgid ""
 "The total potential energy of internal forces for a three-field variational "
 "approach, suitable for nearly-incompressible material behaviour, is given in"
@@ -17298,13 +17312,13 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:42
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:49
 msgid "with its variations, see Eq. :eq:`nearlyinc-variations`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:44
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:51
 msgid ""
 "\\delta_\\boldsymbol{u}(\\Pi_{int}) &=\n"
 "    \\int_V \\left( \\frac{\\partial \\hat{\\psi}}{\\partial \\boldsymbol{F}} +\n"
@@ -17336,7 +17350,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:61
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:68
 msgid ""
 "and linearizations, see Eq. :eq:`nearlyinc-linearizations` [1]_ [2]_ [3]_. "
 "The right-arrows in Eq. :eq:`nearlyinc-variations` and Eq. :eq:`nearlyinc-"
@@ -17346,7 +17360,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:66
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:73
 msgid ""
 "\\delta_\\boldsymbol{u}\\Delta_\\boldsymbol{u}(\\Pi_{int}) &=\n"
 "    \\int_V \\delta\\boldsymbol{F} : \\left(\n"
@@ -17372,7 +17386,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:90
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:97
 msgid ""
 "The assembled constraint equations for the variations w.r.t. the dual fields"
 " :math:`p` and :math:`\\bar{J}` are given in Eq. :eq:`nearlyinc-"
@@ -17381,7 +17395,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:93
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:100
 msgid ""
 "r_p &= \\left( \\frac{v}{V} - \\bar{J} \\right) V\n"
 "\n"
@@ -17393,13 +17407,13 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:114
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:121
 msgid "**Hu-Washizu Three-Field-Variational Principle**"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:116
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:123
 msgid ""
 "The Three-Field-Variation :math:`(\\boldsymbol{u},p,\\bar{J})` leads to a "
 "linearized equation system with nine sub block-matrices, see Eq. :eq:`hu-"
@@ -17413,7 +17427,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:124
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:131
 msgid ""
 "\\begin{bmatrix}\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}\n"
@@ -17457,7 +17471,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:147
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:154
 msgid ""
 "A condensed representation of the equation system, only dependent on the "
 "primary unknowns :math:`\\boldsymbol{u}` is carried out. To do so, the "
@@ -17467,7 +17481,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:151
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:158
 msgid ""
 "\\begin{bmatrix}\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}\n"
@@ -17511,7 +17525,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:174
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:181
 msgid ""
 "Lines two and three are contracted by summation as given in Eq. "
 ":eq:`nearlyinc-contracted-sum`. This eliminates :math:`\\bar{J}` from the "
@@ -17520,7 +17534,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:177
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:184
 msgid ""
 "\\begin{bmatrix}\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}\n"
@@ -17556,7 +17570,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:196
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:203
 msgid ""
 "Next, the second line is left-expanded by "
 ":math:`\\frac{1}{V}~\\boldsymbol{K}_{\\boldsymbol{u}p}` and both equations "
@@ -17565,7 +17579,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:200
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:207
 msgid ""
 "\\left(\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}\n"
@@ -17585,7 +17599,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:211
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:218
 msgid ""
 "The secondary unknowns are evaluated after solving the primary unknowns, see"
 " Eq. :eq:`nearlyinc-final`."
@@ -17593,7 +17607,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:214
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:221
 msgid ""
 "\\delta \\bar{J} &= \\frac{1}{V} \\delta \\boldsymbol{u} \\cdot\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}p} + \\frac{v}{V} - \\bar{J}\n"
@@ -17607,7 +17621,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:222
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:229
 msgid ""
 "The condensed constraint equation in Eq. :eq:`nearlyinc-contracted-sum-"
 "final` is given in Eq. :eq:`nearlyinc-constraint`"
@@ -17615,26 +17629,26 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:225
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:232
 msgid "\\frac{K~r_p + r_{\\bar{J}}}{V} = K \\left( \\frac{v}{V} - 1 \\right) - p"
 msgstr "\\frac{K~r_p + r_{\\bar{J}}}{V} = K \\left( \\frac{v}{V} - 1 \\right) - p"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:230
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:237
 msgid ""
 "and the deformed volume is evaluated by Eq. :eq:`nearlyinc-deformed-volume`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:232
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:239
 msgid "v = \\int_V J\\ dV"
 msgstr "v = \\int_V J\\ dV"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:265
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:272
 msgid ""
 "J. Bonet, A. J. Gil, and R. D. Wood, \"Nonlinear Solid Mechanics for Finite "
 "Element Analysis: Statics\". Cambridge University Press, Jun. 05, 2016. doi:"
@@ -17643,7 +17657,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:269
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:276
 msgid ""
 "O. C. Zienkiewicz, R. L. Taylor and J.Z. Zhu, \"The Finite Element Method: "
 "its Basis and Fundamentals\". Elsevier, 2013. doi: 10.1016/c2009-0-24909-9."
@@ -17651,7 +17665,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:272
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:279
 msgid ""
 "G. A. Holzapfel, \"Nonlinear Solid Mechanics. A Continuum Approach for "
 "Engineering\". Wiley, 2000. isbn: 047182304X."
@@ -17659,7 +17673,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:275
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:282
 msgid ""
 "J. A. Schönherr, P. Schneider, and C. Mittelstedt, \"Robust hybrid/mixed "
 "finite elements for rubber-like materials under severe compression\", "
@@ -17669,13 +17683,13 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:282
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:289
 msgid ":py:obj:`felupe.StateNearlyIncompressible`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:283
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:290
 msgid ""
 "A State with internal cell-wise constant fields for (nearly) incompressible "
 "solid bodies."
@@ -22586,13 +22600,19 @@ msgstr ""
 msgid "Thermal"
 msgstr ""
 
-#: ../../felupe/docs/felupe/thermal.rst:15:<autosummary>:1
+#: ../../felupe/docs/felupe/thermal.rst:8
+msgid ""
+"The heat flux is **positive** when **heat leaves** a solid body, and "
+"**negative** when **heat enters** a solid body."
+msgstr ""
+
+#: ../../felupe/docs/felupe/thermal.rst:21:<autosummary>:1
 msgid ""
 ":py:obj:`thermal.SolidBodyThermal <felupe.thermal.SolidBodyThermal>`\\ "
 "\\(field\\, ...\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/thermal.rst:15:<autosummary>:1
+#: ../../felupe/docs/felupe/thermal.rst:21:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
@@ -22600,47 +22620,61 @@ msgstr ""
 msgid "A thermal solid body."
 msgstr ""
 
-#: ../../felupe/docs/felupe/thermal.rst:15:<autosummary>:1
+#: ../../felupe/docs/felupe/thermal.rst:21:<autosummary>:1
 msgid ""
 ":py:obj:`thermal.SolidBodySurfaceHeatTransfer "
 "<felupe.thermal.SolidBodySurfaceHeatTransfer>`\\ \\(field\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/thermal.rst:15:<autosummary>:1
+#: ../../felupe/docs/felupe/thermal.rst:21:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
 #: of
 #: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:1
 msgid "A surface boundary condition for a thermal solid body."
 msgstr ""
 
-#: ../../felupe/docs/felupe/thermal.rst:15:<autosummary>:1
+#: ../../felupe/docs/felupe/thermal.rst:21:<autosummary>:1
+msgid ""
+":py:obj:`thermal.SolidBodySurfaceRadiation "
+"<felupe.thermal.SolidBodySurfaceRadiation>`\\ \\(field\\, ...\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/thermal.rst:21:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_radiation.pydocstring
+#: of felupe.thermal._solidbody_surface_radiation.SolidBodySurfaceRadiation:1
+msgid "Radiative heat transfer on the surface of a thermal solid body."
+msgstr ""
+
+#: ../../felupe/docs/felupe/thermal.rst:21:<autosummary>:1
 msgid ""
 ":py:obj:`thermal.SolidBodyHeatFlux <felupe.thermal.SolidBodyHeatFlux>`\\ "
 "\\(field\\[\\, heat\\_flux\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/thermal.rst:15:<autosummary>:1
+#: ../../felupe/docs/felupe/thermal.rst:21:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
 #: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:1
 msgid "A thermal heat flux boundary condition for a thermal solid body."
 msgstr ""
 
-#: ../../felupe/docs/felupe/thermal.rst:16
+#: ../../felupe/docs/felupe/thermal.rst:22
 msgid "**Helpers**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/thermal.rst:20:<autosummary>:1
+#: ../../felupe/docs/felupe/thermal.rst:26:<autosummary>:1
 msgid ""
 ":py:obj:`thermal.TimeStep <felupe.thermal.TimeStep>`\\ \\(items\\[\\, "
 "time\\_old\\, time\\_new\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/thermal.rst:20:<autosummary>:1
+#: ../../felupe/docs/felupe/thermal.rst:26:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
-#: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:121
+#: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:113
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
 #: of
-#: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:77
+#: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:72
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_radiation.pydocstring
+#: of felupe.thermal._solidbody_surface_radiation.SolidBodySurfaceRadiation:76
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal:104
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
@@ -22729,17 +22763,17 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
-#: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:120
+#: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:112
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
 #: of
-#: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:76
+#: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:71
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_radiation.pydocstring
+#: of felupe.thermal._solidbody_surface_radiation.SolidBodySurfaceRadiation:75
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal:103
 msgid ":py:obj:`felupe.thermal.TimeStep`"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
-#: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:126
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal:106
 msgid ":py:obj:`felupe.thermal.SolidBodySurfaceHeatTransfer`"
@@ -22747,19 +22781,26 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal:107
-msgid "A thermal convection boundary condition."
+msgid "A surface heat transfer boundary condition."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
-#: of
-#: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:82
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal:109
-msgid ":py:obj:`felupe.thermal.SolidBodyHeatFlux`"
+msgid ":py:obj:`felupe.thermal.SolidBodySurfaceRadiation`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal:110
+msgid "A thermal radiation boundary condition."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:112
+msgid ":py:obj:`felupe.thermal.SolidBodyHeatFlux`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal:113
 msgid "A thermal heat flux boundary condition."
 msgstr ""
 
@@ -22828,7 +22869,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
 #: of
 #: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:7
-msgid "The ambient temperature :math:`T_\\infty` in °C or K."
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_radiation.pydocstring
+#: of felupe.thermal._solidbody_surface_radiation.SolidBodySurfaceRadiation:8
+msgid "The ambient temperature :math:`T_\\infty` in °C."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
@@ -22843,32 +22886,49 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
-#: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:123
+#: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:115
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
 #: of
-#: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:79
+#: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:74
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_radiation.pydocstring
+#: of felupe.thermal._solidbody_surface_radiation.SolidBodySurfaceRadiation:78
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
 #: of felupe.thermal._time_step.TimeStep:47
 msgid ":py:obj:`felupe.thermal.SolidBodyThermal`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
-#: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:124
+#: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:116
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
 #: of
-#: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:80
+#: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:75
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_radiation.pydocstring
+#: of felupe.thermal._solidbody_surface_radiation.SolidBodySurfaceRadiation:79
 msgid "A thermal solid body for heat conduction."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
-#: of
-#: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:83
-msgid "A thermal solid body for heat flux."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
 #: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_radiation.pydocstring
+#: of felupe.thermal._solidbody_surface_radiation.SolidBodySurfaceRadiation:3
 msgid "Field container with the temperature as first field."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_radiation.pydocstring
+#: of felupe.thermal._solidbody_surface_radiation.SolidBodySurfaceRadiation:5
+msgid ""
+"Emissivity :math:`\\varepsilon` of the surface (dimensionless, :math:`0 \\le"
+" \\varepsilon \\le 1`)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_radiation.pydocstring
+#: of felupe.thermal._solidbody_surface_radiation.SolidBodySurfaceRadiation:13
+msgid ""
+"This class represents a boundary condition for a thermal solid body, which "
+"is used to model radiative heat transfer at the boundary of a solid "
+"material. The emissivity is used to calculate the heat flux at the boundary "
+"based on the difference between the temperature at the boundary and the "
+"ambient temperature."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
@@ -22893,15 +22953,10 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
-#: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:69
+#: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:64
 msgid ""
 "It is also possible to model a heat flux in the volume of a thermal solid "
 "body, or in other words, a volumetric heat source / heat sink."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
-#: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:127
-msgid "A thermal solid body for heat convection."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
