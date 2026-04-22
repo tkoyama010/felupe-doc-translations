@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 00:22+0000\n"
+"POT-Creation-Date: 2026-04-22 00:20+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1322,7 +1322,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.trace:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:25
+#: of felupe.mechanics._contact.ContactRigidPlane:31
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
 #: of felupe.mechanics._curve.CharacteristicCurve:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
@@ -16955,8 +16955,6 @@ msgstr ""
 "points\\, centerpoint\\)"
 
 #: ../../felupe/docs/felupe/mechanics.rst:35:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:131
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointConstraint:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
@@ -18572,8 +18570,6 @@ msgid ""
 ":math:`x`-component is considered in this example."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:87
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointContact:86
 msgid ""
@@ -18583,8 +18579,6 @@ msgid ""
 ":class:`~felupe.Step` and a :class:`~felupe.Job` is evaluated."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:107
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointContact:106
 msgid ""
@@ -18592,8 +18586,6 @@ msgid ""
 " is plotted."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:130
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointContact:129
 msgid ":py:obj:`felupe.MultiPointConstraint`"
@@ -18613,20 +18605,26 @@ msgstr ""
 #: of felupe.mechanics._contact.ContactRigidPlane:19
 msgid ""
 "A :class:`~felupe.ContactRigidPlane` is supported as an item in a "
-":class:`~felupe.Step`. It provides the assemble-methods "
-":meth:`MultiPointContact.assemble.vector() "
-"<felupe.MultiPointContact.assemble.vector>` and "
-":meth:`MultiPointContact.assemble.matrix() "
-"<felupe.MultiPointContact.assemble.matrix>`."
+":class:`~felupe.Step`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:26
+#: of felupe.mechanics._contact.ContactRigidPlane:24
+msgid ""
+"The contact formulation is based on a penalty method. The multiplier should "
+"be chosen sufficiently large to enforce the contact constraints, but not too"
+" large to cause numerical issues. Furthermore, no regularization is applied,"
+" which may lead to convergence issues when the contact status changes. "
+"Frictionless and nearly sticking contact conditions are supported."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:32
 msgid "This example shows how to use a :class:`~felupe.ContactRigidPlane`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:28
+#: of felupe.mechanics._contact.ContactRigidPlane:34
 msgid ""
 "An additional center-point is added to a mesh. By default, all *hanging* "
 "points are collected in the mesh-attribute :attr:`Mesh.points_without_cells "
@@ -18638,12 +18636,28 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:55
+#: of felupe.mechanics._contact.ContactRigidPlane:61
 msgid ""
 "A :class:`~felupe.ContactRigidPlane` defines the contact, whichnconnects the"
 " displacement degrees of freedom of the center-point with the dofs of points"
 " located at :math:`x=1` if they are in contact. Only the :math:`x`-component"
 " is considered in this example."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:93
+msgid ""
+"The mesh is fixed on the left end face and a ramped "
+":class:`~felupe.Boundary` is applied on the center-point of the "
+":class:`~felupe.ContactRigidPlane`. All items are added to a "
+":class:`~felupe.Step` and a :class:`~felupe.Job` is evaluated."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:113
+msgid ""
+"A view on the deformed mesh including the :class:`~felupe.ContactRigidPlane`"
+" is plotted."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
