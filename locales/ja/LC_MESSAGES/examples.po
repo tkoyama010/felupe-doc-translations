@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 00:22+0000\n"
+"POT-Creation-Date: 2026-04-24 00:27+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -99,7 +99,7 @@ msgid ""
 msgstr "変位フィールドの大きさは、300倍に拡大された変形形状上にプロットされています。"
 
 #: ../../felupe/docs/examples/ex01_beam.rst:123
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:332
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:345
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:206
 #: ../../felupe/docs/examples/ex18_nonlinear-viscoelasticity-newton.rst:137
 #: ../../felupe/docs/examples/ex20_third-medium-contact.rst:220
@@ -146,7 +146,7 @@ msgstr ":download:`Download zipped: ex01_beam.zip <ex01_beam.zip>`"
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:102
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:161
 #: ../../felupe/docs/examples/ex12_foot-bone.rst:94
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:372
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:385
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:243
 #: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:162
 #: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:183
@@ -1232,13 +1232,12 @@ msgid ""
 "This example contains a simulation of a rotating rubber wheel in plane "
 "strain with the `MORPH <https://doi.org/10.1016/s0749-6419(02)00091-8>`_ "
 "material model formulation [1]_. While the rotation is increased, a constant"
-" vertical compression is applied to the rubber wheel by a frictionless "
-"contact on the bottom. The vertical reaction force is then carried out for "
-"the rotation angles. The MORPH material model is implemented as a second "
-"Piola-Kirchhoff stress-based formulation with automatic differentiation "
-"(JAX). The Tresca invariant of the distortional part of the right Cauchy-"
-"Green deformation tensor is used as internal state variable, see Eq. "
-":eq:`morph-state-ex`."
+" vertical compression is applied to the rubber wheel by a contact on the "
+"bottom. The vertical reaction force is then carried out for the rotation "
+"angles. The MORPH material model is implemented as a second Piola- Kirchhoff"
+" stress-based formulation with automatic differentiation (JAX). The Tresca "
+"invariant of the distortional part of the right Cauchy-Green deformation "
+"tensor is used as internal state variable, see Eq. :eq:`morph-state-ex`."
 msgstr ""
 
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:33
@@ -1385,20 +1384,20 @@ msgid ""
 "variables are stored in the solid body."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:204
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:203
 msgid ""
 "The MORPH material model formulation is also available in FElupe, see "
 ":class:`~felupe.constitution.tensortrax.models.lagrange.morph` (tensortrax) "
 "and :class:`~felupe.constitution.jax.models.lagrange.morph` (JAX)."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:208
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:207
 msgid ""
 "The force-stress curves are shown for uniaxial incompressible tension "
 "cycles."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:225
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:224
 msgid "A mesh is created for the wheel with :math:`r=0.4` and :math:`R=1`."
 msgstr ""
 
@@ -1411,28 +1410,25 @@ msgid ""
 "upwards by ``0.2`` to enforce a vertical reaction force in the rubber wheel."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:246
-msgid ""
-"Try to simulate more rotation angles and obtain the vertical reaction force "
-"of the wheel, e.g. run two full rotations of the wheel with ``angles_deg = "
-"fem.math.linsteps([0, 360, 720], num=[18, 18])``."
-msgstr ""
-
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:279
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:274
 msgid ""
 "A nearly-incompressible solid body is created for the rubber. At the bottom,"
-" a frictionless contact edge is created. Both items are added to a step, "
-"which is further evaluated in a job. The reaction forces are plotted for the"
-" successive rotation angles of the wheel."
+" a contact plane is created. Both items are added to a step, which is "
+"further evaluated in a job. The vertical displacement of the bottom contact "
+"plane is applied in a preliminary job. Afterwards, the horizontal movement "
+"of the bottom contact plane is released and the second job is evaluated for "
+"the rotation of the wheel. The reaction forces are plotted for the "
+"successive rotation angles of the wheel."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:315
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:318
 msgid ""
 "The resulting max. principal values of the Cauchy stresses are shown for the"
-" final rotation angle."
+" final rotation angle of 480. As a result of friction, the bottom contact "
+"plane moves horizontally to the right."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:333
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:346
 msgid ""
 "D. Besdo and J. Ihlemann, \"A phenomenological constitutive model for "
 "rubberlike materials and its numerical applications\", International Journal"
@@ -1441,14 +1437,14 @@ msgid ""
 "<https://doi.org/10.1016/s0749-6419(02)00091-8>`_."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:338
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:351
 msgid ""
 "M. Freund, \"Verallgemeinerung eindimensionaler Materialmodelle für die "
 "Finite-Elemente-Methode\", Dissertation, Technische Universität Chemnitz, "
 "Chemnitz, 2013."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:342
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:355
 msgid ""
 "C. Miehe, S. Göktepe and F. Lulei, \"A micro-macro approach to rubber-like "
 "materials - Part I: the non-affine micro-sphere model of rubber "
@@ -1457,7 +1453,7 @@ msgid ""
 "<https://doi.org/10.1016/j.jmps.2004.03.011>`_."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:357
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:370
 msgid ""
 ":download:`Download Jupyter notebook: ex13_morph-rubber-wheel.ipynb "
 "<ex13_morph-rubber-wheel.ipynb>`"
@@ -1465,7 +1461,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex13_morph-rubber-wheel.ipynb "
 "<ex13_morph-rubber-wheel.ipynb>`"
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:361
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:374
 msgid ""
 ":download:`Download Python source code: ex13_morph-rubber-wheel.py "
 "<ex13_morph-rubber-wheel.py>`"
@@ -1473,7 +1469,7 @@ msgstr ""
 ":download:`Download Python source code: ex13_morph-rubber-wheel.py "
 "<ex13_morph-rubber-wheel.py>`"
 
-#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:365
+#: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:378
 msgid ""
 ":download:`Download zipped: ex13_morph-rubber-wheel.zip <ex13_morph-rubber-"
 "wheel.zip>`"
