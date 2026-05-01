@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 18:56+0000\n"
+"POT-Creation-Date: 2026-05-01 00:30+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -227,7 +227,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution/tools.rst:34
 #: ../../felupe/docs/felupe/dof.rst:34 ../../felupe/docs/felupe/element.rst:56
 #: ../../felupe/docs/felupe/field.rst:27 ../../felupe/docs/felupe/math.rst:66
-#: ../../felupe/docs/felupe/mechanics.rst:52
+#: ../../felupe/docs/felupe/mechanics.rst:59
 #: ../../felupe/docs/felupe/mesh.rst:62
 #: ../../felupe/docs/felupe/quadrature.rst:32
 #: ../../felupe/docs/felupe/region.rst:39
@@ -410,7 +410,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.tovoigt:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:0
+#: of felupe.mechanics._curve.CharacteristicCurve:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
@@ -422,6 +422,9 @@ msgstr ""
 #: of felupe.mechanics._step.Step.generate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
 #: of felupe.mechanics._truss.TrussBody:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.concatenate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
@@ -1330,7 +1333,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_item.pydocstring
 #: of felupe.mechanics._item.FormItem:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:57
+#: of felupe.mechanics._job.Job:41
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointConstraint:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
@@ -1359,6 +1362,9 @@ msgstr ""
 #: of felupe.mechanics._step.Step:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
 #: of felupe.mechanics._truss.TrussBody:117
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._convert.add_midpoints_edges:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
@@ -2066,8 +2072,6 @@ msgstr ""
 #: of felupe.math._tensor.sym:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.tovoigt:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
@@ -2075,6 +2079,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.concatenate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
@@ -12111,8 +12118,6 @@ msgstr ""
 #: of felupe.dof._loadcase.shear-1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.uniaxial-1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:54
 msgid "dict"
 msgstr "dict"
 
@@ -16884,7 +16889,7 @@ msgstr ":py:obj:`Step <felupe.Step>`\\ \\(items\\[\\, ramp\\, boundaries\\]\\)"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
 #: of felupe.mechanics._curve.CharacteristicCurve:66
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:83
+#: of felupe.mechanics._job.Job:67
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:54
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
@@ -16895,8 +16900,8 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:27:<autosummary>:1
-msgid ":py:obj:`Job <felupe.Job>`\\ \\(steps\\[\\, callback\\]\\)"
-msgstr ":py:obj:`Job <felupe.Job>`\\ \\(steps\\[\\, callback\\]\\)"
+msgid ":py:obj:`Job <felupe.Job>`\\ \\(steps\\[\\, callback\\, plugins\\]\\)"
+msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:27:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
@@ -16905,6 +16910,9 @@ msgstr ":py:obj:`Job <felupe.Job>`\\ \\(steps\\[\\, callback\\]\\)"
 #: of felupe.mechanics._job.Job:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.Step:39
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin:57
 msgid "A job with a list of steps and a method to evaluate them."
 msgstr ""
 
@@ -16927,10 +16935,33 @@ msgid "A Free-Vibration Step/Job."
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:28
+msgid "**Job Plugins**"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:34:<autosummary>:1
+msgid ""
+":py:obj:`CharacteristicCurvePlugin <felupe.CharacteristicCurvePlugin>`\\ "
+"\\(boundary\\[\\, items\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:34:<autosummary>:1
+msgid "A job plugin to record a characteristic curve."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:34:<autosummary>:1
+msgid ":py:obj:`ProgressPlugin <felupe.ProgressPlugin>`\\ \\(\\[verbose\\, tqdm\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:34:<autosummary>:1
+msgid ""
+"A job plugin to output the progress of a job evaluation in the terminal."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:35
 msgid "**Point Load and Multi-Point Constraints**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
 msgid ""
 ":py:obj:`PointLoad <felupe.PointLoad>`\\ \\(field\\, points\\[\\, values\\, "
 "apply\\_on\\, ...\\]\\)"
@@ -16938,7 +16969,7 @@ msgstr ""
 ":py:obj:`PointLoad <felupe.PointLoad>`\\ \\(field\\, points\\[\\, values\\, "
 "apply\\_on\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.pydocstring
 #: of felupe.mechanics._pointload.PointLoad:1
 msgid ""
@@ -16946,7 +16977,7 @@ msgid ""
 "applied on the n-th field."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
 msgid ""
 ":py:obj:`MultiPointConstraint <felupe.MultiPointConstraint>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
@@ -16954,7 +16985,7 @@ msgstr ""
 ":py:obj:`MultiPointConstraint <felupe.MultiPointConstraint>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointConstraint:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
@@ -16963,7 +16994,7 @@ msgid ""
 "A Multi-point-constraint which connects a center-point to a list of points."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
 msgid ""
 ":py:obj:`MultiPointContact <felupe.MultiPointContact>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
@@ -16971,7 +17002,7 @@ msgstr ""
 ":py:obj:`MultiPointContact <felupe.MultiPointContact>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:42:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointContact:1
 msgid ""
@@ -16979,34 +17010,34 @@ msgid ""
 "to a list of points."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:36
+#: ../../felupe/docs/felupe/mechanics.rst:43
 msgid "**Contact**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:48:<autosummary>:1
 msgid ""
 ":py:obj:`ContactRigidPlane <felupe.ContactRigidPlane>`\\ \\(field\\, "
 "points\\, ...\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:48:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
 #: of felupe.mechanics._contact.ContactRigidPlane:1
 msgid ""
 "A node-to-surface contact, where the surface is given by a rigid plane."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:42
+#: ../../felupe/docs/felupe/mechanics.rst:49
 msgid "**Helpers for Custom Items and State Variables**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:51:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:58:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.StateNearlyIncompressible "
 "<felupe.mechanics.StateNearlyIncompressible>`\\ \\(field\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:51:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:58:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.StateNearlyIncompressible:1
 msgid ""
@@ -17014,49 +17045,49 @@ msgid ""
 "incompressible solid bodies."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:51:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:58:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.Assemble <felupe.mechanics.Assemble>`\\ \\(\\[vector\\, "
 "matrix\\, mass\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:51:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:58:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.Assemble:1
 msgid "A class with methods for assembling vectors and matrices of an Item."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:51:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:58:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.Evaluate <felupe.mechanics.Evaluate>`\\ \\(gradient\\, "
 "hessian\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:51:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:58:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.Evaluate:1
 msgid "A class with evaluate methods of an Item."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:51:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:58:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.Results <felupe.mechanics.Results>`\\ \\(\\[stress\\, "
 "elasticity\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:51:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:58:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.Results:1
 msgid "A class with intermediate results of an Item."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:51:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:58:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.UpdateItem <felupe.mechanics.UpdateItem>`\\ \\(parent\\, "
 "key\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:51:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:58:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_update.pydocstring
 #: of felupe.mechanics._update.UpdateItem:1
 msgid ""
@@ -18032,11 +18063,14 @@ msgstr ""
 #: of felupe.mechanics._curve.CharacteristicCurve:68
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.Step:38
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin:56
 msgid ":py:obj:`Job`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:85
+#: of felupe.mechanics._job.Job:69
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
@@ -18045,7 +18079,7 @@ msgid ":py:obj:`CharacteristicCurve`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:86
+#: of felupe.mechanics._job.Job:70
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.Step:42
 msgid ""
@@ -18063,8 +18097,6 @@ msgstr ""
 #: of felupe.mechanics._curve.CharacteristicCurve:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:3
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:17
 msgid ""
 "A list with steps, where each step subsequently depends on the solution of "
 "the previous step."
@@ -18083,71 +18115,61 @@ msgid ""
 "None``."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
+#: of felupe.mechanics._job.Job:12
+msgid ""
+"A list of plugins with hooks to be used during evaluation. Available hooks "
+"are ``before_job``, ``after_job``, ``before_step``, ``after_step`` and "
+"``after_substep``. Each hook takes the job and the current state as "
+"arguments. All hooks are optional. Default is None, which is equivalent to "
+"an empty list. Simple callable plugins are dispatched at the "
+"``after_substep`` hook."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
 #: of felupe.mechanics._curve.CharacteristicCurve:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:12
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:52
+#: of felupe.mechanics._job.Job:18
 msgid "Optional keyword-arguments for the ``callback`` function."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:20
-msgid "list of Step"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:24
+#: of felupe.mechanics._job.Job:23
 msgid "The number of steps."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:26
+#: of felupe.mechanics._job.Job:25
 msgid "int"
 msgstr "int"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:30
-msgid ""
-"A callable which is called after each completed substep. Function signature "
-"must be ``lambda stepnumber, substepnumber, substep: None``, where "
-"``substep`` is an instance of :class:`~felupe.tools.NewtonResult`. THe field"
-" container of the completed substep is available as ``substep.x``."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:35
-msgid "callable"
-msgstr "callable"
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:39
+#: of felupe.mechanics._job.Job:29
 msgid ""
 "A list with times at which the results are written to the XDMF result file."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:41
+#: of felupe.mechanics._job.Job:31
 msgid "list of int"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:45
+#: of felupe.mechanics._job.Job:35
 msgid ""
 "List with norms of the objective function for each completed substep of each"
 " step. See also class:`~felupe.tools.NewtonResult`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:48
+#: of felupe.mechanics._job.Job:38
 msgid "list of list of float"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
 #: of felupe.mechanics._curve.CharacteristicCurve:65
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:82
+#: of felupe.mechanics._job.Job:66
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:53
 msgid ":py:obj:`Step`"
@@ -18156,7 +18178,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
 #: of felupe.mechanics._curve.CharacteristicCurve:71
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:88
+#: of felupe.mechanics._job.Job:72
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:59
 msgid ":py:obj:`tools.NewtonResult`"
@@ -18166,7 +18188,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
 #: of felupe.mechanics._curve.CharacteristicCurve:72
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job:89
+#: of felupe.mechanics._job.Job:73
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:60
 msgid "A data class which represents the result found by Newton's method."
@@ -18286,128 +18308,14 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
 #: of felupe.mechanics._curve.CharacteristicCurve:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin:6
 msgid ""
 "A list of items with methods for the assembly of sparse vectors/matrices "
 "which are used to evaluate the sum of reaction forces. If None, the total "
 "reaction forces from the :class:`~felupe.tools.NewtonResult` of the substep "
 "are used."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:1
-msgid ""
-"Plot force-displacement characteristic curves on a pre-evaluated job, "
-"tracked on a given :class:`~felupe.Boundary`."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:4
-msgid ""
-"A list with arrays of displacement data. If None, the displacement is taken "
-"from the first field of the field container from each completed substep. The"
-" displacement data is then taken from the first point of the tracked "
-":class:`~felupe.Boundary`. Default is None."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:9
-msgid ""
-"A list with arrays of reaction force data. If None, the force is taken from "
-"the :class:`~felupe.tools.NewtonResult` of each completed substep. Default "
-"is None."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:13
-msgid "The axis for the displacement data (default is 0)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:15
-msgid "The axis for the reaction force data (default is 0)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:17
-msgid "The label of the x-axis (default is None)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:19
-msgid "The label of the y-axis (default is None)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:21
-msgid "A scaling factor for the displacement data (default is 1.0)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:23
-msgid "A scaling factor the reaction force data (default is 1.0)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:25
-msgid "An offset for the displacement data (default is 0.0)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:27
-msgid "An offset for the reaction force data (default is 0.0)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:29
-msgid ""
-"A flag to plot the gradient of the y-data. Uses "
-"``numpy.gradient(edge_order=2)``. The gradient data is set to ``np.nan`` for"
-" absolute values greater than the mean value plus two times the standard "
-"deviation. Default is False."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:34
-msgid "A flag to flip the plot (x, y) to (y, x). Also changes the labels."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:36
-msgid "An axes object where the plot is placed in."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:38
-msgid ""
-"Indices or a range of data points to plot. If None, all data points are "
-"plotted (default is None)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:41
-msgid "Additional keyword arguments for plotting in ``ax.plot(**kwags)``."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:44
-msgid ""
-"* **fig** (*matplotlib.figure.Figure*) -- The figure object where the plot "
-"is placed in. * **ax** (*matplotlib.axes.Axes*) -- The axes object where the"
-" plot is placed in."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:44
-msgid ""
-"**fig** (*matplotlib.figure.Figure*) -- The figure object where the plot is "
-"placed in."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
-#: of felupe.mechanics._curve.CharacteristicCurve.plot:45
-msgid ""
-"**ax** (*matplotlib.axes.Axes*) -- The axes object where the plot is placed "
-"in."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
@@ -18420,6 +18328,156 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
 #: of felupe.mechanics._free_vibration.FreeVibration:13
 msgid "Boundary conditions with non-zero values are not supported."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin:1
+msgid ""
+"A job plugin to record a characteristic curve. Force-displacement curve data"
+" is tracked during evaluation for a given :class:`~felupe.Boundary`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin:4
+msgid "The boundary condition for which to record the characteristic curve."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:1
+msgid ""
+"Plot force-displacement characteristic curves on a pre-evaluated job, "
+"tracked on a given :class:`~felupe.Boundary`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:4
+msgid ""
+"A list with arrays of displacement data. If None, the displacement is taken "
+"from the first field of the field container from each completed substep. The"
+" displacement data is then taken from the first point of the tracked "
+":class:`~felupe.Boundary`. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:9
+msgid ""
+"A list with arrays of reaction force data. If None, the force is taken from "
+"the :class:`~felupe.tools.NewtonResult` of each completed substep. Default "
+"is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:13
+msgid "The axis for the displacement data (default is 0)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:15
+msgid "The axis for the reaction force data (default is 0)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:17
+msgid "The label of the x-axis (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:19
+msgid "The label of the y-axis (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:21
+msgid "A scaling factor for the displacement data (default is 1.0)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:23
+msgid "A scaling factor the reaction force data (default is 1.0)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:25
+msgid "An offset for the displacement data (default is 0.0)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:27
+msgid "An offset for the reaction force data (default is 0.0)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:29
+msgid ""
+"A flag to plot the gradient of the y-data. Uses "
+"``numpy.gradient(edge_order=2)``. The gradient data is set to ``np.nan`` for"
+" absolute values greater than the mean value plus two times the standard "
+"deviation. Default is False."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:34
+msgid "A flag to flip the plot (x, y) to (y, x). Also changes the labels."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:36
+msgid "An axes object where the plot is placed in."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:38
+msgid ""
+"Indices or a range of data points to plot. If None, all data points are "
+"plotted (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:41
+msgid "Additional keyword arguments for plotting in ``ax.plot(**kwags)``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:44
+msgid ""
+"* **fig** (*matplotlib.figure.Figure*) -- The figure object where the plot "
+"is placed in. * **ax** (*matplotlib.axes.Axes*) -- The axes object where the"
+" plot is placed in."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:44
+msgid ""
+"**fig** (*matplotlib.figure.Figure*) -- The figure object where the plot is "
+"placed in."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.mechanics.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:45
+msgid ""
+"**ax** (*matplotlib.axes.Axes*) -- The axes object where the plot is placed "
+"in."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
