@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-06 00:27+0000\n"
+"POT-Creation-Date: 2026-05-07 00:28+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -16968,7 +16968,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/mechanics.rst:35:<autosummary>:1
 msgid ""
 ":py:obj:`plugins.XDMFWriterPlugin <felupe.plugins.XDMFWriterPlugin>`\\ "
-"\\(\\)"
+"\\(\\[filename\\, mesh\\, ...\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:35:<autosummary>:1
@@ -18083,12 +18083,6 @@ msgstr ""
 #: of felupe.mechanics._curve.CharacteristicCurve:68
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.Step:38
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
-#: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:56
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
-#: of felupe.plugins._progress.ProgressPlugin:20
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
-#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin:10
 msgid ":py:obj:`Job`"
 msgstr ""
 
@@ -18366,6 +18360,15 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:4
 msgid "The boundary condition for which to record the characteristic curve."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:56
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin:10
+msgid ":py:obj:`felupe.Job`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
