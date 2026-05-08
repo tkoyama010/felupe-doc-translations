@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-07 00:28+0000\n"
+"POT-Creation-Date: 2026-05-08 00:28+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -227,7 +227,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution/tools.rst:34
 #: ../../felupe/docs/felupe/dof.rst:34 ../../felupe/docs/felupe/element.rst:56
 #: ../../felupe/docs/felupe/field.rst:27 ../../felupe/docs/felupe/math.rst:66
-#: ../../felupe/docs/felupe/mechanics.rst:60
+#: ../../felupe/docs/felupe/mechanics.rst:65
 #: ../../felupe/docs/felupe/mesh.rst:62
 #: ../../felupe/docs/felupe/quadrature.rst:32
 #: ../../felupe/docs/felupe/region.rst:39
@@ -876,6 +876,8 @@ msgstr ""
 #: of felupe.mesh._mesh.Mesh.write:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._tools.merge_duplicate_cells:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
 #: of felupe.plugins._progress.ProgressPlugin:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
@@ -16913,6 +16915,8 @@ msgstr ""
 #: of felupe.mechanics._step.Step:39
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:57
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
 #: of felupe.plugins._progress.ProgressPlugin:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
@@ -16942,46 +16946,107 @@ msgstr ""
 msgid "**Job Plugins**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:35:<autosummary>:1
-msgid ""
-":py:obj:`plugins.CharacteristicCurvePlugin "
-"<felupe.plugins.CharacteristicCurvePlugin>`\\ \\(boundary\\)"
+#: ../../felupe/docs/felupe/mechanics.rst:40:<autosummary>:1
+msgid ":py:obj:`Plugin <felupe.Plugin>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:40:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin:1
+msgid "Base class for plugins."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:40:<autosummary>:1
+msgid ""
+":py:obj:`CharacteristicCurvePlugin <felupe.CharacteristicCurvePlugin>`\\ "
+"\\(boundary\\[\\, items\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:40:<autosummary>:1
 msgid "A job plugin to record a characteristic curve."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:35:<autosummary>:1
-msgid ""
-":py:obj:`plugins.ProgressPlugin <felupe.plugins.ProgressPlugin>`\\ "
-"\\(\\[verbose\\, tqdm\\]\\)"
+#: ../../felupe/docs/felupe/mechanics.rst:40:<autosummary>:1
+msgid ":py:obj:`ProgressPlugin <felupe.ProgressPlugin>`\\ \\(\\[verbose\\, tqdm\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
 #: of felupe.plugins._progress.ProgressPlugin:1
 msgid ""
 "A job plugin to output the progress of a job evaluation in the terminal."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:40:<autosummary>:1
 msgid ""
-":py:obj:`plugins.XDMFWriterPlugin <felupe.plugins.XDMFWriterPlugin>`\\ "
-"\\(\\[filename\\, mesh\\, ...\\]\\)"
+":py:obj:`XDMFWriterPlugin <felupe.XDMFWriterPlugin>`\\ \\(\\[filename\\, "
+"mesh\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:40:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
 #: of felupe.plugins._xdmf_writer.XDMFWriterPlugin:1
 msgid "A job plugin to write XDMF files during job evaluation."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:36
+#: ../../felupe/docs/felupe/mechanics.rst:40:<autosummary>:1
+msgid ":py:obj:`EventDispatcher <felupe.EventDispatcher>`\\ \\(\\[plugins\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:40:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:20:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin:23
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
+#: of felupe.tools._event_dispatcher.EventDispatcher:1
+msgid "A class to dispatch events to plugins during evaluation."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:40:<autosummary>:1
+msgid ":py:obj:`Context <felupe.Context>`\\ \\(\\[job\\, step\\, substep\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:40:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:20:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin:26
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
+#: of felupe.tools._event_dispatcher.Context:1
+msgid "A class to keep track of the context of a Job during evaluation."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:40:<autosummary>:1
+msgid ""
+":py:obj:`JobState <felupe.JobState>`\\ \\(\\[stepnumber\\, substepnumber\\, "
+"time\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:40:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
+#: of felupe.mechanics._job.JobState:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin:29
+msgid "A class to keep track of the state of a Job during evaluation."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:40:<autosummary>:1
+msgid ""
+":py:obj:`IterationState <felupe.IterationState>`\\ \\(\\[iteration\\, "
+"fnorm\\, xnorm\\, ...\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:40:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:13:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:1
+msgid "A class to keep track of the state of an iteration during evaluation."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:41
 msgid "**Point Load and Multi-Point Constraints**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:43:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:48:<autosummary>:1
 msgid ""
 ":py:obj:`PointLoad <felupe.PointLoad>`\\ \\(field\\, points\\[\\, values\\, "
 "apply\\_on\\, ...\\]\\)"
@@ -16989,7 +17054,7 @@ msgstr ""
 ":py:obj:`PointLoad <felupe.PointLoad>`\\ \\(field\\, points\\[\\, values\\, "
 "apply\\_on\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:43:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:48:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.pydocstring
 #: of felupe.mechanics._pointload.PointLoad:1
 msgid ""
@@ -16997,7 +17062,7 @@ msgid ""
 "applied on the n-th field."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:43:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:48:<autosummary>:1
 msgid ""
 ":py:obj:`MultiPointConstraint <felupe.MultiPointConstraint>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
@@ -17005,7 +17070,7 @@ msgstr ""
 ":py:obj:`MultiPointConstraint <felupe.MultiPointConstraint>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:43:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:48:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointConstraint:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
@@ -17014,7 +17079,7 @@ msgid ""
 "A Multi-point-constraint which connects a center-point to a list of points."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:43:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:48:<autosummary>:1
 msgid ""
 ":py:obj:`MultiPointContact <felupe.MultiPointContact>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
@@ -17022,7 +17087,7 @@ msgstr ""
 ":py:obj:`MultiPointContact <felupe.MultiPointContact>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:43:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:48:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointContact:1
 msgid ""
@@ -17030,34 +17095,34 @@ msgid ""
 "to a list of points."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:44
+#: ../../felupe/docs/felupe/mechanics.rst:49
 msgid "**Contact**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:49:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
 msgid ""
 ":py:obj:`ContactRigidPlane <felupe.ContactRigidPlane>`\\ \\(field\\, "
 "points\\, ...\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:49:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
 #: of felupe.mechanics._contact.ContactRigidPlane:1
 msgid ""
 "A node-to-surface contact, where the surface is given by a rigid plane."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:50
+#: ../../felupe/docs/felupe/mechanics.rst:55
 msgid "**Helpers for Custom Items and State Variables**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:64:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.StateNearlyIncompressible "
 "<felupe.mechanics.StateNearlyIncompressible>`\\ \\(field\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:64:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.StateNearlyIncompressible:1
 msgid ""
@@ -17065,49 +17130,49 @@ msgid ""
 "incompressible solid bodies."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:64:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.Assemble <felupe.mechanics.Assemble>`\\ \\(\\[vector\\, "
 "matrix\\, mass\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:64:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.Assemble:1
 msgid "A class with methods for assembling vectors and matrices of an Item."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:64:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.Evaluate <felupe.mechanics.Evaluate>`\\ \\(gradient\\, "
 "hessian\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:64:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.Evaluate:1
 msgid "A class with evaluate methods of an Item."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:64:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.Results <felupe.mechanics.Results>`\\ \\(\\[stress\\, "
 "elasticity\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:64:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.Results:1
 msgid "A class with intermediate results of an Item."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:64:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.UpdateItem <felupe.mechanics.UpdateItem>`\\ \\(parent\\, "
 "key\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:64:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_update.pydocstring
 #: of felupe.mechanics._update.UpdateItem:1
 msgid ""
@@ -18301,6 +18366,8 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:43
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
+#: of felupe.tools._event_dispatcher.Context:3
 msgid "The job object."
 msgstr ""
 
@@ -18364,11 +18431,115 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:56
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
 #: of felupe.plugins._progress.ProgressPlugin:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
 #: of felupe.plugins._xdmf_writer.XDMFWriterPlugin:10
 msgid ":py:obj:`felupe.Job`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.after_substep:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_substep:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.after_substep:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.after_substep:1
+msgid "This method is called after a substep."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.after_substep:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_iteration:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_job:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_linear_solve:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_newton:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_step:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_substep:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.before_iteration:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.before_job:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.before_linear_solve:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.before_newton:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.before_step:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.after_iteration:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.after_job:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.after_linear_solve:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.after_newton:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.after_substep:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.before_job:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.before_linear_solve:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.before_newton:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.before_step:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.after_iteration:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.after_job:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.after_substep:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.before_job:3
+msgid "The context object."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.after_substep:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_iteration:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_linear_solve:6
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_newton:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_substep:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.before_iteration:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.before_linear_solve:6
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.before_newton:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.after_iteration:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.after_linear_solve:6
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.after_newton:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.after_substep:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.before_linear_solve:6
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.before_newton:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.after_iteration:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.after_substep:5
+msgid "The state of the iteration."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
@@ -18493,6 +18664,93 @@ msgstr ""
 msgid "Requires ``tqdm`` for an interactive progress bar if ``verbose=True``."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_iteration:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.after_iteration:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.after_iteration:1
+msgid "This method is called after a Newton-Raphson iteration."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_job:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.after_job:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.after_job:1
+msgid "This method is called after the evaluation of a job."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_job:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_step:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.before_job:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.before_step:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.after_job:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.before_job:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.before_step:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.after_job:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.before_job:5
+msgid "The state of the job."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_linear_solve:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.after_linear_solve:1
+msgid ""
+"This method is called after the linear solver inside a Newton-Raphson "
+"iteration."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_newton:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.after_newton:1
+msgid "This method is called after the Newton-Raphson solver."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.before_job:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.before_job:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.before_job:1
+msgid "This method is called before the evaluation of a job."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.before_linear_solve:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.before_linear_solve:1
+msgid ""
+"This method is called before the linear solver inside a Newton-Raphson "
+"iteration."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.before_newton:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.before_newton:1
+msgid "This method is called before the Newton-Raphson solver."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.before_step:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
+#: of felupe.plugins._progress.ProgressPlugin.before_step:1
+msgid "This method is called before a step."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
 #: of felupe.plugins._progress.ProgressPlugin.configure:1
 msgid ""
@@ -18503,6 +18761,96 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
 #: of felupe.plugins._xdmf_writer.XDMFWriterPlugin:6
 msgid "Requires ``h5py``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin:5
+msgid ""
+"All methods (hooks) are optional and will be called at the appropriate time "
+"during the simulation. The context and state objects are passed to each "
+"method, allowing a plugin to access and / or modify a simulation as needed."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin:9
+msgid ""
+"The :class:`~felupe.Context` object holds information about the current job,"
+" step or substep. `state` depends on the method and can be used to access "
+"the current state, i.e. :class:`~felupe.JobState` or "
+":class:`~felupe.IterationState`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin:15
+msgid "All methods are optional."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin:22
+msgid ":py:obj:`felupe.EventDispatcher`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin:25
+msgid ":py:obj:`felupe.Context`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin:28
+msgid ":py:obj:`felupe.JobState`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin:31
+msgid ":py:obj:`felupe.IterationState`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin:32
+msgid "A class to keep track of the state of an iteration."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.after_step:1
+msgid "This method is called after a step."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
+#: of felupe.plugins._plugin.Plugin.before_iteration:1
+msgid "This method is called before a Newton-Raphson iteration."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
+#: of felupe.tools._event_dispatcher.EventDispatcher:3
+msgid "The list of plugins."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
+#: of felupe.tools._event_dispatcher.EventDispatcher.add_plugin:1
+msgid "Add a plugin to the dispatcher and reconfigure it."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
+#: of felupe.tools._event_dispatcher.EventDispatcher.configure:1
+msgid ""
+"Configure the dispatcher with the given plugins and return a dict with hooks"
+" as keys."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
+#: of felupe.tools._event_dispatcher.EventDispatcher.trigger:1
+msgid ""
+"Trigger a hook with context and current state to all registered functions."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
+#: of felupe.tools._event_dispatcher.Context:5
+msgid "The step object."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
+#: of felupe.tools._event_dispatcher.Context:7
+msgid "The field container object."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
@@ -23337,6 +23685,12 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/tools.rst:13:<autosummary>:1
 msgid ""
+":py:obj:`tools.IterationState <felupe.tools.IterationState>`\\ "
+"\\(\\[iteration\\, fnorm\\, ...\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/tools.rst:13:<autosummary>:1
+msgid ""
 ":py:obj:`tools.NewtonResult <felupe.tools.NewtonResult>`\\ \\(x\\[\\, fun\\,"
 " jac\\, success\\, ...\\]\\)"
 msgstr ""
@@ -23354,19 +23708,7 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/felupe/tools.rst:20:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
-#: of felupe.tools._event_dispatcher.EventDispatcher:1
-msgid "A class to dispatch events to plugins during evaluation."
-msgstr ""
-
-#: ../../felupe/docs/felupe/tools.rst:20:<autosummary>:1
 msgid ":py:obj:`tools.Context <felupe.tools.Context>`\\ \\(\\[job\\, step\\, substep\\]\\)"
-msgstr ""
-
-#: ../../felupe/docs/felupe/tools.rst:20:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
-#: of felupe.tools._event_dispatcher.Context:1
-msgid "A class to keep track of the context of a Job during evaluation."
 msgstr ""
 
 #: ../../felupe/docs/felupe/tools.rst:21
@@ -23749,24 +24091,6 @@ msgid ""
 msgstr ""
 "\\text{norm}(\\boldsymbol{f}) = \\frac{||\\boldsymbol{f}_1||}\n"
 "    {\\varepsilon + ||\\boldsymbol{f}_0||}"
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
-#: of felupe.tools._event_dispatcher.EventDispatcher.add_plugin:1
-msgid "Add a plugin to the dispatcher and reconfigure it."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
-#: of felupe.tools._event_dispatcher.EventDispatcher.configure:1
-msgid ""
-"Configure the dispatcher with the given plugins and return a dict with hooks"
-" as keys."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
-#: of felupe.tools._event_dispatcher.EventDispatcher.trigger:1
-msgid ""
-"Trigger a hook with context and current state to all registered functions."
-msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/tools/_save.pydocstring
 #: of felupe.tools._save.save:3
