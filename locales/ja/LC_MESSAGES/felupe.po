@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-09 00:29+0000\n"
+"POT-Creation-Date: 2026-05-10 00:29+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -17092,7 +17092,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointConstraint:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointContact:130
+#: of felupe.mechanics._multipoint.MultiPointContact:123
 msgid ""
 "A Multi-point-constraint which connects a center-point to a list of points."
 msgstr ""
@@ -19011,25 +19011,13 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointConstraint:30
-msgid "This example shows how to use a :class:`~felupe.MultiPointConstraint`."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:32
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointContact:28
 msgid ""
-"An additional center-point is added to a mesh. By default, all *hanging* "
-"points are collected in the mesh-attribute :attr:`Mesh.points_without_cells "
-"<felupe.Mesh.points_without_cells>`. The degrees of freedom of these points "
-"are considered as fixed, i.e. they are ignored. The center- point is not "
-"connected to any cell and is added to the points-without-cells array on "
-":meth:`Mesh.update <felupe.Mesh.update>`. Hence, center-point has to be "
-"removed manually."
+"This example shows how to use a :class:`~felupe.MultiPointConstraint`. An "
+"additional center-point is added to a mesh."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:59
+#: of felupe.mechanics._multipoint.MultiPointConstraint:49
 msgid ""
 "A :class:`~felupe.MultiPointConstraint` defines the multi-point constraint "
 "which connects the displacement degrees of freedom of the center-point with "
@@ -19037,7 +19025,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:88
+#: of felupe.mechanics._multipoint.MultiPointConstraint:78
 msgid ""
 "The mesh is fixed on the left end face and a ramped "
 ":class:`~felupe.PointLoad` is applied on the center-point of the "
@@ -19046,19 +19034,19 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:104
+#: of felupe.mechanics._multipoint.MultiPointConstraint:94
 msgid ""
 "A view on the deformed mesh including the "
 ":class:`~felupe.MultiPointConstraint` is plotted."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:127
+#: of felupe.mechanics._multipoint.MultiPointConstraint:117
 msgid ":py:obj:`felupe.MultiPointContact`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:128
+#: of felupe.mechanics._multipoint.MultiPointConstraint:118
 msgid "A frictionless point-to-rigid (wall) contact."
 msgstr ""
 
@@ -19082,11 +19070,13 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointContact:26
-msgid "This example shows how to use a :class:`~felupe.MultiPointContact`."
+msgid ""
+"This example shows how to use a :class:`~felupe.MultiPointContact`. An "
+"additional center-point is added to a mesh."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointContact:55
+#: of felupe.mechanics._multipoint.MultiPointContact:48
 msgid ""
 "A :class:`~felupe.MultiPointContact` defines the multi-point contact which "
 "connects the displacement degrees of freedom of the center-point with the "
@@ -19095,7 +19085,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointContact:86
+#: of felupe.mechanics._multipoint.MultiPointContact:79
 msgid ""
 "The mesh is fixed on the left end face and a ramped "
 ":class:`~felupe.Boundary` is applied on the center-point of the "
@@ -19104,14 +19094,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointContact:106
+#: of felupe.mechanics._multipoint.MultiPointContact:99
 msgid ""
 "A view on the deformed mesh including the :class:`~felupe.MultiPointContact`"
 " is plotted."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointContact:129
+#: of felupe.mechanics._multipoint.MultiPointContact:122
 msgid ":py:obj:`felupe.MultiPointConstraint`"
 msgstr ""
 
@@ -19290,23 +19280,13 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
 #: of felupe.mechanics._contact.ContactRigidPlane:132
-msgid "This example shows how to use a :class:`~felupe.ContactRigidPlane`."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:134
 msgid ""
-"An additional center-point is added to a mesh. By default, all *hanging* "
-"points are collected in the mesh-attribute :attr:`Mesh.points_without_cells "
-"<felupe.Mesh.points_without_cells>`. The degrees of freedom of these points "
-"are considered as fixed, i.e. they are ignored. The center- point is not "
-"connected to any cell and is added to the points-without-cells array on "
-":meth:`Mesh.update <felupe.Mesh.update>`. Hence, the center-point has to be "
-"removed manually."
+"This example shows how to use a :class:`~felupe.ContactRigidPlane`. An "
+"additional center-point is added to a mesh."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:161
+#: of felupe.mechanics._contact.ContactRigidPlane:151
 msgid ""
 "A :class:`~felupe.ContactRigidPlane` defines the contact, which connects the"
 " displacement degrees of freedom of the center-point with the dofs of points"
@@ -19315,7 +19295,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:194
+#: of felupe.mechanics._contact.ContactRigidPlane:184
 msgid ""
 "The mesh is fixed on the left end face and a ramped "
 ":class:`~felupe.Boundary` is applied on the center-point of the "
@@ -19324,7 +19304,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:214
+#: of felupe.mechanics._contact.ContactRigidPlane:204
 msgid ""
 "A view on the deformed mesh including the :class:`~felupe.ContactRigidPlane`"
 " is plotted."

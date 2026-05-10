@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-09 00:29+0000\n"
+"POT-Creation-Date: 2026-05-10 00:29+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -139,20 +139,20 @@ msgstr ":download:`Download zipped: ex01_beam.zip <ex01_beam.zip>`"
 #: ../../felupe/docs/examples/ex03_plasticity.rst:161
 #: ../../felupe/docs/examples/ex04_balloon.rst:211
 #: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:209
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:252
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:251
 #: ../../felupe/docs/examples/ex07_engine-mount.rst:260
-#: ../../felupe/docs/examples/ex08_shear.rst:267
+#: ../../felupe/docs/examples/ex08_shear.rst:259
 #: ../../felupe/docs/examples/ex09_numeric-continuation.rst:225
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:102
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:161
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:95
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:98
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:389
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:243
 #: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:162
 #: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:183
 #: ../../felupe/docs/examples/ex17_torsion-gif.rst:146
 #: ../../felupe/docs/examples/ex18_nonlinear-viscoelasticity-newton.rst:171
-#: ../../felupe/docs/examples/ex19_taylor-hood.rst:145
+#: ../../felupe/docs/examples/ex19_taylor-hood.rst:144
 #: ../../felupe/docs/examples/ex20_third-medium-contact.rst:263
 #: ../../felupe/docs/examples/ex21_nonlinear-truss-analysis.rst:287
 #: ../../felupe/docs/examples/ex22_solid_body_thermal.rst:294
@@ -613,7 +613,7 @@ msgid ""
 "direction :math:`z`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:65
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:64
 msgid ""
 "A numeric hexahedron-region created on the mesh in combination with a "
 "vector-valued displacement field represents the volume of the solid. "
@@ -639,33 +639,33 @@ msgid ""
 "direction :math:`z`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:138
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:137
 msgid ""
 "The max. principal value of the logarithmic strain, projected to mesh "
 "points, will be added to the result file."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:158
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:157
 msgid ""
 "The simulation model is now ready to be solved. The results are saved within"
 " a XDMF- file, where additional point-data is passed to the ``point_data`` "
 "argument."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:194
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:193
 msgid ""
 "The axial-compressive and lateral-shear force-displacement curves are "
 "obtained from the characteristic-curve job. The force is multiplied by two "
 "due to the fact that only one half of the geometry is simulated."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:213
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:212
 msgid ""
 "The shear lateral force-displacement curve is again obtained from the "
 "characteristic- curve job."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:237
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:236
 msgid ""
 ":download:`Download Jupyter notebook: ex06_rubber-metal-spring.ipynb "
 "<ex06_rubber-metal-spring.ipynb>`"
@@ -673,7 +673,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex06_rubber-metal-spring.ipynb "
 "<ex06_rubber-metal-spring.ipynb>`"
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:241
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:240
 msgid ""
 ":download:`Download Python source code: ex06_rubber-metal-spring.py "
 "<ex06_rubber-metal-spring.py>`"
@@ -681,7 +681,7 @@ msgstr ""
 ":download:`Download Python source code: ex06_rubber-metal-spring.py "
 "<ex06_rubber-metal-spring.py>`"
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:245
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:244
 msgid ""
 ":download:`Download zipped: ex06_rubber-metal-spring.zip <ex06_rubber-metal-"
 "spring.zip>`"
@@ -841,7 +841,9 @@ msgid "assign a micro-sphere material formulation"
 msgstr ""
 
 #: ../../felupe/docs/examples/ex08_shear.rst:32
-msgid "define a step and a job along with a callback-function"
+msgid ""
+"define a step and a job along with a plugin to record force-displacement "
+"data"
 msgstr ""
 
 #: ../../felupe/docs/examples/ex08_shear.rst:34
@@ -863,13 +865,10 @@ msgstr ""
 #: ../../felupe/docs/examples/ex08_shear.rst:47
 msgid ""
 "Let's create the mesh. An additional center-point is created for a multi-"
-"point constraint (MPC). By default, FElupe stores points not connected to "
-"any cells in :attr:`Mesh.points_without_cells` and adds them to the list of "
-"inactive degrees of freedom. Hence, we have to drop our MPC-centerpoint from"
-" that list."
+"point constraint (MPC)."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:75
+#: ../../felupe/docs/examples/ex08_shear.rst:72
 msgid ""
 "A numeric quad-region created on the mesh in combination with a vector-"
 "valued displacement field for plane-strain as well as scalar-valued fields "
@@ -879,7 +878,7 @@ msgid ""
 "prescribed shear movement in direction :math:`x` at the MPC-centerpoint."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:100
+#: ../../felupe/docs/examples/ex08_shear.rst:96
 msgid ""
 "The micro-sphere material formulation is used for the rubber. It is defined "
 "as a :class:`~felupe.Hyperelastic` material. The material formulation is "
@@ -887,14 +886,14 @@ msgid ""
 " body."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:128
+#: ../../felupe/docs/examples/ex08_shear.rst:123
 msgid ""
 "At the centerpoint of a multi-point constraint (MPC) the external shear "
 "movement is prescribed. It also ensures a force-free top plate in direction "
 ":math:`y`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:151
+#: ../../felupe/docs/examples/ex08_shear.rst:145
 msgid ""
 "The shear movement is applied in substeps, which are each solved with an "
 "iterative newton-raphson procedure. Inside an iteration, the force residual "
@@ -910,7 +909,7 @@ msgid ""
 "object with the results of all substeps."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:187
+#: ../../felupe/docs/examples/ex08_shear.rst:181
 msgid ""
 "The principal stretches are evaluated for the maximum deformed "
 "configuration. This may be done manually, starting from the deformation "
@@ -920,24 +919,24 @@ msgid ""
 "quadrature-points to mesh-points."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:220
+#: ../../felupe/docs/examples/ex08_shear.rst:213
 msgid ""
 "The shear force :math:`F_x` vs. the displacements :math:`u_x` and "
 ":math:`u_y`, all located at the top plate, are plotted."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex08_shear.rst:252
+#: ../../felupe/docs/examples/ex08_shear.rst:244
 msgid ""
 ":download:`Download Jupyter notebook: ex08_shear.ipynb <ex08_shear.ipynb>`"
 msgstr ""
 ":download:`Download Jupyter notebook: ex08_shear.ipynb <ex08_shear.ipynb>`"
 
-#: ../../felupe/docs/examples/ex08_shear.rst:256
+#: ../../felupe/docs/examples/ex08_shear.rst:248
 msgid ":download:`Download Python source code: ex08_shear.py <ex08_shear.py>`"
 msgstr ""
 ":download:`Download Python source code: ex08_shear.py <ex08_shear.py>`"
 
-#: ../../felupe/docs/examples/ex08_shear.rst:260
+#: ../../felupe/docs/examples/ex08_shear.rst:252
 msgid ":download:`Download zipped: ex08_shear.zip <ex08_shear.zip>`"
 msgstr ":download:`Download zipped: ex08_shear.zip <ex08_shear.zip>`"
 
@@ -1197,7 +1196,7 @@ msgid ""
 "should be created with ``uniform=True`` to enhance performance."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:80
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:83
 msgid ""
 ":download:`Download Jupyter notebook: ex12_foot-bone.ipynb <ex12_foot-"
 "bone.ipynb>`"
@@ -1205,7 +1204,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex12_foot-bone.ipynb <ex12_foot-"
 "bone.ipynb>`"
 
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:84
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:87
 msgid ""
 ":download:`Download Python source code: ex12_foot-bone.py <ex12_foot-"
 "bone.py>`"
@@ -1213,7 +1212,7 @@ msgstr ""
 ":download:`Download Python source code: ex12_foot-bone.py <ex12_foot-"
 "bone.py>`"
 
-#: ../../felupe/docs/examples/ex12_foot-bone.rst:88
+#: ../../felupe/docs/examples/ex12_foot-bone.rst:91
 msgid ":download:`Download zipped: ex12_foot-bone.zip <ex12_foot-bone.zip>`"
 msgstr ":download:`Download zipped: ex12_foot-bone.zip <ex12_foot-bone.zip>`"
 
@@ -1924,26 +1923,26 @@ msgid ""
 "(control-) point, is added to the mesh."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex19_taylor-hood.rst:58
+#: ../../felupe/docs/examples/ex19_taylor-hood.rst:57
 msgid ""
 "Let's create a region for quadratic triangles and a mixed-field container "
 "with two dual fields, one for the pressure and another one for the volume "
 "ratio. The dual fields are disconnected."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex19_taylor-hood.rst:90
+#: ../../felupe/docs/examples/ex19_taylor-hood.rst:89
 msgid ""
 "A step is used containts the solid body and the rigid top plate as items. "
 "The rigid vertical movement of the top plate is applied in a ramped manner."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex19_taylor-hood.rst:107
+#: ../../felupe/docs/examples/ex19_taylor-hood.rst:106
 msgid ""
 "The maximum principal values of the Cauchy stress tensor are plotted. The "
 "cell-based means are projected to the mesh-points."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex19_taylor-hood.rst:130
+#: ../../felupe/docs/examples/ex19_taylor-hood.rst:129
 msgid ""
 ":download:`Download Jupyter notebook: ex19_taylor-hood.ipynb <ex19_taylor-"
 "hood.ipynb>`"
@@ -1951,7 +1950,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex19_taylor-hood.ipynb <ex19_taylor-"
 "hood.ipynb>`"
 
-#: ../../felupe/docs/examples/ex19_taylor-hood.rst:134
+#: ../../felupe/docs/examples/ex19_taylor-hood.rst:133
 msgid ""
 ":download:`Download Python source code: ex19_taylor-hood.py <ex19_taylor-"
 "hood.py>`"
@@ -1959,7 +1958,7 @@ msgstr ""
 ":download:`Download Python source code: ex19_taylor-hood.py <ex19_taylor-"
 "hood.py>`"
 
-#: ../../felupe/docs/examples/ex19_taylor-hood.rst:138
+#: ../../felupe/docs/examples/ex19_taylor-hood.rst:137
 msgid ""
 ":download:`Download zipped: ex19_taylor-hood.zip <ex19_taylor-hood.zip>`"
 msgstr ""
@@ -2220,7 +2219,7 @@ msgstr ""
 #: ../../felupe/docs/examples/ex22_solid_body_thermal.rst:29
 msgid ""
 "evaluate the surface heat flux at internal and external boundaries with a "
-"callback function"
+"job :class:`~felupe.Plugin`"
 msgstr ""
 
 #: ../../felupe/docs/examples/ex22_solid_body_thermal.rst:32
