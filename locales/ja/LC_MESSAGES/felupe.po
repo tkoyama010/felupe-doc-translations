@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-10 00:29+0000\n"
+"POT-Creation-Date: 2026-05-12 00:29+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -877,7 +877,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._tools.merge_duplicate_cells:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
-#: of felupe.plugins._animation_writer.AnimationWriterPlugin:23
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
@@ -1492,7 +1492,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._tools.merge_duplicate_cells:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
-#: of felupe.plugins._animation_writer.AnimationWriterPlugin:28
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.pydocstring
@@ -16918,7 +16918,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.Step:39
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
-#: of felupe.plugins._animation_writer.AnimationWriterPlugin:59
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:63
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:57
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
@@ -18444,50 +18444,58 @@ msgstr ""
 #: of felupe.plugins._animation_writer.AnimationWriterPlugin:5
 msgid ""
 "The filename of the animation file. Default is \"animation.gif\". Supported "
-"formats are GIF and MP4 (or any other format supported by PyVista)."
+"formats are GIF and MP4 (or any other format supported by PyVista). If None,"
+" no animation file will be written. Default is \"animation.gif\"."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
-#: of felupe.plugins._animation_writer.AnimationWriterPlugin:8
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:9
 msgid "The framerate of the animation. Default is 5."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
-#: of felupe.plugins._animation_writer.AnimationWriterPlugin:10
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:11
 msgid ""
 "The quality of the movie. Default is 5. This is only used for movie formats,"
 " not for GIFs."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
-#: of felupe.plugins._animation_writer.AnimationWriterPlugin:13
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:14
 msgid "The zoom factor for the camera. Default is 1.0."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
-#: of felupe.plugins._animation_writer.AnimationWriterPlugin:15
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:16
 msgid "Whether to reset the camera before each frame. Default is True."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
-#: of felupe.plugins._animation_writer.AnimationWriterPlugin:17
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:18
 msgid "Whether to show text on the plot. Default is True."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
-#: of felupe.plugins._animation_writer.AnimationWriterPlugin:19
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:20
+msgid ""
+"Whether to take screenshots for all substeps per step. If True, the "
+"screenshots will be saved in the \"figures\" folder. Default is False."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:23
 msgid "Additional keyword arguments to pass to the plot method of the items."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
-#: of felupe.plugins._animation_writer.AnimationWriterPlugin:24
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:28
 msgid ""
 "This plugin should be used with ``off_screen=True``. While it is possible to"
 " show the plotter during the job evaluation, it may flicker."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
-#: of felupe.plugins._animation_writer.AnimationWriterPlugin:58
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:62
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
