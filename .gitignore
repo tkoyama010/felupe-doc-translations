@@ -3,4 +3,7 @@
 _build/*
 locales/**/*.mo
 locales/pot/*
+locales/*.gif
+locales/*.h5
+locales/*.xdmf
 tx
