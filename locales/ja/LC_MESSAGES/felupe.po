@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-12 00:29+0000\n"
+"POT-Creation-Date: 2026-05-24 00:32+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -455,7 +455,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
 #: of felupe.plugins._animation_writer.AnimationWriterPlugin.before_job:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
-#: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:0
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.pydocstring
 #: of felupe.quadrature._gauss_legendre.GaussLegendre.inv:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.pydocstring
@@ -2106,7 +2107,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.get_point_ids_shared:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
-#: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:0
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.screenshot:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
@@ -18702,6 +18704,9 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:4
 msgid ""
 "A list with arrays of displacement data. If None, the displacement is taken "
 "from the first field of the field container from each completed substep. The"
@@ -18711,6 +18716,9 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:9
 msgid ""
 "A list with arrays of reaction force data. If None, the force is taken from "
 "the :class:`~felupe.tools.NewtonResult` of each completed substep. Default "
@@ -18719,11 +18727,17 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:13
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:13
 msgid "The axis for the displacement data (default is 0)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:15
 msgid "The axis for the reaction force data (default is 0)."
 msgstr ""
 
@@ -18739,26 +18753,41 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:21
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:17
 msgid "A scaling factor for the displacement data (default is 1.0)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:23
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:19
 msgid "A scaling factor the reaction force data (default is 1.0)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:25
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:21
 msgid "An offset for the displacement data (default is 0.0)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:27
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:23
 msgid "An offset for the reaction force data (default is 0.0)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:29
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:25
 msgid ""
 "A flag to plot the gradient of the y-data. Uses "
 "``numpy.gradient(edge_order=2)``. The gradient data is set to ``np.nan`` for"
@@ -18778,6 +18807,9 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.plot:38
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:30
 msgid ""
 "Indices or a range of data points to plot. If None, all data points are "
 "plotted (default is None)."
@@ -18808,6 +18840,34 @@ msgstr ""
 msgid ""
 "**ax** (*matplotlib.axes.Axes*) -- The axes object where the plot is placed "
 "in."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:1
+msgid ""
+"Return force-displacement characteristic curves on a pre-evaluated job, "
+"tracked on a given :class:`~felupe.Boundary` as arrays."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:34
+msgid ""
+"* **x** (*ndarray*) -- The final x-data. * **y** (*ndarray*) -- The final "
+"y-data."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:34
+msgid "**x** (*ndarray*) -- The final x-data."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:35
+msgid "**y** (*ndarray*) -- The final y-data."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
