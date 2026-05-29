@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-24 00:32+0000\n"
+"POT-Creation-Date: 2026-05-29 00:37+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1495,7 +1495,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
 #: of felupe.plugins._animation_writer.AnimationWriterPlugin:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
-#: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:12
+#: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.pydocstring
 #: of felupe.quadrature._gauss_legendre.GaussLegendre:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.pydocstring
@@ -16922,7 +16922,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
 #: of felupe.plugins._animation_writer.AnimationWriterPlugin:63
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
-#: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:57
+#: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:61
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
@@ -16979,7 +16979,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
 msgid ""
 ":py:obj:`CharacteristicCurvePlugin <felupe.CharacteristicCurvePlugin>`\\ "
-"\\(boundary\\[\\, items\\]\\)"
+"\\(boundary\\[\\, items\\, fun\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:41:<autosummary>:1
@@ -18499,7 +18499,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
 #: of felupe.plugins._animation_writer.AnimationWriterPlugin:62
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
-#: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:56
+#: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:60
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
@@ -18687,12 +18687,23 @@ msgstr ""
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:1
 msgid ""
 "A job plugin to record a characteristic curve. Force-displacement curve data"
-" is tracked during evaluation for a given :class:`~felupe.Boundary`."
+" is tracked during evaluation for a given :class:`~felupe.Boundary`. "
+"Optionally, the"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:4
 msgid "The boundary condition for which to record the characteristic curve."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:10
+msgid "A function to calculate the y-data of the curve from the x-data."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:12
+msgid "Additional keyword arguments for the function ``fun``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
