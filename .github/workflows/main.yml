@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Get Job URL
@@ -27,16 +27,16 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           job_name: script
       - name: checkout with submodule
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           submodules: true
-          token: ${{ secrets.PERSONAL_ACCESSTOKEN }}
+          token: ${{ github.token }}
       - name: Setup SSH
         uses: MrSquaare/ssh-setup-action@v4
         with:
           host: github.com
           private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-      - uses: awalsh128/cache-apt-pkgs-action@v1.6.0
+      - uses: awalsh128/cache-apt-pkgs-action@v1.6.3
         with:
           packages: libosmesa6-dev libgl1-mesa-dev python3-tk pandoc git-restore-mtime xvfb pandoc
           version: 3.0
