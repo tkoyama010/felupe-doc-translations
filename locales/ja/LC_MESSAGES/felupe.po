@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-19 00:08+0000\n"
+"POT-Creation-Date: 2026-08-31 19:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1457,7 +1457,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.dual:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.expand:22
+#: of felupe.mesh._mesh.Mesh.expand:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.fill_between:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
@@ -13752,7 +13752,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
 #: of felupe.field._planestrain.FieldPlaneStrain.grad:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._planestrain.FieldPlaneStrain.hess:8
+#: of felupe.field._planestrain.FieldPlaneStrain.hess:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
 #: of felupe.field._planestrain.FieldPlaneStrain.interpolate:8
 msgid ""
@@ -13793,7 +13793,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
 #: of felupe.field._planestrain.FieldPlaneStrain.grad:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._planestrain.FieldPlaneStrain.hess:11
+#: of felupe.field._planestrain.FieldPlaneStrain.hess:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
 #: of felupe.field._planestrain.FieldPlaneStrain.interpolate:11
 msgid ""
@@ -14589,7 +14589,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
 #: of felupe.field._planestrain.FieldPlaneStrain.grad:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._planestrain.FieldPlaneStrain.hess:15
+#: of felupe.field._planestrain.FieldPlaneStrain.hess:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
 #: of felupe.field._planestrain.FieldPlaneStrain.interpolate:15
 msgid ""
@@ -14651,8 +14651,6 @@ msgstr ""
 #: of felupe.field._base.Field.grad:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
 #: of felupe.field._planestrain.FieldPlaneStrain.grad:12
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._planestrain.FieldPlaneStrain.hess:6
 msgid "Calculate the symmetric part of the gradient (default is False)."
 msgstr ""
 
@@ -14837,11 +14835,11 @@ msgstr ""
 msgid ""
 "3D-Hessian as second partial derivative of field values at points w.r.t. the"
 " undeformed coordinates, evaluated at the integration points of all cells in"
-" the region. Optionally, the symmetric part of the gradient is returned."
+" the region."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
-#: of felupe.field._planestrain.FieldPlaneStrain.hess:22
+#: of felupe.field._planestrain.FieldPlaneStrain.hess:19
 msgid ""
 "Full 3D-hessian as second partial derivative of field values at points "
 "w.r.t. undeformed coordinates, evaluated at the integration points of all "
@@ -19630,7 +19628,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.expand:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.expand:44
+#: of felupe.mesh._mesh.Mesh.expand:42
 msgid ""
 "Expand a 0d-Point to a 1d-Line, a 1d-Line to a 2d-Quad or a 2d-Quad to a "
 "3d-Hexahedron Mesh."
@@ -20676,27 +20674,18 @@ msgid "Axis of expansion (default is -1)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.rotate:15
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.expand:13
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.rotate:9
-msgid "A boolean mask to select points which are rotated (default is None)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.expand:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.revolve:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.expand:15
+#: of felupe.mesh._mesh.Mesh.expand:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.revolve:10
 msgid "Expand the dimension of the point coordinates (default is True)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.expand:18
+#: of felupe.mesh._mesh.Mesh.expand:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.fill_between:13
 msgid "The expanded mesh."
@@ -20705,12 +20694,12 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.expand:28
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.expand:23
+#: of felupe.mesh._mesh.Mesh.expand:21
 msgid "Expand a rectangle to a cube."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.expand:43
+#: of felupe.mesh._mesh.Mesh.expand:41
 msgid ":py:obj:`felupe.mesh.expand`"
 msgstr ""
 
@@ -21394,6 +21383,13 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.rotate:7
 msgid "Center point coordinates (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.rotate:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.rotate:9
+msgid "A boolean mask to select points which are rotated (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
