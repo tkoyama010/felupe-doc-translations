@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-24 19:00+0000\n"
+"POT-Creation-Date: 2026-09-04 00:15+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -255,7 +255,7 @@ msgstr ""
 
 #: ../../felupe/docs/tutorial/extut01_getting_started.rst:142
 #: ../../felupe/docs/tutorial/extut02_job.rst:135
-#: ../../felupe/docs/tutorial/extut03_multiple-solids.rst:122
+#: ../../felupe/docs/tutorial/extut03_multiple-solids.rst:123
 #: ../../felupe/docs/tutorial/extut04_building_blocks.rst:539
 #: ../../felupe/docs/tutorial/index.rst:360
 msgid ""
@@ -377,13 +377,12 @@ msgstr ""
 msgid ""
 "This tutorial shows how to handle multiple solid bodies. There are different"
 " ways to approach this, but the method presented here is by far the most "
-"straightforward. We'll start with the meshes, regions, and fields. After "
-"that, a top-level field container will be introduced for the boundary "
-"conditions. When creating the solid bodies, make sure to use the fields from"
-" this merged container."
+"straightforward. We'll start with the meshes, regions, and fields as usual. "
+"After that, a top-level field container will be introduced for the boundary "
+"conditions."
 msgstr ""
 
-#: ../../felupe/docs/tutorial/extut03_multiple-solids.rst:65
+#: ../../felupe/docs/tutorial/extut03_multiple-solids.rst:67
 msgid ""
 "The ramped prescribed displacements for 5 substeps are created with "
 ":func:`~felupe.math.linsteps`. A :class:`~felupe.Step` is created with a "
@@ -391,25 +390,23 @@ msgid ""
 "ramped boundary conditions along with the prescribed values."
 msgstr ""
 
-#: ../../felupe/docs/tutorial/extut03_multiple-solids.rst:84
-msgid ""
-"This step is now added to a :class:`~felupe.Job`. The top-level field ``x0``"
-" is passed to :meth:`~felupe.Job.evaluate`."
+#: ../../felupe/docs/tutorial/extut03_multiple-solids.rst:86
+msgid "This step is now added to a :class:`~felupe.Job`."
 msgstr ""
 
-#: ../../felupe/docs/tutorial/extut03_multiple-solids.rst:107
+#: ../../felupe/docs/tutorial/extut03_multiple-solids.rst:108
 msgid ""
 ":download:`Download Jupyter notebook: extut03_multiple-solids.ipynb "
 "<extut03_multiple-solids.ipynb>`"
 msgstr ""
 
-#: ../../felupe/docs/tutorial/extut03_multiple-solids.rst:111
+#: ../../felupe/docs/tutorial/extut03_multiple-solids.rst:112
 msgid ""
 ":download:`Download Python source code: extut03_multiple-solids.py "
 "<extut03_multiple-solids.py>`"
 msgstr ""
 
-#: ../../felupe/docs/tutorial/extut03_multiple-solids.rst:115
+#: ../../felupe/docs/tutorial/extut03_multiple-solids.rst:116
 msgid ""
 ":download:`Download zipped: extut03_multiple-solids.zip <extut03_multiple-"
 "solids.zip>`"

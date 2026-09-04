@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-31 19:10+0000\n"
+"POT-Creation-Date: 2026-09-04 00:15+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -384,11 +384,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/element/_base.pydocstring
 #: of felupe.element._base.Element.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.interpolate:0
+#: of felupe.field._base.Field.reload:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.interpolate:0
+#: of felupe.field._base.Field.reload:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
 #: of felupe.field._evaluate.EvaluateFieldContainer.strain:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -769,11 +769,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.extract:35
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer.merge:12
+#: of felupe.field._container.FieldContainer.merge:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.extract:35
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
-#: of felupe.field._container.FieldContainer.merge:12
+#: of felupe.field._container.FieldContainer.merge:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._fields.FieldsMixed:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
@@ -1353,7 +1353,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.checkpoint:7
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.revolve:12
+#: of felupe.mechanics._solidbody.SolidBody.revolve:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
 #: of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.pydocstring
@@ -2056,11 +2056,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/element/_base.pydocstring
 #: of felupe.element._base.Element.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.interpolate:0
+#: of felupe.field._base.Field.reload:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.interpolate:0
+#: of felupe.field._base.Field.reload:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
 #: of felupe.field._evaluate.EvaluateFieldContainer.strain:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -2181,11 +2181,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/element/_base.pydocstring
 #: of felupe.element._base.Element.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.interpolate:0
+#: of felupe.field._base.Field.reload:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.interpolate:0
+#: of felupe.field._base.Field.reload:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
 #: of felupe.field._evaluate.EvaluateFieldContainer.strain:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -13951,43 +13951,28 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer.merge:7
+#: of felupe.field._container.FieldContainer.merge:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
-#: of felupe.field._container.FieldContainer.merge:7
-msgid ""
-"* *list of FieldContainer* -- A list with field containers to be used in "
-"different items (solid bodies). * *FieldContainer* -- The top-level field "
-"container, to be used as the ``x0``-argument in   "
-"`meth:`~felupe.Job.evaluate and for the creation of boundary conditions."
+#: of felupe.field._container.FieldContainer.merge:6
+msgid "Additional keyword arguments for :class:`~felupe.MeshContainer`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer.merge:7
+#: of felupe.field._container.FieldContainer.merge:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
-#: of felupe.field._container.FieldContainer.merge:7
+#: of felupe.field._container.FieldContainer.merge:9
 msgid ""
-"*list of FieldContainer* -- A list with field containers to be used in "
-"different items (solid bodies)."
+"The top-level field container, to be used as the ``x0``-argument in "
+":meth:`~felupe.Job.evaluate` and for the creation of boundary conditions. "
+"The given field containers are modified & reloaded in-place, along with a "
+"new attribute ``x0`` that points to this top-level field container."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer.merge:8
+#: of felupe.field._container.FieldContainer.merge:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
-#: of felupe.field._container.FieldContainer.merge:8
-msgid ""
-"*FieldContainer* -- The top-level field container, to be used as the "
-"``x0``-argument in `meth:`~felupe.Job.evaluate and for the creation of "
-"boundary conditions."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer.merge:15
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
-#: of felupe.field._container.FieldContainer.merge:15
-msgid ""
-"This works only if all regions are template regions, like "
-":class:`~felupe.RegionQuad` or :class:`~felupe.RegionHexahedron`, which are "
-"supported by :class:`~felupe.FieldDual`."
+#: of felupe.field._container.FieldContainer.merge:17
+msgid "Field containers with dual fields are not supported."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
@@ -14050,6 +14035,20 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.view:26
 msgid "Shift given values at quadrature-points to mesh-points."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.reload:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.reload:1
+msgid "Reload the Field Container with new fields."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.reload:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.reload:3
+msgid "List of fields."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
@@ -14156,7 +14155,7 @@ msgstr ""
 #: of felupe.field._container.FieldContainer.revolve:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:13
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:15
 msgid ":py:obj:`SolidBody.revolve`"
 msgstr ""
 
@@ -14169,10 +14168,10 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.revolve:40
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.revolve:57
+#: of felupe.mechanics._solidbody.SolidBody.revolve:59
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:14
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:16
 msgid "Return a revolved solid body"
 msgstr ""
 
@@ -14181,7 +14180,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.revolve:39
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.revolve:56
+#: of felupe.mechanics._solidbody.SolidBody.revolve:58
 msgid ":py:obj:`SolidBodyNearlyIncompressible.revolve`"
 msgstr ""
 
@@ -14724,6 +14723,54 @@ msgstr ""
 msgid ""
 "Interpolated field value components ``i``, evaluated at the quadrature "
 "points ``q`` of each cell ``c`` in the region."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
+#: of felupe.field._base.Field.reload:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.reload:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.reload:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
+#: of felupe.field._base.Field.reload:1
+msgid ""
+"Reload the field with a new region in-place. The field values are extended "
+"to the new region if necessary."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
+#: of felupe.field._base.Field.reload:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.reload:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.reload:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
+#: of felupe.field._base.Field.reload:4
+msgid "The new region for the field."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
+#: of felupe.field._base.Field.reload:6
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.reload:6
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.reload:6
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
+#: of felupe.field._base.Field.reload:6
+msgid ""
+"The padding mode to use if the field values need to be extended. Default is "
+"\"edge\"."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
+#: of felupe.field._base.Field.reload:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.reload:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.reload:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_planestrain.pydocstring
+#: of felupe.field._base.Field.reload:9
+msgid "Additional keyword arguments are passed to :func:`numpy.pad`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
@@ -17384,22 +17431,30 @@ msgid "Return a revolved solid body."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.revolve:8
+#: of felupe.mechanics._solidbody.SolidBody.revolve:7
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:8
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:7
+msgid "The revolved top-level field container. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:10
 msgid "The revolved solid body."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.revolve:13
+#: of felupe.mechanics._solidbody.SolidBody.revolve:15
 msgid ""
 "First, create an axisymmetric model. A non-homogeneous uniaxial tension load"
 " case is applied on the solid body."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.revolve:36
+#: of felupe.mechanics._solidbody.SolidBody.revolve:38
 msgid ""
 "The solid body is now revolved around the x-axis. This model may now be used"
 " to apply non-axisymmetric loads. Here, the same load case is also applied "
@@ -22945,16 +23000,8 @@ msgid ""
 "An element-compatible numeric integration scheme with points and weights."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._region.Region.copy:10
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._region.Region.reload:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region:10
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region.copy:10
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region.reload:10
 msgid ""
 "A flag to invoke gradient evaluation (default is True). If True, the partial"
 " derivatives of the element shape functions w.r.t. undeformed coordinates "
@@ -22962,16 +23009,8 @@ msgid ""
 " differential volumes :math:`dV` are evaluated."
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._region.Region.copy:15
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._region.Region.reload:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region:15
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region.copy:15
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region.reload:15
 msgid ""
 "A flag to invoke hessian evaluation in addition to the gradient (default is "
 "False). If True, the second partial derivatives of the element shape "
@@ -23198,6 +23237,37 @@ msgstr ""
 msgid ""
 "An element-compatible numeric integration scheme with points and weights "
 "(default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.copy:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.reload:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.copy:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.reload:10
+msgid ""
+"A flag to invoke gradient evaluation (default is None). If True, the partial"
+" derivatives of the element shape functions w.r.t. undeformed coordinates "
+":math:`\\frac{\\partial \\boldsymbol{h}}{\\partial \\boldsymbol{X}}` and the"
+" differential volumes :math:`dV` are evaluated."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.copy:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.reload:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.copy:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.reload:15
+msgid ""
+"A flag to invoke hessian evaluation in addition to the gradient (default is "
+"None). If True, the second partial derivatives of the element shape "
+"functions w.r.t. undeformed coordinates :math:`\\frac{\\partial^2 "
+"\\boldsymbol{h}}{\\partial \\boldsymbol{X}\\ \\partial \\boldsymbol{X}}` are"
+" evaluated."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
@@ -23686,7 +23756,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
 #: of
 #: felupe.thermal._solidbody_surface_heat_transfer.SolidBodySurfaceHeatTransfer:5
-msgid "The convection coefficient :math:`h` in W/(m^2 K)."
+msgid "The heat transfer coefficient :math:`h` in W/(m^2 K)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
@@ -23800,9 +23870,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
 #: of felupe.thermal._time_step.TimeStep:12
 msgid ""
-"This class is used to update the time step for each item in the list of "
-"items. The time step is calculated as the difference between the new time "
-"and the old time, and is assigned to each item in the list."
+"This class is used to update the time step for each thermal item in a "
+":class:`~felupe.Step`. The time step is calculated as the difference between"
+" the new time and the old time, and is assigned to each item in the list."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
