@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 00:15+0000\n"
+"POT-Creation-Date: 2026-09-09 00:16+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -20225,7 +20225,7 @@ msgstr ""
 msgid "\\boldsymbol{t}_1^T = \\begin{bmatrix} 0 & 1 & 2 & 3 \\end{bmatrix}"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mesh.rst:29
+#: ../../felupe/docs/felupe/mesh.rst:36
 msgid ""
 "A mesh provides several useful attributes, like the dimension, the number of"
 " points, number of cells, number of deegrees of freedom, points connected to"
