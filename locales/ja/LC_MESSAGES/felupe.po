@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-22 18:46+0000\n"
+"POT-Creation-Date: 2026-09-25 00:16+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1277,7 +1277,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:18
+#: of felupe.field._container.FieldContainer:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.merge:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
@@ -13440,7 +13440,7 @@ msgid "A field container is created with a list of one or more fields."
 msgstr ""
 
 #: ../../felupe/docs/felupe/field.rst:17:<autosummary>:1
-msgid ":py:obj:`FieldContainer <felupe.FieldContainer>`\\ \\(fields\\, \\*\\*kwargs\\)"
+msgid ":py:obj:`FieldContainer <felupe.FieldContainer>`\\ \\(fields\\[\\, take\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/field.rst:17:<autosummary>:1
@@ -13522,11 +13522,19 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer:6
+msgid ""
+"Take custom fields by field indices, used for "
+":meth:`~felupe.FieldContainer.extract`. If None, the fields are used in "
+"their original list item order. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer:10
 msgid "Extra class attributes for the field container."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:11
+#: of felupe.field._container.FieldContainer:15
 msgid ""
 "Methods to evaluate the deformation gradient and strain measures, see "
 ":class:`~felupe.field.EvaluateFieldContainer` for details on the provided "
@@ -13534,12 +13542,12 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:15
+#: of felupe.field._container.FieldContainer:19
 msgid "field.EvaluateFieldContainer"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:37
+#: of felupe.field._container.FieldContainer:41
 msgid ""
 "A new :class:`~felupe.FieldContainer` is also created by one of the logical-"
 "and combinations of a :class:`~felupe.Field`, "
@@ -13550,7 +13558,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
 #: of felupe.field._axi.FieldAxisymmetric:48
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:62
+#: of felupe.field._container.FieldContainer:66
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._dual.FieldDual:52
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -13563,7 +13571,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
 #: of felupe.field._axi.FieldAxisymmetric:49
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:63
+#: of felupe.field._container.FieldContainer:67
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._dual.FieldDual:53
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -13576,7 +13584,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:65
+#: of felupe.field._container.FieldContainer:69
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._dual.FieldDual:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -13585,7 +13593,7 @@ msgid ":py:obj:`felupe.FieldAxisymmetric`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:66
+#: of felupe.field._container.FieldContainer:70
 msgid ""
 "An axisymmetric :class:`~felupe.Field` on points of a two dimensional "
 ":class:`~felupe.Region` with dimension ``dim`` (default is 2) and initial "
@@ -13593,7 +13601,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:68
+#: of felupe.field._container.FieldContainer:72
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._dual.FieldDual:58
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -13602,7 +13610,7 @@ msgid ":py:obj:`felupe.FieldPlaneStrain`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:69
+#: of felupe.field._container.FieldContainer:73
 msgid ""
 "A plane strain :class:`~felupe.Field` on points of a two dimensional "
 ":class:`~felupe.Region` with dimension ``dim`` (default is 2) and initial "
