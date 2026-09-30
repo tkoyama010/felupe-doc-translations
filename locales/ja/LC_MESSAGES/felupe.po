@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-28 19:22+0000\n"
+"POT-Creation-Date: 2026-09-30 00:18+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -223,7 +223,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution.rst:55
 #: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:88
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:66
-#: ../../felupe/docs/felupe/constitution/core.rst:58
+#: ../../felupe/docs/felupe/constitution/core.rst:64
 #: ../../felupe/docs/felupe/constitution/tools.rst:34
 #: ../../felupe/docs/felupe/dof.rst:34 ../../felupe/docs/felupe/element.rst:56
 #: ../../felupe/docs/felupe/field.rst:27 ../../felupe/docs/felupe/math.rst:66
@@ -563,6 +563,8 @@ msgstr ""
 #: of felupe.constitution._mixed.NearlyIncompressible.gradient:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
 #: of felupe.constitution._mixed.NearlyIncompressible.hessian:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.constitution._mixed.ThirdMediumContactMixed:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.is_stable:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.pydocstring
@@ -1060,6 +1062,8 @@ msgstr ""
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:91
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
 #: of felupe.constitution._mixed.NearlyIncompressible:52
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.constitution._mixed.ThirdMediumContactMixed:47
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_view.pydocstring
 #: of felupe.constitution._view.ViewMaterial:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_view.pydocstring
@@ -2527,6 +2531,8 @@ msgstr ""
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:131
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:131
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.constitution._mixed.ThirdMediumContactMixed:64
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:131
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
@@ -8458,16 +8464,32 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:49
+msgid "**Third Medium Contact** :math:`(\\boldsymbol{u}, \\boldsymbol{\\theta})`"
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/core.rst:54:<autosummary>:1
+msgid ""
+":py:obj:`ThirdMediumContactMixed <felupe.ThirdMediumContactMixed>`\\ "
+"\\(material\\, gamma\\, ...\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/core.rst:54:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.constitution._mixed.ThirdMediumContactMixed:1
+msgid "A mixed formulation for a stabilized third medium contact [1]_."
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/core.rst:55
 msgid "**Strain-based Materials**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/core.rst:57:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/core.rst:63:<autosummary>:1
 msgid ""
 ":py:obj:`MaterialStrain <felupe.MaterialStrain>`\\ \\(material\\[\\, dim\\, "
 "statevars\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/core.rst:57:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/core.rst:63:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
 #: of felupe.constitution.strain._material_strain.MaterialStrain:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
@@ -8486,7 +8508,7 @@ msgid ""
 "the stress tensor and the (fourth-order) elasticity tensor."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/core.rst:57:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/core.rst:63:<autosummary>:1
 msgid ""
 ":py:obj:`linear_elastic <felupe.linear_elastic>`\\ \\(dε\\, εn\\, σn\\, "
 "ζn\\, λ\\, μ\\, \\*\\*kwargs\\)"
@@ -8494,7 +8516,7 @@ msgstr ""
 ":py:obj:`linear_elastic <felupe.linear_elastic>`\\ \\(dε\\, εn\\, σn\\, "
 "ζn\\, λ\\, μ\\, \\*\\*kwargs\\)"
 
-#: ../../felupe/docs/felupe/constitution/core.rst:57:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/core.rst:63:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
 #: of felupe.constitution.strain.models._linear_elastic.linear_elastic:1
 msgid ""
@@ -8502,13 +8524,13 @@ msgid ""
 ":class:`~felupe.MaterialStrain`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/core.rst:57:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/core.rst:63:<autosummary>:1
 msgid ""
 ":py:obj:`linear_elastic_viscoelastic <felupe.linear_elastic_viscoelastic>`\\"
 " \\(dε\\, εn\\, σn\\, ζn\\, ...\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/core.rst:57:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/core.rst:63:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
 #: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:1
@@ -8517,7 +8539,7 @@ msgid ""
 ":class:`~felupe.MaterialStrain`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/core.rst:57:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/core.rst:63:<autosummary>:1
 msgid ""
 ":py:obj:`linear_elastic_plastic_isotropic_hardening "
 "<felupe.linear_elastic_plastic_isotropic_hardening>`\\ \\(dε\\, ...\\)"
@@ -8525,7 +8547,7 @@ msgstr ""
 ":py:obj:`linear_elastic_plastic_isotropic_hardening "
 "<felupe.linear_elastic_plastic_isotropic_hardening>`\\ \\(dε\\, ...\\)"
 
-#: ../../felupe/docs/felupe/constitution/core.rst:57:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/core.rst:63:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:1
@@ -9879,6 +9901,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
 #: of felupe.constitution._mixed.NearlyIncompressible:38
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.constitution._mixed.ThirdMediumContactMixed:21
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
 #: of felupe.constitution._mixed.ThreeFieldVariation:143
 msgid ""
 "A flag to invoke parallel (threaded) math operations (default is False)."
@@ -10444,6 +10468,84 @@ msgid ""
 "\\mathbb{A} &= \\frac{\\partial^2 \\psi}{\\partial \\boldsymbol{F} \\partial\n"
 "\\boldsymbol{F}} + \\frac{\\partial \\eta}{\\partial \\psi} \\frac{\\partial \\psi}\n"
 "{\\partial \\boldsymbol{F}} \\otimes \\frac{\\partial \\psi}{\\partial \\boldsymbol{F}}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.constitution._mixed.ThirdMediumContactMixed:3
+msgid ""
+"The second-order regularization of the third medium is expressed by an "
+"additional tensor-valued field :math:`\\boldsymbol{\\theta}` which "
+"approximates the displacement gradient :math:`\\boldsymbol{H} = "
+"\\boldsymbol{F} - \\boldsymbol{1}`. Hence, only first-order derivatives of "
+"the fields are required."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.constitution._mixed.ThirdMediumContactMixed:8
+msgid ""
+"A hyperelastic material definition for the strain energy density function "
+":math:`\\psi(\\boldsymbol{F})` of the third medium with methods for the "
+"``gradient`` and the ``hessian`` w.r.t. the deformation gradient tensor."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.constitution._mixed.ThirdMediumContactMixed:12
+msgid ""
+"The scaling factor :math:`\\gamma` of the strain energy density function of "
+"the third medium."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.constitution._mixed.ThirdMediumContactMixed:15
+msgid ""
+"The regularization parameter :math:`\\alpha_r` for the gradient of the "
+"tensor-valued field."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.constitution._mixed.ThirdMediumContactMixed:18
+msgid ""
+"The penalty parameter :math:`p_r` which enforces the constraint "
+":math:`\\boldsymbol{\\theta} = \\boldsymbol{H}`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.constitution._mixed.ThirdMediumContactMixed:26
+msgid ""
+"The strain energy density function is given in Eq. :eq:`third-medium-"
+"contact-mixed`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.constitution._mixed.ThirdMediumContactMixed:29
+msgid ""
+"\\Psi(\\boldsymbol{F}, \\boldsymbol{\\theta}, \\nabla \\boldsymbol{\\theta}) =\n"
+"    \\gamma\\ \\psi(\\boldsymbol{F})\n"
+"    + \\frac{p_r}{2} \\left( \\boldsymbol{\\theta} - \\boldsymbol{H} \\right) :\n"
+"      \\left( \\boldsymbol{\\theta} - \\boldsymbol{H} \\right)\n"
+"    + \\frac{\\alpha_r}{2}\\ \\nabla \\boldsymbol{\\theta} ~\\vdots~\n"
+"      \\nabla \\boldsymbol{\\theta}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.constitution._mixed.ThirdMediumContactMixed:39
+msgid ""
+"The field :math:`\\boldsymbol{\\theta}` is a (non-axisymmetric) "
+":class:`~felupe.Field` with nine components. It is taken twice in the field "
+"container, where the gradient is evaluated only for the second occurrence. "
+"This results in the list of kinematic quantities :math:`(\\boldsymbol{F}, "
+"\\boldsymbol{\\theta}, \\nabla \\boldsymbol{\\theta})`. For two-dimensional "
+"regions, the gradient :math:`\\nabla \\boldsymbol{\\theta}` is evaluated "
+"w.r.t. the in-plane coordinates."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.constitution._mixed.ThirdMediumContactMixed:65
+msgid ""
+"M. Vorwerk, J. Schröder, and P. Wriggers, \"A mixed finite element "
+"formulation for stabilized third medium contact\", Computer Methods in "
+"Applied Mechanics and Engineering, vol. 463, p. 119416, Jan. 2027. doi: "
+"`10.1016/j.cma.2026.119416 <https://doi.org/10.1016/j.cma.2026.119416>`_."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
