@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 00:19+0000\n"
+"POT-Creation-Date: 2026-10-02 00:17+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -102,7 +102,7 @@ msgstr "変位フィールドの大きさは、300倍に拡大された変形形
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:349
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:206
 #: ../../felupe/docs/examples/ex18_nonlinear-viscoelasticity-newton.rst:137
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:228
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:229
 msgid "References"
 msgstr "参考資料"
 
@@ -153,7 +153,7 @@ msgstr ":download:`Download zipped: ex01_beam.zip <ex01_beam.zip>`"
 #: ../../felupe/docs/examples/ex17_torsion-gif.rst:146
 #: ../../felupe/docs/examples/ex18_nonlinear-viscoelasticity-newton.rst:171
 #: ../../felupe/docs/examples/ex19_taylor-hood.rst:144
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:278
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:279
 #: ../../felupe/docs/examples/ex21_nonlinear-truss-analysis.rst:287
 #: ../../felupe/docs/examples/ex22_solid_body_thermal.rst:294
 #: ../../felupe/docs/examples/index.rst:436
@@ -2054,14 +2054,15 @@ msgid ""
 "For larger load increments, a full Newton step may lead to inadmissible "
 "deformations of the third medium (:math:`\\det \\boldsymbol{F} \\le 0`). An "
 "optional backtracking line search (:class:`~felupe.LinesearchPlugin`) scales"
-" down such Newton increments."
+" down such Newton increments. By alternative, an incremental cutback "
+"strategy (:class:`~felupe.CutbackPlugin`) can be used."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:230
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:231
 msgid "https://en.wikipedia.org/wiki/Third_medium_contact_method"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:232
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:233
 msgid ""
 "G. L. Bluhm, O. Sigmund, and K. Poulios, \"Internal contact modeling for "
 "finite strain topology optimization\", Computational Mechanics, vol. 67, no."
@@ -2069,11 +2070,11 @@ msgid ""
 "|DOI-2|."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:244
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:245
 msgid "DOI-2"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:236
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:237
 msgid ""
 "A. H. Frederiksen, O. Sigmund, and K. Poulios, \"Topology optimization of "
 "self- contacting structures\", Computational Mechanics, vol. 73, no. 4. "
@@ -2081,11 +2082,11 @@ msgid ""
 "|DOI-3|."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:247
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:248
 msgid "DOI-3"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:240
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:241
 msgid ""
 "[1] A. H. Frederiksen, A. Dalklint, O. Sigmund, and K. Poulios, \"Improved "
 "third medium formulation for 3D topology optimization with contact\", "
@@ -2093,13 +2094,13 @@ msgid ""
 "Mar. 2025. |DOI-4|."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:250
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:251
 msgid ""
 "image:: https://zenodo.org/badge/DOI/10.1016/j.cma.2024.117595.svg :target: "
 "https://www.doi.org/10.1016/j.cma.2024.117595"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:263
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:264
 msgid ""
 ":download:`Download Jupyter notebook: ex20_third-medium-contact.ipynb "
 "<ex20_third-medium-contact.ipynb>`"
@@ -2107,7 +2108,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex20_third-medium-contact.ipynb "
 "<ex20_third-medium-contact.ipynb>`"
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:267
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:268
 msgid ""
 ":download:`Download Python source code: ex20_third-medium-contact.py "
 "<ex20_third-medium-contact.py>`"
@@ -2115,7 +2116,7 @@ msgstr ""
 ":download:`Download Python source code: ex20_third-medium-contact.py "
 "<ex20_third-medium-contact.py>`"
 
-#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:271
+#: ../../felupe/docs/examples/ex20_third-medium-contact.rst:272
 msgid ""
 ":download:`Download zipped: ex20_third-medium-contact.zip <ex20_third-"
 "medium-contact.zip>`"
