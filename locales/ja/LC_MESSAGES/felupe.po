@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-03 00:15+0000\n"
+"POT-Creation-Date: 2026-10-05 20:04+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1815,6 +1815,16 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/assembly/_cartesian.pydocstring
 #: of felupe.assembly._cartesian.IntegralFormCartesian.assemble:1
 msgid "Assembly of sparse region vectors or matrices."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
+#: of felupe.assembly.IntegralFormAxisymmetric.indices:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/assembly/_cartesian.pydocstring
+#: of felupe.assembly.IntegralFormCartesian.indices:1
+msgid ""
+"The (row, column) indices of the values of a bilinear form in COO-format. "
+"These are only required if the form is not assembled with a sparsity "
+"pattern."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/felupe/assembly/_axi.pydocstring
