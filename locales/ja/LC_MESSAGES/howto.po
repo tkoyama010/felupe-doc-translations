@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-04 00:59+0000\n"
+"POT-Creation-Date: 2026-10-09 00:17+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -613,20 +613,20 @@ msgid ""
 " Custom solvers may be passed to the evaluation of a :class:`~felupe.Job`."
 msgstr ""
 
-#: ../../felupe/docs/howto/solvers.rst:15
+#: ../../felupe/docs/howto/solvers.rst:21
 msgid "Solvers from SciPy Sparse:"
 msgstr ""
 
-#: ../../felupe/docs/howto/solvers.rst:28
+#: ../../felupe/docs/howto/solvers.rst:34
 msgid "``minres`` may be replaced by another iterative method."
 msgstr ""
 
-#: ../../felupe/docs/howto/solvers.rst:39
+#: ../../felupe/docs/howto/solvers.rst:45
 msgid "Solvers from external packages:"
 msgstr ""
 
-#: ../../felupe/docs/howto/solvers.rst:43
-#: ../../felupe/docs/howto/solvers.rst:55
+#: ../../felupe/docs/howto/solvers.rst:49
+#: ../../felupe/docs/howto/solvers.rst:61
 msgid ""
 "Ensure to have `PyPardiso <https://github.com/haasad/PyPardisoProject>`_  "
 "installed."
