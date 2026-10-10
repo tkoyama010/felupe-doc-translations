@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-09 00:17+0000\n"
+"POT-Creation-Date: 2026-10-10 00:17+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -227,7 +227,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution/tools.rst:34
 #: ../../felupe/docs/felupe/dof.rst:34 ../../felupe/docs/felupe/element.rst:56
 #: ../../felupe/docs/felupe/field.rst:27 ../../felupe/docs/felupe/math.rst:66
-#: ../../felupe/docs/felupe/mechanics.rst:70
+#: ../../felupe/docs/felupe/mechanics.rst:71
 #: ../../felupe/docs/felupe/mesh.rst:63
 #: ../../felupe/docs/felupe/quadrature.rst:32
 #: ../../felupe/docs/felupe/region.rst:39
@@ -411,6 +411,8 @@ msgstr ""
 #: of felupe.math._tensor.tovoigt:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
 #: of felupe.mechanics._contact.ContactRigidPlane.restore:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
@@ -485,6 +487,10 @@ msgstr ""
 #: of felupe.tools._save.save:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
 #: of felupe.view._mesh.ViewMesh:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
 #: of felupe.view._solid.ViewSolid:0
 msgid "Parameters"
@@ -834,6 +840,10 @@ msgstr ""
 #: of felupe.mechanics._contact.ContactRigidPlane:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
 #: of felupe.mechanics._contact.ContactRigidPlane.checkpoint:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:37
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint.update:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
 #: of felupe.mechanics._free_vibration.FreeVibration:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
@@ -903,9 +913,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._tools.merge_duplicate_cells:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:31
+#: of felupe.view._mesh_select_edge_points.select_edge_points:43
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:24
+#: of felupe.view._mesh_select_surface_points.select_surface_points:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
 #: of felupe.plugins._animation_writer.AnimationWriterPlugin:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
@@ -966,9 +976,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.topoints:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:31
+#: of felupe.view._mesh_select_edge_points.select_edge_points:43
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:24
+#: of felupe.view._mesh_select_surface_points.select_surface_points:44
 msgid "Notes"
 msgstr ""
 
@@ -1383,6 +1393,8 @@ msgstr ""
 #: of felupe.mechanics._contact.ContactRigidPlane:131
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
 #: of felupe.mechanics._curve.CharacteristicCurve:22
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:118
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
 #: of felupe.mechanics._free_vibration.FreeVibration:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_item.pydocstring
@@ -1543,6 +1555,10 @@ msgstr ""
 #: of felupe.mesh._mesh.Mesh.write:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._tools.merge_duplicate_cells:23
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:59
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:65
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
 #: of felupe.plugins._animation_writer.AnimationWriterPlugin:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
@@ -1626,6 +1642,10 @@ msgstr ""
 #: of felupe.view._field.ViewField:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
 #: of felupe.view._mesh.ViewMesh:21
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:59
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:65
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_scene.pydocstring
 #: of felupe.view._scene.Scene:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
@@ -2058,7 +2078,6 @@ msgstr ""
 #: ../../felupe/docs/felupe/mechanics.rst:0
 #: ../../felupe/docs/felupe/mesh.rst:0 ../../felupe/docs/felupe/region.rst:0
 #: ../../felupe/docs/felupe/thermal.rst:0 ../../felupe/docs/felupe/tools.rst:0
-#: ../../felupe/docs/felupe/view.rst:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
 #: of felupe.assembly.expression._decorator.FormExpressionDecorator:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
@@ -2153,6 +2172,8 @@ msgstr ""
 #: of felupe.math._tensor.tovoigt:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
 #: of felupe.mechanics._contact.ContactRigidPlane.restore:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
@@ -2189,6 +2210,10 @@ msgstr ""
 #: of felupe.tools._newton.newtonraphson:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.topoints:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:0
 msgid "Returns"
 msgstr ""
 
@@ -2204,7 +2229,6 @@ msgstr ""
 #: ../../felupe/docs/felupe/mechanics.rst:0
 #: ../../felupe/docs/felupe/mesh.rst:0 ../../felupe/docs/felupe/region.rst:0
 #: ../../felupe/docs/felupe/thermal.rst:0 ../../felupe/docs/felupe/tools.rst:0
-#: ../../felupe/docs/felupe/view.rst:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
 #: of felupe.assembly.expression._decorator.FormExpressionDecorator:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
@@ -2283,6 +2307,8 @@ msgstr ""
 #: of felupe.math._tensor.tovoigt:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
 #: of felupe.mechanics._contact.ContactRigidPlane.restore:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
@@ -2314,6 +2340,10 @@ msgstr ""
 #: of felupe.tools._newton.newtonraphson:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.topoints:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:0
 msgid "Return type"
 msgstr ""
 
@@ -2417,7 +2447,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
 #: of felupe.assembly.expression._decorator.FormExpressionDecorator:125
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:177
+#: of felupe.dof._boundary.Boundary:201
 msgid ":py:obj:`felupe.FormItem`"
 msgstr ""
 
@@ -2444,6 +2474,8 @@ msgstr ""
 #: of felupe.dof._boundary.Boundary:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
@@ -11815,20 +11847,42 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:138
 msgid ""
+"The mesh-points of a boundary condition may also be selected interactively, "
+"either by surface patches or by edge patches of the mesh, see "
+":func:`~felupe.view.select_surface_points` and "
+":func:`~felupe.view.select_edge_points`. A window opens, in which a left "
+"click on a patch selects (or excludes) it and a right click finishes the "
+"selection. The points are selected directly on the creation of the boundary "
+"condition by ``select_points=\"surfaces\"`` or ``select_points=\"edges\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary:150
+msgid ""
+"Alternatively, the points of an existing boundary condition are selected "
+"afterwards. This replaces the previously selected points, the skipped axes "
+"and the value of the boundary condition are kept. Optional keyword "
+"arguments, e.g. the coordinates of points for an initial selection of "
+"patches, are passed to the interactive selection."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary:162
+msgid ""
 "A boundary condition may be skipped on given axes, i.e. if only the "
 "x-components of a field should be prescribed on the selected points, then "
 "the y-axis must be skipped."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:149
+#: of felupe.dof._boundary.Boundary:173
 msgid ""
 "Values for the prescribed degrees of freedom are either applied during "
 "creation or by the update-method."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:161
+#: of felupe.dof._boundary.Boundary:185
 msgid ""
 "Sometimes it is useful to create a boundary with all axes skipped. This "
 "boundary has no prescribed degrees of freedom and hence, is without effect. "
@@ -11837,17 +11891,17 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:168
+#: of felupe.dof._boundary.Boundary:192
 msgid ":py:obj:`felupe.CharacteristicCurve`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:169
+#: of felupe.dof._boundary.Boundary:193
 msgid "A job with a boundary to be tracked."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:171
+#: of felupe.dof._boundary.Boundary:195
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:163
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -11860,7 +11914,7 @@ msgid ":py:obj:`felupe.dof.partition`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:172
+#: of felupe.dof._boundary.Boundary:196
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:164
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -11873,7 +11927,7 @@ msgid "Partition degrees of freedom into prescribed and active dof."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:174
+#: of felupe.dof._boundary.Boundary:198
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:166
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -11886,7 +11940,7 @@ msgid ":py:obj:`felupe.dof.apply`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:175
+#: of felupe.dof._boundary.Boundary:199
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:167
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -11899,7 +11953,7 @@ msgid "Apply prescribed values for a list of boundaries."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:178
+#: of felupe.dof._boundary.Boundary:202
 msgid "Create boundaries by weak forms."
 msgstr ""
 
@@ -11912,6 +11966,100 @@ msgstr ""
 #: of felupe.dof._boundary.Boundary.plot:1
 msgid ""
 "Plot the points and their prescribed directions of a boundary condition."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary.select_edge_points:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary.select_surface_points:18
+msgid ""
+"Interactively select the points of the boundary condition by edge patches of"
+" the mesh."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary.select_edge_points:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary.select_surface_points:4
+msgid ""
+"This replaces the previously selected points. The skipped axes and the value"
+" of the boundary condition are kept. If the boundary condition has a dof-"
+"based mask, all axes of the selected points are prescribed."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary.select_edge_points:8
+msgid ""
+"Optional keyword arguments for :func:`~felupe.view.select_edge_points`, e.g."
+" ``selected`` and ``excluded`` for an initial selection of patches."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary.select_edge_points:14
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:91
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:91
+msgid ":py:obj:`felupe.view.select_edge_points`"
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary.select_edge_points:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:1
+msgid ""
+"Interactively select (and exclude) smooth edge patches and return their "
+"point ids."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary.select_edge_points:17
+msgid ":py:obj:`felupe.Boundary.select_surface_points`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary.select_edge_points:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary.select_surface_points:1
+msgid ""
+"Interactively select the points of the boundary condition by surface patches"
+" of the mesh."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary.select_surface_points:8
+msgid ""
+"Optional keyword arguments for :func:`~felupe.view.select_surface_points`, "
+"e.g. ``selected`` and ``excluded`` for an initial selection of patches."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary.select_surface_points:14
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:85
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:85
+msgid ":py:obj:`felupe.view.select_surface_points`"
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary.select_surface_points:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:1
+msgid ""
+"Interactively select (and exclude) smooth surface patches and return their "
+"point ids."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary.select_surface_points:17
+msgid ":py:obj:`felupe.Boundary.select_edge_points`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
@@ -11989,6 +12137,8 @@ msgstr ""
 #: of felupe.dof._tools.apply:61
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.partition:55
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:171
 msgid ":py:obj:`felupe.Boundary`"
 msgstr ""
 
@@ -12004,6 +12154,8 @@ msgstr ""
 #: of felupe.dof._tools.apply:62
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.partition:56
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:172
 msgid "A collection of prescribed degrees of freedom."
 msgstr ""
 
@@ -17413,10 +17565,10 @@ msgid "A class to keep track of the state of an iteration during evaluation."
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:46
-msgid "**Point Load and Multi-Point Constraints**"
+msgid "**Point Load and Constraints**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:53:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
 msgid ""
 ":py:obj:`PointLoad <felupe.PointLoad>`\\ \\(field\\, points\\[\\, values\\, "
 "apply\\_on\\, ...\\]\\)"
@@ -17424,7 +17576,7 @@ msgstr ""
 ":py:obj:`PointLoad <felupe.PointLoad>`\\ \\(field\\, points\\[\\, values\\, "
 "apply\\_on\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:53:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.pydocstring
 #: of felupe.mechanics._pointload.PointLoad:1
 msgid ""
@@ -17432,7 +17584,7 @@ msgid ""
 "applied on the n-th field."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:53:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
 msgid ""
 ":py:obj:`MultiPointConstraint <felupe.MultiPointConstraint>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
@@ -17440,7 +17592,7 @@ msgstr ""
 ":py:obj:`MultiPointConstraint <felupe.MultiPointConstraint>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:53:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointConstraint:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
@@ -17449,7 +17601,7 @@ msgid ""
 "A Multi-point-constraint which connects a center-point to a list of points."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:53:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
 msgid ""
 ":py:obj:`MultiPointContact <felupe.MultiPointContact>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
@@ -17457,7 +17609,7 @@ msgstr ""
 ":py:obj:`MultiPointContact <felupe.MultiPointContact>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:53:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointContact:1
 msgid ""
@@ -17465,34 +17617,47 @@ msgid ""
 "to a list of points."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:54
+#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
+msgid ""
+":py:obj:`CylindricalConstraint <felupe.CylindricalConstraint>`\\ \\(field\\,"
+" points\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:1
+msgid ""
+"A constraint for the displacements of points in cylindrical coordinates."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:55
 msgid "**Contact**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:60:<autosummary>:1
 msgid ""
 ":py:obj:`ContactRigidPlane <felupe.ContactRigidPlane>`\\ \\(field\\, "
 "points\\, ...\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:59:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:60:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
 #: of felupe.mechanics._contact.ContactRigidPlane:1
 msgid ""
 "A node-to-surface contact, where the surface is given by a rigid plane."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:60
+#: ../../felupe/docs/felupe/mechanics.rst:61
 msgid "**Helpers for Custom Items and State Variables**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:69:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.StateNearlyIncompressible "
 "<felupe.mechanics.StateNearlyIncompressible>`\\ \\(field\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:69:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.StateNearlyIncompressible:1
 msgid ""
@@ -17500,49 +17665,49 @@ msgid ""
 "incompressible solid bodies."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:69:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.Assemble <felupe.mechanics.Assemble>`\\ \\(\\[vector\\, "
 "matrix\\, mass\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:69:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.Assemble:1
 msgid "A class with methods for assembling vectors and matrices of an Item."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:69:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.Evaluate <felupe.mechanics.Evaluate>`\\ \\(gradient\\, "
 "hessian\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:69:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.Evaluate:1
 msgid "A class with evaluate methods of an Item."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:69:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.Results <felupe.mechanics.Results>`\\ \\(\\[stress\\, "
 "elasticity\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:69:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.Results:1
 msgid "A class with intermediate results of an Item."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:69:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.UpdateItem <felupe.mechanics.UpdateItem>`\\ \\(parent\\, "
 "key\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:69:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_update.pydocstring
 #: of felupe.mechanics._update.UpdateItem:1
 msgid ""
@@ -20740,6 +20905,8 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
 #: of felupe.mechanics._contact.ContactRigidPlane:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointConstraint:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
@@ -20890,9 +21057,263 @@ msgid ""
 " is plotted."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:168
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointContact:122
 msgid ":py:obj:`felupe.MultiPointConstraint`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:5
+msgid "An array with indices (or a mask) of the points to be constrained."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:7
+msgid "A point on the axis. Default is (0, 0, 0)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:9
+msgid ""
+"The direction of the axis, perpendicular to the plane for 2d-meshes. Default"
+" is (0, 0, 1)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:12
+msgid ""
+"The prescribed displacements :math:`(u_r, u_\\theta, u_z)` for all points or"
+" per point with shape (n, 3), where :math:`u_\\theta` is the arc length on "
+"the undeformed radius. May be ramped in a :class:`~felupe.Step`, see "
+":meth:`update`. Default is (0, 0, 0)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:17
+msgid ""
+"Flags to skip the radial, the circumferential and the axial direction. "
+"Default is (False, False, False)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:20
+msgid ""
+"The penalty stiffness :math:`k` per point and direction. Default is 1e3."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:25
+msgid "The undeformed radii :math:`R` of the points."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:27
+msgid "(n,) ndarray"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:31
+msgid ""
+"The results of the last evaluation, including the gaps ``results.gap`` with "
+"shape (n, 3)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:34
+msgid "Results"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:38
+msgid ""
+"A :class:`~felupe.CylindricalConstraint` is supported as an item in a "
+":class:`~felupe.Step`. For each point, the undeformed radius, the axial "
+"coordinate and the cylindrical base vectors are evaluated w.r.t. the center-"
+"point :math:`\\boldsymbol{X}_0` and the normalized axis "
+":math:`\\boldsymbol{a}`, see Eq. :eq:`cylindrical-basis`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:44
+msgid ""
+"\\boldsymbol{P} &= \\boldsymbol{1} - \\boldsymbol{a} \\otimes \\boldsymbol{a}\n"
+"\n"
+"R &= \\| \\boldsymbol{P} (\\boldsymbol{X} - \\boldsymbol{X}_0) \\|, \\qquad\n"
+"Z = \\boldsymbol{a} \\cdot (\\boldsymbol{X} - \\boldsymbol{X}_0)\n"
+"\n"
+"\\boldsymbol{e}_r &= \\frac{1}{R}\\, \\boldsymbol{P} (\\boldsymbol{X} -\n"
+"\\boldsymbol{X}_0), \\qquad\n"
+"\\boldsymbol{e}_\\theta = \\boldsymbol{a} \\times \\boldsymbol{e}_r, \\qquad\n"
+"\\boldsymbol{e}_z = \\boldsymbol{a}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:57
+msgid ""
+"The constraint is enforced by a penalty method with the potential in Eq. "
+":eq:`cylindrical-potential`, summed up for all points and all directions "
+"which are not skipped."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:61
+msgid "\\Pi = \\sum_{\\text{points}} \\sum_{i \\in \\{r, \\theta, z\\}} \\frac{k}{2}\\, g_i^2"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:66
+msgid ""
+"The gaps are evaluated in the deformed configuration :math:`\\boldsymbol{x} "
+"= \\boldsymbol{X} + \\boldsymbol{u}` with the base vectors rotated by the "
+"angle :math:`\\varphi = u_\\theta / R`, see Eq. :eq:`cylindrical-gaps`. If "
+"the circumferential direction is skipped, the radial gap is the exact "
+"distance to the axis, i.e. the points slide on the cylinder like in a rigid "
+"sleeve."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:72
+msgid ""
+"\\boldsymbol{e}_r(\\varphi) &= \\cos(\\varphi)\\, \\boldsymbol{e}_r\n"
+"    + \\sin(\\varphi)\\, \\boldsymbol{e}_\\theta, \\qquad\n"
+"\\boldsymbol{e}_\\theta(\\varphi) = -\\sin(\\varphi)\\, \\boldsymbol{e}_r\n"
+"    + \\cos(\\varphi)\\, \\boldsymbol{e}_\\theta\n"
+"\n"
+"g_r &= \\begin{cases}\n"
+"    \\boldsymbol{e}_r(\\varphi) \\cdot (\\boldsymbol{x} - \\boldsymbol{X}_0)\n"
+"    - (R + u_r) & \\text{circumferential direction constrained} \\\\\n"
+"    \\| \\boldsymbol{P} (\\boldsymbol{x} - \\boldsymbol{X}_0) \\| - (R + u_r)\n"
+"    & \\text{circumferential direction skipped}\n"
+"\\end{cases}\n"
+"\n"
+"g_\\theta &= \\boldsymbol{e}_\\theta(\\varphi) \\cdot\n"
+"    (\\boldsymbol{x} - \\boldsymbol{X}_0)\n"
+"\n"
+"g_z &= \\boldsymbol{a} \\cdot (\\boldsymbol{x} - \\boldsymbol{X}_0) - (Z + u_z)"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:92
+msgid ""
+"The residual vector and the stiffness matrix of a point are given in Eq. "
+":eq:`cylindrical-vector-matrix`. The only non-zero second derivative is the "
+"one of the exact radial gap with the deformed radius :math:`\\rho` and the "
+"deformed radial direction :math:`\\boldsymbol{n}`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:97
+msgid ""
+"\\boldsymbol{r} &= \\sum_i k\\, g_i\\, \\frac{\\partial g_i}{\\partial \\boldsymbol{x}}\n"
+"\n"
+"\\boldsymbol{K} &= \\sum_i k \\left(\n"
+"    \\frac{\\partial g_i}{\\partial \\boldsymbol{x}} \\otimes\n"
+"    \\frac{\\partial g_i}{\\partial \\boldsymbol{x}}\n"
+"    + g_i\\, \\frac{\\partial^2 g_i}{\n"
+"        \\partial \\boldsymbol{x}\\, \\partial \\boldsymbol{x}\n"
+"    }\n"
+"\\right)\n"
+"\n"
+"\\frac{\\partial^2 g_r}{\\partial \\boldsymbol{x}\\, \\partial \\boldsymbol{x}} &=\n"
+"\\frac{1}{\\rho} \\left( \\boldsymbol{P} - \\boldsymbol{n} \\otimes \\boldsymbol{n}\n"
+"\\right)"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:114
+msgid ""
+"For 2d-meshes, the constraint is formulated in polar coordinates. Points on "
+"the axis can't be constrained in radial or circumferential direction."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:119
+msgid ""
+"A tube with its axis in direction :math:`x` is created by a revolution of a "
+"rectangle."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:135
+msgid ""
+"The outer surface is placed in a rigid sleeve, i.e. it is constrained in "
+"radial direction only. The end face at :math:`x=0` is fixed and the end face"
+" at :math:`x=3` is twisted by 90°, where the circumferential displacement is"
+" the arc length on the undeformed radius of each point."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:169
+msgid ""
+"A multi-point constraint which connects a center-point to a list of points."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint.plot:1
+msgid ""
+"Plot the constrained points and the axis of the cylindrical constraint."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint.plot:3
+msgid ""
+"An existing plotter. If None, a new plotter is created. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint.plot:5
+msgid "The color of the points and the axis. Default is \"black\"."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint.plot:7
+msgid ""
+"A flag to plot the points in the deformed configuration. Default is True."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint.plot:9
+msgid "The size of the points. Default is 10."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint.plot:11
+msgid "The line width of the axis. Default is 2."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint.plot:13
+msgid ""
+"Additional keyword arguments for the points, passed to "
+":meth:`pyvista.Plotter.add_points`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint.plot:17
+msgid "The plotter with the points and the axis."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint.update:1
+msgid "Update the prescribed displacements :math:`(u_r, u_\\theta, u_z)`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint.update:3
+msgid ""
+"The prescribed displacements in radial, circumferential and axial direction,"
+" either one vector for all points or one vector per point with shape (n, 3)."
+" For 2d-meshes, also vectors with two components :math:`(u_r, u_\\theta)` "
+"are supported."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint.update:11
+msgid ""
+"This method is called by a :class:`~felupe.Step` for each substep if the "
+"constraint is ramped, e.g. by ``ramp={constraint: table}``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
@@ -23266,22 +23687,10 @@ msgstr ""
 msgid "Take a screenshot of the mesh."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:35
+#: of felupe.view._mesh_select_edge_points.select_edge_points:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:35
-msgid "Interactively select smooth edge patches and return their point ids."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:3
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:3
+#: of felupe.view._mesh_select_edge_points.select_edge_points:4
 msgid ""
 "The edges are the borders of the surface patches (see "
 ":func:`~felupe.view.select_surface_points`), i.e. the edges between "
@@ -23292,16 +23701,16 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:10
+#: of felupe.view._mesh_select_edge_points.select_edge_points:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:10
+#: of felupe.view._mesh_select_edge_points.select_edge_points:11
 msgid "The mesh from which to select edge points."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:12
+#: of felupe.view._mesh_select_edge_points.select_edge_points:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:12
+#: of felupe.view._mesh_select_edge_points.select_edge_points:13
 msgid ""
 "Max. angle in degrees between the normals of two neighbouring faces or "
 "between two neighbouring edges to be treated as one connected patch (default"
@@ -23309,181 +23718,309 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:15
+#: of felupe.view._mesh_select_edge_points.select_edge_points:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:8
+#: of felupe.view._mesh_select_surface_points.select_surface_points:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:15
+#: of felupe.view._mesh_select_edge_points.select_edge_points:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:8
+#: of felupe.view._mesh_select_surface_points.select_surface_points:9
 msgid "Show a slider to change the angle interactively (default is True)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:17
+#: of felupe.view._mesh_select_edge_points.select_edge_points:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:17
+#: of felupe.view._mesh_select_edge_points.select_edge_points:18
+msgid ""
+"Coordinates of points to initially select the edge patches of their closest "
+"edges, e.g. ``[(1.0, 1.0, 0.5)]``, same as a left click on these patches. "
+"Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:22
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:22
+msgid ""
+"Coordinates of points to initially exclude the edge patches of their closest"
+" edges, same as two left clicks on these patches. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:25
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:25
 msgid "Color of unselected edge patches (default is \"black\")."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:19
+#: of felupe.view._mesh_select_edge_points.select_edge_points:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:19
+#: of felupe.view._mesh_select_edge_points.select_edge_points:27
 msgid ""
 "Color of selected edge patches. Default is None, which lets PyVista choose "
 "the default color based on the global theme."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:22
+#: of felupe.view._mesh_select_edge_points.select_edge_points:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:22
-msgid ""
-"Whether to show the edges of the mesh on the surface (default is True)."
+#: of felupe.view._mesh_select_edge_points.select_edge_points:30
+msgid "Color of excluded edge patches (default is \"red\")."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:24
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:17
+#: of felupe.view._mesh_select_edge_points.select_edge_points:32
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:24
+#: of felupe.view._mesh_select_edge_points.select_edge_points:32
+msgid ""
+"Whether to show the edges of the mesh on the surface (default is False). The"
+" edges which may be selected are shown anyway."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:35
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:35
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:35
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:17
+#: of felupe.view._mesh_select_surface_points.select_surface_points:35
 msgid "Additional keyword arguments to pass to the PyVista plotter."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:27
+#: of felupe.view._mesh_select_edge_points.select_edge_points:38
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:27
-msgid "Sorted point ids (of ``mesh``) of all edges on the selected patches."
+#: of felupe.view._mesh_select_edge_points.select_edge_points:38
+msgid ""
+"Sorted point ids (of ``mesh``) of all edges on the selected patches, without"
+" the points of all edges on the excluded patches."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:32
+#: of felupe.view._mesh_select_edge_points.select_edge_points:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:25
+#: of felupe.view._mesh_select_surface_points.select_surface_points:45
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:32
+#: of felupe.view._mesh_select_edge_points.select_edge_points:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:25
+#: of felupe.view._mesh_select_surface_points.select_surface_points:45
 msgid "The selection is controlled by the mouse and the keyboard."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:34
+#: of felupe.view._mesh_select_edge_points.select_edge_points:46
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:34
+#: of felupe.view._mesh_select_edge_points.select_edge_points:46
 msgid ""
-"**Left click**: toggle the patch next to the cursor (a drag rotates as "
-"usual). Edges which are hidden behind the surface are ignored."
+"**Left click**: cycle the patch next to the cursor from unselected to "
+"selected, from selected to excluded and from excluded back to unselected (a "
+"drag rotates as usual). Edges which are hidden behind the surface are "
+"ignored."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:36
+#: of felupe.view._mesh_select_edge_points.select_edge_points:49
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:28
+#: of felupe.view._mesh_select_surface_points.select_surface_points:50
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:36
+#: of felupe.view._mesh_select_edge_points.select_edge_points:49
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:28
+#: of felupe.view._mesh_select_surface_points.select_surface_points:50
 msgid ""
 "**Right click**: finish (a drag zooms as usual), same as ``q`` or closing "
 "the window."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:38
+#: of felupe.view._mesh_select_edge_points.select_edge_points:51
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:30
+#: of felupe.view._mesh_select_surface_points.select_surface_points:52
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:38
+#: of felupe.view._mesh_select_edge_points.select_edge_points:51
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:30
-msgid "**Button** or ``c``: clear the selection."
+#: of felupe.view._mesh_select_surface_points.select_surface_points:52
+msgid ""
+"**Button** or ``c``: clear the selection, i.e. all patches are unselected."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:42
+#: of felupe.view._mesh_select_edge_points.select_edge_points:53
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:42
-msgid ":py:obj:`felupe.view.select_surface_points`"
+#: of felupe.view._mesh_select_edge_points.select_edge_points:53
+msgid ""
+"Excluded patches have priority over selected patches: the points shared by a"
+" selected and an excluded patch, e.g. a corner point between two edge "
+"patches, are not selected. If both a selected and an excluded patch are "
+"merged into one patch by an increased angle, the merged patch is excluded."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:43
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:1
+#: of felupe.view._mesh_select_edge_points.select_edge_points:60
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:43
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:1
+#: of felupe.view._mesh_select_edge_points.select_edge_points:60
+msgid ""
+"The edge patch at :math:`x=z=1` of a cube is selected and the edge patch at "
+":math:`x=1, y=0` is excluded. Here, the patches are given by points next to "
+"them, which is the same as a left click on the edge at :math:`x=z=1` and two"
+" left clicks on the edge at :math:`x=1, y=0`. The selection is finished by a"
+" right click (not required for the static images of the documentation). The "
+"selected points are plotted on the mesh, the common corner point of both "
+"patches is not selected."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:86
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:86
 msgid ""
 "Interactively select smooth surface patches and return their point ids."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:3
+#: of felupe.view._mesh_select_surface_points.select_surface_points:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:3
+#: of felupe.view._mesh_select_surface_points.select_surface_points:4
 msgid "The mesh from which to select surface points."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:5
+#: of felupe.view._mesh_select_surface_points.select_surface_points:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:5
+#: of felupe.view._mesh_select_surface_points.select_surface_points:6
 msgid ""
 "Max. angle in degrees between the normals of two neighbouring faces to be "
 "treated as one connected patch (default is 30)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:10
+#: of felupe.view._mesh_select_surface_points.select_surface_points:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:10
+#: of felupe.view._mesh_select_surface_points.select_surface_points:11
+msgid ""
+"Coordinates of points to initially select the surface patches of their "
+"closest faces, e.g. ``[(1.0, 0.5, 0.5)]``, same as a left click on these "
+"patches. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:15
+msgid ""
+"Coordinates of points to initially exclude the surface patches of their "
+"closest faces, same as two left clicks on these patches. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:18
 msgid "Color of unselected surface patches (default is \"lightgrey\")."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:12
+#: of felupe.view._mesh_select_surface_points.select_surface_points:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:12
+#: of felupe.view._mesh_select_surface_points.select_surface_points:20
 msgid ""
 "Color of selected surface patches. Default is None, which lets PyVista "
 "choose the default color based on the global theme."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:15
+#: of felupe.view._mesh_select_surface_points.select_surface_points:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:15
-msgid "Whether to show mesh edges (default is True)."
+#: of felupe.view._mesh_select_surface_points.select_surface_points:23
+msgid "Color of excluded surface patches (default is \"darkred\")."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:20
+#: of felupe.view._mesh_select_surface_points.select_surface_points:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:20
-msgid "Sorted point ids (of ``mesh``) of all faces on the selected patches."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:27
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:27
+#: of felupe.view._mesh_select_surface_points.select_surface_points:25
 msgid ""
-"**Left click**: toggle the patch under the cursor (a drag rotates as usual)."
+"Whether to show the edges of the mesh (default is False). The patches are "
+"separated by their borders anyway."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:34
+#: of felupe.view._mesh_select_surface_points.select_surface_points:28
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:34
-msgid ":py:obj:`felupe.view.select_edge_points`"
+#: of felupe.view._mesh_select_surface_points.select_surface_points:28
+msgid ""
+"Number of subdivisions to generate a smooth surface based on the mid-edge "
+"points of quadratic (or Lagrange) cells, same as in "
+":meth:`~felupe.Mesh.plot` (default is 1, no subdivision). If greater than 1,"
+" the surface is plotted with smooth shading and the shown edges are the "
+"(curved) edges of the faces. The patches are evaluated on the subdivided "
+"surface."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:38
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:38
+msgid ""
+"Sorted point ids (of ``mesh``) of all faces on the selected patches, without"
+" the points of all faces on the excluded patches. A face is on a patch if "
+"one of its triangles (on the subdivided surface) is on the patch."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:47
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:47
+msgid ""
+"**Left click**: cycle the patch under the cursor from unselected to "
+"selected, from selected to excluded and from excluded back to unselected (a "
+"drag rotates as usual)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:54
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:54
+msgid ""
+"Excluded patches have priority over selected patches: the points shared by a"
+" selected and an excluded patch, e.g. the points on their common border, are"
+" not selected. If both a selected and an excluded patch are merged into one "
+"patch by an increased angle, the merged patch is excluded."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:59
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:59
+msgid ""
+"The subdivision of nonlinear faces creates new points, which are only used "
+"for the visualization. The returned point ids are always the point ids of "
+"the faces of the mesh, e.g. all eight points of a face of a quadratic "
+"hexahedron (including the mid-edge points), independent of "
+"``nonlinear_subdivision``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:66
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:66
+msgid ""
+"The surface patch at :math:`x=1` of a cube is selected and the surface patch"
+" at :math:`z=1` is excluded. Here, the patches are given by points next to "
+"them, which is the same as a left click on the patch at :math:`x=1` and two "
+"left clicks on the patch at :math:`z=1`. The selection is finished by a "
+"right click (not required for the static images of the documentation). The "
+"selected points are plotted on the mesh, the points on the common edge of "
+"both patches are not selected."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:92
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:92
+msgid "Interactively select smooth edge patches and return their point ids."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
