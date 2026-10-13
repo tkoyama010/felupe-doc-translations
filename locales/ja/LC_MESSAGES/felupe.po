@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-10 00:17+0000\n"
+"POT-Creation-Date: 2026-10-12 19:25+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -227,7 +227,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution/tools.rst:34
 #: ../../felupe/docs/felupe/dof.rst:34 ../../felupe/docs/felupe/element.rst:56
 #: ../../felupe/docs/felupe/field.rst:27 ../../felupe/docs/felupe/math.rst:66
-#: ../../felupe/docs/felupe/mechanics.rst:71
+#: ../../felupe/docs/felupe/mechanics.rst:74
 #: ../../felupe/docs/felupe/mesh.rst:63
 #: ../../felupe/docs/felupe/quadrature.rst:32
 #: ../../felupe/docs/felupe/region.rst:39
@@ -409,12 +409,16 @@ msgstr ""
 #: of felupe.math._tensor.sym:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.tovoigt:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane.restore:0
+#: of felupe.mechanics._contact.ContactRigidBase.restore:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint.update:0
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint.restore:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.revolve:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
@@ -836,14 +840,22 @@ msgstr ""
 #: of felupe.math._tensor.tovoigt:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.trace:12
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:43
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:29
+#: of felupe.mechanics._contact.ContactRigidBase:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane.checkpoint:9
+#: of felupe.mechanics._contact.ContactRigidBase.checkpoint:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:58
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:47
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:37
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint.update:10
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
 #: of felupe.mechanics._free_vibration.FreeVibration:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
@@ -855,7 +867,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.JobState:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:17
+#: of felupe.mechanics._multipoint.MultiPointConstraint:33
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint.checkpoint:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointContact:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
@@ -1389,12 +1403,16 @@ msgstr ""
 #: of felupe.math._tensor.tovoigt:34
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.trace:26
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:76
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:131
+#: of felupe.mechanics._contact.ContactRigidCylinder:123
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:207
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
 #: of felupe.mechanics._curve.CharacteristicCurve:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:118
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:125
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
 #: of felupe.mechanics._free_vibration.FreeVibration:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_item.pydocstring
@@ -1402,7 +1420,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:58
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:29
+#: of felupe.mechanics._multipoint.MultiPointConstraint:118
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointContact:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.pydocstring
@@ -1564,7 +1582,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:139
+#: of felupe.plugins._cutback.CutbackPlugin:140
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
 #: of felupe.plugins._linesearch.LinesearchPlugin:120
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.pydocstring
@@ -2170,12 +2188,16 @@ msgstr ""
 #: of felupe.math._tensor.sym:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.tovoigt:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane.restore:0
+#: of felupe.mechanics._contact.ContactRigidBase.restore:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint.update:0
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint.restore:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.revolve:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
@@ -2305,12 +2327,16 @@ msgstr ""
 #: of felupe.math._tensor.sym:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.tovoigt:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane.restore:0
+#: of felupe.mechanics._contact.ContactRigidBase.restore:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint.update:0
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint.restore:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.revolve:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
@@ -2474,10 +2500,14 @@ msgstr ""
 #: of felupe.dof._boundary.Boundary:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
 #: of felupe.mechanics._cylindrical.CylindricalConstraint:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
 #: of felupe.plugins._cutback.CutbackPlugin:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
@@ -2727,6 +2757,8 @@ msgstr ""
 #: of felupe.element._triangle.Triangle:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/element/_triangle.pydocstring
 #: of felupe.element._triangle.TriangleMINI:30
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:267
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:271
@@ -2849,7 +2881,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.SubstepState:59
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:171
+#: of felupe.plugins._cutback.CutbackPlugin:172
 msgid ":py:obj:`felupe.Step`"
 msgstr ""
 
@@ -12137,8 +12169,10 @@ msgstr ""
 #: of felupe.dof._tools.apply:61
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.partition:55
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:133
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:171
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:181
 msgid ":py:obj:`felupe.Boundary`"
 msgstr ""
 
@@ -12154,8 +12188,10 @@ msgstr ""
 #: of felupe.dof._tools.apply:62
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.partition:56
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:134
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:172
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:182
 msgid "A collection of prescribed degrees of freedom."
 msgstr ""
 
@@ -17322,7 +17358,7 @@ msgstr ":py:obj:`Step <felupe.Step>`\\ \\(items\\[\\, ramp\\, boundaries\\]\\)"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.SubstepState:60
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:172
+#: of felupe.plugins._cutback.CutbackPlugin:173
 msgid ""
 "A Step with multiple substeps, subsequently depending on the solution of the"
 " previous substep."
@@ -17420,9 +17456,11 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:45:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane.checkpoint:20
+#: of felupe.mechanics._contact.ContactRigidBase.checkpoint:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:96
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint.checkpoint:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.Step:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
@@ -17444,7 +17482,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:93
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:178
+#: of felupe.plugins._cutback.CutbackPlugin:179
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
 #: of felupe.plugins._linesearch.LinesearchPlugin:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
@@ -17568,7 +17606,7 @@ msgstr ""
 msgid "**Point Load and Constraints**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:55:<autosummary>:1
 msgid ""
 ":py:obj:`PointLoad <felupe.PointLoad>`\\ \\(field\\, points\\[\\, values\\, "
 "apply\\_on\\, ...\\]\\)"
@@ -17576,7 +17614,7 @@ msgstr ""
 ":py:obj:`PointLoad <felupe.PointLoad>`\\ \\(field\\, points\\[\\, values\\, "
 "apply\\_on\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:55:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.pydocstring
 #: of felupe.mechanics._pointload.PointLoad:1
 msgid ""
@@ -17584,7 +17622,7 @@ msgid ""
 "applied on the n-th field."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:55:<autosummary>:1
 msgid ""
 ":py:obj:`MultiPointConstraint <felupe.MultiPointConstraint>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
@@ -17592,7 +17630,7 @@ msgstr ""
 ":py:obj:`MultiPointConstraint <felupe.MultiPointConstraint>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:55:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointConstraint:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
@@ -17601,7 +17639,7 @@ msgid ""
 "A Multi-point-constraint which connects a center-point to a list of points."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:55:<autosummary>:1
 msgid ""
 ":py:obj:`MultiPointContact <felupe.MultiPointContact>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
@@ -17609,7 +17647,7 @@ msgstr ""
 ":py:obj:`MultiPointContact <felupe.MultiPointContact>`\\ \\(field\\, "
 "points\\, centerpoint\\)"
 
-#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:55:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointContact:1
 msgid ""
@@ -17617,47 +17655,79 @@ msgid ""
 "to a list of points."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:55:<autosummary>:1
+msgid ""
+":py:obj:`CartesianConstraint <felupe.CartesianConstraint>`\\ \\(field\\, "
+"points\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:55:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:1
+msgid ""
+"A constraint for the displacements of points in a (fixed) Cartesian "
+"coordinate system."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:55:<autosummary>:1
 msgid ""
 ":py:obj:`CylindricalConstraint <felupe.CylindricalConstraint>`\\ \\(field\\,"
 " points\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:54:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:55:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:131
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
 #: of felupe.mechanics._cylindrical.CylindricalConstraint:1
 msgid ""
 "A constraint for the displacements of points in cylindrical coordinates."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:55
+#: ../../felupe/docs/felupe/mechanics.rst:56
 msgid "**Contact**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:60:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:62:<autosummary>:1
 msgid ""
 ":py:obj:`ContactRigidPlane <felupe.ContactRigidPlane>`\\ \\(field\\, "
 "points\\, ...\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:60:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:62:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:208
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
 #: of felupe.mechanics._contact.ContactRigidPlane:1
 msgid ""
 "A node-to-surface contact, where the surface is given by a rigid plane."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:61
+#: ../../felupe/docs/felupe/mechanics.rst:62:<autosummary>:1
+msgid ""
+":py:obj:`ContactRigidCylinder <felupe.ContactRigidCylinder>`\\ \\(field\\, "
+"points\\, ...\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:62:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:1
+msgid ""
+"A node-to-surface contact, where the surface is given by a rigid cylinder (a"
+" rigid circle for 2d-meshes)."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:63
 msgid "**Helpers for Custom Items and State Variables**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:73:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.StateNearlyIncompressible "
 "<felupe.mechanics.StateNearlyIncompressible>`\\ \\(field\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:73:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.StateNearlyIncompressible:1
 msgid ""
@@ -17665,49 +17735,63 @@ msgid ""
 "incompressible solid bodies."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:73:<autosummary>:1
+msgid ""
+":py:obj:`mechanics.ContactRigidBase <felupe.mechanics.ContactRigidBase>`\\ "
+"\\(field\\, points\\, ...\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:73:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidBase:1
+msgid ""
+"A base class for a node-to-surface contact, where the surface is given by a "
+"rigid body which is connected to a center-point."
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:73:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.Assemble <felupe.mechanics.Assemble>`\\ \\(\\[vector\\, "
 "matrix\\, mass\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:73:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.Assemble:1
 msgid "A class with methods for assembling vectors and matrices of an Item."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:73:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.Evaluate <felupe.mechanics.Evaluate>`\\ \\(gradient\\, "
 "hessian\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:73:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.Evaluate:1
 msgid "A class with evaluate methods of an Item."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:73:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.Results <felupe.mechanics.Results>`\\ \\(\\[stress\\, "
 "elasticity\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:73:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
 #: of felupe.mechanics._helpers.Results:1
 msgid "A class with intermediate results of an Item."
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:73:<autosummary>:1
 msgid ""
 ":py:obj:`mechanics.UpdateItem <felupe.mechanics.UpdateItem>`\\ \\(parent\\, "
 "key\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/mechanics.rst:70:<autosummary>:1
+#: ../../felupe/docs/felupe/mechanics.rst:73:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_update.pydocstring
 #: of felupe.mechanics._update.UpdateItem:1
 msgid ""
@@ -17870,7 +17954,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.restore:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:181
+#: of felupe.plugins._cutback.CutbackPlugin:182
 msgid "Return a checkpoint of the solid body."
 msgstr ""
 
@@ -17900,7 +17984,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.restore:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:180
+#: of felupe.plugins._cutback.CutbackPlugin:181
 msgid ":py:obj:`felupe.SolidBody.checkpoint`"
 msgstr ""
 
@@ -19692,8 +19776,9 @@ msgid ""
 "internal fields (pressure and volume ratio) of a "
 ":class:`~felupe.SolidBodyNearlyIncompressible`, which are updated in each "
 "evaluation of the Newton-Raphson method, as well as the time of a "
-":class:`~felupe.thermal.TimeStep` and the state of the frictional contact of"
-" a :class:`~felupe.ContactRigidPlane`. The state variables of material "
+":class:`~felupe.thermal.TimeStep`, the state of the frictional contact of a "
+":class:`~felupe.ContactRigidPlane` and the state variables of the rotation "
+"of a :class:`~felupe.MultiPointConstraint`. The state variables of material "
 "models are only updated after a converged increment. Hence, the increments "
 "of a subdivided substep are also increments of the loading path of history-"
 "dependent materials, e.g. for viscoelasticity or plasticity. A custom item "
@@ -19702,7 +19787,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:117
+#: of felupe.plugins._cutback.CutbackPlugin:118
 msgid ""
 "The time increment of a rate-dependent material model, e.g. the parameter "
 "``dtime`` of :func:`~felupe.constitution.finite_strain_viscoelastic`, is not"
@@ -19713,7 +19798,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:124
+#: of felupe.plugins._cutback.CutbackPlugin:125
 msgid ""
 "**Values of the previous substep**: The values of the ramp of the previous "
 "substep are taken from the substeps which were already evaluated with this "
@@ -19725,7 +19810,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:134
+#: of felupe.plugins._cutback.CutbackPlugin:135
 msgid ""
 "A cutback may be combined with a :class:`~felupe.LinesearchPlugin`, "
 "``Job(steps, plugins=[LinesearchPlugin(), CutbackPlugin()])``. Then, a "
@@ -19733,7 +19818,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:140
+#: of felupe.plugins._cutback.CutbackPlugin:141
 msgid ""
 "A coarse cube is compressed by 70% in a single substep. The first Newton "
 "increment leads to inadmissible deformation gradients and to NaN values in "
@@ -19741,7 +19826,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:160
+#: of felupe.plugins._cutback.CutbackPlugin:161
 msgid ""
 "The second substep is subdivided into increments. The load factors of the "
 "converged increments are stored in the plugin, one list for each substep."
@@ -19750,7 +19835,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.JobState:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:174
+#: of felupe.plugins._cutback.CutbackPlugin:175
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
@@ -19759,7 +19844,7 @@ msgid ":py:obj:`felupe.SubstepState`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:175
+#: of felupe.plugins._cutback.CutbackPlugin:176
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:57
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
@@ -19768,7 +19853,7 @@ msgid "A class to keep track of the state of a substep."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:177
+#: of felupe.plugins._cutback.CutbackPlugin:178
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:62
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
@@ -20334,7 +20419,9 @@ msgid ":py:obj:`felupe.IterationState`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane.checkpoint:19
+#: of felupe.mechanics._contact.ContactRigidBase.checkpoint:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint.checkpoint:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.SubstepState:68
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
@@ -20903,6 +20990,10 @@ msgstr ""
 msgid ":py:obj:`felupe.tools.Context`"
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
 #: of felupe.mechanics._contact.ContactRigidPlane:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
@@ -20914,6 +21005,8 @@ msgstr ""
 msgid "A field container with the displacement field as first field."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
 #: of felupe.mechanics._contact.ContactRigidPlane:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
@@ -20934,22 +21027,49 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointConstraint:9
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointContact:10
 msgid ""
 "A tuple with boolean values for each axis to skip. If True, the respective "
-"axis is not connected. Default is (False, False, False)."
+"axis is not connected. Not supported with a rotation-point. Default is "
+"(False, False, False)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:12
+#: of felupe.mechanics._multipoint.MultiPointConstraint:13
 msgid ""
 "A multiplier to penalize the relative displacements between the center-point"
 " and the points. Default is 1e3."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:18
+#: of felupe.mechanics._multipoint.MultiPointConstraint:16
+msgid ""
+"The index of an additional point, whose degrees of freedom are the rotations"
+" (in rad) of the points about the center-point, see the notes below. Its "
+"coordinates are not used, i.e. it may be located at the center-point. If "
+"None, the rotations are locked. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:24
+msgid ""
+"The results of the last evaluation. With a rotation-point, these include the"
+" rotation matrix ``results.rotation`` with shape (3, 3), the moment "
+"``results.moment`` with shape (3,) and the (converged) state variables "
+"``results.statevars`` with the accumulated rotation vector and the rotation "
+"matrix of the last converged substep, shape (12,)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:40
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:41
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:30
+msgid "Results"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:34
 msgid ""
 "A :class:`~felupe.MultiPointConstraint` is supported as an item in a "
 ":class:`~felupe.Step`. It provides the assemble-methods "
@@ -20960,21 +21080,119 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:25
+#: of felupe.mechanics._multipoint.MultiPointConstraint:39
 msgid ""
-"Rotational degrees-of-freedom of the center-point are not connected to the "
-"points."
+"The points :math:`\\boldsymbol{x}_i` are connected to the center-point "
+":math:`\\boldsymbol{x}_c` by the penalty potential in Eq. :eq:`mpc-"
+"potential`, with the undeformed arms :math:`\\boldsymbol{A}_i = "
+"\\boldsymbol{X}_i - \\boldsymbol{X}_c` and the rotation matrix "
+":math:`\\boldsymbol{R}`. Without a rotation-point, the rotation matrix is "
+"the identity, i.e. the points are moved by the displacements of the center-"
+"point and the rotations are locked."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:30
+#: of felupe.mechanics._multipoint.MultiPointConstraint:46
+msgid ""
+"\\Pi &= \\sum_i \\frac{k}{2}\\ \\boldsymbol{d}_i \\cdot \\boldsymbol{d}_i\n"
+"\n"
+"\\boldsymbol{d}_i &= \\left( \\boldsymbol{x}_i - \\boldsymbol{x}_c \\right)\n"
+"    - \\boldsymbol{R}\\ \\boldsymbol{A}_i"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:54
+msgid ""
+"With a rotation-point, the rotation matrix is parametrized incrementally by "
+"the exponential map [1]_, see Eq. :eq:`mpc-rotation`, where the rotation-"
+"vector :math:`\\boldsymbol{\\psi}` are the values of the displacement field "
+"at the rotation-point. The rotation-vector :math:`\\boldsymbol{\\psi}_n` and"
+" the rotation matrix :math:`\\boldsymbol{R}_n` of the last converged substep"
+" are state variables, which are updated after each converged substep."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:62
+msgid ""
+"\\boldsymbol{R} &= \\exp \\left( [\\Delta \\boldsymbol{\\psi}]_\\times \\right)\\\n"
+"    \\boldsymbol{R}_n, \\qquad\n"
+"\\Delta \\boldsymbol{\\psi} = \\boldsymbol{\\psi} - \\boldsymbol{\\psi}_n\n"
+"\n"
+"\\exp \\left( [\\boldsymbol{w}]_\\times \\right) &= \\boldsymbol{1}\n"
+"    + \\frac{\\sin \\theta}{\\theta}\\ [\\boldsymbol{w}]_\\times\n"
+"    + \\frac{1 - \\cos \\theta}{\\theta^2}\\ [\\boldsymbol{w}]_\\times^2, \\qquad\n"
+"\\theta = \\| \\boldsymbol{w} \\|"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:74
+msgid ""
+"Hence, the values of the rotation-point accumulate the (spatial) increments "
+"of the rotation. For a rotation about a fixed axis :math:`\\boldsymbol{a}`, "
+"these are the rotation-vector :math:`\\boldsymbol{\\psi} = \\varphi\\ "
+"\\boldsymbol{a}`, also for angles beyond :math:`2\\pi`. For rotations about "
+"varying axes, the values depend on the path of the rotation and the rotation"
+" matrix is available as ``results.rotation``. The parametrization is "
+"singular only for increments :math:`\\| \\Delta \\boldsymbol{\\psi} \\| = "
+"2\\pi`, see [2]_ for a discussion of vector-like parametrizations of finite "
+"rotations. However, the increments of the rotation must be smaller than "
+":math:`\\pi` (and should be much smaller), otherwise a revolution of the "
+"rotation-point may be skipped by the connected points."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:85
+msgid ""
+"The moment of the forces of the constraint, which act on the points, w.r.t. "
+"the deformed center-point is given in Eq. :eq:`mpc-moment` and it is stored "
+"in ``results.moment``. The residuals of the rotation-point are the "
+"derivatives of the potential w.r.t. :math:`\\boldsymbol{\\psi}`, i.e. the "
+"moment transformed by the tangent operator :math:`\\boldsymbol{J}` of the "
+"exponential map. These are equal to the moment for :math:`\\Delta "
+"\\boldsymbol{\\psi} = \\boldsymbol{0}` and differ by a term of the order of "
+"the increment :math:`\\| \\Delta \\boldsymbol{\\psi} \\|` otherwise. For a "
+"rotation about a fixed axis, the axial components are equal."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:94
+msgid ""
+"\\boldsymbol{m} = \\sum_i \\left( \\boldsymbol{x}_i - \\boldsymbol{x}_c \\right)\n"
+"    \\times \\left( -k\\ \\boldsymbol{d}_i \\right), \\qquad\n"
+"\\frac{\\partial \\Pi}{\\partial \\boldsymbol{\\psi}} =\n"
+"    \\boldsymbol{J}(\\Delta \\boldsymbol{\\psi})^T\\ \\boldsymbol{m}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:102
+msgid ""
+"For 2d-meshes, the first component of the rotation-point is the angle of the"
+" rotation about the :math:`z`-axis and the second component is locked by the"
+" penalty multiplier. If the rotation-point is located at the center-point, "
+"both points must be selected by a mask (or by their indices), e.g. for a "
+":class:`~felupe.Boundary`, because a selection by the coordinates would "
+"include both points."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:111
+msgid ""
+"A :class:`~felupe.PointLoad` at the rotation-point is work-conjugate to the "
+"rotation-vector :math:`\\boldsymbol{\\psi}`. Hence, the moment "
+":math:`\\boldsymbol{m}` differs from the applied load by a term of the order"
+" of the increment of the rotation, except for the axial component of a "
+"rotation about a fixed axis."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:119
 msgid ""
 "This example shows how to use a :class:`~felupe.MultiPointConstraint`. An "
 "additional center-point is added to a mesh."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:49
+#: of felupe.mechanics._multipoint.MultiPointConstraint:138
 msgid ""
 "A :class:`~felupe.MultiPointConstraint` defines the multi-point constraint "
 "which connects the displacement degrees of freedom of the center-point with "
@@ -20982,7 +21200,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:78
+#: of felupe.mechanics._multipoint.MultiPointConstraint:167
 msgid ""
 "The mesh is fixed on the left end face and a ramped "
 ":class:`~felupe.PointLoad` is applied on the center-point of the "
@@ -20991,20 +21209,123 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:94
+#: of felupe.mechanics._multipoint.MultiPointConstraint:183
 msgid ""
 "A view on the deformed mesh including the "
 ":class:`~felupe.MultiPointConstraint` is plotted."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:117
+#: of felupe.mechanics._multipoint.MultiPointConstraint:204
+msgid ""
+"With a rotation-point, the points are also rotated about the center-point. A"
+" center-point and a rotation-point are added at the center of the right end "
+"face of a beam. Both points are excluded from the connected points of the "
+"end face."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:225
+msgid ""
+"The left end face and the center-point are fixed. The end face is twisted by"
+" a full revolution about the :math:`x`-axis, i.e. the first component of the"
+" rotation-point is ramped, while the rotations about the other axes are "
+"free. The center-point and the rotation-point are located at the same "
+"coordinates, hence they are selected by masks."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:249
+msgid ""
+"After a full revolution, the rotation matrix is the identity, while the "
+"accumulated rotation of the rotation-point is :math:`2\\pi`. The moment "
+"w.r.t. the center-point is available in the results."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:268
+msgid ""
+"J. C. Simo and L. Vu-Quoc, \"A three-dimensional finite-strain rod model. "
+"Part II: Computational aspects\", Computer Methods in Applied Mechanics and "
+"Engineering, vol. 58, no. 1, pp. 79–116, 1986."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:272
+msgid ""
+"A. Ibrahimbegović, F. Frey and I. Kožar, \"Computational aspects of vector-"
+"like parametrization of three-dimensional finite rotations\", International "
+"Journal for Numerical Methods in Engineering, vol. 38, no. 21, pp. "
+"3653–3673, 1995."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint:279
 msgid ":py:obj:`felupe.MultiPointContact`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
-#: of felupe.mechanics._multipoint.MultiPointConstraint:118
+#: of felupe.mechanics._multipoint.MultiPointConstraint:280
 msgid "A frictionless point-to-rigid (wall) contact."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint.checkpoint:1
+msgid "Return a checkpoint of the state variables of the rotation."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint.checkpoint:3
+msgid ""
+"A dict with a copy of the state variables (or None without a rotation-"
+"point)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint.checkpoint:9
+msgid ""
+"The state variables are only updated after a converged substep. The field is"
+" not included in the checkpoint, see e.g. :meth:`SolidBody.checkpoint() "
+"<felupe.SolidBody.checkpoint>`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint.checkpoint:15
+msgid ":py:obj:`felupe.MultiPointConstraint.restore`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint.checkpoint:16
+msgid "Restore a checkpoint of the constraint."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint.restore:1
+msgid "Restore a checkpoint of the state variables of the rotation inplace."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidBase.restore:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint.restore:3
+msgid "A dict with checkpoint arrays."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint.restore:8
+msgid ":py:obj:`felupe.MultiPointConstraint.checkpoint`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointConstraint.restore:9
+msgid "Return a checkpoint of the constraint."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
+#: of felupe.mechanics._multipoint.MultiPointContact:10
+msgid ""
+"A tuple with boolean values for each axis to skip. If True, the respective "
+"axis is not connected. Default is (False, False, False)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
@@ -21058,15 +21379,230 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:168
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:178
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint.pydocstring
 #: of felupe.mechanics._multipoint.MultiPointContact:122
 msgid ":py:obj:`felupe.MultiPointConstraint`"
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
 #: of felupe.mechanics._cylindrical.CylindricalConstraint:5
 msgid "An array with indices (or a mask) of the points to be constrained."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:8
+msgid ""
+"The rotation matrix :math:`\\boldsymbol{Q} = \\boldsymbol{e}_i \\otimes "
+"\\boldsymbol{E}_i`, which maps the global base vectors "
+":math:`\\boldsymbol{E}_i` to the base vectors :math:`\\boldsymbol{e}_i = "
+"\\boldsymbol{Q} \\boldsymbol{E}_i` of the coordinate system, with shape (3, "
+"3) or with shape (2, 2) for 2d-meshes, see "
+":func:`~felupe.math.rotation_matrix`. The base vectors are the columns of "
+"the matrix, i.e. given base vectors are stacked by ``np.column_stack([e1, "
+"e2, e3])``. The columns are normalized, they must be orthogonal and right-"
+"handed (:math:`\\det(\\boldsymbol{Q}) = 1`). If None, the global base "
+"vectors are used. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:18
+msgid ""
+"The prescribed displacements :math:`(u_1, u_2, u_3)` in the directions of "
+"the base vectors for all points or per point with shape (n, 3). May be "
+"ramped in a :class:`~felupe.Step`, see :meth:`update`. Default is (0, 0, 0)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:22
+msgid ""
+"Flags to skip the directions of the base vectors. Default is (False, False, "
+"False)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:25
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:20
+msgid ""
+"The penalty stiffness :math:`k` per point and direction. Default is 1e3."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:30
+msgid ""
+"The rotation matrix with the normalized base vectors of the coordinate "
+"system as columns (padded to three dimensions for 2d-meshes)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:33
+msgid "(3, 3) ndarray"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:37
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:38
+msgid ""
+"The results of the last evaluation, including the gaps ``results.gap`` with "
+"shape (n, 3)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:44
+msgid ""
+"A :class:`~felupe.CartesianConstraint` is supported as an item in a "
+":class:`~felupe.Step`. The coordinate system is fixed in space, i.e. its "
+"base vectors :math:`\\boldsymbol{e}_i` do not rotate with the deformation. "
+"The constraint is enforced by a penalty method with the potential in Eq. "
+":eq:`cartesian-potential`, summed up for all points and all directions which"
+" are not skipped."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:51
+msgid ""
+"\\Pi = \\sum_{\\text{points}} \\sum_{i \\in \\{1, 2, 3\\}} \\frac{k}{2}\\, g_i^2, \\qquad\n"
+"g_i = \\boldsymbol{e}_i \\cdot \\boldsymbol{u} - u_i"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:57
+msgid ""
+"The gaps are linear in the displacements :math:`\\boldsymbol{u}` of a point,"
+" hence, the residual vector and the (constant) stiffness matrix of a point "
+"are given in Eq. :eq:`cartesian-vector-matrix`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:61
+msgid ""
+"\\boldsymbol{r} = \\sum_i k\\, g_i\\, \\boldsymbol{e}_i, \\qquad\n"
+"\\boldsymbol{K} = \\sum_i k\\, \\boldsymbol{e}_i \\otimes \\boldsymbol{e}_i"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:67
+msgid ""
+"If all directions are constrained, the stiffness matrix is :math:`k "
+"\\boldsymbol{1}` and the coordinate system only transforms the prescribed "
+"displacements. Then, a :class:`~felupe.Boundary` with the values "
+":math:`\\boldsymbol{u} = \\sum_i u_i\\, \\boldsymbol{e}_i` is exact and "
+"should be preferred. A Cartesian constraint is useful for skipped "
+"directions, e.g. for supports on inclined planes, where the points slide in "
+"a plane (or along a line) which is not aligned to the global axes."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:77
+msgid ""
+"A cube is rotated by 30° around the :math:`y`-axis. The base vectors of the "
+"coordinate system are the global base vectors rotated like the mesh, i.e. "
+"the columns of the rotation matrix."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:96
+msgid ""
+"The bottom face rests on an inclined plane, i.e. it is constrained in the "
+"normal direction of the plane only and the points slide on the plane. The "
+"top face is moved down in global :math:`z`-direction by a plate, which is "
+"fixed in :math:`x`- and :math:`y`-direction."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._cartesian.CartesianConstraint:130
+msgid ":py:obj:`felupe.CylindricalConstraint`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.plot:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.plot:1
+msgid ""
+"Plot the constrained points and the coordinate system of the constraint."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.plot:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.plot:3
+msgid ""
+"An existing plotter. If None, a new plotter is created. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.plot:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.plot:5
+msgid "The color of the points and the coordinate system. Default is \"black\"."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.plot:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.plot:7
+msgid ""
+"A flag to plot the points in the deformed configuration. Default is True."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.plot:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.plot:9
+msgid "The size of the points. Default is 10."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.plot:11
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.plot:11
+msgid "The line width of the coordinate system. Default is 2."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.plot:13
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.plot:13
+msgid ""
+"Additional keyword arguments for the points, passed to "
+":meth:`pyvista.Plotter.add_points`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.plot:17
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.plot:17
+msgid "The plotter with the points and the coordinate system."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:1
+msgid "Update the prescribed displacements."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:3
+msgid ""
+"The prescribed displacements in the three directions of the coordinate "
+"system, either one vector for all points or one vector per point with shape "
+"(n, 3). For 2d-meshes, also vectors with two components are supported."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:11
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:11
+msgid ""
+"This method is called by a :class:`~felupe.Step` for each substep if the "
+"constraint is ramped, e.g. by ``ramp={constraint: table}``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
@@ -21098,12 +21634,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:20
-msgid ""
-"The penalty stiffness :math:`k` per point and direction. Default is 1e3."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
 #: of felupe.mechanics._cylindrical.CylindricalConstraint:25
 msgid "The undeformed radii :math:`R` of the points."
 msgstr ""
@@ -21116,17 +21646,17 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
 #: of felupe.mechanics._cylindrical.CylindricalConstraint:31
 msgid ""
-"The results of the last evaluation, including the gaps ``results.gap`` with "
-"shape (n, 3)."
+"The cylindrical base vectors :math:`(\\boldsymbol{e}_r, "
+"\\boldsymbol{e}_\\theta, \\boldsymbol{e}_z)` of the points as columns."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
 #: of felupe.mechanics._cylindrical.CylindricalConstraint:34
-msgid "Results"
+msgid "(n, 3, 3) ndarray"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:38
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:45
 msgid ""
 "A :class:`~felupe.CylindricalConstraint` is supported as an item in a "
 ":class:`~felupe.Step`. For each point, the undeformed radius, the axial "
@@ -21136,7 +21666,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:44
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:51
 msgid ""
 "\\boldsymbol{P} &= \\boldsymbol{1} - \\boldsymbol{a} \\otimes \\boldsymbol{a}\n"
 "\n"
@@ -21150,7 +21680,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:57
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:64
 msgid ""
 "The constraint is enforced by a penalty method with the potential in Eq. "
 ":eq:`cylindrical-potential`, summed up for all points and all directions "
@@ -21158,12 +21688,12 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:61
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:68
 msgid "\\Pi = \\sum_{\\text{points}} \\sum_{i \\in \\{r, \\theta, z\\}} \\frac{k}{2}\\, g_i^2"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:66
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:73
 msgid ""
 "The gaps are evaluated in the deformed configuration :math:`\\boldsymbol{x} "
 "= \\boldsymbol{X} + \\boldsymbol{u}` with the base vectors rotated by the "
@@ -21174,7 +21704,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:72
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:79
 msgid ""
 "\\boldsymbol{e}_r(\\varphi) &= \\cos(\\varphi)\\, \\boldsymbol{e}_r\n"
 "    + \\sin(\\varphi)\\, \\boldsymbol{e}_\\theta, \\qquad\n"
@@ -21195,7 +21725,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:92
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:99
 msgid ""
 "The residual vector and the stiffness matrix of a point are given in Eq. "
 ":eq:`cylindrical-vector-matrix`. The only non-zero second derivative is the "
@@ -21204,7 +21734,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:97
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:104
 msgid ""
 "\\boldsymbol{r} &= \\sum_i k\\, g_i\\, \\frac{\\partial g_i}{\\partial \\boldsymbol{x}}\n"
 "\n"
@@ -21222,21 +21752,21 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:114
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:121
 msgid ""
 "For 2d-meshes, the constraint is formulated in polar coordinates. Points on "
 "the axis can't be constrained in radial or circumferential direction."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:119
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:126
 msgid ""
 "A tube with its axis in direction :math:`x` is created by a revolution of a "
 "rectangle."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:135
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:142
 msgid ""
 "The outer surface is placed in a rigid sleeve, i.e. it is constrained in "
 "radial direction only. The end face at :math:`x=0` is fixed and the end face"
@@ -21245,75 +21775,21 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint:169
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:175
+msgid ":py:obj:`felupe.CartesianConstraint`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:176
+msgid ""
+"A constraint for the displacements of points in a Cartesian coordinate "
+"system."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._cylindrical.CylindricalConstraint:179
 msgid ""
 "A multi-point constraint which connects a center-point to a list of points."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint.plot:1
-msgid ""
-"Plot the constrained points and the axis of the cylindrical constraint."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint.plot:3
-msgid ""
-"An existing plotter. If None, a new plotter is created. Default is None."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint.plot:5
-msgid "The color of the points and the axis. Default is \"black\"."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint.plot:7
-msgid ""
-"A flag to plot the points in the deformed configuration. Default is True."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint.plot:9
-msgid "The size of the points. Default is 10."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint.plot:11
-msgid "The line width of the axis. Default is 2."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint.plot:13
-msgid ""
-"Additional keyword arguments for the points, passed to "
-":meth:`pyvista.Plotter.add_points`."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint.plot:17
-msgid "The plotter with the points and the axis."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint.update:1
-msgid "Update the prescribed displacements :math:`(u_r, u_\\theta, u_z)`."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint.update:3
-msgid ""
-"The prescribed displacements in radial, circumferential and axial direction,"
-" either one vector for all points or one vector per point with shape (n, 3)."
-" For 2d-meshes, also vectors with two components :math:`(u_r, u_\\theta)` "
-"are supported."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._cylindrical.CylindricalConstraint.update:11
-msgid ""
-"This method is called by a :class:`~felupe.Step` for each substep if the "
-"constraint is ramped, e.g. by ``ramp={constraint: table}``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
@@ -21322,10 +21798,14 @@ msgid "The outward plane normal vector."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
 #: of felupe.mechanics._contact.ContactRigidPlane:11
 msgid "Coulomb friction coefficient :math:`\\mu`. Default is 0.0."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
 #: of felupe.mechanics._contact.ContactRigidPlane:13
 msgid ""
@@ -21336,6 +21816,8 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:27
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
 #: of felupe.mechanics._contact.ContactRigidPlane:18
 msgid ""
 "A scale factor for the multiplier to penalize the relative tangential "
@@ -21345,6 +21827,8 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:32
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
 #: of felupe.mechanics._contact.ContactRigidPlane:23
 msgid ""
 "A list of items to be considered for the evaluation of the mean stiffness-"
@@ -21353,14 +21837,50 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:30
+#: of felupe.mechanics._contact.ContactRigidCylinder:36
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:27
+msgid ""
+"The update of the mean stiffness-based multipliers, either ``\"increment\"``"
+" (once per increment, based on the stiffness of the last converged "
+"increment), ``\"iteration\"`` (in each evaluation, i.e. in each Newton-"
+"iteration, without linearization) or ``\"once\"`` (only on the first "
+"evaluation). Default is ``\"increment\"``. Without ``items``, the "
+"multipliers are constant."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:42
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:33
+msgid ""
+"A flag to return the symmetric part of the stiffness matrix. The consistent "
+"stiffness matrix of frictional contact is not symmetric. Default is False."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:36
+msgid ""
+"The allowable elastic slip :math:`\\gamma` (a length) of sticking points. If"
+" given, the tangential multiplier is proportional to the normal force, "
+":math:`\\lambda_t = \\mu\\ f_n / \\gamma`, i.e. a sticking point starts to "
+"slide at an elastic slip of :math:`\\gamma`, independent of the contact "
+"pressure. The scale factor ``multiplier_tangential`` is not used. Typical "
+"values are 0.5 % to 1 % of a characteristic element length of the contact "
+"surface. For an infinite friction coefficient, :math:`\\mu=1` is used for "
+"the tangential multiplier. If None, the tangential multiplier is constant. "
+"Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:48
 msgid ""
 "A :class:`~felupe.ContactRigidPlane` is supported as an item in a "
 ":class:`~felupe.Step`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:35
+#: of felupe.mechanics._contact.ContactRigidPlane:53
 msgid ""
 "The contact formulation is based on a penalty method. The multiplier should "
 "be chosen sufficiently large to enforce the contact constraints, but not too"
@@ -21370,7 +21890,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:41
+#: of felupe.mechanics._contact.ContactRigidPlane:59
 msgid ""
 "The contact activation is based on the gap between the center-point and the "
 "points in potential contact. The gap is evaluated in the deformed "
@@ -21379,7 +21899,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:46
+#: of felupe.mechanics._contact.ContactRigidPlane:64
 msgid ""
 "\\Delta \\boldsymbol{x} &= \\boldsymbol{x} - \\boldsymbol{x}_c\n"
 "\n"
@@ -21389,115 +21909,200 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:55
+#: of felupe.mechanics._contact.ContactRigidPlane:73
 msgid ""
 "The contact normal force and tangent stiffness matrix are evaluated as a "
 "penalty contribution proportional to the gap, see Eq. :eq:`contact-force`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:58
+#: of felupe.mechanics._contact.ContactRigidPlane:76
 msgid ""
-"\\boldsymbol{f} &= \\lambda\\ g\\ \\boldsymbol{n}\n"
+"\\boldsymbol{f}_n &= \\lambda_n\\ g\\ \\boldsymbol{n}, \\quad\n"
+"    f_n = |\\boldsymbol{f}_n| = -\\lambda_n\\ g\n"
 "\n"
 "\\boldsymbol{P}_n &= \\boldsymbol{n} \\otimes \\boldsymbol{n}\n"
 "\n"
-"\\boldsymbol{K}_n &= \\lambda\\ \\boldsymbol{P}_n"
+"\\boldsymbol{K}_n &= \\lambda_n\\ \\boldsymbol{P}_n"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:67
+#: of felupe.mechanics._contact.ContactRigidPlane:86
 msgid ""
 "The tangential contact friction forces are evaluated according to a Coulomb "
-"friction law, see Eq. :eq:`contact-friction` and Eq. :eq:`contact-friction-"
-"state`."
+"friction law with an elastic (penalty) stick and a return mapping, similar "
+"to elasto-plasticity. The state variables are the gap vectors :math:`\\Delta"
+" \\boldsymbol{x}_n`, the reference (stick) gap vectors :math:`\\Delta "
+"\\boldsymbol{x}^{ref}_n` and the contact flags of the last converged "
+"increment. These are only updated after a converged increment, i.e. the "
+"forces and the stiffness matrix are functions of the displacements within an"
+" increment. For points which are already in contact at the beginning of the "
+"increment, the (trial) elastic slip is given in Eq. :eq:`contact-friction`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:71
+#: of felupe.mechanics._contact.ContactRigidPlane:96
 msgid ""
-"\\Delta \\boldsymbol{x}_t &= \\Delta \\boldsymbol{x} - \\Delta \\boldsymbol{x}^{ref}\n"
-"\n"
 "\\boldsymbol{P}_t &= \\boldsymbol{1} - \\boldsymbol{P}_n\n"
 "\n"
-"\\boldsymbol{f}_t^{trial} &= \\lambda \\boldsymbol{P}_t\\ \\Delta \\boldsymbol{x}_t\n"
-"\n"
-"f_t^{limit} &= \\mu |\\boldsymbol{f}_n|"
+"\\boldsymbol{e} &= \\boldsymbol{P}_t\n"
+"    \\left( \\Delta \\boldsymbol{x} - \\Delta \\boldsymbol{x}^{ref}_n \\right),\n"
+"    \\quad \\boldsymbol{E} = \\frac{\\partial \\boldsymbol{e}}{\n"
+"    \\partial \\Delta \\boldsymbol{x}} = \\boldsymbol{P}_t"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:82
+#: of felupe.mechanics._contact.ContactRigidPlane:106
 msgid ""
-"\\text{state} = \\begin{cases}\n"
+"For points which come into contact within the increment, the reference gap "
+"vector is located at the (linearly interpolated) point of first contact, "
+"where the gap is zero, see Eq. :eq:`contact-friction-new`. This avoids "
+"friction forces from the tangential movement before the contact is "
+"established, also for large increments."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:111
+msgid ""
+"s &= \\frac{-g}{g_n - g}, \\quad \\boldsymbol{e} = s\\ \\boldsymbol{P}_t\n"
+"    \\left( \\Delta \\boldsymbol{x} - \\Delta \\boldsymbol{x}_n \\right)\n"
+"\n"
+"\\boldsymbol{E} &= s\\ \\boldsymbol{P}_t - \\frac{g_n}{(g_n - g)^2}\\\n"
+"    \\boldsymbol{P}_t \\left( \\Delta \\boldsymbol{x} - \\Delta \\boldsymbol{x}_n\n"
+"    \\right) \\otimes \\boldsymbol{n}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:121
+msgid ""
+"The trial friction force is checked against the Coulomb limit, see Eq. "
+":eq:`contact-friction-state`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:124
+msgid ""
+"\\boldsymbol{f}_t^{trial} &= \\lambda_t\\ \\boldsymbol{e}\n"
+"\n"
+"f_t^{limit} &= \\mu\\ f_n\n"
+"\n"
+"\\text{state} &= \\begin{cases}\n"
 "    |\\boldsymbol{f}_t^{trial}| \\leq f_t^{limit} & \\text{stick} \\\\\n"
 "    \\text{else} & \\text{slip}\n"
 "\\end{cases}"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:90
+#: of felupe.mechanics._contact.ContactRigidPlane:136
 msgid ""
-"In case of sticking contact, the tangential forces are equal to the trial "
-"forces, see Eq. :eq:`contact-friction-stick`."
+"With an allowable elastic slip :math:`\\gamma` (``elastic_slip``), the "
+"tangential multiplier is not constant but proportional to the normal force, "
+"see Eq. :eq:`contact-friction-elastic-slip`. Hence, a point sticks for an "
+"elastic slip :math:`|\\boldsymbol{e}| \\leq \\gamma`, independent of the "
+"contact pressure, similar to the penalty friction of commercial codes."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:93
+#: of felupe.mechanics._contact.ContactRigidPlane:142
+msgid ""
+"\\lambda_t = \\frac{\\mu\\ f_n}{\\gamma}, \\quad\n"
+"    \\frac{\\partial \\lambda_t}{\\partial \\Delta \\boldsymbol{x}}\n"
+"    = -\\frac{\\mu\\ \\lambda_n}{\\gamma}\\ \\boldsymbol{n}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:149
+msgid ""
+"In case of sticking contact, the tangential forces are equal to the trial "
+"forces, see Eq. :eq:`contact-friction-stick`. With an allowable elastic "
+"slip, the derivative of the tangential multiplier is added to the stiffness "
+"matrix, :math:`-\\mu\\ \\lambda_n / \\gamma\\ \\boldsymbol{e} \\otimes "
+"\\boldsymbol{n}`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:154
 msgid ""
 "\\boldsymbol{f}_t &= \\boldsymbol{f}_t^{trial}\n"
 "\n"
-"\\boldsymbol{K}_t &= \\lambda\\ \\boldsymbol{P}_t"
+"\\boldsymbol{K}_t &= \\lambda_t\\ \\boldsymbol{E}"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:100
+#: of felupe.mechanics._contact.ContactRigidPlane:161
 msgid ""
-"In case of sliding contact, a scale factor is applied to the tangential "
-"forces to enforce the friction limit, see Eq. :eq:`contact-friction-slide`."
+"In case of sliding contact, the tangential forces are projected to the "
+"friction limit and the reference gap vectors are updated, see Eq. "
+":eq:`contact-friction-slide`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:103
+#: of felupe.mechanics._contact.ContactRigidPlane:165
 msgid ""
-"s_t &= \\frac{f_t^{limit}}{|\\boldsymbol{f}_t^{trial}|}\n"
+"\\hat{\\boldsymbol{t}} &= \\frac{\\boldsymbol{e}}{|\\boldsymbol{e}|}\n"
 "\n"
-"\\boldsymbol{f}_t &= s_t\\ \\boldsymbol{f}_t^{trial}\n"
+"\\boldsymbol{f}_t &= \\mu\\ f_n\\ \\hat{\\boldsymbol{t}}\n"
 "\n"
 "\\Delta \\boldsymbol{x}^{ref} &=\n"
-"    \\Delta \\boldsymbol{x} - \\frac{\\boldsymbol{f}_t}{\\lambda}"
+"    \\Delta \\boldsymbol{x} - \\frac{\\boldsymbol{f}_t}{\\lambda_t}"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:113
+#: of felupe.mechanics._contact.ContactRigidPlane:175
 msgid ""
-"The tangential stiffness matrix contribution for sliding contact is given in"
-" Eq. :eq:`contact-friction-slide-stiffness`."
+"The consistent tangential stiffness matrix for sliding contact is given in "
+"Eq. :eq:`contact-friction-slide-stiffness`. The second term couples the "
+"tangential forces to the normal force and is not symmetric."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:116
+#: of felupe.mechanics._contact.ContactRigidPlane:179
 msgid ""
-"\\hat{\\boldsymbol{f}_t} &= \\frac{\n"
-"    \\boldsymbol{f}_t^{trial}\n"
-"}{|\\boldsymbol{f}_t^{trial}|}\n"
-"\n"
-"\\hat{\\boldsymbol{P}}_t &= \\frac{1}{|\\boldsymbol{f}_t^{trial}|} \\left(\n"
-"    \\boldsymbol{1} - \\hat{\\boldsymbol{f}}_t \\otimes \\hat{\\boldsymbol{f}}_t\n"
-"\\right)\n"
-"\n"
-"\\boldsymbol{K}_t &=\n"
-"    \\mu\\ \\lambda\\ |\\boldsymbol{f}_n|\\ \\hat{\\boldsymbol{P}}_t\\ \\boldsymbol{P}_t"
+"\\boldsymbol{K}_t &= \\frac{\\mu\\ f_n}{|\\boldsymbol{e}|} \\left(\n"
+"    \\boldsymbol{1} - \\hat{\\boldsymbol{t}} \\otimes \\hat{\\boldsymbol{t}}\n"
+"    \\right) \\boldsymbol{E} - \\mu\\ \\lambda_n\\ \\hat{\\boldsymbol{t}} \\otimes\n"
+"    \\boldsymbol{n}"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:132
+#: of felupe.mechanics._contact.ContactRigidPlane:187
+msgid ""
+"With ``symmetric=True``, the symmetric part of the stiffness matrix is "
+"returned."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:189
+msgid ""
+"If ``items`` are given, the multipliers are scaled by the mean normal and "
+"the mean tangential stiffness of the diagonal blocks of the stiffness "
+"matrices of the items, evaluated at all points in potential contact, see Eq."
+" :eq:`contact-multipliers`. Hence, the multipliers do not depend on the "
+"number of active contact points. With the default "
+"``multiplier_update=\"increment\"``, the multipliers are evaluated on the "
+"first evaluation within an increment and are kept constant during the "
+"Newton-iterations."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:197
+msgid ""
+"\\lambda_n &= \\lambda_n^{\\star}\\ \\frac{1}{n} \\sum_a \\boldsymbol{K}_{aa} :\n"
+"    \\boldsymbol{P}_n\n"
+"\n"
+"\\lambda_t &= \\lambda_t^{\\star}\\ \\frac{1}{n\\ (d-1)} \\sum_a \\boldsymbol{K}_{aa}\n"
+"    : \\boldsymbol{P}_t"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidPlane:208
 msgid ""
 "This example shows how to use a :class:`~felupe.ContactRigidPlane`. An "
 "additional center-point is added to a mesh."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:151
+#: of felupe.mechanics._contact.ContactRigidPlane:227
 msgid ""
 "A :class:`~felupe.ContactRigidPlane` defines the contact, which connects the"
 " displacement degrees of freedom of the center-point with the dofs of points"
@@ -21506,7 +22111,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:184
+#: of felupe.mechanics._contact.ContactRigidPlane:260
 msgid ""
 "The mesh is fixed on the left end face and a ramped "
 ":class:`~felupe.Boundary` is applied on the center-point of the "
@@ -21515,61 +22120,306 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane:204
+#: of felupe.mechanics._contact.ContactRigidPlane:280
 msgid ""
 "A view on the deformed mesh including the :class:`~felupe.ContactRigidPlane`"
 " is plotted."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane.checkpoint:1
+#: of felupe.mechanics._contact.ContactRigidBase.checkpoint:1
 msgid "Return a checkpoint of the state of the contact."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane.checkpoint:3
+#: of felupe.mechanics._contact.ContactRigidBase.checkpoint:3
 msgid ""
-"A dict with copies of the reference gap vectors of the tangential "
-"(frictional) contact, the mask of active contact points and the mask of "
-"sliding contact points."
+"A dict with copies of the state variables of the last converged increment "
+"(the gap vectors, the reference gap vectors of the tangential (frictional) "
+"contact and the mask of active contact points) and the multipliers."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane.checkpoint:10
+#: of felupe.mechanics._contact.ContactRigidBase.checkpoint:10
 msgid ""
-"The state of the contact is updated in each evaluation of the residuals. The"
-" field is not included in the checkpoint, see e.g. "
-":meth:`SolidBody.checkpoint() <felupe.SolidBody.checkpoint>`."
+"The state variables are only updated after a converged increment. The field "
+"is not included in the checkpoint, see e.g. :meth:`SolidBody.checkpoint() "
+"<felupe.SolidBody.checkpoint>`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane.checkpoint:16
-msgid ":py:obj:`felupe.ContactRigidPlane.restore`"
+#: of felupe.mechanics._contact.ContactRigidBase.contact_multipliers:1
+msgid "Return the normal and tangential multipliers."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane.checkpoint:17
-msgid "Restore a checkpoint of the contact."
+#: of felupe.mechanics._contact.ContactRigidBase.contact_multipliers:3
+msgid ""
+"The normal and the tangential multipliers. If items are given, the scale "
+"factors are multiplied by the mean normal and the mean tangential stiffness "
+"of the diagonal blocks of the stiffness matrices of the items, evaluated at "
+"all points in potential contact."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane.restore:1
+#: of felupe.mechanics._contact.ContactRigidBase.restore:1
 msgid "Restore a checkpoint of the state of the contact inplace."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane.restore:3
-msgid "A dict with checkpoint arrays."
+#: of felupe.mechanics._contact.ContactRigidCylinder:8
+msgid "The index of the centerpoint, located on the axis of the cylinder."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane.restore:8
-msgid ":py:obj:`felupe.ContactRigidPlane.checkpoint`"
+#: of felupe.mechanics._contact.ContactRigidCylinder:10
+msgid "The radius of the cylinder."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
-#: of felupe.mechanics._contact.ContactRigidPlane.restore:9
-msgid "Return a checkpoint of the contact."
+#: of felupe.mechanics._contact.ContactRigidCylinder:12
+msgid ""
+"The direction of the axis of the cylinder. Required for 3d-meshes. For "
+"2d-meshes, the axis is the out-of-plane direction, i.e. the cylinder is a "
+"circle. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:16
+msgid ""
+"If False, the points are located outside of the cylinder, e.g. for a "
+"cylindrical indenter or a roller. If True, the points are located inside of "
+"the cylinder, e.g. for a rigid tube. Default is False."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:45
+msgid ""
+"The allowable elastic slip :math:`\\gamma` (a length) of sticking points. If"
+" given, the tangential multiplier is proportional to the normal force, "
+":math:`\\lambda_t = \\mu\\ f_n / \\gamma`. If None, the tangential "
+"multiplier is constant. Default is None. See "
+":class:`~felupe.ContactRigidPlane` for details."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:50
+msgid ""
+"The gaps for the curvature term of the normal stiffness, either "
+"``\"converged\"`` (the gaps of the last converged increment, zero for points"
+" which come into contact within the increment), ``\"trial\"`` (the gaps of "
+"the trial state, i.e. a consistent linearization) or None (no curvature "
+"term). Default is ``\"converged\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:59
+msgid ""
+"A :class:`~felupe.ContactRigidCylinder` is supported as an item in a "
+":class:`~felupe.Step`. The contact formulation is the same as for a "
+":class:`~felupe.ContactRigidPlane` (penalty-based normal contact, Coulomb "
+"friction with a return mapping from the converged state, stiffness-based "
+"multipliers), but the gaps and the outward normal vectors depend on the "
+"positions of the points. With the projection onto the cross-section of the "
+"cylinder, the gaps, the normal vectors and their derivatives w.r.t. the gap "
+"vectors (the curvatures) are given in Eq. :eq:`cylinder-gap`, where "
+":math:`s=1` for points outside and :math:`s=-1` for points inside of the "
+"cylinder."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:69
+msgid ""
+"\\boldsymbol{P}_a &= \\boldsymbol{1} - \\boldsymbol{a} \\otimes \\boldsymbol{a},\n"
+"    \\quad \\boldsymbol{r} = \\boldsymbol{P}_a\\ \\Delta \\boldsymbol{x},\n"
+"    \\quad d = |\\boldsymbol{r}|\n"
+"\n"
+"g &= s\\ (d - R), \\quad \\boldsymbol{n} = s\\ \\frac{\\boldsymbol{r}}{d}\n"
+"\n"
+"\\boldsymbol{H} &= \\frac{\\partial \\boldsymbol{n}}{\\partial \\Delta \\boldsymbol{x}}\n"
+"    = \\frac{s}{d} \\left( \\boldsymbol{P}_a - \\boldsymbol{n} \\otimes\n"
+"    \\boldsymbol{n} \\right)"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:82
+msgid ""
+"The consistent normal stiffness includes the curvature term, see Eq. "
+":eq:`cylinder-normal-stiffness`. For points outside of the cylinder, this "
+"term is negative in circumferential direction (the normal force divided by "
+"the radius)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:86
+msgid ""
+"\\boldsymbol{f}_n &= \\lambda_n\\ g\\ \\boldsymbol{n}\n"
+"\n"
+"\\boldsymbol{K}_n &= \\lambda_n \\left( \\boldsymbol{n} \\otimes \\boldsymbol{n}\n"
+"    + g\\ \\boldsymbol{H} \\right)"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:94
+msgid ""
+"For large increments, the gaps of the trial state in the first Newton-"
+"iterations may be much larger than the converged gaps. Then, the negative "
+"curvature term may lead to an indefinite stiffness matrix and the Newton-"
+"Raphson method diverges, e.g. for soft bodies with free side faces. Hence, "
+"the curvature term is evaluated with the gaps of the last converged "
+"increment by default (``curvature=\"converged\"``), i.e. with the normal "
+"forces of the last converged increment. This is not a consistent "
+"linearization, but the curvature term is bounded by the converged normal "
+"forces. The consistent linearization is used with ``curvature=\"trial\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:103
+msgid ""
+"The elastic slip is measured in the current tangent plane. Its derivative "
+"includes the derivative of the tangential projection, see Eq. :eq:`cylinder-"
+"friction`. The reference gap vectors are updated by the return mapping after"
+" each converged increment, i.e. the elastic slip is bounded and a large "
+"sliding path along the circumference is captured by the updates of the "
+"reference gap vectors."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:109
+msgid ""
+"\\boldsymbol{w} &= \\Delta \\boldsymbol{x} - \\Delta \\boldsymbol{x}^{ref}_n,\n"
+"    \\quad \\boldsymbol{e} = \\boldsymbol{P}_t\\ \\boldsymbol{w}\n"
+"\n"
+"\\boldsymbol{E} &= \\frac{\\partial \\boldsymbol{e}}{\\partial \\Delta \\boldsymbol{x}}\n"
+"    = \\boldsymbol{P}_t - \\left( \\boldsymbol{n} \\cdot \\boldsymbol{w} \\right)\n"
+"    \\boldsymbol{H} - \\boldsymbol{n} \\otimes \\boldsymbol{H}\\ \\boldsymbol{w}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:119
+msgid ""
+"The cylinder does not rotate, i.e. only the translational degrees of freedom"
+" of the center-point are coupled."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:124
+msgid ""
+"This example shows how to use a :class:`~felupe.ContactRigidCylinder`. A "
+"rubber block is indented by a rigid cylinder, which is dragged along the top"
+" face afterwards. An additional center-point on the axis of the cylinder is "
+"added to the mesh."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:145
+msgid ""
+"The :class:`~felupe.ContactRigidCylinder` connects the center-point with the"
+" points of the top face, if they are in contact. The axis of the cylinder is"
+" parallel to the :math:`y`-axis. The allowable elastic slip is about 3 % of "
+"the element length."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:166
+msgid ""
+"The mesh is fixed on the bottom face. The center-point is moved downwards "
+"first and horizontally afterwards. For large increments, the contact status "
+"of the points and the stick-slip states may alternate between the Newton-"
+"iterations. Then, a :class:`~felupe.CutbackPlugin` reduces the increment of "
+"failed substeps."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:190
+msgid ""
+"A view on the deformed mesh including the "
+":class:`~felupe.ContactRigidCylinder` is plotted."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidBase:23
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder:207
+msgid ":py:obj:`felupe.ContactRigidPlane`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder.plot:1
+msgid ""
+"Plot the rigid cylinder (a circle for 2d-meshes) with its center-point."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder.plot:3
+msgid "An existing plotter. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder.plot:5
+msgid ""
+"A flag to plot the cylinder at the deformed center-point. Default is True."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder.plot:7
+msgid ""
+"The length of the cylinder (3d only). If None, the length is 1.05 times the "
+"largest dimension of the mesh. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder.plot:10
+msgid "The number of points in circumferential direction. Default is 120."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder.plot:12
+msgid ""
+"A flag to show the edges of the cylinder surface (3d only). Default is "
+"False."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder.plot:15
+msgid "The color of the cylinder. Default is \"black\"."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder.plot:17
+msgid "The opacity of the cylinder. Default is 0.5."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder.plot:19
+msgid "The line width of the circle (2d only) and the axis. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder.plot:21
+msgid "A flag to show the center-point. Default is True."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder.plot:23
+msgid "A flag to show the axis of the cylinder (3d only). Default is True."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder.plot:25
+msgid ""
+"Clip the cylinder at the symmetry planes of the given axes. Default is "
+"(False, False, False)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder.plot:28
+msgid "Additional keyword arguments for the meshes of the plotter."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidCylinder.plot:31
+msgid "The plotter with the cylinder."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
@@ -21611,6 +22461,46 @@ msgstr ""
 #: of felupe.mechanics._helpers.StateNearlyIncompressible.volume:3
 msgid "v = \\int_V J ~ dV"
 msgstr "v = \\int_V J ~ dV"
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidBase:6
+msgid ""
+"The geometry of the rigid surface is defined by the method "
+"``_kinematics(dx)`` of a subclass. For given gap vectors :math:`\\Delta "
+"\\boldsymbol{x}` between the points and the center-point, it returns the "
+"gaps :math:`g`, the outward normal vectors :math:`\\boldsymbol{n} = "
+"\\partial g / \\partial \\Delta \\boldsymbol{x}` and the derivatives of the "
+"normal vectors w.r.t. the gap vectors (the curvatures) "
+":math:`\\boldsymbol{H} = \\partial \\boldsymbol{n} / \\partial \\Delta "
+"\\boldsymbol{x}`, or None for a flat surface. The rigid surface does not "
+"rotate, i.e. only the translational degrees of freedom of the center-point "
+"are coupled."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidBase:15
+msgid ""
+"The base class provides the penalty-based normal contact, the Coulomb "
+"friction with the return mapping from the converged state, the stiffness-"
+"based multipliers, the checkpoints and the assembly of the sparse vector and"
+" matrix. With curvatures, the stiffness matrix includes the derivatives of "
+"the normal vectors, see :class:`~felupe.ContactRigidCylinder`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidBase:24
+msgid "A node-to-surface contact with a rigid plane."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidBase:26
+msgid ":py:obj:`felupe.ContactRigidCylinder`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_contact.pydocstring
+#: of felupe.mechanics._contact.ContactRigidBase:27
+msgid "A node-to-surface contact with a rigid cylinder."
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_update.pydocstring
 #: of felupe.mechanics._update.UpdateItem:3
