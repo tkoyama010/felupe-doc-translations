@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-09 00:17+0000\n"
+"POT-Creation-Date: 2026-10-14 00:14+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -182,16 +182,20 @@ msgstr ""
 msgid ""
 "Items are supported to be used in a :class:`~felupe.Step` and in "
 ":func:`~felupe.newtonraphson`. They provide methods to assemble a vector and"
-" a sparse matrix. An item has to be created as a class which takes a "
-":class:`~felupe.FieldContainer` as input argument. In its ``__init__(self, "
-"field)`` method, the helpers :class:`~felupe.mechanics.Assemble` and "
-":class:`~felupe.mechanics.Results` have to be evaluated and added as "
-"attributes. Internal methods which assemble the sparse vector and matrix, "
-"optionally with an updated :class:`~felupe.FieldContainer` provided by the "
-"`field` argument, have to be linked to :class:`~felupe.mechanics.Assemble`."
+" a sparse matrix. The interface of an item, i.e. the required attributes "
+"``field``, ``assemble`` and ``results`` and the optional methods for further"
+" features, is described by :class:`~felupe.mechanics.Item`. An item has to "
+"be created as a class which takes a :class:`~felupe.FieldContainer` as input"
+" argument. In its ``__init__(self, field)`` method, the field container and "
+"the helpers :class:`~felupe.mechanics.Assemble` and "
+":class:`~felupe.mechanics.Results` have to be added as the attributes "
+"``field``, ``assemble`` and ``results``. Internal methods which assemble the"
+" sparse vector and matrix, optionally with an updated "
+":class:`~felupe.FieldContainer` provided by the `field` argument, have to be"
+" linked to :class:`~felupe.mechanics.Assemble`."
 msgstr ""
 
-#: ../../felupe/docs/howto/items.rst:15
+#: ../../felupe/docs/howto/items.rst:18
 msgid ""
 "This is a minimal working example for an item. For more details, see the "
 "sources of :class:`~felupe.SolidBody` or "
@@ -202,20 +206,40 @@ msgid ""
 "be updated with its ``update()`` method, which is called by the step at the "
 "beginning of each substep. If more parameters have to be updated, it is "
 "recommended to add a separate method for each parameter with  the naming "
-"convention ``_update_my_parameter()``. Then, "
-":class:`~felupe.mechanics.UpdateItem` can be used to update the item with "
-"the syntax ``my_item[\"my_parameter\"] = my_parameter_value`` in a step."
+"convention ``_update_my_parameter()``. Then, the method ``__getitem__()`` of"
+" the item returns an :class:`~felupe.mechanics.UpdateItem` for "
+"``my_item[\"my_parameter\"]``, which is used as a key of the ``ramp``-dict "
+"of a step, i.e. ``ramp = {my_item[\"my_parameter\"]: my_parameter_values}``."
+" At the beginning of each substep, the step calls the method "
+"``update(value)`` of this key, which calls "
+"``my_item._update_my_parameter(value)``. Outside of a step, the parameter is"
+" updated by ``my_item[\"my_parameter\"].update(value)`` (an item assignment "
+"``my_item[\"my_parameter\"] = value`` is not supported)."
 msgstr ""
 
-#: ../../felupe/docs/howto/items.rst:105
+#: ../../felupe/docs/howto/items.rst:114
 msgid "This item is now added to a basic script."
 msgstr ""
 
-#: ../../felupe/docs/howto/items.rst:109
+#: ../../felupe/docs/howto/items.rst:118
 msgid ""
 "The vector- and matrix-shapes are automatically increased to match the shape"
 " of the other items if necessary. Hence, a sparse matrix with shape ``(1, "
 "1)`` is a valid choice for a vector or a matrix filled with zeros."
+msgstr ""
+
+#: ../../felupe/docs/howto/items.rst:124
+msgid ""
+"An item with state variables, e.g. of a history-dependent material model, "
+"stores the trial state variables of the last evaluation in "
+"``results._statevars``. After a converged iteration, "
+":func:`~felupe.newtonraphson` calls ``results.update_statevars()``, which "
+"accepts them as the state variables ``results.statevars`` of the converged "
+"solution. An item with a state which is modified during the iterations, e.g."
+" the internal fields of a :class:`~felupe.SolidBodyNearlyIncompressible`, "
+"has to provide the methods ``checkpoint()`` and ``restore(checkpoint)`` for "
+"the :class:`~felupe.CutbackPlugin`. All optional methods of an item are "
+"listed in :class:`~felupe.mechanics.Item`."
 msgstr ""
 
 #: ../../felupe/docs/howto/meshgen.rst:2
@@ -450,6 +474,107 @@ msgid ""
 "formulations. The deformed cube is finally visualized by PyVista. The cell-"
 "based means of the maximum principal values of the logarithmic strain tensor"
 " are shown."
+msgstr ""
+
+#: ../../felupe/docs/howto/parallel.rst:2
+msgid "Evaluate in parallel"
+msgstr ""
+
+#: ../../felupe/docs/howto/parallel.rst:4
+msgid ""
+"FElupe may evaluate two parts of a Newton-Raphson iteration by a pool of "
+"threads: the assembly of the weak forms and the constitutive material. Both "
+"are evaluated in chunks of cells and they are enabled independently. The "
+"pool of threads is shared and it uses one thread per usable CPU of the "
+"process, e.g. the CPUs of a job on a shared HPC-node. For Python 3.13+, the "
+"number of CPUs may be overridden by the environment variable "
+"``PYTHON_CPU_COUNT``."
+msgstr ""
+
+#: ../../felupe/docs/howto/parallel.rst:14
+msgid "Part"
+msgstr ""
+
+#: ../../felupe/docs/howto/parallel.rst:15
+msgid "Enabled by"
+msgstr ""
+
+#: ../../felupe/docs/howto/parallel.rst:16
+msgid "Evaluated in parallel"
+msgstr ""
+
+#: ../../felupe/docs/howto/parallel.rst:17
+msgid "Assembly"
+msgstr ""
+
+#: ../../felupe/docs/howto/parallel.rst:18
+msgid ""
+"``job.evaluate(parallel=True)``, ``solid.assemble.vector(parallel=True)``, "
+"``solid.assemble.matrix(parallel=True)`` or "
+"``IntegralForm.assemble(parallel=True)``"
+msgstr ""
+
+#: ../../felupe/docs/howto/parallel.rst:21
+msgid ""
+"The integration of the weak forms. For items on boundaries, e.g. a "
+":class:`~felupe.SolidBodyPressure`, also the evaluation of the area change."
+msgstr ""
+
+#: ../../felupe/docs/howto/parallel.rst:23
+msgid "Constitutive material"
+msgstr ""
+
+#: ../../felupe/docs/howto/parallel.rst:24
+msgid "The material, e.g. ``NeoHooke(mu=1, bulk=5000, parallel=True)``"
+msgstr ""
+
+#: ../../felupe/docs/howto/parallel.rst:25
+msgid "The gradient and the hessian of the strain energy density function."
+msgstr ""
+
+#: ../../felupe/docs/howto/parallel.rst:27
+msgid ""
+"The constitutive materials are evaluated in chunks of cells also without "
+"threads, because the intermediate arrays of a chunk fit into the CPU caches."
+" The number of evaluation points (quadrature points times cells) per chunk "
+"is given by the attribute ``chunksize`` of the material (default is 8192). A"
+" material with ``parallel=True`` evaluates its chunks by the pool of "
+"threads."
+msgstr ""
+
+#: ../../felupe/docs/howto/parallel.rst:52
+msgid ""
+"Composed materials, like :class:`~felupe.ThreeFieldVariation`, "
+":class:`~felupe.NearlyIncompressible` or :class:`~felupe.OgdenRoxburgh`, "
+"take the flag from their material by default, e.g. "
+"``ThreeFieldVariation(NeoHooke(..., parallel=True))`` is evaluated in "
+"parallel. A composite material ``material & other_material`` is evaluated in"
+" parallel if any of its materials is parallel."
+msgstr ""
+
+#: ../../felupe/docs/howto/parallel.rst:59
+msgid ""
+"Threads add an overhead to small-sized problems. A single chunk of cells is "
+"always evaluated without threads. With a multi-threaded BLAS-library, limit "
+"its number of threads to avoid an oversubscription of the CPUs."
+msgstr ""
+
+#: ../../felupe/docs/howto/parallel.rst:64
+msgid ""
+"A user-defined material, which implements ``_gradient(x)`` and "
+"``_hessian(x)`` of :class:`~felupe.ConstitutiveMaterial`, must be thread-"
+"safe if it is created or used with ``parallel=True``. Intermediate results "
+"must be local variables (not attributes of the material) and the material "
+"must not change its attributes during the evaluation. The result of a cell "
+"must not depend on other cells."
+msgstr ""
+
+#: ../../felupe/docs/howto/parallel.rst:70
+msgid ""
+"The JAX-based materials (:class:`felupe.constitution.jax.Hyperelastic` and "
+":class:`felupe.constitution.jax.Material`) are not evaluated in chunks of "
+"cells. For these, ``parallel=True`` maps the quadrature points to multiple "
+"devices."
 msgstr ""
 
 #: ../../felupe/docs/howto/project.rst:2
