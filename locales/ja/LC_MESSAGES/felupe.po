@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 00:15+0000\n"
+"POT-Creation-Date: 2026-10-16 00:15+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -224,7 +224,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution/autodiff/jax.rst:88
 #: ../../felupe/docs/felupe/constitution/autodiff/tensortrax.rst:66
 #: ../../felupe/docs/felupe/constitution/core.rst:64
-#: ../../felupe/docs/felupe/constitution/tools.rst:34
+#: ../../felupe/docs/felupe/constitution/tools.rst:35
 #: ../../felupe/docs/felupe/dof.rst:34 ../../felupe/docs/felupe/element.rst:56
 #: ../../felupe/docs/felupe/field.rst:27 ../../felupe/docs/felupe/math.rst:66
 #: ../../felupe/docs/felupe/mechanics.rst:75
@@ -271,6 +271,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.NearlyIncompressible.volumetric:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_view.pydocstring
 #: of felupe.constitution._view.ViewMaterial.uniaxial:0
@@ -279,11 +281,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: of felupe.NeoHooke.volumetric:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: of felupe.Volumetric.volumetric:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
@@ -424,8 +426,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.revolve:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
-#: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:0
+#: of felupe.SolidBodyNearlyIncompressible.volumetric:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.Step.generate_states:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
@@ -590,7 +591,7 @@ msgstr ""
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:15
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.is_stable:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.pydocstring
@@ -601,6 +602,9 @@ msgstr ""
 #: of felupe.constitution._base.ConstitutiveMaterial.is_stable:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:27
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.is_stable:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
@@ -889,7 +893,7 @@ msgstr ""
 #: of felupe.mechanics._solidbody_force.SolidBodyForce:14
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:29
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:39
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.restore:15
@@ -1133,7 +1137,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:91
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
-#: of felupe.constitution._mixed.NearlyIncompressible:53
+#: of felupe.constitution._mixed.NearlyIncompressible:54
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
 #: of felupe.constitution._mixed.ThirdMediumContactMixed:48
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_view.pydocstring
@@ -1153,7 +1157,7 @@ msgstr ""
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:91
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:141
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:153
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.is_stable:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.pydocstring
@@ -1164,6 +1168,11 @@ msgstr ""
 #: of felupe.constitution._base.ConstitutiveMaterial.is_stable:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:91
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
+#: of felupe.constitution.hyperelasticity._volumetric.Volumetric:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:91
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.is_stable:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
@@ -1450,7 +1459,7 @@ msgstr ""
 #: of felupe.mechanics._solidbody_force.SolidBodyForce:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:246
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:272
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.checkpoint:7
@@ -2050,13 +2059,13 @@ msgstr ""
 #: felupe.constitution.hyperelasticity._neo_hooke_compressible.NeoHookeCompressible:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:33
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:43
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:77
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:88
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:115
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:126
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/element/_tetra.pydocstring
 #: of felupe.element._tetra.QuadraticTetra:29
 msgid "with"
@@ -2118,6 +2127,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.NearlyIncompressible.volumetric:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_view.pydocstring
 #: of felupe.constitution._view.ViewMaterial.uniaxial:0
@@ -2126,11 +2137,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: of felupe.NeoHooke.volumetric:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: of felupe.Volumetric.volumetric:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
@@ -2216,8 +2227,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.revolve:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
-#: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:0
+#: of felupe.SolidBodyNearlyIncompressible.volumetric:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.concatenate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
@@ -2275,6 +2285,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.NearlyIncompressible.volumetric:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_view.pydocstring
 #: of felupe.constitution._view.ViewMaterial.uniaxial:0
@@ -2283,11 +2295,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: of felupe.NeoHooke.volumetric:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: of felupe.Volumetric.volumetric:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
@@ -2357,8 +2369,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.revolve:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
-#: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:0
+#: of felupe.SolidBodyNearlyIncompressible.volumetric:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.concatenate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_container.pydocstring
@@ -2780,7 +2791,7 @@ msgstr ""
 #: of felupe.mechanics._multipoint._constraint.MultiPointConstraint:267
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:271
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:297
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.extrude:99
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
@@ -5780,6 +5791,11 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution/core.rst:41:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
 #: of felupe.constitution._material.Material:257
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
+#: of felupe.constitution.hyperelasticity._volumetric.Volumetric:29
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:143
 msgid ""
 "Nearly-incompressible isotropic hyperelastic Neo-Hookean material "
 "formulation."
@@ -8818,8 +8834,10 @@ msgid "**Hyperelasticity**"
 msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:41:<autosummary>:1
-msgid ":py:obj:`NeoHooke <felupe.NeoHooke>`\\ \\(\\[mu\\, bulk\\, parallel\\]\\)"
-msgstr ":py:obj:`NeoHooke <felupe.NeoHooke>`\\ \\(\\[mu\\, bulk\\, parallel\\]\\)"
+msgid ""
+":py:obj:`NeoHooke <felupe.NeoHooke>`\\ \\(\\[mu\\, bulk\\, parallel\\, "
+"volumetric\\]\\)"
+msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:41:<autosummary>:1
 msgid ""
@@ -8860,14 +8878,15 @@ msgstr ""
 #: ../../felupe/docs/felupe/constitution/core.rst:48:<autosummary>:1
 msgid ""
 ":py:obj:`NearlyIncompressible <felupe.NearlyIncompressible>`\\ "
-"\\(material\\, bulk\\[\\, ...\\]\\)"
+"\\(material\\[\\, bulk\\, ...\\]\\)"
 msgstr ""
-":py:obj:`NearlyIncompressible <felupe.NearlyIncompressible>`\\ "
-"\\(material\\, bulk\\[\\, ...\\]\\)"
 
 #: ../../felupe/docs/felupe/constitution/core.rst:48:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
 #: of felupe.constitution._mixed.NearlyIncompressible:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:149
 msgid ""
 "A nearly-incompressible material formulation to augment the distortional "
 "part of the strain energy function by a volumetric part and a constraint "
@@ -10249,7 +10268,7 @@ msgstr ""
 #: of felupe.constitution._mixed.NearlyIncompressible:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:41
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:51
 msgid ""
 "\\Pi_{int}(\\boldsymbol{F}, p, \\bar{J}) =\n"
 "    \\int_V \\hat{\\psi}(\\boldsymbol{F})\\ dV +\n"
@@ -10263,35 +10282,27 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
 #: of felupe.constitution._mixed.NearlyIncompressible:17
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
-#: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:108
 msgid ""
-"The volumetric part of the strain energy density function is denoted in Eq. "
-":eq:`nearlyincompressible-volumetric` along with its first and second "
-"derivatives."
+"The volumetric part of the strain energy density function "
+":math:`U(\\bar{J})` is given by ``volumetric``, see "
+":class:`~felupe.VolumetricStrainEnergy`. Its first and second derivatives "
+"w.r.t. the volume ratio are abbreviated by :math:`\\bar{U}'=U'(\\bar{J})` "
+"and :math:`\\bar{U}''=U''(\\bar{J})`, e.g. for ``volumetric=\"volume-"
+"ratio\"`` (default)"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
-#: of felupe.constitution._mixed.NearlyIncompressible:20
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
-#: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:111
+#: of felupe.constitution._mixed.NearlyIncompressible:23
 msgid ""
-"\\bar{U} &= \\frac{K}{2} \\left( \\bar{J} - 1 \\right)^2\n"
+"U(\\bar{J}) &= \\frac{K}{2} \\left( \\bar{J} - 1 \\right)^2\n"
 "\n"
 "\\bar{U}' &= K \\left( \\bar{J} - 1 \\right)\n"
 "\n"
 "\\bar{U}'' &= K"
 msgstr ""
-"\\bar{U} &= \\frac{K}{2} \\left( \\bar{J} - 1 \\right)^2\n"
-"\n"
-"\\bar{U}' &= K \\left( \\bar{J} - 1 \\right)\n"
-"\n"
-"\\bar{U}'' &= K"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
-#: of felupe.constitution._mixed.NearlyIncompressible:29
+#: of felupe.constitution._mixed.NearlyIncompressible:31
 msgid ""
 "A hyperelastic material definition for the distortional part of the strain "
 "energy density function :math:`\\hat{\\psi}(\\boldsymbol{F})` with methods "
@@ -10302,14 +10313,16 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
-#: of felupe.constitution._mixed.NearlyIncompressible:35
+#: of felupe.constitution._mixed.NearlyIncompressible:37
 msgid ""
-"The bulk modulus :math:`K` for the volumetric part of the strain energy "
-"function."
+"The bulk modulus :math:`K` of the volumetric part of the strain energy "
+"density function, which is required if ``volumetric`` is a kind. It must be "
+"None if ``volumetric`` is an instance, which holds its own parameters "
+"(default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
-#: of felupe.constitution._mixed.NearlyIncompressible:38
+#: of felupe.constitution._mixed.NearlyIncompressible:41
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
 #: of felupe.constitution._mixed.ThirdMediumContactMixed:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
@@ -10322,34 +10335,50 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
-#: of felupe.constitution._mixed.NearlyIncompressible:41
+#: of felupe.constitution._mixed.NearlyIncompressible:44
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:29
 msgid ""
-"A function which evaluates the derivative of the volumetric part of the "
-"strain energy function :math:`\\bar{U}'` w.r.t. the volume ratio "
-":math:`\\bar{J}`. Function signature must be ``lambda J, bulk: dUdJ``. "
-"Default is :math:`\\bar{U}' = K (\\bar{J} - 1)` or ``lambda J, bulk: bulk * "
-"(J - 1)``."
+"The volumetric part of the strain energy density function "
+":math:`U(\\bar{J})`, given by a kind with the bulk modulus, ``\"volume-"
+"ratio\"`` for :math:`U(\\bar{J})=K(\\bar{J}-1)^2/2`, ``\"stretch\"`` for "
+":math:`U(\\bar{J})=9K(\\bar{J}^{1/3}-1)^2/2` or ``\"log\"`` for "
+":math:`U(\\bar{J})=K\\ln(\\bar{J})^2/2`, or by an instance of "
+":class:`~felupe.VolumetricStrainEnergy`, e.g. of a custom subclass. Default "
+"is ``\"volume-ratio\"``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
-#: of felupe.constitution._mixed.NearlyIncompressible:46
+#: of felupe.constitution._mixed.NearlyIncompressible:64
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:161
 msgid ""
-"A function which evaluates the second derivative of the volumetric part of "
-"the strain energy function :math:`\\bar{U}''` w.r.t. the volume ratio "
-":math:`\\bar{J}`. Function signature must be ``lambda J, bulk: d2UdJdJ``. "
-"Default is :math:`\\bar{U}'' = K` or ``lambda J, bulk: bulk``."
+"The volumetric part of the strain energy density function is given by a kind"
+" or by an instance of :class:`~felupe.VolumetricStrainEnergy`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
-#: of felupe.constitution._mixed.NearlyIncompressible:65
+#: of felupe.constitution._mixed.NearlyIncompressible:73
 msgid ":py:obj:`ThreeFieldVariation`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
-#: of felupe.constitution._mixed.NearlyIncompressible:66
+#: of felupe.constitution._mixed.NearlyIncompressible:74
 msgid ""
 "Hu-Washizu hydrostatic-volumetric selective three-field variation for "
 "nearly-incompressible material formulations."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.NearlyIncompressible.volumetric:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of felupe.SolidBodyNearlyIncompressible.volumetric:1
+msgid ""
+"The volumetric part of the strain energy density function, see "
+":class:`~felupe.VolumetricStrainEnergy`. For a kind, it is created with the "
+"current bulk modulus."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
@@ -10371,7 +10400,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:8
-msgid "Bulk modulus (default is None)"
+msgid ""
+"Bulk modulus of the volumetric part of the strain energy density function, "
+"if ``volumetric`` is a kind. If None, there is no volumetric part. It must "
+"be None if ``volumetric`` is an instance, which holds its own parameters "
+"(default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.pydocstring
@@ -10379,7 +10412,9 @@ msgstr ""
 #: felupe.constitution.hyperelasticity._neo_hooke_compressible.NeoHookeCompressible:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:10
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:13
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
+#: of felupe.constitution.hyperelasticity._volumetric.Volumetric:8
 msgid ""
 "A flag to evaluate the gradient and the hessian in chunks of cells by a pool"
 " of threads (default is False)."
@@ -10387,13 +10422,25 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:17
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:16
+msgid ""
+"The volumetric part of the strain energy density function :math:`U(J)`, "
+"given by a kind with the bulk modulus, ``\"volume-ratio\"`` for "
+":math:`U(J)=K(J-1)^2/2`, ``\"stretch\"`` for :math:`U(J)=9K(J^{1/3}-1)^2/2` "
+"or ``\"log\"`` for :math:`U(J)=K\\ln(J)^2/2`, or by an instance of "
+":class:`~felupe.VolumetricStrainEnergy`, e.g. of a custom subclass. Default "
+"is ``\"volume-ratio\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:27
 msgid "At least one of the two material parameters must not be None."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:19
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:29
 msgid ""
 "In a nearly-incompressible constitutive framework the strain energy density "
 "is an additive composition of an isochoric and a volumetric part. While the "
@@ -10404,7 +10451,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:26
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:36
 msgid ""
 "\\psi &= \\hat{\\psi}(\\hat{\\boldsymbol{C}}) + U(J)\n"
 "\n"
@@ -10418,7 +10465,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:35
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:45
 msgid ""
 "J &= \\text{det}(\\boldsymbol{F})\n"
 "\n"
@@ -10434,21 +10481,23 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:43
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:53
 msgid ""
-"The volumetric part of the strain energy density function is a function the "
-"volume ratio."
+"The volumetric part of the strain energy density function is a function of "
+"the volume ratio, given by ``volumetric``, see "
+":class:`~felupe.VolumetricStrainEnergy`, e.g. for ``volumetric=\"volume-"
+"ratio\"`` (default)"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:46
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:57
 msgid "U(J) = \\frac{K}{2} (J - 1)^2"
 msgstr "U(J) = \\frac{K}{2} (J - 1)^2"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:50
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:61
 msgid ""
 "The first Piola-Kirchhoff stress tensor is evaluated as the gradient of the "
 "strain energy density function. The hessian of the strain energy density "
@@ -10457,7 +10506,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:54
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:65
 msgid ""
 "\\boldsymbol{P} &= \\frac{\\partial \\psi}{\\partial \\boldsymbol{F}}\n"
 "\n"
@@ -10471,7 +10520,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:61
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:72
 msgid ""
 "A chain rule application leads to the following expression for the stress "
 "tensor. It is formulated as a sum of the **physical**-deviatoric (not the "
@@ -10480,7 +10529,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:65
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:76
 msgid ""
 "\\boldsymbol{P} &= \\boldsymbol{P}' + \\boldsymbol{P}_U\n"
 "\n"
@@ -10501,32 +10550,32 @@ msgstr ""
 "\n"
 "\\boldsymbol{P}_U &= \\frac{\\partial U(J)}{\\partial J} \\frac{\\partial J}{\\partial\n"
 "\\boldsymbol{F}} = U'(J) J \\boldsymbol{F}^{-T}"
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
-#: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:79
-msgid ""
-"\\frac{\\partial \\hat{\\boldsymbol{F}}}{\\partial \\boldsymbol{F}} &= J^{-1/3} \\left(\n"
-"\\boldsymbol{I} \\overset{ik}{\\otimes} \\boldsymbol{I} - \\frac{1}{3} \\boldsymbol{F}\n"
-"\\otimes \\boldsymbol{F}^{-T} \\right)\n"
-"\n"
-"\\frac{\\partial J}{\\partial \\boldsymbol{F}} &= J \\boldsymbol{F}^{-T}\n"
-"\n"
-"\\bar{\\boldsymbol{P}} &= J^{-1/3} \\frac{\\partial \\hat{\\psi}}{\\partial\n"
-"\\hat{\\boldsymbol{F}}}"
-msgstr ""
-"\\frac{\\partial \\hat{\\boldsymbol{F}}}{\\partial \\boldsymbol{F}} &= J^{-1/3} \\left(\n"
-"\\boldsymbol{I} \\overset{ik}{\\otimes} \\boldsymbol{I} - \\frac{1}{3} \\boldsymbol{F}\n"
-"\\otimes \\boldsymbol{F}^{-T} \\right)\n"
-"\n"
-"\\frac{\\partial J}{\\partial \\boldsymbol{F}} &= J \\boldsymbol{F}^{-T}\n"
-"\n"
-"\\bar{\\boldsymbol{P}} &= J^{-1/3} \\frac{\\partial \\hat{\\psi}}{\\partial\n"
-"\\hat{\\boldsymbol{F}}}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
 #: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:90
+msgid ""
+"\\frac{\\partial \\hat{\\boldsymbol{F}}}{\\partial \\boldsymbol{F}} &= J^{-1/3} \\left(\n"
+"\\boldsymbol{I} \\overset{ik}{\\otimes} \\boldsymbol{I} - \\frac{1}{3} \\boldsymbol{F}\n"
+"\\otimes \\boldsymbol{F}^{-T} \\right)\n"
+"\n"
+"\\frac{\\partial J}{\\partial \\boldsymbol{F}} &= J \\boldsymbol{F}^{-T}\n"
+"\n"
+"\\bar{\\boldsymbol{P}} &= J^{-1/3} \\frac{\\partial \\hat{\\psi}}{\\partial\n"
+"\\hat{\\boldsymbol{F}}}"
+msgstr ""
+"\\frac{\\partial \\hat{\\boldsymbol{F}}}{\\partial \\boldsymbol{F}} &= J^{-1/3} \\left(\n"
+"\\boldsymbol{I} \\overset{ik}{\\otimes} \\boldsymbol{I} - \\frac{1}{3} \\boldsymbol{F}\n"
+"\\otimes \\boldsymbol{F}^{-T} \\right)\n"
+"\n"
+"\\frac{\\partial J}{\\partial \\boldsymbol{F}} &= J \\boldsymbol{F}^{-T}\n"
+"\n"
+"\\bar{\\boldsymbol{P}} &= J^{-1/3} \\frac{\\partial \\hat{\\psi}}{\\partial\n"
+"\\hat{\\boldsymbol{F}}}"
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:101
 msgid ""
 "With the above partial derivatives the first Piola-Kirchhoff stress tensor "
 "of the Neo-Hookean material model takes the following form."
@@ -10534,19 +10583,16 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:93
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:104
 msgid ""
 "\\boldsymbol{P} = \\mu J^{-2/3} \\left( \\boldsymbol{F} - \\frac{1}{3} (\n"
-"\\boldsymbol{F} : \\boldsymbol{F}) \\boldsymbol{F}^{-T} \\right) + K (J - 1) J\n"
+"\\boldsymbol{F} : \\boldsymbol{F}) \\boldsymbol{F}^{-T} \\right) + U'(J) J\n"
 "\\boldsymbol{F}^{-T}"
 msgstr ""
-"\\boldsymbol{P} = \\mu J^{-2/3} \\left( \\boldsymbol{F} - \\frac{1}{3} (\n"
-"\\boldsymbol{F} : \\boldsymbol{F}) \\boldsymbol{F}^{-T} \\right) + K (J - 1) J\n"
-"\\boldsymbol{F}^{-T}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:99
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:110
 msgid ""
 "Again, a chain rule application leads to an expression for the elasticity "
 "tensor."
@@ -10554,7 +10600,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:101
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:112
 msgid ""
 "\\mathbb{A} &= \\mathbb{A}' + \\mathbb{A}_{U}\n"
 "\n"
@@ -10582,7 +10628,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:117
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:128
 msgid ""
 "\\bar{\\mathbb{A}} = J^{-1/3} \\frac{\\partial^2 \\hat\\psi}{\\partial\n"
 "\\hat{\\boldsymbol{F}}\\ \\partial \\hat{\\boldsymbol{F}}} J^{-1/3}"
@@ -10592,17 +10638,18 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:122
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:133
 msgid ""
 "With the above partial derivatives the (physical-deviatoric and "
 "-hydrostatic) parts of the elasticity tensor associated to the first Piola-"
 "Kirchhoff stress tensor of the Neo-Hookean material model takes the "
-"following form."
+"following form, here for ``volumetric=\"volume-ratio\"`` with "
+":math:`U'(J)=K(J-1)` and :math:`U''(J)=K`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
 #: of
-#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:127
+#: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke:139
 msgid ""
 "\\mathbb{A} &= \\mathbb{A}' + \\mathbb{A}_{U}\n"
 "\n"
@@ -10650,6 +10697,16 @@ msgstr ""
 #: of
 #: felupe.constitution.hyperelasticity._neo_hooke_nearly_incompressible.NeoHooke.function:4
 msgid "List with the Deformation gradient ``F`` (3x3) as first item"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
+#: of felupe.NeoHooke.volumetric:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
+#: of felupe.Volumetric.volumetric:1
+msgid ""
+"The volumetric part of the strain energy density function, see "
+":class:`~felupe.VolumetricStrainEnergy`. For a kind, it is created with the "
+"current bulk modulus and it is None without a bulk modulus."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.pydocstring
@@ -11108,7 +11165,7 @@ msgstr ""
 msgid "**Special Constitutive Materials**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/tools.rst:26:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/tools.rst:27:<autosummary>:1
 msgid ""
 ":py:obj:`CompositeMaterial <felupe.CompositeMaterial>`\\ \\(material\\, "
 "other\\_material\\)"
@@ -11116,55 +11173,74 @@ msgstr ""
 ":py:obj:`CompositeMaterial <felupe.CompositeMaterial>`\\ \\(material\\, "
 "other\\_material\\)"
 
-#: ../../felupe/docs/felupe/constitution/tools.rst:26:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/tools.rst:27:<autosummary>:1
 msgid "A composite material with two constitutive materials merged."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/tools.rst:26:<autosummary>:1
-msgid ":py:obj:`Volumetric <felupe.Volumetric>`\\ \\(bulk\\[\\, parallel\\]\\)"
-msgstr ":py:obj:`Volumetric <felupe.Volumetric>`\\ \\(bulk\\[\\, parallel\\]\\)"
-
-#: ../../felupe/docs/felupe/constitution/tools.rst:26:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
-#: of felupe.constitution.hyperelasticity._volumetric.Volumetric:1
-msgid "Neo-Hookean material formulation with deactivated shear modulus."
+#: ../../felupe/docs/felupe/constitution/tools.rst:27:<autosummary>:1
+msgid ""
+":py:obj:`Volumetric <felupe.Volumetric>`\\ \\(\\[bulk\\, parallel\\, "
+"volumetric\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/tools.rst:26:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/tools.rst:27:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
+#: of felupe.constitution.hyperelasticity._volumetric.Volumetric:1
+msgid ""
+"Neo-Hookean material formulation with deactivated shear modulus, i.e. the "
+"volumetric part of the strain energy density function :math:`U(J)` only."
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/tools.rst:27:<autosummary>:1
+msgid ""
+":py:obj:`VolumetricStrainEnergy <felupe.VolumetricStrainEnergy>`\\ "
+"\\(bulk\\[\\, kind\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/tools.rst:27:<autosummary>:1
+msgid ""
+"The volumetric part of the strain energy density function as a function of "
+"the volume ratio, :math:`U(J)`, with its first and second derivatives w.r.t."
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/tools.rst:27:<autosummary>:1
 msgid ":py:obj:`LineChange <felupe.LineChange>`\\ \\(\\[parallel\\]\\)"
 msgstr ":py:obj:`LineChange <felupe.LineChange>`\\ \\(\\[parallel\\]\\)"
 
-#: ../../felupe/docs/felupe/constitution/tools.rst:26:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/tools.rst:27:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_kinematics.pydocstring
 #: of felupe.constitution._kinematics.LineChange:1
 msgid "Line Change."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/tools.rst:26:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/tools.rst:27:<autosummary>:1
 msgid ":py:obj:`AreaChange <felupe.AreaChange>`\\ \\(\\[parallel\\]\\)"
 msgstr ":py:obj:`AreaChange <felupe.AreaChange>`\\ \\(\\[parallel\\]\\)"
 
-#: ../../felupe/docs/felupe/constitution/tools.rst:26:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/tools.rst:27:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_kinematics.pydocstring
 #: of felupe.constitution._kinematics.AreaChange:1
 msgid "Area Change."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/tools.rst:26:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/tools.rst:27:<autosummary>:1
 msgid ":py:obj:`VolumeChange <felupe.VolumeChange>`\\ \\(\\[parallel\\]\\)"
 msgstr ":py:obj:`VolumeChange <felupe.VolumeChange>`\\ \\(\\[parallel\\]\\)"
 
-#: ../../felupe/docs/felupe/constitution/tools.rst:26:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/tools.rst:27:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_kinematics.pydocstring
 #: of felupe.constitution._kinematics.VolumeChange:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:140
 msgid "Volume Change."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/tools.rst:27
+#: ../../felupe/docs/felupe/constitution/tools.rst:28
 msgid "**Other**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/tools.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/tools.rst:34:<autosummary>:1
 msgid ""
 ":py:obj:`constitution.lame_converter <felupe.constitution.lame_converter>`\\"
 " \\(E\\, nu\\)"
@@ -11172,7 +11248,7 @@ msgstr ""
 ":py:obj:`constitution.lame_converter <felupe.constitution.lame_converter>`\\"
 " \\(E\\, nu\\)"
 
-#: ../../felupe/docs/felupe/constitution/tools.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/tools.rst:34:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.pydocstring
 #: of felupe.constitution.linear_elasticity._lame_converter.lame_converter:1
 msgid ""
@@ -11181,13 +11257,13 @@ msgid ""
 ":math:`\\lambda` and :math:`\\mu`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/tools.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/tools.rst:34:<autosummary>:1
 msgid ""
 ":py:obj:`constitution.lame_converter_orthotropic "
 "<felupe.constitution.lame_converter_orthotropic>`\\ \\(E\\, nu\\, G\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/tools.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/constitution/tools.rst:34:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_lame_converter.pydocstring
 #: of
 #: felupe.constitution.linear_elasticity._lame_converter.lame_converter_orthotropic:1
@@ -11384,6 +11460,318 @@ msgid ""
 "Do not merge two constitutive materials with the same keys of material "
 "parameters. In this case, the values of these material parameters are taken "
 "from the first constitutive material."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
+#: of felupe.constitution.hyperelasticity._volumetric.Volumetric:4
+msgid ""
+"Bulk modulus of the volumetric part of the strain energy density function. "
+"It is required if ``volumetric`` is a kind and it must be None if "
+"``volumetric`` is an instance, which holds its own parameters (default is "
+"None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
+#: of felupe.constitution.hyperelasticity._volumetric.Volumetric:11
+msgid ""
+"The volumetric part of the strain energy density function :math:`U(J)`, "
+"given by a kind with the bulk modulus, ``\"volume-ratio\"``, ``\"stretch\"``"
+" or ``\"log\"``, or by an instance of "
+":class:`~felupe.VolumetricStrainEnergy`, e.g. of a custom subclass. Default "
+"is ``\"volume-ratio\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
+#: of felupe.constitution.hyperelasticity._volumetric.Volumetric:19
+msgid ""
+"The volumetric part is combined with a material formulation for the "
+"distortional part of the strain energy density function."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
+#: of felupe.constitution.hyperelasticity._volumetric.Volumetric:28
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:142
+msgid ":py:obj:`felupe.NeoHooke`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
+#: of felupe.constitution.hyperelasticity._volumetric.Volumetric:31
+msgid ":py:obj:`felupe.VolumetricStrainEnergy`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
+#: of felupe.constitution.hyperelasticity._volumetric.Volumetric:32
+msgid ""
+"The volumetric part of the strain energy density function as a function of "
+"the volume ratio."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:1
+msgid ""
+"The volumetric part of the strain energy density function as a function of "
+"the volume ratio, :math:`U(J)`, with its first and second derivatives w.r.t."
+" the volume ratio."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:5
+msgid "The bulk modulus :math:`K`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:7
+msgid ""
+"The kind of the volumetric part of the strain energy density function: "
+"``\"volume-ratio\"`` for :math:`U(J)=K(J-1)^2/2`, ``\"stretch\"`` for "
+":math:`U(J)=9K(J^{1/3}-1)^2/2` or ``\"log\"`` for :math:`U(J)=K\\ln(J)^2/2`,"
+" see Eq. :eq:`volumetric-strain-energy`. Default is ``\"volume-ratio\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:15
+msgid ""
+"Unlike a :class:`~felupe.ConstitutiveMaterial`, which is evaluated by the "
+"deformation gradient, it is evaluated by the volume ratio "
+":math:`J=\\det(\\boldsymbol{F})`. An instance ``U`` is callable, i.e. "
+"``U(J)`` returns :math:`U(J)`, ``U.dUdJ(J)`` returns :math:`U'(J)` and "
+"``U.d2UdJdJ(J)`` returns :math:`U''(J)`. The derivatives w.r.t. the "
+"deformation gradient are obtained by the chain rule with the derivatives of "
+"the volume ratio, see :class:`~felupe.VolumeChange`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:23
+msgid ""
+"The kinds are quadratic in the Seth-Hill strain :math:`E_m = (\\lambda^m - "
+"1) / m` of order :math:`m` of the volumetric stretch :math:`\\lambda = "
+"J^{1/3}`, see Eq. :eq:`volumetric-strain-energy`, with :math:`m=3` for "
+"``\"volume-ratio\"``, :math:`m=1` for ``\"stretch\"`` and the limit :math:`m"
+" \\rightarrow 0` for ``\"log\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:28
+msgid "U(J) = \\frac{9K}{2} E_m^2 = \\frac{9K}{2 m^2} \\left( J^{m/3} - 1 \\right)^2"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:33
+msgid ""
+"For all kinds, the second derivative at the undeformed configuration is the "
+"bulk modulus, :math:`U''(1)=K`. The volumetric part and its first and second"
+" derivatives are given in Eq. :eq:`volumetric-strain-energy-volume-ratio` "
+"for ``kind=\"volume-ratio\"`` (default),"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:38
+msgid ""
+"U(J) &= \\frac{K}{2} \\left( J - 1 \\right)^2\n"
+"\n"
+"U'(J) &= K \\left( J - 1 \\right)\n"
+"\n"
+"U''(J) &= K"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:47
+msgid "in Eq. :eq:`volumetric-strain-energy-stretch` for ``kind=\"stretch\"``"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:49
+msgid ""
+"U(J) &= \\frac{9K}{2} \\left( J^{1/3} - 1 \\right)^2\n"
+"\n"
+"U'(J) &= 3K\\ \\frac{J^{1/3} - 1}{J^{2/3}}\n"
+"\n"
+"U''(J) &= K\\ \\frac{2 - J^{1/3}}{J^{5/3}}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:58
+msgid "and in Eq. :eq:`volumetric-strain-energy-log` for ``kind=\"log\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:60
+msgid ""
+"U(J) &= \\frac{K}{2} \\ln \\left( J \\right)^2\n"
+"\n"
+"U'(J) &= K\\ \\frac{\\ln \\left( J \\right)}{J}\n"
+"\n"
+"U''(J) &= K\\ \\frac{1 - \\ln \\left( J \\right)}{J^2}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:69
+msgid ""
+"The kinds are evaluated by these expressions of the volume ratio, i.e. not "
+"by the general form, which is singular for :math:`m=0`. The cubic root of "
+"the kind ``\"stretch\"`` is evaluated by :func:`numpy.cbrt`, which is real-"
+"valued also for negative (linearized) volume ratios. The smaller the order "
+":math:`m`, the stiffer is the volumetric response in compression and the "
+"softer in tension. The first derivative :math:`U'(J)`, i.e. the hydrostatic "
+"part of the Cauchy stress, is unbounded for :math:`J \\rightarrow 0` for the"
+" kinds ``\"stretch\"`` and ``\"log\"``. In tension, it is bounded by "
+":math:`3K/4` at :math:`J=8` and by :math:`K/e` at :math:`J=e` for these "
+"kinds, where their second derivatives change their sign."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:79
+msgid ""
+"A custom volumetric part of the strain energy density function is a subclass"
+" which implements the methods ``__call__(J)``, ``dUdJ(J)`` and "
+"``d2UdJdJ(J)``. The undeformed configuration is free of stress only if "
+":math:`U'(1)=0`, and a positive second derivative :math:`U''(J)>0` is "
+"required for a stable volumetric response."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:84
+msgid ""
+"The volumetric part of the strain energy density function is passed by the "
+"argument ``volumetric`` to :class:`~felupe.NeoHooke`, "
+":class:`~felupe.Volumetric`, :class:`~felupe.NearlyIncompressible` and "
+":class:`~felupe.SolidBodyNearlyIncompressible`, either as a kind together "
+"with the bulk modulus or as an instance (then, without the bulk modulus)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:107
+msgid ""
+"A custom volumetric part of the strain energy density function is defined by"
+" a subclass."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:127
+msgid ""
+"The kinds or an instance are passed to the materials and the solid bodies."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:139
+msgid ":py:obj:`felupe.VolumeChange`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:145
+msgid ":py:obj:`felupe.Volumetric`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:146
+msgid "Neo-Hookean material formulation with deactivated shear modulus."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:148
+msgid ":py:obj:`felupe.NearlyIncompressible`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:151
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
+#: of felupe.mechanics._helpers.StateNearlyIncompressible:14
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody:101
+msgid ":py:obj:`felupe.SolidBodyNearlyIncompressible`"
+msgstr ""
+
+#: ../../felupe/docs/felupe/mechanics.rst:18:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy:152
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
+#: of felupe.mechanics._helpers.StateNearlyIncompressible:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody:102
+msgid ""
+"A (nearly) incompressible solid body with methods for the assembly of sparse"
+" vectors/matrices."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy.__call__:1
+msgid ""
+"Return the volumetric part of the strain energy density function "
+":math:`U(J)`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy.__call__:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy.d2UdJdJ:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy.dUdJ:4
+msgid "The volume ratio."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy.__call__:7
+msgid "The volumetric part of the strain energy density function."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy.d2UdJdJ:1
+msgid ""
+"Return the second derivative of the volumetric part of the strain energy "
+"density function w.r.t. the volume ratio :math:`U''(J)`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy.d2UdJdJ:7
+msgid ""
+"The second derivative w.r.t. the volume ratio. For ``kind=\"volume-"
+"ratio\"``, it is the bulk modulus (a scalar)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy.dUdJ:1
+msgid ""
+"Return the first derivative of the volumetric part of the strain energy "
+"density function w.r.t. the volume ratio :math:`U'(J)`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
+#: of
+#: felupe.constitution.hyperelasticity._volumetric_strain_energy.VolumetricStrainEnergy.dUdJ:7
+msgid "The first derivative w.r.t. the volume ratio."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_kinematics.pydocstring
@@ -17376,19 +17764,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/mechanics.rst:18:<autosummary>:1
 msgid ""
 ":py:obj:`SolidBodyNearlyIncompressible "
-"<felupe.SolidBodyNearlyIncompressible>`\\ \\(umat\\, field\\, bulk\\)"
-msgstr ""
-":py:obj:`SolidBodyNearlyIncompressible "
-"<felupe.SolidBodyNearlyIncompressible>`\\ \\(umat\\, field\\, bulk\\)"
-
-#: ../../felupe/docs/felupe/mechanics.rst:18:<autosummary>:1
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
-#: of felupe.mechanics._helpers.StateNearlyIncompressible:15
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody:102
-msgid ""
-"A (nearly) incompressible solid body with methods for the assembly of sparse"
-" vectors/matrices."
+"<felupe.SolidBodyNearlyIncompressible>`\\ \\(umat\\, field\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:18:<autosummary>:1
@@ -17950,7 +18326,7 @@ msgstr ""
 #: of felupe.mechanics._solidbody.SolidBody:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:23
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
 #: of felupe.mechanics._truss.TrussBody:15
 msgid "Array of initial internal state variables (default is None)."
@@ -17960,7 +18336,7 @@ msgstr ""
 #: of felupe.mechanics._solidbody.SolidBody:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:25
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:27
 msgid "The density of the solid body."
 msgstr ""
 
@@ -18066,13 +18442,6 @@ msgid ""
 "This class also supports ``umat`` with mixed-field formulations like "
 ":class:`~felupe.NearlyIncompressible` or "
 ":class:`~felupe.ThreeFieldVariation`."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_helpers.pydocstring
-#: of felupe.mechanics._helpers.StateNearlyIncompressible:14
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody:101
-msgid ":py:obj:`felupe.SolidBodyNearlyIncompressible`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
@@ -18182,20 +18551,22 @@ msgstr ""
 #: of
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:18
 msgid ""
-"The bulk modulus of the volumetric part of the strain energy function "
-":math:`U(\\bar{J})=K(\\bar{J}-1)^2/2`."
+"The bulk modulus :math:`K` of the volumetric part of the strain energy "
+"density function :math:`U(\\bar{J})`, which is required if ``volumetric`` is"
+" a kind. It must be None if ``volumetric`` is an instance, which holds its "
+"own parameters. Default is None."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:21
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:23
 msgid ""
 "A valid initial state for a (nearly) incompressible solid (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:32
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:42
 msgid ""
 "This nearly-incompressible solid body works best with "
 ":class:`~felupe.RegionQuad` and :class:`~felupe.RegionHexahedron` regions. "
@@ -18205,7 +18576,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:37
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:47
 msgid ""
 "The total potential energy of internal forces for a three-field variational "
 "approach, suitable for nearly-incompressible material behaviour, is given in"
@@ -18214,13 +18585,19 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:49
-msgid "with its variations, see Eq. :eq:`nearlyinc-variations`"
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:59
+msgid ""
+"with the volumetric part of the strain energy density function "
+":math:`U(\\bar{J})`, see :class:`~felupe.VolumetricStrainEnergy`. Its first "
+"and second derivatives w.r.t. the volume ratio are abbreviated by "
+":math:`\\bar{U}'=U'(\\bar{J})` and :math:`\\bar{U}''=U''(\\bar{J})`. The "
+"variations of the total potential energy are given in Eq. :eq:`nearlyinc-"
+"variations`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:51
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:65
 msgid ""
 "\\delta_\\boldsymbol{u}(\\Pi_{int}) &=\n"
 "    \\int_V \\left( \\frac{\\partial \\hat{\\psi}}{\\partial \\boldsymbol{F}} +\n"
@@ -18233,26 +18610,13 @@ msgid ""
 "\\longrightarrow r_p\n"
 "\n"
 "\\delta_\\bar{J}(\\Pi_{int}) &=\n"
-"    \\int_V \\left( K \\left( \\bar{J} - 1 \\right) - p \\right)\\ \\delta \\bar{J}\\ dV\n"
+"    \\int_V \\left( \\bar{U}' - p \\right)\\ \\delta \\bar{J}\\ dV\n"
 "\\longrightarrow r_{\\bar{J}}"
 msgstr ""
-"\\delta_\\boldsymbol{u}(\\Pi_{int}) &=\n"
-"    \\int_V \\left( \\frac{\\partial \\hat{\\psi}}{\\partial \\boldsymbol{F}} +\n"
-"    p\\ \\frac{\\partial J}{\\partial \\boldsymbol{F}} \\right) :\n"
-"    \\delta\\boldsymbol{F}\\ dV\n"
-"\\longrightarrow \\boldsymbol{r}_\\boldsymbol{u}\n"
-"\n"
-"\\delta_p(\\Pi_{int}) &=\n"
-"    \\int_V \\left( J - \\bar{J} \\right)\\ \\delta p\\ dV\n"
-"\\longrightarrow r_p\n"
-"\n"
-"\\delta_\\bar{J}(\\Pi_{int}) &=\n"
-"    \\int_V \\left( K \\left( \\bar{J} - 1 \\right) - p \\right)\\ \\delta \\bar{J}\\ dV\n"
-"\\longrightarrow r_{\\bar{J}}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:68
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:82
 msgid ""
 "and linearizations, see Eq. :eq:`nearlyinc-linearizations` [1]_ [2]_ [3]_. "
 "The right-arrows in Eq. :eq:`nearlyinc-variations` and Eq. :eq:`nearlyinc-"
@@ -18262,7 +18626,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:73
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:87
 msgid ""
 "\\delta_\\boldsymbol{u}\\Delta_\\boldsymbol{u}(\\Pi_{int}) &=\n"
 "    \\int_V \\delta\\boldsymbol{F} : \\left(\n"
@@ -18282,13 +18646,13 @@ msgid ""
 "\\longrightarrow -V\n"
 "\n"
 "\\delta_{\\bar{J}}\\Delta_{\\bar{J}}(\\Pi_{int}) &=\n"
-"    \\int_V \\delta \\bar{J}\\ K\\ \\Delta \\bar{J}\\ dV\n"
-"\\longrightarrow K\\ V"
+"    \\int_V \\delta \\bar{J}\\ \\bar{U}''\\ \\Delta \\bar{J}\\ dV\n"
+"\\longrightarrow \\bar{U}''\\ V"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:97
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:111
 msgid ""
 "The assembled constraint equations for the variations w.r.t. the dual fields"
 " :math:`p` and :math:`\\bar{J}` are given in Eq. :eq:`nearlyinc-"
@@ -18297,25 +18661,34 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:100
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:114
 msgid ""
 "r_p &= \\left( \\frac{v}{V} - \\bar{J} \\right) V\n"
 "\n"
-"r_{\\bar{J}} &= \\left( K (\\bar{J} - 1) - p \\right) V"
+"r_{\\bar{J}} &= \\left( \\bar{U}' - p \\right) V"
 msgstr ""
-"r_p &= \\left( \\frac{v}{V} - \\bar{J} \\right) V\n"
-"\n"
-"r_{\\bar{J}} &= \\left( K (\\bar{J} - 1) - p \\right) V"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:121
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:122
+msgid ""
+"The volumetric part of the strain energy density function is given by "
+"``volumetric``, see :class:`~felupe.VolumetricStrainEnergy` for the kinds "
+"``\"volume-ratio\"`` (default), ``\"stretch\"`` and ``\"log\"`` and for a "
+"custom volumetric part. The undeformed configuration is free of stress only "
+"if :math:`U'(1)=0`, and a positive second derivative :math:`U''(\\bar{J})>0`"
+" is required for a stable volumetric response."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:130
 msgid "**Hu-Washizu Three-Field-Variational Principle**"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:123
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:132
 msgid ""
 "The Three-Field-Variation :math:`(\\boldsymbol{u},p,\\bar{J})` leads to a "
 "linearized equation system with nine sub block-matrices, see Eq. :eq:`hu-"
@@ -18329,13 +18702,13 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:131
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:140
 msgid ""
 "\\begin{bmatrix}\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}\n"
 "        & \\boldsymbol{K}_{\\boldsymbol{u}p} & \\boldsymbol{0} \\\\\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}p}^T & 0 & -V \\\\\n"
-"    \\boldsymbol{0}^T & -V  & K\\ V\n"
+"    \\boldsymbol{0}^T & -V  & \\bar{U}''\\ V\n"
 "\\end{bmatrix} \\cdot \\begin{bmatrix}\n"
 "    \\delta \\boldsymbol{u} \\\\\n"
 "    \\delta p \\\\\n"
@@ -18351,52 +18724,33 @@ msgid ""
 "    0\n"
 "\\end{bmatrix}"
 msgstr ""
-"\\begin{bmatrix}\n"
-"    \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}\n"
-"        & \\boldsymbol{K}_{\\boldsymbol{u}p} & \\boldsymbol{0} \\\\\n"
-"    \\boldsymbol{K}_{\\boldsymbol{u}p}^T & 0 & -V \\\\\n"
-"    \\boldsymbol{0}^T & -V  & K\\ V\n"
-"\\end{bmatrix} \\cdot \\begin{bmatrix}\n"
-"    \\delta \\boldsymbol{u} \\\\\n"
-"    \\delta p \\\\\n"
-"    \\delta \\bar{J}\n"
-"\\end{bmatrix} + \\begin{bmatrix}\n"
-"    \\boldsymbol{r}_\\boldsymbol{u} \\\\\n"
-"    r_p \\\\\n"
-"    r_\\bar{J}\n"
-"\\end{bmatrix} =\n"
-"\\begin{bmatrix}\n"
-"    \\boldsymbol{0}\\\\\n"
-"    0 \\\\\n"
-"    0\n"
-"\\end{bmatrix}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:154
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:163
 msgid ""
 "A condensed representation of the equation system, only dependent on the "
 "primary unknowns :math:`\\boldsymbol{u}` is carried out. To do so, the "
-"second line is multiplied by the bulk modulus :math:`K`, see Eq. "
-":eq:`nearlyinc-condensed`."
+"second line is multiplied by the second derivative :math:`\\bar{U}''`, see "
+"Eq. :eq:`nearlyinc-condensed`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:158
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:168
 msgid ""
 "\\begin{bmatrix}\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}\n"
 "        & \\boldsymbol{K}_{\\boldsymbol{u}p} & \\boldsymbol{0} \\\\\n"
-"    K \\boldsymbol{K}_{\\boldsymbol{u}p}^T & 0 & -K\\ V \\\\\n"
-"    \\boldsymbol{0}^T & -V  & K\\ V\n"
+"    \\bar{U}'' \\boldsymbol{K}_{\\boldsymbol{u}p}^T & 0 & -\\bar{U}''\\ V \\\\\n"
+"    \\boldsymbol{0}^T & -V  & \\bar{U}''\\ V\n"
 "\\end{bmatrix} \\cdot \\begin{bmatrix}\n"
 "    \\delta \\boldsymbol{u} \\\\\n"
 "    \\delta p \\\\\n"
 "    \\delta \\bar{J}\n"
 "\\end{bmatrix} + \\begin{bmatrix}\n"
 "    \\boldsymbol{r}_\\boldsymbol{u} \\\\\n"
-"    K\\ r_p \\\\\n"
+"    \\bar{U}''\\ r_p \\\\\n"
 "    r_\\bar{J}\n"
 "\\end{bmatrix} =\n"
 "\\begin{bmatrix}\n"
@@ -18405,29 +18759,10 @@ msgid ""
 "    0\n"
 "\\end{bmatrix}"
 msgstr ""
-"\\begin{bmatrix}\n"
-"    \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}\n"
-"        & \\boldsymbol{K}_{\\boldsymbol{u}p} & \\boldsymbol{0} \\\\\n"
-"    K \\boldsymbol{K}_{\\boldsymbol{u}p}^T & 0 & -K\\ V \\\\\n"
-"    \\boldsymbol{0}^T & -V  & K\\ V\n"
-"\\end{bmatrix} \\cdot \\begin{bmatrix}\n"
-"    \\delta \\boldsymbol{u} \\\\\n"
-"    \\delta p \\\\\n"
-"    \\delta \\bar{J}\n"
-"\\end{bmatrix} + \\begin{bmatrix}\n"
-"    \\boldsymbol{r}_\\boldsymbol{u} \\\\\n"
-"    K\\ r_p \\\\\n"
-"    r_\\bar{J}\n"
-"\\end{bmatrix} =\n"
-"\\begin{bmatrix}\n"
-"    \\boldsymbol{0}\\\\\n"
-"    0 \\\\\n"
-"    0\n"
-"\\end{bmatrix}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:181
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:191
 msgid ""
 "Lines two and three are contracted by summation as given in Eq. "
 ":eq:`nearlyinc-contracted-sum`. This eliminates :math:`\\bar{J}` from the "
@@ -18436,43 +18771,28 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:184
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:194
 msgid ""
 "\\begin{bmatrix}\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}\n"
 "        & \\boldsymbol{K}_{\\boldsymbol{u}p} \\\\\n"
-"    K \\boldsymbol{K}_{\\boldsymbol{u}p}^T & -V\n"
+"    \\bar{U}'' \\boldsymbol{K}_{\\boldsymbol{u}p}^T & -V\n"
 "\\end{bmatrix} \\cdot \\begin{bmatrix}\n"
 "    \\delta \\boldsymbol{u} \\\\\n"
 "    \\delta p\n"
 "\\end{bmatrix} + \\begin{bmatrix}\n"
 "    \\boldsymbol{r}_\\boldsymbol{u} \\\\\n"
-"    K\\ r_p + r_\\bar{J}\n"
+"    \\bar{U}''\\ r_p + r_\\bar{J}\n"
 "\\end{bmatrix} =\n"
 "\\begin{bmatrix}\n"
 "    \\boldsymbol{0}\\\\\n"
 "    0\n"
 "\\end{bmatrix}"
 msgstr ""
-"\\begin{bmatrix}\n"
-"    \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}\n"
-"        & \\boldsymbol{K}_{\\boldsymbol{u}p} \\\\\n"
-"    K \\boldsymbol{K}_{\\boldsymbol{u}p}^T & -V\n"
-"\\end{bmatrix} \\cdot \\begin{bmatrix}\n"
-"    \\delta \\boldsymbol{u} \\\\\n"
-"    \\delta p\n"
-"\\end{bmatrix} + \\begin{bmatrix}\n"
-"    \\boldsymbol{r}_\\boldsymbol{u} \\\\\n"
-"    K\\ r_p + r_\\bar{J}\n"
-"\\end{bmatrix} =\n"
-"\\begin{bmatrix}\n"
-"    \\boldsymbol{0}\\\\\n"
-"    0\n"
-"\\end{bmatrix}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:203
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:213
 msgid ""
 "Next, the second line is left-expanded by "
 ":math:`\\frac{1}{V}~\\boldsymbol{K}_{\\boldsymbol{u}p}` and both equations "
@@ -18481,27 +18801,20 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:207
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:217
 msgid ""
 "\\left(\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}\n"
-"        + \\frac{K}{V}~\\boldsymbol{K}_{\\boldsymbol{u}p} \\otimes\n"
+"        + \\frac{\\bar{U}''}{V}~\\boldsymbol{K}_{\\boldsymbol{u}p} \\otimes\n"
 "            \\boldsymbol{K}_{\\boldsymbol{u}p}\n"
 "\\right) \\cdot \\delta \\boldsymbol{u} +\n"
-"\\boldsymbol{r}_\\boldsymbol{u} + \\frac{K~r_p + r_\\bar{J}}{V}\n"
+"\\boldsymbol{r}_\\boldsymbol{u} + \\frac{\\bar{U}''~r_p + r_\\bar{J}}{V}\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}p} = \\boldsymbol{0}"
 msgstr ""
-"\\left(\n"
-"    \\boldsymbol{K}_{\\boldsymbol{u}\\boldsymbol{u}}\n"
-"        + \\frac{K}{V}~\\boldsymbol{K}_{\\boldsymbol{u}p} \\otimes\n"
-"            \\boldsymbol{K}_{\\boldsymbol{u}p}\n"
-"\\right) \\cdot \\delta \\boldsymbol{u} +\n"
-"\\boldsymbol{r}_\\boldsymbol{u} + \\frac{K~r_p + r_\\bar{J}}{V}\n"
-"    \\boldsymbol{K}_{\\boldsymbol{u}p} = \\boldsymbol{0}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:218
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:228
 msgid ""
 "The secondary unknowns are evaluated after solving the primary unknowns, see"
 " Eq. :eq:`nearlyinc-final`."
@@ -18509,21 +18822,17 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:221
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:231
 msgid ""
 "\\delta \\bar{J} &= \\frac{1}{V} \\delta \\boldsymbol{u} \\cdot\n"
 "    \\boldsymbol{K}_{\\boldsymbol{u}p} + \\frac{v}{V} - \\bar{J}\n"
 "\n"
-"\\delta p &= K \\left(\\bar{J} + \\delta \\bar{J} - 1 \\right) - p"
+"\\delta p &= \\bar{U}' + \\bar{U}''\\ \\delta \\bar{J} - p"
 msgstr ""
-"\\delta \\bar{J} &= \\frac{1}{V} \\delta \\boldsymbol{u} \\cdot\n"
-"    \\boldsymbol{K}_{\\boldsymbol{u}p} + \\frac{v}{V} - \\bar{J}\n"
-"\n"
-"\\delta p &= K \\left(\\bar{J} + \\delta \\bar{J} - 1 \\right) - p"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:229
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:239
 msgid ""
 "The condensed constraint equation in Eq. :eq:`nearlyinc-contracted-sum-"
 "final` is given in Eq. :eq:`nearlyinc-constraint`"
@@ -18531,26 +18840,51 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:232
-msgid "\\frac{K~r_p + r_{\\bar{J}}}{V} = K \\left( \\frac{v}{V} - 1 \\right) - p"
-msgstr "\\frac{K~r_p + r_{\\bar{J}}}{V} = K \\left( \\frac{v}{V} - 1 \\right) - p"
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:242
+msgid ""
+"\\frac{\\bar{U}''~r_p + r_{\\bar{J}}}{V} =\n"
+"    \\bar{U}' + \\bar{U}'' \\left( \\frac{v}{V} - \\bar{J} \\right) - p"
+msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:237
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:248
 msgid ""
 "and the deformed volume is evaluated by Eq. :eq:`nearlyinc-deformed-volume`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:239
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:250
 msgid "v = \\int_V J\\ dV"
 msgstr "v = \\int_V J\\ dV"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:272
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:255
+msgid ""
+"The terms :math:`\\bar{U}' + \\bar{U}''\\ (\\dots)` in Eq. :eq:`nearlyinc-"
+"final` and Eq. :eq:`nearlyinc-constraint` are the linearizations of "
+":math:`U'(\\bar{J} + \\delta \\bar{J})` and :math:`U'(v/V)`. Instead, their "
+"exact values are used, i.e. the pressure is updated by :math:`p = "
+"U'(\\bar{J})` and the condensed constraint is evaluated by :math:`U'(v/V) - "
+"p`. Both are identical for ``volumetric=\"volume-ratio\"``. Hence, the "
+"assembled vector is the gradient of the total potential energy of internal "
+"forces of the mean dilatation technique, see Eq. :eq:`nearlyinc-mean-"
+"dilatation`, where the sum is taken over the cells."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:264
+msgid ""
+"\\Pi_{int}(\\boldsymbol{u}) = \\int_V \\hat{\\psi}(\\boldsymbol{F})\\ dV +\n"
+"    \\sum V\\ U\\left( \\frac{v}{V} \\right)"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:298
 msgid ""
 "J. Bonet, A. J. Gil, and R. D. Wood, \"Nonlinear Solid Mechanics for Finite "
 "Element Analysis: Statics\". Cambridge University Press, Jun. 05, 2016. doi:"
@@ -18559,7 +18893,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:276
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:302
 msgid ""
 "O. C. Zienkiewicz, R. L. Taylor and J.Z. Zhu, \"The Finite Element Method: "
 "its Basis and Fundamentals\". Elsevier, 2013. doi: 10.1016/c2009-0-24909-9."
@@ -18567,7 +18901,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:279
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:305
 msgid ""
 "G. A. Holzapfel, \"Nonlinear Solid Mechanics. A Continuum Approach for "
 "Engineering\". Wiley, 2000. isbn: 047182304X."
@@ -18575,7 +18909,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:282
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:308
 msgid ""
 "J. A. Schönherr, P. Schneider, and C. Mittelstedt, \"Robust hybrid/mixed "
 "finite elements for rubber-like materials under severe compression\", "
@@ -18585,13 +18919,13 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:289
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:315
 msgid ":py:obj:`felupe.StateNearlyIncompressible`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:290
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:316
 msgid ""
 "A State with internal cell-wise constant fields for (nearly) incompressible "
 "solid bodies."
@@ -18619,7 +18953,7 @@ msgid ""
 "Flag to restore the internal fields, i.e. the pressure :math:`p` and the "
 "volume ratio :math:`\\bar{J}`, of the checkpoint. If False, the internal "
 "fields are re-initialized by the deformation of the restored field, "
-":math:`\\bar{J} = v / V` and :math:`p = K (\\bar{J} - 1)`. Default is True."
+":math:`\\bar{J} = v / V` and :math:`p = U'(\\bar{J})`. Default is True."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
