@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-19 00:16+0000\n"
+"POT-Creation-Date: 2026-10-19 19:26+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -232,7 +232,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/quadrature.rst:32
 #: ../../felupe/docs/felupe/region.rst:39
 #: ../../felupe/docs/felupe/thermal.rst:27
-#: ../../felupe/docs/felupe/tools.rst:43 ../../felupe/docs/felupe/view.rst:19
+#: ../../felupe/docs/felupe/tools.rst:49 ../../felupe/docs/felupe/view.rst:19
 msgid "**Detailed API Reference**"
 msgstr ""
 
@@ -484,6 +484,8 @@ msgstr ""
 #: of felupe.quadrature._triangle.Triangle:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.screenshot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver.factorize:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
@@ -946,7 +948,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
 #: of felupe.plugins._animation_writer.AnimationWriterPlugin:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:52
+#: of felupe.plugins._cutback.CutbackPlugin:54
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
 #: of felupe.plugins._cutback.CutbackPlugin.restore:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
@@ -979,6 +981,8 @@ msgstr ""
 #: of felupe.region._boundary.RegionBoundary:101
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region:92
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
 #: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
@@ -997,7 +1001,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.NewtonResult:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:82
+#: of felupe.tools._newton.newtonraphson:83
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.project:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
@@ -1604,7 +1608,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:140
+#: of felupe.plugins._cutback.CutbackPlugin:142
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
 #: of felupe.plugins._linesearch.LinesearchPlugin:120
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.pydocstring
@@ -1659,6 +1663,8 @@ msgstr ""
 #: of felupe.region._templates.RegionTriangle:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/region/_templates.pydocstring
 #: of felupe.region._templates.RegionTriangleMINI:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:53
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
 #: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
@@ -1673,7 +1679,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.NewtonConvergenceError:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:216
+#: of felupe.tools._newton.newtonraphson:217
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.project:90
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_save.pydocstring
@@ -2251,6 +2257,8 @@ msgstr ""
 #: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.screenshot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver.factorize:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
@@ -2388,6 +2396,8 @@ msgstr ""
 #: of felupe.mesh._mesh.Mesh.get_point_ids_shared:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.screenshot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver.factorize:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
@@ -2913,7 +2923,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.SubstepState:59
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:172
+#: of felupe.plugins._cutback.CutbackPlugin:174
 msgid ":py:obj:`felupe.Step`"
 msgstr ""
 
@@ -14867,7 +14877,7 @@ msgstr ""
 msgid ":py:obj:`felupe.project`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:41:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.plot:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
@@ -17839,7 +17849,7 @@ msgstr ":py:obj:`Step <felupe.Step>`\\ \\(items\\[\\, ramp\\, boundaries\\]\\)"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.SubstepState:60
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:173
+#: of felupe.plugins._cutback.CutbackPlugin:175
 msgid ""
 "A Step with multiple substeps, subsequently depending on the solution of the"
 " previous substep."
@@ -17968,7 +17978,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:134
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:179
+#: of felupe.plugins._cutback.CutbackPlugin:181
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
 #: of felupe.plugins._linesearch.LinesearchPlugin:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
@@ -18018,7 +18028,7 @@ msgid ":py:obj:`EventDispatcher <felupe.EventDispatcher>`\\ \\(\\[plugins\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:45:<autosummary>:1
-#: ../../felupe/docs/felupe/tools.rst:21:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:27:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:53
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
@@ -18033,7 +18043,7 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:45:<autosummary>:1
-#: ../../felupe/docs/felupe/tools.rst:21:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:27:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
@@ -18449,7 +18459,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.restore:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:182
+#: of felupe.plugins._cutback.CutbackPlugin:184
 msgid "Return a checkpoint of the solid body."
 msgstr ""
 
@@ -18479,7 +18489,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.restore:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:181
+#: of felupe.plugins._cutback.CutbackPlugin:183
 msgid ":py:obj:`felupe.SolidBody.checkpoint`"
 msgstr ""
 
@@ -19472,7 +19482,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:35
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:49
+#: of felupe.plugins._cutback.CutbackPlugin:51
 msgid "list of int"
 msgstr ""
 
@@ -19486,7 +19496,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:42
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:40
+#: of felupe.plugins._cutback.CutbackPlugin:42
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
 #: of felupe.plugins._linesearch.LinesearchPlugin:25
 msgid "list of list of float"
@@ -19621,7 +19631,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
 #: of felupe.plugins._progress.ProgressPlugin:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:53
+#: of felupe.tools._newton.newtonraphson:54
 msgid ""
 "Verbosity level to control how messages are printed during evaluation. If 1 "
 "or True and ``tqdm`` is installed, a progress bar is shown. If ``tqdm`` is "
@@ -20205,15 +20215,17 @@ msgid ""
 ":class:`~felupe.LinesearchPlugin`, floating-point errors (e.g. of "
 "``numpy.errstate(invalid=\"raise\")``) as well as errors of "
 ":mod:`numpy.linalg`, e.g. of a singular matrix. The sparse solvers "
+":class:`~felupe.solve.SuperLUSolver` (default), "
 ":func:`scipy.sparse.linalg.spsolve` and :func:`pypardiso.spsolve` do not "
 "raise an error for a singular matrix. Instead, "
-":func:`scipy.sparse.linalg.spsolve` returns NaN values (which leads to a "
+":class:`~felupe.solve.SuperLUSolver` and :func:`scipy.sparse.linalg.spsolve`"
+" return NaN values (which leads to a "
 ":class:`~felupe.NewtonConvergenceError`) and :func:`pypardiso.spsolve` "
 "returns a perturbed solution."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:35
+#: of felupe.plugins._cutback.CutbackPlugin:37
 msgid ""
 "The load factors of the converged increments for each substep, e.g. "
 "``[1.0]`` for a substep without a cutback or ``[0.5, 1.0]`` for a substep "
@@ -20222,7 +20234,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:44
+#: of felupe.plugins._cutback.CutbackPlugin:46
 msgid ""
 "The number of cutbacks for each substep, i.e. the number of reductions of "
 "the increment after failed attempts. This includes the reductions after "
@@ -20231,7 +20243,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:53
+#: of felupe.plugins._cutback.CutbackPlugin:55
 msgid ""
 "The plugin requires a :class:`~felupe.Job` (or the hooks of "
 ":meth:`~felupe.Step.generate_states`). Before each substep, a checkpoint of "
@@ -20247,14 +20259,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:64
+#: of felupe.plugins._cutback.CutbackPlugin:66
 msgid ""
 "\\boldsymbol{v}(t) = \\boldsymbol{v}_0 + t\\ \\left(\n"
 "    \\boldsymbol{v}_1 - \\boldsymbol{v}_0 \\right)"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:70
+#: of felupe.plugins._cutback.CutbackPlugin:72
 msgid ""
 "After a converged increment, the unknowns are linked to its result by "
 "``context.solve()``, a new checkpoint is created, the load factor is "
@@ -20271,7 +20283,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:83
+#: of felupe.plugins._cutback.CutbackPlugin:85
 msgid ""
 "The limit applies to the size of the increment, not to the number of failed "
 "attempts. An increased increment which fails is reduced again without "
@@ -20285,7 +20297,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:92
+#: of felupe.plugins._cutback.CutbackPlugin:94
 msgid ""
 "The increments are internal to the substep, i.e. only the result of the last"
 " increment is handed back to the :class:`~felupe.Step` and the hooks "
@@ -20295,7 +20307,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:98
+#: of felupe.plugins._cutback.CutbackPlugin:100
 msgid ""
 "**State of the items**: A checkpoint consists of the values of the unknowns "
 "and of the checkpoints of all items (and ramped items) which provide the "
@@ -20317,7 +20329,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:118
+#: of felupe.plugins._cutback.CutbackPlugin:120
 msgid ""
 "The time increment of a rate-dependent material model, e.g. the parameter "
 "``dtime`` of :func:`~felupe.constitution.finite_strain_viscoelastic`, is not"
@@ -20328,7 +20340,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:125
+#: of felupe.plugins._cutback.CutbackPlugin:127
 msgid ""
 "**Values of the previous substep**: The values of the ramp of the previous "
 "substep are taken from the substeps which were already evaluated with this "
@@ -20340,7 +20352,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:135
+#: of felupe.plugins._cutback.CutbackPlugin:137
 msgid ""
 "A cutback may be combined with a :class:`~felupe.LinesearchPlugin`, "
 "``Job(steps, plugins=[LinesearchPlugin(), CutbackPlugin()])``. Then, a "
@@ -20348,7 +20360,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:141
+#: of felupe.plugins._cutback.CutbackPlugin:143
 msgid ""
 "A coarse cube is compressed by 70% in a single substep. The first Newton "
 "increment leads to inadmissible deformation gradients and to NaN values in "
@@ -20356,7 +20368,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:161
+#: of felupe.plugins._cutback.CutbackPlugin:163
 msgid ""
 "The second substep is subdivided into increments. The load factors of the "
 "converged increments are stored in the plugin, one list for each substep."
@@ -20365,7 +20377,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.JobState:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:175
+#: of felupe.plugins._cutback.CutbackPlugin:177
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:61
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
@@ -20374,7 +20386,7 @@ msgid ":py:obj:`felupe.SubstepState`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:176
+#: of felupe.plugins._cutback.CutbackPlugin:178
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:62
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
@@ -20383,7 +20395,7 @@ msgid "A class to keep track of the state of a substep."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:178
+#: of felupe.plugins._cutback.CutbackPlugin:180
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:67
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
@@ -28282,53 +28294,69 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/felupe/tools.rst:15
+msgid "**Linear Solver**"
+msgstr ""
+
+#: ../../felupe/docs/felupe/tools.rst:20:<autosummary>:1
+msgid ""
+":py:obj:`solve.SuperLUSolver <felupe.solve.SuperLUSolver>`\\ "
+"\\(\\[permc\\_spec\\, ...\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/tools.rst:20:<autosummary>:1
+msgid ""
+"A sparse direct solver by :func:`scipy.sparse.linalg.splu` (SuperLU), tuned "
+"for the linear equation systems of the finite element method."
+msgstr ""
+
+#: ../../felupe/docs/felupe/tools.rst:21
 msgid "**Event Dispatcher**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:21:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:27:<autosummary>:1
 msgid ""
 ":py:obj:`tools.EventDispatcher <felupe.tools.EventDispatcher>`\\ "
 "\\(\\[plugins\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:21:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:27:<autosummary>:1
 msgid ""
 ":py:obj:`tools.Context <felupe.tools.Context>`\\ \\(\\[job\\, step\\, "
 "substep\\, items\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:22
+#: ../../felupe/docs/felupe/tools.rst:28
 msgid "**Export of Results**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:27:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:33:<autosummary>:1
 msgid ":py:obj:`save <felupe.save>`\\ \\(region\\, field\\[\\, forces\\, gradient\\, ...\\]\\)"
 msgstr ":py:obj:`save <felupe.save>`\\ \\(region\\, field\\[\\, forces\\, gradient\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/tools.rst:27:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:33:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_save.pydocstring
 #: of felupe.tools._save.save:1
 msgid "Write field-data to a VTU file."
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:28
+#: ../../felupe/docs/felupe/tools.rst:34
 msgid "**Convert Cell-Data to Point-Data**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:41:<autosummary>:1
 msgid ":py:obj:`topoints <felupe.topoints>`\\ \\(values\\, region\\[\\, average\\, mean\\]\\)"
 msgstr ""
 ":py:obj:`topoints <felupe.topoints>`\\ \\(values\\, region\\[\\, average\\, "
 "mean\\]\\)"
 
-#: ../../felupe/docs/felupe/tools.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:41:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.topoints:1
 msgid ""
 "Shift array of values located at quadrature points of cells to mesh-points."
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:41:<autosummary>:1
 msgid ""
 ":py:obj:`project <felupe.project>`\\ \\(values\\, region\\[\\, average\\, "
 "mean\\, dV\\, ...\\]\\)"
@@ -28336,7 +28364,7 @@ msgstr ""
 ":py:obj:`project <felupe.project>`\\ \\(values\\, region\\[\\, average\\, "
 "mean\\, dV\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/tools.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:41:<autosummary>:1
 msgid ""
 ":py:obj:`tools.extrapolate <felupe.tools.extrapolate>`\\ \\(values\\, "
 "region\\[\\, average\\, ...\\]\\)"
@@ -28344,7 +28372,7 @@ msgstr ""
 ":py:obj:`tools.extrapolate <felupe.tools.extrapolate>`\\ \\(values\\, "
 "region\\[\\, average\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/tools.rst:35:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:41:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.extrapolate:1
 msgid ""
@@ -28352,21 +28380,21 @@ msgid ""
 "points to mesh-points."
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:36
+#: ../../felupe/docs/felupe/tools.rst:42
 msgid "**Reaction-Force and -Moment**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:42:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:48:<autosummary>:1
 msgid ":py:obj:`tools.force <felupe.tools.force>`\\ \\(field\\, forces\\, boundary\\)"
 msgstr ":py:obj:`tools.force <felupe.tools.force>`\\ \\(field\\, forces\\, boundary\\)"
 
-#: ../../felupe/docs/felupe/tools.rst:42:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:48:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
 #: of felupe.tools._post.force:1
 msgid "Evaluate the force vector sum on points of a boundary."
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:42:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:48:<autosummary>:1
 msgid ""
 ":py:obj:`tools.moment <felupe.tools.moment>`\\ \\(field\\, forces\\, "
 "boundary\\[\\, ...\\]\\)"
@@ -28374,7 +28402,7 @@ msgstr ""
 ":py:obj:`tools.moment <felupe.tools.moment>`\\ \\(field\\, forces\\, "
 "boundary\\[\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/tools.rst:42:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:48:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
 #: of felupe.tools._post.moment:1
 msgid ""
@@ -28496,27 +28524,27 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonraphson:50
 msgid ""
-"A sparse or dense solver (default is :func:`scipy.sparse.linalg.spsolve`). "
-"For a more performant alternative install PyPardiso and use "
-":func:`pypardiso.spsolve`."
+"A sparse or dense solver with the signature ``x = solver(A, b)`` (default is"
+" :class:`~felupe.solve.SuperLUSolver`). For a more performant alternative "
+"install PyPardiso and use :func:`pypardiso.spsolve`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:60
+#: of felupe.tools._newton.newtonraphson:61
 msgid ""
 "If verbose is True, choose a backend for ``tqdm`` (``\"tqdm\"``, "
 "``\"auto\"`` or ``\"notebook\"``). Default is ``\"tqdm\"``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:63
+#: of felupe.tools._newton.newtonraphson:64
 msgid ""
 "An optional EventDispatcher to trigger events during evaluation. Default is "
 "None."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:66
+#: of felupe.tools._newton.newtonraphson:67
 msgid ""
 "A list of plugins with hooks to be used during evaluation, e.g. a "
 ":class:`~felupe.LinesearchPlugin`. If a ``dispatcher`` is given, the plugins"
@@ -28527,7 +28555,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:66
+#: of felupe.tools._newton.newtonraphson:67
 msgid ""
 "A list of plugins with hooks to be used during evaluation, e.g. a "
 ":class:`~felupe.LinesearchPlugin`. If a ``dispatcher`` is given, the plugins"
@@ -28535,7 +28563,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:70
+#: of felupe.tools._newton.newtonraphson:71
 msgid ""
 "The arguments ``callback``, ``callback_kwargs`` and ``progress_bar`` are "
 "removed. A plugin with the hook ``after_iteration`` replaces the "
@@ -28543,7 +28571,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:76
+#: of felupe.tools._newton.newtonraphson:77
 msgid "The result object."
 msgstr ""
 
@@ -28553,7 +28581,7 @@ msgid "Raises"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:79
+#: of felupe.tools._newton.newtonraphson:80
 msgid ""
 "If the solution of the linearized equation system contains NaN values or if"
 "     the maximum number of iterations is reached (a subclass of     "
@@ -28561,7 +28589,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:83
+#: of felupe.tools._newton.newtonraphson:84
 msgid ""
 "Nonlinear equilibrium equations :math:`f(x)` as a function of the unknowns "
 ":math:`x` are solved by linearization of :math:`f` at a valid starting point"
@@ -28569,53 +28597,53 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:87
+#: of felupe.tools._newton.newtonraphson:88
 msgid "f(x_0) = 0"
 msgstr "f(x_0) = 0"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:92
+#: of felupe.tools._newton.newtonraphson:93
 msgid "The linearization is given in Eq. :eq:`newton-lin`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:94
+#: of felupe.tools._newton.newtonraphson:95
 msgid "f(x_0 + dx) \\approx f(x_0) + K(x_0) \\ dx \\ (= 0)"
 msgstr "f(x_0 + dx) \\approx f(x_0) + K(x_0) \\ dx \\ (= 0)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:99
+#: of felupe.tools._newton.newtonraphson:100
 msgid ""
 "with the Jacobian as in Eq. :eq:`newton-jac`, evaluated at given unknowns "
 ":math:`x_0`,"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:102
+#: of felupe.tools._newton.newtonraphson:103
 msgid "K(x_0) = \\frac{\\partial f}{\\partial x}(x_0)"
 msgstr "K(x_0) = \\frac{\\partial f}{\\partial x}(x_0)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:107
+#: of felupe.tools._newton.newtonraphson:108
 msgid ""
 "and is rearranged to an equation system with left- and right-hand sides, see"
 " Eq. :eq:`newton-lhs-rhs`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:110
+#: of felupe.tools._newton.newtonraphson:111
 msgid "K(x_0) \\ dx = -f(x_0)"
 msgstr "K(x_0) \\ dx = -f(x_0)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:115
+#: of felupe.tools._newton.newtonraphson:116
 msgid ""
 "After a solution is found, the unknowns are updated, see Eq. :eq:`newton-"
 "update-0`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:117
+#: of felupe.tools._newton.newtonraphson:118
 msgid ""
 "dx &= \\text{solve} \\left( K(x_0), -f(x_0) \\right) \\nonumber\n"
 "\n"
@@ -28623,7 +28651,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:124
+#: of felupe.tools._newton.newtonraphson:125
 msgid ""
 "Repeated evaluations lead to an incrementally updated solution of :math:`x`."
 " Herein, :math:`x_n` refer to the initial unknowns whereas :math:`x` are the"
@@ -28631,13 +28659,13 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:129
+#: of felupe.tools._newton.newtonraphson:130
 msgid ""
 "The subscript :math:`(\\bullet)_{n+1}` is dropped for easier readability."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:131
+#: of felupe.tools._newton.newtonraphson:132
 msgid ""
 "dx &= \\text{solve} \\left( K(x_n), -f(x_n) \\right) \\nonumber\n"
 "\n"
@@ -28645,7 +28673,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:138
+#: of felupe.tools._newton.newtonraphson:139
 msgid ""
 "Then, the nonlinear equilibrium equations are evaluated with the updated "
 "unknowns :math:`f(x)`. The procedure is repeated until convergence is "
@@ -28654,7 +28682,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:142
+#: of felupe.tools._newton.newtonraphson:143
 msgid ""
 "The attainable norm of the objective function is limited by the precision of"
 " its data type and by the precision of the unknowns. An increment which is "
@@ -28674,12 +28702,12 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:157
+#: of felupe.tools._newton.newtonraphson:158
 msgid "\\text{tol} = \\sqrt{\\varepsilon}"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:162
+#: of felupe.tools._newton.newtonraphson:163
 msgid ""
 "This is approximately ``1.490e-8`` for double-precision (``float64``) and "
 "``3.453e-4`` for single-precision (``float32``), e.g. of fields cast to "
@@ -28693,7 +28721,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:171
+#: of felupe.tools._newton.newtonraphson:172
 msgid ""
 "Plugins may modify the update of the unknowns in the ``after_linear_solve`` "
 "hook, see :class:`~felupe.tools.IterationState`. E.g., a backtracking line "
@@ -28702,12 +28730,12 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:176
+#: of felupe.tools._newton.newtonraphson:177
 msgid "x = x_n + \\alpha\\ dx"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:181
+#: of felupe.tools._newton.newtonraphson:182
 msgid ""
 "A plugin with the hook ``after_iteration`` replaces the ``callback`` "
 "(removed in 12.0.0), which was called after each completed iteration. The "
@@ -28721,25 +28749,25 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:213
+#: of felupe.tools._newton.newtonraphson:214
 msgid ""
 "The plugin gets the same values as the callback, after each completed "
 "iteration."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:241
+#: of felupe.tools._newton.newtonraphson:242
 msgid "Newton's method had success"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:246
+#: of felupe.tools._newton.newtonraphson:247
 msgid ""
 "and 4 iterations were needed to converge within the specified tolerance."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:251
+#: of felupe.tools._newton.newtonraphson:252
 msgid ""
 "The norm of the objective function for all active degrees of freedom is "
 "lower than 3e-15."
@@ -28824,6 +28852,163 @@ msgid ""
 ":class:`~felupe.CutbackPlugin` catch this error to recover a failed substep,"
 " while other errors, e.g. a :class:`ValueError` of mismatching shapes of "
 "arrays, are raised without a recovery."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:1
+msgid ""
+"A sparse direct solver by :func:`scipy.sparse.linalg.splu` (SuperLU), tuned "
+"for the linear equation systems of the finite element method. An instance is"
+" a solver function ``x = solver(A, b)``, e.g. for "
+":meth:`Job.evaluate(solver=solver) <felupe.Job.evaluate>`, "
+":func:`~felupe.newtonraphson`, :func:`~felupe.project` and "
+":func:`~felupe.solve.solve`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:7
+msgid ""
+"The fill-reducing ordering of the columns. Default is ``\"MMD_AT_PLUS_A\"``,"
+" the minimum degree ordering of the structure of :math:`\\boldsymbol{A}^T + "
+"\\boldsymbol{A}`. Others are ``\"COLAMD\"``, ``\"MMD_ATA\"`` and "
+"``\"NATURAL\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:11
+msgid ""
+"The threshold for the partial pivoting in the range ``[0, 1]``. The diagonal"
+" entry is taken as pivot if its absolute value is at least the threshold "
+"times the largest absolute value of its column (0 takes the diagonal entry, "
+"1 is the classical partial pivoting). Default is 0.1."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:16
+msgid ""
+"A flag to use the symmetric mode of SuperLU, i.e. diagonal pivots are "
+"preferred and the elimination tree is based on the structure of "
+":math:`\\boldsymbol{A}^T + \\boldsymbol{A}`. It requires a symmetric "
+"structure of the matrix, the values may be non-symmetric. Default is True."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:21
+msgid "The relaxation parameter of the supernodes. Default is 20."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:23
+msgid "The size of the panels. Default is 20."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:25
+msgid ""
+"Additional options of SuperLU, see :func:`scipy.sparse.linalg.splu`. Default"
+" is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:31
+msgid ""
+"The default options are chosen for (structurally) symmetric matrices of the "
+"finite element method, also for matrices with non-symmetric values, e.g. of "
+"follower loads or of frictional contacts. The structure of the assembled "
+"matrices is symmetric by construction, i.e. no check of the symmetry is "
+"required. Compared to :func:`scipy.sparse.linalg.spsolve`, the factorization"
+" is faster by a factor of about two for meshes with hexahedrons and by a "
+"factor of about 1.5 for meshes with quads. The fill-in of the factors, i.e. "
+"the required memory, is lower. A pivot threshold of "
+"``diag_pivot_thresh=0.1`` avoids pivoting by the large off-diagonal entries "
+"of penalty-based items, e.g. of a :class:`~felupe.MultiPointConstraint` or "
+"of a :class:`~felupe.ContactRigidPlane`, which would increase the fill-in."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:42
+msgid ""
+"The solution has the same shape as :func:`scipy.sparse.linalg.spsolve`, i.e."
+" a one-dimensional array for a right-hand side with the shape ``(n,)`` or "
+"``(n, 1)``. The right-hand side may also be a sparse matrix (converted to a "
+"dense array) and multiple right-hand sides with the shape ``(n, m)`` are "
+"supported. A dense matrix is solved by :func:`numpy.linalg.solve`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:48
+msgid ""
+"Like :func:`scipy.sparse.linalg.spsolve`, an exactly singular matrix emits a"
+" :class:`~scipy.sparse.linalg.MatrixRankWarning` and returns NaN values, "
+"which raises a :class:`~felupe.NewtonConvergenceError` in "
+":func:`~felupe.newtonraphson`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:74
+msgid ""
+"The previous default solver of FElupe is "
+":func:`scipy.sparse.linalg.spsolve`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:82
+msgid ":py:obj:`scipy.sparse.linalg.splu`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:83
+msgid "Compute the LU decomposition of a sparse, square matrix."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:85
+msgid ":py:obj:`scipy.sparse.linalg.spsolve`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:86
+msgid "Solve the sparse linear system Ax=b."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver.__call__:1
+msgid "Solve the linear equation system ``A x = b``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver.__call__:3
+msgid "The square matrix of the linear equation system."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver.__call__:5
+msgid ""
+"The right-hand side(s) with the shape ``(n,)``, ``(n, 1)`` or ``(n, m)``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver.__call__:8
+msgid ""
+"The solution with the shape ``(n,)`` for a single right-hand side or ``(n, "
+"m)`` for multiple right-hand sides."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver.factorize:1
+msgid ""
+"Return the LU decomposition of a sparse matrix, see "
+":func:`scipy.sparse.linalg.splu`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver.factorize:4
+msgid "The sparse square matrix (converted to CSC format)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver.factorize:7
+msgid "The LU decomposition with the method ``solve(b)``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_save.pydocstring
@@ -28934,7 +29119,7 @@ msgstr ""
 #: of felupe.tools._project.project:18
 msgid ""
 "A function for a sparse solver with signature ``x=solver(A, b)``. Default is"
-" :func:`scipy.sparse.linalg.spsolve`."
+" :class:`~felupe.solve.SuperLUSolver`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
