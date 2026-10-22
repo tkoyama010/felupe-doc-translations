@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-19 19:26+0000\n"
+"POT-Creation-Date: 2026-10-22 00:14+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -948,7 +948,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
 #: of felupe.plugins._animation_writer.AnimationWriterPlugin:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:54
+#: of felupe.plugins._cutback.CutbackPlugin:57
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
 #: of felupe.plugins._cutback.CutbackPlugin.restore:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
@@ -1608,7 +1608,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:142
+#: of felupe.plugins._cutback.CutbackPlugin:145
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
 #: of felupe.plugins._linesearch.LinesearchPlugin:120
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.pydocstring
@@ -2923,7 +2923,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.SubstepState:59
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:174
+#: of felupe.plugins._cutback.CutbackPlugin:177
 msgid ":py:obj:`felupe.Step`"
 msgstr ""
 
@@ -17849,7 +17849,7 @@ msgstr ":py:obj:`Step <felupe.Step>`\\ \\(items\\[\\, ramp\\, boundaries\\]\\)"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.SubstepState:60
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:175
+#: of felupe.plugins._cutback.CutbackPlugin:178
 msgid ""
 "A Step with multiple substeps, subsequently depending on the solution of the"
 " previous substep."
@@ -17978,7 +17978,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:134
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:181
+#: of felupe.plugins._cutback.CutbackPlugin:184
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
 #: of felupe.plugins._linesearch.LinesearchPlugin:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
@@ -18459,7 +18459,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.restore:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:184
+#: of felupe.plugins._cutback.CutbackPlugin:187
 msgid "Return a checkpoint of the solid body."
 msgstr ""
 
@@ -18489,7 +18489,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.restore:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:183
+#: of felupe.plugins._cutback.CutbackPlugin:186
 msgid ":py:obj:`felupe.SolidBody.checkpoint`"
 msgstr ""
 
@@ -19482,7 +19482,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:35
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:51
+#: of felupe.plugins._cutback.CutbackPlugin:54
 msgid "list of int"
 msgstr ""
 
@@ -19496,7 +19496,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job:42
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:42
+#: of felupe.plugins._cutback.CutbackPlugin:45
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
 #: of felupe.plugins._linesearch.LinesearchPlugin:25
 msgid "list of list of float"
@@ -20206,18 +20206,21 @@ msgstr ""
 #: of felupe.plugins._cutback.CutbackPlugin:18
 msgid ""
 "The errors of the Newton-Raphson method which lead to a cutback (default is "
-"``(NewtonConvergenceError, ArithmeticError, numpy.linalg.LinAlgError)``). "
-"Errors of other types are raised without a cutback, e.g. a "
-":class:`ValueError` of mismatching shapes of arrays. The default types "
+"``(NewtonConvergenceError, ArithmeticError, numpy.linalg.LinAlgError, "
+"RuntimeError)``). Errors of other types are raised without a cutback, e.g. a"
+" :class:`ValueError` of mismatching shapes of arrays. The default types "
 "include the :class:`~felupe.NewtonConvergenceError` of "
 ":func:`~felupe.newtonraphson` if the maximum number of iterations is reached"
 " or if the solution contains NaN values and of a failed "
 ":class:`~felupe.LinesearchPlugin`, floating-point errors (e.g. of "
-"``numpy.errstate(invalid=\"raise\")``) as well as errors of "
-":mod:`numpy.linalg`, e.g. of a singular matrix. The sparse solvers "
-":class:`~felupe.solve.SuperLUSolver` (default), "
-":func:`scipy.sparse.linalg.spsolve` and :func:`pypardiso.spsolve` do not "
-"raise an error for a singular matrix. Instead, "
+"``numpy.errstate(invalid=\"raise\")``), errors of :mod:`numpy.linalg`, e.g. "
+"of a singular matrix, as well as runtime errors of the sparse solvers, e.g. "
+"the :class:`RuntimeError` of :class:`~felupe.solve.SuperLUSolver` (default) "
+"and :func:`scipy.sparse.linalg.spsolve` if the factorization of a nearly "
+"singular matrix fails. The subclasses :class:`NotImplementedError` and "
+":class:`RecursionError` of :class:`RuntimeError` are programming errors, "
+"which are raised without a cutback (unless they are given explicitly). An "
+"exactly singular matrix does not raise an error. Instead, "
 ":class:`~felupe.solve.SuperLUSolver` and :func:`scipy.sparse.linalg.spsolve`"
 " return NaN values (which leads to a "
 ":class:`~felupe.NewtonConvergenceError`) and :func:`pypardiso.spsolve` "
@@ -20225,7 +20228,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:37
+#: of felupe.plugins._cutback.CutbackPlugin:40
 msgid ""
 "The load factors of the converged increments for each substep, e.g. "
 "``[1.0]`` for a substep without a cutback or ``[0.5, 1.0]`` for a substep "
@@ -20234,7 +20237,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:46
+#: of felupe.plugins._cutback.CutbackPlugin:49
 msgid ""
 "The number of cutbacks for each substep, i.e. the number of reductions of "
 "the increment after failed attempts. This includes the reductions after "
@@ -20243,7 +20246,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:55
+#: of felupe.plugins._cutback.CutbackPlugin:58
 msgid ""
 "The plugin requires a :class:`~felupe.Job` (or the hooks of "
 ":meth:`~felupe.Step.generate_states`). Before each substep, a checkpoint of "
@@ -20259,14 +20262,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:66
+#: of felupe.plugins._cutback.CutbackPlugin:69
 msgid ""
 "\\boldsymbol{v}(t) = \\boldsymbol{v}_0 + t\\ \\left(\n"
 "    \\boldsymbol{v}_1 - \\boldsymbol{v}_0 \\right)"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:72
+#: of felupe.plugins._cutback.CutbackPlugin:75
 msgid ""
 "After a converged increment, the unknowns are linked to its result by "
 "``context.solve()``, a new checkpoint is created, the load factor is "
@@ -20283,7 +20286,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:85
+#: of felupe.plugins._cutback.CutbackPlugin:88
 msgid ""
 "The limit applies to the size of the increment, not to the number of failed "
 "attempts. An increased increment which fails is reduced again without "
@@ -20297,7 +20300,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:94
+#: of felupe.plugins._cutback.CutbackPlugin:97
 msgid ""
 "The increments are internal to the substep, i.e. only the result of the last"
 " increment is handed back to the :class:`~felupe.Step` and the hooks "
@@ -20307,7 +20310,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:100
+#: of felupe.plugins._cutback.CutbackPlugin:103
 msgid ""
 "**State of the items**: A checkpoint consists of the values of the unknowns "
 "and of the checkpoints of all items (and ramped items) which provide the "
@@ -20329,7 +20332,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:120
+#: of felupe.plugins._cutback.CutbackPlugin:123
 msgid ""
 "The time increment of a rate-dependent material model, e.g. the parameter "
 "``dtime`` of :func:`~felupe.constitution.finite_strain_viscoelastic`, is not"
@@ -20340,7 +20343,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:127
+#: of felupe.plugins._cutback.CutbackPlugin:130
 msgid ""
 "**Values of the previous substep**: The values of the ramp of the previous "
 "substep are taken from the substeps which were already evaluated with this "
@@ -20352,7 +20355,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:137
+#: of felupe.plugins._cutback.CutbackPlugin:140
 msgid ""
 "A cutback may be combined with a :class:`~felupe.LinesearchPlugin`, "
 "``Job(steps, plugins=[LinesearchPlugin(), CutbackPlugin()])``. Then, a "
@@ -20360,7 +20363,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:143
+#: of felupe.plugins._cutback.CutbackPlugin:146
 msgid ""
 "A coarse cube is compressed by 70% in a single substep. The first Newton "
 "increment leads to inadmissible deformation gradients and to NaN values in "
@@ -20368,7 +20371,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:163
+#: of felupe.plugins._cutback.CutbackPlugin:166
 msgid ""
 "The second substep is subdivided into increments. The load factors of the "
 "converged increments are stored in the plugin, one list for each substep."
@@ -20377,7 +20380,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.JobState:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:177
+#: of felupe.plugins._cutback.CutbackPlugin:180
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:61
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
@@ -20386,7 +20389,7 @@ msgid ":py:obj:`felupe.SubstepState`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:178
+#: of felupe.plugins._cutback.CutbackPlugin:181
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:62
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
@@ -20395,7 +20398,7 @@ msgid "A class to keep track of the state of a substep."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
-#: of felupe.plugins._cutback.CutbackPlugin:180
+#: of felupe.plugins._cutback.CutbackPlugin:183
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:67
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
