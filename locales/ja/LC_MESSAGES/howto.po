@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-19 19:26+0000\n"
+"POT-Creation-Date: 2026-10-23 00:15+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -575,6 +575,258 @@ msgid ""
 ":class:`felupe.constitution.jax.Material`) are not evaluated in chunks of "
 "cells. For these, ``parallel=True`` maps the quadrature points to multiple "
 "devices."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:2
+msgid "Use Plugins"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:4
+msgid ""
+"Plugins extend the evaluation of a :class:`~felupe.Job`. A plugin provides "
+"methods with the names of events, called hooks, e.g. before or after each "
+"step, each substep or each iteration of the Newton-Raphson method. Plugins "
+"record results, write files, show the progress or even change the "
+"evaluation, e.g. by a line search or by a cutback of failed substeps. The "
+"plugins are passed as a list to the job."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:29
+msgid "Built-in Plugins"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:31
+msgid ""
+"FElupe ships with the following plugins. The progress and the XDMF result "
+"file are enabled by the arguments of :meth:`~felupe.Job.evaluate`, all other"
+" plugins are passed to the job."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:38
+msgid "Plugin"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:39
+msgid "Description"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:40
+msgid "Optional dependencies"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:41
+msgid ":class:`~felupe.ProgressPlugin`"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:42
+msgid ""
+"Shows a progress bar or a text-based output of the Newton-Raphson "
+"iterations."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:43
+msgid "``felupe[progress]``"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:44
+msgid ":class:`~felupe.XDMFWriterPlugin`"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:45
+msgid "Writes the results of all substeps to a XDMF time series file."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:46
+msgid "``felupe[io]``"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:47
+msgid ":class:`~felupe.CharacteristicCurvePlugin`"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:48
+msgid "Records a force-displacement curve of a boundary condition."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:49
+msgid "``felupe[plot]`` (for plotting)"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:50
+msgid ":class:`~felupe.AnimationWriterPlugin`"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:51
+msgid "Writes an animation (GIF or MP4) of the deformed items."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:52
+msgid "``felupe[view,io]``"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:53
+msgid ":class:`~felupe.DashboardWidgetPlugin`"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:54
+msgid ""
+"Shows a live dashboard of the job in a Jupyter widget or in a live HTML "
+"file."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:55
+msgid "``felupe[dashboard]`` (for the widget)"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:56
+msgid ":class:`~felupe.LinesearchPlugin`"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:57
+msgid ""
+"Scales the Newton increment by a step length (backtracking line search)."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:59
+msgid ":class:`~felupe.CutbackPlugin`"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:60
+msgid "Subdivides failed substeps into smaller increments."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:65
+msgid ""
+"The progress is shown by default. Its verbosity is controlled by the "
+"argument ``verbose`` of :meth:`~felupe.Job.evaluate`: a progress bar for "
+"``True`` (default), a text-based output of the Newton-Raphson iterations for"
+" ``2`` and no output for ``False``. The progress bar requires ``tqdm``, "
+"otherwise the text-based output is used."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:77
+msgid ""
+"A XDMF time series result file is written if a filename is given. Additional"
+" point- and cell-data may be passed by the arguments ``point_data`` and "
+"``cell_data``. The result file may be opened in ParaView."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:87
+msgid ""
+"The displacement of the first point and the sum of the reaction forces of a "
+":class:`~felupe.Boundary` are recorded after each completed substep. A "
+":class:`~felupe.CharacteristicCurve` is a job with a built-in characteristic"
+" curve plugin."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:102
+msgid ""
+"A frame of the deformed items is written after each completed substep. "
+"Additional keyword-arguments are passed to the plot-methods of the items, "
+"e.g. ``solid.plot(name, off_screen=True)``."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:118
+msgid ""
+"The dashboard is shown in the output of the cell which evaluates the job, "
+"e.g. in JupyterLab or in the interactive window of VS Code. It shows the "
+"deformed model of the latest converged substep, the load path including "
+"cutbacks, the convergence of the Newton-Raphson method and performance "
+"statistics. With a filename, a live HTML file is written, which updates "
+"itself in the web browser. This also works for a script in a terminal "
+"(without a Jupyter frontend)."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:135
+msgid ""
+"The step length of the Newton increment is halved until the deformation "
+"gradients are admissible and the residuals decrease sufficiently. The line "
+"search is also available for :func:`~felupe.newtonraphson`. For a "
+":class:`~felupe.SolidBodyNearlyIncompressible`, see the notes of "
+":class:`~felupe.LinesearchPlugin`."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:150
+msgid ""
+"If the Newton-Raphson method of a substep fails, the unknowns and the state "
+"of the items are restored and the substep is subdivided into smaller "
+"increments. Custom items with a state, which is modified during the Newton "
+"iterations, have to provide the methods ``checkpoint()`` and "
+"``restore(checkpoint)``, see :class:`~felupe.mechanics.Item`."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:165
+msgid "Combine Plugins"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:167
+msgid ""
+"Plugins may be combined. The hooks of the plugins are called in the order of"
+" the list, followed by the plugins of :meth:`~felupe.Job.evaluate` (the "
+"progress and the result file). A failed line search leads to a cutback. The "
+"increments of a subdivided substep are internal to the substep, i.e. plugins"
+" which record or write results after a completed substep, like the "
+"characteristic curve, are called only once per substep."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:186
+msgid ""
+"List a :class:`~felupe.DashboardWidgetPlugin` before a "
+":class:`~felupe.CutbackPlugin` to show the error messages of failed "
+"attempts."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:190
+msgid "Custom Plugins"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:192
+msgid ""
+"A custom plugin is a subclass of :class:`~felupe.Plugin`. All hooks are "
+"optional, i.e. only the required hooks have to be implemented. Each hook "
+"takes the context, e.g. the job, the step or the result of a substep, and "
+"the current state, e.g. the step number or the norm of the residuals of an "
+"iteration, see :class:`~felupe.Context`, :class:`~felupe.JobState`, "
+":class:`~felupe.SubstepState` and :class:`~felupe.IterationState`. The hooks"
+" are called in the following order."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:215
+msgid ""
+"This plugin counts the Newton-Raphson iterations, including the iterations "
+"of failed attempts of a :class:`~felupe.CutbackPlugin`. The hook "
+"``after_job`` is also called if the evaluation of the job fails."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:239
+msgid ""
+"The hooks of the Newton-Raphson method are also called by "
+":func:`~felupe.newtonraphson`, i.e. the same plugin may be passed to "
+"``newtonraphson(items, plugins=[counter], **loadcase)``. The hooks of the "
+"job, the steps and the substeps are only called by a job."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:244
+msgid ""
+"A callable, e.g. a function ``plugin(context, state)``, is a simple plugin "
+"which is called after each completed substep."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:258
+msgid ""
+"Plugins may also change the evaluation. In the hook ``after_linear_solve``, "
+"the update of the unknowns may be modified, see "
+":class:`~felupe.IterationState`. In the hook ``after_failed_substep``, a "
+"failed substep may be recovered, see :class:`~felupe.SubstepState`. The "
+":class:`~felupe.LinesearchPlugin` and the :class:`~felupe.CutbackPlugin` are"
+" implemented by these hooks."
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:266
+msgid ""
+"Plugins replace the callbacks of a :class:`~felupe.Job` and of "
+":func:`~felupe.newtonraphson` (removed in v12.0.0). The migration is shown "
+"in the notes of :class:`~felupe.Job` and of :func:`~felupe.newtonraphson`."
 msgstr ""
 
 #: ../../felupe/docs/howto/project.rst:2

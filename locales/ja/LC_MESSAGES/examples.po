@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 00:15+0000\n"
+"POT-Creation-Date: 2026-10-23 00:15+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -139,7 +139,7 @@ msgstr ":download:`Download zipped: ex01_beam.zip <ex01_beam.zip>`"
 #: ../../felupe/docs/examples/ex03_plasticity.rst:161
 #: ../../felupe/docs/examples/ex04_balloon.rst:211
 #: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:210
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:251
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:271
 #: ../../felupe/docs/examples/ex07_engine-mount.rst:254
 #: ../../felupe/docs/examples/ex08_shear.rst:259
 #: ../../felupe/docs/examples/ex09_numeric-continuation.rst:225
@@ -406,7 +406,7 @@ msgstr ""
 
 #: ../../felupe/docs/examples/ex04_balloon.rst:32
 #: ../../felupe/docs/examples/ex05_rubber-metal-bushing.rst:36
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:34
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:36
 #: ../../felupe/docs/examples/ex11_notch-stress.rst:36
 #: ../../felupe/docs/examples/ex12_foot-bone.rst:26
 #: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:37
@@ -604,7 +604,11 @@ msgstr ""
 msgid "export and plot the log. strain"
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:41
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:34
+msgid "show the progress of the job in a dashboard"
+msgstr ""
+
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:43
 msgid ""
 "A `meshed three-dimensional geometry <../_static/ex06_rubber-metal-"
 "spring_mesh.vtk>`_ of a rubber-metal spring is loaded by an external axial "
@@ -613,7 +617,7 @@ msgid ""
 "direction :math:`z`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:64
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:66
 msgid ""
 "A numeric hexahedron-region created on the mesh in combination with a "
 "vector-valued displacement field represents the volume of the solid. "
@@ -623,14 +627,14 @@ msgid ""
 "top of the solid are generated on the displacement field."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:90
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:92
 msgid ""
 "The material behavior is defined through a built-in hyperelastic isotropic "
 "Neo-Hookean material formulation. A solid body applies the material "
 "formulation on the displacement field."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:104
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:106
 msgid ""
 "The simplified elastic-to-rigid contact is defined by a multi-point "
 "constraint-like formulation which is only active in compression. First, the "
@@ -639,33 +643,42 @@ msgid ""
 "direction :math:`z`."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:137
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:139
 msgid ""
 "The max. principal value of the logarithmic strain, projected to mesh "
 "points, will be added to the result file."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:157
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:159
 msgid ""
 "The simulation model is now ready to be solved. The results are saved within"
 " a XDMF- file, where additional point-data is passed to the ``point_data`` "
-"argument."
+"argument. A :class:`~felupe.DashboardWidgetPlugin` shows the deformed model,"
+" the progress of the job and the solver figures live in the output of the "
+"cell, e.g. in JupyterLab or in the interactive window of VS Code. The "
+"documentation shows a static snapshot of the dashboard after the job."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:193
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:195
+msgid ""
+"The max. principal value of the logarithmic strain is plotted on the "
+"deformed solid body, together with the rigid planes of the contacts."
+msgstr ""
+
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:213
 msgid ""
 "The axial-compressive and lateral-shear force-displacement curves are "
 "obtained from the characteristic-curve job. The force is multiplied by two "
 "due to the fact that only one half of the geometry is simulated."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:212
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:232
 msgid ""
 "The shear lateral force-displacement curve is again obtained from the "
 "characteristic- curve job."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:236
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:256
 msgid ""
 ":download:`Download Jupyter notebook: ex06_rubber-metal-spring.ipynb "
 "<ex06_rubber-metal-spring.ipynb>`"
@@ -673,7 +686,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex06_rubber-metal-spring.ipynb "
 "<ex06_rubber-metal-spring.ipynb>`"
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:240
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:260
 msgid ""
 ":download:`Download Python source code: ex06_rubber-metal-spring.py "
 "<ex06_rubber-metal-spring.py>`"
@@ -681,7 +694,7 @@ msgstr ""
 ":download:`Download Python source code: ex06_rubber-metal-spring.py "
 "<ex06_rubber-metal-spring.py>`"
 
-#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:244
+#: ../../felupe/docs/examples/ex06_rubber-metal-spring.rst:264
 msgid ""
 ":download:`Download zipped: ex06_rubber-metal-spring.zip <ex06_rubber-metal-"
 "spring.zip>`"
