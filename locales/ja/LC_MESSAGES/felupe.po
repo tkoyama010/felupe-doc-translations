@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-23 00:15+0000\n"
+"POT-Creation-Date: 2026-10-24 00:14+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -232,7 +232,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/quadrature.rst:32
 #: ../../felupe/docs/felupe/region.rst:39
 #: ../../felupe/docs/felupe/thermal.rst:27
-#: ../../felupe/docs/felupe/tools.rst:49 ../../felupe/docs/felupe/view.rst:19
+#: ../../felupe/docs/felupe/tools.rst:49 ../../felupe/docs/felupe/view.rst:33
 msgid "**Detailed API Reference**"
 msgstr ""
 
@@ -253,7 +253,9 @@ msgstr ""
 #: ../../felupe/docs/felupe/dof.rst:0 ../../felupe/docs/felupe/field.rst:0
 #: ../../felupe/docs/felupe/math.rst:0
 #: ../../felupe/docs/felupe/mechanics.rst:0
-#: ../../felupe/docs/felupe/mesh.rst:0 ../../felupe/docs/felupe/region.rst:0
+#: ../../felupe/docs/felupe/mesh.rst:0
+#: ../../felupe/docs/felupe/quadrature.rst:0
+#: ../../felupe/docs/felupe/region.rst:0
 #: ../../felupe/docs/felupe/thermal.rst:0 ../../felupe/docs/felupe/tools.rst:0
 #: ../../felupe/docs/felupe/view.rst:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
@@ -1008,6 +1010,12 @@ msgstr ""
 #: of felupe.tools._project.project:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.topoints:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend:22
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:55
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.set_plotting_backend:13
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
 #: of felupe.view._mesh_select_edge_points.select_edge_points:43
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
@@ -1606,13 +1614,13 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.view._mesh_select_surface_points.select_surface_points:65
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
-#: of felupe.plugins._animation_writer.AnimationWriterPlugin:32
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:33
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_cutback.pydocstring
 #: of felupe.plugins._cutback.CutbackPlugin:145
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:136
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:140
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
 #: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin.snapshot:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
@@ -1690,10 +1698,16 @@ msgstr ""
 #: of felupe.tools._project.project:90
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_save.pydocstring
 #: of felupe.tools._save.save:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend:31
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:65
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.set_plotting_backend:50
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
-#: of felupe.view._field.ViewField:29
+#: of felupe.view._field.ViewField:60
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
-#: of felupe.view._mesh.ViewMesh:21
+#: of felupe.view._mesh.ViewMesh:52
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
 #: of felupe.view._mesh_select_edge_points.select_edge_points:59
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
@@ -1701,7 +1715,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_scene.pydocstring
 #: of felupe.view._scene.Scene:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
-#: of felupe.view._solid.ViewSolid:35
+#: of felupe.view._solid.ViewSolid:66
 msgid "Examples"
 msgstr ""
 
@@ -2130,6 +2144,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/mechanics.rst:0
 #: ../../felupe/docs/felupe/mesh.rst:0 ../../felupe/docs/felupe/region.rst:0
 #: ../../felupe/docs/felupe/thermal.rst:0 ../../felupe/docs/felupe/tools.rst:0
+#: ../../felupe/docs/felupe/view.rst:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
 #: of felupe.assembly.expression._decorator.FormExpressionDecorator:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
@@ -2290,6 +2305,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/mechanics.rst:0
 #: ../../felupe/docs/felupe/mesh.rst:0 ../../felupe/docs/felupe/region.rst:0
 #: ../../felupe/docs/felupe/thermal.rst:0 ../../felupe/docs/felupe/tools.rst:0
+#: ../../felupe/docs/felupe/view.rst:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
 #: of felupe.assembly.expression._decorator.FormExpressionDecorator:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
@@ -2564,6 +2580,10 @@ msgstr ""
 #: of felupe.region._boundary.RegionBoundary:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
 #: of felupe.view._field.ViewField:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
@@ -2619,6 +2639,18 @@ msgstr ""
 #: of felupe.region._region.Region:81
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region:89
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
+#: of felupe.view._field.ViewField:25
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
+#: of felupe.view._field.ViewField:31
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh:17
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh:23
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
+#: of felupe.view._solid.ViewSolid:31
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
+#: of felupe.view._solid.ViewSolid:37
 msgid "ndarray"
 msgstr ""
 
@@ -9501,6 +9533,10 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
 #: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic-1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:38
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:52
 msgid "bool"
 msgstr ""
 
@@ -12527,7 +12563,7 @@ msgstr ""
 msgid ":py:obj:`felupe.view.select_edge_points`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:22:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary.select_edge_points:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
@@ -12569,7 +12605,7 @@ msgstr ""
 msgid ":py:obj:`felupe.view.select_surface_points`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:22:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary.select_surface_points:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
@@ -12993,6 +13029,18 @@ msgstr ""
 #: of felupe.dof._loadcase.shear-1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.uniaxial-1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
+#: of felupe.view._field.ViewField:43
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
+#: of felupe.view._field.ViewField:49
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh:35
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh:41
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
+#: of felupe.view._solid.ViewSolid:49
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
+#: of felupe.view._solid.ViewSolid:55
 msgid "dict"
 msgstr "dict"
 
@@ -13438,7 +13486,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/element/_base.pydocstring
 #: of felupe.element._base.Element.plot:1
-msgid "Plot the element."
+msgid "Plot the element. This requires the plotting backend of PyVista."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/element/_base.pydocstring
@@ -13452,7 +13500,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.plot:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/quadrature/_scheme.pydocstring
-#: of felupe.quadrature._scheme.Scheme.plot:6
+#: of felupe.quadrature._scheme.Scheme.plot:20
 msgid ":py:obj:`felupe.Scene.plot`"
 msgstr ""
 
@@ -13467,7 +13515,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.plot:6
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/quadrature/_scheme.pydocstring
-#: of felupe.quadrature._scheme.Scheme.plot:7
+#: of felupe.quadrature._scheme.Scheme.plot:21
 msgid "Plot method of a scene."
 msgstr ""
 
@@ -13585,11 +13633,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.view:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
-#: of felupe.view._field.ViewField:49
+#: of felupe.view._field.ViewField:80
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_scene.pydocstring
 #: of felupe.view._scene.Scene:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
-#: of felupe.view._solid.ViewSolid:56
+#: of felupe.view._solid.ViewSolid:87
 msgid ":py:obj:`felupe.ViewMesh`"
 msgstr ""
 
@@ -14879,9 +14927,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.view:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
-#: of felupe.view._field.ViewField:55
+#: of felupe.view._field.ViewField:86
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
-#: of felupe.view._solid.ViewSolid:62
+#: of felupe.view._solid.ViewSolid:93
 msgid ":py:obj:`felupe.project`"
 msgstr ""
 
@@ -14897,9 +14945,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.project:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
-#: of felupe.view._field.ViewField:56
+#: of felupe.view._field.ViewField:87
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
-#: of felupe.view._solid.ViewSolid:63
+#: of felupe.view._solid.ViewSolid:94
 msgid "Project given values at quadrature-points to mesh-points."
 msgstr ""
 
@@ -15119,11 +15167,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.view:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
-#: of felupe.view._mesh.ViewMesh:39
+#: of felupe.view._mesh.ViewMesh:70
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_scene.pydocstring
 #: of felupe.view._scene.Scene:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
-#: of felupe.view._solid.ViewSolid:59
+#: of felupe.view._solid.ViewSolid:90
 msgid ":py:obj:`felupe.ViewField`"
 msgstr ""
 
@@ -17875,11 +17923,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.Step:47
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
-#: of felupe.plugins._animation_writer.AnimationWriterPlugin:62
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:63
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:61
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:173
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:177
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:50
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
@@ -17919,7 +17967,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.SubstepState:66
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:176
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:180
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
@@ -17974,7 +18022,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.SubstepState:69
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:179
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:183
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:71
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
@@ -18021,7 +18069,7 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:46:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:182
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:186
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
 #: of felupe.plugins._progress.ProgressPlugin:1
 msgid ""
@@ -19838,15 +19886,17 @@ msgstr ""
 #: of felupe.plugins._animation_writer.AnimationWriterPlugin:28
 msgid ""
 "This plugin should be used with ``off_screen=True``. While it is possible to"
-" show the plotter during the job evaluation, it may flicker."
+" show the plotter during the job evaluation, it may flicker. The frames are "
+"always drawn by the plotting backend of PyVista, independent of the current "
+"plotting backend."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
-#: of felupe.plugins._animation_writer.AnimationWriterPlugin:61
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:62
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:60
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:172
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:176
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:49
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
@@ -20609,39 +20659,41 @@ msgstr ""
 #: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:48
 msgid ""
 "The model is drawn from the regions of the items, e.g. of several solid "
-"bodies on the meshes of a :class:`~felupe.MeshContainer`. There is no list "
-"of item types: every item with a field container ``item.field`` contributes "
-"the mesh of the region of its first field, except"
+"bodies on the meshes of a :class:`~felupe.MeshContainer`, by the "
+"triangulated outer surface of "
+":func:`~felupe.view._surface.triangulate_surface`. There is no list of item "
+"types: every item with a field container ``item.field`` contributes the mesh"
+" of the region of its first field, except"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:53
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:54
 msgid ""
 "boundary regions (e.g. of a :class:`~felupe.SolidBodyPressure` or of a heat "
 "transfer), whose meshes hold the cells of the faces,"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:55
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:56
 msgid ""
 "meshes without a supported cell type (e.g. the vertex mesh of the field of a"
 " :class:`~felupe.MeshContainer` in a :class:`~felupe.PointLoad`),"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:57
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:58
 msgid ""
 "meshes (or identical cells) which are already drawn (e.g. of a "
 ":class:`~felupe.SolidBodyForce` on the region of a solid body) and"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:59
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:60
 msgid "meshes with other points than the first mesh."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:61
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:62
 msgid ""
 "Items without a field, e.g. a :class:`~felupe.thermal.TimeStep`, are "
 "skipped. Faces at the interface of two bodies with merged points are not "
@@ -20650,7 +20702,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:66
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:67
 msgid ""
 "Without a Jupyter frontend, e.g. in a script which is run in the terminal or"
 " in the IPython terminal (which has no kernel and can not display widgets), "
@@ -20665,7 +20717,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:76
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:77
 msgid ""
 "With a ``filename``, e.g. ``\"job.html\"``, a live HTML file of the "
 "dashboard is written, also without a Jupyter frontend (and without "
@@ -20681,7 +20733,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:88
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:89
 msgid ""
 "A static :meth:`snapshot` of the dashboard after the job is a self-contained"
 " HTML page (without the scripts of the live HTML file). It is shown in the "
@@ -20692,88 +20744,90 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:95
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:96
 msgid "What the dashboard shows."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:98
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:99
 msgid "Section"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:99
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:100
 msgid "Content"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:100
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:101
 msgid "Viewport"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:101
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:102
 msgid ""
 "The model with banded contours of the norm of the first field of the "
 "unknowns for the latest converged substep, deformed by this field if it has "
 "``mesh.dim`` components. Only the first field is drawn, the other fields may"
-" be defined on other meshes. Cells of a higher order are drawn by their "
-"corner points. The default view of a 3d-model is the default view of the "
-"plots of FElupe, e.g. of :meth:`SolidBody.plot() <felupe.SolidBody.plot>`, "
-"with the z-axis upwards (the button ``iso``), a 2d-model is viewed in the "
-"xy-plane."
+" be defined on other meshes. The model is drawn by the WebGL viewer of the "
+"plotting backend ``\"webgl\"``. The faces of quadratic and Lagrange cells "
+"are triangulated by all their points (e.g. by the mid-edge points), line "
+"cells are drawn as lines. The default view of a 3d-model is the default view"
+" of the plots of FElupe, e.g. of :meth:`SolidBody.plot() "
+"<felupe.SolidBody.plot>`, with the z-axis upwards (the button ``iso``), a "
+"2d-model is viewed in the xy-plane. The view is kept for the next substeps."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:109
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:113
 msgid "Load path"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:110
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:114
 msgid ""
 "One cell for each substep, converged, converged with cutbacks (with marks at"
 " the load factors of its increments) or failed."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:112
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:116
 msgid "Solver"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:113
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:117
 msgid ""
 "Residual norm, tolerance, attempt and iteration, the residual norms of the "
 "attempts of the current substep, iterations, cutbacks and failed attempts."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:116
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:120
 msgid "Model"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:117
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:121
 msgid ""
 "The points, cells and the cell type of the mesh, the finite element and the "
 "quadrature of the region and the degrees of freedom (total and active)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:120
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:124
 msgid "Performance"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:121
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:125
 msgid ""
 "Wall time of the assembly, the linear solve, the residual and update and the"
 " rest, time per iteration and peak memory of the process."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:124
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:128
 msgid ""
 "The times are measured between the hooks of :func:`~felupe.newtonraphson`: "
 "the assembly between ``before_iteration`` and ``before_linear_solve``, the "
@@ -20783,7 +20837,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:130
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:134
 msgid ""
 "The plugin is not callable on purpose. List it before a "
 ":class:`~felupe.CutbackPlugin` to show the error messages of failed "
@@ -20792,12 +20846,12 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:156
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:160
 msgid "A live HTML file in the web browser, e.g. for a script in a terminal."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:164
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:168
 msgid ""
 "A static snapshot of the dashboard after the job, saved as a HTML file."
 msgstr ""
@@ -20805,7 +20859,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.SubstepState:65
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:175
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:179
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
 #: of felupe.tools._event_dispatcher.Context:57
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
@@ -20825,7 +20879,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.SubstepState:68
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:178
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:182
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:70
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_time_step.pydocstring
@@ -20834,7 +20888,7 @@ msgid ":py:obj:`felupe.CutbackPlugin`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
-#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:181
+#: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin:185
 msgid ":py:obj:`felupe.ProgressPlugin`"
 msgstr ""
 
@@ -22310,6 +22364,11 @@ msgid "Restore a checkpoint of the constraint."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_constraint.pydocstring
+#: of felupe.mechanics._multipoint._constraint.MultiPointConstraint.plot:1
+msgid "Plot the lines between the center-point and the points."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_constraint.pydocstring
 #: of felupe.mechanics._multipoint._constraint.MultiPointConstraint.restore:1
 msgid "Restore a checkpoint of the state variables of the rotation inplace."
 msgstr ""
@@ -22583,7 +22642,7 @@ msgstr ""
 #: of felupe.mechanics._pointconstraint.PointConstraint.plot:13
 msgid ""
 "Additional keyword arguments for the points, passed to "
-":meth:`pyvista.Plotter.add_points`."
+":meth:`pyvista.Plotter.add_points` (by the plotting backend of PyVista)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
@@ -27303,8 +27362,36 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/quadrature/_scheme.pydocstring
 #: of felupe.quadrature._scheme.Scheme.plot:1
 msgid ""
-"Plot the quadrature points, scaled by their weights, into a (optionally "
-"provided) PyVista plotter."
+"Plot the quadrature points, optionally scaled by their weights, into a "
+"(optionally provided) plotter of the plotting backend."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/quadrature/_scheme.pydocstring
+#: of felupe.quadrature._scheme.Scheme.plot:4
+msgid ""
+"A plotter of the plotting backend (default is None). If None, a new plotter "
+"is created."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/quadrature/_scheme.pydocstring
+#: of felupe.quadrature._scheme.Scheme.plot:7
+msgid "The size of the points (default is 20)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/quadrature/_scheme.pydocstring
+#: of felupe.quadrature._scheme.Scheme.plot:9
+msgid ""
+"A flag to scale the size of the points by the magnitude of their weights, "
+"relative to the largest magnitude of the weights (default is False). The "
+"points with negative weights, e.g. of a :class:`~felupe.TriangleQuadrature` "
+"of order 3, are drawn in red."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/quadrature/_scheme.pydocstring
+#: of felupe.quadrature._scheme.Scheme.plot:14
+msgid ""
+"Additional keyword-arguments for the plot of the points of the quadrature as"
+" a mesh, if no plotter is given."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/quadrature/_scheme.pydocstring
@@ -29003,6 +29090,7 @@ msgstr ""
 msgid "The result object."
 msgstr ""
 
+#: ../../felupe/docs/felupe/view.rst:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonraphson:0
 msgid "Raises"
@@ -29652,32 +29740,38 @@ msgstr ""
 #: ../../felupe/docs/felupe/view.rst:4
 msgid ""
 "Visualization methods for meshes, mesh and field containers as well as solid"
-" bodies by `PyVista <https://pyvista.org/>`_."
+" bodies. The scenes are drawn by a plotting backend, by default by `PyVista "
+"<https://pyvista.org/>`_ (``\"pyvista\"``). The plotting backend "
+"``\"webgl\"`` draws the scenes by a WebGL viewer in the web browser (in a "
+"self-contained HTML page), without PyVista. The plotting backend "
+"``\"matplotlib\"`` draws the scenes on the axes of a figure of matplotlib, "
+"without PyVista, e.g. for off-screen screenshots in vector formats (PDF or "
+"SVG)."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:22:<autosummary>:1
 msgid ":py:obj:`view.Scene <felupe.view.Scene>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:22:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
-#: of felupe.view._field.ViewField:47
+#: of felupe.view._field.ViewField:78
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
-#: of felupe.view._mesh.ViewMesh:37
+#: of felupe.view._mesh.ViewMesh:68
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_scene.pydocstring
 #: of felupe.view._scene.Scene:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
-#: of felupe.view._solid.ViewSolid:54
+#: of felupe.view._solid.ViewSolid:85
 msgid "Base class for plotting a static scene."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:22:<autosummary>:1
 msgid ""
 ":py:obj:`ViewMesh <felupe.ViewMesh>`\\ \\(mesh\\[\\, point\\_data\\, "
 "cell\\_data\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:22:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
 #: of felupe.view._mesh.ViewMesh:1
 msgid ""
@@ -29685,58 +29779,126 @@ msgid ""
 "dicts of point- and cell-data items."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:22:<autosummary>:1
 msgid ""
 ":py:obj:`ViewField <felupe.ViewField>`\\ \\(field\\[\\, point\\_data\\, "
 "cell\\_data\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:22:<autosummary>:1
 msgid "Provide Visualization methods for :class:`felupe.FieldContainer`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:22:<autosummary>:1
 msgid ""
 ":py:obj:`ViewSolid <felupe.ViewSolid>`\\ \\(field\\[\\, solid\\, "
 "stress\\_type\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:22:<autosummary>:1
 msgid ""
 "Provide Visualization methods for :class:`felupe.FieldContainer` and "
 "`felupe.SolidBody`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:22:<autosummary>:1
 msgid ":py:obj:`ViewXdmf <felupe.ViewXdmf>`\\ \\(filename\\[\\, time\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:22:<autosummary>:1
 msgid ""
 "Provide Visualization methods for a XDMF file generated by "
 ":meth:`Job.evaluate(filename=\"result.xdmf\")`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:22:<autosummary>:1
 msgid ""
 ":py:obj:`view.select_surface_points <felupe.view.select_surface_points>`\\ "
 "\\(mesh\\[\\, angle\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:18:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:22:<autosummary>:1
 msgid ""
 ":py:obj:`view.select_edge_points <felupe.view.select_edge_points>`\\ "
 "\\(mesh\\[\\, angle\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
-#: of felupe.view._field.ViewField:23
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
-#: of felupe.view._mesh.ViewMesh:15
+#: ../../felupe/docs/felupe/view.rst:23
+msgid "**Plotting Backends**"
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+msgid ":py:obj:`set_plotting_backend <felupe.set_plotting_backend>`\\ \\(name\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend:65
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.get_plotting_backend:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.register_plotting_backend:18
+msgid "Set the current plotting backend by its name."
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+msgid ":py:obj:`get_plotting_backend <felupe.get_plotting_backend>`\\ \\(\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend:68
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.get_plotting_backend:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.set_plotting_backend:68
+msgid "Return the name of the current plotting backend."
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+msgid ""
+":py:obj:`view.register_plotting_backend "
+"<felupe.view.register_plotting_backend>`\\ \\(name\\, backend\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend:71
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.set_plotting_backend:71
+msgid "Register a plotting backend by a name."
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+msgid ":py:obj:`view.PlottingBackend <felupe.view.PlottingBackend>`\\ \\(\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend:1
+msgid ""
+"Base class of a plotting backend, which draws the scenes of the plot-"
+"methods, e.g. of :meth:`Mesh.plot() <felupe.Mesh.plot>`, "
+":meth:`FieldContainer.plot() <felupe.FieldContainer.plot>` or "
+":meth:`SolidBody.plot() <felupe.SolidBody.plot>`."
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+msgid ""
+":py:obj:`view.MatplotlibPlotter <felupe.view.MatplotlibPlotter>`\\ "
+"\\(\\[ax\\, off\\_screen\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:1
+msgid ""
+"The plotter of the plotting backend ``\"matplotlib\"``, a scene which is "
+"drawn on the axes of a figure of matplotlib."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_scene.pydocstring
 #: of felupe.view._scene.Scene:5
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
-#: of felupe.view._solid.ViewSolid:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_xdmf.pydocstring
 #: of felupe.view._xdmf.ViewXdmf:12
 msgid ""
@@ -29745,51 +29907,51 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
-#: of felupe.view._field.ViewField:26
+#: of felupe.view._field.ViewField:57
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
-#: of felupe.view._mesh.ViewMesh:18
+#: of felupe.view._mesh.ViewMesh:49
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_scene.pydocstring
 #: of felupe.view._scene.Scene:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
-#: of felupe.view._solid.ViewSolid:32
+#: of felupe.view._solid.ViewSolid:63
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_xdmf.pydocstring
 #: of felupe.view._xdmf.ViewXdmf:15
 msgid "pyvista.UnstructuredGrid"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
-#: of felupe.view._field.ViewField:50
+#: of felupe.view._field.ViewField:81
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_scene.pydocstring
 #: of felupe.view._scene.Scene:28
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
-#: of felupe.view._solid.ViewSolid:57
+#: of felupe.view._solid.ViewSolid:88
 msgid ""
 "Provide Visualization methods for a mesh with optional given dicts of point-"
 " and cell-data items."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
-#: of felupe.view._mesh.ViewMesh:40
+#: of felupe.view._mesh.ViewMesh:71
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_scene.pydocstring
 #: of felupe.view._scene.Scene:31
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
-#: of felupe.view._solid.ViewSolid:60
+#: of felupe.view._solid.ViewSolid:91
 msgid "Provide Visualization methods for a field container."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
-#: of felupe.view._field.ViewField:52
+#: of felupe.view._field.ViewField:83
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
-#: of felupe.view._mesh.ViewMesh:42
+#: of felupe.view._mesh.ViewMesh:73
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_scene.pydocstring
 #: of felupe.view._scene.Scene:33
 msgid ":py:obj:`felupe.ViewSolid`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
-#: of felupe.view._field.ViewField:53
+#: of felupe.view._field.ViewField:84
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
-#: of felupe.view._mesh.ViewMesh:43
+#: of felupe.view._mesh.ViewMesh:74
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_scene.pydocstring
 #: of felupe.view._scene.Scene:34
 msgid "Provide Visualization methods for a field container or a solid body."
@@ -29801,11 +29963,81 @@ msgid "The mesh object."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
-#: of felupe.view._field.ViewField:46
+#: of felupe.view._field.ViewField:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
-#: of felupe.view._mesh.ViewMesh:36
+#: of felupe.view._mesh.ViewMesh:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
+#: of felupe.view._solid.ViewSolid:29
+msgid "Point coordinates of the mesh."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
+#: of felupe.view._field.ViewField:29
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh:21
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
+#: of felupe.view._solid.ViewSolid:35
+msgid "Point-connectivity of the cells of the mesh."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
+#: of felupe.view._field.ViewField:35
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh:27
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
+#: of felupe.view._solid.ViewSolid:41
+msgid "A string in VTK-convention that specifies the cell type of the mesh."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:32
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
+#: of felupe.view._field.ViewField:37
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh:29
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
+#: of felupe.view._solid.ViewSolid:43
+msgid "str or None"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
+#: of felupe.view._field.ViewField:41
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh:33
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
+#: of felupe.view._solid.ViewSolid:47
+msgid "The point-data dict."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
+#: of felupe.view._field.ViewField:47
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh:39
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
 #: of felupe.view._solid.ViewSolid:53
+msgid "The cell-data dict."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
+#: of felupe.view._field.ViewField:53
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh:45
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
+#: of felupe.view._solid.ViewSolid:59
+msgid ""
+"A generalized Dataset with the mesh as well as point- and cell-data. This is"
+" not an instance of :class:`felupe.Mesh`. It is created on first access, "
+"i.e. PyVista is only required for this attribute and for plotting."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
+#: of felupe.view._field.ViewField:77
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh:67
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
+#: of felupe.view._solid.ViewSolid:84
 msgid ":py:obj:`felupe.view.Scene`"
 msgstr ""
 
@@ -29885,4 +30117,627 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_xdmf.pydocstring
 #: of felupe.view._xdmf.ViewXdmf:7
 msgid "The time value at which the data is extracted (default is 0)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.set_plotting_backend:1
+msgid ""
+"Set the current plotting backend by its name. It draws the plots without a "
+"given plotter, e.g. ``mesh.plot()``. A plot with a given plotter, e.g. "
+"``mesh.plot(plotter=plotter)``, is drawn by the plotting backend of the "
+"given plotter."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.set_plotting_backend:6
+msgid ""
+"The name of a registered plotting backend. Available are ``\"pyvista\"`` "
+"(default), ``\"webgl\"`` and ``\"matplotlib\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.set_plotting_backend:10
+msgid "If no plotting backend is registered with the given name."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.set_plotting_backend:14
+msgid ""
+"The plotting backend ``\"pyvista\"`` draws the plots by "
+":class:`pyvista.Plotter` (with screenshots, e.g. for "
+":meth:`Mesh.screenshot() <felupe.Mesh.screenshot>`)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.set_plotting_backend:17
+msgid ""
+"The plotting backend ``\"webgl\"`` draws the plots by a WebGL viewer in the "
+"web browser, without PyVista. Its plotter has the methods "
+"``show(filename=None)``, ``export_html(filename)`` and "
+"``widget(height=\"480px\")``. Like with PyVista, the plotter is shown by "
+"``show()``: in a notebook, the self-contained HTML page of the viewer is "
+"shown in the output of the cell (in an ``iframe``), otherwise it is written "
+"to a file, which is opened in the web browser. ``widget()`` returns a "
+"Jupyter widget of the viewer with binary buffers, e.g. for a layout of "
+"widgets (this requires anywidget, ``pip install felupe[web]``). The outer "
+"surface of the meshes is curved for quadratic and Lagrange cells with "
+"``nonlinear_subdivision > 1``. Screenshots, the plots of finite elements and"
+" regions and the options which are specific to PyVista (which raise a "
+"warning once) are not supported. Drag to rotate, shift-drag to pan, scroll "
+"to zoom and double-click to reset the view."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.set_plotting_backend:31
+msgid ""
+"The plotting backend ``\"matplotlib\"`` draws the plots on the axes of a "
+"figure of matplotlib, without PyVista. Its plotter, a "
+":class:`~felupe.view.MatplotlibPlotter`, has the methods ``show()``, "
+"``screenshot(filename=None, transparent_background=None, scale=None)`` and "
+"``savefig()`` and the attributes ``figure`` and ``ax``. The screenshots, "
+"e.g. of :meth:`Mesh.screenshot() <felupe.Mesh.screenshot>`, are taken off-"
+"screen, i.e. without a display. The format of the file of a screenshot is "
+"given by the suffix of its filename, e.g. a raster format (PNG) or a vector "
+"format (PDF, SVG or EPS). Given (two-dimensional) axes of matplotlib are "
+"accepted as plotter, e.g. ``mesh.plot(plotter=ax)``, e.g. for figures with "
+"several subplots. The faces of the outer surface of the meshes are drawn as "
+"polygons with a flat color each, in the order of their depths (painter's "
+"algorithm). The faces on the back of the closed surfaces of opaque solid "
+"bodies are not drawn. With ``nonlinear_subdivision=k``, the edges of the "
+"faces are subdivided into ``order * 2 ** (k - 1)`` segments, also of linear "
+"cells (e.g. for smoother colors of point-data). The plots of finite elements"
+" and regions and the options which are specific to PyVista (which raise a "
+"warning once) are not supported."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend:67
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.set_plotting_backend:67
+msgid ":py:obj:`felupe.get_plotting_backend`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend:70
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.set_plotting_backend:70
+msgid ":py:obj:`felupe.view.register_plotting_backend`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.get_plotting_backend:3
+msgid "The name of the current plotting backend, e.g. ``\"pyvista\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend:64
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.get_plotting_backend:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.register_plotting_backend:17
+msgid ":py:obj:`felupe.set_plotting_backend`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.register_plotting_backend:1
+msgid ""
+"Register a plotting backend by a name. An already registered plotting "
+"backend with the same name is replaced."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.register_plotting_backend:4
+msgid "The name of the plotting backend, e.g. ``\"pyvista\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.register_plotting_backend:6
+msgid ""
+"An instance of a plotting backend. Its attribute ``name`` is set to the "
+"given name."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.register_plotting_backend:10
+msgid ""
+"If the backend is not an instance of :class:`~felupe.view.PlottingBackend`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.register_plotting_backend:14
+msgid ":py:obj:`felupe.view.PlottingBackend`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.register_plotting_backend:15
+msgid "Base class of a plotting backend."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend:6
+msgid ""
+"A plotting backend draws on its own type of plotter. A subclass implements "
+":meth:`is_plotter`, :meth:`prepare_plotter` and :meth:`add_view`. The other "
+"methods are optional and raise a :class:`NotImplementedError` by default: "
+"the primitives :meth:`add_points`, :meth:`add_lines`, :meth:`add_arrows`, "
+":meth:`add_shape` and :meth:`add_legend`, which draw the decorations of a "
+"model, e.g. of boundary conditions, point loads, constraints and rigid "
+"contact surfaces, and :meth:`screenshot`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend:16
+msgid ""
+"The name of the plotting backend, which is set by "
+":func:`~felupe.view.register_plotting_backend`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend:23
+msgid ""
+"A plot-method draws its scene on a given plotter or on a new plotter. The "
+"argument ``plotter`` combines several plots in one plotter, e.g. "
+"``mesh.plot(plotter=other_mesh.plot())``. A given plotter is drawn by the "
+"plotting backend which recognizes it (by :meth:`is_plotter`), independent of"
+" the current plotting backend. Without a given plotter, the current plotting"
+" backend creates a new plotter, see :func:`~felupe.set_plotting_backend`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend:32
+msgid "A minimal plotting backend, which collects the scenes in a list."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_arrows:1
+msgid ""
+"Add arrows to a plotter and return the plotter. Not supported by default."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_arrows:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_legend:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_lines:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_points:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_shape:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_view:3
+msgid "A plotter of this plotting backend."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_arrows:5
+msgid ""
+"The start points of the arrows of shape ``(narrows, dim)`` with ``dim <= "
+"3``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_arrows:8
+msgid "The vectors of the arrows of shape ``(narrows, dim)``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_arrows:10
+msgid "A factor of the vectors of the arrows (default is 1.0)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_arrows:12
+msgid "The color of the arrows (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_arrows:14
+msgid "Optional keyword-arguments of the arrows."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_arrows:17
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_legend:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_lines:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_points:14
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_shape:19
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_view:12
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter.render:6
+msgid "The plotter."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_legend:1
+msgid ""
+"Add a legend to a plotter and return the plotter. Not supported by default."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_legend:5
+msgid ""
+"The entries ``(label, color)`` of the legend (default is None). If None, the"
+" entries are taken from the labels of the primitives, e.g. given by "
+"``add_points(..., label=label)``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_legend:9
+msgid "The relative size of the legend (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_legend:11
+msgid "The background color of the legend (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_legend:13
+msgid "Optional keyword-arguments of the legend."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_lines:1
+msgid ""
+"Add straight line segments to a plotter and return the plotter. Not "
+"supported by default."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_lines:6
+msgid ""
+"The start and end points of the line segments of shape ``(nlines, 2, dim)`` "
+"with ``dim <= 3``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_lines:9
+msgid "The color of the lines (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_lines:11
+msgid "The width of the lines (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_lines:13
+msgid "Optional keyword-arguments of the lines."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_points:1
+msgid ""
+"Add points to a plotter and return the plotter. Not supported by default."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_points:5
+msgid "The point coordinates of shape ``(npoints, dim)`` with ``dim <= 3``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_points:7
+msgid "The color of the points (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_points:9
+msgid "The size of the points (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_points:11
+msgid ""
+"Optional keyword-arguments of the points, e.g. a ``label`` for the legend."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_shape:1
+msgid ""
+"Add a shape, e.g. a plane, a cylinder or a cone, to a plotter and return the"
+" plotter. Not supported by default."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_shape:6
+msgid ""
+"A shape with a method ``shape.triangulate()``, which returns the points of "
+"shape ``(npoints, 3)`` and the triangles of shape ``(ntriangles, 3)`` of its"
+" (clipped) surface."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_shape:10
+msgid "The color of the shape (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_shape:12
+msgid "The opacity of the shape (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_shape:14
+msgid ""
+"A flag to show the edges of the surface of the shape (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_shape:16
+msgid "Optional keyword-arguments of the shape."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_view:1
+msgid "Add a scene to a plotter and return the plotter."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_view:5
+msgid ""
+"The scene to add, e.g. a :class:`~felupe.ViewMesh` with the attributes "
+"``points``, ``cells``, ``cell_type``, ``point_data`` and ``cell_data``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.add_view:8
+msgid ""
+"The other arguments of :meth:`felupe.view.Scene.plot`, e.g. ``name``, "
+"``component`` and ``factor``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.default_color:1
+msgid ""
+"Return the default color of the meshes, e.g. of the current theme, or None "
+"if there is no default color (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.is_plotter:1
+msgid "Return True if the given object is a plotter of this plotting backend."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.is_plotter:3
+msgid "The object to check."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.is_plotter:6
+msgid "True if the object is a plotter of this plotting backend."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.prepare_plotter:1
+msgid "Return the given plotter or a new plotter."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.prepare_plotter:3
+msgid ""
+"A plotter of this plotting backend or None (default is None). If None, a new"
+" plotter is created."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.prepare_plotter:6
+msgid ""
+"The options of the plotter of :meth:`felupe.view.Scene.plot`, i.e. "
+"``theme``, ``off_screen`` and ``notebook``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.prepare_plotter:10
+msgid "The given or a new plotter."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.screenshot:1
+msgid ""
+"Take a screenshot of the plotter, which is returned by ``plot(*args, "
+"**kwargs)``. Not supported by default."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.screenshot:4
+msgid "A function which returns a plotter, e.g. the plot-method of a mesh."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.screenshot:6
+msgid "Optional positional arguments of the plot-function."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.screenshot:8
+msgid "The filename of the screenshot (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.screenshot:10
+msgid "A flag for a transparent background (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.screenshot:12
+msgid "A factor of the resolution of the screenshot (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.screenshot:14
+msgid "Optional keyword-arguments of the plot-function."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.screenshot:17
+msgid "The image data of the screenshot."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
+#: of felupe.view._backends._base.PlottingBackend.screenshot:20
+msgid "If the plotting backend does not support screenshots."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:4
+msgid ""
+"The (two-dimensional) axes of matplotlib to draw on (default is None). If "
+"None, a new figure with axes is created. A scene on given axes is drawn "
+"whenever an object is added, i.e. the figure of the axes may be saved by "
+"``fig.savefig()``, e.g. a figure with several subplots in a vector format."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:9
+msgid ""
+"A flag to create the new figure without pyplot (default is False), i.e. it "
+"is not shown in a window, e.g. for screenshots. In a notebook, the figure is"
+" always created without pyplot and it is shown by :meth:`show`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:16
+msgid "The objects of the scene, i.e. surfaces, points and lines."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:18
+msgid "list of dict"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:22
+msgid "The entries ``(label, color)`` of the legend."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:24
+msgid "list of tuple or None"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:28
+msgid ""
+"The view of the camera, e.g. ``\"xy\"``, ``\"xz\"`` or ``\"iso\"``. If "
+"``\"default\"``, planar models are viewed from the top (``\"xy\"``) and "
+"other models from an oblique view (the default view of FElupe)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:36
+msgid "A flag to show the axes."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:42
+msgid ""
+"A flag for a parallel projection (default is None). If None, planar models "
+"are drawn by a parallel projection and other models by a perspective "
+"projection."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:45
+msgid "bool or None"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:49
+msgid ""
+"A flag to rasterize the model in vector formats (default is False), e.g. for"
+" large models. The scalar bars, the legend and the axes are not rasterized."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:56
+msgid ""
+"The model is drawn by projected polygons (with a flat color each), which are"
+" drawn in the order of their depths (painter's algorithm), i.e. far polygons"
+" first. The faces on the back of the closed surfaces of opaque solid bodies "
+"are not drawn (back-face culling). Hence, a screenshot in a vector format, "
+"e.g. PDF or SVG, contains a polygon for each visible face (with its edges), "
+"see :meth:`screenshot`. Overlapping faces, which intersect each other, e.g. "
+"at a contact, may be drawn in a wrong order."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter.close:1
+msgid "Close the figure of pyplot (if the figure is a figure of pyplot)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of
+#: felupe.view._backends._matplotlib.MatplotlibPlotter.enable_parallel_projection:1
+msgid "Enable the parallel projection of the camera and return the plotter."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter.render:1
+msgid ""
+"Draw the scene on the axes, i.e. the model as a collection of paths, the "
+"scalar bars, the legend and the axes. A previously drawn scene is removed. "
+"The scene is drawn by :meth:`show`, :meth:`screenshot` and :meth:`savefig`, "
+"e.g. with changed attributes like the view."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter.savefig:1
+msgid ""
+"Save the figure, see :meth:`matplotlib.figure.Figure.savefig`, e.g. "
+"``plotter.savefig(\"model.pdf\")``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter.screenshot:1
+msgid ""
+"Take a screenshot of the figure and return the image data. Optionally, the "
+"screenshot is saved to a file. The format of the file is given by the suffix"
+" of the filename, e.g. ``\"model.png\"`` (raster) or ``\"model.pdf\"``, "
+"``\"model.svg\"`` and ``\"model.eps\"`` (vector formats)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter.screenshot:6
+msgid ""
+"The filename of the screenshot (default is None). If None, no file is "
+"written."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter.screenshot:9
+msgid ""
+"A flag for a transparent background (default is None). If True, the image "
+"data has an alpha channel."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter.screenshot:12
+msgid ""
+"A factor of the resolution (the dots per inch) of the figure (default is "
+"None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter.screenshot:16
+msgid ""
+"The image data of the screenshot of shape ``(height, width, 3)``, or "
+"``(height, width, 4)`` with a transparent background, as unsigned integers "
+"(``uint8``)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter.show:1
+msgid ""
+"Show the figure. A figure of pyplot is shown by :func:`pyplot.show() "
+"<matplotlib.pyplot.show>`. In a notebook, the image of the figure is shown "
+"in the output of the cell. An off-screen figure (outside of a notebook) is "
+"not shown."
 msgstr ""
