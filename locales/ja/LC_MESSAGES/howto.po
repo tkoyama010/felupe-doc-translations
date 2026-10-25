@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-24 00:14+0000\n"
+"POT-Creation-Date: 2026-10-25 00:16+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -172,6 +172,42 @@ msgid ""
 "passed as the ``x0`` argument during the evaluation of the job. Internally, "
 "all field values are linked automatically, i.e. they share their ``values`` "
 "array."
+msgstr ""
+
+#: ../../felupe/docs/howto/composite.rst:111
+msgid "Mixed-Field Formulations"
+msgstr ""
+
+#: ../../felupe/docs/howto/composite.rst:113
+msgid ""
+"The solid bodies may also use different mixed-field formulations. Each field"
+" container is created on the (unmerged) mesh of its body, e.g. a "
+"displacement field for a linear-elastic body and mixed fields (displacement,"
+" pressure and volume ratio) for two nearly-incompressible bodies. "
+":func:`~felupe.field.merge` merges the points of the displacement fields and"
+" stacks the points of the dual fields, i.e. the pressure and the volume "
+"ratio are local to their body. No offsets or dual meshes have to be created "
+"manually."
+msgstr ""
+
+#: ../../felupe/docs/howto/composite.rst:137
+msgid ""
+"The boundary conditions are created on the top-level field container. The "
+"fields of the bodies are linked to the top-level field container, which is "
+"also used as the ``x0``-argument of the job by default."
+msgstr ""
+
+#: ../../felupe/docs/howto/composite.rst:167
+msgid ""
+"The first fields (displacements) of all bodies are merged. All other fields "
+"belong to their body, e.g. the pressure and the volume ratio of a mixed-"
+"field body or the tensor-valued field of "
+":class:`~felupe.ThirdMediumContactMixed` of a third medium: they are not "
+"coupled across the bodies. Hence, the bodies may use different mixed "
+"formulations, e.g. Q1/P0, Q2/P0 or Taylor-Hood elements, a displacement "
+"field only, or third media next to :class:`~felupe.ThreeFieldVariation` "
+"bodies. A field which should be continuous across several bodies (other than"
+" the displacements) must be defined in a single field container."
 msgstr ""
 
 #: ../../felupe/docs/howto/items.rst:2

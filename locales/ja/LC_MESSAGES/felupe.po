@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-24 00:14+0000\n"
+"POT-Creation-Date: 2026-10-25 00:16+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -232,7 +232,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/quadrature.rst:32
 #: ../../felupe/docs/felupe/region.rst:39
 #: ../../felupe/docs/felupe/thermal.rst:27
-#: ../../felupe/docs/felupe/tools.rst:49 ../../felupe/docs/felupe/view.rst:33
+#: ../../felupe/docs/felupe/tools.rst:50 ../../felupe/docs/felupe/view.rst:33
 msgid "**Detailed API Reference**"
 msgstr ""
 
@@ -421,6 +421,8 @@ msgstr ""
 #: of felupe.mechanics._contact._base.ContactRigidBase.restore:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
 #: of felupe.mechanics._pointconstraint.PointConstraint.update:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.extract:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_constraint.pydocstring
@@ -490,6 +492,8 @@ msgstr ""
 #: of felupe.solve._superlu.SuperLUSolver.factorize:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.embed:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonraphson:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
@@ -1005,6 +1009,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.NewtonResult:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.embed:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonraphson:83
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.project:26
@@ -1380,9 +1386,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:22
+#: of felupe.field._container.FieldContainer:31
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer.merge:20
+#: of felupe.field._container.FieldContainer.merge:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.revolve:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
@@ -1390,7 +1396,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
 #: of felupe.field._evaluate.EvaluateFieldContainer:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
-#: of felupe.field._container.FieldContainer.merge:20
+#: of felupe.field._container.FieldContainer.merge:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.revolve:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -1448,7 +1454,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
 #: of felupe.mechanics._cylindrical.CylindricalConstraint:125
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
-#: of felupe.mechanics._free_vibration.FreeVibration:16
+#: of felupe.mechanics._free_vibration.FreeVibration:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_item.pydocstring
 #: of felupe.mechanics._item.FormItem:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
@@ -2247,6 +2253,8 @@ msgstr ""
 #: of felupe.mechanics._contact._base.ContactRigidBase.restore:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
 #: of felupe.mechanics._pointconstraint.PointConstraint.update:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.extract:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_constraint.pydocstring
@@ -2282,6 +2290,8 @@ msgstr ""
 #: of felupe.solve._superlu.SuperLUSolver.factorize:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.embed:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonraphson:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
@@ -2392,6 +2402,8 @@ msgstr ""
 #: of felupe.mechanics._contact._base.ContactRigidBase.restore:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
 #: of felupe.mechanics._pointconstraint.PointConstraint.update:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.extract:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
 #: of felupe.mechanics._job.Job.evaluate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_constraint.pydocstring
@@ -2422,6 +2434,8 @@ msgstr ""
 #: of felupe.solve._superlu.SuperLUSolver.factorize:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.embed:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonraphson:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
@@ -14462,7 +14476,21 @@ msgid "field.EvaluateFieldContainer"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:41
+#: of felupe.field._container.FieldContainer:23
+msgid ""
+"The indices of the fields of a top-level field container, which belong to "
+"the fields of this field container, e.g. set by :func:`~felupe.field.merge`."
+" If None, the fields belong to the first fields of the top-level field "
+"container (in the same order). Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer:28
+msgid "list of int or None"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer:50
 msgid ""
 "A new :class:`~felupe.FieldContainer` is also created by one of the logical-"
 "and combinations of a :class:`~felupe.Field`, "
@@ -14473,7 +14501,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
 #: of felupe.field._axi.FieldAxisymmetric:48
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:66
+#: of felupe.field._container.FieldContainer:75
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._dual.FieldDual:52
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -14486,7 +14514,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_axi.pydocstring
 #: of felupe.field._axi.FieldAxisymmetric:49
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:67
+#: of felupe.field._container.FieldContainer:76
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._dual.FieldDual:53
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -14499,7 +14527,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:69
+#: of felupe.field._container.FieldContainer:78
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._dual.FieldDual:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -14508,7 +14536,7 @@ msgid ":py:obj:`felupe.FieldAxisymmetric`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:70
+#: of felupe.field._container.FieldContainer:79
 msgid ""
 "An axisymmetric :class:`~felupe.Field` on points of a two dimensional "
 ":class:`~felupe.Region` with dimension ``dim`` (default is 2) and initial "
@@ -14516,7 +14544,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:72
+#: of felupe.field._container.FieldContainer:81
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
 #: of felupe.field._dual.FieldDual:58
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
@@ -14525,7 +14553,7 @@ msgid ":py:obj:`felupe.FieldPlaneStrain`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer:73
+#: of felupe.field._container.FieldContainer:82
 msgid ""
 "A plane strain :class:`~felupe.Field` on points of a two dimensional "
 ":class:`~felupe.Region` with dimension ``dim`` (default is 2) and initial "
@@ -14870,6 +14898,18 @@ msgid "Link value array of other field."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.link:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.link:3
+msgid ""
+"The other field container (default is None). If None, all fields are linked "
+"to the first field. If the field container has ``slots`` and the other field"
+" container has no ``slots`` (e.g. a top-level field container), the fields "
+"are linked to the fields of the other field container, given by the "
+"``slots``. Otherwise, the fields are linked 1-to-1 by their position."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.merge:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.merge:1
@@ -14908,7 +14948,9 @@ msgstr ""
 #: of felupe.field._container.FieldContainer.merge:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.merge:17
-msgid "Field containers with dual fields are not supported."
+msgid ""
+"Mixed field containers, e.g. :class:`~felupe.FieldsMixed`, are supported, "
+"see :func:`~felupe.field.merge` for details."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
@@ -14933,7 +14975,7 @@ msgstr ""
 msgid ":py:obj:`felupe.project`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:42:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.plot:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
@@ -18105,7 +18147,7 @@ msgid ":py:obj:`EventDispatcher <felupe.EventDispatcher>`\\ \\(\\[plugins\\]\\)"
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:46:<autosummary>:1
-#: ../../felupe/docs/felupe/tools.rst:27:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:28:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:53
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
@@ -18120,7 +18162,7 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:46:<autosummary>:1
-#: ../../felupe/docs/felupe/tools.rst:27:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:28:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
@@ -18169,7 +18211,7 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:46:<autosummary>:1
-#: ../../felupe/docs/felupe/tools.rst:14:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:15:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.IterationState:1
 msgid "A class to keep track of the state of an iteration during evaluation."
@@ -19641,7 +19683,7 @@ msgstr ""
 msgid ":py:obj:`tools.NewtonResult`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:14:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:15:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
 #: of felupe.mechanics._curve.CharacteristicCurve:74
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
@@ -19828,6 +19870,94 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
 #: of felupe.mechanics._free_vibration.FreeVibration:13
 msgid "Boundary conditions with non-zero values are not supported."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration:15
+msgid ""
+"The multiplier of an item, e.g. ``SolidBody(..., multiplier=2.0)``, scales "
+"both its stiffness and its mass matrix, i.e. the contribution of the item."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.evaluate:1
+msgid "Evaluate the eigenvalues and the eigenvectors of the free vibration."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.evaluate:3
+msgid ""
+"The field container with all unknowns (default is None). If None, the top-"
+"level field container ``x0`` of the field container of the first item is "
+"used (e.g. created by :func:`~felupe.field.merge`), otherwise the field "
+"container of the first item."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.evaluate:8
+msgid ""
+"A solver for the generalized eigenvalue problem with the signature "
+"``eigenvalues, eigenvectors = solver(A, M, **kwargs)`` (default is "
+":func:`scipy.sparse.linalg.eigsh`)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.evaluate:12
+msgid ""
+"Flag to assemble the stiffness matrices in parallel (default is False)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.evaluate:14
+msgid ""
+"Optional keyword-arguments for the solver. The default shift is ``sigma=0``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.evaluate:18
+msgid ""
+"The free-vibration object with the ``eigenvalues`` and the ``eigenvectors``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.extract:1
+msgid "Extract an eigenvector and its frequency."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.extract:3
+msgid "The index of the eigenvalue and the eigenvector (default is 0)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.extract:5
+msgid ""
+"The field container in which the eigenvector is stored (default is None). If"
+" None, the field container of :meth:`evaluate` is used."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.extract:8
+msgid ""
+"Flag to store the eigenvector in the given field container (default is "
+"True). If False, a copy of the field container is used."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.extract:12
+msgid ""
+"* *FieldContainer* -- The field container with the eigenvector. * *float* --"
+" The frequency of the eigenvector."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.extract:12
+msgid "*FieldContainer* -- The field container with the eigenvector."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.extract:13
+msgid "*float* -- The frequency of the eigenvector."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
@@ -21281,7 +21411,7 @@ msgstr ""
 msgid ":py:obj:`felupe.newtonraphson`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:14:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:15:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_protocol.pydocstring
 #: of felupe.mechanics._protocol.Item:90
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
@@ -28777,19 +28907,19 @@ msgstr ""
 msgid "**Optimization**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:14:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:15:<autosummary>:1
 msgid ""
 ":py:obj:`newtonraphson <felupe.newtonraphson>`\\ \\(\\[x0\\, fun\\, jac\\, "
 "solve\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:14:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:15:<autosummary>:1
 msgid ""
 ":py:obj:`tools.IterationState <felupe.tools.IterationState>`\\ "
 "\\(\\[iteration\\, fnorm\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:14:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:15:<autosummary>:1
 msgid ""
 ":py:obj:`tools.NewtonResult <felupe.tools.NewtonResult>`\\ \\(x\\[\\, fun\\,"
 " jac\\, success\\, ...\\]\\)"
@@ -28797,81 +28927,93 @@ msgstr ""
 ":py:obj:`tools.NewtonResult <felupe.tools.NewtonResult>`\\ \\(x\\[\\, fun\\,"
 " jac\\, success\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/tools.rst:14:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:15:<autosummary>:1
 msgid ":py:obj:`NewtonConvergenceError <felupe.NewtonConvergenceError>`"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:14:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:15:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.NewtonConvergenceError:1
 msgid ""
 "An error which is raised if the Newton-Raphson method fails to converge."
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:15
+#: ../../felupe/docs/felupe/tools.rst:15:<autosummary>:1
+msgid ":py:obj:`tools.embed <felupe.tools.embed>`\\ \\(a\\, shape\\[\\, field\\, x\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/tools.rst:15:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.embed:1
+msgid ""
+"Embed an assembled sparse vector or matrix of an item into the shape of the "
+"global (top-level) field container."
+msgstr ""
+
+#: ../../felupe/docs/felupe/tools.rst:16
 msgid "**Linear Solver**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:20:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:21:<autosummary>:1
 msgid ""
 ":py:obj:`solve.SuperLUSolver <felupe.solve.SuperLUSolver>`\\ "
 "\\(\\[permc\\_spec\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:20:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:21:<autosummary>:1
 msgid ""
 "A sparse direct solver by :func:`scipy.sparse.linalg.splu` (SuperLU), tuned "
 "for the linear equation systems of the finite element method."
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:21
+#: ../../felupe/docs/felupe/tools.rst:22
 msgid "**Event Dispatcher**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:27:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:28:<autosummary>:1
 msgid ""
 ":py:obj:`tools.EventDispatcher <felupe.tools.EventDispatcher>`\\ "
 "\\(\\[plugins\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:27:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:28:<autosummary>:1
 msgid ""
 ":py:obj:`tools.Context <felupe.tools.Context>`\\ \\(\\[job\\, step\\, "
 "substep\\, items\\, ...\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:28
+#: ../../felupe/docs/felupe/tools.rst:29
 msgid "**Export of Results**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:34:<autosummary>:1
 msgid ":py:obj:`save <felupe.save>`\\ \\(region\\, field\\[\\, forces\\, gradient\\, ...\\]\\)"
 msgstr ":py:obj:`save <felupe.save>`\\ \\(region\\, field\\[\\, forces\\, gradient\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/tools.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:34:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_save.pydocstring
 #: of felupe.tools._save.save:1
 msgid "Write field-data to a VTU file."
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:34
+#: ../../felupe/docs/felupe/tools.rst:35
 msgid "**Convert Cell-Data to Point-Data**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:42:<autosummary>:1
 msgid ":py:obj:`topoints <felupe.topoints>`\\ \\(values\\, region\\[\\, average\\, mean\\]\\)"
 msgstr ""
 ":py:obj:`topoints <felupe.topoints>`\\ \\(values\\, region\\[\\, average\\, "
 "mean\\]\\)"
 
-#: ../../felupe/docs/felupe/tools.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:42:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.topoints:1
 msgid ""
 "Shift array of values located at quadrature points of cells to mesh-points."
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:42:<autosummary>:1
 msgid ""
 ":py:obj:`project <felupe.project>`\\ \\(values\\, region\\[\\, average\\, "
 "mean\\, dV\\, ...\\]\\)"
@@ -28879,7 +29021,7 @@ msgstr ""
 ":py:obj:`project <felupe.project>`\\ \\(values\\, region\\[\\, average\\, "
 "mean\\, dV\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/tools.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:42:<autosummary>:1
 msgid ""
 ":py:obj:`tools.extrapolate <felupe.tools.extrapolate>`\\ \\(values\\, "
 "region\\[\\, average\\, ...\\]\\)"
@@ -28887,7 +29029,7 @@ msgstr ""
 ":py:obj:`tools.extrapolate <felupe.tools.extrapolate>`\\ \\(values\\, "
 "region\\[\\, average\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/tools.rst:41:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:42:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.extrapolate:1
 msgid ""
@@ -28895,21 +29037,21 @@ msgid ""
 "points to mesh-points."
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:42
+#: ../../felupe/docs/felupe/tools.rst:43
 msgid "**Reaction-Force and -Moment**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:48:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:49:<autosummary>:1
 msgid ":py:obj:`tools.force <felupe.tools.force>`\\ \\(field\\, forces\\, boundary\\)"
 msgstr ":py:obj:`tools.force <felupe.tools.force>`\\ \\(field\\, forces\\, boundary\\)"
 
-#: ../../felupe/docs/felupe/tools.rst:48:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:49:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
 #: of felupe.tools._post.force:1
 msgid "Evaluate the force vector sum on points of a boundary."
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:48:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:49:<autosummary>:1
 msgid ""
 ":py:obj:`tools.moment <felupe.tools.moment>`\\ \\(field\\, forces\\, "
 "boundary\\[\\, ...\\]\\)"
@@ -28917,7 +29059,7 @@ msgstr ""
 ":py:obj:`tools.moment <felupe.tools.moment>`\\ \\(field\\, forces\\, "
 "boundary\\[\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/tools.rst:48:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:49:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
 #: of felupe.tools._post.moment:1
 msgid ""
@@ -29368,6 +29510,45 @@ msgid ""
 ":class:`~felupe.CutbackPlugin` catch this error to recover a failed substep,"
 " while other errors, e.g. a :class:`ValueError` of mismatching shapes of "
 "arrays, are raised without a recovery."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.embed:4
+msgid ""
+"Assembled sparse vector or matrix of an item, w.r.t. the degrees of freedom "
+"of the field container of the item."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.embed:7
+msgid "Target shape for the sparse vector or matrix."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.embed:9
+msgid "The field container of the item (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.embed:11
+msgid "The global (top-level) field container (default is None)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.embed:14
+msgid "The sparse vector or matrix w.r.t. the global degrees of freedom."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.embed:19
+msgid ""
+"If the field container of the item has ``slots`` (the indices of its fields "
+"in the global field container, e.g. set by :func:`~felupe.field.merge`), the"
+" degrees of freedom of the item are mapped to the global degrees of freedom."
+" The sizes of the fields must be equal to the sizes of their fields in the "
+"global field container. Otherwise, the sparse vector or matrix is resized "
+"(padded with zeros) by :func:`spresize`, i.e. the fields of the item are the"
+" first fields of the global field container."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
