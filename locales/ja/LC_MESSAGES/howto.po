@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-25 00:16+0000\n"
+"POT-Creation-Date: 2026-10-26 00:15+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -22,8 +22,24 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../felupe/docs/howto.rst:6
-msgid "How-To:"
-msgstr "ハウツー"
+msgid "Build a Model"
+msgstr ""
+
+#: ../../felupe/docs/howto.rst:16
+msgid "Define Materials"
+msgstr ""
+
+#: ../../felupe/docs/howto.rst:23
+msgid "Evaluate a Job"
+msgstr ""
+
+#: ../../felupe/docs/howto.rst:31
+msgid "Process Results"
+msgstr ""
+
+#: ../../felupe/docs/howto.rst:38
+msgid "Extend FElupe"
+msgstr ""
 
 #: ../../felupe/docs/howto.rst:4
 msgid "How-To Guides"
@@ -79,7 +95,7 @@ msgstr ""
 "}{\\partial \\boldsymbol{X}} \\ dV"
 
 #: ../../felupe/docs/howto/axi.rst:2
-msgid "Two-dimensional Problems"
+msgid "Set up Two-Dimensional Problems"
 msgstr ""
 
 #: ../../felupe/docs/howto/axi.rst:4
@@ -125,79 +141,86 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/howto/composite.rst:2
-msgid "Multiple Solid Bodies"
-msgstr "複数の固体"
+msgid "Combine Multiple Solid Bodies"
+msgstr ""
 
 #: ../../felupe/docs/howto/composite.rst:4
 msgid ""
-"This section demonstrates how to set up a problem with two regions, each "
-"associated to a separated solid body. Different element formulations are "
-"used for the solid bodies."
+"This section demonstrates how to set up a problem with two solid bodies, a "
+"stiff inclusion and a rubber matrix. The bodies are created on meshes with "
+"different cell types, i.e. different finite element formulations are used "
+"for the solid bodies."
 msgstr ""
 
-#: ../../felupe/docs/howto/composite.rst:24
+#: ../../felupe/docs/howto/composite.rst:22
+msgid "A field container is created on the mesh of each body."
+msgstr ""
+
+#: ../../felupe/docs/howto/composite.rst:32
 msgid ""
-"A top-level (vertex) field, which contains all the unknowns, is required for"
-" the definition of the boundary conditions as well as for the evaluation of "
-"the job."
+":func:`~felupe.field.merge` merges the field containers of the bodies into a"
+" top-level field container, which contains all the unknowns. The points of "
+"the meshes are merged, i.e. the bodies share the points at their interface. "
+"The field containers of the bodies are modified in-place: their regions and "
+"fields are reloaded on the merged meshes and the values of their fields are "
+"linked to (shared with) the top-level field container. The top-level field "
+"container is required for the definition of the boundary conditions and it "
+"is used as the ``x0``-argument of the job by default."
 msgstr ""
 
-#: ../../felupe/docs/howto/composite.rst:28
+#: ../../felupe/docs/howto/composite.rst:49
 msgid ""
-"Ensure to init the mesh container with ``merge=True``, otherwise the points-"
-"array of the container will be empty."
+"The merged meshes are available in the mesh container "
+"``field.mesh_container`` of the top-level field container. "
+"``fem.FieldContainer(fields).merge()`` is equivalent to "
+"``fem.field.merge(fields)``. Items with an internal state of the given "
+"fields, e.g. :class:`~felupe.SolidBodyNearlyIncompressible`, must be created"
+" after the merge."
 msgstr ""
 
-#: ../../felupe/docs/howto/composite.rst:40
+#: ../../felupe/docs/howto/composite.rst:54
 msgid ""
-"The sub-meshes are available in the global mesh container, on which the sub-"
-"fields are created."
+"The displacement boundaries are created on the top-level field container."
 msgstr ""
 
-#: ../../felupe/docs/howto/composite.rst:55
-msgid "The displacement boundaries are created on the top-level field."
-msgstr ""
-
-#: ../../felupe/docs/howto/composite.rst:66
+#: ../../felupe/docs/howto/composite.rst:65
 msgid ""
-"The rubber is associated to a Neo-Hookean material formulation whereas the "
-"steel is modeled by a linear elastic material formulation. Due to the large "
-"rotation, its large-strain formulation is required. For each material a "
-"solid body is created."
+"The rubber matrix is associated to a Neo-Hookean material formulation "
+"whereas the stiff inclusion is modeled by a linear elastic material "
+"formulation. Due to the large rotation, its large-strain formulation is "
+"required. For each material a solid body is created on the field container "
+"of its body."
 msgstr ""
 
 #: ../../felupe/docs/howto/composite.rst:82
 msgid ""
-"A step is created and further added to a job. The global field must be "
-"passed as the ``x0`` argument during the evaluation of the job. Internally, "
-"all field values are linked automatically, i.e. they share their ``values`` "
-"array."
+"A step is created and further added to a job. The top-level field container "
+"is taken from the field containers of the solid bodies, i.e. it doesn't have"
+" to be passed to :meth:`~felupe.Job.evaluate`."
 msgstr ""
 
-#: ../../felupe/docs/howto/composite.rst:111
+#: ../../felupe/docs/howto/composite.rst:109
 msgid "Mixed-Field Formulations"
 msgstr ""
 
-#: ../../felupe/docs/howto/composite.rst:113
+#: ../../felupe/docs/howto/composite.rst:111
 msgid ""
-"The solid bodies may also use different mixed-field formulations. Each field"
-" container is created on the (unmerged) mesh of its body, e.g. a "
-"displacement field for a linear-elastic body and mixed fields (displacement,"
-" pressure and volume ratio) for two nearly-incompressible bodies. "
-":func:`~felupe.field.merge` merges the points of the displacement fields and"
-" stacks the points of the dual fields, i.e. the pressure and the volume "
-"ratio are local to their body. No offsets or dual meshes have to be created "
-"manually."
+"The solid bodies may also use different mixed-field formulations, which are "
+"merged in the same way, e.g. a displacement field for a linear-elastic body "
+"and mixed fields (displacement, pressure and volume ratio) for two nearly-"
+"incompressible bodies. :func:`~felupe.field.merge` merges the points of the "
+"displacement fields and appends the dual fields to the top-level field "
+"container, i.e. the pressure and the volume ratio are local to their body. "
+"No offsets or dual meshes have to be created manually."
 msgstr ""
 
-#: ../../felupe/docs/howto/composite.rst:137
+#: ../../felupe/docs/howto/composite.rst:134
 msgid ""
-"The boundary conditions are created on the top-level field container. The "
-"fields of the bodies are linked to the top-level field container, which is "
-"also used as the ``x0``-argument of the job by default."
+"Like before, the boundary conditions are created on the top-level field "
+"container and the solid bodies on the field containers of the bodies."
 msgstr ""
 
-#: ../../felupe/docs/howto/composite.rst:167
+#: ../../felupe/docs/howto/composite.rst:163
 msgid ""
 "The first fields (displacements) of all bodies are merged. All other fields "
 "belong to their body, e.g. the pressure and the volume ratio of a mixed-"
@@ -467,7 +490,7 @@ msgid "For views on higher-order meshes use ``nonlinear_subdivision``."
 msgstr ""
 
 #: ../../felupe/docs/howto/mixed.rst:2
-msgid "Mixed-Field Problems"
+msgid "Set up Mixed-Field Problems"
 msgstr ""
 
 #: ../../felupe/docs/howto/mixed.rst:4
@@ -513,7 +536,7 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/howto/parallel.rst:2
-msgid "Evaluate in parallel"
+msgid "Evaluate in Parallel"
 msgstr ""
 
 #: ../../felupe/docs/howto/parallel.rst:4
@@ -1091,7 +1114,7 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/howto/project.rst:2
-msgid "Project cell values to mesh-points"
+msgid "Project Cell Values to Mesh Points"
 msgstr ""
 
 #: ../../felupe/docs/howto/project.rst:4
@@ -1130,7 +1153,7 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/howto/solid.rst:2
-msgid "Solid Bodies as Items for Assembly"
+msgid "Use Solid Bodies"
 msgstr ""
 
 #: ../../felupe/docs/howto/solid.rst:4
@@ -1236,7 +1259,7 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/howto/solvers.rst:2
-msgid "Use external solvers"
+msgid "Use External Solvers"
 msgstr ""
 
 #: ../../felupe/docs/howto/solvers.rst:4
@@ -1275,7 +1298,7 @@ msgid ""
 msgstr ""
 
 #: ../../felupe/docs/howto/umat.rst:2
-msgid "Strain based Materials"
+msgid "Define Strain-Based Materials"
 msgstr ""
 
 #: ../../felupe/docs/howto/umat.rst:4
@@ -1398,7 +1421,7 @@ msgid ":func:`~felupe.linear_elastic_viscoelastic`"
 msgstr ""
 
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:2
-msgid "Isotropic Hyperelastic Materials"
+msgid "Define Isotropic Hyperelastic Materials"
 msgstr ""
 
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:4

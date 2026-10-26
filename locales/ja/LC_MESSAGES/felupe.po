@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-25 00:16+0000\n"
+"POT-Creation-Date: 2026-10-26 00:15+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -990,7 +990,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region:92
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver:30
+#: of felupe.solve._superlu.SuperLUSolver:45
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
 #: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
@@ -1684,7 +1684,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/region/_templates.pydocstring
 #: of felupe.region._templates.RegionTriangleMINI:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver:53
+#: of felupe.solve._superlu.SuperLUSolver:101
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
 #: of felupe.thermal._solidbody_heat_flux.SolidBodyHeatFlux:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_surface_heat_transfer.pydocstring
@@ -29577,11 +29577,13 @@ msgid ""
 "The threshold for the partial pivoting in the range ``[0, 1]``. The diagonal"
 " entry is taken as pivot if its absolute value is at least the threshold "
 "times the largest absolute value of its column (0 takes the diagonal entry, "
-"1 is the classical partial pivoting). Default is 0.1."
+"1 is the classical partial pivoting). Default is 0.0, i.e. no pivoting. A "
+"solution with a backward error above the tolerance is obtained again by a "
+"second factorization with the pivot threshold ``fallback_pivot_thresh``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver:16
+#: of felupe.solve._superlu.SuperLUSolver:18
 msgid ""
 "A flag to use the symmetric mode of SuperLU, i.e. diagonal pivots are "
 "preferred and the elimination tree is based on the structure of "
@@ -29590,24 +29592,49 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver:21
+#: of felupe.solve._superlu.SuperLUSolver:23
 msgid "The relaxation parameter of the supernodes. Default is 20."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver:23
+#: of felupe.solve._superlu.SuperLUSolver:25
 msgid "The size of the panels. Default is 20."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver:25
+#: of felupe.solve._superlu.SuperLUSolver:27
 msgid ""
 "Additional options of SuperLU, see :func:`scipy.sparse.linalg.splu`. Default"
 " is None."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver:31
+#: of felupe.solve._superlu.SuperLUSolver:30
+msgid ""
+"A flag to improve the solution by one step of iterative refinement, which "
+"re-uses the factors of the matrix. Default is True."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:33
+msgid ""
+"The tolerance of the normwise backward error of the solution. If None, the "
+"square root of the machine epsilon of the lowest precision of the matrix and"
+" the right-hand side is used, e.g. about 1.5e-8 for double precision. "
+"Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:38
+msgid ""
+"The pivot threshold of a second factorization of the matrix, which is used "
+"if the backward error of the solution exceeds the tolerance or if the first "
+"factorization fails. If None, the matrix is factorized only once and the "
+"backward error is not evaluated. Default is 0.1."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:46
 msgid ""
 "The default options are chosen for (structurally) symmetric matrices of the "
 "finite element method, also for matrices with non-symmetric values, e.g. of "
@@ -29616,14 +29643,62 @@ msgid ""
 "required. Compared to :func:`scipy.sparse.linalg.spsolve`, the factorization"
 " is faster by a factor of about two for meshes with hexahedrons and by a "
 "factor of about 1.5 for meshes with quads. The fill-in of the factors, i.e. "
-"the required memory, is lower. A pivot threshold of "
-"``diag_pivot_thresh=0.1`` avoids pivoting by the large off-diagonal entries "
-"of penalty-based items, e.g. of a :class:`~felupe.MultiPointConstraint` or "
-"of a :class:`~felupe.ContactRigidPlane`, which would increase the fill-in."
+"the required memory, is lower."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver:42
+#: of felupe.solve._superlu.SuperLUSolver:54
+msgid ""
+"By default, the diagonal entries are taken as pivots "
+"(``diag_pivot_thresh=0.0``), i.e. the fill-reducing ordering of the columns "
+"is kept. Neither the large off-diagonal entries of penalty-based items, e.g."
+" of a :class:`~felupe.MultiPointConstraint` or of a "
+":class:`~felupe.ContactRigidPlane`, nor the zero diagonal entries of saddle "
+"point problems, e.g. of the pressure field of "
+":class:`~felupe.ThreeFieldVariation`, lead to pivoting, which would increase"
+" the fill-in and the time of the factorization by orders of magnitude."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:62
+msgid ""
+"Without pivoting, the factorization is not guaranteed to be stable. Hence, "
+"the normwise backward error of the solution is evaluated, see Eq. "
+":eq:`superlu-backward-error`, which requires one sparse matrix-vector "
+"product and which does not depend on the condition number of the matrix."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:67
+msgid ""
+"\\eta = \\frac{\n"
+"    \\| \\boldsymbol{b} - \\boldsymbol{A}\\ \\boldsymbol{x} \\|_\\infty\n"
+"}{\n"
+"    \\| \\boldsymbol{A} \\|_\\infty\\ \\| \\boldsymbol{x} \\|_\\infty\n"
+"    + \\| \\boldsymbol{b} \\|_\\infty\n"
+"}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:77
+msgid ""
+"If the backward error exceeds the tolerance, or if the first factorization "
+"fails, the matrix is factorized again with the pivot threshold "
+"``fallback_pivot_thresh``. Before the evaluation of the backward error, the "
+"solution is improved by one step of iterative refinement (``refine=True``), "
+"see Eq. :eq:`superlu-refinement`. It re-uses the factors of the matrix, i.e."
+" it requires only a forward and a backward substitution."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:84
+msgid ""
+"\\boldsymbol{x} \\leftarrow \\boldsymbol{x} + (\\boldsymbol{L}\\boldsymbol{U})^{-1}\n"
+"    \\left( \\boldsymbol{b} - \\boldsymbol{A}\\ \\boldsymbol{x} \\right)"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver:90
 msgid ""
 "The solution has the same shape as :func:`scipy.sparse.linalg.spsolve`, i.e."
 " a one-dimensional array for a right-hand side with the shape ``(n,)`` or "
@@ -29633,7 +29708,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver:48
+#: of felupe.solve._superlu.SuperLUSolver:96
 msgid ""
 "Like :func:`scipy.sparse.linalg.spsolve`, an exactly singular matrix emits a"
 " :class:`~scipy.sparse.linalg.MatrixRankWarning` and returns NaN values, "
@@ -29642,29 +29717,29 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver:74
+#: of felupe.solve._superlu.SuperLUSolver:123
 msgid ""
 "The previous default solver of FElupe is "
 ":func:`scipy.sparse.linalg.spsolve`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver:82
+#: of felupe.solve._superlu.SuperLUSolver:131
 msgid ":py:obj:`scipy.sparse.linalg.splu`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver:83
+#: of felupe.solve._superlu.SuperLUSolver:132
 msgid "Compute the LU decomposition of a sparse, square matrix."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver:85
+#: of felupe.solve._superlu.SuperLUSolver:134
 msgid ":py:obj:`scipy.sparse.linalg.spsolve`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver:86
+#: of felupe.solve._superlu.SuperLUSolver:135
 msgid "Solve the sparse linear system Ax=b."
 msgstr ""
 
@@ -29704,7 +29779,14 @@ msgid "The sparse square matrix (converted to CSC format)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver.factorize:7
+#: of felupe.solve._superlu.SuperLUSolver.factorize:6
+msgid ""
+"The threshold for the partial pivoting. If None, the pivot threshold of the "
+"solver is used. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver.factorize:10
 msgid "The LU decomposition with the method ``solve(b)``."
 msgstr ""
 
