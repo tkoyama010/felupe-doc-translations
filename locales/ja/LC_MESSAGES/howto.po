@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-26 00:15+0000\n"
+"POT-Creation-Date: 2026-10-30 00:12+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -29,15 +29,15 @@ msgstr ""
 msgid "Define Materials"
 msgstr ""
 
-#: ../../felupe/docs/howto.rst:23
+#: ../../felupe/docs/howto.rst:24
 msgid "Evaluate a Job"
 msgstr ""
 
-#: ../../felupe/docs/howto.rst:31
+#: ../../felupe/docs/howto.rst:32
 msgid "Process Results"
 msgstr ""
 
-#: ../../felupe/docs/howto.rst:38
+#: ../../felupe/docs/howto.rst:39
 msgid "Extend FElupe"
 msgstr ""
 
@@ -1036,14 +1036,16 @@ msgid ""
 "of the items are restored and the substep is subdivided into smaller "
 "increments. Custom items with a state, which is modified during the Newton "
 "iterations, have to provide the methods ``checkpoint()`` and "
-"``restore(checkpoint)``, see :class:`~felupe.mechanics.Item`."
-msgstr ""
-
-#: ../../felupe/docs/howto/plugins.rst:165
-msgid "Combine Plugins"
+"``restore(checkpoint)``, see :class:`~felupe.mechanics.Item`. The time of a "
+":class:`~felupe.TimeStep` is interpolated, i.e. each increment of a time-"
+"dependent material takes its own time increment, see :doc:`umat_time`."
 msgstr ""
 
 #: ../../felupe/docs/howto/plugins.rst:167
+msgid "Combine Plugins"
+msgstr ""
+
+#: ../../felupe/docs/howto/plugins.rst:169
 msgid ""
 "Plugins may be combined. The hooks of the plugins are called in the order of"
 " the list, followed by the plugins of :meth:`~felupe.Job.evaluate` (the "
@@ -1053,18 +1055,18 @@ msgid ""
 "characteristic curve, are called only once per substep."
 msgstr ""
 
-#: ../../felupe/docs/howto/plugins.rst:186
+#: ../../felupe/docs/howto/plugins.rst:188
 msgid ""
 "List a :class:`~felupe.DashboardWidgetPlugin` before a "
 ":class:`~felupe.CutbackPlugin` to show the error messages of failed "
 "attempts."
 msgstr ""
 
-#: ../../felupe/docs/howto/plugins.rst:190
+#: ../../felupe/docs/howto/plugins.rst:192
 msgid "Custom Plugins"
 msgstr ""
 
-#: ../../felupe/docs/howto/plugins.rst:192
+#: ../../felupe/docs/howto/plugins.rst:194
 msgid ""
 "A custom plugin is a subclass of :class:`~felupe.Plugin`. All hooks are "
 "optional, i.e. only the required hooks have to be implemented. Each hook "
@@ -1075,14 +1077,14 @@ msgid ""
 " are called in the following order."
 msgstr ""
 
-#: ../../felupe/docs/howto/plugins.rst:215
+#: ../../felupe/docs/howto/plugins.rst:217
 msgid ""
 "This plugin counts the Newton-Raphson iterations, including the iterations "
 "of failed attempts of a :class:`~felupe.CutbackPlugin`. The hook "
 "``after_job`` is also called if the evaluation of the job fails."
 msgstr ""
 
-#: ../../felupe/docs/howto/plugins.rst:239
+#: ../../felupe/docs/howto/plugins.rst:241
 msgid ""
 "The hooks of the Newton-Raphson method are also called by "
 ":func:`~felupe.newtonraphson`, i.e. the same plugin may be passed to "
@@ -1090,13 +1092,13 @@ msgid ""
 "job, the steps and the substeps are only called by a job."
 msgstr ""
 
-#: ../../felupe/docs/howto/plugins.rst:244
+#: ../../felupe/docs/howto/plugins.rst:246
 msgid ""
 "A callable, e.g. a function ``plugin(context, state)``, is a simple plugin "
 "which is called after each completed substep."
 msgstr ""
 
-#: ../../felupe/docs/howto/plugins.rst:258
+#: ../../felupe/docs/howto/plugins.rst:260
 msgid ""
 "Plugins may also change the evaluation. In the hook ``after_linear_solve``, "
 "the update of the unknowns may be modified, see "
@@ -1106,7 +1108,7 @@ msgid ""
 " implemented by these hooks."
 msgstr ""
 
-#: ../../felupe/docs/howto/plugins.rst:266
+#: ../../felupe/docs/howto/plugins.rst:268
 msgid ""
 "Plugins replace the callbacks of a :class:`~felupe.Job` and of "
 ":func:`~felupe.newtonraphson` (removed in v12.0.0). The migration is shown "
@@ -1420,6 +1422,12 @@ msgstr ":func:`~felupe.linear_elastic_plastic_isotropic_hardening`"
 msgid ":func:`~felupe.linear_elastic_viscoelastic`"
 msgstr ""
 
+#: ../../felupe/docs/howto/umat.rst:57
+msgid ""
+"The linear viscoelastic material is time-dependent, i.e. it takes the time "
+"increment as an input, see :doc:`umat_time`."
+msgstr ""
+
 #: ../../felupe/docs/howto/umat_hyperelasticity.rst:2
 msgid "Define Isotropic Hyperelastic Materials"
 msgstr ""
@@ -1484,5 +1492,162 @@ msgstr ""
 msgid ""
 "A complete list of all available model formulations is available in the "
 ":ref:`hyperelasticity <felupe-api-constitution-autodiff>` section of the API"
-" reference."
+" reference. A strain energy density function with an argument ``dtime``, "
+"e.g. "
+":func:`~felupe.constitution.tensortrax.models.hyperelastic.finite_strain_viscoelastic`,"
+" is time-dependent, see :doc:`umat_time`."
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:2
+msgid "Define Time-Dependent Materials"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:4
+msgid ""
+"A time-dependent material, e.g. a viscoelastic material, takes the time "
+"increment :math:`\\Delta t` as an input, like the deformation gradient. The "
+"time increment is not a material parameter, it is given by the time of the "
+"load path, e.g. by the ramp of a :class:`~felupe.Step`."
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:10
+msgid "Time-Dependent Materials"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:12
+msgid ""
+"A material with a given function, i.e. :class:`~felupe.Hyperelastic`, "
+":class:`~felupe.MaterialAD`, :class:`~felupe.Material`, "
+":class:`~felupe.MaterialStrain` or the materials of the JAX backend, is "
+"time-dependent if its function has an argument ``dtime`` without a default "
+"value, which is not given as keyword-argument of the material. Then, the "
+"attribute ``time_dependent`` is True and the time increment is given by the "
+"keyword-argument ``dtime`` of the methods ``gradient()`` and ``hessian()``."
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:33
+msgid ""
+"The built-in time-dependent materials are "
+":func:`~felupe.finite_strain_viscoelastic` for :class:`~felupe.Hyperelastic`"
+" and :func:`~felupe.linear_elastic_viscoelastic` for "
+":class:`~felupe.MaterialStrain`. Their initial state variables are zero. The"
+" materials which wrap other materials, e.g. "
+":class:`~felupe.NearlyIncompressible`, :class:`~felupe.ThreeFieldVariation` "
+"or a composite material ``umat & other_umat``, pass the time increment to "
+"their time-dependent materials."
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:49
+msgid ""
+"A time increment which is given as keyword-argument of the material, e.g. "
+"``Hyperelastic(finite_strain_viscoelastic, mu=1.0, eta=1.0, dtime=1.0, "
+"nstatevars=6)``, is a constant material parameter. Then, the material is not"
+" time-dependent. This is convenient for a load path with equal time "
+"increments, e.g. a quick plot of a force-stretch curve. However, a constant "
+"time increment"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:55
+msgid ""
+"is the same for all substeps, i.e. there are no holding times or varying "
+"rates,"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:56
+msgid ""
+"is not scaled by a :class:`~felupe.CutbackPlugin`, i.e. each increment of a "
+"subdivided substep takes the full time increment (with a warning) and"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:58
+msgid "is not optimized by :meth:`~felupe.ConstitutiveMaterial.optimize`."
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:61
+msgid "Time Steps"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:63
+msgid ""
+"A solid body, i.e. :class:`~felupe.SolidBody`, "
+":class:`~felupe.SolidBodyNearlyIncompressible` or "
+":class:`~felupe.TrussBody`, passes its time increment ``time_step`` to its "
+"time-dependent material. The time increment is updated by a "
+":class:`~felupe.TimeStep`. Its (absolute) time is ramped in a "
+":class:`~felupe.Step`, like the boundary conditions. The time increment of a"
+" substep is the difference to the time of the previous substep, the initial "
+"time is zero. Hence, the first substep of a ramp which starts at zero has a "
+"time increment of zero, which is handled by the time-dependent materials (no"
+" evolution)."
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:105
+msgid ""
+"The same time step item is used in all steps, i.e. the time continues. The "
+"position of the time step item in the list of items of a step doesn't "
+"matter, because all ramped items are updated before the iterations of a "
+"substep. If a substep is subdivided by a :class:`~felupe.CutbackPlugin`, the"
+" time is interpolated like the other values of the ramp, i.e. each increment"
+" of the substep takes its own time increment. The (absolute) time is written"
+" as the time of a XDMF result file by "
+"``job.evaluate(filename=\"result.xdmf\", time=time)``."
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:114
+msgid "Force-Stretch Curves and Material Parameters"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:116
+msgid ""
+"The force-stretch curves of a time-dependent material, e.g. by ``plot()``, "
+"require the (absolute) times of the load cases. They are given as second row"
+" of a load case, e.g. ``ux=[stretches, times]``. Each load case starts at "
+"the initial time zero. A holding time is given by repeated stretches."
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:128
+msgid ""
+"The material parameters of a time-dependent material are fitted to "
+"experimental data with the times of the data points as third row, e.g. "
+"``ux=[stretches, forces, times]``. The time increment is not a material "
+"parameter, i.e. it is not fitted."
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:137
+msgid "Custom Time-Dependent Materials"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:139
+msgid ""
+"The function of a custom material takes the time increment as argument "
+"``dtime`` (without a default value), e.g. a strain energy density function "
+"of :class:`~felupe.Hyperelastic`. A time increment of zero has to be "
+"supported, e.g. for the first substep of a ramp which starts at zero."
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:154
+msgid ""
+"A subclass of :class:`~felupe.ConstitutiveMaterial` is time-dependent by the"
+" class attribute ``time_dependent = True``. Its methods ``_gradient(x, "
+"dtime)`` and ``_hessian(x, dtime)`` take the time increment, which is the "
+"same for all chunks of cells."
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:178
+msgid ""
+"Materials of other packages, which are not derived from "
+":class:`~felupe.ConstitutiveMaterial`, are time-dependent if they have an "
+"attribute ``time_dependent`` which is True. Then, their methods "
+"``gradient(x, dtime)`` and ``hessian(x, dtime)`` take the time increment as "
+"keyword-argument ``dtime``."
+msgstr ""
+
+#: ../../felupe/docs/howto/umat_time.rst:185
+msgid ""
+"The materials of the JAX backend are just-in-time compiled, i.e. the time "
+"increment is a traced value. Instead of a Python condition, e.g. ``if dtime "
+"> 0``, use :func:`jax.numpy.where`, see "
+":class:`felupe.constitution.jax.Hyperelastic`. The time increment is passed "
+"as an array of data type float, i.e. the compiled functions are re-used for "
+"all time increments."
 msgstr ""
