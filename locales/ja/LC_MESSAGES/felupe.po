@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-30 00:12+0000\n"
+"POT-Creation-Date: 2026-10-31 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -232,7 +232,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/quadrature.rst:32
 #: ../../felupe/docs/felupe/region.rst:39
 #: ../../felupe/docs/felupe/thermal.rst:28
-#: ../../felupe/docs/felupe/tools.rst:50 ../../felupe/docs/felupe/view.rst:33
+#: ../../felupe/docs/felupe/tools.rst:50 ../../felupe/docs/felupe/view.rst:34
 msgid "**Detailed API Reference**"
 msgstr ""
 
@@ -676,7 +676,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:29
+#: of felupe.constitution.strain._material_strain.MaterialStrain:43
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
 #: of felupe.constitution.strain.models._linear_elastic.linear_elastic:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
@@ -688,7 +688,7 @@ msgstr ""
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:36
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:40
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.is_stable:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
@@ -1026,6 +1026,8 @@ msgstr ""
 #: of felupe.view._backends._matplotlib.MatplotlibPlotter:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
 #: of felupe.view._backends._registry.set_plotting_backend:13
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:30
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
 #: of felupe.view._mesh_select_edge_points.select_edge_points:43
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
@@ -1254,7 +1256,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:103
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:94
+#: of felupe.constitution.strain._material_strain.MaterialStrain:232
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
 #: of felupe.constitution.strain.models._linear_elastic.linear_elastic:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
@@ -1266,7 +1268,7 @@ msgstr ""
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:91
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:98
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:102
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.is_stable:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
@@ -1636,7 +1638,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
 #: of felupe.plugins._dashboard._plugin.DashboardWidgetPlugin.snapshot:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
-#: of felupe.plugins._linesearch.LinesearchPlugin:120
+#: of felupe.plugins._linesearch.LinesearchPlugin:121
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.pydocstring
 #: of felupe.quadrature._gauss_legendre.GaussLegendre:25
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/quadrature/_gauss_legendre.pydocstring
@@ -1714,6 +1716,8 @@ msgstr ""
 #: of felupe.view._backends._matplotlib.MatplotlibPlotter:65
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
 #: of felupe.view._backends._registry.set_plotting_backend:50
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:45
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
 #: of felupe.view._field.ViewField:60
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
@@ -1852,7 +1856,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
 #: of felupe.assembly._integral.IntegralForm:162
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_item.pydocstring
-#: of felupe.mechanics._item.FormItem:159
+#: of felupe.mechanics._item.FormItem:157
 msgid ":py:obj:`felupe.Form`"
 msgstr ""
 
@@ -2600,6 +2604,8 @@ msgstr ""
 #: of felupe.view._backends._base.PlottingBackend:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
 #: of felupe.view._backends._matplotlib.MatplotlibPlotter:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
 #: of felupe.view._field.ViewField:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
@@ -2784,6 +2790,8 @@ msgstr ""
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:143
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:143
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:335
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.optimize:143
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
@@ -2970,12 +2978,12 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_item.pydocstring
-#: of felupe.mechanics._item.FormItem:160
+#: of felupe.mechanics._item.FormItem:158
 msgid "A function decorator for a linear- or bilinear-form object."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_item.pydocstring
-#: of felupe.mechanics._item.FormItem:162
+#: of felupe.mechanics._item.FormItem:160
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_protocol.pydocstring
 #: of felupe.mechanics._protocol.Item:88
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
@@ -2988,7 +2996,7 @@ msgid ":py:obj:`felupe.Step`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_item.pydocstring
-#: of felupe.mechanics._item.FormItem:163
+#: of felupe.mechanics._item.FormItem:161
 msgid "A Step with multiple substeps."
 msgstr ""
 
@@ -6080,7 +6088,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
-#: of felupe.constitution._material.Material:276
+#: of felupe.constitution._material.Material:274
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
 #: of
 #: felupe.constitution.linear_elasticity._linear_elastic_large_strain.LinearElasticLargeStrain:11
@@ -6089,7 +6097,7 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:41:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
-#: of felupe.constitution._material.Material:277
+#: of felupe.constitution._material.Material:275
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
 #: of felupe.constitution.hyperelasticity._volumetric.Volumetric:29
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric_strain_energy.pydocstring
@@ -9270,9 +9278,9 @@ msgstr ""
 
 #: ../../felupe/docs/felupe/constitution/core.rst:33:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:169
+#: of felupe.constitution.strain._material_strain.MaterialStrain:329
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:172
+#: of felupe.constitution.strain._material_strain.MaterialStrain:332
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.LinearElasticPlasticIsotropicHardening:1
@@ -9387,7 +9395,7 @@ msgstr ""
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:111
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:138
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:142
 msgid ""
 "A strain-based user-defined material definition with a given function for "
 "the stress tensor and the (fourth-order) elasticity tensor."
@@ -9902,7 +9910,7 @@ msgstr ""
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:26
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:30
 msgid ""
 "Additional keyword arguments.  tangent : bool     A flag to evaluate the "
 "elasticity tensor."
@@ -9915,7 +9923,7 @@ msgstr ""
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:26
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:30
 msgid "Additional keyword arguments."
 msgstr ""
 
@@ -9926,7 +9934,7 @@ msgstr ""
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:28
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:32
 msgid "tangent"
 msgstr ""
 
@@ -9942,6 +9950,8 @@ msgstr ""
 #: of felupe.view._backends._matplotlib.MatplotlibPlotter:38
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
 #: of felupe.view._backends._matplotlib.MatplotlibPlotter:52
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:27
 msgid "bool"
 msgstr ""
 
@@ -9952,7 +9962,7 @@ msgstr ""
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:29
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:33
 msgid "A flag to evaluate the elasticity tensor."
 msgstr ""
 
@@ -9960,7 +9970,7 @@ msgstr ""
 #: of felupe.constitution.strain.models._linear_elastic.linear_elastic:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:31
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:35
 msgid ""
 "* **dσdε** (*ndarray*) -- Elasticity tensor. * **σ** (*ndarray*) -- (New) "
 "stress tensor. * **ζ** (*list*) -- List of new state variables."
@@ -9970,7 +9980,7 @@ msgstr ""
 #: of felupe.constitution.strain.models._linear_elastic.linear_elastic:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:31
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:35
 msgid "**dσdε** (*ndarray*) -- Elasticity tensor."
 msgstr ""
 
@@ -9981,7 +9991,7 @@ msgstr ""
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:32
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:36
 msgid "**σ** (*ndarray*) -- (New) stress tensor."
 msgstr ""
 
@@ -9992,7 +10002,7 @@ msgstr ""
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:33
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:37
 msgid "**ζ** (*list*) -- List of new state variables."
 msgstr ""
 
@@ -10043,7 +10053,7 @@ msgstr ""
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:110
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:137
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:141
 msgid ":py:obj:`MaterialStrain`"
 msgstr ""
 
@@ -10065,14 +10075,36 @@ msgstr ""
 msgid ""
 "Time increment :math:`\\Delta t`. If it is not given as material parameter "
 "of :class:`~felupe.MaterialStrain`, the material is time-dependent, i.e. the"
-" time increment is an input of the material, see the examples. The former "
-"name of this argument, ``Δt``, is still supported as material parameter of "
-":class:`~felupe.MaterialStrain`."
+" time increment is an input of the material, see the examples.  ..  "
+"deprecated:: 12.0.0     The former name of this argument, ``Δt``, is still "
+"taken as material     parameter ``dtime`` by "
+":class:`~felupe.MaterialStrain`, but it emits a     "
+":class:`DeprecationWarning`. It will be removed in 13.0.0. Use     "
+"``dtime=0.5`` instead of ``Δt=0.5``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:37
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:20
+msgid ""
+"Time increment :math:`\\Delta t`. If it is not given as material parameter "
+"of :class:`~felupe.MaterialStrain`, the material is time-dependent, i.e. the"
+" time increment is an input of the material, see the examples."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
+#: of
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:24
+msgid ""
+"The former name of this argument, ``Δt``, is still taken as material "
+"parameter ``dtime`` by :class:`~felupe.MaterialStrain`, but it emits a "
+":class:`DeprecationWarning`. It will be removed in 13.0.0. Use ``dtime=0.5``"
+" instead of ``Δt=0.5``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
+#: of
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:41
 msgid ""
 "The stress consists of a long-term elastic and a deviatoric viscoelastic "
 "stress part, see Eq. :eq:`total-stress`."
@@ -10080,19 +10112,19 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:40
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:44
 msgid "\\boldsymbol{\\sigma} = \\boldsymbol{\\sigma}_e + \\boldsymbol{\\sigma}_v"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:45
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:49
 msgid "The long-term elastic part is given in Eq. :eq:`elastic-stress`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:47
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:51
 msgid ""
 "\\boldsymbol{\\sigma}_e = 2 \\mu\\ \\boldsymbol{\\varepsilon}\n"
 "    + \\lambda \\operatorname{tr}(\\boldsymbol{\\varepsilon}) \\boldsymbol{1}"
@@ -10100,13 +10132,13 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:53
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:57
 msgid "The i-th viscous part is given in Eq. :eq:`visco-stress`,"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:55
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:59
 msgid ""
 "\\dot{\\boldsymbol{\\sigma}}_{v,i}\n"
 "    + \\frac{1}{\\tau_i} \\boldsymbol{\\sigma}_{v,i} &=\n"
@@ -10120,13 +10152,13 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:67
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:71
 msgid "with the coefficients as denoted in Eq. :eq:`visco-coeff`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:69
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:73
 msgid ""
 "a_i &= \\exp \\left( -\\Delta t / \\tau_i \\right)\n"
 "\n"
@@ -10135,7 +10167,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:76
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:80
 msgid ""
 "For a time increment of zero, there is no relaxation (:math:`a_i = 1`) and "
 "the viscoelastic parts respond with their (instantaneous) shear moduli, i.e."
@@ -10145,7 +10177,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:80
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:84
 msgid ""
 "The total fourth-order elasticity tensor is given in Eq. :eq:`fourth-order-"
 "visco`."
@@ -10153,7 +10185,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:82
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:86
 msgid ""
 "\\mathbb{C} = 2 \\bar{\\mu} \\ \\boldsymbol{1} \\odot \\boldsymbol{1} +\n"
 "        \\bar{\\lambda}\\ \\boldsymbol{1} \\otimes \\boldsymbol{1}"
@@ -10161,14 +10193,14 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:88
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:92
 msgid ""
 "The effective coefficients are summarized in Eq. :eq:`visco-coeff-tangent`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:90
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:94
 msgid ""
 "\\bar{\\mu} &= \\mu + \\sum_{i=1}^N \\frac{b_i}{2}\n"
 "\n"
@@ -10177,7 +10209,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:99
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:103
 msgid ""
 "The material is time-dependent, i.e. the time increment is an input of the "
 "material, like the deformation gradient. The load case of the force-stretch "
@@ -10187,7 +10219,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:121
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:125
 msgid ""
 "The time increment is given by the keyword-argument ``dtime`` of the methods"
 " ``gradient()`` and ``hessian()``, e.g. by the time increment of a solid "
@@ -10196,7 +10228,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
 #: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:132
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:136
 msgid ""
 "A time increment which is given as material parameter, e.g. ``dtime=5.0``, "
 "is a constant material parameter."
@@ -10566,7 +10598,7 @@ msgid "In-plane components of elasticity tensor (2x2x2x2)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:168
+#: of felupe.constitution.strain._material_strain.MaterialStrain:328
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
 #: of
 #: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.LinearElasticPlasticIsotropicHardening:18
@@ -10637,12 +10669,12 @@ msgstr ""
 #: of felupe.constitution.strain._material_strain.MaterialStrain:17
 msgid ""
 "The framework to be used for the stress and strain formulations. \"small-"
-"strain\", \"total-lagrange\" and \"co-rotational\" are supported. Default is"
-" \"small-strain\"."
+"strain\", \"total-lagrange\", \"co-rotational\" and \"seth-hill\" are "
+"supported. Default is \"small-strain\"."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:20
+#: of felupe.constitution.strain._material_strain.MaterialStrain:21
 msgid ""
 "Take the symmetric part of the returned stress and the minor symmetric-parts"
 " of the algorithmic consistent elasticity tensor. Default is True. May "
@@ -10650,14 +10682,48 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:24
+#: of felupe.constitution.strain._material_strain.MaterialStrain:25
+msgid ""
+"The strain exponent :math:`m` of the Seth-Hill strain tensors, which is "
+"required for (and only allowed with) the Seth-Hill framework, e.g. 0 for the"
+" logarithmic (Hencky) strain tensor. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:29
+msgid ""
+"Optional keyword-arguments (the material parameters) for the material model "
+"formulation.  ..  deprecated:: 12.0.0     The material parameter ``Δt``, the"
+" former name of the time increment of     "
+":func:`~felupe.linear_elastic_viscoelastic`, is still taken as ``dtime``"
+"     (for a material model formulation with an argument ``dtime`` and "
+"without     an argument ``Δt``), but it emits a :class:`DeprecationWarning`."
+" It will be     removed in 13.0.0. Use ``dtime`` instead, e.g.     "
+"``MaterialStrain(linear_elastic_viscoelastic, ..., dtime=0.5)`` instead of"
+"     ``MaterialStrain(linear_elastic_viscoelastic, ..., Δt=0.5)``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:29
 msgid ""
 "Optional keyword-arguments (the material parameters) for the material model "
 "formulation."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:30
+#: of felupe.constitution.strain._material_strain.MaterialStrain:32
+msgid ""
+"The material parameter ``Δt``, the former name of the time increment of "
+":func:`~felupe.linear_elastic_viscoelastic`, is still taken as ``dtime`` "
+"(for a material model formulation with an argument ``dtime`` and without an "
+"argument ``Δt``), but it emits a :class:`DeprecationWarning`. It will be "
+"removed in 13.0.0. Use ``dtime`` instead, e.g. "
+"``MaterialStrain(linear_elastic_viscoelastic, ..., dtime=0.5)`` instead of "
+"``MaterialStrain(linear_elastic_viscoelastic, ..., Δt=0.5)``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:44
 msgid ""
 "**Time-dependent materials**: If the material model formulation has an "
 "argument ``dtime`` without a default value, which is not given as keyword-"
@@ -10667,47 +10733,44 @@ msgid ""
 "it is given by the keyword-argument ``dtime`` of :meth:`gradient` and "
 ":meth:`hessian` and it is passed to the material model formulation. A time "
 "increment which is given as keyword-argument is a constant material "
-"parameter. The former name of the time increment of "
-":func:`~felupe.linear_elastic_viscoelastic`, ``Δt``, is taken as the "
-"material parameter ``dtime`` of a material model formulation with an "
-"argument ``dtime`` (and without an argument ``Δt``)."
+"parameter."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:42
+#: of felupe.constitution.strain._material_strain.MaterialStrain:53
 msgid ""
 "The (default) small-strain framework evaluates the strain tensor as the "
 "symmetric part of the displacement gradient, see Eq. :eq:`small-strain`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:45
+#: of felupe.constitution.strain._material_strain.MaterialStrain:56
 msgid ""
 "\\boldsymbol{\\varepsilon} = \\operatorname{sym} \\left(\n"
 "    \\frac{\\partial \\boldsymbol{u}}{\\partial \\boldsymbol{x}} \\right)"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:51
+#: of felupe.constitution.strain._material_strain.MaterialStrain:62
 msgid ""
 "The Total-Lagrange framework uses the Green-Lagrange strain, see Eq. "
 ":eq:`gl-strain`,"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:54
+#: of felupe.constitution.strain._material_strain.MaterialStrain:65
 msgid "\\boldsymbol{E} = \\frac{1}{2} \\left( \\boldsymbol{C} - \\boldsymbol{1} \\right)"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:59
+#: of felupe.constitution.strain._material_strain.MaterialStrain:70
 msgid ""
 "with the right Cauchy-Green deformation tensor, as denoted in Eq. "
 ":eq:`right-cauchy-green-deformation`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:62
+#: of felupe.constitution.strain._material_strain.MaterialStrain:73
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
 #: of felupe.field._base.Field:53
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -10716,7 +10779,7 @@ msgid "\\boldsymbol{C} = \\boldsymbol{F}^T \\boldsymbol{F}"
 msgstr "\\boldsymbol{C} = \\boldsymbol{F}^T \\boldsymbol{F}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:67
+#: of felupe.constitution.strain._material_strain.MaterialStrain:78
 msgid ""
 "Within the Total-Lagrange framework, the second Piola-Kirchhoff stress "
 "tensor :math:`\\boldsymbol{S}`, as a function of the Green-Lagrange strain "
@@ -10725,12 +10788,12 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:72
+#: of felupe.constitution.strain._material_strain.MaterialStrain:83
 msgid "\\boldsymbol{P} = \\boldsymbol{F}\\ \\boldsymbol{S}"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:77
+#: of felupe.constitution.strain._material_strain.MaterialStrain:88
 msgid ""
 "Furthermore, the fourth-order material elasticity tensor in the Total-"
 "Lagrange framework is also converted for algorithmic consistency, see Eq. "
@@ -10738,50 +10801,235 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:81
+#: of felupe.constitution.strain._material_strain.MaterialStrain:92
 msgid ""
 "\\mathbb{A}_{iJkL} = F_{iI}\\ F_{kK}\\ \\mathbb{C}_{IJKL}\n"
 "    + \\delta_{ik}\\ S_{JL}"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:89
+#: of felupe.constitution.strain._material_strain.MaterialStrain:98
 msgid ""
-"The implementation of the co-rotational framework is experimental. The "
-"fourth- order elasticity tensor is an approximation and hence, Newton's "
-"method does not converge quadratically."
+"The Seth-Hill framework uses the generalized strain tensors of the Seth-Hill"
+" family with the strain exponent :math:`m` (the argument "
+"``strain_exponent``), in the notation of Miehe and Lambrecht [1]_. They are "
+"evaluated by the eigenvalues :math:`\\lambda_a` (the squares of the "
+"principal stretches) and the eigenvalue bases :math:`\\boldsymbol{M}_a = "
+"\\boldsymbol{n}_a \\otimes \\boldsymbol{n}_a` of the right Cauchy-Green "
+"deformation tensor, see Eq. :eq:`seth-hill-strain`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:95
+#: of felupe.constitution.strain._material_strain.MaterialStrain:105
+msgid ""
+"\\boldsymbol{C} = \\sum_{a=1}^3 \\lambda_a\\ \\boldsymbol{M}_a\n"
+"\\qquad\n"
+"\\boldsymbol{E} = \\sum_{a=1}^3 e_a\\ \\boldsymbol{M}_a\n"
+"\\qquad\n"
+"e_a = \\begin{cases}\n"
+"    \\frac{1}{m} \\left( \\lambda_a^{m/2} - 1 \\right) & m \\neq 0 \\\\\n"
+"    \\frac{1}{2} \\ln \\lambda_a & m = 0\n"
+"\\end{cases}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:117
+msgid ""
+"The particular choices :math:`m = 0, 1, 2` define the Hencky strain, the "
+"Biot strain and the Green strain. The stress tensor :math:`\\boldsymbol{T} ="
+" \\partial_{ \\boldsymbol{E}} \\hat{\\psi}` and the elasticity tensor "
+":math:`\\mathbb{E} = \\partial^2_{\\boldsymbol{E}\\boldsymbol{E}} "
+"\\hat{\\psi}` of the material are dual to the Seth-Hill strain tensor. They "
+"are converted to the second Piola-Kirchhoff stress tensor and to the "
+"elasticity tensor of the Total-Lagrange framework by the projection tensors "
+":math:`\\mathbb{P} = 2\\ \\partial_{\\boldsymbol{C}} \\boldsymbol{E}` and "
+":math:`\\mathbb{L} = 4\\ \\partial^2_{\\boldsymbol{C}\\boldsymbol{C}} "
+"\\boldsymbol{E}`, see Eq. :eq:`seth-hill-stress`, which are further "
+"converted by Eq. :eq:`pk1-stress` and Eq. :eq:`pk1-elasticity`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:128
+msgid ""
+"\\boldsymbol{S} = \\boldsymbol{T} : \\mathbb{P}\n"
+"\\qquad\n"
+"\\mathbb{C} = \\mathbb{P} : \\mathbb{E} : \\mathbb{P} + \\boldsymbol{T} : \\mathbb{L}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:135
+msgid ""
+"The spectral representations of the projection tensors are given in Eq. "
+":eq:`seth-hill-projection` with the tensor operators "
+":math:`\\mathbb{G}^{ijkl}_{ab} = M_a^{ik} M_b^{jl} + M_a^{il} M_b^{jk}` and "
+":math:`\\mathbb{F}^{ijkl}_{a(bc)} = M_a^{ik} (\\boldsymbol{M}_b "
+"\\boldsymbol{T} \\boldsymbol{M}_c)^{jl} + M_a^{il} (\\boldsymbol{M}_b "
+"\\boldsymbol{T} \\boldsymbol{M}_c)^{jk}` (and :math:`\\mathbb{F}_{(bc)a}` "
+"with interchanged arguments)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:142
+msgid ""
+"\\mathbb{P} &= \\sum_a^3 d_a\\ \\boldsymbol{M}_a \\otimes \\boldsymbol{M}_a\n"
+"    + \\sum_a^3 \\sum_{b \\neq a}^3 \\vartheta_{ab}\\ \\mathbb{G}_{ab}\n"
+"\n"
+"\\boldsymbol{T} : \\mathbb{L} &= \\sum_a^3 f_a\\ (\\boldsymbol{M}_a : \\boldsymbol{T})\n"
+"    \\ \\boldsymbol{M}_a \\otimes \\boldsymbol{M}_a\n"
+"    + \\sum_a^3 \\sum_{b \\neq a}^3 \\sum_{c \\neq a, c \\neq b}^3 2\\ \\eta \\left(\n"
+"        \\mathbb{F}_{a(bc)} + \\mathbb{F}_{(bc)a} \\right)\n"
+"\n"
+"    &+ \\sum_a^3 \\sum_{b \\neq a}^3 2\\ \\xi_{ab} \\left( \\mathbb{F}_{a(bb)}\n"
+"        + \\mathbb{F}_{(bb)a} + \\mathbb{F}_{b(ab)} + \\mathbb{F}_{(ab)b}\n"
+"        + \\mathbb{F}_{b(ba)} + \\mathbb{F}_{(ba)b} \\right)"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:157
+msgid "The coefficients are given in Eq. :eq:`seth-hill-coefficients`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:159
+msgid ""
+"d_a &= 2\\ \\partial_{\\lambda_a} e_a\n"
+"\\qquad\n"
+"f_a = 4\\ \\partial^2_{\\lambda_a \\lambda_a} e_a\n"
+"\n"
+"\\vartheta_{ab} &= \\frac{e_a - e_b}{\\lambda_a - \\lambda_b}\n"
+"\\qquad\n"
+"\\xi_{ab} = \\frac{\\vartheta_{ab} - \\frac{1}{2} d_b}{\\lambda_a - \\lambda_b}\n"
+"\\qquad\n"
+"\\eta = \\sum_a^3 \\sum_{b \\neq a}^3 \\sum_{c \\neq a, c \\neq b}^3\n"
+"    \\frac{e_a}{2 (\\lambda_a - \\lambda_b) (\\lambda_a - \\lambda_c)}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:173
+msgid ""
+"For two equal eigenvalues :math:`\\lambda_{\\bar{a}} = \\lambda_{\\bar{b}} "
+"\\neq \\lambda_{\\bar{c}}`, the coefficients approach the limits "
+":math:`\\vartheta_{\\bar{a}\\bar{b}} = \\frac{1}{2} d_{\\bar{a}}`, "
+":math:`\\xi_{\\bar{a}\\bar{b}} = \\frac{1}{8} f_{\\bar{a}}` and :math:`\\eta"
+" = \\xi_{\\bar{c}\\bar{a}}` and for three equal eigenvalues :math:`\\eta = "
+"\\frac{1}{8} f_{\\bar{a}}`. Here, instead of the case distinction of the "
+"limits, the coefficients are evaluated by Taylor series for (nearly) equal "
+"eigenvalues, i.e. if their relative difference is below :math:`10^{-3}`, "
+"which avoids the cancellation of the difference quotients. The projections "
+"are evaluated by their components in the eigenvalue bases, where the tensor "
+"operators have only a few non-zero components. With the components "
+":math:`\\hat{T}_{ab} = n^I_a\\ T_{IJ}\\ n^J_b` and "
+":math:`\\hat{\\mathbb{E}}_{abcd} = n^I_a\\ n^J_b\\ n^K_c\\ n^L_d\\ "
+"\\mathbb{E}_{IJKL}` of the stress and of the elasticity tensor of the "
+"material, :math:`\\vartheta_{aa} = \\frac{1}{2} d_a` and the abbreviations "
+"(not used in [1]_) :math:`\\zeta_{aaa} = \\frac{1}{8} f_a`, "
+":math:`\\zeta_{abb} = \\zeta_{bab} = \\zeta_{bba} = \\xi_{ab}` and "
+":math:`\\zeta_{abc} = \\eta` for distinct indices, Eq. :eq:`seth-hill-"
+"stress` is given by Eq. :eq:`seth-hill-eigenbasis` (without a summation over"
+" the indices of the eigenvalue bases)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:192
+msgid ""
+"\\hat{S}_{ab} &= 2\\ \\vartheta_{ab}\\ \\hat{T}_{ab}\n"
+"\n"
+"\\hat{\\mathbb{C}}_{abcd} &= 4\\ \\vartheta_{ab}\\ \\vartheta_{cd}\\\n"
+"    \\hat{\\mathbb{E}}_{abcd}\n"
+"    + 2\\ \\zeta_{abd} \\left( \\delta_{bc}\\ \\hat{T}_{ad}\n"
+"        + \\delta_{ac}\\ \\hat{T}_{bd} \\right)\n"
+"    + 2\\ \\zeta_{abc} \\left( \\delta_{bd}\\ \\hat{T}_{ac}\n"
+"        + \\delta_{ad}\\ \\hat{T}_{bc} \\right)"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:204
+msgid ""
+"The co-rotational framework is the Seth-Hill framework with the Biot strain "
+"tensor :math:`\\boldsymbol{E} = \\boldsymbol{U} - \\boldsymbol{1}` (:math:`m"
+" = 1`) with the right stretch tensor :math:`\\boldsymbol{U}` of the polar "
+"decomposition :math:`\\boldsymbol{F} = \\boldsymbol{R}\\ \\boldsymbol{U}`. "
+"Its stress tensor :math:`\\boldsymbol{T}` is the (symmetric) Biot stress "
+"tensor, i.e. :math:`\\boldsymbol{P} : \\delta \\boldsymbol{F} = "
+"\\boldsymbol{T} : \\delta \\boldsymbol{U}`, and :math:`\\vartheta_{ab} = 1 /"
+" (\\sqrt{\\lambda_a} + \\sqrt{\\lambda_b})`, i.e. the second Piola-Kirchhoff"
+" stress tensor is the solution of the Lyapunov equation, see Eq. "
+":eq:`corotational-lyapunov`. For a Biot stress tensor which is coaxial with "
+"the stretch tensor, e.g. of an isotropic elastic material, the first Piola-"
+"Kirchhoff stress tensor is :math:`\\boldsymbol{P} = \\boldsymbol{R} "
+"\\boldsymbol{T}`. The Total-Lagrange framework is the Seth-Hill framework "
+"with :math:`m = 2` (:math:`\\vartheta_{ab} = \\frac{1}{2}`, :math:`\\xi_{ab}"
+" = \\eta = 0`), which is evaluated without the eigenvalue decomposition."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:219
+msgid ""
+"\\boldsymbol{U}\\ \\boldsymbol{S} + \\boldsymbol{S}\\ \\boldsymbol{U}\n"
+"    = 2\\ \\boldsymbol{T}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:225
+msgid ""
+"The elasticity tensors of the frameworks are the exact linearizations of the"
+" first Piola-Kirchhoff stress tensors, i.e. Newton's method converges "
+"quadratically. The Cauchy stress tensors of the Total-Lagrange and of the "
+"Seth-Hill frameworks are symmetric. A symmetric elasticity tensor of the "
+"material leads to a symmetric elasticity tensor of the framework."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:233
 msgid "Take this code-block for a linear-elastic material formulation"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:138
+#: of felupe.constitution.strain._material_strain.MaterialStrain:276
 msgid "or this minimal header as template."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:148
+#: of felupe.constitution.strain._material_strain.MaterialStrain:286
 msgid ""
 "The Total-Lagrange framework changes the linear-elastic material formulation"
 " to the Saint-Venant Kirchhoff material model formulation."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:165
+#: of felupe.constitution.strain._material_strain.MaterialStrain:301
+msgid ""
+"The Seth-Hill framework with the logarithmic strain tensor (:math:`m = 0`) "
+"changes the linear-elastic material formulation to the Hencky material model"
+" formulation. In the same way, the linear-elastic-plastic material "
+"formulation is used in the logarithmic strain space, i.e. with an additive "
+"decomposition of the logarithmic strain tensor into elastic and plastic "
+"parts."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:325
 msgid ":py:obj:`linear_elastic`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:166
+#: of felupe.constitution.strain._material_strain.MaterialStrain:326
 msgid "3D linear-elastic material formulation"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution.strain._material_strain.MaterialStrain:171
+#: of felupe.constitution.strain._material_strain.MaterialStrain:331
 msgid ":py:obj:`LinearElasticPlasticIsotropicHardening`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution.strain._material_strain.MaterialStrain:336
+msgid ""
+"C. Miehe and M. Lambrecht, \"Algorithms for computation of stresses and "
+"elasticity moduli in terms of Seth-Hill's family of generalized strain "
+"tensors\", Communications in Numerical Methods in Engineering, vol. 17, no. "
+"5, pp. 337-353, 2001. doi: `10.1002/cnm.404 "
+"<https://doi.org/10.1002/cnm.404>`_."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
@@ -13006,11 +13254,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:195
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:163
+#: of felupe.dof._loadcase.biaxial:158
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.shear:88
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:86
+#: of felupe.dof._loadcase.uniaxial:84
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.apply:64
 msgid ":py:obj:`felupe.dof.partition`"
@@ -13019,11 +13267,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:196
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:164
+#: of felupe.dof._loadcase.biaxial:159
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.shear:89
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:87
+#: of felupe.dof._loadcase.uniaxial:85
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.apply:65
 msgid "Partition degrees of freedom into prescribed and active dof."
@@ -13032,11 +13280,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:198
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:166
+#: of felupe.dof._loadcase.biaxial:161
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.shear:91
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:89
+#: of felupe.dof._loadcase.uniaxial:87
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.partition:58
 msgid ":py:obj:`felupe.dof.apply`"
@@ -13045,11 +13293,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:199
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:167
+#: of felupe.dof._loadcase.biaxial:162
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.shear:92
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:90
+#: of felupe.dof._loadcase.uniaxial:88
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.partition:59
 msgid "Apply prescribed values for a list of boundaries."
@@ -13229,13 +13477,13 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:160
+#: of felupe.dof._loadcase.biaxial:155
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.shear:85
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.symmetry:64
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:83
+#: of felupe.dof._loadcase.uniaxial:81
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.apply:61
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
@@ -13248,13 +13496,13 @@ msgid ":py:obj:`felupe.Boundary`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:161
+#: of felupe.dof._loadcase.biaxial:156
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.shear:86
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.symmetry:65
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:84
+#: of felupe.dof._loadcase.uniaxial:82
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
 #: of felupe.dof._tools.apply:62
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
@@ -13607,25 +13855,25 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:66
+#: of felupe.dof._loadcase.uniaxial:64
 msgid "The longitudinal displacement is applied incrementally."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:169
+#: of felupe.dof._loadcase.biaxial:164
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.shear:94
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:92
+#: of felupe.dof._loadcase.uniaxial:90
 msgid ":py:obj:`felupe.dof.symmetry`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:170
+#: of felupe.dof._loadcase.biaxial:165
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.shear:95
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:93
+#: of felupe.dof._loadcase.uniaxial:91
 msgid "Return a dict of boundaries for the symmetry axes."
 msgstr ""
 
@@ -13700,19 +13948,19 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:78
+#: of felupe.dof._loadcase.biaxial:76
 msgid "The longitudinal displacements are applied incrementally."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:96
+#: of felupe.dof._loadcase.biaxial:94
 msgid ""
 "Repeating the above example with ``fem.dof.biaxial(field, clampes=(False, "
 "False)`` results in a different deformation at the end faces."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:129
+#: of felupe.dof._loadcase.biaxial:125
 msgid ""
 "The biaxial load case may also invoke a planar loading, where one of the "
 "longitudinal axes is fixed with no displacements at the end plates. The "
@@ -15677,7 +15925,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.revolve:40
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.revolve:59
+#: of felupe.mechanics._solidbody.SolidBody.revolve:57
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.revolve:16
@@ -15689,7 +15937,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.revolve:39
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.revolve:58
+#: of felupe.mechanics._solidbody.SolidBody.revolve:56
 msgid ":py:obj:`SolidBodyNearlyIncompressible.revolve`"
 msgstr ""
 
@@ -18514,7 +18762,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.Step:47
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
-#: of felupe.plugins._animation_writer.AnimationWriterPlugin:63
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:61
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:61
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
@@ -19179,15 +19427,15 @@ msgid "Return a checkpoint of the solid body."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.checkpoint:52
+#: of felupe.mechanics._solidbody.SolidBody.checkpoint:46
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.checkpoint:52
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.checkpoint:46
 msgid ":py:obj:`felupe.SolidBody.restore`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.checkpoint:53
+#: of felupe.mechanics._solidbody.SolidBody.checkpoint:47
 msgid "Restore a checkpoint of a solid body inplace."
 msgstr ""
 
@@ -19240,7 +19488,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.revolve:38
+#: of felupe.mechanics._solidbody.SolidBody.revolve:36
 msgid ""
 "The solid body is now revolved around the x-axis. This model may now be used"
 " to apply non-axisymmetric loads. Here, the same load case is also applied "
@@ -19670,7 +19918,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.checkpoint:53
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.checkpoint:47
 msgid "Restore a checkpoint of a nearly-incompressible solid body inplace."
 msgstr ""
 
@@ -20797,7 +21045,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_animation_writer.pydocstring
-#: of felupe.plugins._animation_writer.AnimationWriterPlugin:62
+#: of felupe.plugins._animation_writer.AnimationWriterPlugin:60
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
 #: of felupe.plugins._characteristic_curve.CharacteristicCurvePlugin:60
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_dashboard/_plugin.pydocstring
@@ -22116,11 +22364,12 @@ msgid ""
 "of the items belong to the accepted trial. A given ``update`` function of "
 "the Newton-Raphson method is called with the scaled increment, ``update(x_n,"
 " alpha * dx)``, and must return a new object. The scaled increment is passed"
-" to ``check`` and ``callback``."
+" to ``check`` and to the plugins with the hook ``after_iteration`` (by "
+"``state.dx``)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
-#: of felupe.plugins._linesearch.LinesearchPlugin:101
+#: of felupe.plugins._linesearch.LinesearchPlugin:102
 msgid ""
 "The line search is not optimal for a "
 ":class:`~felupe.SolidBodyNearlyIncompressible`. Its internal fields, the "
@@ -22137,7 +22386,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
-#: of felupe.plugins._linesearch.LinesearchPlugin:121
+#: of felupe.plugins._linesearch.LinesearchPlugin:122
 msgid ""
 "A coarse cube is compressed by 70% in a single step. Without a line search, "
 "the first Newton increment leads to inadmissible deformation gradients and "
@@ -22145,19 +22394,19 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
-#: of felupe.plugins._linesearch.LinesearchPlugin:141
+#: of felupe.plugins._linesearch.LinesearchPlugin:142
 msgid ""
 "The accepted step lengths are stored in the plugin, one list for each "
 "substep."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
-#: of felupe.plugins._linesearch.LinesearchPlugin:146
+#: of felupe.plugins._linesearch.LinesearchPlugin:147
 msgid "The line search is also available for :func:`~felupe.newtonraphson`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
-#: of felupe.plugins._linesearch.LinesearchPlugin:153
+#: of felupe.plugins._linesearch.LinesearchPlugin:154
 msgid ""
 "A custom criterion is a callable which takes a "
 ":class:`~felupe.plugins.LinesearchTrial` and returns a boolean."
@@ -22166,7 +22415,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_protocol.pydocstring
 #: of felupe.mechanics._protocol.Item:91
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
-#: of felupe.plugins._linesearch.LinesearchPlugin:163
+#: of felupe.plugins._linesearch.LinesearchPlugin:164
 msgid ":py:obj:`felupe.newtonraphson`"
 msgstr ""
 
@@ -22174,29 +22423,29 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_protocol.pydocstring
 #: of felupe.mechanics._protocol.Item:92
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
-#: of felupe.plugins._linesearch.LinesearchPlugin:164
+#: of felupe.plugins._linesearch.LinesearchPlugin:165
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonraphson:1
 msgid "Find a root of a real function using the Newton-Raphson method."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
-#: of felupe.plugins._linesearch.LinesearchPlugin:166
+#: of felupe.plugins._linesearch.LinesearchPlugin:167
 msgid ":py:obj:`felupe.plugins.LinesearchTrial`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
-#: of felupe.plugins._linesearch.LinesearchPlugin:167
+#: of felupe.plugins._linesearch.LinesearchPlugin:168
 msgid "A trial of a line search."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
-#: of felupe.plugins._linesearch.LinesearchPlugin:169
+#: of felupe.plugins._linesearch.LinesearchPlugin:170
 msgid ":py:obj:`felupe.tools.IterationState`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
-#: of felupe.plugins._linesearch.LinesearchPlugin:170
+#: of felupe.plugins._linesearch.LinesearchPlugin:171
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:65
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
@@ -22205,12 +22454,12 @@ msgid "A class to keep track of the state of an iteration."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
-#: of felupe.plugins._linesearch.LinesearchPlugin:172
+#: of felupe.plugins._linesearch.LinesearchPlugin:173
 msgid ":py:obj:`felupe.ThreeFieldVariation`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_linesearch.pydocstring
-#: of felupe.plugins._linesearch.LinesearchPlugin:173
+#: of felupe.plugins._linesearch.LinesearchPlugin:174
 msgid "Hu-Washizu hydrostatic-volumetric selective three-field variation."
 msgstr ""
 
@@ -30978,25 +31227,27 @@ msgstr ""
 msgid "**Plotting Backends**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
 msgid ":py:obj:`set_plotting_backend <felupe.set_plotting_backend>`\\ \\(name\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
 #: of felupe.view._backends._base.PlottingBackend:65
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
 #: of felupe.view._backends._registry.get_plotting_backend:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
 #: of felupe.view._backends._registry.register_plotting_backend:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:62
 msgid "Set the current plotting backend by its name."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
 msgid ":py:obj:`get_plotting_backend <felupe.get_plotting_backend>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
 #: of felupe.view._backends._base.PlottingBackend:68
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
@@ -31006,13 +31257,13 @@ msgstr ""
 msgid "Return the name of the current plotting backend."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
 msgid ""
 ":py:obj:`view.register_plotting_backend "
 "<felupe.view.register_plotting_backend>`\\ \\(name\\, backend\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
 #: of felupe.view._backends._base.PlottingBackend:71
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
@@ -31020,11 +31271,11 @@ msgstr ""
 msgid "Register a plotting backend by a name."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
 msgid ":py:obj:`view.PlottingBackend <felupe.view.PlottingBackend>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
 #: of felupe.view._backends._base.PlottingBackend:1
 msgid ""
@@ -31034,13 +31285,25 @@ msgid ""
 ":meth:`SolidBody.plot() <felupe.SolidBody.plot>`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
+msgid ":py:obj:`view.WebGLPlotter <felupe.view.WebGLPlotter>`\\ \\(\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:1
+msgid ""
+"The plotter of the plotting backend ``\"webgl\"``, a scene which is shown in"
+" the web browser by a WebGL viewer."
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
 msgid ""
 ":py:obj:`view.MatplotlibPlotter <felupe.view.MatplotlibPlotter>`\\ "
 "\\(\\[ax\\, off\\_screen\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:32:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
 #: of felupe.view._backends._matplotlib.MatplotlibPlotter:1
 msgid ""
@@ -31144,6 +31407,8 @@ msgstr ""
 #: of felupe.view._backends._base.PlottingBackend:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
 #: of felupe.view._backends._matplotlib.MatplotlibPlotter:32
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
 #: of felupe.view._field.ViewField:37
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
@@ -31366,6 +31631,8 @@ msgstr ""
 #: of felupe.view._backends._registry.get_plotting_backend:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
 #: of felupe.view._backends._registry.register_plotting_backend:17
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:61
 msgid ":py:obj:`felupe.set_plotting_backend`"
 msgstr ""
 
@@ -31738,6 +32005,149 @@ msgid "If the plotting backend does not support screenshots."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:6
+msgid "The objects of the scene, i.e. surfaces, points and lines."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:8
+msgid "list of dict"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:12
+msgid "The entries of the legend."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:14
+msgid "list of dict or None"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:18
+msgid ""
+"The view of the camera, e.g. ``\"xy\"``. If ``\"default\"``, planar models "
+"are viewed from the top (``\"xy\"``) and other models from an oblique view."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
+#: of felupe.view._backends._matplotlib.MatplotlibPlotter:36
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:25
+msgid "A flag to show the axes."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:31
+msgid ""
+"The page of the viewer is a self-contained HTML page (without a server and "
+"without other files). Like a plotter of PyVista, the plotter is shown by "
+":meth:`show`. In a notebook, the page is shown in the output of the cell (in"
+" an ``iframe``, without a Jupyter widget, e.g. also in the interactive "
+"window of VS Code). Otherwise, the page is written to a file, which is "
+"opened in the web browser. A Jupyter widget of the viewer, e.g. for a layout"
+" of widgets, is returned by :meth:`widget`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:38
+msgid ""
+"With the plotting backend ``\"webgl\"``, i.e. after "
+"``fem.set_plotting_backend(\"webgl\")``, the plot-methods return a new "
+"plotter of this class, e.g. :meth:`Mesh.plot() <felupe.Mesh.plot>` or "
+":meth:`SolidBody.plot() <felupe.SolidBody.plot>`. A given plotter is always "
+"drawn by the WebGL viewer, independent of the current plotting backend."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:46
+msgid ""
+"A new plotter is given to a plot-method. The viewer is shown by "
+"``plotter.show()``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:54
+msgid ""
+"The self-contained HTML page of the viewer is written to a file, e.g. to "
+"share the model. It works offline, without a server and without other files."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:64
+msgid ":py:obj:`felupe.view.MatplotlibPlotter`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter:65
+msgid "The plotter of the plotting backend ``\"matplotlib\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter.export_html:1
+msgid "Write the self-contained HTML page of the viewer to a file."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter.export_html:3
+msgid "The filename of the HTML file, e.g. ``\"plot.html\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter.export_html:6
+msgid "The path of the HTML file."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view.WebGLPlotter.html:1
+msgid "The self-contained HTML page of the viewer."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter.show:1
+msgid ""
+"Show the viewer. In a notebook (without a given filename), the page of the "
+"viewer is shown in the output of the cell (in an ``iframe``). Otherwise, the"
+" page is written to a file, which is opened in the web browser."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter.show:5
+msgid ""
+"The filename of the HTML file (default is None). If None, a temporary file "
+"is written (outside of a notebook) in the folder ``felupe`` of the temporary"
+" directory, where the pages older than a day are removed."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter.show:10
+msgid "The path of the HTML file (or None in a notebook)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter.widget:1
+msgid ""
+"Return a Jupyter widget of the viewer, e.g. to show it in a layout of "
+"widgets. The arrays of the scene are transferred as binary buffers. This "
+"requires the optional dependency anywidget (``pip install felupe[web]``)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter.widget:5
+msgid "The height of the widget as CSS length (default is ``\"480px\"``)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
+#: of felupe.view._backends._webgl._backend.WebGLPlotter.widget:8
+msgid "The widget of the viewer."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
 #: of felupe.view._backends._matplotlib.MatplotlibPlotter:4
 msgid ""
 "The (two-dimensional) axes of matplotlib to draw on (default is None). If "
@@ -31752,16 +32162,6 @@ msgid ""
 "A flag to create the new figure without pyplot (default is False), i.e. it "
 "is not shown in a window, e.g. for screenshots. In a notebook, the figure is"
 " always created without pyplot and it is shown by :meth:`show`."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
-#: of felupe.view._backends._matplotlib.MatplotlibPlotter:16
-msgid "The objects of the scene, i.e. surfaces, points and lines."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
-#: of felupe.view._backends._matplotlib.MatplotlibPlotter:18
-msgid "list of dict"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
@@ -31780,11 +32180,6 @@ msgid ""
 "The view of the camera, e.g. ``\"xy\"``, ``\"xz\"`` or ``\"iso\"``. If "
 "``\"default\"``, planar models are viewed from the top (``\"xy\"``) and "
 "other models from an oblique view (the default view of FElupe)."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
-#: of felupe.view._backends._matplotlib.MatplotlibPlotter:36
-msgid "A flag to show the axes."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring

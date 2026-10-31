@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-30 00:12+0000\n"
+"POT-Creation-Date: 2026-10-31 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -771,28 +771,30 @@ msgstr ""
 #: ../../felupe/docs/howto/plotting.rst:104
 msgid ""
 "The plotting backend ``\"webgl\"`` draws the plots by a dependency-free "
-"WebGL viewer in the web browser, without PyVista. The plotter is shown by "
-"``show()``: in a notebook, the self-contained HTML page of the viewer is "
-"shown in the output of the cell, otherwise it is opened in the web browser. "
-"The page works offline and it may be written to a file by ``export_html()``,"
-" e.g. to share a model. Drag to rotate, shift-drag to pan, scroll to zoom "
-"and double-click to reset the view. The live dashboard of a job, "
+"WebGL viewer in the web browser, without PyVista. The plotter, a "
+":class:`~felupe.view.WebGLPlotter`, is shown by "
+":meth:`~felupe.view.WebGLPlotter.show`: in a notebook, the self-contained "
+"HTML page of the viewer is shown in the output of the cell, otherwise it is "
+"opened in the web browser. The page works offline and it may be written to a"
+" file by :meth:`~felupe.view.WebGLPlotter.export_html`, e.g. to share a "
+"model. Drag to rotate, shift-drag to pan, scroll to zoom and double-click to"
+" reset the view. The live dashboard of a job, "
 ":class:`~felupe.DashboardWidgetPlugin`, uses the same viewer."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:120
+#: ../../felupe/docs/howto/plotting.rst:121
 msgid ""
-"In a notebook, ``widget()`` returns a Jupyter widget of the viewer, e.g. for"
-" a layout of widgets. This requires the optional dependency ``anywidget`` "
-"(``pip install felupe[web]``). Screenshots are not supported by this "
-"plotting backend."
+"In a notebook, :meth:`~felupe.view.WebGLPlotter.widget` returns a Jupyter "
+"widget of the viewer, e.g. for a layout of widgets. This requires the "
+"optional dependency ``anywidget`` (``pip install felupe[web]``). Screenshots"
+" are not supported by this plotting backend."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:134
+#: ../../felupe/docs/howto/plotting.rst:135
 msgid "Matplotlib"
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:136
+#: ../../felupe/docs/howto/plotting.rst:137
 msgid ""
 "The plotting backend ``\"matplotlib\"`` draws the plots on the axes of a "
 "figure of matplotlib, without PyVista. The plotter, a "
@@ -801,7 +803,7 @@ msgid ""
 "window or as image in the output of a cell of a notebook."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:170
+#: ../../felupe/docs/howto/plotting.rst:171
 msgid ""
 "The screenshots are taken off-screen, i.e. without a display and without a "
 "figure of pyplot. The format of the file is given by the suffix of the "
@@ -811,7 +813,7 @@ msgid ""
 " publication."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:181
+#: ../../felupe/docs/howto/plotting.rst:182
 msgid ""
 "Axes of matplotlib are accepted as plotter, i.e. a model may be drawn "
 "together with other plots in one figure, e.g. with its force-displacement "
@@ -820,7 +822,7 @@ msgid ""
 "<matplotlib.figure.Figure.savefig>`, e.g. in a vector format."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:206
+#: ../../felupe/docs/howto/plotting.rst:207
 msgid ""
 "The faces are drawn as polygons with a flat color each, in the order of "
 "their depths (painter's algorithm), and the faces on the back of closed "
@@ -835,11 +837,11 @@ msgid ""
 "the scalar bars, the legend and the text stay vector graphics."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:224
+#: ../../felupe/docs/howto/plotting.rst:225
 msgid "Combine Plots"
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:226
+#: ../../felupe/docs/howto/plotting.rst:227
 msgid ""
 "The plotter of a plot-method is passed to other plot-methods by the argument"
 " ``plotter``, e.g. to draw the boundary conditions or a point load on top of"
@@ -848,11 +850,11 @@ msgid ""
 " the current plotting backend."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:239
+#: ../../felupe/docs/howto/plotting.rst:240
 msgid "Custom Plotting Backends"
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:241
+#: ../../felupe/docs/howto/plotting.rst:242
 msgid ""
 "A custom plotting backend is a subclass of "
 ":class:`~felupe.view.PlottingBackend`. It implements the methods "
@@ -1127,7 +1129,7 @@ msgid ""
 "for the Cauchy stresses of a rectangular block under compression."
 msgstr ""
 
-#: ../../felupe/docs/howto/project.rst:24
+#: ../../felupe/docs/howto/project.rst:22
 msgid ""
 "Cell-based results, like Cauchy stresses, are not projected to mesh-points "
 "by default. The means of the cell-values are plotted if no projection method"
@@ -1135,20 +1137,20 @@ msgid ""
 "mesh-points."
 msgstr ""
 
-#: ../../felupe/docs/howto/project.rst:28
+#: ../../felupe/docs/howto/project.rst:26
 msgid ""
 "With :func:`~felupe.topoints`, the cell-values are translated to and "
 "averaged at the mesh-points."
 msgstr ""
 
-#: ../../felupe/docs/howto/project.rst:31
+#: ../../felupe/docs/howto/project.rst:29
 msgid ""
 "With :func:`~felupe.tools.extrapolate`, the cell-values are extrapolated to "
 "the mesh- points by evaluating the cell-values at the quadrature points of "
 "the cells and extrapolating them to the mesh-points."
 msgstr ""
 
-#: ../../felupe/docs/howto/project.rst:35
+#: ../../felupe/docs/howto/project.rst:33
 msgid ""
 "With :func:`~felupe.project`, the cell-values are projected to the mesh-"
 "points by solving a least-squares problem."
@@ -1400,29 +1402,92 @@ msgid ""
 ":class:`~felupe.MaterialStrain`. If the material makes use of state "
 "variables, the shapes of these internal state variables must be provided. By"
 " default, the small-strain framework is used. Optionally, this may be "
-"changed to a Total-Lagrange or a co-rotational strain framework."
+"changed to a Total-Lagrange, a co-rotational or a Seth-Hill strain "
+"framework. The Seth-Hill framework requires the strain exponent :math:`m` of"
+" the Seth-Hill strain tensors, e.g. ``framework=\"seth-hill\", "
+"strain_exponent=0`` for the logarithmic strain tensor."
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:49
+#: ../../felupe/docs/howto/umat.rst:41
+msgid "**Framework**"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat.rst:41
+msgid "**Strain** (argument)"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat.rst:41
+msgid "**Stress** (return)"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat.rst:43
+msgid "small-strain"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat.rst:43
+msgid "small-strain tensor"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat.rst:43
+msgid "Cauchy stress tensor"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat.rst:45
+msgid "total-lagrange"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat.rst:45
+msgid "Green-Lagrange strain tensor (Seth-Hill, :math:`m = 2`)"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat.rst:45
+msgid "second Piola-Kirchhoff stress"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat.rst:48
+msgid "co-rotational"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat.rst:48
+msgid "Biot strain tensor (Seth-Hill, :math:`m = 1`)"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat.rst:48
+msgid "Biot stress tensor"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat.rst:51
+msgid "seth-hill"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat.rst:51
+msgid "Seth-Hill strain tensor (strain exponent :math:`m`)"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat.rst:51
+msgid "work-conjugate stress tensor"
+msgstr ""
+
+#: ../../felupe/docs/howto/umat.rst:66
 msgid ""
 "FElupe contains three reference small-strain user materials, one for linear "
 "elastic materials, one for linear elastic-plastic materials with isotropic "
 "hardening and one for linear viscoelastic materials:"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:53
+#: ../../felupe/docs/howto/umat.rst:70
 msgid ":func:`~felupe.linear_elastic`"
 msgstr ":func:`~felupe.linear_elastic`"
 
-#: ../../felupe/docs/howto/umat.rst:54
+#: ../../felupe/docs/howto/umat.rst:71
 msgid ":func:`~felupe.linear_elastic_plastic_isotropic_hardening`"
 msgstr ":func:`~felupe.linear_elastic_plastic_isotropic_hardening`"
 
-#: ../../felupe/docs/howto/umat.rst:55
+#: ../../felupe/docs/howto/umat.rst:72
 msgid ":func:`~felupe.linear_elastic_viscoelastic`"
 msgstr ""
 
-#: ../../felupe/docs/howto/umat.rst:57
+#: ../../felupe/docs/howto/umat.rst:74
 msgid ""
 "The linear viscoelastic material is time-dependent, i.e. it takes the time "
 "increment as an input, see :doc:`umat_time`."

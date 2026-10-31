@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-30 00:12+0000\n"
+"POT-Creation-Date: 2026-10-31 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -144,11 +144,11 @@ msgstr ":download:`Download zipped: ex01_beam.zip <ex01_beam.zip>`"
 #: ../../felupe/docs/examples/ex08_shear.rst:259
 #: ../../felupe/docs/examples/ex09_numeric-continuation.rst:225
 #: ../../felupe/docs/examples/ex10_poisson-equation.rst:102
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:161
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:159
 #: ../../felupe/docs/examples/ex12_foot-bone.rst:98
 #: ../../felupe/docs/examples/ex13_morph-rubber-wheel.rst:395
 #: ../../felupe/docs/examples/ex14_hyperelasticity.rst:243
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:161
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:159
 #: ../../felupe/docs/examples/ex16_deeplearning-torch.rst:183
 #: ../../felupe/docs/examples/ex17_torsion-gif.rst:146
 #: ../../felupe/docs/examples/ex18_nonlinear-viscoelasticity-newton.rst:189
@@ -1154,7 +1154,7 @@ msgid ""
 "maximum principal value is plotted."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:99
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:97
 msgid ""
 "The number of maximum endurable cycles between zero and the applied "
 "displacement is evaluated with a SN-curve as denoted in Eq. :eq:`sn-curve`. "
@@ -1166,11 +1166,11 @@ msgid ""
 " first."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:107
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:105
 msgid "\\frac{N}{N_D} = \\left( \\frac{S}{S_D} \\right)^{-k}"
 msgstr "\\frac{N}{N_D} = \\left( \\frac{S}{S_D} \\right)^{-k}"
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:146
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:144
 msgid ""
 ":download:`Download Jupyter notebook: ex11_notch-stress.ipynb <ex11_notch-"
 "stress.ipynb>`"
@@ -1178,7 +1178,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex11_notch-stress.ipynb <ex11_notch-"
 "stress.ipynb>`"
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:150
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:148
 msgid ""
 ":download:`Download Python source code: ex11_notch-stress.py <ex11_notch-"
 "stress.py>`"
@@ -1186,7 +1186,7 @@ msgstr ""
 ":download:`Download Python source code: ex11_notch-stress.py <ex11_notch-"
 "stress.py>`"
 
-#: ../../felupe/docs/examples/ex11_notch-stress.rst:154
+#: ../../felupe/docs/examples/ex11_notch-stress.rst:152
 msgid ""
 ":download:`Download zipped: ex11_notch-stress.zip <ex11_notch-stress.zip>`"
 msgstr ""
@@ -1645,7 +1645,7 @@ msgid ""
 "applied on the model."
 msgstr ""
 
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:146
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:144
 msgid ""
 ":download:`Download Jupyter notebook: ex15_hexmesh-metacone.ipynb "
 "<ex15_hexmesh-metacone.ipynb>`"
@@ -1653,7 +1653,7 @@ msgstr ""
 ":download:`Download Jupyter notebook: ex15_hexmesh-metacone.ipynb "
 "<ex15_hexmesh-metacone.ipynb>`"
 
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:150
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:148
 msgid ""
 ":download:`Download Python source code: ex15_hexmesh-metacone.py "
 "<ex15_hexmesh-metacone.py>`"
@@ -1661,7 +1661,7 @@ msgstr ""
 ":download:`Download Python source code: ex15_hexmesh-metacone.py "
 "<ex15_hexmesh-metacone.py>`"
 
-#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:154
+#: ../../felupe/docs/examples/ex15_hexmesh-metacone.rst:152
 msgid ""
 ":download:`Download zipped: ex15_hexmesh-metacone.zip <ex15_hexmesh-"
 "metacone.zip>`"
