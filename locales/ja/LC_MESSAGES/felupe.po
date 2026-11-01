@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-31 00:09+0000\n"
+"POT-Creation-Date: 2026-11-01 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1007,7 +1007,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
 #: of felupe.thermal._solidbody_thermal.SolidBodyThermal:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:40
+#: of felupe.tools._newton.IterationState:49
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.NewtonConvergenceError:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
@@ -1015,7 +1015,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.embed:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:83
+#: of felupe.tools._newton.newtonraphson:94
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.project:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
@@ -1705,7 +1705,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.NewtonConvergenceError:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:217
+#: of felupe.tools._newton.newtonraphson:321
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.project:90
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_save.pydocstring
@@ -18812,7 +18812,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
 #: of felupe.tools._event_dispatcher.Context:58
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:108
+#: of felupe.tools._newton.IterationState:121
 msgid "Base class for plugins."
 msgstr ""
 
@@ -18900,7 +18900,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:68
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:114
+#: of felupe.tools._newton.IterationState:127
 msgid "A backtracking line search for the Newton-Raphson method."
 msgstr ""
 
@@ -18969,7 +18969,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
 #: of felupe.tools._event_dispatcher.Context:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:111
+#: of felupe.tools._newton.IterationState:124
 msgid "A class to keep track of the context of a Job during evaluation."
 msgstr ""
 
@@ -20764,7 +20764,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_progress.pydocstring
 #: of felupe.plugins._progress.ProgressPlugin:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:54
+#: of felupe.tools._newton.newtonraphson:65
 msgid ""
 "Verbosity level to control how messages are printed during evaluation. If 1 "
 "or True and ``tqdm`` is installed, a progress bar is shown. If ``tqdm`` is "
@@ -21677,7 +21677,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
 #: of felupe.plugins._plugin.Plugin:67
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:113
+#: of felupe.tools._newton.IterationState:126
 msgid ":py:obj:`felupe.LinesearchPlugin`"
 msgstr ""
 
@@ -22020,7 +22020,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_event_dispatcher.pydocstring
 #: of felupe.tools._event_dispatcher.Context:57
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:107
+#: of felupe.tools._newton.IterationState:120
 msgid ":py:obj:`felupe.Plugin`"
 msgstr ""
 
@@ -22942,7 +22942,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.SubstepState:34
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:50
+#: of felupe.tools._newton.IterationState:59
 msgid "Hook"
 msgstr ""
 
@@ -23045,11 +23045,24 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.IterationState:17
+msgid ""
+"The absolute tolerance of the norm of the objective function on the active "
+"degrees of freedom of the current iteration (default is None). If no "
+"absolute tolerance is given to :func:`~felupe.newtonraphson`, it is the "
+"bound of the round-off errors of the objective function, which is evaluated "
+"by the check of the convergence of each iteration (for the updated "
+"unknowns), see :func:`~felupe.newtonraphson`. Then, it is None in the hooks "
+"``before_newton``, ``before_iteration``, ``before_linear_solve`` and "
+"``after_linear_solve`` of the first iteration."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:26
 msgid "A flag if an error occured in the current iteration (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:19
+#: of felupe.tools._newton.IterationState:28
 msgid ""
 "The unknowns (default is None). Before the update of an iteration, these are"
 " the unknowns of the last accepted iteration :math:`x_n`. After the update, "
@@ -23057,20 +23070,20 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:23
+#: of felupe.tools._newton.IterationState:32
 msgid ""
 "The increment of the unknowns of the current iteration (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:25
+#: of felupe.tools._newton.IterationState:34
 msgid ""
 "The values of the objective function (the residuals), evaluated at the "
 "unknowns ``x`` (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:28
+#: of felupe.tools._newton.IterationState:37
 msgid ""
 "The Jacobian of the objective function of the current iteration, evaluated "
 "at the unknowns of the last accepted iteration :math:`x_n` (default is "
@@ -23078,7 +23091,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:31
+#: of felupe.tools._newton.IterationState:40
 msgid ""
 "The step length which scales the Newton increment of the current iteration, "
 "e.g. of a line search (default is None). None means that the full Newton "
@@ -23086,14 +23099,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:35
+#: of felupe.tools._newton.IterationState:44
 msgid ""
 "A flag if the unknowns (and the values of the objective function) are "
 "already updated in the current iteration (default is False)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:41
+#: of felupe.tools._newton.IterationState:50
 msgid ""
 "One state is created by :func:`~felupe.newtonraphson` and its attributes are"
 " updated in-place during the iterations. Hence, a plugin may keep a "
@@ -23103,124 +23116,124 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:47
+#: of felupe.tools._newton.IterationState:56
 msgid "Attributes of the state in the hooks of an iteration."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:51
+#: of felupe.tools._newton.IterationState:60
 msgid "``x``"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:52
+#: of felupe.tools._newton.IterationState:61
 msgid "``fun``"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:53
+#: of felupe.tools._newton.IterationState:62
 msgid "``jac``"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:54
+#: of felupe.tools._newton.IterationState:63
 msgid "``dx``"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:55
+#: of felupe.tools._newton.IterationState:64
 msgid "``updated``"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:56
+#: of felupe.tools._newton.IterationState:65
 msgid "``before_iteration``"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:57
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:63
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:69
-msgid ":math:`x_n`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:58
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:64
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:70
-msgid ":math:`f(x_n)`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:59
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:60
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.IterationState:66
-msgid "previous"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:61
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:67
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:73
-msgid "False"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:62
-msgid "``before_linear_solve``"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:65
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:71
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:77
-msgid ":math:`K(x_n)`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:68
-msgid "``after_linear_solve``"
-msgstr ""
-
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.IterationState:72
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.IterationState:78
-msgid ":math:`dx`"
+msgid ":math:`x_n`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:67
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:73
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:79
+msgid ":math:`f(x_n)`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:68
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:69
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:75
+msgid "previous"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:70
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:76
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:82
+msgid "False"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:71
+msgid "``before_linear_solve``"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.IterationState:74
-msgid "``after_iteration``"
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:80
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:86
+msgid ":math:`K(x_n)`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:75
-msgid ":math:`x`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:76
-msgid ":math:`f(x)`"
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:79
-msgid "True"
+#: of felupe.tools._newton.IterationState:77
+msgid "``after_linear_solve``"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.IterationState:81
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:87
+msgid ":math:`dx`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:83
+msgid "``after_iteration``"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:84
+msgid ":math:`x`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:85
+msgid ":math:`f(x)`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:88
+msgid "True"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.IterationState:90
 msgid ""
 "A plugin may modify the update of the unknowns in the ``after_linear_solve``"
 " hook. Either the increment ``dx`` is replaced, e.g. by a scaled increment, "
@@ -23234,11 +23247,14 @@ msgid ""
 "objective function and no additional assembly is performed. If the objective"
 " function is evaluated for more than one trial, the accepted trial must be "
 "evaluated last, because the (temporary) state variables of the items belong "
-"to the last evaluation."
+"to the last evaluation. The reference norm of the check of the convergence "
+"(the forces between the items, see :func:`~felupe.newtonraphson`) is also "
+"taken from the last evaluation; it is only used for the values of the "
+"objective function which were returned by the last evaluation."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:96
+#: of felupe.tools._newton.IterationState:109
 msgid ""
 "The evaluation of the objective function for a list of items links the "
 "fields of the items to the evaluated unknowns. If the unknowns of the last "
@@ -23251,7 +23267,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.IterationState:110
+#: of felupe.tools._newton.IterationState:123
 msgid ":py:obj:`felupe.tools.Context`"
 msgstr ""
 
@@ -30106,45 +30122,80 @@ msgstr ""
 #: of felupe.tools._newton.newtonraphson:23
 msgid ""
 "Callable to check the convergence with the signature ``xnorm, fnorm, success"
-" = check(dx, x, f, xtol, ftol, dof1, dof0, items)``. The state variables of "
-"the items are updated by the Newton-Raphson method after a converged "
-"iteration, i.e. a custom ``check`` doesn't update them."
+" = check(dx, x, f, xtol, ftol, dof1, dof0, items, atol, reference)``. The "
+"state variables of the items are updated by the Newton-Raphson method after "
+"a converged iteration, i.e. a custom ``check`` doesn't update them.  ..  "
+"versionchanged:: 12.1.0     The arguments ``atol`` and ``reference`` are "
+"passed to ``check``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:28
+#: of felupe.tools._newton.newtonraphson:23
 msgid ""
-"Tolerance value to check if the function has converged. If None, the "
-"tolerance is the square root of the machine epsilon of the lowest precision "
-"of the linear equation system (the common data type of the Jacobian and the "
-"objective function) and of the unknowns, e.g. ``1.490e-8`` for ``float64`` "
-"and ``3.453e-4`` if the linear equation system or the unknowns are "
-"``float32``, see the notes below. Default is None.  ..  versionchanged:: "
-"12.0.0     The default tolerance depends on the data types of the linear "
-"equation     system and of the unknowns. Before, it was ``1.490e-8`` for all"
-" data types."
+"Callable to check the convergence with the signature ``xnorm, fnorm, success"
+" = check(dx, x, f, xtol, ftol, dof1, dof0, items, atol, reference)``. The "
+"state variables of the items are updated by the Newton-Raphson method after "
+"a converged iteration, i.e. a custom ``check`` doesn't update them."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:28
+#: of felupe.tools._newton.newtonraphson:29
+msgid "The arguments ``atol`` and ``reference`` are passed to ``check``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonraphson:32
 msgid ""
-"Tolerance value to check if the function has converged. If None, the "
-"tolerance is the square root of the machine epsilon of the lowest precision "
-"of the linear equation system (the common data type of the Jacobian and the "
-"objective function) and of the unknowns, e.g. ``1.490e-8`` for ``float64`` "
-"and ``3.453e-4`` if the linear equation system or the unknowns are "
-"``float32``, see the notes below. Default is None."
+"Relative tolerance value to check if the function has converged. If None, "
+"the tolerance is the square root of the machine epsilon of the lowest "
+"precision of the linear equation system (the common data type of the "
+"Jacobian and the objective function) and of the unknowns, e.g. ``1.490e-8`` "
+"for ``float64`` and ``3.453e-4`` if the linear equation system or the "
+"unknowns are ``float32``, see the notes below. Default is None.  ..  "
+"versionchanged:: 12.0.0     The default tolerance depends on the data types "
+"of the linear equation     system and of the unknowns. Before, it was "
+"``1.490e-8`` for all data types."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:35
+#: of felupe.tools._newton.newtonraphson:32
+msgid ""
+"Relative tolerance value to check if the function has converged. If None, "
+"the tolerance is the square root of the machine epsilon of the lowest "
+"precision of the linear equation system (the common data type of the "
+"Jacobian and the objective function) and of the unknowns, e.g. ``1.490e-8`` "
+"for ``float64`` and ``3.453e-4`` if the linear equation system or the "
+"unknowns are ``float32``, see the notes below. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonraphson:39
 msgid ""
 "The default tolerance depends on the data types of the linear equation "
 "system and of the unknowns. Before, it was ``1.490e-8`` for all data types."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:39
+#: of felupe.tools._newton.newtonraphson:43
+msgid ""
+"Absolute tolerance value of the norm of the objective function on the active"
+" degrees of freedom, in the units of the objective function, e.g. of forces."
+" If None, it is a bound of the round-off errors of the objective function, "
+"which is evaluated in each iteration, see the notes below. Default is None."
+"  ..  versionadded:: 12.1.0"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonraphson:43
+msgid ""
+"Absolute tolerance value of the norm of the objective function on the active"
+" degrees of freedom, in the units of the objective function, e.g. of forces."
+" If None, it is a bound of the round-off errors of the objective function, "
+"which is evaluated in each iteration, see the notes below. Default is None."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonraphson:50
 msgid ""
 "List with items which provide methods for assembly, e.g. like "
 ":class:`felupe.SolidBody` (default is None). See "
@@ -30152,25 +30203,25 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:43
+#: of felupe.tools._newton.newtonraphson:54
 msgid "1d-array of int with all active degrees of freedom (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:45
+#: of felupe.tools._newton.newtonraphson:56
 msgid ""
 "1d-array of int with all prescribed degrees of freedom (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:47
+#: of felupe.tools._newton.newtonraphson:58
 msgid ""
 "Field values at mesh-points for the prescribed components of the unknowns "
 "based on ``dof0`` (default is None)."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:50
+#: of felupe.tools._newton.newtonraphson:61
 msgid ""
 "A sparse or dense solver with the signature ``x = solver(A, b)`` (default is"
 " :class:`~felupe.solve.SuperLUSolver`). For a more performant alternative "
@@ -30178,21 +30229,21 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:61
+#: of felupe.tools._newton.newtonraphson:72
 msgid ""
 "If verbose is True, choose a backend for ``tqdm`` (``\"tqdm\"``, "
 "``\"auto\"`` or ``\"notebook\"``). Default is ``\"tqdm\"``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:64
+#: of felupe.tools._newton.newtonraphson:75
 msgid ""
 "An optional EventDispatcher to trigger events during evaluation. Default is "
 "None."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:67
+#: of felupe.tools._newton.newtonraphson:78
 msgid ""
 "A list of plugins with hooks to be used during evaluation, e.g. a "
 ":class:`~felupe.LinesearchPlugin`. If a ``dispatcher`` is given, the plugins"
@@ -30203,7 +30254,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:67
+#: of felupe.tools._newton.newtonraphson:78
 msgid ""
 "A list of plugins with hooks to be used during evaluation, e.g. a "
 ":class:`~felupe.LinesearchPlugin`. If a ``dispatcher`` is given, the plugins"
@@ -30211,7 +30262,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:71
+#: of felupe.tools._newton.newtonraphson:82
 msgid ""
 "The arguments ``callback``, ``callback_kwargs`` and ``progress_bar`` are "
 "removed. A plugin with the hook ``after_iteration`` replaces the "
@@ -30219,12 +30270,12 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:77
+#: of felupe.tools._newton.newtonraphson:88
 msgid "The result object."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:80
+#: of felupe.tools._newton.newtonraphson:91
 msgid ""
 "If the solution of the linearized equation system contains NaN values or if"
 "     the maximum number of iterations is reached (a subclass of     "
@@ -30232,7 +30283,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:84
+#: of felupe.tools._newton.newtonraphson:95
 msgid ""
 "Nonlinear equilibrium equations :math:`f(x)` as a function of the unknowns "
 ":math:`x` are solved by linearization of :math:`f` at a valid starting point"
@@ -30240,53 +30291,53 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:88
+#: of felupe.tools._newton.newtonraphson:99
 msgid "f(x_0) = 0"
 msgstr "f(x_0) = 0"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:93
+#: of felupe.tools._newton.newtonraphson:104
 msgid "The linearization is given in Eq. :eq:`newton-lin`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:95
+#: of felupe.tools._newton.newtonraphson:106
 msgid "f(x_0 + dx) \\approx f(x_0) + K(x_0) \\ dx \\ (= 0)"
 msgstr "f(x_0 + dx) \\approx f(x_0) + K(x_0) \\ dx \\ (= 0)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:100
+#: of felupe.tools._newton.newtonraphson:111
 msgid ""
 "with the Jacobian as in Eq. :eq:`newton-jac`, evaluated at given unknowns "
 ":math:`x_0`,"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:103
+#: of felupe.tools._newton.newtonraphson:114
 msgid "K(x_0) = \\frac{\\partial f}{\\partial x}(x_0)"
 msgstr "K(x_0) = \\frac{\\partial f}{\\partial x}(x_0)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:108
+#: of felupe.tools._newton.newtonraphson:119
 msgid ""
 "and is rearranged to an equation system with left- and right-hand sides, see"
 " Eq. :eq:`newton-lhs-rhs`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:111
+#: of felupe.tools._newton.newtonraphson:122
 msgid "K(x_0) \\ dx = -f(x_0)"
 msgstr "K(x_0) \\ dx = -f(x_0)"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:116
+#: of felupe.tools._newton.newtonraphson:127
 msgid ""
 "After a solution is found, the unknowns are updated, see Eq. :eq:`newton-"
 "update-0`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:118
+#: of felupe.tools._newton.newtonraphson:129
 msgid ""
 "dx &= \\text{solve} \\left( K(x_0), -f(x_0) \\right) \\nonumber\n"
 "\n"
@@ -30294,7 +30345,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:125
+#: of felupe.tools._newton.newtonraphson:136
 msgid ""
 "Repeated evaluations lead to an incrementally updated solution of :math:`x`."
 " Herein, :math:`x_n` refer to the initial unknowns whereas :math:`x` are the"
@@ -30302,13 +30353,13 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:130
+#: of felupe.tools._newton.newtonraphson:141
 msgid ""
 "The subscript :math:`(\\bullet)_{n+1}` is dropped for easier readability."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:132
+#: of felupe.tools._newton.newtonraphson:143
 msgid ""
 "dx &= \\text{solve} \\left( K(x_n), -f(x_n) \\right) \\nonumber\n"
 "\n"
@@ -30316,16 +30367,131 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:139
+#: of felupe.tools._newton.newtonraphson:150
 msgid ""
 "Then, the nonlinear equilibrium equations are evaluated with the updated "
 "unknowns :math:`f(x)`. The procedure is repeated until convergence is "
-"reached, i.e. until the norm of the objective function is lower than the "
-"tolerance."
+"reached, i.e. until the norm of the objective function on the active degrees"
+" of freedom :math:`f_1(x)` is lower than the absolute tolerance plus the "
+"relative tolerance times a reference norm, see Eq. :eq:`newton-check`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:143
+#: of felupe.tools._newton.newtonraphson:156
+msgid "||f_1(x)|| < \\text{atol} + \\text{tol}\\ f_\\text{ref}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonraphson:161
+msgid ""
+"The reference norm is the larger of the norm of the objective function on "
+"the prescribed degrees of freedom :math:`f_0(x)` (the reaction forces) and, "
+"for a list of items, the largest norm of the objective function without one "
+"of the items, see Eq. :eq:`newton-reference`, where :math:`f_i(x)` is the "
+"assembled vector of the item :math:`i`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonraphson:167
+msgid "f_\\text{ref} = \\max \\left( ||f_0(x)||, \\max_i ||f(x) - f_i(x)|| \\right)"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonraphson:172
+msgid ""
+"The norm of the objective function without one of the items is the norm of "
+"the forces which the other items exert on this item, e.g. the forces of a "
+":class:`~felupe.ContactRigidPlane` or of a "
+":class:`~felupe.SolidBodyPressure` on a :class:`~felupe.SolidBody`. Hence, "
+"the criterion is relative also for forces which are not reacted on the "
+"prescribed degrees of freedom, e.g. for a solid body which is supported by a"
+" contact or for a self-equilibrated pressure on a solid body with statically"
+" determinate supports. It is zero for a single item, i.e. the reference norm"
+" is the norm of the reaction forces."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonraphson:181
+msgid ""
+"In a (nearly) force-free state, e.g. for a rigid body motion of a solid body"
+" before it gets in contact, the reference norm is zero up to round-off "
+"errors. Then, the absolute tolerance is used. The objective function is a "
+"sum of many contributions, e.g. of the cells of a solid body, which cancel "
+"each other out in a state of equilibrium. Its round-off errors are of the "
+"order of the machine epsilon :math:`\\varepsilon` times the absolute values "
+"of these contributions, which depend on the units and on the stiffness of "
+"the model. If no absolute tolerance is given, it is a bound of the round-off"
+" errors of the objective function on the active degrees of freedom, see Eq. "
+":eq:`newton-atol`, with a safety factor :math:`c=10`. The first product of "
+"the absolute values of the Jacobian of the iteration and of the updated "
+"unknowns, e.g. of the displacements, estimates the round-off errors of the "
+"gradients of the unknowns, e.g. of a rigid body motion. The second product "
+"of the Jacobian and the coordinates :math:`X` of the points of the meshes "
+"relative to their centroids :math:`\\bar{X}` (only for the fields with as "
+"many components as the dimension of their meshes, e.g. for displacements) "
+"are the forces of a deformation gradient of :math:`\\boldsymbol{F} = "
+"\\boldsymbol{1} + \\boldsymbol{1}`, i.e. it estimates the round-off errors "
+"of the deformation gradient :math:`\\boldsymbol{F} = \\boldsymbol{1} + "
+"\\partial \\boldsymbol{u} / \\partial \\boldsymbol{X}`, which is represented"
+" with an absolute precision of :math:`\\varepsilon_K \\boldsymbol{1}`, e.g. "
+"in the undeformed state. Each row of the products has the unit of the "
+"objective function, also for mixed field formulations. The relative "
+"coordinates don't depend on the location of the meshes, also for items which"
+" resist a rigid body translation, e.g. a "
+":class:`~felupe.CartesianConstraint`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonraphson:207
+msgid ""
+"\\text{atol} = c \\left|\\left| \\left(\n"
+"    \\varepsilon_x\\ |K(x_n)|\\ |x| + \\varepsilon_K\\ |K(x_n)\\ (X - \\bar{X})|\n"
+"    \\right)_1 \\right|\\right|"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonraphson:214
+msgid ""
+"It is evaluated by the check of the convergence of each iteration and it is "
+"invariant to the units of the model. The machine epsilon "
+":math:`\\varepsilon_x` is the one of the lowest precision of the linear "
+"equation system and of the unknowns and :math:`\\varepsilon_K` is the one of"
+" the precision of the linear equation system, see below. E.g., for fields in"
+" single-precision on a region in double-precision, the deformation gradient "
+"is evaluated in double-precision. For batched Jacobians of local problems at"
+" the quadrature points, e.g. solved by :func:`~felupe.math.solve_2d`, the "
+"absolute tolerance is the upper bound :math:`c\\ \\varepsilon_x\\ "
+"||K(x_n)||\\ ||x||`. A function without a reference norm, i.e. without "
+"prescribed degrees of freedom and without items, is checked by the absolute "
+"tolerance only, e.g. a double root may require a given absolute tolerance. "
+"The norms of the objective function of the iterations, e.g. "
+"``NewtonResult.fnorms``, are relative norms, see Eq. :eq:`newton-fnorm`, "
+"i.e. the iteration has converged if the relative norm is lower than the "
+"relative tolerance."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonraphson:230
+msgid "\\text{norm}(f) = \\frac{||f_1(x)||}{f_\\text{ref} + \\text{atol} / \\text{tol}}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonraphson:235
+msgid ""
+"The reference norm includes the forces between the items and the absolute "
+"tolerance is a bound of the round-off errors of the objective function. "
+"Before, the iteration has converged if :math:`||f_1(x)|| / (10^{-3} + "
+"||f_0(x)||)` was lower than the tolerance, i.e. with an absolute tolerance "
+"of :math:`10^{-3}\\ \\text{tol}` in the units of the objective function. "
+"Hence, e.g. a rigid body motion of a stiff solid body before it gets in "
+"contact did not converge, because the round-off errors of the forces "
+"exceeded the absolute tolerance, and models with small forces converged too "
+"early, because the absolute tolerance exceeded the relative tolerance times "
+"the reaction forces."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonraphson:247
 msgid ""
 "The attainable norm of the objective function is limited by the precision of"
 " its data type and by the precision of the unknowns. An increment which is "
@@ -30345,12 +30511,12 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:158
+#: of felupe.tools._newton.newtonraphson:262
 msgid "\\text{tol} = \\sqrt{\\varepsilon}"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:163
+#: of felupe.tools._newton.newtonraphson:267
 msgid ""
 "This is approximately ``1.490e-8`` for double-precision (``float64``) and "
 "``3.453e-4`` for single-precision (``float32``), e.g. of fields cast to "
@@ -30364,7 +30530,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:172
+#: of felupe.tools._newton.newtonraphson:276
 msgid ""
 "Plugins may modify the update of the unknowns in the ``after_linear_solve`` "
 "hook, see :class:`~felupe.tools.IterationState`. E.g., a backtracking line "
@@ -30373,12 +30539,12 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:177
+#: of felupe.tools._newton.newtonraphson:281
 msgid "x = x_n + \\alpha\\ dx"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:182
+#: of felupe.tools._newton.newtonraphson:286
 msgid ""
 "A plugin with the hook ``after_iteration`` replaces the ``callback`` "
 "(removed in 12.0.0), which was called after each completed iteration. The "
@@ -30392,25 +30558,25 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:214
+#: of felupe.tools._newton.newtonraphson:318
 msgid ""
 "The plugin gets the same values as the callback, after each completed "
 "iteration."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:242
+#: of felupe.tools._newton.newtonraphson:346
 msgid "Newton's method had success"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:247
+#: of felupe.tools._newton.newtonraphson:351
 msgid ""
 "and 4 iterations were needed to converge within the specified tolerance."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:252
+#: of felupe.tools._newton.newtonraphson:356
 msgid ""
 "The norm of the objective function for all active degrees of freedom is "
 "lower than 3e-15."
@@ -30463,19 +30629,18 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.NewtonResult:21
 msgid ""
-"The objective function's norm is relative based on the function values on "
-"the prescribed degrees of freedom :math:`(\\bullet)_0`. A small number "
-":math:`\\varepsilon` is added to avoid numeric instabilities."
+"The norms of the objective function are the norms of the objective function "
+"on the active degrees of freedom :math:`(\\bullet)_1`, relative to the sum "
+"of a reference norm :math:`f_\\text{ref}` and the ratio of the absolute and "
+"the relative tolerances, see :func:`~felupe.newtonraphson`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.NewtonResult:25
+#: of felupe.tools._newton.NewtonResult:26
 msgid ""
 "\\text{norm}(\\boldsymbol{f}) = \\frac{||\\boldsymbol{f}_1||}\n"
-"    {\\varepsilon + ||\\boldsymbol{f}_0||}"
+"    {f_\\text{ref} + \\text{atol} / \\text{tol}}"
 msgstr ""
-"\\text{norm}(\\boldsymbol{f}) = \\frac{||\\boldsymbol{f}_1||}\n"
-"    {\\varepsilon + ||\\boldsymbol{f}_0||}"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.NewtonConvergenceError:3
