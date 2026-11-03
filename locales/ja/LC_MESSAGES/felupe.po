@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-01 00:11+0000\n"
+"POT-Creation-Date: 2026-11-02 19:43+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1143,7 +1143,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
 #: of felupe.assembly.expression._decorator.FormExpressionDecorator:39
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
-#: of felupe.constitution._base.CompositeMaterial:24
+#: of felupe.constitution._base.CompositeMaterial:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
@@ -12262,8 +12262,8 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
 #: of felupe.constitution._base.CompositeMaterial:1
 msgid ""
-"A composite material with two constitutive materials merged. State variables"
-" are only considered for the first material."
+"A composite material with two constitutive materials merged. Each material "
+"keeps its own state variables."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
@@ -12279,12 +12279,29 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
 #: of felupe.constitution._base.CompositeMaterial:11
 msgid ""
+"The state variables of the composite material are the flattened state "
+"variables of the first material, followed by the flattened state variables "
+"of the second material, i.e. the size of the state variables is the sum of "
+"the sizes of the state variables of both materials. The state variables are "
+"split for the evaluation of the materials and the updated state variables of"
+" both materials are concatenated again. Hence, the order of the materials "
+"doesn't matter, e.g. ``nh & viscoelastic`` and ``viscoelastic & nh`` are "
+"equal, and several materials with state variables are supported, also nested"
+" composite materials like ``a & b & c``. If the state variables are not "
+"given (None) or if the input list contains only one array, the input list is"
+" passed to both materials and the state variables of the first material are "
+"returned."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
+#: of felupe.constitution._base.CompositeMaterial:23
+msgid ""
 "The gradients and the hessians are evaluated in chunks of cells, by a pool "
 "of threads if any of the materials is parallel."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
-#: of felupe.constitution._base.CompositeMaterial:14
+#: of felupe.constitution._base.CompositeMaterial:26
 msgid ""
 "The composite material is time-dependent if any of the materials is time-"
 "dependent (attribute ``time_dependent``). The time increment ``dtime`` is "
@@ -12293,7 +12310,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
-#: of felupe.constitution._base.CompositeMaterial:19
+#: of felupe.constitution._base.CompositeMaterial:31
 msgid ""
 "Do not merge two constitutive materials with the same keys of material "
 "parameters. In this case, the values of these material parameters are taken "
