@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 19:43+0000\n"
+"POT-Creation-Date: 2026-11-04 00:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -32302,12 +32302,13 @@ msgstr ""
 #: of felupe.view._backends._webgl._backend.WebGLPlotter.show:5
 msgid ""
 "The filename of the HTML file (default is None). If None, a temporary file "
-"is written (outside of a notebook) in the folder ``felupe`` of the temporary"
-" directory, where the pages older than a day are removed."
+"is written (outside of a notebook) in the private folder ``felupe-<uid>`` of"
+" the temporary directory with the id of the user (``felupe`` on Windows), "
+"where the pages older than a day are removed."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
-#: of felupe.view._backends._webgl._backend.WebGLPlotter.show:10
+#: of felupe.view._backends._webgl._backend.WebGLPlotter.show:11
 msgid "The path of the HTML file (or None in a notebook)."
 msgstr ""
 
