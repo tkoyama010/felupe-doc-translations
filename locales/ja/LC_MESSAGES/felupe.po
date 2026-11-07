@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-05 00:10+0000\n"
+"POT-Creation-Date: 2026-11-07 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -232,7 +232,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/quadrature.rst:32
 #: ../../felupe/docs/felupe/region.rst:39
 #: ../../felupe/docs/felupe/thermal.rst:28
-#: ../../felupe/docs/felupe/tools.rst:50 ../../felupe/docs/felupe/view.rst:34
+#: ../../felupe/docs/felupe/tools.rst:50 ../../felupe/docs/felupe/view.rst:35
 msgid "**Detailed API Reference**"
 msgstr ""
 
@@ -503,13 +503,14 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
 #: of felupe.view._field.ViewField:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
-#: of felupe.view._mesh.ViewMesh:0
+#: of felupe.view._mesh.ViewMesh.clip:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
 #: of felupe.view._mesh_select_edge_points.select_edge_points:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
 #: of felupe.view._mesh_select_surface_points.select_surface_points:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_solid.pydocstring
-#: of felupe.view._solid.ViewSolid:0
+#: of felupe.view._solid.ViewSolid:0 ../internal padding after
+#: /home/runner/work/felupe-doc-translations/felupe-doc-translations/felupe/docs/felupe/view.rst:0
 msgid "Parameters"
 msgstr ""
 
@@ -1025,9 +1026,11 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
 #: of felupe.view._backends._matplotlib.MatplotlibPlotter:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
-#: of felupe.view._backends._registry.set_plotting_backend:13
+#: of felupe.view._backends._registry.set_plotting_backend:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
 #: of felupe.view._backends._webgl._backend.WebGLPlotter:30
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh.clip:35
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
 #: of felupe.view._mesh_select_edge_points.select_edge_points:43
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
@@ -1715,13 +1718,15 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
 #: of felupe.view._backends._matplotlib.MatplotlibPlotter:65
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
-#: of felupe.view._backends._registry.set_plotting_backend:50
+#: of felupe.view._backends._registry.set_plotting_backend:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
 #: of felupe.view._backends._webgl._backend.WebGLPlotter:45
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
 #: of felupe.view._field.ViewField:60
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
 #: of felupe.view._mesh.ViewMesh:52
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh.clip:40
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
 #: of felupe.view._mesh_select_edge_points.select_edge_points:59
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
@@ -2307,6 +2312,8 @@ msgstr ""
 #: of felupe.view._mesh_select_edge_points.select_edge_points:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
 #: of felupe.view._mesh_select_surface_points.select_surface_points:0
+#: ../internal padding after
+#: /home/runner/work/felupe-doc-translations/felupe-doc-translations/felupe/docs/felupe/view.rst:0
 msgid "Returns"
 msgstr ""
 
@@ -2450,6 +2457,8 @@ msgstr ""
 #: of felupe.view._mesh_select_edge_points.select_edge_points:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
 #: of felupe.view._mesh_select_surface_points.select_surface_points:0
+#: ../internal padding after
+#: /home/runner/work/felupe-doc-translations/felupe-doc-translations/felupe/docs/felupe/view.rst:0
 msgid "Return type"
 msgstr ""
 
@@ -31409,13 +31418,15 @@ msgstr ""
 msgid "**Plotting Backends**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:34:<autosummary>:1
 msgid ":py:obj:`set_plotting_backend <felupe.set_plotting_backend>`\\ \\(name\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:34:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
 #: of felupe.view._backends._base.PlottingBackend:65
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.auto_plotting_backend:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
 #: of felupe.view._backends._registry.get_plotting_backend:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
@@ -31425,39 +31436,52 @@ msgstr ""
 msgid "Set the current plotting backend by its name."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:34:<autosummary>:1
 msgid ":py:obj:`get_plotting_backend <felupe.get_plotting_backend>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:34:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
 #: of felupe.view._backends._base.PlottingBackend:68
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
 #: of felupe.view._backends._registry.get_plotting_backend:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
-#: of felupe.view._backends._registry.set_plotting_backend:68
+#: of felupe.view._backends._registry.set_plotting_backend:78
 msgid "Return the name of the current plotting backend."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:34:<autosummary>:1
+msgid ""
+":py:obj:`view.auto_plotting_backend <felupe.view.auto_plotting_backend>`\\ "
+"\\(\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:34:<autosummary>:1
+msgid ""
+"Return the name of the plotting backend which is selected automatically by "
+"the installed optional dependencies: ``\"pyvista\"`` if PyVista is "
+"installed, otherwise ``\"webgl\"``, which requires no optional dependency."
+msgstr ""
+
+#: ../../felupe/docs/felupe/view.rst:34:<autosummary>:1
 msgid ""
 ":py:obj:`view.register_plotting_backend "
 "<felupe.view.register_plotting_backend>`\\ \\(name\\, backend\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:34:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
 #: of felupe.view._backends._base.PlottingBackend:71
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
-#: of felupe.view._backends._registry.set_plotting_backend:71
+#: of felupe.view._backends._registry.set_plotting_backend:81
 msgid "Register a plotting backend by a name."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:34:<autosummary>:1
 msgid ":py:obj:`view.PlottingBackend <felupe.view.PlottingBackend>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:34:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
 #: of felupe.view._backends._base.PlottingBackend:1
 msgid ""
@@ -31467,11 +31491,11 @@ msgid ""
 ":meth:`SolidBody.plot() <felupe.SolidBody.plot>`."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:34:<autosummary>:1
 msgid ":py:obj:`view.WebGLPlotter <felupe.view.WebGLPlotter>`\\ \\(\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:34:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
 #: of felupe.view._backends._webgl._backend.WebGLPlotter:1
 msgid ""
@@ -31479,13 +31503,13 @@ msgid ""
 " the web browser by a WebGL viewer."
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:34:<autosummary>:1
 msgid ""
 ":py:obj:`view.MatplotlibPlotter <felupe.view.MatplotlibPlotter>`\\ "
 "\\(\\[ax\\, off\\_screen\\]\\)"
 msgstr ""
 
-#: ../../felupe/docs/felupe/view.rst:33:<autosummary>:1
+#: ../../felupe/docs/felupe/view.rst:34:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_matplotlib.pydocstring
 #: of felupe.view._backends._matplotlib.MatplotlibPlotter:1
 msgid ""
@@ -31639,6 +31663,75 @@ msgstr ""
 msgid ":py:obj:`felupe.view.Scene`"
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh.clip:1
+msgid "Clip the scene by a plane and return the clipped scene."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh.clip:3
+msgid ""
+"The arguments are those of :meth:`pyvista.DataSetFilters.clip`. By default, "
+"the clip is crinkled, i.e. the cells are kept as a whole and not cut by the "
+"plane. All cells with at least one point on the kept side of the plane are "
+"kept, together with their point- and cell-data. Unused points are removed. "
+"The crinkled clip is evaluated by NumPy and it is supported by all plotting "
+"backends."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh.clip:10
+msgid ""
+"The normal vector of the plane, e.g. ``\"x\"``, ``\"-y\"`` or ``(1, 1, 0)`` "
+"(default is ``\"x\"``). A given vector is normalized."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh.clip:13
+msgid ""
+"A point on the plane (default is None). If None, the center of the bounds of"
+" the points is used."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh.clip:16
+msgid ""
+"A flag to keep the part of the scene behind the plane, i.e. on the opposite "
+"side of the normal vector (default is True). If False, the part in front of "
+"the plane is kept."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh.clip:20
+msgid ""
+"The plane is shifted by this value along the (normalized) normal vector "
+"(default is 0.0)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh.clip:23
+msgid ""
+"A flag to keep the clipped cells as a whole (default is True). If False, the"
+" cells are cut by the plane by :meth:`pyvista.DataSetFilters.clip`. This "
+"requires PyVista and the clipped scene is only supported by the plotting "
+"backend ``\"pyvista\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh.clip:29
+msgid ""
+"The clipped scene. A crinkled clip returns a scene of the same class, e.g. a"
+" :class:`~felupe.ViewField`, otherwise a :class:`~felupe.view.Scene` with "
+"the clipped mesh as :class:`pyvista.UnstructuredGrid`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh.pydocstring
+#: of felupe.view._mesh.ViewMesh.clip:36
+msgid ""
+"The scene is clipped in the undeformed configuration, i.e. the points of the"
+" mesh are not displaced by the point-data ``\"Displacement\"``."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_field.pydocstring
 #: of felupe.view._field.ViewField:1
 msgid ""
@@ -31729,17 +31822,22 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
 #: of felupe.view._backends._registry.set_plotting_backend:6
 msgid ""
-"The name of a registered plotting backend. Available are ``\"pyvista\"`` "
-"(default), ``\"webgl\"`` and ``\"matplotlib\"``."
+"The name of a registered plotting backend. Available are ``\"pyvista\"``, "
+"``\"webgl\"`` and ``\"matplotlib\"``. If None, the plotting backend is "
+"selected automatically: ``\"pyvista\"`` if PyVista is installed, otherwise "
+"``\"webgl\"`` (which requires no optional dependency). The plotting backend "
+"``\"matplotlib\"`` is only selected by its name. The selected name is "
+"returned by :func:`~felupe.get_plotting_backend`. The default plotting "
+"backend, i.e. on import of FElupe, is selected automatically."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
-#: of felupe.view._backends._registry.set_plotting_backend:10
+#: of felupe.view._backends._registry.set_plotting_backend:15
 msgid "If no plotting backend is registered with the given name."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
-#: of felupe.view._backends._registry.set_plotting_backend:14
+#: of felupe.view._backends._registry.set_plotting_backend:19
 msgid ""
 "The plotting backend ``\"pyvista\"`` draws the plots by "
 ":class:`pyvista.Plotter` (with screenshots, e.g. for "
@@ -31747,7 +31845,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
-#: of felupe.view._backends._registry.set_plotting_backend:17
+#: of felupe.view._backends._registry.set_plotting_backend:22
 msgid ""
 "The plotting backend ``\"webgl\"`` draws the plots by a WebGL viewer in the "
 "web browser, without PyVista. Its plotter has the methods "
@@ -31766,7 +31864,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
-#: of felupe.view._backends._registry.set_plotting_backend:31
+#: of felupe.view._backends._registry.set_plotting_backend:36
 msgid ""
 "The plotting backend ``\"matplotlib\"`` draws the plots on the axes of a "
 "figure of matplotlib, without PyVista. Its plotter, a "
@@ -31788,17 +31886,24 @@ msgid ""
 "warning once) are not supported."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.set_plotting_backend:70
+msgid ""
+"The plotting backend is selected automatically by the installed optional "
+"dependencies, e.g. ``\"pyvista\"`` if PyVista is installed."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
 #: of felupe.view._backends._base.PlottingBackend:67
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
-#: of felupe.view._backends._registry.set_plotting_backend:67
+#: of felupe.view._backends._registry.set_plotting_backend:77
 msgid ":py:obj:`felupe.get_plotting_backend`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
 #: of felupe.view._backends._base.PlottingBackend:70
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
-#: of felupe.view._backends._registry.set_plotting_backend:70
+#: of felupe.view._backends._registry.set_plotting_backend:80
 msgid ":py:obj:`felupe.view.register_plotting_backend`"
 msgstr ""
 
@@ -31810,12 +31915,29 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_base.pydocstring
 #: of felupe.view._backends._base.PlottingBackend:64
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.auto_plotting_backend:11
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
 #: of felupe.view._backends._registry.get_plotting_backend:8
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
 #: of felupe.view._backends._registry.register_plotting_backend:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_webgl/_backend.pydocstring
 #: of felupe.view._backends._webgl._backend.WebGLPlotter:61
 msgid ":py:obj:`felupe.set_plotting_backend`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.auto_plotting_backend:1
+msgid ""
+"Return the name of the plotting backend which is selected automatically by "
+"the installed optional dependencies: ``\"pyvista\"`` if PyVista is "
+"installed, otherwise ``\"webgl\"``, which requires no optional dependency. "
+"PyVista is not imported. The plotting backend ``\"matplotlib\"`` is never "
+"selected automatically."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring
+#: of felupe.view._backends._registry.auto_plotting_backend:6
+msgid "The name of the plotting backend."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_backends/_registry.pydocstring

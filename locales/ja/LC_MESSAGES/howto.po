@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-31 00:09+0000\n"
+"POT-Creation-Date: 2026-11-07 00:09+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -653,6 +653,18 @@ msgstr ""
 
 #: ../../felupe/docs/howto/plotting.rst:19
 msgid ""
+"The default plotting backend is selected automatically on import of FElupe: "
+"``\"pyvista\"`` if PyVista is installed, otherwise ``\"webgl\"``. The "
+"plotting backend ``\"webgl\"`` requires no optional dependency (only its "
+"Jupyter widget requires anywidget), i.e. there is always a plotting backend "
+"available. The plotting backend ``\"matplotlib\"`` is only selected by its "
+"name. The automatic selection is restored by "
+"``fem.set_plotting_backend(None)``, e.g. after PyVista was installed in a "
+"running notebook."
+msgstr ""
+
+#: ../../felupe/docs/howto/plotting.rst:32
+msgid ""
 "The arguments of the plot-methods are the same for all plotting backends, "
 "e.g. the name and the component of the scalars, the scale ``factor`` of the "
 "deformation, the ``view`` or ``nonlinear_subdivision`` for curved faces of "
@@ -661,82 +673,82 @@ msgid ""
 "once in the other plotting backends and they are ignored."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:28
+#: ../../felupe/docs/howto/plotting.rst:41
 msgid "Plotting backend"
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:29
+#: ../../felupe/docs/howto/plotting.rst:42
 msgid "Draws by"
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:30
+#: ../../felupe/docs/howto/plotting.rst:43
 msgid "Interactive"
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:31
+#: ../../felupe/docs/howto/plotting.rst:44
 msgid "Screenshots"
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:32
+#: ../../felupe/docs/howto/plotting.rst:45
 #: ../../felupe/docs/howto/plugins.rst:40
 msgid "Optional dependencies"
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:33
-msgid "``\"pyvista\"`` (default)"
-msgstr ""
-
-#: ../../felupe/docs/howto/plotting.rst:34
-msgid ":class:`pyvista.Plotter`, in a window or in a notebook"
-msgstr ""
-
-#: ../../felupe/docs/howto/plotting.rst:35
-#: ../../felupe/docs/howto/plotting.rst:40
-msgid "yes"
-msgstr ""
-
-#: ../../felupe/docs/howto/plotting.rst:36
-msgid "raster formats (PNG)"
-msgstr ""
-
-#: ../../felupe/docs/howto/plotting.rst:37
-msgid "``felupe[view]``"
-msgstr ""
-
-#: ../../felupe/docs/howto/plotting.rst:38
-msgid "``\"webgl\"``"
-msgstr ""
-
-#: ../../felupe/docs/howto/plotting.rst:39
-msgid "a WebGL viewer in the web browser (a self-contained HTML page)"
-msgstr ""
-
-#: ../../felupe/docs/howto/plotting.rst:41
-#: ../../felupe/docs/howto/plotting.rst:45
-msgid "no"
-msgstr ""
-
-#: ../../felupe/docs/howto/plotting.rst:42
-msgid "``felupe[web]`` (only for the Jupyter widget)"
-msgstr ""
-
-#: ../../felupe/docs/howto/plotting.rst:43
-msgid "``\"matplotlib\"``"
-msgstr ""
-
-#: ../../felupe/docs/howto/plotting.rst:44
-msgid "the axes of a figure of matplotlib"
-msgstr ""
-
 #: ../../felupe/docs/howto/plotting.rst:46
-msgid "raster and vector formats (PNG, PDF, SVG, EPS), off-screen"
+msgid "``\"pyvista\"`` (default if installed)"
 msgstr ""
 
 #: ../../felupe/docs/howto/plotting.rst:47
-msgid "``felupe[plot]``"
+msgid ":class:`pyvista.Plotter`, in a window or in a notebook"
+msgstr ""
+
+#: ../../felupe/docs/howto/plotting.rst:48
+#: ../../felupe/docs/howto/plotting.rst:53
+msgid "yes"
 msgstr ""
 
 #: ../../felupe/docs/howto/plotting.rst:49
+msgid "raster formats (PNG)"
+msgstr ""
+
+#: ../../felupe/docs/howto/plotting.rst:50
+msgid "``felupe[view]``"
+msgstr ""
+
+#: ../../felupe/docs/howto/plotting.rst:51
+msgid "``\"webgl\"`` (default otherwise)"
+msgstr ""
+
+#: ../../felupe/docs/howto/plotting.rst:52
+msgid "a WebGL viewer in the web browser (a self-contained HTML page)"
+msgstr ""
+
+#: ../../felupe/docs/howto/plotting.rst:54
+#: ../../felupe/docs/howto/plotting.rst:58
+msgid "no"
+msgstr ""
+
+#: ../../felupe/docs/howto/plotting.rst:55
+msgid "``felupe[web]`` (only for the Jupyter widget)"
+msgstr ""
+
+#: ../../felupe/docs/howto/plotting.rst:56
+msgid "``\"matplotlib\"``"
+msgstr ""
+
+#: ../../felupe/docs/howto/plotting.rst:57
+msgid "the axes of a figure of matplotlib"
+msgstr ""
+
+#: ../../felupe/docs/howto/plotting.rst:59
+msgid "raster and vector formats (PNG, PDF, SVG, EPS), off-screen"
+msgstr ""
+
+#: ../../felupe/docs/howto/plotting.rst:60
+msgid "``felupe[plot]``"
+msgstr ""
+
+#: ../../felupe/docs/howto/plotting.rst:62
 msgid ""
 "Use the plotting backend ``\"pyvista\"`` for an interactive exploration of a"
 " model in a window or in a notebook, the plotting backend ``\"webgl\"`` for "
@@ -746,15 +758,15 @@ msgid ""
 "pipeline) or a model together with other plots in one figure."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:55
+#: ../../felupe/docs/howto/plotting.rst:68
 msgid "The examples of this section use the following model."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:77
+#: ../../felupe/docs/howto/plotting.rst:90
 msgid "PyVista"
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:79
+#: ../../felupe/docs/howto/plotting.rst:92
 msgid ""
 "The plotting backend ``\"pyvista\"`` is the default plotting backend. A "
 "plot-method returns a :class:`pyvista.Plotter`, i.e. the plot may be "
@@ -764,11 +776,11 @@ msgid ""
 " only supported by this plotting backend."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:102
+#: ../../felupe/docs/howto/plotting.rst:115
 msgid "WebGL"
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:104
+#: ../../felupe/docs/howto/plotting.rst:117
 msgid ""
 "The plotting backend ``\"webgl\"`` draws the plots by a dependency-free "
 "WebGL viewer in the web browser, without PyVista. The plotter, a "
@@ -782,7 +794,7 @@ msgid ""
 ":class:`~felupe.DashboardWidgetPlugin`, uses the same viewer."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:121
+#: ../../felupe/docs/howto/plotting.rst:134
 msgid ""
 "In a notebook, :meth:`~felupe.view.WebGLPlotter.widget` returns a Jupyter "
 "widget of the viewer, e.g. for a layout of widgets. This requires the "
@@ -790,11 +802,11 @@ msgid ""
 " are not supported by this plotting backend."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:135
+#: ../../felupe/docs/howto/plotting.rst:148
 msgid "Matplotlib"
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:137
+#: ../../felupe/docs/howto/plotting.rst:150
 msgid ""
 "The plotting backend ``\"matplotlib\"`` draws the plots on the axes of a "
 "figure of matplotlib, without PyVista. The plotter, a "
@@ -803,7 +815,7 @@ msgid ""
 "window or as image in the output of a cell of a notebook."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:171
+#: ../../felupe/docs/howto/plotting.rst:184
 msgid ""
 "The screenshots are taken off-screen, i.e. without a display and without a "
 "figure of pyplot. The format of the file is given by the suffix of the "
@@ -813,7 +825,7 @@ msgid ""
 " publication."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:182
+#: ../../felupe/docs/howto/plotting.rst:195
 msgid ""
 "Axes of matplotlib are accepted as plotter, i.e. a model may be drawn "
 "together with other plots in one figure, e.g. with its force-displacement "
@@ -822,7 +834,7 @@ msgid ""
 "<matplotlib.figure.Figure.savefig>`, e.g. in a vector format."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:207
+#: ../../felupe/docs/howto/plotting.rst:220
 msgid ""
 "The faces are drawn as polygons with a flat color each, in the order of "
 "their depths (painter's algorithm), and the faces on the back of closed "
@@ -837,11 +849,11 @@ msgid ""
 "the scalar bars, the legend and the text stay vector graphics."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:225
+#: ../../felupe/docs/howto/plotting.rst:238
 msgid "Combine Plots"
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:227
+#: ../../felupe/docs/howto/plotting.rst:240
 msgid ""
 "The plotter of a plot-method is passed to other plot-methods by the argument"
 " ``plotter``, e.g. to draw the boundary conditions or a point load on top of"
@@ -850,11 +862,11 @@ msgid ""
 " the current plotting backend."
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:240
+#: ../../felupe/docs/howto/plotting.rst:253
 msgid "Custom Plotting Backends"
 msgstr ""
 
-#: ../../felupe/docs/howto/plotting.rst:242
+#: ../../felupe/docs/howto/plotting.rst:255
 msgid ""
 "A custom plotting backend is a subclass of "
 ":class:`~felupe.view.PlottingBackend`. It implements the methods "
