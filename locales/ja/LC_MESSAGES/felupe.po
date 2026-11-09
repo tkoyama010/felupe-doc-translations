@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 00:09+0000\n"
+"POT-Creation-Date: 2026-11-09 00:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -755,6 +755,8 @@ msgstr ""
 #: of felupe.constitution.tensortrax.models.lagrange._becker.becker:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_morph.pydocstring
 #: of felupe.constitution.tensortrax.models.lagrange._morph.morph:12
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary:65
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:51
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -1347,7 +1349,7 @@ msgstr ""
 #: of
 #: felupe.constitution.tensortrax.models.lagrange._morph_representative_directions.morph_representative_directions:17
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:64
+#: of felupe.dof._boundary.Boundary:77
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -1573,7 +1575,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._discrete_geometry.DiscreteGeometry.update:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:55
+#: of felupe.mesh._mesh.Mesh:59
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.add_midpoints_edges:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
@@ -2562,7 +2564,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
 #: of felupe.assembly.expression._decorator.FormExpressionDecorator:125
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:201
+#: of felupe.dof._boundary.Boundary:231
 msgid ":py:obj:`felupe.FormItem`"
 msgstr ""
 
@@ -2641,7 +2643,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:48
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:55
+#: of felupe.dof._boundary.Boundary:56
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._boundary.RegionBoundary:42
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
@@ -13162,22 +13164,48 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
 #: of felupe.dof._boundary.Boundary:52
 msgid ""
-"1d-array of ints which contains the point ids on which one or more degrees "
-"of freedom are prescribed."
+"1d-array of ints. It contains the ids of the points that have one or more "
+"prescribed degrees of freedom. These are not the point coordinates. Refer to"
+" the notes."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:59
+#: of felupe.dof._boundary.Boundary:60
 msgid "Value of the selected (prescribed) degrees of freedom."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:61
+#: of felupe.dof._boundary.Boundary:62
 msgid "ndarray or float"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:65
+#: of felupe.dof._boundary.Boundary:66
+msgid "In FElupe, the name ``points`` has two meanings:"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary:68
+msgid "For a :class:`~felupe.Mesh`, ``points`` are the point coordinates."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary:69
+msgid ""
+"For an object that refers to a mesh, ``points`` are the point ids. Examples "
+"are a :class:`~felupe.Boundary`, a :class:`~felupe.PointLoad` and a "
+":class:`~felupe.MultiPointConstraint`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary:73
+msgid ""
+"To get the point coordinates of a boundary, use its point ids as an index: "
+"``mesh.points[boundary.points]``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary:78
 msgid ""
 "A boundary condition prescribes values for chosen degrees of freedom of a "
 "given field (**not** a field container). This is demonstrated for a vector "
@@ -13185,7 +13213,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:80
+#: of felupe.dof._boundary.Boundary:93
 msgid ""
 "A boundary on the displacement field which prescribes all components of the "
 "field on the outermost right point of the circle is created. The easiest way"
@@ -13194,18 +13222,25 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:94
+#: of felupe.dof._boundary.Boundary:107
+msgid ""
+"The ``points`` of a boundary are point ids. Use them as an index to get the "
+"point coordinates."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
+#: of felupe.dof._boundary.Boundary:124
 msgid ""
 "If ``fx`` and ``fy`` are given, the masks are combined by *logical-or*."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:103
+#: of felupe.dof._boundary.Boundary:133
 msgid "This may be changed to *logical-and* if desired."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:112
+#: of felupe.dof._boundary.Boundary:142
 msgid ""
 "For the most-general case, a user-defined boolean mask for the selection of "
 "the mesh-points is provided. While the two upper methods are useful to "
@@ -13215,14 +13250,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:126
+#: of felupe.dof._boundary.Boundary:156
 msgid ""
 "The application of a new mask allows to change the selected points of an "
 "existing boundary condition."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:138
+#: of felupe.dof._boundary.Boundary:168
 msgid ""
 "The mesh-points of a boundary condition may also be selected interactively, "
 "either by surface patches or by edge patches of the mesh, see "
@@ -13234,7 +13269,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:150
+#: of felupe.dof._boundary.Boundary:180
 msgid ""
 "Alternatively, the points of an existing boundary condition are selected "
 "afterwards. This replaces the previously selected points, the skipped axes "
@@ -13244,7 +13279,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:162
+#: of felupe.dof._boundary.Boundary:192
 msgid ""
 "A boundary condition may be skipped on given axes, i.e. if only the "
 "x-components of a field should be prescribed on the selected points, then "
@@ -13252,14 +13287,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:173
+#: of felupe.dof._boundary.Boundary:203
 msgid ""
 "Values for the prescribed degrees of freedom are either applied during "
 "creation or by the update-method."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:185
+#: of felupe.dof._boundary.Boundary:215
 msgid ""
 "Sometimes it is useful to create a boundary with all axes skipped. This "
 "boundary has no prescribed degrees of freedom and hence, is without effect. "
@@ -13268,17 +13303,17 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:192
+#: of felupe.dof._boundary.Boundary:222
 msgid ":py:obj:`felupe.CharacteristicCurve`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:193
+#: of felupe.dof._boundary.Boundary:223
 msgid "A job with a boundary to be tracked."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:195
+#: of felupe.dof._boundary.Boundary:225
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:158
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -13291,7 +13326,7 @@ msgid ":py:obj:`felupe.dof.partition`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:196
+#: of felupe.dof._boundary.Boundary:226
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:159
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -13304,7 +13339,7 @@ msgid "Partition degrees of freedom into prescribed and active dof."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:198
+#: of felupe.dof._boundary.Boundary:228
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:161
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -13317,7 +13352,7 @@ msgid ":py:obj:`felupe.dof.apply`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:199
+#: of felupe.dof._boundary.Boundary:229
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
 #: of felupe.dof._loadcase.biaxial:162
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
@@ -13330,7 +13365,7 @@ msgid "Apply prescribed values for a list of boundaries."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_boundary.pydocstring
-#: of felupe.dof._boundary.Boundary:202
+#: of felupe.dof._boundary.Boundary:232
 msgid "Create boundaries by weak forms."
 msgstr ""
 
@@ -25126,7 +25161,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_container.pydocstring
 #: of felupe.mesh._container.MeshContainer.from_unstructured_grid:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:96
+#: of felupe.mesh._mesh.Mesh:100
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.merge_duplicate_points:88
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
@@ -25167,7 +25202,7 @@ msgstr ":py:obj:`Rectangle <felupe.Rectangle>`\\ \\(\\[a\\, b\\, n\\]\\)"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
 #: of felupe.mesh._geometry.Rectangle:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:99
+#: of felupe.mesh._mesh.Mesh:103
 msgid ""
 "A rectangular 2d-mesh with quads between ``a`` and ``b`` with ``n`` points "
 "per axis."
@@ -25181,7 +25216,7 @@ msgstr ":py:obj:`Cube <felupe.Cube>`\\ \\(\\[a\\, b\\, n\\]\\)"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
 #: of felupe.mesh._geometry.Cube:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:102
+#: of felupe.mesh._mesh.Mesh:106
 msgid ""
 "A cube shaped 3d-mesh with hexahedrons between ``a`` and ``b`` with ``n`` "
 "points per axis."
@@ -25221,7 +25256,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
 #: of felupe.mesh._geometry.Triangle:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:111
+#: of felupe.mesh._mesh.Mesh:115
 msgid ""
 "A triangular shaped 2d-mesh with quads and ``n`` points at the edges of the "
 "three sub-quadrilaterals."
@@ -25812,12 +25847,20 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh:33
 msgid ""
+"Other objects that refer to a mesh also have ``points``, for example a "
+":class:`~felupe.Boundary`. For these objects, ``points`` are point ids, not "
+"point coordinates."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh:37
+msgid ""
 "Topologic cell connectivies are stored inside the ``cells``-array, see Eq. "
 ":eq:`cells`,"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:36
+#: of felupe.mesh._mesh.Mesh:40
 msgid ""
 "\\boldsymbol{t} = \\begin{bmatrix}\n"
 "    \\boldsymbol{t}_1^T \\\\\n"
@@ -25828,14 +25871,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:46
+#: of felupe.mesh._mesh.Mesh:50
 msgid ""
 "with an exemplaric topologic cell-connectivity of a :class:`~felupe.Quad`, "
 "as shown in Eq. :eq:`cell`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:49
+#: of felupe.mesh._mesh.Mesh:53
 msgid "\\boldsymbol{t}_1^T = \\begin{bmatrix} 0 & 1 & 2 & 3 \\end{bmatrix}"
 msgstr ""
 
@@ -25851,7 +25894,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.merge_duplicate_points:107
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:95
+#: of felupe.mesh._mesh.Mesh:99
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._mesh.Mesh.merge_duplicate_points:87
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
@@ -25860,38 +25903,38 @@ msgid ":py:obj:`felupe.MeshContainer`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:98
+#: of felupe.mesh._mesh.Mesh:102
 msgid ":py:obj:`felupe.Rectangle`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:101
+#: of felupe.mesh._mesh.Mesh:105
 msgid ":py:obj:`felupe.Cube`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:104
+#: of felupe.mesh._mesh.Mesh:108
 msgid ":py:obj:`felupe.Grid`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
 #: of felupe.mesh._geometry.Grid:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:105
+#: of felupe.mesh._mesh.Mesh:109
 msgid ""
 "A grid shaped 3d-mesh with hexahedrons. Basically a wrapper for "
 ":func:`numpy.meshgrid` with  default ``indexing=\"ij\"``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:107
+#: of felupe.mesh._mesh.Mesh:111
 msgid ":py:obj:`felupe.Circle`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_geometry.pydocstring
 #: of felupe.mesh._geometry.Circle:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:108
+#: of felupe.mesh._mesh.Mesh:112
 msgid ""
 "A circular shaped 2d-mesh with quads and ``n`` points on the circumferential"
 " edge of a 45-degree section. 90-degree ``sections`` are placed at given "
@@ -25899,7 +25942,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh:110
+#: of felupe.mesh._mesh.Mesh:114
 msgid ":py:obj:`felupe.mesh.Triangle`"
 msgstr ""
 
