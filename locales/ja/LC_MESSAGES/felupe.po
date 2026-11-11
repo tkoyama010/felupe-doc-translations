@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-09 00:11+0000\n"
+"POT-Creation-Date: 2026-11-11 00:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -232,7 +232,7 @@ msgstr ""
 #: ../../felupe/docs/felupe/quadrature.rst:32
 #: ../../felupe/docs/felupe/region.rst:39
 #: ../../felupe/docs/felupe/thermal.rst:28
-#: ../../felupe/docs/felupe/tools.rst:50 ../../felupe/docs/felupe/view.rst:35
+#: ../../felupe/docs/felupe/tools.rst:51 ../../felupe/docs/felupe/view.rst:35
 msgid "**Detailed API Reference**"
 msgstr ""
 
@@ -496,6 +496,12 @@ msgstr ""
 #: of felupe.tools._newton.embed:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonraphson:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.curve:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.force:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.topoints:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_save.pydocstring
@@ -840,11 +846,17 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.dev:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.dot:22
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.dya:19
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.eig:22
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.eigh:24
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvals:17
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvalsh:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.equivalent_von_mises:11
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -859,6 +871,8 @@ msgstr ""
 #: of felupe.math._tensor.tovoigt:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.trace:12
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.transpose:16
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
 #: of felupe.mechanics._cartesian.CartesianConstraint:43
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
@@ -1019,6 +1033,10 @@ msgstr ""
 #: of felupe.tools._newton.embed:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonraphson:94
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.curve:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.project:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
@@ -1433,11 +1451,17 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.dev:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.dot:27
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.dya:41
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.eig:28
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.eigh:30
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvals:22
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvalsh:20
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.equivalent_von_mises:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -1452,6 +1476,8 @@ msgstr ""
 #: of felupe.math._tensor.tovoigt:34
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.trace:26
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.transpose:23
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
 #: of felupe.mechanics._cartesian.CartesianConstraint:76
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_contact/_base.pydocstring
@@ -1711,6 +1737,12 @@ msgstr ""
 #: of felupe.tools._newton.NewtonConvergenceError:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonraphson:321
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.curve:21
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.force:21
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:44
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.project:90
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_save.pydocstring
@@ -2308,6 +2340,12 @@ msgstr ""
 #: of felupe.tools._newton.embed:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonraphson:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.curve:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.force:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.topoints:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
@@ -2453,6 +2491,10 @@ msgstr ""
 #: of felupe.tools._newton.embed:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonraphson:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.force:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
 #: of felupe.tools._project.topoints:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
@@ -17117,7 +17159,8 @@ msgstr ":py:obj:`math.eigvals <felupe.math.eigvals>`\\ \\(a\\[\\, shear\\, eigva
 #: ../../felupe/docs/felupe/math.rst:59:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.eigvals:1
-msgid "Eigenvalues (and optional principal shear values) of a matrix A."
+msgid ""
+"Return the eigenvalues (and optional principal shear values) of a matrix A."
 msgstr ""
 
 #: ../../felupe/docs/felupe/math.rst:59:<autosummary>:1
@@ -17128,7 +17171,8 @@ msgstr ":py:obj:`math.eigvalsh <felupe.math.eigvalsh>`\\ \\(A\\[\\, shear\\]\\)"
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.eigvalsh:1
 msgid ""
-"Eigenvalues (and optional principal shear values) of a symmetric matrix A."
+"Return the eigenvalues (and optional principal shear values) of a symmetric "
+"matrix A."
 msgstr ""
 
 #: ../../felupe/docs/felupe/math.rst:59:<autosummary>:1
@@ -17153,7 +17197,8 @@ msgstr ":py:obj:`math.transpose <felupe.math.transpose>`\\ \\(A\\[\\, mode\\]\\)
 #: ../../felupe/docs/felupe/math.rst:59:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.transpose:1
-msgid "Transpose (mode=1) or major-transpose (mode=2) of matrix A."
+msgid ""
+"Return the transpose (mode=1) or major transpose (mode=2) of a matrix A."
 msgstr ""
 
 #: ../../felupe/docs/felupe/math.rst:59:<autosummary>:1
@@ -17217,7 +17262,7 @@ msgstr ":py:obj:`math.dot <felupe.math.dot>`\\ \\(A\\, B\\[\\, mode\\, parallel\
 #: ../../felupe/docs/felupe/math.rst:59:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.dot:1
-msgid "Dot-product of A and B with inputs of n trailing axes.."
+msgid "Return the dot products of first- to fourth-order tensors."
 msgstr ""
 
 #: ../../felupe/docs/felupe/math.rst:59:<autosummary>:1
@@ -17284,6 +17329,8 @@ msgstr ""
 #: of felupe.math._tensor.cdya_il:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.cdya_il:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvals:3
 msgid "Array with second-order tensors."
 msgstr ""
 
@@ -17295,6 +17342,8 @@ msgstr ""
 #: of felupe.math._tensor.cdya_il:7
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.ddot:12
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.dot:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.dya:10
 msgid ""
@@ -17309,6 +17358,10 @@ msgstr ""
 #: of felupe.math._tensor.cdya_il:9
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.ddot:14
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.dot:14
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.transpose:8
 msgid ""
 "Optional keyword-arguments for :func:`numpy.einsum`, e.g. ``out=None``."
 msgstr ""
@@ -17642,6 +17695,10 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.eigh:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvals:18
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvalsh:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.equivalent_von_mises:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.inv:21
@@ -17820,6 +17877,52 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.identity:70
 msgid "Return a 2-D array with ones on the diagonal and zeros elsewhere."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.dot:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.dot:5
+msgid ""
+"Array with first- to fourth-order tensors; the order is given by ``mode``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.dot:7
+msgid ""
+"Order of the tensors in ``A`` and ``B``. The default is ``(2, 2)``, the "
+"matrix product of two second-order tensors. Supported combinations are ``(1,"
+" 1)``, ``(2, 1)``, ``(1, 2)``, ``(2, 2)``, ``(2, 3)``, ``(3, 2)``, ``(4, "
+"1)``, ``(1, 4)``, ``(2, 4)``, ``(4, 2)`` and ``(4, 4)``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.dot:17
+msgid ""
+"Array with the dot products; its shape follows ``mode`` and the trailing "
+"batch axes."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.dot:23
+msgid ""
+"The first ``n`` axes are the tensor dimensions (``n`` is the order of the "
+"tensor) and all remaining trailing axes are treated as batch dimensions."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.dot:37
+msgid "A matrix-vector product uses ``mode=(2, 1)``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.dot:44
+msgid ":py:obj:`numpy.einsum`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.dot:45
+msgid "Einstein summation convention."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -18040,6 +18143,70 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.eigh:55
 msgid ":py:obj:`felupe.math.eig`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvals:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvalsh:6
+msgid ""
+"A flag to also return the principal shear values, i.e. the pairwise "
+"differences of the eigenvalues (default is False)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvals:8
+msgid ""
+"The eigenvalue function to use (default is :func:`numpy.linalg.eigvals`)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvals:10
+msgid "Optional keyword-arguments for ``eigvals``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvals:13
+msgid ""
+"Eigenvalues, followed by the principal shear values if ``shear`` is True."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvals:35
+msgid ":py:obj:`numpy.linalg.eigvals`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvals:36
+msgid "Compute the eigenvalues of a general matrix."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvalsh:4
+msgid "Array with symmetric second-order tensors."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvalsh:10
+msgid ""
+"Eigenvalues in ascending order, followed by the principal shear values if "
+"``shear`` is True."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvalsh:28
+msgid ""
+"The principal shear values are the differences between the eigenvalues."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvalsh:35
+msgid ":py:obj:`numpy.linalg.eigvalsh`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.eigvalsh:36
+msgid "Compute the eigenvalues of a symmetric matrix."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -18684,6 +18851,44 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.trace:45
 msgid "Return the sum along diagonals of the array."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.transpose:3
+msgid "Array with second- or fourth-order tensors."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.transpose:5
+msgid ""
+"Transpose the first two tensor axes with ``1`` (default), or swap both pairs"
+" of a fourth-order tensor with ``2``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.transpose:11
+msgid ""
+"Transposed array with shape (N, M, ...) for ``mode=1`` and (P, Q, M, N, ...)"
+" for ``mode=2``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.transpose:17
+msgid ""
+"The first two (or four) axes are the tensor dimensions and all remaining "
+"trailing axes are treated as batch dimensions. The regular transpose swaps "
+"the first two axes, :math:`A_{ij} \\to A_{ji}`. The major transpose swaps "
+"both pairs of a fourth-order tensor, :math:`A_{ijkl} \\to A_{klij}`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.transpose:40
+msgid ":py:obj:`numpy.transpose`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.transpose:41
+msgid "Permute the axes of an array."
 msgstr ""
 
 #: ../../felupe/docs/felupe/mechanics.rst:4
@@ -30117,17 +30322,19 @@ msgstr ""
 msgid "**Reaction-Force and -Moment**"
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:49:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:50:<autosummary>:1
 msgid ":py:obj:`tools.force <felupe.tools.force>`\\ \\(field\\, forces\\, boundary\\)"
 msgstr ":py:obj:`tools.force <felupe.tools.force>`\\ \\(field\\, forces\\, boundary\\)"
 
-#: ../../felupe/docs/felupe/tools.rst:49:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:50:<autosummary>:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
 #: of felupe.tools._post.force:1
-msgid "Evaluate the force vector sum on points of a boundary."
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:24
+msgid "Return the sum of the force vectors at the points of a boundary."
 msgstr ""
 
-#: ../../felupe/docs/felupe/tools.rst:49:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:50:<autosummary>:1
 msgid ""
 ":py:obj:`tools.moment <felupe.tools.moment>`\\ \\(field\\, forces\\, "
 "boundary\\[\\, ...\\]\\)"
@@ -30135,12 +30342,22 @@ msgstr ""
 ":py:obj:`tools.moment <felupe.tools.moment>`\\ \\(field\\, forces\\, "
 "boundary\\[\\, ...\\]\\)"
 
-#: ../../felupe/docs/felupe/tools.rst:49:<autosummary>:1
+#: ../../felupe/docs/felupe/tools.rst:50:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.force:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
 #: of felupe.tools._post.moment:1
-msgid ""
-"Evaluate the moment vector sum on points of a boundary at a given center "
-"point."
+msgid "Return the sum of the moment vectors at the points of a boundary."
+msgstr ""
+
+#: ../../felupe/docs/felupe/tools.rst:50:<autosummary>:1
+msgid ":py:obj:`tools.curve <felupe.tools.curve>`\\ \\(x\\, y\\[\\, num\\]\\)"
+msgstr ""
+
+#: ../../felupe/docs/felupe/tools.rst:50:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.curve:1
+msgid "Return the data points and an interpolated curve of given (x, y) data."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
@@ -31365,6 +31582,165 @@ msgstr ""
 msgid ""
 "A flag to take the cell-means, averaged by the quadrature weights, of the "
 "values (default is False)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.force:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:6
+msgid ""
+"The field container. The function uses only the first field of the "
+"container."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.force:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:8
+msgid ""
+"The assembled vector of the internal forces. For example, use ``res.fun`` of"
+" :func:`~felupe.newtonraphson` or ``context.substep.fun`` in a "
+":class:`~felupe.Plugin`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.force:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:12
+msgid ""
+"The boundary. The point ids ``boundary.points`` select the force vectors."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.force:12
+msgid "The sum of the force vectors at the points of the boundary."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.force:17
+msgid ":py:obj:`felupe.tools.moment`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.force:22
+msgid ""
+"Apply uniaxial tension to a cube. Then, calculate the reaction force on the "
+"boundary ``\"move\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.force:38
+msgid "The force is parallel to the x-axis. The other components are zero."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:4
+msgid "Only 3D fields are supported."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:14
+msgid ""
+"The coordinates of the center point. This is not a point id. Default is the "
+"origin."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:18
+msgid "The sum of the moment vectors at the points of the boundary."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:23
+msgid ":py:obj:`felupe.tools.force`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:28
+msgid ""
+"The lever arms use the deformed configuration. The lever arm of a point is "
+"the point coordinates plus the displacements, minus the center point, see "
+"Eq. :eq:`tools-moment`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:32
+msgid ""
+"\\boldsymbol{M} = \\sum_{a \\in \\mathcal{B}} \\left( \\boldsymbol{X}_a\n"
+"    + \\boldsymbol{u}_a - \\boldsymbol{c} \\right) \\times \\boldsymbol{f}_a"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:38
+msgid ""
+"Here, :math:`\\mathcal{B}` is the set of point ids of the boundary, "
+":math:`\\boldsymbol{X}_a` are the point coordinates, "
+":math:`\\boldsymbol{u}_a` are the displacements, :math:`\\boldsymbol{c}` is "
+"the center point and :math:`\\boldsymbol{f}_a` are the force vectors."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:45
+msgid ""
+"Apply uniaxial tension to a cube. Then, calculate the reaction moment on the"
+" boundary ``\"move\"``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:61
+msgid "Use a point on the deformed end face as the center point."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.curve:3
+msgid ""
+"The x-values. The array can have more values than ``y``. The function uses "
+"only the first ``len(y)`` values of ``x``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.curve:6
+msgid "The y-values, with ``2 <= m <= n``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.curve:8
+msgid "The number of points of the interpolated curve (default is 50)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.curve:11
+msgid ""
+"* *ndarray of shape (2, m)* -- The data points. Row 0 has the x-values and "
+"row 1 has the y-values. * *ndarray of shape (2, num)* -- The interpolated "
+"curve. Row 0 has the x-values and row 1 has the y-values."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.curve:11
+msgid ""
+"*ndarray of shape (2, m)* -- The data points. Row 0 has the x-values and row"
+" 1 has the y-values."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.curve:12
+msgid ""
+"*ndarray of shape (2, num)* -- The interpolated curve. Row 0 has the "
+"x-values and row 1 has the y-values."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.curve:16
+msgid ""
+"The number of y-values sets the type of interpolation. Two values give a "
+"linear curve. Three values give a quadratic curve. Four or more values give "
+"a cubic curve."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.curve:22
+msgid "The array of x-values has more values than the array of y-values."
 msgstr ""
 
 #: ../../felupe/docs/felupe/view.rst:2
