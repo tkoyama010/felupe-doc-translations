@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 00:12+0000\n"
+"POT-Creation-Date: 2026-11-16 19:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -258,6 +258,8 @@ msgstr ""
 #: ../../felupe/docs/felupe/region.rst:0
 #: ../../felupe/docs/felupe/thermal.rst:0 ../../felupe/docs/felupe/tools.rst:0
 #: ../../felupe/docs/felupe/view.rst:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
 #: of felupe.assembly.expression._basis.Basis:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/expression/_basis.pydocstring
@@ -427,12 +429,24 @@ msgstr ""
 #: of felupe.mechanics._job.Job.evaluate:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_constraint.pydocstring
 #: of felupe.mechanics._multipoint._constraint.MultiPointConstraint.restore:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_contact.pydocstring
+#: of felupe.mechanics._multipoint._contact.MultiPointContact.plot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.pydocstring
+#: of felupe.mechanics._pointload.PointLoad.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
 #: of felupe.mechanics._solidbody.SolidBody.revolve:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
+#: of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress.update:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.pydocstring
+#: of felupe.mechanics._solidbody_force.SolidBodyForce.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of felupe.SolidBodyNearlyIncompressible.volumetric:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_pressure.pydocstring
+#: of felupe.mechanics._solidbody_pressure.SolidBodyPressure.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_step.pydocstring
 #: of felupe.mechanics._step.Step.generate_states:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_time_step.pydocstring
+#: of felupe.mechanics._time_step.TimeStep.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
 #: of felupe.mechanics._truss.TrussBody:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
@@ -867,6 +881,8 @@ msgstr ""
 #: of felupe.math._tensor.inplane:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.inv:20
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.majortranspose:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.sym:12
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -1491,6 +1507,12 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.inv:55
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.majortranspose:24
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.ravel:14
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.reshape:16
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.sym:26
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._tensor.tovoigt:34
@@ -1922,6 +1944,421 @@ msgstr ""
 msgid "A weak-form expression decorator."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm.assemble:1
+msgid ""
+"Assemble the sparse global vector or matrix out of the integrated (but not "
+"assembled) results of all sub-forms."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm.assemble:4
+msgid ""
+"The list of integrated (but not assembled) results, one item per sub-form, "
+"e.g. the output of :meth:`~felupe.assembly.IntegralForm.integrate` (default "
+"is None). If None, the sub-forms are integrated first."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm.assemble:8
+msgid "Flag to use a threaded assembly of the sub-forms (default is False)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm.assemble:10
+msgid ""
+"Flag to assemble a single blocked sparse vector or matrix (default is True)."
+" If False, a list of the sparse vectors or matrices of the sub-forms is "
+"returned."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm.assemble:14
+msgid ""
+"Output buffer for integration (default is None). Passed to each sub-form and"
+" used only when its integrated values are not provided."
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/core.rst:0
+#: ../../felupe/docs/felupe/constitution/tools.rst:0
+#: ../../felupe/docs/felupe/dof.rst:0 ../../felupe/docs/felupe/field.rst:0
+#: ../../felupe/docs/felupe/math.rst:0
+#: ../../felupe/docs/felupe/mechanics.rst:0
+#: ../../felupe/docs/felupe/mesh.rst:0 ../../felupe/docs/felupe/region.rst:0
+#: ../../felupe/docs/felupe/tools.rst:0 ../../felupe/docs/felupe/view.rst:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
+#: of felupe.assembly.expression._decorator.FormExpressionDecorator:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
+#: of felupe.constitution._base.constitutive_material:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.NearlyIncompressible.volumetric:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_view.pydocstring
+#: of felupe.constitution._view.ViewMaterial.uniaxial:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_view.pydocstring
+#: of felupe.constitution._view.ViewMaterialIncompressible.uniaxial:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
+#: of felupe.NeoHooke.volumetric:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
+#: of felupe.Volumetric.volumetric:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_1d.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_orthotropic.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/poisson/_laplace.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
+#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
+#: of
+#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
+#: of
+#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.biaxial:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.shear:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.symmetry:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.uniaxial:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
+#: of felupe.dof._tools.partition:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/element/_base.pydocstring
+#: of felupe.element._base.Element.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.reload:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.reload:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
+#: of felupe.field._evaluate.EvaluateFieldContainer.strain:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._solve.solve_2d:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._spatial.rotation_matrix:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.ddot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.det:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.equivalent_von_mises:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.inplane:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.sym:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.tovoigt:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_contact/_cylinder.pydocstring
+#: of felupe.mechanics._contact._base.ContactRigidBase.restore:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_contact/_plane.pydocstring
+#: of felupe.mechanics._contact._base.ContactRigidBase.restore:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.extract:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
+#: of felupe.mechanics._job.Job.evaluate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_constraint.pydocstring
+#: of felupe.mechanics._multipoint._constraint.MultiPointConstraint.restore:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_contact.pydocstring
+#: of felupe.mechanics._multipoint._contact.MultiPointContact.plot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of felupe.SolidBodyNearlyIncompressible.volumetric:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_time_step.pydocstring
+#: of felupe.mechanics._time_step.TimeStep.update:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.concatenate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.triangulate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_container.pydocstring
+#: of felupe.mesh._container.MeshContainer.stack:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.Mesh.z:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.get_cell_ids:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.get_cell_ids_neighbours:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.get_point_ids:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.get_point_ids_corners:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.get_point_ids_shared:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
+#: of
+#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.screenshot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver.factorize:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.embed:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonraphson:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.curve:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.force:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
+#: of felupe.tools._project.topoints:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:0
+#: ../internal padding after
+#: /home/runner/work/felupe-doc-translations/felupe-doc-translations/felupe/docs/felupe/view.rst:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm.assemble:18
+msgid ""
+"The assembled sparse global vector for a linear form or the assembled sparse"
+" global matrix for a bilinear form. A list with the sparse vectors or "
+"matrices of the sub-forms is returned if ``block=False``."
+msgstr ""
+
+#: ../../felupe/docs/felupe/constitution/core.rst:0
+#: ../../felupe/docs/felupe/constitution/tools.rst:0
+#: ../../felupe/docs/felupe/dof.rst:0 ../../felupe/docs/felupe/field.rst:0
+#: ../../felupe/docs/felupe/math.rst:0
+#: ../../felupe/docs/felupe/mechanics.rst:0
+#: ../../felupe/docs/felupe/mesh.rst:0 ../../felupe/docs/felupe/region.rst:0
+#: ../../felupe/docs/felupe/tools.rst:0 ../../felupe/docs/felupe/view.rst:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
+#: of felupe.assembly.expression._decorator.FormExpressionDecorator:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
+#: of felupe.constitution._base.constitutive_material:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.NearlyIncompressible.volumetric:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_view.pydocstring
+#: of felupe.constitution._view.ViewMaterial.uniaxial:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_view.pydocstring
+#: of felupe.constitution._view.ViewMaterialIncompressible.uniaxial:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
+#: of felupe.NeoHooke.volumetric:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
+#: of felupe.Volumetric.volumetric:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_1d.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_orthotropic.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/poisson/_laplace.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.pydocstring
+#: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
+#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
+#: of felupe.dof._loadcase.symmetry:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/element/_base.pydocstring
+#: of felupe.element._base.Element.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
+#: of felupe.field._base.Field.reload:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
+#: of felupe.field._base.Field.reload:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
+#: of felupe.field._evaluate.EvaluateFieldContainer.strain:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._solve.solve_2d:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._spatial.rotation_matrix:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.ddot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.det:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.equivalent_von_mises:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.inplane:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.sym:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.tovoigt:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_contact/_cylinder.pydocstring
+#: of felupe.mechanics._contact._base.ContactRigidBase.restore:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_contact/_plane.pydocstring
+#: of felupe.mechanics._contact._base.ContactRigidBase.restore:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
+#: of felupe.mechanics._pointconstraint.PointConstraint.update:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
+#: of felupe.mechanics._free_vibration.FreeVibration.extract:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
+#: of felupe.mechanics._job.Job.evaluate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_constraint.pydocstring
+#: of felupe.mechanics._multipoint._constraint.MultiPointConstraint.restore:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_contact.pydocstring
+#: of felupe.mechanics._multipoint._contact.MultiPointContact.plot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
+#: of felupe.mechanics._solidbody.SolidBody.revolve:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of felupe.SolidBodyNearlyIncompressible.volumetric:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_time_step.pydocstring
+#: of felupe.mechanics._time_step.TimeStep.update:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
+#: of felupe.mesh._tools.concatenate:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_container.pydocstring
+#: of felupe.mesh._container.MeshContainer.stack:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.Mesh.z:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.get_cell_ids:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.get_cell_ids_neighbours:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.get_point_ids:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.get_point_ids_corners:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
+#: of felupe.mesh._mesh.Mesh.get_point_ids_shared:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.screenshot:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
+#: of felupe.solve._superlu.SuperLUSolver.factorize:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
+#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.embed:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonraphson:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.force:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
+#: of felupe.tools._post.moment:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
+#: of felupe.tools._project.topoints:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
+#: of felupe.view._mesh_select_edge_points.select_edge_points:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
+#: of felupe.view._mesh_select_surface_points.select_surface_points:0
+#: ../internal padding after
+#: /home/runner/work/felupe-doc-translations/felupe-doc-translations/felupe/docs/felupe/view.rst:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm.assemble:25
+msgid ":py:obj:`felupe.IntegralForm.integrate`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm.assemble:26
+msgid "Integrate all sub-forms."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm.integrate:1
+msgid ""
+"Integrate all sub-forms and return the integrated (but not assembled) "
+"results."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm.integrate:4
+msgid ""
+"Flag to use a threaded integration of the sub-forms (default is False)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm.integrate:6
+msgid ""
+"A location into which the results are stored, as a list with one array per "
+"sub-form (default is None). If not provided or None, a freshly-allocated "
+"list of arrays is returned."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm.integrate:11
+msgid ""
+"The integrated (but not assembled) results, one array per sub-form, to be "
+"used as the ``values``-argument of "
+":meth:`~felupe.assembly.IntegralForm.assemble`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm.integrate:18
+msgid ":py:obj:`felupe.IntegralForm.assemble`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_integral.pydocstring
+#: of felupe.assembly._integral.IntegralForm.integrate:19
+msgid "Assemble the sparse global vector or matrix."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/_cartesian.pydocstring
 #: of felupe.assembly._cartesian.IntegralFormCartesian:1
 msgid ""
@@ -2208,320 +2645,9 @@ msgid ""
 "during integration / assembly (default is None)."
 msgstr ""
 
-#: ../../felupe/docs/felupe/constitution/core.rst:0
-#: ../../felupe/docs/felupe/constitution/tools.rst:0
-#: ../../felupe/docs/felupe/dof.rst:0 ../../felupe/docs/felupe/field.rst:0
-#: ../../felupe/docs/felupe/math.rst:0
-#: ../../felupe/docs/felupe/mechanics.rst:0
-#: ../../felupe/docs/felupe/mesh.rst:0 ../../felupe/docs/felupe/region.rst:0
-#: ../../felupe/docs/felupe/tools.rst:0 ../../felupe/docs/felupe/view.rst:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
-#: of felupe.assembly.expression._decorator.FormExpressionDecorator:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
-#: of felupe.constitution._base.constitutive_material:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
-#: of felupe.NearlyIncompressible.volumetric:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_view.pydocstring
-#: of felupe.constitution._view.ViewMaterial.uniaxial:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_view.pydocstring
-#: of felupe.constitution._view.ViewMaterialIncompressible.uniaxial:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
-#: of felupe.NeoHooke.volumetric:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
-#: of felupe.Volumetric.volumetric:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_1d.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_orthotropic.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/poisson/_laplace.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic.pydocstring
-#: of felupe.constitution.strain.models._linear_elastic.linear_elastic:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
-#: of
-#: felupe.constitution.strain.models._linear_elastic_plastic_isotropic.linear_elastic_plastic_isotropic_hardening:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_viscoelastic.pydocstring
-#: of
-#: felupe.constitution.strain.models._linear_elastic_viscoelastic.linear_elastic_viscoelastic:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
-#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.biaxial:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.shear:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.symmetry:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.uniaxial:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_tools.pydocstring
-#: of felupe.dof._tools.partition:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/element/_base.pydocstring
-#: of felupe.element._base.Element.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.reload:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.reload:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
-#: of felupe.field._evaluate.EvaluateFieldContainer.strain:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
-#: of felupe.field._container.FieldContainer.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._solve.solve_2d:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._spatial.rotation_matrix:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.ddot:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.det:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.equivalent_von_mises:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.inplane:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.sym:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.tovoigt:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
-#: of felupe.mechanics._pointconstraint.PointConstraint.update:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_contact/_cylinder.pydocstring
-#: of felupe.mechanics._contact._base.ContactRigidBase.restore:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_contact/_plane.pydocstring
-#: of felupe.mechanics._contact._base.ContactRigidBase.restore:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._pointconstraint.PointConstraint.update:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
-#: of felupe.mechanics._free_vibration.FreeVibration.extract:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job.evaluate:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_constraint.pydocstring
-#: of felupe.mechanics._multipoint._constraint.MultiPointConstraint.restore:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.revolve:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
-#: of felupe.SolidBodyNearlyIncompressible.volumetric:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.concatenate:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.triangulate:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_container.pydocstring
-#: of felupe.mesh._container.MeshContainer.stack:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.Mesh.z:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.get_cell_ids:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.get_cell_ids_neighbours:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.get_point_ids:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.get_point_ids_corners:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.get_point_ids_shared:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/plugins/_characteristic_curve.pydocstring
-#: of
-#: felupe.plugins._characteristic_curve.CharacteristicCurvePlugin.to_arrays:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._region.Region.screenshot:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver.factorize:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.embed:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
-#: of felupe.tools._post.curve:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
-#: of felupe.tools._post.force:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
-#: of felupe.tools._post.moment:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
-#: of felupe.tools._project.topoints:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:0
-#: ../internal padding after
-#: /home/runner/work/felupe-doc-translations/felupe-doc-translations/felupe/docs/felupe/view.rst:0
-msgid "Returns"
-msgstr ""
-
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
 #: of felupe.assembly.expression._decorator.FormExpressionDecorator:14
 msgid "A form object with methods for integration and assembly."
-msgstr ""
-
-#: ../../felupe/docs/felupe/constitution/core.rst:0
-#: ../../felupe/docs/felupe/constitution/tools.rst:0
-#: ../../felupe/docs/felupe/dof.rst:0 ../../felupe/docs/felupe/field.rst:0
-#: ../../felupe/docs/felupe/math.rst:0
-#: ../../felupe/docs/felupe/mechanics.rst:0
-#: ../../felupe/docs/felupe/mesh.rst:0 ../../felupe/docs/felupe/region.rst:0
-#: ../../felupe/docs/felupe/tools.rst:0 ../../felupe/docs/felupe/view.rst:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
-#: of felupe.assembly.expression._decorator.FormExpressionDecorator:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_base.pydocstring
-#: of felupe.constitution._base.constitutive_material:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_material.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
-#: of felupe.NearlyIncompressible.volumetric:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_mixed.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_view.pydocstring
-#: of felupe.constitution._view.ViewMaterial.uniaxial:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/_view.pydocstring
-#: of felupe.constitution._view.ViewMaterialIncompressible.uniaxial:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_compressible.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_neo_hooke_nearly_incompressible.pydocstring
-#: of felupe.NeoHooke.volumetric:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_ogden_roxburgh.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/hyperelasticity/_volumetric.pydocstring
-#: of felupe.Volumetric.volumetric:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/jax/_hyperelastic.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/jax/_material.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_1d.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_large_strain.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/linear_elasticity/_linear_elastic_orthotropic.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/poisson/_laplace.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/strain/_material_strain.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/strain/models/_linear_elastic_plastic_isotropic.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_hyperelastic.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.pydocstring
-#: of felupe.constitution._base.ConstitutiveMaterial.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/models/lagrange/_becker.pydocstring
-#: of felupe.constitution.tensortrax.models.lagrange._becker.becker:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/dof/_loadcase.pydocstring
-#: of felupe.dof._loadcase.symmetry:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/element/_base.pydocstring
-#: of felupe.element._base.Element.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_base.pydocstring
-#: of felupe.field._base.Field.reload:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
-#: of felupe.field._container.FieldContainer.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_dual.pydocstring
-#: of felupe.field._base.Field.reload:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_evaluate.pydocstring
-#: of felupe.field._evaluate.EvaluateFieldContainer.strain:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
-#: of felupe.field._container.FieldContainer.view:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._solve.solve_2d:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._spatial.rotation_matrix:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.ddot:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.det:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.equivalent_von_mises:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.inplane:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.sym:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
-#: of felupe.math._tensor.tovoigt:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring
-#: of felupe.mechanics._pointconstraint.PointConstraint.update:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_contact/_cylinder.pydocstring
-#: of felupe.mechanics._contact._base.ContactRigidBase.restore:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_contact/_plane.pydocstring
-#: of felupe.mechanics._contact._base.ContactRigidBase.restore:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_cylindrical.pydocstring
-#: of felupe.mechanics._pointconstraint.PointConstraint.update:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_free_vibration.pydocstring
-#: of felupe.mechanics._free_vibration.FreeVibration.extract:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_job.pydocstring
-#: of felupe.mechanics._job.Job.evaluate:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_constraint.pydocstring
-#: of felupe.mechanics._multipoint._constraint.MultiPointConstraint.restore:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody.pydocstring
-#: of felupe.mechanics._solidbody.SolidBody.revolve:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
-#: of felupe.SolidBodyNearlyIncompressible.volumetric:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
-#: of felupe.mesh._tools.concatenate:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_container.pydocstring
-#: of felupe.mesh._container.MeshContainer.stack:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.Mesh.z:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.get_cell_ids:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.get_cell_ids_neighbours:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.get_point_ids:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.get_point_ids_corners:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
-#: of felupe.mesh._mesh.Mesh.get_point_ids_shared:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._region.Region.screenshot:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
-#: of felupe.solve._superlu.SuperLUSolver.factorize:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_thermal.pydocstring
-#: of felupe.thermal._solidbody_thermal.SolidBodyThermal.heat_flux_boundary:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.embed:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
-#: of felupe.tools._post.force:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
-#: of felupe.tools._post.moment:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_project.pydocstring
-#: of felupe.tools._project.topoints:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_edge_points.pydocstring
-#: of felupe.view._mesh_select_edge_points.select_edge_points:0
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/view/_mesh_select_surface_points.pydocstring
-#: of felupe.view._mesh_select_surface_points.select_surface_points:0
-#: ../internal padding after
-#: /home/runner/work/felupe-doc-translations/felupe-doc-translations/felupe/docs/felupe/view.rst:0
-msgid "Return type"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/assembly/expression/_decorator.pydocstring
@@ -3517,6 +3643,8 @@ msgstr ""
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/constitution/tensortrax/_material.pydocstring
 #: of felupe.constitution._base.ConstitutiveMaterial.view:0
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_time_step.pydocstring
+#: of felupe.mechanics._time_step.TimeStep.update:0
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonraphson:0
 msgid "Raises"
@@ -15780,6 +15908,39 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.extracted_fields:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.extracted_fields:1
+msgid "Return the list of fields, optionally taken by field indices."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.extracted_fields:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.extracted_fields:3
+msgid ""
+"The list of fields of the field container. If the field container was "
+"created with the ``take``-argument, only the fields selected by the indices "
+"of ``take`` are returned, in the order given by ``take``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.extracted_fields:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.extracted_fields:10
+msgid ":py:obj:`felupe.FieldContainer.extract`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
+#: of felupe.field._container.FieldContainer.extracted_fields:11
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
+#: of felupe.field._container.FieldContainer.extracted_fields:11
+msgid ""
+"Generalized extraction method which evaluates either the gradient or the "
+"field values."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_container.pydocstring
 #: of felupe.field._container.FieldContainer.imshow:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/field/_fields.pydocstring
 #: of felupe.field._container.FieldContainer.imshow:1
@@ -17232,6 +17393,12 @@ msgid ":py:obj:`math.majortranspose <felupe.math.majortranspose>`\\ \\(A\\)"
 msgstr ":py:obj:`math.majortranspose <felupe.math.majortranspose>`\\ \\(A\\)"
 
 #: ../../felupe/docs/felupe/math.rst:59:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.majortranspose:1
+msgid "Return the major transposes of fourth-order tensors."
+msgstr ""
+
+#: ../../felupe/docs/felupe/math.rst:59:<autosummary>:1
 msgid ":py:obj:`math.trace <felupe.math.trace>`\\ \\(A\\[\\, out\\]\\)"
 msgstr ":py:obj:`math.trace <felupe.math.trace>`\\ \\(A\\[\\, out\\]\\)"
 
@@ -17324,8 +17491,24 @@ msgstr ""
 "trailing\\_axes\\]\\)"
 
 #: ../../felupe/docs/felupe/math.rst:59:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.ravel:25
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.reshape:1
+msgid "Reshape the tensor dimensions of an array and keep its trailing axes."
+msgstr ""
+
+#: ../../felupe/docs/felupe/math.rst:59:<autosummary>:1
 msgid ":py:obj:`math.ravel <felupe.math.ravel>`\\ \\(A\\[\\, trailing\\_axes\\]\\)"
 msgstr ":py:obj:`math.ravel <felupe.math.ravel>`\\ \\(A\\[\\, trailing\\_axes\\]\\)"
+
+#: ../../felupe/docs/felupe/math.rst:59:<autosummary>:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.ravel:1
+msgid ""
+"Ravel the tensor dimensions of an array into a single axis and keep its "
+"trailing axes."
+msgstr ""
 
 #: ../../felupe/docs/felupe/math.rst:60
 msgid "** Equation system**"
@@ -18688,6 +18871,48 @@ msgid "Return evenly spaced numbers over a specified interval."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.majortranspose:3
+msgid "The array of fourth-order tensors."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.majortranspose:6
+msgid "The array with the major transposes."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.majortranspose:11
+msgid ""
+"The first four axes are the tensor dimensions and all remaining trailing "
+"axes are treated as batch dimensions."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.majortranspose:14
+msgid ""
+"The major transpose of a fourth-order tensor is obtained by swapping the "
+"pair of the first two tensor axes with the pair of the last two tensor axes."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.majortranspose:17
+msgid ""
+"\\boldsymbol{A}^T = A_{ijkl} \\ \\boldsymbol{e}_i \\otimes \\boldsymbol{e}_j\n"
+"    \\otimes \\boldsymbol{e}_k \\otimes \\boldsymbol{e}_l \\quad \\rightarrow\n"
+"    \\quad A^T_{ijkl} = A_{klij}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.majortranspose:35
+msgid ":py:obj:`felupe.math.transpose`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.majortranspose:36
+msgid "Transpose the tensor dimensions of an array."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._field.norm:3
 msgid "The input array or list of arrays."
 msgstr ""
@@ -18720,6 +18945,64 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
 #: of felupe.math._field.norm:34
 msgid "Matrix or vector norm."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.ravel:4
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.reshape:3
+msgid ""
+"The array with the tensor dimensions as leading axes and the trailing axes "
+"to be kept."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.ravel:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.reshape:9
+msgid "The number of trailing axes which are kept (default is 2)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.ravel:10
+msgid "The raveled array."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.ravel:24
+msgid ":py:obj:`felupe.math.reshape`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.reshape:6
+msgid ""
+"The new shape of the tensor dimensions, i.e. of the leading axes without the"
+" trailing axes."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.reshape:12
+msgid "The reshaped array."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.reshape:26
+msgid ":py:obj:`numpy.reshape`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.reshape:27
+msgid "Give a new shape to an array without changing its data."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.reshape:29
+msgid ":py:obj:`felupe.math.ravel`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
+#: of felupe.math._tensor.reshape:30
+msgid "Ravel the tensor dimensions of an array."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/math/__init__.pydocstring
@@ -19434,6 +19717,8 @@ msgstr ""
 #: of felupe.mechanics._time_step.TimeStep:84
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
 #: of felupe.plugins._xdmf_writer.XDMFWriterPlugin:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.configure:29
 msgid "A job plugin to write XDMF files during job evaluation."
 msgstr ""
 
@@ -19557,6 +19842,8 @@ msgstr ""
 #: of felupe.mechanics._multipoint._constraint.MultiPointConstraint:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_contact.pydocstring
 #: of felupe.mechanics._multipoint._contact.MultiPointContact:123
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_contact.pydocstring
+#: of felupe.mechanics._multipoint._contact.MultiPointContact.plot:29
 msgid ""
 "A Multi-point-constraint which connects a center-point to a list of points."
 msgstr ""
@@ -20497,6 +20784,16 @@ msgstr ""
 msgid "Interactive Scene"
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.pydocstring
+#: of felupe.mechanics._solidbody_force.SolidBodyForce.update:1
+msgid "Update the values of the body force inplace."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_force.pydocstring
+#: of felupe.mechanics._solidbody_force.SolidBodyForce.update:3
+msgid "The new prescribed values, e.g. gravity :math:`\\boldsymbol{g}`."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_pressure.pydocstring
 #: of felupe.mechanics._solidbody_pressure.SolidBodyPressure:5
 msgid ""
@@ -20518,6 +20815,16 @@ msgid ""
 "    \\delta \\boldsymbol{u} \\cdot (-p) J \\boldsymbol{F}^{-T} \\ d\\boldsymbol{A}"
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_pressure.pydocstring
+#: of felupe.mechanics._solidbody_pressure.SolidBodyPressure.update:1
+msgid "Update the pressure of the solid body inplace."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_pressure.pydocstring
+#: of felupe.mechanics._solidbody_pressure.SolidBodyPressure.update:3
+msgid "The new scaling factor for the prescribed pressure :math:`p`."
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
 #: of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress:5
 msgid ""
@@ -20533,6 +20840,16 @@ msgid ""
 "    \\int_{\\partial V}\n"
 "    \\delta \\boldsymbol{u} \\cdot \\boldsymbol{\\sigma} J \\boldsymbol{F}^{-T}\\\n"
 "    d\\boldsymbol{A}"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
+#: of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress.update:1
+msgid "Update the Cauchy stress tensor of the solid body inplace."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_cauchy_stress.pydocstring
+#: of felupe.mechanics._solidbody_cauchy_stress.SolidBodyCauchyStress.update:3
+msgid "The new prescribed Cauchy stress components :math:`\\sigma_{ij}`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.pydocstring
@@ -20566,6 +20883,16 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.pydocstring
 #: of felupe.mechanics._pointload.PointLoad.plot:1
 msgid "Plot the point load."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.pydocstring
+#: of felupe.mechanics._pointload.PointLoad.update:1
+msgid "Update the values of the point load inplace."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_pointload.pydocstring
+#: of felupe.mechanics._pointload.PointLoad.update:3
+msgid "The new values applied at the points."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_truss.pydocstring
@@ -20990,6 +21317,8 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_time_step.pydocstring
 #: of felupe.mechanics._time_step.TimeStep:83
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.configure:28
 msgid ":py:obj:`felupe.XDMFWriterPlugin`"
 msgstr ""
 
@@ -21022,6 +21351,8 @@ msgstr ""
 #: of felupe.mechanics._time_step.TimeStep.checkpoint:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_time_step.pydocstring
 #: of felupe.mechanics._time_step.TimeStep.restore:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_time_step.pydocstring
+#: of felupe.mechanics._time_step.TimeStep.update:14
 msgid "Return a checkpoint of the time step item."
 msgstr ""
 
@@ -21034,17 +21365,42 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_time_step.pydocstring
 #: of felupe.mechanics._time_step.TimeStep.checkpoint:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_time_step.pydocstring
+#: of felupe.mechanics._time_step.TimeStep.update:16
 msgid ":py:obj:`felupe.TimeStep.restore`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_time_step.pydocstring
 #: of felupe.mechanics._time_step.TimeStep.checkpoint:9
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_time_step.pydocstring
+#: of felupe.mechanics._time_step.TimeStep.update:17
 msgid "Restore a checkpoint of the time step item."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_time_step.pydocstring
 #: of felupe.mechanics._time_step.TimeStep.restore:8
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_time_step.pydocstring
+#: of felupe.mechanics._time_step.TimeStep.update:13
 msgid ":py:obj:`felupe.TimeStep.checkpoint`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_time_step.pydocstring
+#: of felupe.mechanics._time_step.TimeStep.update:1
+msgid "Update the time increment of all items inplace."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_time_step.pydocstring
+#: of felupe.mechanics._time_step.TimeStep.update:3
+msgid ""
+"The new time. The time increment is evaluated as the difference between the "
+"new time and the old time, see Eq. :eq:`time-step`, and is assigned to the "
+"attribute ``time_step`` of each item. Afterwards, the new time becomes the "
+"old time."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_time_step.pydocstring
+#: of felupe.mechanics._time_step.TimeStep.update:9
+msgid "If the new time is smaller than the old time."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_curve.pydocstring
@@ -23143,6 +23499,8 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
 #: of felupe.plugins._xdmf_writer.XDMFWriterPlugin:24
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.configure:21
 msgid ""
 "A time step item. If given, its (absolute) time is the time of the result "
 "file. If None, the (zero-based) index of the substep within the job is the "
@@ -23166,6 +23524,53 @@ msgid ""
 "the time of a substep is not greater than the time of the previous substep, "
 "e.g. in a step without a ramp of the time, a warning is emitted (once) and "
 "the substep is written with the (repeated) time."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.configure:1
+msgid "Configure the attributes of the XDMF writer plugin."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.configure:3
+msgid ""
+"The filename of the XDMF result file, including the file extension, e.g. "
+"``\"result.xdmf\"``. If None, no result file is written."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.configure:6
+msgid ""
+"A mesh which is used for the XDMF time series writer. If None, it is taken "
+"from the keyword-argument ``x0`` or from the field of the first item of the "
+"first step."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.configure:10
+msgid "Additional dict of point-data, i.e. functions ``fun(field, substep)``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.configure:12
+msgid "Additional dict of cell-data, i.e. functions ``fun(field, substep)``."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.configure:14
+msgid "Flag to write default point-data, i.e. the displacements."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.configure:16
+msgid ""
+"Flag to write default cell-data, i.e. the (principal values of the) "
+"logarithmic strains and the deformation gradients."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/plugins/_xdmf_writer.pydocstring
+#: of felupe.plugins._xdmf_writer.XDMFWriterPlugin.configure:19
+msgid "The keyword-arguments of the evaluation of the job, e.g. ``x0``."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/plugins/_plugin.pydocstring
@@ -24191,7 +24596,64 @@ msgstr ""
 #: of felupe.mechanics._cylindrical.CylindricalConstraint:178
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_contact.pydocstring
 #: of felupe.mechanics._multipoint._contact.MultiPointContact:122
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_contact.pydocstring
+#: of felupe.mechanics._multipoint._contact.MultiPointContact.plot:28
 msgid ":py:obj:`felupe.MultiPointConstraint`"
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_contact.pydocstring
+#: of felupe.mechanics._multipoint._contact.MultiPointContact.plot:1
+msgid ""
+"Plot the contact plane (a line or a rectangle) at the center-point of the "
+"multi-point contact."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_contact.pydocstring
+#: of felupe.mechanics._multipoint._contact.MultiPointContact.plot:4
+msgid ""
+"A plotter of the active plotting backend (default is None). If None, a new "
+"plotter is created."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_contact.pydocstring
+#: of felupe.mechanics._multipoint._contact.MultiPointContact.plot:7
+msgid ""
+"An offset which is added to the plane position along the normal axis of the "
+"center-point (default is 0)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_contact.pydocstring
+#: of felupe.mechanics._multipoint._contact.MultiPointContact.plot:10
+msgid ""
+"Not used. Argument is kept for a consistent signature with the other plot "
+"methods (default is True)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_contact.pydocstring
+#: of felupe.mechanics._multipoint._contact.MultiPointContact.plot:13
+msgid "The color of the contact plane (default is \"black\")."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_contact.pydocstring
+#: of felupe.mechanics._multipoint._contact.MultiPointContact.plot:15
+msgid "The opacity of the contact plane (default is 0.5)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_contact.pydocstring
+#: of felupe.mechanics._multipoint._contact.MultiPointContact.plot:17
+msgid ""
+"Flag to plot the contact plane on the deformed mesh points (default is "
+"True)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_contact.pydocstring
+#: of felupe.mechanics._multipoint._contact.MultiPointContact.plot:20
+msgid "Additional keyword arguments for the plotting backend."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_multipoint/_contact.pydocstring
+#: of felupe.mechanics._multipoint._contact.MultiPointContact.plot:23
+msgid "The plotter with the added contact plane."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_cartesian.pydocstring

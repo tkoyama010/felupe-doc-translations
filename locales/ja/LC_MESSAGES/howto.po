@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-09 00:11+0000\n"
+"POT-Creation-Date: 2026-11-16 19:11+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -33,11 +33,11 @@ msgstr ""
 msgid "Evaluate a Job"
 msgstr ""
 
-#: ../../felupe/docs/howto.rst:32
+#: ../../felupe/docs/howto.rst:33
 msgid "Process Results"
 msgstr ""
 
-#: ../../felupe/docs/howto.rst:39
+#: ../../felupe/docs/howto.rst:40
 msgid "Extend FElupe"
 msgstr ""
 
@@ -58,14 +58,21 @@ msgid ""
 "linearization of its strain energy density function."
 msgstr ""
 
-#: ../../felupe/docs/howto/assemble.rst:23
+#: ../../felupe/docs/howto/assemble.rst:11
+msgid ""
+"The assembled vectors and matrices are in the precision of the field values,"
+" see :doc:`single-precision` for a model which is evaluated in single "
+"precision."
+msgstr ""
+
+#: ../../felupe/docs/howto/assemble.rst:28
 msgid ""
 "The code for the variation of the total-potential energy, as given in Eq. "
 ":eq:`total-potential-energy-variation`, is very close to the analytical "
 "expression."
 msgstr ""
 
-#: ../../felupe/docs/howto/assemble.rst:26
+#: ../../felupe/docs/howto/assemble.rst:31
 msgid ""
 "\\delta \\Pi = \\int_V \\boldsymbol{P} : \\frac{\n"
 "    \\partial \\delta \\boldsymbol{u}\n"
@@ -75,12 +82,12 @@ msgstr ""
 "    \\partial \\delta \\boldsymbol{u}\n"
 "}{\\partial \\boldsymbol{X}} \\ dV"
 
-#: ../../felupe/docs/howto/assemble.rst:44
+#: ../../felupe/docs/howto/assemble.rst:49
 msgid ""
 "For the linearization, see Eq. :eq:`total-potential-energy-linearization`."
 msgstr ""
 
-#: ../../felupe/docs/howto/assemble.rst:46
+#: ../../felupe/docs/howto/assemble.rst:51
 msgid ""
 "\\Delta \\delta \\Pi = \\int_V \\frac{\n"
 "    \\partial \\delta \\boldsymbol{u}\n"
@@ -1168,6 +1175,100 @@ msgstr ""
 msgid ""
 "With :func:`~felupe.project`, the cell-values are projected to the mesh-"
 "points by solving a least-squares problem."
+msgstr ""
+
+#: ../../felupe/docs/howto/single-precision.rst:4
+msgid "Run a Model in Single Precision"
+msgstr ""
+
+#: ../../felupe/docs/howto/single-precision.rst:6
+msgid ""
+"FElupe evaluates a model in the data types of its regions and fields: the "
+"items assemble their sparse vectors and matrices in the precision of the "
+"field values and the linear equation system, its factorization and the "
+"solution keep this precision. With ``float32`` regions and fields, the "
+"memory of the assembled system and of its factorization is halved compared "
+"to ``float64``, e.g. in WebAssembly, where the memory is limited."
+msgstr ""
+
+#: ../../felupe/docs/howto/single-precision.rst:12
+msgid ""
+"Both the region and the fields have to be casted: "
+":meth:`~felupe.Region.astype` casts the shape-function gradients and the "
+"differential volumes of a region and a :class:`~felupe.Field` takes the data"
+" type of its values. A ``float32`` field on a ``float64`` region is "
+"assembled in ``float64``, because the values of an item are of the common "
+"data type of the field values and of the differential volumes ``dV``, which "
+"are evaluated by the region."
+msgstr ""
+
+#: ../../felupe/docs/howto/single-precision.rst:36
+msgid ""
+"The precision of the assembled system is checked by the data types of the "
+"objective function and of the Jacobian:"
+msgstr ""
+
+#: ../../felupe/docs/howto/single-precision.rst:46
+msgid ""
+"The default relative tolerance of :func:`~felupe.newtonraphson` "
+"(``tol=None``) is the square root of the machine epsilon of the lowest "
+"precision of the unknowns and of the linear equation system, i.e. about "
+"``3.5e-4`` for a single-precision model instead of about ``1.5e-8`` for "
+"double precision. The absolute tolerance (``atol=None``) bounds the round-"
+"off errors of the objective function."
+msgstr ""
+
+#: ../../felupe/docs/howto/single-precision.rst:52
+msgid "Some results are evaluated in double precision on purpose:"
+msgstr ""
+
+#: ../../felupe/docs/howto/single-precision.rst:57
+msgid "Result"
+msgstr ""
+
+#: ../../felupe/docs/howto/single-precision.rst:58
+msgid "Reason"
+msgstr ""
+
+#: ../../felupe/docs/howto/single-precision.rst:59
+msgid "the points of a mesh"
+msgstr ""
+
+#: ../../felupe/docs/howto/single-precision.rst:60
+msgid ""
+"they are the undeformed configuration and they are not casted together with "
+"a region, e.g. ``mesh.points`` is reused by other regions"
+msgstr ""
+
+#: ../../felupe/docs/howto/single-precision.rst:62
+msgid "the eigenvalues and eigenvectors of a :class:`~felupe.FreeVibration`"
+msgstr ""
+
+#: ../../felupe/docs/howto/single-precision.rst:63
+msgid ":func:`scipy.sparse.linalg.eigsh` is evaluated in double precision"
+msgstr ""
+
+#: ../../felupe/docs/howto/single-precision.rst:64
+msgid ""
+"the values of a user-defined material or form which returns a higher "
+"precision"
+msgstr ""
+
+#: ../../felupe/docs/howto/single-precision.rst:65
+msgid ""
+"the values of an item are of the common data type of the field values and of"
+" the values of the material"
+msgstr ""
+
+#: ../../felupe/docs/howto/single-precision.rst:68
+msgid ""
+"An item with a higher precision than the unknowns promotes the linear "
+"equation system and its factorization, i.e. a single item which returns "
+"``float64`` is enough. For the same reason, the fields of a mixed-field "
+"formulation with different precisions, e.g. a ``float32`` displacement field"
+" and a ``float64`` pressure field, are assembled in the common precision. "
+"Cast the region, the fields and, if required, the material parameters to "
+"keep the whole system in single precision."
 msgstr ""
 
 #: ../../felupe/docs/howto/solid.rst:2
