@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 19:11+0000\n"
+"POT-Creation-Date: 2026-11-19 00:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1199,68 +1199,73 @@ msgid ""
 " type of its values. A ``float32`` field on a ``float64`` region is "
 "assembled in ``float64``, because the values of an item are of the common "
 "data type of the field values and of the differential volumes ``dV``, which "
-"are evaluated by the region."
+"are evaluated by the region. A casted region keeps its data type: if the "
+"arrays of the region are re-evaluated by :meth:`~felupe.Region.reload`, e.g."
+" by :meth:`~felupe.Region.copy` or by :func:`~felupe.field.merge` for a "
+"model with several bodies, they are casted again."
 msgstr ""
 
-#: ../../felupe/docs/howto/single-precision.rst:36
+#: ../../felupe/docs/howto/single-precision.rst:38
 msgid ""
 "The precision of the assembled system is checked by the data types of the "
 "objective function and of the Jacobian:"
 msgstr ""
 
-#: ../../felupe/docs/howto/single-precision.rst:46
+#: ../../felupe/docs/howto/single-precision.rst:48
 msgid ""
 "The default relative tolerance of :func:`~felupe.newtonraphson` "
 "(``tol=None``) is the square root of the machine epsilon of the lowest "
 "precision of the unknowns and of the linear equation system, i.e. about "
 "``3.5e-4`` for a single-precision model instead of about ``1.5e-8`` for "
-"double precision. The absolute tolerance (``atol=None``) bounds the round-"
-"off errors of the objective function."
+"double precision. The absolute tolerance (``atol=None``) is an estimate of "
+"the round-off errors of the objective function, a few times larger than the "
+"round-off errors, i.e. a single-precision model iterates until its "
+"attainable precision is reached."
 msgstr ""
 
-#: ../../felupe/docs/howto/single-precision.rst:52
+#: ../../felupe/docs/howto/single-precision.rst:56
 msgid "Some results are evaluated in double precision on purpose:"
 msgstr ""
 
-#: ../../felupe/docs/howto/single-precision.rst:57
+#: ../../felupe/docs/howto/single-precision.rst:61
 msgid "Result"
 msgstr ""
 
-#: ../../felupe/docs/howto/single-precision.rst:58
+#: ../../felupe/docs/howto/single-precision.rst:62
 msgid "Reason"
 msgstr ""
 
-#: ../../felupe/docs/howto/single-precision.rst:59
+#: ../../felupe/docs/howto/single-precision.rst:63
 msgid "the points of a mesh"
 msgstr ""
 
-#: ../../felupe/docs/howto/single-precision.rst:60
+#: ../../felupe/docs/howto/single-precision.rst:64
 msgid ""
 "they are the undeformed configuration and they are not casted together with "
 "a region, e.g. ``mesh.points`` is reused by other regions"
 msgstr ""
 
-#: ../../felupe/docs/howto/single-precision.rst:62
+#: ../../felupe/docs/howto/single-precision.rst:66
 msgid "the eigenvalues and eigenvectors of a :class:`~felupe.FreeVibration`"
 msgstr ""
 
-#: ../../felupe/docs/howto/single-precision.rst:63
+#: ../../felupe/docs/howto/single-precision.rst:67
 msgid ":func:`scipy.sparse.linalg.eigsh` is evaluated in double precision"
 msgstr ""
 
-#: ../../felupe/docs/howto/single-precision.rst:64
+#: ../../felupe/docs/howto/single-precision.rst:68
 msgid ""
 "the values of a user-defined material or form which returns a higher "
 "precision"
 msgstr ""
 
-#: ../../felupe/docs/howto/single-precision.rst:65
+#: ../../felupe/docs/howto/single-precision.rst:69
 msgid ""
 "the values of an item are of the common data type of the field values and of"
 " the values of the material"
 msgstr ""
 
-#: ../../felupe/docs/howto/single-precision.rst:68
+#: ../../felupe/docs/howto/single-precision.rst:72
 msgid ""
 "An item with a higher precision than the unknowns promotes the linear "
 "equation system and its factorization, i.e. a single item which returns "

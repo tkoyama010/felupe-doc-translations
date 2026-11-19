@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 19:11+0000\n"
+"POT-Creation-Date: 2026-11-19 00:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1030,8 +1030,18 @@ msgstr ""
 #: of felupe.region._boundary.RegionBoundary:101
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._boundary.RegionBoundary.astype:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.copy:30
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.reload:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region:92
+#: of felupe.region._region.Region:101
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.astype:14
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.copy:30
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.reload:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/solve/_superlu.pydocstring
 #: of felupe.solve._superlu.SuperLUSolver:57
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/thermal/_solidbody_heat_flux.pydocstring
@@ -1727,11 +1737,13 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/quadrature/_triangle.pydocstring
 #: of felupe.quadrature._triangle.Triangle:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._boundary.RegionBoundary:118
+#: of felupe.region._boundary.RegionBoundary:123
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.reload:34
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region:109
+#: of felupe.region._region.Region:118
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region.reload:27
+#: of felupe.region._region.Region.reload:34
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_templates.pydocstring
 #: of felupe.region._templates.RegionBiQuadraticQuad:4
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_templates.pydocstring
@@ -1776,7 +1788,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.NewtonConvergenceError:18
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:321
+#: of felupe.tools._newton.newtonraphson:334
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
 #: of felupe.tools._post.curve:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_post.pydocstring
@@ -23960,10 +23972,10 @@ msgid ""
 "The absolute tolerance of the norm of the objective function on the active "
 "degrees of freedom of the current iteration (default is None). If no "
 "absolute tolerance is given to :func:`~felupe.newtonraphson`, it is the "
-"bound of the round-off errors of the objective function, which is evaluated "
-"by the check of the convergence of each iteration (for the updated "
-"unknowns), see :func:`~felupe.newtonraphson`. Then, it is None in the hooks "
-"``before_newton``, ``before_iteration``, ``before_linear_solve`` and "
+"estimate of the round-off errors of the objective function, which is "
+"evaluated by the check of the convergence of each iteration (for the updated"
+" unknowns), see :func:`~felupe.newtonraphson`. Then, it is None in the hooks"
+" ``before_newton``, ``before_iteration``, ``before_linear_solve`` and "
 "``after_linear_solve`` of the first iteration."
 msgstr ""
 
@@ -28522,8 +28534,10 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._discrete_geometry.DiscreteGeometry.update:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.reload:52
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region.reload:45
+#: of felupe.region._region.Region.reload:52
 msgid ""
 "Update the mesh with given points and cells arrays inplace. Optionally, a "
 "callback is evaluated."
@@ -28564,11 +28578,9 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/_mesh.pydocstring
 #: of felupe.mesh._discrete_geometry.DiscreteGeometry.update:34
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._boundary.RegionBoundary.reload:8
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._region.Region.copy:31
+#: of felupe.region._region.Region.copy:35
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region.copy:31
+#: of felupe.region._region.Region.copy:35
 msgid ":py:obj:`felupe.Region.reload`"
 msgstr ""
 
@@ -30168,10 +30180,24 @@ msgid ""
 "point ``q`` for every cell ``c``."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region:93
+msgid ""
+"The data type of the arrays of the region, which is set by "
+":meth:`~felupe.Region.astype`. The arrays are casted to this data type after"
+" each evaluation by :meth:`~felupe.Region.reload`. Default is None, i.e. the"
+" arrays are not casted."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region:98
+msgid "numpy.dtype or None"
+msgstr ""
+
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._boundary.RegionBoundary:102
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region:93
+#: of felupe.region._region.Region:102
 msgid ""
 "The gradients of the element shape functions w.r.t the undeformed "
 "coordinates are evaluated at all integration points of each cell in the "
@@ -30181,7 +30207,7 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._boundary.RegionBoundary:106
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region:97
+#: of felupe.region._region.Region:106
 msgid ""
 "\\frac{\\partial X_I}{\\partial r_J} &= \\hat{X}_{aI} \\frac{\n"
 "        \\partial h_a}{\\partial r_J\n"
@@ -30202,7 +30228,7 @@ msgstr ""
 "dV &= \\det\\left(\\frac{\\partial X_I}{\\partial r_J}\\right) w"
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region:124
+#: of felupe.region._region.Region:133
 msgid ""
 "The numeric differential volumes are the products of the determinant of the "
 "geometric gradient :math:`\\frac{\\partial X_I}{\\partial r_J}` and the "
@@ -30211,14 +30237,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region:135
+#: of felupe.region._region.Region:144
 msgid ""
 "Cell-volumes may be obtained by cell-wise sums of the differential volumes "
 "located at the quadrature points."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region:141
+#: of felupe.region._region.Region:150
 msgid ""
 "The partial derivative of the first element shape function w.r.t. the "
 "undeformed coordinates evaluated at the second integration point of the last"
@@ -30258,13 +30284,30 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region.astype:15
+msgid ""
+"The data type is stored in the attribute ``dtype`` of the region, i.e. the "
+"region keeps its precision: the arrays are casted to this data type again "
+"after they are re-evaluated by :meth:`~felupe.Region.reload`, e.g. by "
+":meth:`~felupe.Region.copy` or by :func:`~felupe.field.merge`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.astype:20
+msgid ""
+"The arrays of a copy are re-evaluated from the undeformed coordinates and "
+"casted once, also if the region was casted before (e.g. from single back to "
+"double precision)."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.astype:26
 msgid ":py:obj:`felupe.Region.copy`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.copy:1
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region.astype:16
+#: of felupe.region._region.Region.astype:27
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region.copy:1
 msgid "Return a copy of the region and reload it if necessary."
@@ -30272,6 +30315,8 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.copy:3
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.reload:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region.copy:3
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
@@ -30281,6 +30326,8 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.copy:5
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.reload:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region.copy:5
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
@@ -30291,6 +30338,8 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.copy:7
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.reload:7
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region.copy:7
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
@@ -30302,6 +30351,8 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.copy:10
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.reload:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region.copy:10
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
@@ -30315,6 +30366,8 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.copy:15
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.reload:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region.copy:15
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
@@ -30329,6 +30382,8 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._region.Region.copy:21
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.reload:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region.copy:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
@@ -30347,11 +30402,20 @@ msgid "A copy of the reloaded region."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._boundary.RegionBoundary.reload:9
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._region.Region.copy:32
+#: of felupe.region._region.Region.copy:31
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region.copy:32
+#: of felupe.region._region.Region.copy:31
+msgid ""
+"The copy keeps the data type of the region, see "
+":meth:`~felupe.Region.astype`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.copy:36
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.reload:1
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.copy:36
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
 #: of felupe.region._region.Region.reload:1
 msgid "Reload the numeric region inplace."
@@ -30366,16 +30430,31 @@ msgid ""
 "weights."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.reload:28
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region.reload:29
+#: of felupe.region._region.Region.reload:28
+msgid ""
+"The arrays of the region are evaluated from the undeformed coordinates of "
+"the mesh. If the region was casted by :meth:`~felupe.Region.astype`, the "
+"arrays are casted to the data type of the region afterwards, i.e. the region"
+" keeps its precision."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.reload:36
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
+#: of felupe.region._region.Region.reload:36
 msgid ""
 "If the points of a mesh are modified and a region was already created with "
 "the mesh, it is important to re-evaluate (reload) the "
 ":class:`~felupe.Region` inplace."
 msgstr ""
 
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._region.Region.reload:51
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_region.pydocstring
-#: of felupe.region._region.Region.reload:44
+#: of felupe.region._region.Region.reload:51
 msgid ":py:obj:`felupe.Mesh.update`"
 msgstr ""
 
@@ -30435,7 +30514,17 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._boundary.RegionBoundary:133
+#: of felupe.region._boundary.RegionBoundary:117
+msgid ""
+"The area vectors :math:`d\\boldsymbol{A}`, the area measures :math:`dV`, the"
+" unit normal vectors :math:`\\boldsymbol{n}` and the unit tangent vectors "
+":math:`\\boldsymbol{t}` of the cells on the boundary are re-evaluated by "
+":meth:`~felupe.RegionBoundary.reload`, e.g. by "
+":meth:`~felupe.RegionBoundary.copy`."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
+#: of felupe.region._boundary.RegionBoundary:138
 msgid ""
 "The numeric differential area vectors are the products of the cofactors of "
 "the geometric gradient :math:`\\partial X_I / \\partial r_J` and the weights"
@@ -30444,7 +30533,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._boundary.RegionBoundary:145
+#: of felupe.region._boundary.RegionBoundary:150
 msgid ""
 "In a boundary region, the numeric differential volumes are the magnitudes of"
 " the differential area vectors. For a quad mesh, the boundary cell volumes "
@@ -30452,14 +30541,14 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._boundary.RegionBoundary:152
+#: of felupe.region._boundary.RegionBoundary:157
 msgid ""
 "Unit normal vectors are obtained by the ratio of the differential area "
 "vectors and the differential volumes."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._boundary.RegionBoundary:162
+#: of felupe.region._boundary.RegionBoundary:167
 msgid ""
 "The partial derivative of the first element shape function w.r.t. the "
 "undeformed coordinates, evaluated at the second integration point of the "
@@ -30467,26 +30556,26 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._boundary.RegionBoundary:169
+#: of felupe.region._boundary.RegionBoundary:174
 msgid "The faces-cells may be used to create a mesh on the boundary."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._boundary.RegionBoundary:177
+#: of felupe.region._boundary.RegionBoundary:182
 msgid ""
 "A second example shows the standard unit vectors and the area normals, "
 "located at the quadrature points for all edges of a quadrilateral."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._boundary.RegionBoundary:220
+#: of felupe.region._boundary.RegionBoundary:225
 msgid ""
 "A third example shows the standard unit vectors and the area normals, "
 "located at the quadrature points for one face of a hexahedron."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._boundary.RegionBoundary:266
+#: of felupe.region._boundary.RegionBoundary:271
 msgid ""
 "This examples shows how to evaluate the strain on the faces of the boundary "
 "region. A field can't be used to evaluate the strain of a quad-cell in 3D "
@@ -30521,15 +30610,6 @@ msgstr ""
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
 #: of felupe.region._boundary.RegionBoundary.mesh_faces:1
 msgid "Return a Mesh with face-cells on the selected boundary."
-msgstr ""
-
-#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_boundary.pydocstring
-#: of felupe.region._boundary.RegionBoundary.reload:1
-msgid ""
-"Reload the region inplace and re-evaluate the quantities of the cells on the"
-" boundary, i.e. the area vectors :math:`d\\boldsymbol{A}`, the area measures"
-" :math:`dV`, the unit normal vectors :math:`\\boldsymbol{n}` and the unit "
-"tangent vectors :math:`\\boldsymbol{t}`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/region/_templates.pydocstring
@@ -31180,9 +31260,9 @@ msgstr ""
 msgid ""
 "Absolute tolerance value of the norm of the objective function on the active"
 " degrees of freedom, in the units of the objective function, e.g. of forces."
-" If None, it is a bound of the round-off errors of the objective function, "
-"which is evaluated in each iteration, see the notes below. Default is None."
-"  ..  versionadded:: 12.1.0"
+" If None, it is an estimate of the round-off errors of the objective "
+"function, which is evaluated in each iteration, see the notes below. Default"
+" is None.  ..  versionadded:: 12.1.0"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
@@ -31190,8 +31270,9 @@ msgstr ""
 msgid ""
 "Absolute tolerance value of the norm of the objective function on the active"
 " degrees of freedom, in the units of the objective function, e.g. of forces."
-" If None, it is a bound of the round-off errors of the objective function, "
-"which is evaluated in each iteration, see the notes below. Default is None."
+" If None, it is an estimate of the round-off errors of the objective "
+"function, which is evaluated in each iteration, see the notes below. Default"
+" is None."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
@@ -31420,63 +31501,64 @@ msgid ""
 "each other out in a state of equilibrium. Its round-off errors are of the "
 "order of the machine epsilon :math:`\\varepsilon` times the absolute values "
 "of these contributions, which depend on the units and on the stiffness of "
-"the model. If no absolute tolerance is given, it is a bound of the round-off"
-" errors of the objective function on the active degrees of freedom, see Eq. "
-":eq:`newton-atol`, with a safety factor :math:`c=10`. The first product of "
-"the absolute values of the Jacobian of the iteration and of the updated "
-"unknowns, e.g. of the displacements, estimates the round-off errors of the "
-"gradients of the unknowns, e.g. of a rigid body motion. The second product "
-"of the Jacobian and the coordinates :math:`X` of the points of the meshes "
-"relative to their centroids :math:`\\bar{X}` (only for the fields with as "
-"many components as the dimension of their meshes, e.g. for displacements) "
-"are the forces of a deformation gradient of :math:`\\boldsymbol{F} = "
-"\\boldsymbol{1} + \\boldsymbol{1}`, i.e. it estimates the round-off errors "
-"of the deformation gradient :math:`\\boldsymbol{F} = \\boldsymbol{1} + "
-"\\partial \\boldsymbol{u} / \\partial \\boldsymbol{X}`, which is represented"
-" with an absolute precision of :math:`\\varepsilon_K \\boldsymbol{1}`, e.g. "
-"in the undeformed state. Each row of the products has the unit of the "
-"objective function, also for mixed field formulations. The relative "
-"coordinates don't depend on the location of the meshes, also for items which"
-" resist a rigid body translation, e.g. a "
-":class:`~felupe.CartesianConstraint`."
+"the model. If no absolute tolerance is given, it is an estimate of the "
+"round-off errors of the objective function on the active degrees of freedom,"
+" see Eq. :eq:`newton-atol`, without a safety factor (:math:`c=1`). The first"
+" term, the root-sum-square of the products of the Jacobian of the iteration "
+"and the updated unknowns of each row, e.g. of the displacements, estimates "
+"the random round-off errors of the unknowns and of their gradients, e.g. of "
+"a rigid body motion. The second product of the Jacobian and the coordinates "
+":math:`X` of the points of the meshes relative to their centroids "
+":math:`\\bar{X}` (only for the fields with as many components as the "
+"dimension of their meshes, e.g. for displacements) are the forces of a "
+"deformation gradient of :math:`\\boldsymbol{F} = \\boldsymbol{1} + "
+"\\boldsymbol{1}`, i.e. it estimates the round-off errors of the deformation "
+"gradient :math:`\\boldsymbol{F} = \\boldsymbol{1} + \\partial "
+"\\boldsymbol{u} / \\partial \\boldsymbol{X}`, which is represented with an "
+"absolute precision of :math:`\\varepsilon_K \\boldsymbol{1}`, e.g. in the "
+"undeformed state. Each row of the products has the unit of the objective "
+"function, also for mixed field formulations. The relative coordinates don't "
+"depend on the location of the meshes, also for items which resist a rigid "
+"body translation, e.g. a :class:`~felupe.CartesianConstraint`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
 #: of felupe.tools._newton.newtonraphson:207
 msgid ""
 "\\text{atol} = c \\left|\\left| \\left(\n"
-"    \\varepsilon_x\\ |K(x_n)|\\ |x| + \\varepsilon_K\\ |K(x_n)\\ (X - \\bar{X})|\n"
+"    \\varepsilon_x \\sqrt{(K(x_n) \\circ K(x_n))\\ (x \\circ x)}\n"
+"    + \\varepsilon_K\\ |K(x_n)\\ (X - \\bar{X})|\n"
 "    \\right)_1 \\right|\\right|"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:214
+#: of felupe.tools._newton.newtonraphson:215
 msgid ""
 "It is evaluated by the check of the convergence of each iteration and it is "
 "invariant to the units of the model. The machine epsilon "
-":math:`\\varepsilon_x` is the one of the lowest precision of the linear "
-"equation system and of the unknowns and :math:`\\varepsilon_K` is the one of"
-" the precision of the linear equation system, see below. E.g., for fields in"
-" single-precision on a region in double-precision, the deformation gradient "
-"is evaluated in double-precision. For batched Jacobians of local problems at"
-" the quadrature points, e.g. solved by :func:`~felupe.math.solve_2d`, the "
-"absolute tolerance is the upper bound :math:`c\\ \\varepsilon_x\\ "
-"||K(x_n)||\\ ||x||`. A function without a reference norm, i.e. without "
-"prescribed degrees of freedom and without items, is checked by the absolute "
-"tolerance only, e.g. a double root may require a given absolute tolerance. "
-"The norms of the objective function of the iterations, e.g. "
-"``NewtonResult.fnorms``, are relative norms, see Eq. :eq:`newton-fnorm`, "
-"i.e. the iteration has converged if the relative norm is lower than the "
-"relative tolerance."
+":math:`\\varepsilon_x` is the one of the lowest precision of the Jacobian, "
+"of the objective function and of the unknowns and :math:`\\varepsilon_K` is "
+"the one of the lowest precision of the Jacobian and of the objective "
+"function. E.g., for fields in single-precision on a region in double-"
+"precision, the deformation gradient is evaluated in double-precision. For "
+"batched Jacobians of local problems at the quadrature points, e.g. solved by"
+" :func:`~felupe.math.solve_2d`, the absolute tolerance is the upper bound "
+":math:`c\\ \\varepsilon_x\\ ||K(x_n)||\\ ||x||`. A function without a "
+"reference norm, i.e. without prescribed degrees of freedom and without "
+"items, is checked by the absolute tolerance only, e.g. a double root may "
+"require a given absolute tolerance. The norms of the objective function of "
+"the iterations, e.g. ``NewtonResult.fnorms``, are relative norms, see Eq. "
+":eq:`newton-fnorm`, i.e. the iteration has converged if the relative norm is"
+" lower than the relative tolerance."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:230
+#: of felupe.tools._newton.newtonraphson:232
 msgid "\\text{norm}(f) = \\frac{||f_1(x)||}{f_\\text{ref} + \\text{atol} / \\text{tol}}"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:235
+#: of felupe.tools._newton.newtonraphson:237
 msgid ""
 "The reference norm includes the forces between the items and the absolute "
 "tolerance is a bound of the round-off errors of the objective function. "
@@ -31491,7 +31573,21 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:247
+#: of felupe.tools._newton.newtonraphson:249
+msgid ""
+"The first term of the absolute tolerance is the root-sum-square instead of "
+"the sums of the absolute values of the products of the Jacobian and the "
+"unknowns, both machine epsilons are the ones of the lowest instead of the "
+"common precision of the Jacobian and of the objective function and the "
+"safety factor is :math:`c=1` (before, :math:`c=10`). Before, the absolute "
+"tolerance was about 30 to 170 times the round-off errors of the objective "
+"function, i.e. a model in single precision stopped before it converged, and "
+"it was too small for a material with a Jacobian in double precision and an "
+"objective function in single precision, e.g. with plasticity."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
+#: of felupe.tools._newton.newtonraphson:260
 msgid ""
 "The attainable norm of the objective function is limited by the precision of"
 " its data type and by the precision of the unknowns. An increment which is "
@@ -31511,12 +31607,12 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:262
+#: of felupe.tools._newton.newtonraphson:275
 msgid "\\text{tol} = \\sqrt{\\varepsilon}"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:267
+#: of felupe.tools._newton.newtonraphson:280
 msgid ""
 "This is approximately ``1.490e-8`` for double-precision (``float64``) and "
 "``3.453e-4`` for single-precision (``float32``), e.g. of fields cast to "
@@ -31530,7 +31626,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:276
+#: of felupe.tools._newton.newtonraphson:289
 msgid ""
 "Plugins may modify the update of the unknowns in the ``after_linear_solve`` "
 "hook, see :class:`~felupe.tools.IterationState`. E.g., a backtracking line "
@@ -31539,12 +31635,12 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:281
+#: of felupe.tools._newton.newtonraphson:294
 msgid "x = x_n + \\alpha\\ dx"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:286
+#: of felupe.tools._newton.newtonraphson:299
 msgid ""
 "A plugin with the hook ``after_iteration`` replaces the ``callback`` "
 "(removed in 12.0.0), which was called after each completed iteration. The "
@@ -31558,25 +31654,25 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:318
+#: of felupe.tools._newton.newtonraphson:331
 msgid ""
 "The plugin gets the same values as the callback, after each completed "
 "iteration."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:346
+#: of felupe.tools._newton.newtonraphson:359
 msgid "Newton's method had success"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:351
+#: of felupe.tools._newton.newtonraphson:364
 msgid ""
 "and 4 iterations were needed to converge within the specified tolerance."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/tools/_newton.pydocstring
-#: of felupe.tools._newton.newtonraphson:356
+#: of felupe.tools._newton.newtonraphson:369
 msgid ""
 "The norm of the objective function for all active degrees of freedom is "
 "lower than 3e-15."
