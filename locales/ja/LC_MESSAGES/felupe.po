@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FElupe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-19 00:10+0000\n"
+"POT-Creation-Date: 2026-11-27 00:10+0000\n"
 "PO-Revision-Date: 2024-05-25 22:51+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/193143/ja/)\n"
@@ -1568,7 +1568,7 @@ msgstr ""
 #: of felupe.mechanics._solidbody_force.SolidBodyForce:21
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:278
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:282
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
 #: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible.checkpoint:7
@@ -3074,7 +3074,7 @@ msgstr ""
 #: of felupe.mechanics._multipoint._constraint.MultiPointConstraint:267
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:303
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:307
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
 #: of felupe.mesh._tools.extrude:99
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mesh/__init__.pydocstring
@@ -20646,18 +20646,27 @@ msgstr "v = \\int_V J\\ dV"
 msgid ""
 "The terms :math:`\\bar{U}' + \\bar{U}''\\ (\\dots)` in Eq. :eq:`nearlyinc-"
 "final` and Eq. :eq:`nearlyinc-constraint` are the linearizations of "
-":math:`U'(\\bar{J} + \\delta \\bar{J})` and :math:`U'(v/V)`. Instead, their "
-"exact values are used, i.e. the pressure is updated by :math:`p = "
-"U'(\\bar{J})` and the condensed constraint is evaluated by :math:`U'(v/V) - "
-"p`. Both are identical for ``volumetric=\"volume-ratio\"``. Hence, the "
-"assembled vector is the gradient of the total potential energy of internal "
-"forces of the mean dilatation technique, see Eq. :eq:`nearlyinc-mean-"
-"dilatation`, where the sum is taken over the cells."
+":math:`U'(\\bar{J} + \\delta \\bar{J})` and :math:`U'(v/V)`. These "
+"linearizations are used as given, i.e. each evaluation of the deformation "
+"gradient updates the internal fields by Eq. :eq:`nearlyinc-final` (one "
+"Newton-Raphson iteration of the three-field variational principle) and the "
+"condensed constraint is evaluated by Eq. :eq:`nearlyinc-constraint`."
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:270
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:269
+msgid ""
+"For a converged solution, the internal fields are given by :math:`\\bar{J} ="
+" v/V` and :math:`p = U'(\\bar{J})`. Hence, the assembled vector is the "
+"gradient of the total potential energy of internal forces of the mean "
+"dilatation technique, see Eq. :eq:`nearlyinc-mean-dilatation`, where the sum"
+" is taken over the cells."
+msgstr ""
+
+#: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
+#: of
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:274
 msgid ""
 "\\Pi_{int}(\\boldsymbol{u}) = \\int_V \\hat{\\psi}(\\boldsymbol{F})\\ dV +\n"
 "    \\sum V\\ U\\left( \\frac{v}{V} \\right)"
@@ -20665,7 +20674,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:304
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:308
 msgid ""
 "J. Bonet, A. J. Gil, and R. D. Wood, \"Nonlinear Solid Mechanics for Finite "
 "Element Analysis: Statics\". Cambridge University Press, Jun. 05, 2016. doi:"
@@ -20674,7 +20683,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:308
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:312
 msgid ""
 "O. C. Zienkiewicz, R. L. Taylor and J.Z. Zhu, \"The Finite Element Method: "
 "its Basis and Fundamentals\". Elsevier, 2013. doi: 10.1016/c2009-0-24909-9."
@@ -20682,7 +20691,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:311
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:315
 msgid ""
 "G. A. Holzapfel, \"Nonlinear Solid Mechanics. A Continuum Approach for "
 "Engineering\". Wiley, 2000. isbn: 047182304X."
@@ -20690,7 +20699,7 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:314
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:318
 msgid ""
 "J. A. Schönherr, P. Schneider, and C. Mittelstedt, \"Robust hybrid/mixed "
 "finite elements for rubber-like materials under severe compression\", "
@@ -20700,13 +20709,13 @@ msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:321
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:325
 msgid ":py:obj:`felupe.StateNearlyIncompressible`"
 msgstr ""
 
 #: ../../../../../../../opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/felupe/mechanics/_solidbody_incompressible.pydocstring
 #: of
-#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:322
+#: felupe.mechanics._solidbody_incompressible.SolidBodyNearlyIncompressible:326
 msgid ""
 "A State with internal cell-wise constant fields for (nearly) incompressible "
 "solid bodies."
